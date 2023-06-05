@@ -45,13 +45,27 @@ def get_prompt_gen_questions_type_1(reglamento, num_questions = 20):
     """
     return prompt
 
-def get_prompt_gen_answer_type_1(reglamento, list_questions, max_size = 80):
+def get_prompt_gen_answer_type_1(reglamento, list_questions, max_size = 50):
+    format_json = """{"respuestas": ["respuesta para la pregunta 1", "respuesta para la pregunta 2", ...]"""
+
+    prompt = f"""
+    Tu tarea consiste en generar respuestas a una lista de preguntas utilizando un fragmento del reglamento de una facultad universitaria. 
+    Asegúrate de inferir las respuestas basándote en la información proporcionada en el fragmento del reglamento que se muestra a continuación. 
+    Genera las respuestas para la lista de preguntas que se presenta más abajo, utilizando el fragmento del reglamento delimitado por tres comillas invertidas. 
+    Finalmente, muestra las respuestas en siguiente formato JSON:
+    {format_json}
+    Lista de preguntas:
+    {list_questions}
+    Fragmento del Reglamento: ```{reglamento}```
+    """
+    return prompt
+
+def get_prompt_gen_answer_type_1_log(reglamento, list_questions, max_size = 80):
     format_json = """{"respuestas": ["respuesta para la pregunta 1", "respuesta para la pregunta 2", ...]"""
 
     prompt = f"""
     Tu tarea es generar las respuestas a una lista de preguntas a partir de un fragmento del reglamento de una facultad universitaria. 
-    Asegurate de inferir una respuesta adecuada a la pregunta en base a la informacion dentro del fragmento del reglamento debajo.
-    Las respuestas no deben superar las {max_size} palabras.
+    Asegurate de inferir una respuesta coherente a la pregunta en base a la informacion del fragmento del reglamento debajo.
     Genera las respuestas para la lista de preguntas debajo a partir del fragmento del reglamento debajo, delimitado por tres comillas invertidas.
     Muestra las respuestas en el siguiente formato JSON:
     {format_json}
@@ -88,8 +102,9 @@ text = read_fragment_doc(path_file_txt)
 
 questions = load_json("./questions/capituloII_part2_quetions.json")
 
-text_questions = list_json_to_txt(questions[:5])
+text_questions = list_json_to_txt(questions[:10])
 
+print(text_questions)
 prompt = get_prompt_gen_answer_type_1(text, text_questions, max_size = 80)
 
 messages =  [{'role':'user', 'content':prompt}]
@@ -97,7 +112,7 @@ response = get_completion_from_messages(messages, temperature=0)
 print(response)
 resp_json = format_response_json(response)
 answers = resp_json["respuestas"]
-print("\n\n\n",answers)
+print("\n\n\n", list_json_to_txt(answers))
 #save_json("./questions", file_name[:-4] + "_quetions", questions)
 
 
