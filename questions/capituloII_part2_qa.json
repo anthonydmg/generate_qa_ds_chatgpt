@@ -1,0 +1,42 @@
+[
+    {
+        "pregunta": "\u00bfSe puede solicitar la reincorporaci\u00f3n si se tiene una sanci\u00f3n vigente?",
+        "respuesta": "No, la reincorporaci\u00f3n no es procedente si se tiene una sanci\u00f3n vigente."
+    },
+    {
+        "pregunta": "\u00bfLa matr\u00edcula en asignaturas est\u00e1 sujeta a las normas del presente reglamento?",
+        "respuesta": "S\u00ed, la matr\u00edcula en asignaturas solamente procede de acuerdo con el presente reglamento."
+    },
+    {
+        "pregunta": "\u00bfSe puede retirar de todas las asignaturas matriculadas?",
+        "respuesta": "No, el estudiante no se podr\u00e1 retirar de todas las asignaturas matriculadas, por considerarse un retiro total."
+    },
+    {
+        "pregunta": "\u00bfSe puede retirar de las asignaturas del ciclo m\u00e1s bajo o atrasado?",
+        "respuesta": "No, el estudiante no se podr\u00e1 retirar de aquellas asignaturas del ciclo m\u00e1s bajo o atrasado."
+    },
+    {
+        "pregunta": "\u00bfSe puede retirar de las asignaturas prerrequisito?",
+        "respuesta": "No, no es posible el retiro parcial de las asignaturas que son prerrequisito."
+    },
+    {
+        "pregunta": "\u00bfSe puede retirar de las asignaturas desaprobadas por segunda o tercera vez?",
+        "respuesta": "No, no es posible el retiro parcial de las asignaturas desaprobadas por segunda o tercera vez."
+    },
+    {
+        "pregunta": "\u00bfSe puede solicitar el retiro total por motivos de fuerza mayor?",
+        "respuesta": "S\u00ed, el retiro total procede s\u00f3lo por motivos de fuerza mayor."
+    },
+    {
+        "pregunta": "\u00bfSe puede solicitar el retiro total si se ha rendido todas las evaluaciones regulares de alguna asignatura?",
+        "respuesta": "No, no procede un retiro total cuando el estudiante ha rendido todas las evaluaciones regulares de alguna de las asignaturas en la que se encuentra matriculado."
+    },
+    {
+        "pregunta": "\u00bfSe puede solicitar el retiro total si se ha optado por el retiro total en los dos ciclos regulares precedentes?",
+        "respuesta": "No, no procede un retiro total si en los dos ciclos regulares precedentes ha optado por el retiro total."
+    },
+    {
+        "pregunta": "\u00bfSe puede solicitar el retiro total si se tiene alg\u00fan curso desaprobado dos veces o m\u00e1s?",
+        "respuesta": "No, no procede un retiro total si se tiene alg\u00fan curso desaprobado dos veces o m\u00e1s al periodo acad\u00e9mico regular precedente."
+    }
+]

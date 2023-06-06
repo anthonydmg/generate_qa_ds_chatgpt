@@ -1,1 +1,52 @@
 Genera una conversansion en donde un alumno realize las siguientes consultas a un asistente amigle.
+
+Ingenieria de Prompts
+La Ingenieria de Prompts se trata sobre el diseno de instrucciones para realizar los Prompts
+
+Calculo de tokens
+Para el modelo del turbo solo se pueden realizar 4096 tokes por lo que para evitar problemas por que en los promts se detina los siquientes tamos
+
+1500 tokens para el fragmento del documenots
+500 tokens para las instrucciones del promts en su defecto el promts junto con el no superan los 2000 tokens
+
+Para generar los fragmentos se ha tenido en cuentas los siguientes:
+- Respestar los capitulos
+- Que los fragmentos no superen las 2000 tokens
+- En caso un capitulo se divide en dos equivalentes
+
+reglas:
+Para los fragmentos que tengas mas de 500 y menos a 1000 tokens generar 25 preguntas.
+Para los fragmentos que tengan mas de 1000 y menos a 1500 generar 30 preguntas
+Para los fragm,entos que tengan mas de 1500 y menor a 200 generar 40 preguntas.
+
+si tienen mas de 1500 responder de 10 en 10
+si tienen menos de 1500 responder 15 en 15.
+
+solo el prompt no debe superar los 400 tokens
+
+Idea chatgpt
+
+Por favor, genera respuestas a una lista de preguntas utilizando un fragmento del reglamento de una facultad universitaria. Tu objetivo es inferir las respuestas basándote en la información proporcionada en el fragmento del reglamento adjunto.
+
+Asegúrate de que cada respuesta tenga un máximo de {max_size} palabras. Genera las respuestas para la siguiente lista de preguntas utilizando el fragmento del reglamento que se muestra a continuación. Por último, presenta los pares de preguntas y respuestas en formato JSON.
+
+Lista de preguntas:
+{list_questions}
+
+Fragmento del Reglamento:
+
+
+
+## Probar este:
+
+"Tu tarea consiste en generar respuestas a una lista de preguntas utilizando un fragmento del reglamento de una facultad universitaria. Asegúrate de inferir las respuestas basándote en la información proporcionada en el fragmento del reglamento que se muestra debajo.
+
+La respuesta a cada pregunta debe tener un máximo de {max_size} palabras. Genera las respuestas para la lista de preguntas que se presenta a continuación, utilizando el fragmento del reglamento delimitado por tres comillas invertidas.
+
+Finalmente, muestra los pares de preguntas y respuestas en el siguiente formato JSON: {format_json}
+
+Lista de preguntas:
+{list_questions}
+
+Fragmento del Reglamento:
+{reglamento}"
