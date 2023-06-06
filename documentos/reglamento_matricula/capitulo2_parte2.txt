@@ -2,59 +2,47 @@ CAPÍTULO II
 
 CONCEPTOS Y NORMAS DEL PROCESO DE MATRÍCULA
 
-Art. 12° La ORCE, para organizar la matrícula de los estudiantes de una Facultad, deberá contar con los siguientes documentos:
-	- Oficio tramitado por la Facultad ante la ORCE en relación con el cierre del proceso de registro de notas del periodo académico anterior (sin tener pendientes registros de evaluaciones ni atención de solicitudes de reclamo); con no menos de tres días útiles de anticipación al inicio de su matrícula. 
-	-	Las Facultades no deben presentar reclamos pendientes; no se admitirán segundos reclamos.
-	-	El registro extemporáneo de notas, por diversos motivos, no está permitido una vez iniciado el semestre académico siguiente.
-	-	El Calendario de Actividades Académicas de los Estudios de Antegrado aprobado con Resolución Rectoral.
-	-	El plan de estudios vigente de cada Escuela Profesional aprobado con Resolución Rectoral.
-	-	Los planes de estudios no vigentes, con sus respectivas tablas de equivalencias aprobadas con Resolución Rectoral.
-	-	El calendario de matrícula coordinado y acordado con las Comisiones de Matricula de cada Facultad.
+Art. 11° Para el presente reglamento se entiende por: 
 
-	La ORCE, a solicitud de cada Facultad, deberá procesar previamente a la matrícula, las convalidaciones que provienen de los cambios de plan (listados de asignaturas por alumno) y las actas de los procesos de traslado interno y externo, así como de 2da profesión. 
+	a. Reincorporación: es el procedimiento que restablece al estudiante la condición de estudiante activo, quien realizó Retiro total, solicitó Reserva de Matrícula o Licencia, o dejó de matricularse un semestre académico o más, teniendo como plazo límite tres (03) años o seis (06) periodos académicos consecutivos o alternos. En caso de periodos académicos alternos estos no excederán de cinco (05) años contados a partir del primer periodo académico en el que dejó de matricularse. Es procedente si no tiene sanción vigente y no ha superado el plazo máximo de Reserva de
+Matrícula.
 
-Art. 13° Las Facultades son responsables de ingresar en el Sistema Integrado de Gestión Académica-SIGA de ORCE, hasta diez (1O) días hábiles antes de la semana de matrícula, la siguiente información:
-	-	Los horarios de las asignaturas-sección programadas del Período Académico, para su publicación con los docentes correspondientes.
-	-	La relación de los nuevos docentes de la Facultad y sus datos. 
-	-	Subsistemas de Evaluación y otros que se requiera.
-	-	Y con no menos de dos (02) días de anticipación:
-			-	La cantidad de vacantes para las asignaturas-sección previstas.
-			-	Las últimas convalidaciones producto de los procesos de traslado interno, externo y 2da profesión.
+	La reincorporación se presenta según el calendario oficial, a través de la Plataforma SIGA-ORCE.
 
-	Posterior al inicio de clases, si alguna asignatura-sección requiere modificar su horario programado por el docente y con aprobación de los estudiantes matriculados, éste podrá hacerse de manera excepcional con el visto bueno del Director de Departamento Académico y del Director de Escuela Profesional, lo cual será comunicado con un plazo máximo de dos (02) días hábiles a ORCE. 
+	b. Verificación, depuración y ratificación de matrícula: proceso que se realiza en la primera semana de clases; mediante el cual el estudiante, luego de efectuar su matrícula regular, solicita al Director de la Escuela Profesional la autorización para incluir o excluir asignaturas. 
+	La matrícula en asignaturas solamente procede de acuerdo con el presente reglamento y las asignaturas solicitadas no tengan cruce de horario.
+	El estudiante no se podrá retirar de todas las asignaturas matriculadas, por considerarse un retiro total, ni de aquellas del ciclo más bajo o atrasado.
+	La matrícula en las asignaturas en riesgo académico y más atrasadas estarán registradas por defecto ya que su matrícula tiene carácter obligatorio; solo se podrá seleccionar la sección.
+	
+	c. Retiro Parcial: es la prerrogativa de eliminar la matrícula de hasta tres (03) asignaturas, dentro del plazo que vence el último día útil de la quinta semana después del inicio de clases del período académico.
+No es posible el retiro parcial de las asignaturas matriculadas en el ciclo más bajo, ni de las desaprobadas por segunda o tercera vez, ni de las que son prerrequisito (en caso se encuentre matriculado en una asignatura y su prerrequisito). 
 
-Art. 14°	El proceso de matrícula se realizará a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE, en las fechas establecidas en el Calendario de Actividades de los Estudios de Antegrado de la UNI.
+	d. Retiro Total: es el procedimiento mediante el cual el estudiante solicita a su Decano, la anulación total de su matrícula. Procede sólo por motivos de fuerza mayor y se podrá presentar hasta el último día útil de la penúltima semana de clases.
+	No procede un retiro Total cuando el estudiante ha rendido todas las evaluaciones regulares de alguna de las asignaturas en la que se encuentra matriculado o si en los dos ciclos regulares precedentes ha optado por el retiro total o si tiene algún curso desaprobado dos veces o más al periodo académico regular precedente. 
 
-Art. 15° Las Facultades, asimismo, son responsables de actualizar oportunamente los datos que requiera el SIGA-ORCE. En base a ello, la ORCE proporcionará la información académica administrativa para los fines correspondientes. 
-	En el caso de los Planes de Estudios (nuevas asignaturas, créditos y horas, cambio de
-prerrequisitos o cambio de sistemas de evaluación), presentar la Resolución Rectoral de
-aprobación del nuevo Plan, con no menos de 45 días calendario de anticipación a la
-semana de matrícula.
+	Los estudiantes que soliciten el retiro total deberán adjuntar la debida documentación que sustente los motivos por  los cuales solita dicha medida.
 
-Art. 16° De la Convalidación de Asignaturas y su aplicación.
-La Convalidación de Asignatura es el acto académico y administrativo mediante el cual la UNI a través de la Escuela Profesional correspondiente, aplica un sistema de equivalencia y reconoce como válidas las asignaturas de contenido similar y número de créditos igual o similar al de otro Plan de Estudios con respecto a uno vigente en la Escuela Profesional.
-Para que proceda, los respectivos sílabos de las asignaturas a convalidar deberán coincidir al menos en un 75% de su contenido y de horas dictadas. Las asignaturas para convalidar deben tener igual número de créditos o diferir como máximo en uno (01 ). Por excepción, la convalidación de una asignatura con mayor profundidad en el contenido quedará a la consideración del secretario académico de la facultad.
+	e. Retiro Reglamentario: Es el procedimiento de oficio ejecutado por ORCE que elimina la matrícula del estudiante, por contravenir al presente reglamento.
+Pudiendo ser: por eliminación de la asignatura-sección, por registro convalidatorio tardío que hace innecesaria una matrícula obligatoria, por no haber aprobado prerrequisito, o por activación irregular del código de alumno separado temporalmente o retirado definitivamente, etc.
 
-El estudiante tiene derecho a solicitar la convalidación de ~signaturas en los siguientes
-casos:
-	a. Traslado Interno: Procedimiento mediante el cual el ingresante de una Escuela Profesional de la UNI pasa a otra especialidad de su Facultad o de otra, cumpliendo los requisitos académicos y administrativos exigidos.
-	b. Traslado Externo Nacional o Internacional: Procedimiento mediante el cual un estudiante proveniente de una universidad nacional o extranjera es admitido para continuar estudios en alguna de las especialidades que ofrece la UNI, cumpliendo los requisitos académicos y administrativos exigidos. Su admisión le otorga derecho a convalidar las asignaturas del plan de estudios vigente de la Escuela Profesional al cual ha sido admitido.
-	c. Convenio Internacional: procedimiento mediante el cual los hijos o cónyuges de diplomáticos nacionales o extranjeros, transferidos o cambiados de una sede diplomática, que hayan iniciado sus estudios en el extranjero y desean continuarlos en alguna de las especialidades que ofrece la UNI, son admitidos por traslado en esta modalidad. 
-	d. Graduados y Titulados (para segunda profesión): procedimiento mediante el cual el graduado o titulado proveniente de una universidad nacional o extranjera, es admitido para seguir una de las especialidades que ofrece la UNI, y tendrá derecho a convalidar las asignaturas de su plan de estudios con la vigente de la Escuela Profesional a la cual fue admitido.
-	e. Para los casos de Traslado Externo y Convenio Internacional: los certificados y sílabos de las asignaturas a convalidar que están redactados en idiomas diferentes al español, deberán ir acompañados de la traducción oficial.
-	Para todos los casos los sílabos de las asignaturas a convalidar en la especialidad de destino deberán corresponder o ser equivalentes a las cursadas por el admitido, los cuales deberán estar refrendados por la autoridad académica de la Facultad o universidad de origen. 
+	f. Retiro Definitivo: es el procedimiento voluntario o de oficio mediante el cual un estudiante es desvinculado de manera definitiva de la UNI. Procede a solicitud del estudiante ante su Decano o por mandato de Resolución Decana! o Rectoral, motivada por falta disciplinaria muy grave, por Exceso de Licencia o por Bajo Rendimiento Académico, conforme a ley y los reglamentos de la UNI. 
 
-Art. 17° El plazo para que las Escuelas Profesionales efectúen los procesos de asignación de
-	Plan de Estudios y convalidación será de hasta cinco (05) días útiles computados desde:
-			-	En el caso de Traslado Interno, desde la aprobación del Consejo de Facultad o autorización del Decano (con cargo a dar siguiente cuenta al Consejo), previos al Examen de Admisión.
-			-	En el caso de Reincorporación, desde la recepción del expediente.
-			-	En el caso de Traslados Externos, Segunda Profesión y por convenio nacional o internacional, la Oficina Central de Admisión (OCAD), bajo responsabilidad, deberá entregar a las Facultades; con copia a ORCE (para la generación de códigos), los expedientes de estos ingresantes, a más tardar en cinco (05) días hábiles de concluido el examen de admisión respectivo. La facultad dispondrá de cinco (05) días útiles más, para las convalidaciones; para lo cual disponen de los respectivos formatos en la plataforma SIGA-ORCE.
-	La ORCE deberá procesar las convalidaciones realizadas por las Facultades en un plazo máximo de cinco (05) días útiles computados desde su recepción.
-	Para los Traslados Internos del segundo semestre de cada año, no se consideran las asignaturas cursadas en el semestre inmediato anterior, pues la presentación del trámite es antes del cierre del ciclo. Si las hubiese, el estudiante solicitará su convalidación posterior a la Verificación de Matrícula y las matrículas adicionales, si fuere el caso. En segundo semestre, no se admite rezago en los Traslados.
+	g. Reserva de Matrícula: es la situación a la que pasa aquel estudiante que ha decidido dejar de estudiar por uno o más periodos académicos (suspensión voluntaria). Ejerce así su derecho de postergar su matrícula. ORCE, al cierre de la Matrícula, la registra de oficio para aquellos estudiantes que no se matricularon. La reserva de matrícula suspende la permanencia y evita la pérdida de su condición de estudiante de la UNI. El período de reserva de matrícula no excederá a los tres (03) años (o seis semestres) académicos consecutivos o alternos (equivalente a 06
+periodos académicos). En caso de periodos alternos, el plazo será contabilizado dentro de un lapso que no excederá de cinco (05) años (10 semestres), contados a partir de la primera reserva de matrícula o hacia atrás, desde el momento en que solicita Reincorporación. 
 
-Art. 18° El estudiante con asignaturas obligatorias desaprobadas por segunda vez, deberá matricularse obligatoriamente en dichas asignaturas en el período siguiente en que se dicten, las cuales tendrán prioridad sobre las asignaturas de primera matrícula, respetándose en todos los casos el sistema de requisitos.
-El estudiante que retorna de su suspensión por contar con asignaturas obligatorias desaprobadas por tercera vez, sólo podrá matricularse en máximo 2 de ellas. 
+	h. Cambio de Plan de Estudios. A cada estudiante, la Escuela le asigna un Plan de Estudios desde su ingreso, el mismo que puede ser actualizado por el Consejo de Facultad y el Consejo Universitario. No es reversible esta actualización; salvo que no se haya producido matrícula en código exclusivo del nuevo Plan. Cada actualización implica la asimilación de lo cursado y la obligación de cursar (o exoneración) de alguna asignatura perteneciente a ciclos anteriores; según la norma de adaptación propia del nuevo Plan. Estas decisiones del Director de Escuela se registran en el historial de cada alumno y éste debe verificar la idoneidad del registro, antes de la siguiente matrícula.
 
-Art. 19°	El estudiante que tenga asignaturas electivas desaprobadas dos veces podrá solicitar exoneración de estas. El estudiante que retorna de su suspensión por contar con asignaturas electivas desaprobadas por tres veces, u obligatoria que por cambio de Plan de Estudios han pasado a electiva, también podrá solicitar exoneración de las mismas.
+	i. Tutoría Obligatoria: es la orientación y el acompañamiento en su desarrollo académico a los estudiantes en riesgo académico. Es un requisito para la matrícula de los estudiantes con asignaturas con 2 ó 3 desaprobaciones. Al culminar el semestre el tutor eleva un informe sobre la tutoría y desarrollo académico del estudiante en riesgo académico. 
 
-	Las solicitudes de exoneración deben realizarse en las fechas de reincorporación, fuera de ese plazo no se procesarán las solicitudes. 
+	j. Oferta de Matrícula: Formato con el listado de asignaturas que cada alumnom encontrará en pantalla, para seleccionar su matrícula. Aplica los prerrequisitos y la dispersión de hasta tres ciclos. Destaca las asignaturas para matrícula obligatoria.
+
+	k. Reporte de Matrícula: es el documento que muestra las asignaturas matriculadas en el período académico vigente, y deberá ser visado por la Oficina de Estadística de la Facultad.
+
+	l. Boleta de Matrícula: es el documento que muestra las asignaturas registradas en la ORCE, luego del Cierre de Matrícula, para el período académico vigente.
+Requiere del visado por la Oficina de Estadística de la Facultad.
+
+	m. Turno de Matrícula: es el lapso de apertura digital publicado en el portal web del Sistema de Matrícula UNI y deberá establecer la fecha y horario en que el estudiante realizará su matrícula. Los turnos se organizan según el promedio ponderado de los dos últimos semestres académicos en el que un estudiante presenta matricula regular.
+
+	n. Grupo Cero de matrícula: Es el listado que contiene las matrículas de quienes retornan de Separación Temporal por Bajo Rendimiento Académico y de los alumnos en Riesgo Académico por asignaturas repetidas dos veces. La Comisión de Matrícula cierra el listado producido por la Tutoría, el día anterior a la matricula y lo remite a la ORCE para su registro previo, con mínimo tres horas antes del inicio del primer turno de matrícula.
+
+	o. Asignatura paralela: Este concepto surge durante los procesos de implementación de nuevos planes de estudio. Es la asignatura similar o equivalente del anterior Plan de Estudios que con nuevo código se dicta en el plan vigente. Según la disponibilidad de vacantes o docentes, puede darse con acta paralela en sección única o en sección especial (con docente u horario diferente). La ORCE la instala a pedido expreso de la Facultad, para estudiantes que están por culminar y que conservan el Plan anterior.

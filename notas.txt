@@ -15,12 +15,13 @@ Para generar los fragmentos se ha tenido en cuentas los siguientes:
 - En caso un capitulo se divide en dos equivalentes
 
 reglas:
-Para los fragmentos que tengas mas de 500 y menos a 1000 tokens generar 25 preguntas.
+Para los fragmentos que tengas mas de 500 y menos a 1000 tokens generar 20 preguntas.
 Para los fragmentos que tengan mas de 1000 y menos a 1500 generar 30 preguntas
 Para los fragm,entos que tengan mas de 1500 y menor a 200 generar 40 preguntas.
 
 si tienen mas de 1500 responder de 10 en 10
 si tienen menos de 1500 responder 15 en 15.
+si tienen menos de 1000 responder 20
 
 solo el prompt no debe superar los 400 tokens
 
