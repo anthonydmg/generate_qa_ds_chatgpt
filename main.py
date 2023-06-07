@@ -27,17 +27,7 @@ def get_completion_from_messages(messages, model="gpt-3.5-turbo-0301", temperatu
 
 def get_prompt_gen_questions(text, question_type, num_questions):
     if question_type == QuestionType.YES_OR_NOT_ANSWER:
-        format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
-        
-        prompt = f"""
-        Tu tarea es generar al menos {num_questions} preguntas que se puedan responder con un Sí ó No a partir de un fragmento del reglamento de una facultad universitaria. 
-        Asegúrate que las preguntas se pueda responder directamente con un Sí ó No en base a la informacion del fragmento del reglamento.
-        Las preguntas no deben superar las 25 palabras.
-        Genera las preguntas para el reglamento de debajo, delimitado por tres comillas invertidas.
-        Muestra las preguntas en el siguiente formato JSON:
-        {format_json}
-        Fragmento del Reglamento: ```{text}```
-        """
+        prompt = get_prompt_gen_yes_or_not_questions(text, num_questions)
         return prompt
     elif question_type == QuestionType.FACTOID:
         format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
@@ -61,7 +51,7 @@ def generate_questions(text, question_type, num_questions = 30):
     questions = resp_json["preguntas"]
     return questions
 
-def get_prompt_gen_questions_type_1(reglamento, num_questions = 20):
+def get_prompt_gen_yes_or_not_questions(reglamento, num_questions = 20):
     format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
     
     prompt = f"""
@@ -138,12 +128,11 @@ for file_text in glob.glob("./documentos/reglamento_matricula/*.txt"):
     else:
         num_questions = 40
 
-    #questions = generate_questions(text, QuestionType.YES_OR_NOT_ANSWER, num_questions = num_questions)
+    questions = generate_questions(text, QuestionType.YES_OR_NOT_ANSWER, num_questions = num_questions)
     file_questions = file_text.split("/")[-1][:-4] + "_yes_not_questions"
     print(file_questions)
-    #save_json("./questions/yes_not_answer/", file_questions, questions)
+    save_json("./questions/yes_not_answer/", file_questions, questions)
     break
-    
 
 #print(file_list)
 
