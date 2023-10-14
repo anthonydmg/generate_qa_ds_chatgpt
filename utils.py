@@ -37,7 +37,7 @@ def set_openai_key():
     API_KEY = os.getenv("API_KEY")
     openai.api_key = API_KEY
 
-def get_completion_from_messages(messages, model="gpt-3.5-turbo-0301", temperature=0):
+def get_completion_from_messages(messages, model="gpt-3.5-turbo-0613", temperature=0):
     response = openai.ChatCompletion.create(
         model=model,
         messages=messages,

@@ -18,7 +18,7 @@ def set_openai_key():
     API_KEY = os.getenv("API_KEY")
     openai.api_key = API_KEY
 
-def get_completion_from_messages(messages, model="gpt-3.5-turbo-0301", temperature=0):
+def get_completion_from_messages(messages, model="gpt-3.5-turbo-0613", temperature=0):
     response = openai.ChatCompletion.create(
         model=model,
         messages=messages,
@@ -97,6 +97,29 @@ class QuestionGenerator:
         self.dir_documents = dir_documents
         self.questions_types = questions_types
     
+    def get_num_questions(self, question_type, num_tokens):
+        if question_type == QuestionType.YES_OR_NOT_ANSWER:
+            if num_tokens < 500:
+                num_questions = 10
+            elif num_tokens < 1000:
+                num_questions = 20
+            elif num_tokens < 1500:
+                num_questions = 30
+            else:
+                num_questions = 40
+
+        elif question_type == QuestionType.FACTOID:
+            if num_tokens < 500:
+                num_questions = 10
+            elif num_tokens < 1000:
+                num_questions = 25
+            elif num_tokens < 1500:
+                num_questions = 35
+            else:
+                num_questions = 45
+
+        return num_questions
+
     def run(self):
         questions_generated = []
         #for file_text in tqdm(glob.glob(f"{self.dir_documents}/*.txt"), desc= "Generando Preguntas"):
@@ -104,18 +127,14 @@ class QuestionGenerator:
         documents.sort()
         print("Inicia Generación de preguntas...")
         #return
-        for file_text in tqdm(documents, desc= "Documentos"):
+        for file_text in tqdm(documents[0:1], desc= "Documentos"):
             text = read_fragment_doc(file_text)
             num_tokens = count_tokens(encoding ,text)
-            if num_tokens < 1000:
-                num_questions = 20
-            elif num_tokens < 1500:
-                num_questions = 30
-            else:
-                num_questions = 40
+ 
             try:    
                 ## Generar preguntas con respuesta de si o no
                 for qt in self.questions_types:
+                    num_questions = self.get_num_questions(qt, num_tokens)
                     questions = self.generate_questions(text, qt, num_questions = num_questions)
                     questions_generated.append({"document": file_text, "type":  QuestionType(qt).name.lower(), "questions": questions})
                     time.sleep(5)
@@ -136,16 +155,6 @@ class QuestionGenerator:
         questions = resp_json["preguntas"]
         return questions
 
-#text = read_fragment_doc("documentos/reglamento_matricula/capitulo2_parte2.txt")
-
-#prompt = get_prompt_gen_factoid_questions(text, num_questions = 40)
-#print("prompt: ", prompt)
-#messages =  [{'role':'user', 'content':prompt}]
-#response = get_completion_from_messages(messages, temperature=0)
-#resp_json = format_response_json(response)
-#questions = resp_json["preguntas"] 
-#print("questions: ",questions)
-#print("questions: ",len(questions))
 if __name__ == "__main__":
     questions_generator = QuestionGenerator(dir_documents = "./documentos/reglamento_matricula", 
                                         questions_types = [QuestionType.YES_OR_NOT_ANSWER, QuestionType.FACTOID])

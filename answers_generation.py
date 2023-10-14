@@ -94,7 +94,25 @@ def get_prompt_gen_answers_to_yes_or_not(reglamento, list_questions, max_size = 
     format_json = """[{"pregunta": "pregunta 1", "respuesta" "respuesta para la pregunta 1"},...]"""
 
     prompt = f"""
-    Tu tarea consiste en generar respuestas a una lista de preguntas utilizando un fragmento del reglamento de una facultad universitaria. 
+    Imagina que eres un asistente virtual especializado en brindar información sobre la Facultad de Ciencias, incluyendo reglamentos, procedimientos, tramites académicos y cualquier información general relacionada.
+    Proporciona las respuestas a una lista de preguntas utilizando la información de un fragmento del reglamento mas abajo.
+    Asegúrate de ser elocuente y explicado al proporcionar la respuesta.
+    Utiliza la información proporcionada por el fragmento del reglamento delimitado por tres comillas invertidas para inferir las respuestas a la lista de preguntas que se presenta más abajo.
+    Asegúrate de que las respuestas no excedan {max_size} palabras.
+    Finalmente, proporciona los pares de preguntas y respuestas solo en formato JSON, utilizando el siguiente formato:
+    {format_json}
+    Lista de preguntas:
+    {list_questions}
+    Fragmento del Reglamento: ```{reglamento}```
+    """
+    return prompt
+
+## Funciona bien pero no se expresa elocuentemente
+def get_prompt_gen_answers_to_yes_or_not_pred(reglamento, list_questions, max_size = 50):
+    format_json = """[{"pregunta": "pregunta 1", "respuesta" "respuesta para la pregunta 1"},...]"""
+
+    prompt = f"""
+    Tu tarea consiste en generar respuestas a una lista de preguntas utilizando la información de un fragmento del reglamento de una facultad universitaria. 
     Utiliza la información proporcionada por el fragmento del reglamento delimitado por tres comillas invertidas para inferir las respuestas a la lista de preguntas que se presenta más abajo.
     Asegúrate de que las respuestas no excedan {max_size} palabras.
     Finalmente, proporciona los pares de preguntas y respuestas solo en formato JSON, utilizando el siguiente formato:

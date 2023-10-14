@@ -1,0 +1,14 @@
+from utils import read_fragment_doc, save_json, format_response_json
+import json
+a = """
+{"resumen": "El reglamento de matrícula de la Facultad de Ciencias establece los requisitos para la matrícula, que incluyen cumplir con los requisitos académicos, realizar el pago por concepto de Autoseguro Médico y no tener adeudos con la Facultad. Los estudiantes que tengan deudas económicas podrán solicitar facilidades de pago a la Comisión de Matrícula. Además, se requiere presentar constancia o resolución de convalidación de asignaturas en caso de traslados internos, externos, graduados, titulados o convenios internacionales. El pago del carné universitario no es requisito para la matrícula. La matrícula regular se realiza vía internet a través del Sistema de Matrícula UNI. En casos especiales, se permite que un apoderado realice la matrícula. La matrícula en asignaturas está sujeta a requisitos como haber aprobado los prerrequisitos, no tener cruces de horarios y no haber desaprobado la misma asignatura por cuarta vez. Los estudiantes en riesgo académico reciben tutoría específica y pueden realizar una matrícula anticipada en asignaturas de menor demanda. Los estudiantes que hayan completado su Plan de Estudios o sean considerados "Currículo Completo" pueden inscribirse como estudiantes libres en asignaturas adicionales."}"""
+
+print(a.strip())
+
+b = {'resumen': 'El reglamento de matrícula de la Facultad de Ciencias establece los requisitos para la matrícula, que incluyen cumplir con los requisitos académicos, realizar el pago por concepto de Autoseguro Médico y no tener adeudos con la Facultad. Los estudiantes que tengan deudas económicas podrán solicitar facilidades de pago a la Comisión de Matrícula. Además, se requiere presentar constancia o resolución de convalidación de asignaturas en caso de traslados internos, externos, graduados, titulados o convenios internacionales. El pago del carné universitario no es requisito para la matrícula. La matrícula regular se realiza vía internet a través del Sistema de Matrícula UNI. En casos especiales, se permite que un apoderado realice la matrícula. La matrícula en asignaturas está sujeta a requisitos como haber aprobado los prerrequisitos, no tener cruces de horarios y no haber desaprobado la misma asignatura por cuarta vez. Los estudiantes en riesgo académico reciben tutoría específica y pueden realizar una matrícula anticipada en asignaturas de menor demanda. Los estudiantes que hayan completado su Plan de Estudios o sean considerados "Currículo Completo" pueden inscribirse como estudiantes libres en asignaturas adicionales.'}
+
+#resp_json = json.loads(a.strip())
+
+print(str(b))
+
+resp_json = json.loads(str(b).strip())
