@@ -105,8 +105,8 @@ Requiere del visado por la Oficina de Estadística de la Facultad.
             - Que es la reincorporación?
             - Cual es el plazo limite para la reincorporacion de un estudiante?
             - Si un estudiante reservo su matrícula hace mas de tres (03) años puede realizar la Reincorporación ?
-            - Que es un retiro parcial?
-            - Que es un retiro total?
+            - ¿Que es un retiro parcial?
+            - ¿Que es un retiro total?
             - Hasta cuantas asignaturas pueden eliminarse con un retiro parcial?
             - Hasta cuando se puede eliminar la matrícula de asignaturas conocido como Retiro Parcial?
             - Es posible el retiro parcial de las asignaturas  matriculadas en el ciclo más bajo?
@@ -116,5 +116,5 @@ Requiere del visado por la Oficina de Estadística de la Facultad.
             - Se puede solicitar la reincorporaci\u00f3n ha superado el plazo máximo de Reserva de
 Matrícula?  
     
-    """
+    """,
 }]

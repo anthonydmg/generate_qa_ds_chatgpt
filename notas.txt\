@@ -1,0 +1,83 @@
+genera como maximo 20 preguntas de si o no que encuentres en texto.
+
+
+Ultima Iteracion:
+
+- Ajustar un modelo de lenguaje para generar texto mejor para responder preguntas.
+- Las preguntas iniciales tambien sirven para ajustar como responder
+- Buscar como validar que las respuestas que lo haga bien
+
+* Ajustar un modelo de lenguaje para generar texto mejor para responder pregunta
+- Probar un metodo de asimilacion de imformacion para generacion de texto el uso de guardado de datos con id como si fueran bases de datos.
+- Estas preguntas pueden ser:
+
+
+- Hacer esta comparativa como un articulo de NLP
+
+- Me puedes explicar que dice el texto  
+
+Idea para hacerlo es generar por bloques el texto del capitulo del reglameto de matricula.
+
+Instruccion: Eres un asistente de un departamento academico. Genera el texto del bloque {} correpondiente a la primerta parte del capitulo 1 del {}.
+
+# Genera un resumen del primer capitulo del reglamento de matricula.
+
+# Dame 10 preguntas que pueden ser resultas basado en el reglamenta de matricula.
+# Reponde estas preguntas.
+
+## Primer paso hacer el codigo para entrener una modelo de lenguage pequeno en responder la preguntas generadas de los documentos de matricula.
+
+## Usar bactrian x para entrenar otro modelo en instrucciones. Avanze:
+	- https://colab.research.google.com/drive/1hsTw7zGAaSGhc_ebl8pmfZBOKpZNfffq?hl=es#scrollTo=2kT8NiYkA3Wi
+
+
+## Evaluar que tal lo hace. Probar lo del alucinaciones y que se mantenga en un contexto.
+## Agregar las preguntas iniciales de los datos iniciales y ver que pasa.
+
+## En el paper podria probar de hacerlo mas contextual como una ai assitante con el dataset OpenAssistant
+-- Avance: https://colab.research.google.com/drive/1_ASYXtwGwwewwoty-zrlgZiN-0vwPqNz?hl=es#scrollTo=QzRaPXg0iGb2
+
+
+### Primer paso hacer el codigo para entrener una modelo de lenguage pequeno en responder la preguntas generadas de los documentos de matricula.
+-- Pasos:
+- Hacer un codigo tomando como referencia los del curso de Finetuning Large Language Models, para procesar y entrenar un modelo. Ok. Avance: https://colab.research.google.com/drive/1-Tek3ggrFxY6UMRR2l_5p_niy7dNtzFr?hl=es#scrollTo=ZUW-z12-lGzC&uniqifier=17
+- Generar data de preguntas final
+- Implemenatar la metodologias que tengo en mente evaluar solo probando luego buscar una manera de mejorar la evaluacion
+
+Hacer una evalaucion ROBUSTA de como funcionar el modelo:
+Provamos los mispeling.
+Para fraseando las preguntas que tenemos.
+Entener como evaluar con el video del curso corto.
+
+Usar el formato de alpaca para la insturcciones: https://github.com/tatsu-lab/stanford_alpaca#data-release
+este el proomt para la instruccion: Responde a la pregunta basado en la informacion del reglamento de Matricula de
+
+
+
+Nota para el informe de por que instructing en propuesto:
+Uno de los principales problemas de los LLM es la falta de coincidencia entre el objetivo de la capacitación y el objetivo de los usuarios: los LLM generalmente están capacitados para minimizar el error de predicción de palabras contextuales en grandes corpus; mientras que los usuarios quieren que el modelo "siga sus instrucciones de manera útil y segura" (Radford et al., 2019; Brown et al., 2020a; Fedus et al., 2021; Rae et al., 2021; Thoppilan et al., 2022) Para abordar este desajuste, se propone el ajuste de instrucciones (TI), que sirve como una técnica eficaz para mejorar las capacidades y la controlabilidad de modelos de lenguaje grandes.
+
+Por esto motivo se propone un ejemplo de ajuste de instruccion en el dominio de responder sobre pregunta e informacion de esto.
+
+Lo del la evalaucion con gpt4 verlo para una forma de evaluar las preguntas: https://arxiv.org/pdf/2305.15011.pdf
+
+Por ejemplo eres un asisten de que revisa las resultas a estas da una justificaion y en score algo asi.
+
+ merge_and_unload() 
+
+
+
+
+## Revisar de aca esta idea de genera dialogo pasando como referencia los conocimientos
+
+
+
+ “Can we try dialogue generation?
+I will give you turns, and you can
+generate the next turn, but only one.\n
+\n You can also consider the knowledge of
+XXX for your reference in the dialogue.”
+
+
+## Seguir revisanda los modelos de evaluacion de esto: A Survey on Evaluation of Large Language Models
+
