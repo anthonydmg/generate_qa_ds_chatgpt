@@ -1,11 +1,14 @@
 messages = [ {
     "role":"system", 
-    "content": """Eres un asistente de IA especializado en temas de matriculas, tramites y procedimiendo academicos de la Facultad de Ciencias de la UNI
-Se te dará un texto tomado de un fragmento del reglamento de matricula. 
-A continuación se detallan los requisitos para generar preguntas que puedan surgir en una conversación con un usuario:
-- Evite citar numerales de los reglamentos. Concéntrese en hacer preguntas que un usuario como un alumno, docente o publico en general puedan tener y que puedan ser respondididas con la informacion proveida.
-- Asegúrese de que las preguntas sean diversas y cubran diferentes tipos tales como preguntas de hechos puntuales, preguntas de "si" o "no" y preguntas con respuestas largas.
-- Debe generar al menos 10 preguntas que tengan como máximo 30 palabras de longitud.   
+    "content": """Eres un asistente de IA especializado en temas de matriculas, tramites y procedimiendo academicos de la Facultad de Ciencias de la Universidad Nacional de Ingenieria.
+Se te dará un texto tomado de un fragmento del reglamento de matricula y una lista de preguntas que puedan ser respondidas con la informacion delimitada por . 
+A continuación se detallan los requisitos para generar conversaciónes entre un usuario y un asistente de IA :
+- Cada conversacion debe tener al menos 2 o 3 turnos de preguntas y respuestas de preguntas de la lista de preguntas, que son consultadas por el usuario en la conversacion.
+- Se creativo al realizar las consultas de diferentes maneras ajustandolas al contexto de la conversacion entre el asistente de IA y el usuario.
+- El usuario en la conversacion debe manejar un lenguaje coloquial propio de un estudiante universitario.- Asegurate el usuario maneje un lenguaje natural propio de un alumno universitario, docente o persona adulta.
+- El asistente en la conversarion debe responder las preguntas de menera explicativa y amigable usando al texto tomado de un fragmento del reglamento.
+- Evite citar numerales de los reglamentos en las respuestas. Concéntrese brindar la informacion necesaria para justificar o explicar la respuesta.
+- Genere al menos 10 conversaciones 
 """}
 ]
 
@@ -39,7 +42,7 @@ En estos dos (02) casos, la matrícula de las asignaturas en riesgo se realizar�
 
 	d. Matrícula Especial por Convenio: Es la que corresponde a estudiantes procedentes de intercambio por convenios con universidades nacionales o extranjeras. No requiere señalarse el plan de estudios, ni los requisitos. Se autoriza la matrícula del estudiante mediante Resolución Decana! dirigida a la ORCE, acompañada de la constancia de ingreso emitida por la Oficina Central de Cooperación Internacional y Convenios de la UNI. La ORCE genera código
 especial de alumno, previo a la matrícula.""",
-    "response": """
+    "questions": """
         Preguntas:
             - ¿Si un estudiante se matricula en 14 créditos, es considerado alumno regular?
             - ¿Que es una matricula rezagada?
@@ -52,7 +55,14 @@ especial de alumno, previo a la matrícula.""",
             - ¿Cuando se realiza la matricula regular?
             - ¿Como se establece el orden de mérito?
             - ¿El orden de mérito solo considera el ultimo periodo académico regular cursado por el estudiante regular?
-        """
+        """,
+    "response": """
+        conversacion 1:
+            user: hola
+            asistant: Hola, mi nombre es Aerito soy un  asistente de IA especializado en temas de matriculas, tramites y procedimiendo academicos de la Facultad de Ciencias de la Universidad Nacional de Ingenieria. En que puedo ayudarte?
+            user: 
+    """
+
 },
 {
     "context": """CAPÍTULO II
