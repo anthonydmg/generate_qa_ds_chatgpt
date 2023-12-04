@@ -41,25 +41,93 @@ def get_prompt_gen_questions(text, question_type, num_questions):
 
 
 
+def get_prompt_gen_yes_or_not_questions_v3(reglamento, num_questions = 20):
+    format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
+    
+    prompt = f"""
+    Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. 
+    Se te proporcionará un fragmento de texto con información sobre reglamentos y/o procedimientos académicos, delimitado por tres comillas invertidas.
+    Genera al menos {num_questions} preguntas que cumplan con los siguientes criterios:
+    - Respuestas directas de 'Sí' o 'No'.
+    - No cite numerales de artículos en las preguntas.
+    - No hables directamente del presente reglamento en las preguntas.
+    - Enfócate en preguntas relevantes para alumnos, docentes o el público en general.
+    - Asegúrese de que las preguntas puedan ser respondidas con un 'Sí' o 'No' basándose en la información proporcionada.
+
+    Detecta y excluye de la lista final las preguntas que sigan la estructura de "¿El presente Reglamento establece...?" o "¿El presente Reglamento es de cumplimiento...?".     
+    Finalmente, proporciona las preguntas en el siguiente formato JSON:
+    {format_json}
+    Fragmento de texto: ```{reglamento}```
+    """
+    return prompt
+
+def get_prompt_gen_yes_or_not_questions_v4(reglamento, num_questions = 20):
+    format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
+    
+    prompt = f"""
+    Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. 
+    Se te proporcionará información sobre reglamentos académicos delimitada por tres comillas invertidas. 
+    Genera al menos {num_questions} preguntas que cumplan con los siguientes criterios:
+     - Respuestas directas de 'Sí' o 'No'.
+     - Evita citar numerales de artículos en las preguntas.
+     - No menciones directamente el presente reglamento en las preguntas.
+     - Enfócate en preguntas relevantes para alumnos, docentes o el público en general.
+     - Asegúrate de que las preguntas puedan ser respondidas con un 'Sí' o 'No' basándose en la información proporcionada.
+    Luego de generar las preguntas, detecta y excluye de la lista final las preguntas que sigan la estructura de "¿El presente Reglamento establece...?" o "¿El presente Reglamento es de cumplimiento...?". 
+    Finalmente, proporciona la lista final de preguntas en el siguiente formato JSON : {format_json}. 
+    Fragmento de texto: {reglamento}.
+    """
+    return prompt
+
+def get_prompt_filter_questions(questions):
+    format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
+    prompt = f""" 
+    Se te proporcionará una lista de preguntas en formato JSON. Examina cada pregunta y excluye aquellas que hagan referencia directa al reglamento, como "¿El presente Reglamento establece...?".
+    Proporciona la lista final de preguntas en el siguiente formato JSON: {format_json}. 
+    Preguntas: {questions}
+    """
+    return prompt
+
 def get_prompt_gen_yes_or_not_questions(reglamento, num_questions = 20):
     format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
     
     prompt = f"""
     Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. 
-    Se te proporcionará un fragmento del reglamento de matrícula delimitado por tres comillas invertidas. 
+Se te proporcionará información sobre reglamentos académicos delimitada por tres comillas invertidas. 
+Genera al menos {num_questions} preguntas que cumplan con los siguientes criterios:
+   - Respuestas directas de 'Sí' o 'No'.
+   - Evita citar numerales de artículos en las preguntas.
+   - No mencione directamente al reglamento en las preguntas.
+   - Enfócate en preguntas relevantes para alumnos, docentes o el público en general.
+   - Asegúrate de que las preguntas puedan ser respondidas con un 'Sí' o 'No' basándose en la información proporcionada.
+
+Finalmente, proporciona la lista final de preguntas en el siguiente formato JSON: {format_json}. 
+Fragmento de texto: {reglamento}.
+    """
+    return prompt
+
+def get_prompt_gen_yes_or_not_questions_v2(reglamento, num_questions = 20):
+    format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
+    
+    prompt = f"""
+    Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. 
+    Se te proporcionará un fragmento de texto con información sobre reglamentos y/o procedimientos académicos, delimitado por tres comillas invertidas. 
     A continuación, los requisitos para generar preguntas:
     - Las preguntas deben tener respuestas directas de 'Sí' o 'No'.
-    - Evite mencionar directamente el presente reglamento en las preguntas.
     - No cite numerales de artículos en las preguntas.
+    - No mencione directamente al presente reglamento en las preguntas.
+    - Evite preguntas sobre que se establece en el presente reglamento, por ejemplo: ¿El presente reglamento establece ..?.
     - Enfóquese en preguntas relevantes para usuarios como alumnos, docentes o el público en general, que puedan responderse con la información proporcionada.
     - Asegúrese de que las preguntas puedan ser respondidas con un 'Sí' o 'No' basándose en la información proporcionada.
     - Genere al menos {num_questions} preguntas con una longitud máxima de 30 palabras.
 
     Finalmente, proporciona las preguntas en el siguiente formato JSON:
     {format_json}
-    Fragmento del Reglamento: ```{reglamento}```
+    Fragmento de texto: ```{reglamento}```
     """
     return prompt
+    
+## probar la forma de chatgpt
 
 def get_prompt_gen_yes_or_not_questions_v1(reglamento, num_questions = 20):
     format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
@@ -85,20 +153,59 @@ def get_prompt_gen_factoid_questions(reglamento, num_questions = 20):
     format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
     
     prompt = f"""
-   Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. 
-   Se te proporcionará un fragmento del reglamento de matrícula entre tres comillas invertidas. 
-   A continuación, los requisitos para generar preguntas:   
-    - Evite mencionar directamente el reglamento en las preguntas.
+Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. 
+Se te proporcionará información sobre reglamentos académicos delimitada por tres comillas invertidas. 
+Genera al menos {num_questions} preguntas asegurándote que cumplan con los siguientes criterios:
+    - No menciones numerales de artículos en las preguntas, por ejemplo, no menciones directamente "¿En el Art. 102 del reglamento...?" o "¿... según el Art. 25?".
     - No formule preguntas que requieran identificar artículos específicos del reglamento.
-    - Evite citar numerales de artículos en las preguntas.
-    - Concéntrese en preguntas relevantes para usuarios como alumnos, docentes o el público en general, que puedan responderse con la información proporcionada.
-    - Debe generar al menos {num_questions} preguntas que tengan como máximo 30 palabras de longitud.
+    - Enfócate en preguntas prácticas y relevantes para usuarios como alumnos, docentes o el público en general, que puedan responderse con la información proporcionada.
+
+Asegúrate de que cada pregunta cumpla estrictamente con todos los criterios antes de generarlas.
+Finalmente, proporciona las preguntas en el siguiente formato JSON: {format_json}
+Fragmento de texto: ```{reglamento}```
+    """
+    return prompt
+
+def get_prompt_gen_factoid_questions_f1(reglamento, num_questions = 20):
+    format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
+    
+    prompt = f"""
+   
+Entiendo que es crucial cumplir con la condición de concentrarse en preguntas relevantes para usuarios como alumnos, docentes o el público en general, que puedan responderse con la información proporcionada. Intentemos mejorar la instrucción para enfocarnos aún más en este aspecto:
+
+plaintext
+Copy code
+Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. 
+Se te proporcionará información sobre reglamentos académicos delimitada por tres comillas invertidas. 
+Genera al menos {num_questions} preguntas asegurándote que cumplan con los siguientes criterios:
+    - No menciones numerales de artículos en las preguntas, por ejemplo, no menciones directamente "¿En el Art. 102 del reglamento...?" o "¿... según el Art. 25?".
+    - Enfócate en preguntas prácticas y relevantes para usuarios como alumnos, docentes o el público en general, que puedan responderse con la información proporcionada.
+
+Asegúrate de que cada pregunta cumpla estrictamente con todos los criterios antes de generarlas.
+Finalmente, proporciona las preguntas en el siguiente formato JSON: {format_json}
+Fragmento de texto: ```{reglamento}```
+    """
+    return prompt
+
+def get_prompt_gen_factoid_questions_v2(reglamento, num_questions = 20):
+    format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
+    
+    prompt = f"""
+    Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. 
+    Se te proporcionará un fragmento del reglamento de matrícula entre tres comillas invertidas. 
+    A continuación, los requisitos para generar preguntas:  
+        - Evite citar numerales de artículos en las preguntas. 
+        - Evite mencionar directamente el reglamento en las preguntas.
+        - No formule preguntas que requieran identificar artículos específicos del reglamento.
+        - Concéntrese en preguntas relevantes para usuarios como alumnos, docentes o el público en general, que puedan responderse con la información proporcionada.
+        - Debe generar al menos {num_questions} preguntas que tengan como máximo 30 palabras de longitud.
 
     Finalmente, proporciona las preguntas en el siguiente formato JSON:
     {format_json}
     Fragmento del Reglamento: ```{reglamento}```
     """
     return prompt
+
 
 def get_prompt_gen_factoid_questions_v1(reglamento, num_questions = 20):
     format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
@@ -122,16 +229,15 @@ def get_prompt_gen_factoid_questions_v1(reglamento, num_questions = 20):
 def get_prompt_gen_factoid_questions_v1(reglamento, num_questions = 20):
     format_json = """{"preguntas": ["pregunta 1 generada", "pregunta 2 generada", ...]"""
     
-    prompt = f"""Eres un asistente de IA especializado en temas de matriculas, tramites y procedimiendo academicos de la Facultad de Ciencias de la UNI
-    Se te dará un texto tomado de un fragmento del reglamento de matricula. 
-    A continuación se detallan los requisitos para generar preguntas que puedan surgir en una conversación con un usuario:
-    - Las preguntas deben tener respuesta en el fragmenteo de texto proviedo.
-    - Evite citar al reglamento o numerales de articulos en las preguntas. Concéntrese en hacer preguntas que un usuario como un alumno, docente o publico en general puedan tener y que puedan ser respondididas con la informacion proveida.
-    - Asegúrese de que las preguntas sean preguntas concisas y precisas.
-    - Debe generar al menos {num_questions} preguntas que tengan como máximo 30 palabras de longitud.
-
-    Proporciona las preguntas en el siguiente formato JSON: {format_json}
-    Fragmento del Reglamento: {reglamento}
+    prompt = f"""Eres un asistente de IA especializado en matrículas, trámites y procedimientos académicos de la Facultad de Ciencias de la UNI. Se te brindará información sobre reglamentos académicos delimitada por tres comillas invertidas.
+Genera al menos {num_questions} preguntas que cumplan con los siguientes criterios:
+Respuestas directas de 'Sí' o 'No'.
+Evita citar numerales de artículos en las preguntas.
+No menciones directamente el presente reglamento en las preguntas.
+Enfócate en preguntas relevantes para alumnos, docentes o el público en general.
+Asegúrate de que las preguntas puedan ser respondidas con un 'Sí' o 'No' basándose en la información proporcionada.
+Detecta y excluye de la lista final las preguntas que mencionen al reglamento".
+Finalmente, presenta la lista final de preguntas en el siguiente formato JSON: {format_json}. Fragmento de texto: {reglamento}.
     """
     return prompt
 
@@ -176,15 +282,18 @@ class QuestionGenerator:
         documents.sort()
         print("Inicia Generación de preguntas...")
         #return
-        for file_text in tqdm(documents[0:1] + documents[3:4], desc= "Documentos"):
+        for file_text in tqdm(documents[0:1], desc= "Documentos"):
             text = read_fragment_doc(file_text)
             num_tokens = count_tokens(encoding ,text)
  
             try:    
                 ## Generar preguntas con respuesta de si o no
                 for qt in self.questions_types:
+                    print("\nQuestions Type:\n", qt)
                     num_questions = self.get_num_questions(qt, num_tokens)
                     questions = self.generate_questions(text, qt, num_questions = num_questions)
+                    questions = self.filter_questions(questions)
+                    print("\nFinal Questions:", questions)
                     questions_generated.append({"document": file_text, "type":  QuestionType(qt).name.lower(), "questions": questions})
                     time.sleep(5)
                 ## 
@@ -200,6 +309,14 @@ class QuestionGenerator:
         messages =  [{'role':'user', 'content':prompt}]
         response = get_completion_from_messages(messages, temperature=0)
         print("response:", response)
+        resp_json = format_response_json(response)
+        questions = resp_json["preguntas"]
+        return questions
+    
+    def filter_questions(self, questions):
+        prompt = get_prompt_filter_questions(questions)
+        messages =  [{'role':'user', 'content':prompt}]
+        response = get_completion_from_messages(messages, temperature=0)
         resp_json = format_response_json(response)
         questions = resp_json["preguntas"]
         return questions
