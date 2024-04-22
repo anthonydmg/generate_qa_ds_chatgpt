@@ -1,0 +1,179 @@
+Tema: Problemas al Realizar la Matrícula Virtual
+
+Pregunta: ¿Que debe hacer un estudiante si presenta problemas para realizar su matricula de manera virtual dentro de su zona de intranet-alumno?
+
+Respuesta: Los estudiantes que encuentren dificultades para completar su proceso de matriculación dentro de la plataforma de intranet-alumno deben verificar si se encuentran en alguna de las siguientes situaciones:
+    - Poseer algún tipo de deuda registrada en el sistema. En caso de adeudar la tutoría previa requerida para estudiantes en riesgo académico, deben ponerse en contacto con la Oficina de Tutoría a través del correo electrónico tutoria.fc@uni.edu.pe.
+
+    - No haber efectuado el pago del autoseguro con al menos 72 horas de anticipación antes de las fechas de matrícula. Si este es el caso y la matrícula virtual no se ha habilitado hasta los días de matrícula, es necesario comunicarse con la oficina de AERA o revisar el procedimiento para gestionar su matrícula rezagada.
+
+    - Para cualquier otro inconveniente, es recomendable contactar directamente con la oficina de AERA.
+
+Tema: Problemas de matricula posterior a la inscripcion de cursos 
+Tema: Cambio de Seccion
+
+Pregunta: ¿Que debe hacer un estudiante si desea realizar un cambio de seccion/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados ?
+Respuesta: Los cambios de sección/horario son gestionados directamente por la oficina de AERA. Es importante tener en cuenta que solo se atenderán solicitudes en caso de que el estudiante tenga conflictos de horario entre los cursos en los que está matriculado. Además, cualquier cambio de sección/horario estará sujeto a la disponibilidad de plazas.
+Los estudiantes que deseen realizar modificaciones en la sección/horario de un curso matriculado debido a conflictos de horario deben comunicarse directamente con la oficina de AERA. Allí recibirán información detallada sobre el proceso a seguir. Tambien, se le recomienda revisar en la pagina web de la facultad avisos o formularios referentes al tema.
+
+Tema: Matricula de Curso y su Prerquisito 
+
+Pregunta: ¿Un estudiante puede matricularse en un curso y su pre requisito?
+Respuesta: Únicamente podrán matricularse en una asignatura y su respectivo prerrequisito aquellos estudiantes que cumplan con los requisitos de "estudiante en posibilidad de egresar". Este término se aplica a aquellos alumnos que, en el momento de la matrícula, les falten como máximo treinta (30) créditos para completar su Plan de Estudios y poder egresar.
+
+Tema: Solicitar Vacantes adicionales 
+Pregunta: ¿Que debe hacer un estudiante que desea solicitar una vacante adicional para la inscripcion a un curso?
+Respuesta: Un estudiante interesado en solicitar una vacante adicional para inscribirse en un curso debe, después de haber completado su matrícula en los demás cursos, rellenar el formulario de solicitud correspondiente disponible en la página web de la facultad, o en su defecto, comunicarse directamente con la oficina de AERA.
+
+Tema: Horarios de Cursos 
+Pregunta: ¿En donde un estudiante puede visualizar la lista de cursos y sus respectivos horarios?
+Respuesta: La lista general de cursos con sus respectivos horarios son publicados dentro de la pagina web de la Pagina Web de la facultad. Ademas, tambien están disponibles en la zona intranet-alumno de cada estudiante.
+
+Tema: Fechas de Matricula
+Pregunta: ¿Dónde puede un estudiante consultar la fecha y turno de matrícula para el ciclo académico?
+Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica en la página web de la Facultad de Ciencias.
+Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica en la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumno.
+
+Tema: Maximo de creditos a Matricular
+
+Pregunta: ¿En cuantos creditos como maximo puede matricularse un estudiante de Facultad de Ciencias de la UNI?
+
+Respuesta: Según el Reglamento de Matrícula para Estudiantes de Pregrado de la Universidad Nacional de Ingeniería, el número máximo de créditos en los que un estudiante de la Facultad de Ciencias de la UNI puede matricularse varía dependiendo de su situación académica y el promedio ponderado de los dos últimos semestres académicos.
+
+Para estudiantes que hayan aprobado todas las asignaturas del primer ciclo en su primera matrícula y tengan un promedio ponderado igual o mayor a doce (12), podrán matricularse en todas las asignaturas del segundo ciclo y adelantar como máximo dos asignaturas adicionales, siempre y cuando el plan de estudios lo permita.
+
+Para estudiantes que hayan cursado solo el primer ciclo y no cumplan con los requisitos anteriores, el número máximo de créditos a matricular está indicado en la Tabla 1 descrita en el CAPÍTULO VI del Reglamento de Matricula publicado en pagina web de la Facultad de Ciencias, la cual se basa en el promedio ponderado de los dos últimos semestres académicos. Según esta tabla, el rango de promedio ponderado se correlaciona con una cantidad máxima de créditos a matricular, que va desde 28 créditos para un promedio ponderado entre 14 a 20, hasta 15 créditos para un promedio ponderado entre 0 y 8.
+
+Es importante mencionar que para estudiantes en riesgo académico, la determinación de la cantidad de créditos a matricular no se basará en dicha Tabla, sino que será recomendada por la Oficina de Tutoría y la Comisión de Matrícula de la Facultad.
+
+Por lo tanto, el número máximo de créditos en los que un estudiante de la Facultad de Ciencias de la UNI puede matricularse varía entre 15 y 28, dependiendo de su situación académica y el promedio ponderado de los dos últimos semestres académicos.
+
+
+Pregunta: ¿Puede un estudiante solicitar matricularse en mas creditos de los permitidos segun su promedio ponderado?
+
+Respuesta: Únicamente los estudiantes que se encuentren en la categoría de "estudiante en posibilidad de egresar", es decir, aquellos que al momento de la matrícula les falten un máximo de treinta (30) créditos para completar su Plan de Estudios, podrán inscribirse en un número adicional de créditos por encima del límite permitido según su promedio ponderado. En esta situación especial, la cantidad de créditos a matricular podrá alcanzar un máximo de treinta (30) créditos, siempre y cuando no incluyan asignaturas que hayan sido desaprobadas en dos (02) ocasiones y no les falte la asignación de los créditos por prácticas pre-profesionales. Si les faltase esta asignación, los créditos se descontarán de los 30 créditos permitidos.
+
+Tema: Procedimiento de Matricula Rezagada
+Pregunta: ¿Que procedimiento debe seguir un estudiante para tramitar su matricula rezagada?
+Pregunta: ¿Cuál es el proceso adecuado para que un estudiante realice el pago de su matrícula en situación de rezagado?
+
+Tema: Procedimiento para solicitar de Constancias de Notas
+Pregunta: ¿Que procedimiento debe seguir un estudiante para solicitar una constancia de notas?
+Pregunta: ¿Que procedimiento debe seguir un estudiante para solicitar una constancia de notas en ingles?
+Pregunta: ¿En donde un estudiante puede encontrar un modelo para la solicita de constancia de notas en ingles?
+
+Tema: Solicitud Certificado de decimo o quinto Superior
+Pregunta: ¿Que procedimiento debe seguir un estudiante para solicitar certificado de decimo o quinto Superior?
+Las constancias de Quinto y/o Tercio Superior son emitidas por las Escuelas Profesionales correspondientes. Por lo tanto, se recomienda que se acerquen a dicha oficina para obtener más detalles sobre este trámite.
+
+## Estos temas no si van o no
+Tema: Prodecimiento para pagar una constancia de engresado
+Pregunta: ¿Que procedimiento debe seguir un estudiante que ha completado su plan de estudios para tramitar su constancia de engresado?
+Respuesta: En el caso de pago por Constancia de Egresado el trámite inicia por ORCE, para mayor información puede escribir al correo de Mesa de Partes Virtual de ORCE
+
+Tema: Precedimiento para solicitar una Constancia de Matricula
+Pregunta: ¿Que procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en español?
+
+Tema: Procedimiento para solicitar Constancia de Ayudantia academica
+Pregunta: ¿Que procedimiento debe seguir un estudiante para solicitar su constancia de Ayudantia academica?
+Respuesta: El trámite se realiza con el Director de Escuela correspondiente. El estudiante puede solicitar información a las siguientes direcciones de correo electrónico según su escuela profesional.
+Para Física, Química o Ciencia de la Computación: escuelas_fc1@uni.edu.pe
+Para Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
+
+Tema: Procedimiento para realizar ayudantía Académica
+Pregunta: ¿Cual es el procedimiento a seguir para que un estudiante pueda realizar ayudantía academica?
+Respuesta: Los estudiantes que deseen realizar ayudantía academica deben ponerse en contacto con el departamento de su Escuela Profesional correspondiente para obtener más información. A continuación se detallan las direcciones de correo electrónico según la escuela profesional:
+Física, Química o Ciencia de la Computación: escuelas_fc1@uni.edu.pe
+Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
+
+Tema: Reincorporacion despues de una una Reserva de matricula #R
+Pregunta: ¿Qué procedimiento debe seguir un estudiante que desea reincorporse despues de haber reservado su matricula por uno o mas periodos academico?
+
+Tema: Procedimiento para genera un orden de pago
+Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar una orden de pago relacionada con algún concepto o trámite específico y realizar el pago correspondiente?
+Para generar una orden, el estudiante debe seguir los siguientes pasos:
+
+    1. Accede a la intranet de alumnos utilizando su código UNI y clave correspondiente.
+    2. Una vez dentro de la intranet de alumnos, selecciona la opción "Trámites y Pagos" en el menú de navegación ubicado en la parte izquierda de la pantalla para acceder al módulo de pagos.
+    3. En el módulo de pagos, selecciona el trámite correspondiente del menú desplegable. Después de seleccionarlo, haz clic en el botón "Nuevo" que se encuentra en la parte derecha de la pantalla.
+    4. Al hacer clic en "Nuevo", se mostrará la descripción del trámite que estás realizando. Después de leer la descripción, haz clic en el botón "Siguiente" para continuar. Luego se mostrará el monto a pagar. Al hacer clic en "Siguiente" se generará la orden de pago correspondiente. El alumno deberá acercarse personalmente a la oficina bancaria BCP más cercana o utilizar la banca móvil desde su celular para completar el pago.
+
+Para cualquier otro trámite que no esté estipulado en la lista de opciones consultar con la oficina de estadística en estadistica_fc@uni.edu.pe.
+
+Una vez generada la orden de pago, el alumno deberá esperar aproximadamente 10 minutos para completar el pago correspondiente.
+
+Para obtener más detalles sobre el proceso, consulta el Manual de Pagos publicado en la sección de MATRÍCULA Y PROCEDIMIENTOS en la Página Web de la Facultad de Ciencias."
+
+
+Tema: Procedimiento para el Retiro Total
+Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar el Retiro Total?
+Pregunta: ¿Hasta cuanto se puede solicitar el retiro total?
+Pregunta: ¿Por cuales motivos un estudiante puede solicitar un retiro total?
+
+Tema: Procedimiento Para Reserva de Matricula
+Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matricula?
+
+Tema: Procedimiento de Retiro Parcial
+Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para retiro parcial?
+Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para el retiro de cursos?
+Pregunta: ¿Es posible el retiro cursos electivos?
+Pregunta: ¿Es posible el retiro cursos desaprobadas?
+Pregunta: ¿Cual es el maximo numero de cursos matriculados que un estudiante puede retirarse?
+Pregunta: ¿Hasta que fecha puede un estudiante solicitar el retiro de cursos matriculados?
+
+# Aca buscar mas preguntas si es necesario
+
+Tema: Traslado Interno Requisitos
+Pregunta: ¿Cuáles son los requisitos que un estudiante debe cumplir para poder realizar un traslado interno?
+Para poder realizar un traslado interno, un estudiante debe cumplir con los siguientes requisitos:
+1. Presentar la solicitud a través del intranet alumnos/tramites en la fecha indicada en el calendario académico, adjuntando el comprobante de pago por el concepto de traslado interno y la ficha académica.
+2. La Escuela verificará los documentos y requisitos propios dentro del primer día útil de presentada la solicitud, registrará el expediente y remitirá un correo de recepción al interesado.
+3. El director de Escuela o la Comisión de Matrícula analizarán las solicitudes y, utilizando el formato disponible en la web DIRCE, inscribirán las convalidaciones pertinentes según el Avance Curricular del alumno, las notas y las normas de Convalidación.
+4. Con la autorización del director, el expediente será enviado al Decano y posteriormente presentado ante el Consejo de Facultad para su aprobación mediante Resolución Decanal y remisión a la DIRCE.
+5. La DIRCE ejecutará el cambio de especialidad y/o facultad y realizará las convalidaciones.
+6. La Oficina de Estadística gestionará la matrícula de los estudiantes por traslado interno en función a la solicitud de matrícula del director de la Escuela Profesional, y finalmente, la DIRCE realizará la ejecución de la matrícula en el sistema SIGA.
+7. No se recibirán solicitudes extemporáneas.
+
+Pregunta: ¿Que se entiende por traslado interno en la UNI?
+Tema: Horario de Atencion AERA
+Pregunta: ¿Cuál es el horario de atencion de la oficina de AERA?
+Pregunta: ¿Cuál es el horario de atencion de la oficina de Estadística?
+Pregunta: ¿A que correo me puedo comunicar la oficina de AERA?
+
+Tema: Informacion Mesa de Partes ORCE
+Pregunta: ¿Cual es el horario de atencion y el correo de contacto de la oficina de Mesa de Parte de Orce?
+La recepción de documentos en de Mesa de Parte de Orce es de lunes a viernes de 8:30am a 03:00pm. El correo de contacto es mesadepartesorce@uni.edu.pe
+
+Tema: Informacion Mesa de Partes FC
+Pregunta: ¿Cual es el horario de atencion y el correo de contacto de la oficina de Mesa de Parte de de la Facultad de Ciencias?
+La recepción de documentos en de Mesa de Parte de la Facultad de Ciencias es de lunes a viernes de 8:30am a 03:00pm. El correo de contacto es mesadepartes_fc@uni.edu.pe
+
+
+Tema: Practicas Pre Profesionales
+Pregunta: ¿Cual es el proceso que debe seguir un estudiante para convalidar sus practicas pre pre profesionales?
+Respuesta:  Los estudiantes que deseen realizar convalidar sus practicas pre pre profesionales deben ponerse en contacto con el departamento de su Escuela Profesional correspondiente para obtener más información. A continuación se detallan las direcciones de correo electrónico según la escuela profesional:
+Física, Química o Ciencia de la Computación: escuelas_fc1@uni.edu.pe
+Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
+
+Tema: Pago de Carnet Universitario 
+Pregunta: ¿Cual proceso para realizar el pago para obtener el carnet universitario y como se realiza la entrega?
+El tramite de carnet universitario es gestionado por la oficina de estadistica (AERA), para mas detalles poner en contacto al correo estadistica_fc@uni.edu.pe
+
+Tema: Estado de Tramites
+Pregunta: ¿Como un estudiante puede ver el estado de sus tramites?
+Respuesta: Es estado de las solicitudes presentadas través del intranet alumnos, puede ser visualizadas en la mismo platador. Para otros tramites puede usar el número de expediente para realizar el seguimiento, ingresando a http://stduni.uni.pe/modalum
+
+Tema: Procedimiento para solicitar el correo Intitucional
+Pregunta: ¿Que procedimiento debe seguir un estudiante para solicitar su correo institucional?
+Respuesta: Para solicitar su correo institucional de la UNI, por favor proporcione la siguiente información:
+    Código de Alumno.
+    Nombres y Apellidos.
+    DNI.
+    Especialidad.
+    Indicar si es estudiante de pregrado o posgrado.
+    Correo personal (que no sea @uni.pe ni @UNI.PE) donde se le enviará la clave.
+    Número de Celular.
+    Facultad.
+
+Una vez que tenga todos los datos requeridos, enviar un correo con los datos a obtenercorreo@uni.pe
+

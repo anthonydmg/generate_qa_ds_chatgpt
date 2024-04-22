@@ -1,0 +1,15 @@
+------------------------------
+Numero Creditos A Matricular
+¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+1. ¿Cuáles son las asignaturas correspondientes al primer ciclo que un estudiante puede matricular en su primera matrícula?
+2. ¿Cuál es el papel de la Escuela Profesional en la matrícula de un estudiante durante su primer ciclo?
+3. ¿Quién tiene la responsabilidad de matricular a un estudiante en todas las asignaturas correspondientes al primer ciclo durante su primera matrícula en la Facultad?
+4. ¿En qué momento se considera la primera matrícula de un estudiante en su especialidad universitaria?
+5. ¿Cuáles son las asignaturas en las que un estudiante es matriculado durante su primer ciclo académico?
+6. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula según la especialidad (carrera universitaria) a la que haya sido admitido?
+7. ¿Cuál es el propósito de la primera matrícula de un estudiante en relación con las asignaturas correspondientes al primer ciclo de su especialidad (carrera universitaria)?
+8. ¿Cuáles son las consecuencias si un estudiante no se matricula en todas las asignaturas correspondientes al primer ciclo durante su primera matrícula?
+9. ¿Cuál es la distinción entre la primera matrícula y las matrículas posteriores de un estudiante en términos de asignaturas a cursar?
+10. ¿Cuáles son los pasos a seguir si un estudiante no es admitido en una especialidad (carrera universitaria) de la universidad?
+11. ¿Cuáles son las responsabilidades de la Escuela Profesional y la Comisión de Matrícula de la Facultad durante la primera matrícula de un estudiante?
+12. ¿Cuáles son las consecuencias si un estudiante no aprueba todas las asignaturas correspondientes al primer ciclo durante su primera matrícula?

@@ -1,0 +1,15 @@
+------------------------------
+Numero Creditos A Matricular
+¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+1. ¿Cuántos créditos puede matricular un estudiante en su primera matrícula?
+2. ¿Cuál es la responsabilidad de la Escuela Profesional durante la primera matrícula de un estudiante?
+3. ¿Quién está a cargo de la Comisión de Matrícula de la Facultad durante la primera matrícula de un estudiante?
+4. ¿En qué ciclo académico se considera la primera matrícula de un estudiante?
+5. ¿Cuáles son las asignaturas en las que un estudiante es matriculado durante su primera matrícula?
+6. ¿Qué determina el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+7. ¿Cuál es el objetivo de la primera matrícula de un estudiante?
+8. ¿Qué sucede si un estudiante no se matricula en todas las asignaturas correspondientes al primer ciclo durante su primera matrícula?
+9. ¿Cuál es la diferencia entre la primera matrícula y las matrículas posteriores de un estudiante?
+10. ¿Qué sucede si un estudiante no es admitido en una especialidad (carrera universitaria) de la universidad?
+11. ¿Cuál es el proceso de matrícula durante la primera matrícula de un estudiante?
+12. ¿Qué sucede si un estudiante no aprueba todas las asignaturas correspondientes al primer ciclo durante su primera matrícula?

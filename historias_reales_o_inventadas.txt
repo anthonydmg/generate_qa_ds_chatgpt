@@ -1,0 +1,69 @@
+Historia 1: 
+Un alumno que no pago con anticipacion su autoseguro, esta preocupado por si podra realizar su matricula de manera regular o debera pasar a una matricula rezagada.
+Ademas desea solicitar alguna medida que puede tomar excepcionalmente para por registrase regularme, consultado si puede hablar con el director el decano
+
+Historia 2: 
+Una alumno desea solicitar una certificado o constancia de notas en ingles y español, Ademas tambien requiere un certificado de decimo o quinto superior segun le corresponda.
+
+Historia 3:
+Un alumno desea informacion sobre como puede matricularse el periodo actual si el periodo anterior realizo una Reserva de Matrícula,
+desea a datella toda la informacion sobre el procedimiento a seguir. Ademas luego de revisar el calendaria academico, se da cuenta que ya se paso la fecha segun el calendaria por que desea saber si ya paso la fecha de reincorporacion pasaria a una matricula resagado o que debe hacer.
+
+#Esta me gusta
+Historia 4:
+Un alumno en Riesgo academico esta preocupado por que quiere realizar su matricula o reincorporacion pero no ha pasado por el proceso de Tutoria obligatoria y desea ayudama para poder resolver su situacion y poder matricular en ciclo actual.
+
+Historia 5:
+Un alumno desea genera una orden de pago, no dice el motivo, ademas desea detalles de donde y cuando le llegara la orden de pago. Ver como organizar esta conversacion
+
+Historia N1:
+Un alumno desea sabe como pagar su constancia. Tambien consulta por datos del contancto recomendado para dar mas informacion.
+(Aca del bot debe responder que no sabe)
+
+
+Historia 6:
+De un alumno que desea conocer mas sobre cual el maximo de creditos, que puede llevar. El tiene un promedio de 14 pero desea llevar la mayor cantidad de creditos que es permitido por que quisiera saber si puede solictar mas sobre creditos, a si mismo se pregunta si es posible llevar un curso y su prerequsito.
+
+
+Historia 7:
+Un alumno esta desconsertado y procupado por que al parecer de ha equivicado en las fechas de matricula y al ingresar al sistema le aparece el proceso de matricula a culminado. Por ello esta interesado en saber que debe hacer y tener claro todos los procedimientos como se genera el pago de resagao y mas.
+
+## Esto la unica decision en derivas a estadistica
+Historia 8:
+Un alumno que esta realizando su matricula desea poder matricularse en un curso que ya no quedan vacantes.
+
+
+Historia 9:
+Un alumno que por razones labores desea reservar su matricula desea conocer a detalle el procedimiento para hacerlo, a si como todas la cuestiones relacionadas para garantizar que no pierda su condicion de estudiante.
+
+Historia 10:
+Un alumno que realizara un intercambio estudiantial desea saber si debe hacer algun tramite ya que no podra matricularse el siguiente ciclo.
+
+
+Historia 11:
+Eres un alumno que esta preocupado por que perdio su turno de matricula debido a problemas de conexion y quieres saber que podrias hacer ahora poder matriculart
+
+Historia 12:
+Eres un alumno que al ingresar al sistema de matricula en su turno se da cuenta que no puede realizar, la matricula. Desea saber por que el que pasa. Tienes en mente que acabas de pagar el autoseguro pero desconoces que esto este relacionado a tu problema de matricula. Ademas buscas medidas adicionales para resolver tu problema
+
+Hitoria 13:
+Un alumno que esta desoreantado y no sabe cuales son las fechas ni como funcionada la matricula, tampoco tiene idea a que hora debe realizar la matricula y no sabe que significa el turno de la matricula ni donde encontrarlo.
+
+Historia 14:
+Eres un alumno que al ingresar al sistema de matricula en su turno se da cuenta que no puede realizar, la matricula. Luego se percata de que tiene una deuda que tiene una deuda con tutoria y no sabe que hacer respecto a eso y que pasara con su matricula ahora.
+
+Historia 15:
+Eres un alumno que quiere realizar el retiro por un motivo de salud y quires asesoria para pode realizar y saber si con tu motivo es suficiente para el retiro total. Y deseas confirmas si es necesario tener un documento que justifique tal razones y ha donde debe presentarlo
+
+Historia 16:
+Eres un alumno que desea asesoria para realizar el retiro parcial de un curso. Luego de realizar por la plataforma te queda la duda si es que ya procedio
+
+Historia 17:
+Eres un alumno que desea asesoria para realizar el retiro parcial de un curso. Luego te das cuenta que el curso que requires retirarte es electivo y deseas saber si eso es posible
+
+Eres un entudiante el cual tiene la siguiente problema o cuestiente por lo que buscas asesoria. Usa un lenguaje poco formulario
+
+Al ultimo analisas las historias de todos procedimientos
+
+Buenas tardes, tengo problemas con mi matricula, es mi turno y no puedo acceder a la matricula.
+

@@ -1,0 +1,1010 @@
+[
+    {
+        "document": "./documentos/procedimientos/examen_regularizacion.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfPuede un estudiante solicitar una evaluaci\u00f3n de regularizaci\u00f3n si adeuda m\u00e1s de dos asignaturas?",
+                "answer": "No, un estudiante no puede solicitar una evaluaci\u00f3n de regularizaci\u00f3n si adeuda m\u00e1s de dos asignaturas. Seg\u00fan el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda, la evaluaci\u00f3n de regularizaci\u00f3n solo puede ser solicitada por estudiantes que hayan cursado el d\u00e9cimo ciclo y adeuden hasta dos asignaturas.\n\n"
+            },
+            {
+                "question": "\u00bfTiene un estudiante un plazo indefinido para solicitar una evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de desaprobar un curso?",
+                "answer": "No, el estudiante no tiene un plazo indefinido para solicitar una evaluaci\u00f3n de regularizaci\u00f3n. De acuerdo con el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda, el estudiante tiene un plazo m\u00e1ximo de cinco meses para solicitar este tipo de evaluaci\u00f3n despu\u00e9s de haber cursado el curso desaprobado.\n\n"
+            },
+            {
+                "question": "\u00bfEs posible solicitar una evaluaci\u00f3n de regularizaci\u00f3n para asignaturas que no sean del noveno o d\u00e9cimo ciclo?",
+                "answer": "No, no es posible solicitar una evaluaci\u00f3n de regularizaci\u00f3n para asignaturas que no sean del noveno o d\u00e9cimo ciclo. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda establece que la evaluaci\u00f3n de regularizaci\u00f3n procede \u00fanicamente en las asignaturas del noveno o d\u00e9cimo ciclo del plan de estudios o en asignaturas cursadas por el estudiante en el \u00faltimo o pen\u00faltimo per\u00edodo acad\u00e9mico.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante rendir la evaluaci\u00f3n de regularizaci\u00f3n sin haber rendido al menos el 50% de las pruebas de evaluaci\u00f3n del curso?",
+                "answer": "No, un estudiante no puede rendir la evaluaci\u00f3n de regularizaci\u00f3n sin haber rendido al menos el 50% de las pruebas de evaluaci\u00f3n del curso. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda especifica que uno de los requisitos para rendir la evaluaci\u00f3n de regularizaci\u00f3n es haber rendido por lo menos el 50% de las pruebas de evaluaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario obtener una nota m\u00ednima para poder acceder a una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "S\u00ed, es necesario obtener una nota m\u00ednima para poder acceder a una evaluaci\u00f3n de regularizaci\u00f3n. Seg\u00fan el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda, el estudiante debe tener una nota igual o mayor a seis ("
+            },
+            {
+                "question": "0) en el curso desaprobado para cumplir con los requisitos de la evaluaci\u00f3n de regularizaci\u00f3n.\n\n6. \u00bfDebe el estudiante pagar por el derecho a rendir un examen de regularizaci\u00f3n?",
+                "answer": "S\u00ed, el estudiante debe pagar por el derecho a rendir un examen de regularizaci\u00f3n. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda indica que efectuar el pago por derechos del examen de regularizaci\u00f3n es uno de los requisitos para poder rendir la evaluaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfEl director de la Escuela Profesional puede designar al mismo docente que dict\u00f3 la asignatura para la evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "No, el director de la Escuela Profesional no puede designar al mismo docente que dict\u00f3 la asignatura para la evaluaci\u00f3n de regularizaci\u00f3n. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda requiere que se designe un docente especialista en el curso diferente al docente que dict\u00f3 la asignatura.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el docente especialista entregar los resultados de la evaluaci\u00f3n de regularizaci\u00f3n en un plazo mayor a diez d\u00edas h\u00e1biles?",
+                "answer": "No, el docente especialista no debe entregar los resultados de la evaluaci\u00f3n de regularizaci\u00f3n en un plazo mayor a diez d\u00edas h\u00e1biles. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda establece un plazo m\u00e1ximo de diez d\u00edas h\u00e1biles para que el docente especialista remita los resultados al director de la Escuela Profesional.\n\n"
+            },
+            {
+                "question": "\u00bfPuede la evaluaci\u00f3n de regularizaci\u00f3n incluir temas que no est\u00e9n en el s\u00edlabo de la asignatura?",
+                "answer": "No, la evaluaci\u00f3n de regularizaci\u00f3n no puede incluir temas que no est\u00e9n en el s\u00edlabo de la asignatura. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda especifica que la evaluaci\u00f3n versar\u00e1 sobre el contenido del s\u00edlabo de la asignatura.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el director de la Escuela Profesional enviar los resultados del examen de regularizaci\u00f3n directamente a DIRCE sin el visto bueno del Decano?",
+                "answer": "No, el director de la Escuela Profesional no debe enviar los resultados del examen de regularizaci\u00f3n directamente a DIRCE sin el visto bueno del Decano. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda menciona que los resultados deben ser enviados a la Oficina de Estad\u00edstica de la Facultad para su registro en el ciclo acad\u00e9mico vigente y luego realizar el tr\u00e1mite hacia DIRCE, con el visto bueno del Decano.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante desaprobado en la primera evaluaci\u00f3n de regularizaci\u00f3n optar por una tercera evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "No, un estudiante desaprobado en la primera evaluaci\u00f3n de regularizaci\u00f3n no puede optar por una tercera evaluaci\u00f3n de regularizaci\u00f3n. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda indica que el estudiante solo tiene derecho a una segunda evaluaci\u00f3n de regularizaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfSe registra la nota de la segunda evaluaci\u00f3n de regularizaci\u00f3n en el mismo per\u00edodo acad\u00e9mico si se realiza en ese mismo per\u00edodo?",
+                "answer": "No, la nota de la segunda evaluaci\u00f3n de regularizaci\u00f3n no se registra en el mismo per\u00edodo acad\u00e9mico si se realiza en ese mismo per\u00edodo. Seg\u00fan el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda, si la segunda evaluaci\u00f3n ocurre en el mismo per\u00edodo acad\u00e9mico, el registro de dicha nota ser\u00e1 efectuado en el per\u00edodo siguiente.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el estudiante matricularse nuevamente en el curso desaprobado si no se presenta a la segunda evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "S\u00ed, el estudiante debe matricularse nuevamente en el curso desaprobado si no se presenta a la segunda evaluaci\u00f3n de regularizaci\u00f3n. El Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda establece que en caso de no presentarse a la segunda evaluaci\u00f3n, el estudiante deber\u00e1 matricularse en el curso en el per\u00edodo inmediato.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario presentar un avance curricular visado para solicitar una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "S\u00ed, es necesario presentar un avance curricular visado para solicitar una evaluaci\u00f3n de regularizaci\u00f3n. El procedimiento descrito en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda incluye la presentaci\u00f3n del avance curricular visado por el director de la Escuela Profesional correspondiente como parte de los documentos necesarios.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante solicitar la evaluaci\u00f3n de regularizaci\u00f3n sin presentar un recibo de pago?",
+                "answer": "No, un estudiante no puede solicitar la evaluaci\u00f3n de regularizaci\u00f3n sin presentar un recibo de pago. El procedimiento en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda requiere que el estudiante presente en mesa de partes de la facultad el recibo de pago junto con otros documentos para su derivaci\u00f3n al director de la Escuela Profesional correspondiente.\n\n"
+            },
+            {
+                "question": "\u00bfDebe la solicitud para una evaluaci\u00f3n de regularizaci\u00f3n dirigirse a alguien diferente al Decano de la facultad?",
+                "answer": "No, la solicitud para una evaluaci\u00f3n de regularizaci\u00f3n no debe dirigirse a alguien diferente al Decano de la facultad. El procedimiento establecido en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda indica que la solicitud debe ser dirigida al Decano de la facultad."
+            }
+        ],
+        "type": "yes_or_not_answer"
+    },
+    {
+        "document": "./documentos/procedimientos/examen_regularizacion.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfQu\u00e9 opciones tienen los estudiantes que han cursado el d\u00e9cimo ciclo y tienen hasta dos asignaturas pendientes?",
+                "answer": "Los estudiantes de la Universidad Nacional de Ingenier\u00eda que han cursado el d\u00e9cimo ciclo y tienen hasta dos asignaturas pendientes pueden solicitar una evaluaci\u00f3n de regularizaci\u00f3n, seg\u00fan lo establecido en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el plazo m\u00e1ximo que tiene un estudiante para solicitar una evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de haber cursado un curso desaprobado?",
+                "answer": "El plazo m\u00e1ximo que tiene un estudiante para solicitar una evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de haber cursado un curso desaprobado es de cinco (5) meses, seg\u00fan el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEn qu\u00e9 asignaturas se permite la evaluaci\u00f3n de regularizaci\u00f3n seg\u00fan el reglamento?",
+                "answer": "La evaluaci\u00f3n de regularizaci\u00f3n se permite en las asignaturas del noveno o d\u00e9cimo ciclo del plan de estudios o en asignaturas cursadas por el estudiante en el \u00faltimo o pen\u00faltimo per\u00edodo acad\u00e9mico, de acuerdo con el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 porcentaje m\u00ednimo de pruebas de evaluaci\u00f3n debe haber rendido un estudiante para calificar para una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Un estudiante debe haber rendido por lo menos el 50% de las pruebas de evaluaci\u00f3n para calificar para una evaluaci\u00f3n de regularizaci\u00f3n, como se especifica en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es la nota m\u00ednima que debe tener un estudiante en un curso desaprobado para poder acceder a una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "La nota m\u00ednima que debe tener un estudiante en un curso desaprobado para poder acceder a una evaluaci\u00f3n de regularizaci\u00f3n es igual o mayor a seis ("
+            },
+            {
+                "question": "0), seg\u00fan lo estipulado en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n6. \u00bfQu\u00e9 debe hacer un estudiante para rendir una evaluaci\u00f3n de regularizaci\u00f3n en t\u00e9rminos de pagos?",
+                "answer": "Para rendir una evaluaci\u00f3n de regularizaci\u00f3n, el estudiante debe efectuar el pago por derechos del examen de regularizaci\u00f3n, tal como se indica en el procedimiento del Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQui\u00e9n es responsable de coordinar la fecha y hora de la evaluaci\u00f3n de regularizaci\u00f3n con el estudiante?",
+                "answer": "El director de la Escuela Profesional es responsable de coordinar con el estudiante la fecha y hora para aplicar la evaluaci\u00f3n de regularizaci\u00f3n, de acuerdo con el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 responsabilidad tiene el docente especialista designado para la evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "El docente especialista designado para realizar la evaluaci\u00f3n de regularizaci\u00f3n tiene la responsabilidad de remitir los resultados de la evaluaci\u00f3n al director de la Escuela Profesional en un plazo m\u00e1ximo de diez (10) d\u00edas h\u00e1biles a partir de su designaci\u00f3n, como se establece en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el plazo m\u00e1ximo que tiene el docente especialista para entregar los resultados de la evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "El plazo m\u00e1ximo que tiene el docente especialista para entregar los resultados de la evaluaci\u00f3n de regularizaci\u00f3n es de diez (10) d\u00edas h\u00e1biles a partir de su designaci\u00f3n, seg\u00fan el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSobre qu\u00e9 se basar\u00e1 la evaluaci\u00f3n de regularizaci\u00f3n y qui\u00e9n determina la modalidad?",
+                "answer": "La evaluaci\u00f3n de regularizaci\u00f3n se basar\u00e1 sobre el contenido del s\u00edlabo de la asignatura y la modalidad ser\u00e1 determinada por el docente especialista, como se menciona en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 proceso debe seguir el director de la Escuela Profesional una vez que se han obtenido los resultados de la evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Una vez obtenidos los resultados de la evaluaci\u00f3n de regularizaci\u00f3n, el director de la Escuela Profesional debe enviarlos a la Oficina de Estad\u00edstica de la Facultad para que efect\u00fae su registro en el ciclo acad\u00e9mico vigente y realice el tr\u00e1mite hacia DIRCE, con el visto bueno del Decano, tal como se especifica en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante desaprueba la primera evaluaci\u00f3n de regularizaci\u00f3n y decide optar por una segunda?",
+                "answer": "Si un estudiante desaprueba la primera evaluaci\u00f3n de regularizaci\u00f3n y decide optar por una segunda, puede hacerlo dentro de los dos (02) meses contados a partir de la fecha en que rindi\u00f3 la primera evaluaci\u00f3n. Si la segunda evaluaci\u00f3n ocurre en el mismo per\u00edodo acad\u00e9mico, el registro de la nota ser\u00e1 efectuado en el per\u00edodo siguiente, de acuerdo con el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el plazo para que un estudiante pueda rendir una segunda evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de la primera?",
+                "answer": "El plazo para que un estudiante pueda rendir una segunda evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de la primera es de dos (02) meses a partir de la fecha en que rindi\u00f3 la primera evaluaci\u00f3n, como se establece en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 consecuencias enfrenta un estudiante que desaprueba o no se presenta a la segunda evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Un estudiante que desaprueba o no se presenta a la segunda evaluaci\u00f3n de regularizaci\u00f3n deber\u00e1 matricularse en el curso o los cursos que correspondan en el per\u00edodo inmediato, sin derecho a otra evaluaci\u00f3n de regularizaci\u00f3n, seg\u00fan lo estipulado en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer un estudiante para iniciar el proceso de solicitud de una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Para iniciar el proceso de solicitud de una evaluaci\u00f3n de regularizaci\u00f3n, el estudiante debe acercarse a la oficina de su Escuela Profesional respectiva para solicitar una orden de pago por concepto de examen de regularizaci\u00f3n, como se describe en el procedimiento del Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 documentos debe presentar un estudiante al solicitar una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Al solicitar una evaluaci\u00f3n de regularizaci\u00f3n, el estudiante debe presentar en mesa de partes de la facultad una solicitud dirigida al Decano, adjuntar el avance curricular visado por el director de la Escuela Profesional correspondiente y el recibo de pago, seg\u00fan el procedimiento del Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfA qui\u00e9n debe dirigir el estudiante su solicitud para realizar una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "El estudiante debe dirigir su solicitud para realizar una evaluaci\u00f3n de regularizaci\u00f3n al Decano, acompa\u00f1ando los documentos requeridos, como se indica en el procedimiento del Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 tr\u00e1mite sigue despu\u00e9s de que el estudiante presenta su solicitud y los documentos requeridos para una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Despu\u00e9s de que el estudiante presenta su solicitud y los documentos requeridos para una evaluaci\u00f3n de regularizaci\u00f3n, la solicitud es derivada al director de la Escuela Profesional correspondiente para su procesamiento, tal como se detalla en el procedimiento del Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 papel juega el director de la Escuela Profesional en el proceso de evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "El director de la Escuela Profesional juega un papel clave en el proceso de evaluaci\u00f3n de regularizaci\u00f3n, ya que coordina con el estudiante la fecha y hora de la evaluaci\u00f3n, designa al docente especialista, y una vez obtenidos los resultados, los env\u00eda a la Oficina de Estad\u00edstica de la Facultad para su registro, de acuerdo con el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se maneja el registro de notas de las evaluaciones de regularizaci\u00f3n en la Facultad?",
+                "answer": "El registro de notas de las evaluaciones de regularizaci\u00f3n en la Facultad se maneja enviando los resultados del examen de regularizaci\u00f3n a la Oficina de Estad\u00edstica de la Facultad para que efect\u00fae su registro en el ciclo acad\u00e9mico vigente y realice el tr\u00e1mite hacia DIRCE, con el visto bueno del Decano, como se establece en el Reglamento de Evaluaci\u00f3n de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda."
+            }
+        ],
+        "type": "factoid"
+    },
+    {
+        "document": "./documentos/procedimientos/reincorporacion.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfPuede un estudiante que realiz\u00f3 Retiro Total solicitar reincorporaci\u00f3n?",
+                "answer": "S\u00ed, un estudiante que realiz\u00f3 Retiro Total puede solicitar reincorporaci\u00f3n. Seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda, la reincorporaci\u00f3n es el procedimiento que restablece al estudiante la condici\u00f3n de estudiante activo, aplicable a quienes realizaron Retiro Total, entre otros casos.\n\n"
+            },
+            {
+                "question": "\u00bfEs posible reincorporarse despu\u00e9s de haber solicitado una Reserva de Matr\u00edcula?",
+                "answer": "S\u00ed, es posible reincorporarse despu\u00e9s de haber solicitado una Reserva de Matr\u00edcula. El Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda establece que la reincorporaci\u00f3n aplica tambi\u00e9n a estudiantes que solicitaron Reserva de Matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfTiene un estudiante un plazo m\u00e1ximo de tres a\u00f1os para solicitar reincorporaci\u00f3n despu\u00e9s de dejar de matricularse?",
+                "answer": "S\u00ed, un estudiante tiene un plazo m\u00e1ximo de tres a\u00f1os o seis periodos acad\u00e9micos consecutivos o alternos para solicitar reincorporaci\u00f3n despu\u00e9s de dejar de matricularse. Si los periodos son alternos, no deben exceder de cinco a\u00f1os desde el primer periodo acad\u00e9mico en que se dej\u00f3 de matricularse, seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante que ha sido sancionado solicitar reincorporaci\u00f3n mientras la sanci\u00f3n est\u00e1 vigente?",
+                "answer": "No, un estudiante que ha sido sancionado no puede solicitar reincorporaci\u00f3n mientras la sanci\u00f3n est\u00e1 vigente. El Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda indica que la reincorporaci\u00f3n es procedente si el estudiante no tiene una sanci\u00f3n vigente.\n\n"
+            },
+            {
+                "question": "\u00bfDebe un estudiante presentar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma SIGA-DIRCE?",
+                "answer": "S\u00ed, un estudiante debe presentar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma SIGA-DIRCE, de acuerdo con el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario que el estudiante realice un pago para tramitar su solicitud de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, es necesario que el estudiante realice un pago para tramitar su solicitud de reincorporaci\u00f3n. El Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda especifica que el estudiante debe realizar el pago correspondiente a trav\u00e9s de la Caja UNI o bancos autorizados.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el director de la Escuela Profesional revisar y autorizar las solicitudes de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, el director de la Escuela Profesional debe revisar la ficha acad\u00e9mica de cada estudiante, evaluar y autorizar o rechazar la solicitud de reincorporaci\u00f3n, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede haber un cambio en el Plan de Estudios del estudiante como parte del proceso de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, puede haber un cambio en el Plan de Estudios del estudiante como parte del proceso de reincorporaci\u00f3n. El director de la Escuela Profesional puede ordenar la actualizaci\u00f3n del Plan de Estudios y la convalidaci\u00f3n de asignaturas por dicho cambio, conforme al Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe realiza la matr\u00edcula de manera regular una vez que el estudiante se ha reincorporado?",
+                "answer": "S\u00ed, una vez reincorporado el estudiante, el procedimiento de matr\u00edcula se realizar\u00e1 de manera regular, tal como se menciona en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe atienden casos de rezago acad\u00e9mico por la OERA tras la reincorporaci\u00f3n?",
+                "answer": "S\u00ed, si hubiere rezago acad\u00e9mico tras la reincorporaci\u00f3n, la atenci\u00f3n ser\u00e1 por la OERA, de acuerdo con el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el estudiante generar una orden de pago para el tr\u00e1mite de reincorporaci\u00f3n a trav\u00e9s del Portal INTRALU?",
+                "answer": "S\u00ed, el estudiante debe generar una orden de pago para el tr\u00e1mite de reincorporaci\u00f3n a trav\u00e9s del Portal INTRALU, como se indica en el procedimiento actualizado por la DIRCE en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEl sistema indica autom\u00e1ticamente la cantidad a pagar por el tr\u00e1mite de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, el sistema indica autom\u00e1ticamente la cantidad a pagar por el tr\u00e1mite de reincorporaci\u00f3n, bas\u00e1ndose en el costo del tr\u00e1mite m\u00e1s un adicional por cada periodo no estudiado, seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs el costo del tr\u00e1mite de reincorporaci\u00f3n de S/. 42.00 fijo para todos los estudiantes?",
+                "answer": "S\u00ed, el costo base del tr\u00e1mite de reincorporaci\u00f3n es de S/. "
+            },
+            {
+                "question": "00 para todos los estudiantes, pero se debe a\u00f1adir S/. 10.00 por cada periodo no estudiado, como se establece en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n14. \u00bfSe a\u00f1ade un costo adicional de S/. 10.00 por cada periodo no estudiado al tramitar la reincorporaci\u00f3n?",
+                "answer": "S\u00ed, se a\u00f1ade un costo adicional de S/. "
+            },
+            {
+                "question": "00 por cada periodo no estudiado al tramitar la reincorporaci\u00f3n, tal como se especifica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n15. \u00bfDebe el estudiante subir el recibo de pago a la Plataforma de intranet-alumno despu\u00e9s de realizar el pago?",
+                "answer": "S\u00ed, despu\u00e9s de realizar el pago, el estudiante debe subir el recibo de pago a la Plataforma de intranet-alumno dentro de las fechas se\u00f1aladas para este proceso, de acuerdo con el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario revisar el calendario acad\u00e9mico para conocer las fechas se\u00f1aladas para el proceso de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, es necesario revisar el calendario acad\u00e9mico para conocer las fechas se\u00f1aladas para el proceso de reincorporaci\u00f3n, como se menciona en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda."
+            }
+        ],
+        "type": "yes_or_not_answer"
+    },
+    {
+        "document": "./documentos/procedimientos/reincorporacion.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfQu\u00e9 es la reincorporaci\u00f3n en el contexto del reglamento de matr\u00edcula de la Facultad de Ciencias de la UNI?",
+                "answer": "La reincorporaci\u00f3n, seg\u00fan el Reglamento de Matr\u00edcula de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda, es el procedimiento que permite a un estudiante recuperar su condici\u00f3n de estudiante activo despu\u00e9s de haber realizado un Retiro Total, solicitado Reserva de Matr\u00edcula o Licencia, o dejado de matricularse por un semestre acad\u00e9mico o m\u00e1s. Este procedimiento est\u00e1 sujeto a un plazo l\u00edmite de tres a\u00f1os o seis periodos acad\u00e9micos, ya sean consecutivos o alternos, sin exceder cinco a\u00f1os desde el primer periodo no matriculado.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1les son las condiciones para que un estudiante pueda solicitar la reincorporaci\u00f3n?",
+                "answer": "Un estudiante puede solicitar la reincorporaci\u00f3n si no tiene una sanci\u00f3n vigente y no ha superado el plazo m\u00e1ximo de Reserva de Matr\u00edcula, que es de tres a\u00f1os o seis periodos acad\u00e9micos consecutivos o alternos, con la condici\u00f3n de que los periodos alternos no excedan de cinco a\u00f1os desde el primer periodo en que se dej\u00f3 de matricularse.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 plazo m\u00e1ximo tiene un estudiante para solicitar la reincorporaci\u00f3n despu\u00e9s de haber dejado de matricularse?",
+                "answer": "El plazo m\u00e1ximo para solicitar la reincorporaci\u00f3n despu\u00e9s de haber dejado de matricularse es de tres a\u00f1os o seis periodos acad\u00e9micos, ya sean consecutivos o alternos, con la condici\u00f3n de que los periodos alternos no excedan de cinco a\u00f1os desde el primer periodo en que se dej\u00f3 de matricularse.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo debe un estudiante presentar su solicitud de reincorporaci\u00f3n seg\u00fan el reglamento?",
+                "answer": "Un estudiante debe presentar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma SIGA-DIRCE de la Universidad Nacional de Ingenier\u00eda, siguiendo el formato establecido y de acuerdo con el calendario oficial.\n\n"
+            },
+            {
+                "question": "\u00bfCon cu\u00e1nta anticipaci\u00f3n debe un estudiante tramitar su solicitud de reincorporaci\u00f3n antes de la semana de matr\u00edcula?",
+                "answer": "Un estudiante debe tramitar su solicitud de reincorporaci\u00f3n con una anticipaci\u00f3n no menor de diez d\u00edas \u00fatiles antes de la semana de matr\u00edcula y de acuerdo con el Calendario Acad\u00e9mico de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 pasos debe seguir un estudiante para realizar el pago correspondiente a la reincorporaci\u00f3n?",
+                "answer": "El estudiante debe generar una orden de pago en la plataforma de intranet-alumno (Portal INTRALU) de la Universidad Nacional de Ingenier\u00eda, donde el sistema indicar\u00e1 autom\u00e1ticamente la cantidad a pagar. Luego, debe realizar el pago correspondiente a trav\u00e9s de la Caja UNI o bancos autorizados.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 rol juega el director de la Escuela Profesional en el proceso de reincorporaci\u00f3n de un estudiante?",
+                "answer": "El director de la Escuela Profesional correspondiente juega un papel crucial en el proceso de reincorporaci\u00f3n, ya que es responsable de revisar la ficha acad\u00e9mica del estudiante, evaluar y autorizar o rechazar la solicitud de reincorporaci\u00f3n. Adem\u00e1s, si corresponde, ordena a la DIRCE la actualizaci\u00f3n del Plan de Estudios y la convalidaci\u00f3n de asignaturas debido a cambios en el plan.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede una vez que un estudiante ha sido reincorporado en t\u00e9rminos de matr\u00edcula y convalidaciones?",
+                "answer": "Una vez que un estudiante ha sido reincorporado, si hubo un cambio de Plan de Estudios y convalidaciones necesarias, estas se realizan. Posteriormente, el procedimiento de matr\u00edcula se lleva a cabo de manera regular. Si el estudiante presenta rezago acad\u00e9mico, la atenci\u00f3n ser\u00e1 por parte de la OERA.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 es la OERA y cu\u00e1l es su funci\u00f3n en el proceso de reincorporaci\u00f3n si hay rezago acad\u00e9mico?",
+                "answer": "No poseo informaci\u00f3n suficiente para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se calcula el costo total que un estudiante debe pagar por el tr\u00e1mite de reincorporaci\u00f3n?",
+                "answer": "El costo total del tr\u00e1mite de reincorporaci\u00f3n se calcula sumando S/. "
+            },
+            {
+                "question": "00 m\u00e1s S/. 10.00 por cada periodo no estudiado. El sistema de intranet-alumno de la Universidad Nacional de Ingenier\u00eda proporcionar\u00e1 autom\u00e1ticamente al estudiante la cantidad total a pagar basada en esta f\u00f3rmula.\n\n11. \u00bfQu\u00e9 plataforma debe utilizar un estudiante para generar la orden de pago para la reincorporaci\u00f3n?",
+                "answer": "Un estudiante debe utilizar la plataforma de intranet-alumno (Portal INTRALU) de la Universidad Nacional de Ingenier\u00eda para generar la orden de pago para la reincorporaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer el estudiante despu\u00e9s de haber realizado el pago para el tr\u00e1mite de reincorporaci\u00f3n?",
+                "answer": "Despu\u00e9s de haber realizado el pago, el estudiante debe ingresar a la plataforma de intranet-alumno de la Universidad Nacional de Ingenier\u00eda dentro de las fechas se\u00f1aladas en el calendario acad\u00e9mico y subir la solicitud junto con el recibo de pago.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 informaci\u00f3n proporciona el sistema autom\u00e1ticamente al estudiante al generar la orden de pago?",
+                "answer": "El sistema de intranet-alumno de la Universidad Nacional de Ingenier\u00eda proporciona autom\u00e1ticamente al estudiante la cantidad total a pagar por el tr\u00e1mite de reincorporaci\u00f3n, calculada en base a S/. "
+            },
+            {
+                "question": "00 m\u00e1s S/. 10.00 por cada periodo no estudiado.\n\n14. \u00bfQu\u00e9 recursos o manuales puede consultar un estudiante para entender el proceso de pagos en la UNI?",
+                "answer": "Un estudiante puede consultar el manual de pagos de la Universidad Nacional de Ingenier\u00eda, que se menciona en el procedimiento para generar la orden de pago, aunque no se proporciona un enlace directo o una ubicaci\u00f3n espec\u00edfica para este manual en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante desea reincorporarse pero tiene una sanci\u00f3n vigente?",
+                "answer": "Si un estudiante tiene una sanci\u00f3n vigente, no podr\u00e1 proceder con el tr\u00e1mite de reincorporaci\u00f3n, ya que una de las condiciones para solicitar la reincorporaci\u00f3n es no tener sanciones vigentes.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 procedimientos adicionales debe realizar un estudiante si ha habido un cambio en el Plan de Estudios durante su ausencia?",
+                "answer": "Si ha habido un cambio en el Plan de Estudios durante la ausencia del estudiante, el director de la Escuela Profesional correspondiente deber\u00e1 ordenar a la DIRCE la actualizaci\u00f3n del Plan de Estudios y la convalidaci\u00f3n de asignaturas por dicho cambio, como parte del proceso de reincorporaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 documentaci\u00f3n debe subir el estudiante a la plataforma de intranet-alumno una vez realizado el pago?",
+                "answer": "Una vez realizado el pago, el estudiante debe subir a la plataforma de intranet-alumno de la Universidad Nacional de Ingenier\u00eda la solicitud de reincorporaci\u00f3n y el recibo de pago dentro de las fechas establecidas en el calendario acad\u00e9mico.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 opciones de pago est\u00e1n disponibles para los estudiantes que desean reincorporarse?",
+                "answer": "Las opciones de pago disponibles para los estudiantes que desean reincorporarse incluyen el pago a trav\u00e9s de la Caja UNI o bancos autorizados, seg\u00fan se menciona en el procedimiento para generar la orden de pago.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante reincorporarse si ha excedido el plazo m\u00e1ximo de Reserva de Matr\u00edcula?",
+                "answer": "No, un estudiante no puede reincorporarse si ha excedido el plazo m\u00e1ximo de Reserva de Matr\u00edcula, que es de tres a\u00f1os o seis periodos acad\u00e9micos consecutivos o alternos, con la condici\u00f3n de que los periodos alternos no excedan de cinco a\u00f1os desde el primer periodo en que se dej\u00f3 de matricularse.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 medidas debe tomar un estudiante si no logra reincorporarse antes del inicio de la semana de matr\u00edcula?",
+                "answer": "No poseo informaci\u00f3n suficiente para responder a esta pregunta basada en la informaci\u00f3n proporcionada."
+            }
+        ],
+        "type": "factoid"
+    },
+    {
+        "document": "./documentos/procedimientos/reserva_matricula.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfPuede un estudiante de la UNI dejar de estudiar por uno o m\u00e1s per\u00edodos acad\u00e9micos sin perder su condici\u00f3n de estudiante?",
+                "answer": "S\u00ed, un estudiante de la Universidad Nacional de Ingenier\u00eda puede dejar de estudiar por uno o m\u00e1s per\u00edodos acad\u00e9micos sin perder su condici\u00f3n de estudiante mediante la Reserva de Matr\u00edcula, que es una suspensi\u00f3n voluntaria que permite postergar la matr\u00edcula y evita la p\u00e9rdida de la condici\u00f3n de estudiante.\n\n"
+            },
+            {
+                "question": "\u00bfLa reserva de matr\u00edcula permite a un estudiante postergar su matr\u00edcula voluntariamente?",
+                "answer": "S\u00ed, la Reserva de Matr\u00edcula permite a un estudiante de la Universidad Nacional de Ingenier\u00eda postergar su matr\u00edcula voluntariamente, seg\u00fan se define en el Reglamento de Matr\u00edcula Aprobado R.R. N\u00ba0570 del "
+            },
+            {
+                "question": "03.2022.\n\n3. \u00bfSe registra autom\u00e1ticamente la reserva de matr\u00edcula para estudiantes que no se matriculan al cierre de la matr\u00edcula?",
+                "answer": "S\u00ed, la Oficina de Registro Central y Estad\u00edstica (ORCE) registra autom\u00e1ticamente la reserva de matr\u00edcula para aquellos estudiantes de la Universidad Nacional de Ingenier\u00eda que no se matriculan al cierre de la matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfExiste un l\u00edmite de tiempo de tres a\u00f1os para la reserva de matr\u00edcula?",
+                "answer": "S\u00ed, existe un l\u00edmite de tiempo de tres a\u00f1os (o seis semestres) acad\u00e9micos consecutivos o alternos para la reserva de matr\u00edcula en la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante solicitar la reserva de matr\u00edcula por razones de salud o trabajo?",
+                "answer": "S\u00ed, un estudiante de la Universidad Nacional de Ingenier\u00eda puede solicitar la reserva de matr\u00edcula por razones de salud, trabajo o de otra naturaleza debidamente sustentada.\n\n"
+            },
+            {
+                "question": "\u00bfDebe presentarse la solicitud de reserva de matr\u00edcula a trav\u00e9s de una plataforma en l\u00ednea?",
+                "answer": "S\u00ed, la solicitud de reserva de matr\u00edcula debe presentarse al Decano a trav\u00e9s de la plataforma SIGA-ORCE, seg\u00fan el procedimiento establecido en el Reglamento de Matr\u00edcula Aprobado R.R. N\u00ba0570 del "
+            },
+            {
+                "question": "03.2022 de la Universidad Nacional de Ingenier\u00eda.\n\n7. \u00bfEs necesario adjuntar documentos que acrediten la raz\u00f3n de la reserva de matr\u00edcula al momento de solicitarla?",
+                "answer": "S\u00ed, es necesario adjuntar documentos que acrediten la raz\u00f3n de la reserva de matr\u00edcula al momento de solicitarla en la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfRealiza la ORCE la reserva de matr\u00edcula de oficio si el estudiante no se matricula y no presenta la solicitud?",
+                "answer": "S\u00ed, la ORCE realizar\u00e1 la reserva de matr\u00edcula de oficio si el estudiante de la Universidad Nacional de Ingenier\u00eda no se matricula y no presenta la solicitud.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el jefe de la Oficina de Estad\u00edstica de la Facultad monitorear las solicitudes de reserva de matr\u00edcula?",
+                "answer": "S\u00ed, el jefe de la Oficina de Estad\u00edstica de la Facultad de la Universidad Nacional de Ingenier\u00eda debe monitorear las solicitudes de reserva de matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfNecesita el Comit\u00e9 Directivo de la Escuela Profesional aprobar las solicitudes de reserva de matr\u00edcula que cumplan con los requisitos?",
+                "answer": "S\u00ed, el Comit\u00e9 Directivo de la Escuela Profesional de la Universidad Nacional de Ingenier\u00eda debe aprobar las solicitudes de reserva de matr\u00edcula que cumplan con los requisitos previstos.\n\n"
+            },
+            {
+                "question": "\u00bfDebe la Escuela Profesional enviar un listado de reservas de matr\u00edcula aprobadas a la ORCE?",
+                "answer": "S\u00ed, la Escuela Profesional de la Universidad Nacional de Ingenier\u00eda debe remitir a la ORCE el listado de reservas de matr\u00edcula aprobadas para su registro en el SIGA-ORCE.\n\n"
+            },
+            {
+                "question": "\u00bfSe registra la reserva de matr\u00edcula en el historial del estudiante como una desactivaci\u00f3n de su c\u00f3digo?",
+                "answer": "S\u00ed, la reserva de matr\u00edcula se registra en el historial del estudiante como una desactivaci\u00f3n de su c\u00f3digo de estudiante en la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfTiene un estudiante un plazo de cinco a\u00f1os para realizar reservas de matr\u00edcula alternas?",
+                "answer": "S\u00ed, un estudiante de la Universidad Nacional de Ingenier\u00eda tiene un plazo de cinco a\u00f1os para realizar reservas de matr\u00edcula alternas, contados a partir de la primera reserva de matr\u00edcula o hacia atr\u00e1s desde el momento en que solicita reincorporaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfEs obligatorio que la solicitud de reserva de matr\u00edcula se presente antes de la semana oficial de matr\u00edcula?",
+                "answer": "S\u00ed, es obligatorio que la solicitud de reserva de matr\u00edcula se presente a m\u00e1s tardar cinco d\u00edas h\u00e1biles antes de la semana oficial de matr\u00edcula en la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el Consejo de Facultad recibir un informe sobre las solicitudes de reserva de matr\u00edcula aprobadas?",
+                "answer": "S\u00ed, el Consejo de Facultad de la Universidad Nacional de Ingenier\u00eda debe recibir un informe con las sustentaciones presentadas sobre las solicitudes de reserva de matr\u00edcula aprobadas.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un apoderado presentar la solicitud de reserva de matr\u00edcula en nombre del estudiante?",
+                "answer": "S\u00ed, un apoderado puede presentar la solicitud de reserva de matr\u00edcula en nombre del estudiante en la Universidad Nacional de Ingenier\u00eda."
+            }
+        ],
+        "type": "yes_or_not_answer"
+    },
+    {
+        "document": "./documentos/procedimientos/reserva_matricula.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfQu\u00e9 es una reserva de matr\u00edcula en la Facultad de Ciencias de la UNI y cu\u00e1ndo puede un estudiante optar por ella?",
+                "answer": "Una reserva de matr\u00edcula en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda es la situaci\u00f3n en la que un estudiante decide dejar de estudiar por uno o m\u00e1s per\u00edodos acad\u00e9micos, ejerciendo su derecho de postergar su matr\u00edcula. Un estudiante puede optar por ella cuando enfrenta circunstancias que le impiden continuar con sus estudios temporalmente, como problemas de salud, trabajo u otras razones debidamente justificadas.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el tiempo m\u00e1ximo que un estudiante puede mantener su reserva de matr\u00edcula en la UNI?",
+                "answer": "El tiempo m\u00e1ximo que un estudiante puede mantener su reserva de matr\u00edcula en la Universidad Nacional de Ingenier\u00eda es de tres a\u00f1os (o seis semestres) acad\u00e9micos consecutivos o alternos. Si se trata de per\u00edodos alternos, el plazo se contabiliza dentro de un lapso que no exceder\u00e1 de cinco a\u00f1os (10 semestres), contados a partir de la primera reserva de matr\u00edcula o hacia atr\u00e1s desde el momento en que solicita reincorporaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante no se matricula y no ha solicitado una reserva de matr\u00edcula?",
+                "answer": "Si un estudiante no se matricula y no ha solicitado una reserva de matr\u00edcula, la Oficina de Registro Central y Estad\u00edstica (ORCE) realizar\u00e1 de oficio la reserva de matr\u00edcula del estudiante al cierre de la matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 razones son v\u00e1lidas para solicitar una reserva de matr\u00edcula y qu\u00e9 documentaci\u00f3n se debe presentar?",
+                "answer": "Las razones v\u00e1lidas para solicitar una reserva de matr\u00edcula incluyen problemas de salud, trabajo o de otra naturaleza que est\u00e9n debidamente sustentadas. El estudiante debe adjuntar los documentos que acrediten la raz\u00f3n invocada al presentar su solicitud.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo debe un estudiante o su apoderado solicitar una reserva de matr\u00edcula?",
+                "answer": "Un estudiante o su apoderado debe presentar la solicitud de reserva de matr\u00edcula al Decano a trav\u00e9s de la plataforma SIGA-ORCE, cumpliendo con el plazo establecido.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 plazo tiene un estudiante para presentar una solicitud de reserva de matr\u00edcula antes de la semana oficial de matr\u00edcula?",
+                "answer": "Un estudiante tiene un plazo de hasta cinco d\u00edas h\u00e1biles antes de la semana oficial de matr\u00edcula para presentar una solicitud de reserva de matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 procedimiento sigue la Oficina de Estad\u00edstica de la Facultad una vez que recibe las solicitudes de reserva de matr\u00edcula?",
+                "answer": "Una vez que la Oficina de Estad\u00edstica de la Facultad recibe las solicitudes de reserva de matr\u00edcula, el jefe de la oficina monitorea el proceso, pone a disposici\u00f3n del Comit\u00e9 Directivo de la Escuela Profesional las solicitudes presentadas, aprueba las que cumplan con los requisitos y eleva un informe al Consejo de Facultad con las sustentaciones presentadas.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se comunica la aprobaci\u00f3n de las reservas de matr\u00edcula a la ORCE para su registro?",
+                "answer": "La Escuela Profesional remite a la ORCE el listado de reservas de matr\u00edcula aprobadas para su registro en el SIGA-ORCE, al menos dos d\u00edas h\u00e1biles antes del primer d\u00eda de matr\u00edcula de la Facultad.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 efecto tiene la reserva de matr\u00edcula en la condici\u00f3n de estudiante de la UNI?",
+                "answer": "La reserva de matr\u00edcula suspende la permanencia del estudiante en la Universidad Nacional de Ingenier\u00eda y evita la p\u00e9rdida de su condici\u00f3n de estudiante.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede con el c\u00f3digo de estudiante una vez que se registra la reserva de matr\u00edcula?",
+                "answer": "Una vez que se registra la reserva de matr\u00edcula, la ORCE procede a desactivar el c\u00f3digo de estudiante en el historial del estudiante.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 entidad es responsable de registrar la reserva de matr\u00edcula en el historial del estudiante?",
+                "answer": "La Oficina de Registro Central y Estad\u00edstica (ORCE) es la entidad responsable de registrar la reserva de matr\u00edcula en el historial del estudiante.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer un estudiante si necesita suspender sus estudios por motivos de salud o trabajo?",
+                "answer": "Si un estudiante necesita suspender sus estudios por motivos de salud o trabajo, debe solicitar una reserva de matr\u00edcula presentando la documentaci\u00f3n pertinente que justifique su situaci\u00f3n al Decano a trav\u00e9s de la plataforma SIGA-ORCE, respetando el plazo establecido.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 ocurre si un estudiante no cumple con el plazo para solicitar una reserva de matr\u00edcula?",
+                "answer": "No se proporciona informaci\u00f3n espec\u00edfica sobre las consecuencias de no cumplir con el plazo para solicitar una reserva de matr\u00edcula en el fragmento del reglamento proporcionado. Por lo tanto, no puedo ofrecer una respuesta basada en la informaci\u00f3n disponible.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 informaci\u00f3n se eleva al Consejo de Facultad una vez que se aprueban las solicitudes de reserva de matr\u00edcula?",
+                "answer": "Una vez que se aprueban las solicitudes de reserva de matr\u00edcula, se eleva un informe al Consejo de Facultad con las sustentaciones presentadas por los estudiantes.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante desea retomar sus estudios despu\u00e9s de haber tenido una reserva de matr\u00edcula?",
+                "answer": "No se proporciona informaci\u00f3n espec\u00edfica sobre el procedimiento para retomar los estudios despu\u00e9s de una reserva de matr\u00edcula en el fragmento del reglamento proporcionado. Por lo tanto, no puedo ofrecer una respuesta basada en la informaci\u00f3n disponible.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 papel juega el Comit\u00e9 Directivo de la Escuela Profesional en el proceso de reserva de matr\u00edcula?",
+                "answer": "El Comit\u00e9 Directivo de la Escuela Profesional juega un papel en el proceso de reserva de matr\u00edcula al revisar las solicitudes presentadas por los estudiantes y aprobar aquellas que cumplan con los requisitos previstos.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 medidas se toman para los estudiantes que no se matriculan y no han solicitado una reserva de matr\u00edcula?",
+                "answer": "Para los estudiantes que no se matriculan y no han solicitado una reserva de matr\u00edcula, la ORCE realiza de oficio la reserva de matr\u00edcula al cierre de la matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el l\u00edmite de tiempo para que un estudiante pueda solicitar la reincorporaci\u00f3n despu\u00e9s de una reserva de matr\u00edcula?",
+                "answer": "No se proporciona informaci\u00f3n espec\u00edfica sobre el l\u00edmite de tiempo para solicitar la reincorporaci\u00f3n despu\u00e9s de una reserva de matr\u00edcula en el fragmento del reglamento proporcionado. Por lo tanto, no puedo ofrecer una respuesta basada en la informaci\u00f3n disponible.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede con la reserva de matr\u00edcula si un estudiante la solicita por per\u00edodos alternos?",
+                "answer": "Si un estudiante solicita la reserva de matr\u00edcula por per\u00edodos alternos, el plazo para mantener la reserva no exceder\u00e1 de cinco a\u00f1os (10 semestres), contados a partir de la primera reserva de matr\u00edcula o hacia atr\u00e1s desde el momento en que solicita reincorporaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo afecta la reserva de matr\u00edcula a la permanencia del estudiante en la universidad?",
+                "answer": "La reserva de matr\u00edcula afecta la permanencia del estudiante en la Universidad Nacional de Ingenier\u00eda al suspenderla temporalmente. Esto permite al estudiante mantener su condici\u00f3n sin perderla debido a la no matriculaci\u00f3n durante el per\u00edodo de reserva."
+            }
+        ],
+        "type": "factoid"
+    },
+    {
+        "document": "./documentos/procedimientos/retiro_parcial.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfPuede un estudiante retirar m\u00e1s de tres asignaturas en un periodo acad\u00e9mico?",
+                "answer": "No, un estudiante no puede retirar m\u00e1s de tres asignaturas en un periodo acad\u00e9mico seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda (UNI), que define el Retiro Parcial como la prerrogativa de eliminar la matr\u00edcula de hasta tres asignaturas dentro del plazo establecido.\n\n"
+            },
+            {
+                "question": "\u00bfEs posible realizar un Retiro Parcial despu\u00e9s de la quinta semana de clases?",
+                "answer": "No es posible realizar un Retiro Parcial despu\u00e9s de la quinta semana de clases, ya que el Reglamento de Matr\u00edcula de la UNI especifica que la solicitud de Retiro Parcial debe tramitarse hasta el \u00faltimo d\u00eda \u00fatil de la quinta semana despu\u00e9s del inicio de clases del periodo acad\u00e9mico sin excepci\u00f3n alguna.\n\n"
+            },
+            {
+                "question": "\u00bfSe permite el Retiro Parcial de asignaturas del ciclo m\u00e1s atrasado?",
+                "answer": "No se permite el Retiro Parcial de asignaturas del ciclo m\u00e1s atrasado, como se establece en el Reglamento de Matr\u00edcula de la UNI, que indica que el Retiro Parcial procede para las asignaturas m\u00e1s avanzadas y no para las del ciclo m\u00e1s atrasado.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante retirar una asignatura que ha repetido dos o m\u00e1s veces?",
+                "answer": "No, un estudiante no puede retirar una asignatura que ha repetido dos o m\u00e1s veces. El Reglamento de Matr\u00edcula de la UNI establece que el Retiro Parcial no procede para asignaturas repetidas dos o m\u00e1s veces.\n\n"
+            },
+            {
+                "question": "\u00bfEs factible retirar una asignatura prerrequisito si tambi\u00e9n se est\u00e1 matriculado en la asignatura subsiguiente?",
+                "answer": "No es factible retirar una asignatura prerrequisito si tambi\u00e9n se est\u00e1 matriculado en la asignatura subsiguiente, seg\u00fan lo estipulado en el Reglamento de Matr\u00edcula de la UNI, que excluye del Retiro Parcial a las asignaturas prerrequisito en este caso.\n\n"
+            },
+            {
+                "question": "\u00bfSe realizan los retiros parciales autom\u00e1ticamente por el sistema sin necesidad de una solicitud manual del estudiante?",
+                "answer": "S\u00ed, los retiros parciales se realizan autom\u00e1ticamente por el sistema seg\u00fan las reglas establecidas en el Reglamento de Matr\u00edcula de la UNI, sin necesidad de una solicitud manual del estudiante.\n\n"
+            },
+            {
+                "question": "\u00bfInforma la DIRCE a las Facultades sobre los retiros parciales despu\u00e9s de cerrado el per\u00edodo de solicitudes?",
+                "answer": "S\u00ed, la Direcci\u00f3n de Registro Central y Estad\u00edstica (DIRCE) informa a las Facultades sobre los retiros parciales despu\u00e9s de cerrado el per\u00edodo de solicitudes, remitiendo las actas de verificaci\u00f3n de los alumnos matriculados y retirados de cada curso-secci\u00f3n, como se menciona en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el estudiante utilizar la plataforma de intranet-alumno para tramitar su Retiro Parcial?",
+                "answer": "S\u00ed, el estudiante debe utilizar la plataforma de intranet-alumno para tramitar su Retiro Parcial, seleccionando la opci\u00f3n correspondiente y los cursos que desea retirar, de acuerdo con las instrucciones del Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante seleccionar cualquier curso matriculado para retirarse a trav\u00e9s de la plataforma DIRCE?",
+                "answer": "No, un estudiante no puede seleccionar cualquier curso matriculado para retirarse a trav\u00e9s de la plataforma DIRCE. Debe seguir las restricciones establecidas en el Reglamento de Matr\u00edcula de la UNI, que excluye ciertas asignaturas del Retiro Parcial, como las del ciclo m\u00e1s atrasado, las repetidas dos o m\u00e1s veces y las prerrequisito si se est\u00e1 matriculado en la asignatura subsiguiente.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario que el estudiante confirme su Retiro Parcial en persona despu\u00e9s de seleccionar los cursos en la plataforma?",
+                "answer": "No hay informaci\u00f3n proporcionada que indique que el estudiante deba confirmar su Retiro Parcial en persona despu\u00e9s de seleccionar los cursos en la plataforma.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante ver el estado de su solicitud de Retiro Parcial en la plataforma de intranet-alumno?",
+                "answer": "S\u00ed, un estudiante puede ver el estado de su solicitud de Retiro Parcial en la plataforma de intranet-alumno, espec\u00edficamente en la ficha de matr\u00edcula, aproximadamente una semana despu\u00e9s del cierre del proceso de \"retiro parcial\", como se indica en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfSe requiere alguna acci\u00f3n adicional del estudiante despu\u00e9s de seleccionar el(los) curso(s) para retirarse en la plataforma?",
+                "answer": "No hay informaci\u00f3n proporcionada que indique que se requiera alguna acci\u00f3n adicional del estudiante despu\u00e9s de seleccionar el(los) curso(s) para retirarse en la plataforma.\n\n"
+            },
+            {
+                "question": "\u00bfEst\u00e1 disponible la opci\u00f3n de \"retiro parcial\" en la plataforma de intranet-alumno desde el inicio del ciclo acad\u00e9mico?",
+                "answer": "No hay informaci\u00f3n proporcionada que especifique si la opci\u00f3n de \"retiro parcial\" est\u00e1 disponible en la plataforma de intranet-alumno desde el inicio del ciclo acad\u00e9mico.\n\n"
+            },
+            {
+                "question": "\u00bfSe espera que el estudiante reciba confirmaci\u00f3n de su Retiro Parcial inmediatamente despu\u00e9s de realizar la solicitud?",
+                "answer": "No, el estudiante no recibe confirmaci\u00f3n de su Retiro Parcial inmediatamente despu\u00e9s de realizar la solicitud. Seg\u00fan el Reglamento de Matr\u00edcula de la UNI, el estudiante podr\u00e1 ver la atenci\u00f3n a su solicitud aproximadamente una semana despu\u00e9s del cierre del proceso de \"retiro parcial\".\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante retirar asignaturas sin acceder a la plataforma DIRCE?",
+                "answer": "No hay informaci\u00f3n proporcionada que indique que un estudiante pueda retirar asignaturas sin acceder a la plataforma DIRCE.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario esperar aproximadamente una semana despu\u00e9s del cierre del proceso de \"retiro parcial\" para ver la atenci\u00f3n a la solicitud?",
+                "answer": "S\u00ed, es necesario esperar aproximadamente una semana despu\u00e9s del cierre del proceso de \"retiro parcial\" para ver la atenci\u00f3n a la solicitud, como se menciona en el Reglamento de Matr\u00edcula de la UNI."
+            }
+        ],
+        "type": "yes_or_not_answer"
+    },
+    {
+        "document": "./documentos/procedimientos/retiro_parcial.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfQu\u00e9 es el Retiro Parcial seg\u00fan el reglamento de la Facultad de Ciencias de la UNI?",
+                "answer": "El Retiro Parcial, seg\u00fan el reglamento de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda (UNI), es la opci\u00f3n que tienen los estudiantes de eliminar la matr\u00edcula de hasta tres asignaturas dentro de un plazo espec\u00edfico, que vence el \u00faltimo d\u00eda \u00fatil de la quinta semana despu\u00e9s del inicio de clases del per\u00edodo acad\u00e9mico.\n\n"
+            },
+            {
+                "question": "\u00bfHasta cu\u00e1ntas asignaturas puede un estudiante retirar parcialmente y cu\u00e1l es el plazo l\u00edmite para hacerlo?",
+                "answer": "Un estudiante puede retirar parcialmente hasta tres asignaturas, y el plazo l\u00edmite para hacerlo es el \u00faltimo d\u00eda \u00fatil de la quinta semana despu\u00e9s del inicio de clases del per\u00edodo acad\u00e9mico, seg\u00fan el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 plataforma deben utilizar los estudiantes para tramitar un Retiro Parcial?",
+                "answer": "Los estudiantes deben utilizar la plataforma DIRCE para tramitar su solicitud de Retiro Parcial, de acuerdo con el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfExisten excepciones para el plazo de solicitud de Retiro Parcial?",
+                "answer": "No existen excepciones para el plazo de solicitud de Retiro Parcial; la solicitud debe realizarse hasta el \u00faltimo d\u00eda \u00fatil de la quinta semana despu\u00e9s del inicio de clases del periodo acad\u00e9mico, tal como se establece en el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 asignaturas no son elegibles para el Retiro Parcial?",
+                "answer": "Las asignaturas no elegibles para el Retiro Parcial son aquellas del ciclo m\u00e1s atrasado, las asignaturas repetidas dos o m\u00e1s veces, y las asignaturas prerrequisito en caso de que el estudiante est\u00e9 matriculado simult\u00e1neamente en la asignatura y su prerrequisito, seg\u00fan el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se manejan los retiros parciales una vez vencido el per\u00edodo de solicitud?",
+                "answer": "Una vez vencido el per\u00edodo de solicitud, los retiros parciales proceden de oficio seg\u00fan las reglas establecidas en el reglamento de la Facultad de Ciencias de la UNI. La DIRCE informar\u00e1 a las Facultades sobre los retiros parciales, remitiendo las actas de verificaci\u00f3n de los alumnos matriculados y retirados de cada curso-secci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 pasos debe seguir un estudiante para seleccionar las asignaturas de las que desea retirarse?",
+                "answer": "El estudiante debe ingresar a la plataforma de intranet-alumno, seleccionar la opci\u00f3n \"retiro parcial\", encontrar los cursos matriculados en el presente ciclo y seleccionar el o los cursos de los que desea retirarse, siguiendo las instrucciones del reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo puede un estudiante verificar si su solicitud de Retiro Parcial ha sido atendida?",
+                "answer": "Un estudiante puede verificar si su solicitud de Retiro Parcial ha sido atendida ingresando a la plataforma de intranet-alumno y consultando su ficha de matr\u00edcula aproximadamente una semana despu\u00e9s del cierre del proceso de \"retiro parcial\", como se indica en el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante est\u00e1 matriculado en una asignatura y su prerrequisito al mismo tiempo?",
+                "answer": "Si un estudiante est\u00e1 matriculado en una asignatura y su prerrequisito al mismo tiempo, no podr\u00e1 realizar el Retiro Parcial de la asignatura prerrequisito, conforme a lo establecido en el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante retirar una asignatura que ha repetido dos o m\u00e1s veces?",
+                "answer": "No, un estudiante no puede retirar una asignatura que ha repetido dos o m\u00e1s veces, seg\u00fan lo estipulado en el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 informaci\u00f3n reciben las Facultades una vez finalizado el proceso de Retiro Parcial?",
+                "answer": "Una vez finalizado el proceso de Retiro Parcial, la DIRCE informa a las Facultades sobre los retiros parciales, enviando las actas de verificaci\u00f3n de los alumnos matriculados y retirados de cada curso-secci\u00f3n, tal como se menciona en el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer un estudiante si desea retirarse de una asignatura despu\u00e9s de la quinta semana de clases?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo afecta el Retiro Parcial al historial acad\u00e9mico de un estudiante?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 consideraciones debe tener un estudiante antes de decidir retirarse de una asignatura?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 consejos dar\u00edas a un estudiante que est\u00e1 considerando el Retiro Parcial de una asignatura?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo puede un estudiante planificar su carga acad\u00e9mica sabiendo que tiene la opci\u00f3n de Retiro Parcial?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 impacto tiene el Retiro Parcial en la carga acad\u00e9mica de un estudiante para el resto del semestre?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 recomendaciones existen para los estudiantes al momento de elegir qu\u00e9 asignaturas retirar?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se comunica la DIRCE con los estudiantes respecto a los retiros parciales realizados?",
+                "answer": "La DIRCE comunica con los estudiantes respecto a los retiros parciales realizados mediante la plataforma de intranet-alumno, donde los estudiantes pueden consultar su ficha de matr\u00edcula para verificar la atenci\u00f3n a su solicitud, como se describe en el reglamento de la Facultad de Ciencias de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 medidas deber\u00edan tomar los estudiantes para evitar la necesidad de un Retiro Parcial?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada."
+            }
+        ],
+        "type": "factoid"
+    },
+    {
+        "document": "./documentos/procedimientos/retiro_total.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfPuede un estudiante o alguien con carta poder simple solicitar el retiro total de la matr\u00edcula?",
+                "answer": "S\u00ed, seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda, un estudiante o una persona acreditada con carta poder simple puede solicitar el retiro total de la matr\u00edcula. Esto est\u00e1 especificado en el art\u00edculo que define el Retiro Total, donde se menciona que el procedimiento puede ser solicitado por el estudiante o por alguien acreditado con carta poder simple.\n\n"
+            },
+            {
+                "question": "\u00bfEs posible realizar el tr\u00e1mite de retiro total a trav\u00e9s de una plataforma en l\u00ednea?",
+                "answer": "S\u00ed, el tr\u00e1mite de retiro total puede realizarse a trav\u00e9s de la plataforma SIGA-DIRCE, como se establece en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe informa a las facultades sobre los retiros totales despu\u00e9s de que finaliza el periodo de solicitudes?",
+                "answer": "S\u00ed, despu\u00e9s de que finaliza el periodo para ingresar solicitudes de retiro total, la Direcci\u00f3n de Registro Central y Estad\u00edstica (DIRCE) informa a las facultades sobre los retiros totales registrados, tal como se indica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante que ha rendido todas las evaluaciones regulares de una asignatura solicitar el retiro total?",
+                "answer": "No, un estudiante que ha rendido todas las evaluaciones regulares de alguna de las asignaturas en las que se encuentra matriculado no puede solicitar el retiro total, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe permite el retiro total si el estudiante tiene un curso desaprobado dos veces o m\u00e1s en el periodo acad\u00e9mico anterior?",
+                "answer": "No, el retiro total no procede si el estudiante tiene alg\u00fan curso desaprobado dos veces o m\u00e1s en el periodo acad\u00e9mico regular precedente, como se especifica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfExiste la posibilidad de solicitar un retiro total por enfermedad grave de un familiar directo?",
+                "answer": "S\u00ed, de manera excepcional, un estudiante puede solicitar el retiro total por causa de enfermedad grave de un familiar directo en primer grado, y esta solicitud debe ser certificada por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe ser el certificado de enfermedad emitido por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD?",
+                "answer": "S\u00ed, el certificado de enfermedad debe ser emitido por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD para que proceda la solicitud de retiro total por enfermedad grave de un familiar directo, como se menciona en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe puede solicitar el retiro total por enfermedad hasta una semana antes de los ex\u00e1menes finales?",
+                "answer": "S\u00ed, la solicitud de retiro total por enfermedad grave de un familiar directo puede realizarse hasta una semana antes de los ex\u00e1menes finales, tal como se indica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEval\u00faa el Consejo Directivo de la Escuela Profesional las solicitudes de retiro total por enfermedad?",
+                "answer": "S\u00ed, el Consejo Directivo de la Escuela Profesional correspondiente eval\u00faa las solicitudes de retiro total por enfermedad grave de un familiar directo, como se establece en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe considera el retiro total como una reserva de matr\u00edcula para efectos de un retiro definitivo?",
+                "answer": "S\u00ed, el retiro total se computa para efectos de un retiro definitivo como una reserva de matr\u00edcula, seg\u00fan lo especificado en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe realiza el retiro total de oficio en caso de fallecimiento del estudiante?",
+                "answer": "S\u00ed, el retiro total es de oficio por fallecimiento del estudiante, tal como se menciona en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe un estudiante reincorporarse antes de matricularse nuevamente despu\u00e9s de un retiro total?",
+                "answer": "S\u00ed, un estudiante debe realizar el tr\u00e1mite de reincorporaci\u00f3n previamente a la siguiente matr\u00edcula despu\u00e9s de un retiro total, como se indica en la nota al final del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe aprueban las solicitudes de retiro total excepcional antes por el director de la Escuela Profesional?",
+                "answer": "S\u00ed, las solicitudes de retiro total excepcional son previamente aprobadas por el director de la Escuela Profesional, como se establece en la nota al final del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs DIRCE la entidad que aprueba finalmente las solicitudes de retiro total excepcional?",
+                "answer": "S\u00ed, la Direcci\u00f3n de Registro Central y Estad\u00edstica (DIRCE) es la entidad que aprueba finalmente las solicitudes de retiro total excepcional, seg\u00fan se especifica en la nota al final del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede solicitarse el retiro total hasta una semana antes de los ex\u00e1menes parciales?",
+                "answer": "S\u00ed, el retiro total puede ser solicitado hasta una semana antes de los ex\u00e1menes parciales, como se establece en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe permite el retiro total a estudiantes en riesgo acad\u00e9mico sin excepciones?",
+                "answer": "No, el retiro total no procede de oficio para los estudiantes en riesgo acad\u00e9mico, con excepci\u00f3n a lo establecido para casos debidamente justificados, como se menciona en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda."
+            }
+        ],
+        "type": "yes_or_not_answer"
+    },
+    {
+        "document": "./documentos/procedimientos/retiro_total.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfQu\u00e9 es un Retiro Total en el contexto de la Facultad de Ciencias de la UNI y qui\u00e9n puede realizar este tr\u00e1mite?",
+                "answer": "En el contexto de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda, un Retiro Total es el procedimiento mediante el cual un estudiante, o una persona acreditada con carta poder simple, solicita la anulaci\u00f3n total de su matr\u00edcula en un periodo acad\u00e9mico. Este tr\u00e1mite debe cumplir con los requisitos establecidos en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfHasta cu\u00e1ndo puede un estudiante solicitar un Retiro Total y a trav\u00e9s de qu\u00e9 medio se realiza?",
+                "answer": "Un estudiante puede solicitar un Retiro Total hasta una semana antes de los ex\u00e1menes parciales. Este tr\u00e1mite se realiza a trav\u00e9s de la plataforma SIGA-DIRCE, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante ha rendido todas las evaluaciones regulares de una asignatura, puede a\u00fan solicitar un Retiro Total?",
+                "answer": "Si un estudiante ha rendido todas las evaluaciones regulares de alguna de las asignaturas en las que est\u00e1 matriculado, no procede el Retiro Total, de acuerdo con el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 condiciones deben cumplirse para que un estudiante pueda solicitar un Retiro Total excepcional por enfermedad grave de un familiar directo?",
+                "answer": "Para solicitar un Retiro Total excepcional por enfermedad grave de un familiar directo, el estudiante debe presentar un caso debidamente justificado y certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD. El familiar directo debe ser ascendiente o descendiente en primer grado. Este tr\u00e1mite es evaluado por el Consejo Directivo de la Escuela Profesional correspondiente, como se especifica en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 instancia eval\u00faa y aprueba las solicitudes de Retiro Total excepcional por enfermedad grave?",
+                "answer": "Las solicitudes de Retiro Total excepcional por enfermedad grave son evaluadas y aprobadas por el Consejo Directivo de la Escuela Profesional correspondiente, seg\u00fan el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo afecta un Retiro Total al historial acad\u00e9mico de un estudiante en t\u00e9rminos de futuras matr\u00edculas?",
+                "answer": "Un Retiro Total se computa para efectos de un Retiro Definitivo como una reserva de matr\u00edcula. Esto significa que el estudiante deber\u00e1 realizar el tr\u00e1mite de reincorporaci\u00f3n previamente a la siguiente matr\u00edcula, tal como se menciona en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que ha realizado un Retiro Total antes de matricularse nuevamente?",
+                "answer": "Un estudiante que ha realizado un Retiro Total debe realizar el tr\u00e1mite de reincorporaci\u00f3n antes de matricularse nuevamente, como se indica en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQui\u00e9n aprueba inicialmente las solicitudes de Retiro Total excepcional y qui\u00e9n da la aprobaci\u00f3n final?",
+                "answer": "Las solicitudes de Retiro Total excepcional son previamente aprobadas por el director de la Escuela Profesional y finalmente por la direcci\u00f3n de Registro Central y Estad\u00edstica (DIRCE), de acuerdo con el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 ocurre autom\u00e1ticamente con la matr\u00edcula de un estudiante en caso de su fallecimiento?",
+                "answer": "En caso de fallecimiento del estudiante, el Retiro Total se procesa de oficio, es decir, se realiza autom\u00e1ticamente sin necesidad de una solicitud, como se establece en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante con cursos desaprobados dos o m\u00e1s veces en el periodo acad\u00e9mico anterior solicitar un Retiro Total?",
+                "answer": "No, un estudiante que tiene alg\u00fan curso desaprobado dos veces o m\u00e1s en el periodo acad\u00e9mico regular precedente no puede solicitar un Retiro Total, seg\u00fan lo estipulado en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 documentaci\u00f3n es necesaria para justificar un Retiro Total excepcional por enfermedad grave?",
+                "answer": "La documentaci\u00f3n necesaria para justificar un Retiro Total excepcional por enfermedad grave incluye un certificado emitido por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD, que acredite la enfermedad grave del familiar directo (ascendiente o descendiente en primer grado), tal como se requiere en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 instituciones m\u00e9dicas est\u00e1n reconocidas para certificar una enfermedad grave en el caso de un Retiro Total excepcional?",
+                "answer": "Las instituciones m\u00e9dicas reconocidas para certificar una enfermedad grave en el caso de un Retiro Total excepcional son el Centro M\u00e9dico de la UNI, MINSA o ESSALUD, como se menciona en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 implica para un estudiante estar en \"riesgo acad\u00e9mico\" en relaci\u00f3n con el proceso de Retiro Total?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 informaci\u00f3n recibe la Facultad sobre los retiros totales una vez finalizado el periodo para ingresar solicitudes?",
+                "answer": "Una vez finalizado el periodo para ingresar solicitudes de Retiro Total, la DIRCE informa a las Facultades sobre los retiros totales registrados, como se indica en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer un estudiante o persona acreditada para iniciar el tr\u00e1mite de Retiro Total?",
+                "answer": "Para iniciar el tr\u00e1mite de Retiro Total, un estudiante o persona acreditada con carta poder simple debe solicitar la anulaci\u00f3n total de la matr\u00edcula del estudiante en un periodo acad\u00e9mico a trav\u00e9s de la plataforma SIGA-DIRCE, cumpliendo con los requisitos y plazos establecidos en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el plazo m\u00e1ximo para solicitar un Retiro Total excepcional en caso de enfermedad grave de un familiar directo?",
+                "answer": "El plazo m\u00e1ximo para solicitar un Retiro Total excepcional en caso de enfermedad grave de un familiar directo es hasta una semana antes de los ex\u00e1menes finales, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante no realiza el tr\u00e1mite de reincorporaci\u00f3n despu\u00e9s de un Retiro Total?",
+                "answer": "No poseo informaci\u00f3n para responder a esta pregunta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 significa que el Retiro Total se computa como una reserva de matr\u00edcula?",
+                "answer": "Que el Retiro Total se computa como una reserva de matr\u00edcula significa que se considera para efectos de un Retiro Definitivo y que el estudiante deber\u00e1 realizar el tr\u00e1mite de reincorporaci\u00f3n antes de la siguiente matr\u00edcula, como se menciona en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfEn qu\u00e9 circunstancias un Retiro Total es procesado de oficio sin necesidad de solicitud por parte del estudiante?",
+                "answer": "Un Retiro Total es procesado de oficio, es decir, autom\u00e1ticamente sin necesidad de solicitud por parte del estudiante, en caso de fallecimiento del estudiante, como se especifica en el Reglamento de Matr\u00edcula de la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe considerar un estudiante que est\u00e1 pensando en solicitar un Retiro Total cerca de la fecha de ex\u00e1menes parciales?",
+                "answer": "Un estudiante que est\u00e1 pensando en solicitar un Retiro Total cerca de la fecha de ex\u00e1menes parciales debe considerar que el plazo m\u00e1ximo para realizar esta solicitud es hasta una semana antes de dichos ex\u00e1menes, y que debe realizar el tr\u00e1mite a trav\u00e9s de la plataforma SIGA-DIRCE, de acuerdo con el Reglamento de Matr\u00edcula de la UNI. Adem\u00e1s, debe tener en cuenta que si ha rendido todas las evaluaciones regulares de alguna asignatura, no podr\u00e1 solicitar el Retiro Total."
+            }
+        ],
+        "type": "factoid"
+    },
+    {
+        "document": "./documentos/procedimientos/traslado_interno.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfPuede un estudiante solicitar la convalidaci\u00f3n de asignaturas si los s\u00edlabos coinciden en al menos un 75% de su contenido?",
+                "answer": "S\u00ed, un estudiante puede solicitar la convalidaci\u00f3n de asignaturas si los s\u00edlabos coinciden en al menos un 75% de su contenido. Esto est\u00e1 establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda, donde se indica que para que proceda la convalidaci\u00f3n, los respectivos s\u00edlabos de las asignaturas a convalidar deben coincidir al menos en ese porcentaje y en horas dictadas.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario que las asignaturas a convalidar tengan el mismo n\u00famero de cr\u00e9ditos o pueden diferir en uno?",
+                "answer": "Las asignaturas a convalidar deben tener el mismo n\u00famero de cr\u00e9ditos o pueden diferir como m\u00e1ximo en uno, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede la convalidaci\u00f3n de una asignatura con mayor profundidad en el contenido ser considerada por el secretario acad\u00e9mico de la facultad?",
+                "answer": "S\u00ed, la convalidaci\u00f3n de una asignatura con mayor profundidad en el contenido puede ser considerada por el secretario acad\u00e9mico de la facultad, como se menciona en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda, donde se indica que esto es una excepci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfTiene un estudiante el derecho de solicitar la convalidaci\u00f3n de asignaturas en caso de un traslado interno?",
+                "answer": "S\u00ed, un estudiante tiene el derecho de solicitar la convalidaci\u00f3n de asignaturas en caso de un traslado interno, tal como se especifica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe la Escuela Profesional asignar el Plan de Estudios y realizar la convalidaci\u00f3n en un plazo m\u00e1ximo de cinco d\u00edas \u00fatiles despu\u00e9s de la aprobaci\u00f3n del Consejo de Facultad?",
+                "answer": "S\u00ed, la Escuela Profesional debe asignar el Plan de Estudios y realizar la convalidaci\u00f3n en un plazo m\u00e1ximo de cinco d\u00edas \u00fatiles despu\u00e9s de la aprobaci\u00f3n del Consejo de Facultad o autorizaci\u00f3n del Decano, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe consideran las asignaturas cursadas en el semestre inmediato anterior para los traslados internos del segundo semestre?",
+                "answer": "No, para los traslados internos del segundo semestre de cada a\u00f1o, no se consideran las asignaturas cursadas en el semestre inmediato anterior, como se indica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe admite rezago en los traslados internos durante el segundo semestre?",
+                "answer": "No, en el segundo semestre no se admite rezago en los traslados internos, tal como se menciona en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDeben los ingresantes por traslado interno solicitar su primera matr\u00edcula a trav\u00e9s de la Oficina de Estad\u00edstica de la Facultad?",
+                "answer": "S\u00ed, los ingresantes por traslado interno deben solicitar su primera matr\u00edcula a trav\u00e9s de la Oficina de Estad\u00edstica de la Facultad, en coordinaci\u00f3n con la DIRCE-UNI, como se establece en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe realiza la primera matr\u00edcula de los ingresantes en coordinaci\u00f3n con la DIRCE-UNI?",
+                "answer": "S\u00ed, la primera matr\u00edcula de los ingresantes por traslado interno se realiza en coordinaci\u00f3n con la DIRCE-UNI, seg\u00fan lo estipulado en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario presentar un comprobante de pago para el tr\u00e1mite de traslado interno?",
+                "answer": "S\u00ed, es necesario presentar un comprobante de pago por el concepto de traslado interno, como parte de los documentos requeridos en el procedimiento detallado en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el interesado adjuntar su ficha acad\u00e9mica al solicitar el traslado interno?",
+                "answer": "S\u00ed, el interesado debe adjuntar su ficha acad\u00e9mica al presentar su solicitud de traslado interno, tal como se especifica en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfVerifica la Escuela los documentos y requisitos dentro del primer d\u00eda \u00fatil de presentada la solicitud de traslado interno?",
+                "answer": "S\u00ed, la Escuela verifica los documentos y requisitos dentro del primer d\u00eda \u00fatil de presentada la solicitud de traslado interno, como se indica en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede la Escuela solicitar s\u00edlabos a otras Escuelas Profesionales si es necesario?",
+                "answer": "S\u00ed, la Escuela puede solicitar s\u00edlabos a otras Escuelas Profesionales de la UNI si es necesario, seg\u00fan el procedimiento establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfAnaliza el director de Escuela o la Comisi\u00f3n de Matr\u00edcula las solicitudes de traslado interno?",
+                "answer": "S\u00ed, el director de Escuela o la Comisi\u00f3n de Matr\u00edcula analiza las solicitudes de traslado interno, como se menciona en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe inscriben las convalidaciones pertinentes seg\u00fan el Avance Curricular del alumno?",
+                "answer": "S\u00ed, se inscriben las convalidaciones pertinentes seg\u00fan el Avance Curricular del alumno, las notas y las normas de Convalidaci\u00f3n, como se detalla en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede haber convalidaciones posteriores a la matr\u00edcula si quedan notas no registradas?",
+                "answer": "S\u00ed, si quedan notas no registradas, estas ser\u00e1n motivo de convalidaci\u00f3n posterior a la matr\u00edcula, seg\u00fan lo establecido en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el expediente ser enviado al Decano y al Consejo de Facultad para su aprobaci\u00f3n?",
+                "answer": "S\u00ed, con la autorizaci\u00f3n del director, el expediente debe ser enviado al Decano y posteriormente presentado ante el Consejo de Facultad para su aprobaci\u00f3n, como se indica en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEjecuta la DIRCE el cambio de especialidad y/o facultad y las convalidaciones?",
+                "answer": "S\u00ed, la DIRCE ejecuta el cambio de especialidad y/o facultad y las convalidaciones, tal como se menciona en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfGestiona la Oficina de Estad\u00edstica la matr\u00edcula de los estudiantes por traslado interno?",
+                "answer": "S\u00ed, la Oficina de Estad\u00edstica gestiona la matr\u00edcula de los estudiantes por traslado interno, en funci\u00f3n a la solicitud de matr\u00edcula del director de la Escuela Profesional, como se establece en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfRealiza la DIRCE la ejecuci\u00f3n de la matr\u00edcula en el sistema SIGA?",
+                "answer": "S\u00ed, la DIRCE realiza la ejecuci\u00f3n de la matr\u00edcula en el sistema SIGA, como parte del procedimiento final del traslado interno, seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe reciben solicitudes de traslado interno fuera de los plazos establecidos?",
+                "answer": "No, no se recibir\u00e1n solicitudes extempor\u00e1neas de traslado interno, como se indica en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe la DIRCE procesar las convalidaciones en un plazo m\u00e1ximo de cinco d\u00edas \u00fatiles desde su recepci\u00f3n?",
+                "answer": "S\u00ed, la DIRCE debe procesar las convalidaciones realizadas por las Facultades en un plazo m\u00e1ximo de cinco d\u00edas \u00fatiles computados desde su recepci\u00f3n, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario que el interesado presente su solicitud de traslado interno a trav\u00e9s del intranet alumnos/tramites?",
+                "answer": "S\u00ed, es necesario que el interesado presente su solicitud de traslado interno a trav\u00e9s del intranet alumnos/tramites, tal como se especifica en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe la solicitud de traslado interno presentarse antes de la fecha indicada en el calendario acad\u00e9mico?",
+                "answer": "S\u00ed, la solicitud de traslado interno debe presentarse antes de la fecha indicada en el calendario acad\u00e9mico, como se menciona en el procedimiento del Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda."
+            }
+        ],
+        "type": "yes_or_not_answer"
+    },
+    {
+        "document": "./documentos/procedimientos/traslado_interno.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfQu\u00e9 es la convalidaci\u00f3n de asignaturas en el contexto de la UNI y cu\u00e1ndo se considera v\u00e1lida?",
+                "answer": "La convalidaci\u00f3n de asignaturas en la Universidad Nacional de Ingenier\u00eda (UNI) es un acto acad\u00e9mico y administrativo que permite reconocer como v\u00e1lidas las asignaturas de contenido similar y n\u00famero de cr\u00e9ditos igual o similar al de otro Plan de Estudios con respecto a uno vigente en la Escuela Profesional. Se considera v\u00e1lida cuando los s\u00edlabos de las asignaturas a convalidar coinciden al menos en un 75% de su contenido y de horas dictadas, y cuando las asignaturas tienen igual n\u00famero de cr\u00e9ditos o difieren como m\u00e1ximo en uno. Adem\u00e1s, la convalidaci\u00f3n de una asignatura con mayor profundidad en el contenido queda a consideraci\u00f3n del secretario acad\u00e9mico de la facultad.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1les son los requisitos para que un estudiante pueda solicitar la convalidaci\u00f3n de asignaturas?",
+                "answer": "No dispongo de informaci\u00f3n espec\u00edfica sobre todos los requisitos necesarios para que un estudiante pueda solicitar la convalidaci\u00f3n de asignaturas en la UNI, basado en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 se entiende por traslado interno en la UNI y qu\u00e9 implica este procedimiento?",
+                "answer": "El traslado interno en la UNI es un procedimiento que permite a un estudiante de una Escuela Profesional pasar a otra especialidad de su Facultad o de otra, siempre y cuando cumpla con los requisitos acad\u00e9micos y administrativos establecidos. Este procedimiento implica la presentaci\u00f3n de una solicitud, la verificaci\u00f3n de documentos, el an\u00e1lisis de las solicitudes por parte de la Escuela Profesional, la inscripci\u00f3n de convalidaciones pertinentes, la autorizaci\u00f3n del director de Escuela, la aprobaci\u00f3n del Consejo de Facultad y la ejecuci\u00f3n del cambio de especialidad y/o facultad y las convalidaciones por parte de la DIRCE.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el plazo m\u00e1ximo que tienen las Escuelas Profesionales para realizar la convalidaci\u00f3n de asignaturas en caso de traslado interno?",
+                "answer": "El plazo m\u00e1ximo que tienen las Escuelas Profesionales para realizar la convalidaci\u00f3n de asignaturas en caso de traslado interno es de hasta cinco (5) d\u00edas \u00fatiles, contados desde la aprobaci\u00f3n del Consejo de Facultad o autorizaci\u00f3n del Decano, previos al Examen de Admisi\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer la DIRCE una vez que recibe las convalidaciones realizadas por las Facultades?",
+                "answer": "Una vez que la Direcci\u00f3n de Registro Central y Estad\u00edstica (DIRCE) de la UNI recibe las convalidaciones realizadas por las Facultades, debe procesar estas convalidaciones en un plazo m\u00e1ximo de cinco (5) d\u00edas \u00fatiles computados desde su recepci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 restricciones existen para la convalidaci\u00f3n de asignaturas en el segundo semestre del a\u00f1o?",
+                "answer": "Para los traslados internos del segundo semestre de cada a\u00f1o en la UNI, no se consideran para convalidaci\u00f3n las asignaturas cursadas en el semestre inmediato anterior, ya que la presentaci\u00f3n del tr\u00e1mite es antes del cierre del ciclo. Si el estudiante curs\u00f3 asignaturas en ese semestre, deber\u00e1 solicitar su convalidaci\u00f3n posterior a la Verificaci\u00f3n de Matr\u00edcula y las matr\u00edculas adicionales, si fuera el caso. Adem\u00e1s, en el segundo semestre no se admite rezago en los traslados.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo deben solicitar su primera matr\u00edcula los ingresantes a la UNI por traslado interno o externo?",
+                "answer": "Los ingresantes a la UNI por traslado interno o externo deben solicitar su primera matr\u00edcula a la Escuela Profesional correspondiente, y esta matr\u00edcula se realizar\u00e1 a trav\u00e9s de la Oficina de Estad\u00edstica de la Facultad, en coordinaci\u00f3n con la DIRCE-UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 documentos debe presentar un estudiante interesado en realizar un traslado interno?",
+                "answer": "Un estudiante interesado en realizar un traslado interno debe presentar su solicitud a trav\u00e9s del intranet alumnos/tr\u00e1mites, adjuntando el comprobante de pago por el concepto de Traslado Interno y su Ficha Acad\u00e9mica, hasta la fecha que indica el calendario acad\u00e9mico.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 procedimiento sigue la Escuela Profesional una vez que recibe una solicitud de traslado interno?",
+                "answer": "Una vez que la Escuela Profesional recibe una solicitud de traslado interno, debe verificar los documentos y requisitos propios dentro del primer d\u00eda \u00fatil de presentada, registrar el expediente y remitir un correo de recepci\u00f3n al interesado. Posteriormente, si es necesario, solicitar\u00e1 a otras Escuelas Profesionales de la UNI la remisi\u00f3n de s\u00edlabos pertinentes, si el director lo solicita, y atender\u00e1 similares solicitudes de otras Escuelas.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se determinan las convalidaciones pertinentes durante el proceso de traslado interno?",
+                "answer": "Durante el proceso de traslado interno, las convalidaciones pertinentes se determinan mediante el an\u00e1lisis de las solicitudes por parte del director de Escuela o la Comisi\u00f3n de Matr\u00edcula. Se hace uso del formato disponible en la web de la DIRCE, inscribiendo las convalidaciones seg\u00fan el Avance Curricular del alumno, las notas y las normas de Convalidaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 ocurre si hay notas no registradas durante el proceso de convalidaci\u00f3n?",
+                "answer": "Si durante el proceso de convalidaci\u00f3n se encuentran notas no registradas, estas ser\u00e1n motivo de convalidaci\u00f3n posterior a la matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 pasos se deben seguir despu\u00e9s de que el director de Escuela autoriza el expediente de traslado interno?",
+                "answer": "Despu\u00e9s de que el director de Escuela autoriza el expediente de traslado interno, el expediente es enviado al Decano y posteriormente presentado ante el Consejo de Facultad para su aprobaci\u00f3n (mediante Resoluci\u00f3n Decanal) y remisi\u00f3n a la DIRCE.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 rol juega la DIRCE en el cambio de especialidad y/o facultad y las convalidaciones?",
+                "answer": "La DIRCE juega un rol crucial en el cambio de especialidad y/o facultad y las convalidaciones, ya que es la entidad encargada de ejecutar estos cambios y procesar las convalidaciones una vez que han sido aprobadas por el Consejo de Facultad y remitidas por las Escuelas Profesionales.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se gestiona la matr\u00edcula de los estudiantes por traslado interno?",
+                "answer": "La matr\u00edcula de los estudiantes por traslado interno se gestiona a trav\u00e9s de la Oficina de Estad\u00edstica, que act\u00faa en funci\u00f3n a la solicitud de matr\u00edcula del director de la Escuela Profesional. Finalmente, la DIRCE realiza la ejecuci\u00f3n de la matr\u00edcula en el sistema SIGA.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sistema utiliza la DIRCE para ejecutar la matr\u00edcula de los estudiantes?",
+                "answer": "La DIRCE utiliza el sistema SIGA para ejecutar la matr\u00edcula de los estudiantes en la UNI.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante presenta una solicitud de traslado interno fuera del plazo establecido?",
+                "answer": "Si un estudiante presenta una solicitud de traslado interno fuera del plazo establecido, la solicitud no ser\u00e1 recibida, ya que el reglamento indica que no se recibir\u00e1n solicitudes extempor\u00e1neas.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 papel desempe\u00f1a la Oficina de Estad\u00edstica en el proceso de traslado interno?",
+                "answer": "La Oficina de Estad\u00edstica desempe\u00f1a el papel de gestionar la matr\u00edcula de los estudiantes por traslado interno, actuando en coordinaci\u00f3n con la DIRCE y en funci\u00f3n a la solicitud de matr\u00edcula del director de la Escuela Profesional.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 informaci\u00f3n debe verificar la Escuela Profesional dentro del primer d\u00eda \u00fatil tras recibir una solicitud de traslado interno?",
+                "answer": "Dentro del primer d\u00eda \u00fatil tras recibir una solicitud de traslado interno, la Escuela Profesional debe verificar los documentos y requisitos propios, registrar el expediente y remitir un correo de recepci\u00f3n al interesado.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si durante el an\u00e1lisis de las solicitudes de traslado interno se requieren s\u00edlabos de otras Escuelas Profesionales?",
+                "answer": "Si durante el an\u00e1lisis de las solicitudes de traslado interno se requieren s\u00edlabos de otras Escuelas Profesionales, la Escuela Profesional que gestiona el traslado solicitar\u00e1 la remisi\u00f3n de los s\u00edlabos pertinentes a las otras Escuelas Profesionales de la UNI, si el director lo solicita, y atender\u00e1 similares solicitudes de otras Escuelas.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer un estudiante si curs\u00f3 asignaturas en el semestre inmediato anterior al segundo semestre y desea su convalidaci\u00f3n?",
+                "answer": "Si un estudiante curs\u00f3 asignaturas en el semestre inmediato anterior al segundo semestre y desea su convalidaci\u00f3n, debe solicitar la convalidaci\u00f3n posterior a la Verificaci\u00f3n de Matr\u00edcula y las matr\u00edculas adicionales, si fuera el caso, ya que estas asignaturas no se consideran para convalidaci\u00f3n en el proceso de traslado interno del segundo semestre.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se comunica la Escuela Profesional con el estudiante una vez que se ha verificado la documentaci\u00f3n de traslado interno?",
+                "answer": "La Escuela Profesional se comunica con el estudiante una vez que se ha verificado la documentaci\u00f3n de traslado interno mediante el env\u00edo de un correo de recepci\u00f3n al interesado.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 criterios se toman en cuenta para inscribir las convalidaciones durante el proceso de traslado interno?",
+                "answer": "Para inscribir las convalidaciones durante el proceso de traslado interno, se toman en cuenta el Avance Curricular del alumno, las notas y las normas de Convalidaci\u00f3n. El director de Escuela o la Comisi\u00f3n de Matr\u00edcula realiza esta inscripci\u00f3n utilizando el formato disponible en la web de la DIRCE.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 tipo de autorizaci\u00f3n se necesita para que un expediente de traslado interno sea presentado ante el Consejo de Facultad?",
+                "answer": "Se necesita la autorizaci\u00f3n del director de Escuela para que un expediente de traslado interno sea presentado ante el Consejo de Facultad. Una vez autorizado, el expediente es enviado al Decano y luego al Consejo de Facultad para su aprobaci\u00f3n mediante Resoluci\u00f3n Decanal.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 acciones realiza la DIRCE una vez que se han registrado las convalidaciones?",
+                "answer": "Una vez que se han registrado las convalidaciones, la DIRCE ejecuta el cambio de especialidad y/o facultad y las convalidaciones, y posteriormente realiza la ejecuci\u00f3n de la matr\u00edcula en el sistema SIGA.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 ocurre con las solicitudes de traslado interno que no cumplen con los requisitos acad\u00e9micos y administrativos?",
+                "answer": "No dispongo de informaci\u00f3n espec\u00edfica sobre el procedimiento exacto que se sigue con las solicitudes de traslado interno que no cumplen con los requisitos acad\u00e9micos y administrativos en la UNI, basado en la informaci\u00f3n proporcionada."
+            },
+            {
+                "question": "\u00bfQu\u00e9 tipo de comprobante debe adjuntar el estudiante al presentar su solicitud de traslado interno?",
+                "answer": "Seg\u00fan el procedimiento de Traslado Interno del Reglamento de Matr\u00edcula Aprobado R.R. N\u00b0 0570 del "
+            },
+            {
+                "question": "03.22 de la Universidad Nacional de Ingenier\u00eda (UNI), el estudiante debe adjuntar un comprobante de pago por el concepto de Traslado Interno al presentar su solicitud. Este comprobante es uno de los documentos requeridos para iniciar el proceso de traslado interno dentro de la universidad.\n\n2. \u00bfQu\u00e9 sucede con las asignaturas que difieren en n\u00famero de cr\u00e9ditos durante el proceso de convalidaci\u00f3n?",
+                "answer": "De acuerdo con el Reglamento de Matr\u00edcula Aprobado R.R. N\u00b0 0570 del "
+            },
+            {
+                "question": "03.22 de la Universidad Nacional de Ingenier\u00eda (UNI), las asignaturas que se desean convalidar deben tener un n\u00famero de cr\u00e9ditos igual o diferir como m\u00e1ximo en uno para que la convalidaci\u00f3n proceda. Si la diferencia de cr\u00e9ditos es mayor, la convalidaci\u00f3n no se realizar\u00eda bajo las condiciones normales, a menos que se trate de una excepci\u00f3n aprobada por el secretario acad\u00e9mico de la facultad.\n\n3. \u00bfQu\u00e9 excepciones pueden considerarse en la convalidaci\u00f3n de una asignatura con mayor profundidad en el contenido?",
+                "answer": "El Reglamento de Matr\u00edcula Aprobado R.R. N\u00b0 0570 del "
+            },
+            {
+                "question": "03.22 de la Universidad Nacional de Ingenier\u00eda (UNI) establece que, por excepci\u00f3n, la convalidaci\u00f3n de una asignatura con mayor profundidad en el contenido queda a la consideraci\u00f3n del secretario acad\u00e9mico de la facultad. Esto implica que si una asignatura tiene un contenido m\u00e1s profundo que la asignatura equivalente en el plan de estudios, el secretario acad\u00e9mico tiene la discreci\u00f3n de aprobar la convalidaci\u00f3n a pesar de las diferencias.\n\n4. \u00bfQu\u00e9 responsabilidad tiene la Direcci\u00f3n de Admisi\u00f3n (DIAD) en el proceso de traslado interno?",
+                "answer": "En el proceso de traslado interno, la Direcci\u00f3n de Admisi\u00f3n (DIAD) de la Universidad Nacional de Ingenier\u00eda (UNI) no tiene una responsabilidad directamente mencionada en el fragmento del reglamento proporcionado. La DIAD es mencionada en relaci\u00f3n con los traslados externos, segunda profesi\u00f3n y convenios nacionales o internacionales, pero no en el contexto de traslados internos. Por lo tanto, no puedo proporcionar una respuesta basada en la informaci\u00f3n proporcionada.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer un estudiante si encuentra discrepancias en las convalidaciones realizadas tras su traslado interno?",
+                "answer": "Aunque el fragmento del Reglamento de Matr\u00edcula Aprobado R.R. N\u00b0 0570 del "
+            }
+        ],
+        "type": "factoid"
+    }
+]

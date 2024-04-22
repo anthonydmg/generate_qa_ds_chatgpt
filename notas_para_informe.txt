@@ -1,0 +1,57 @@
+
+Esto valida el criterio o enfoque de entrenamiento y alineacion
+ZEPHYR: DIRECT DISTILLATION OF LM ALIGNMENT,
+De aqui puedo sacar trabajos relacionados
+
+# Justifica el hecho que los LLM sean usados como jueces
+Nuestros resultados revelan que los jueces de LLM fuertes como GPT-4 pueden igualar bien las preferencias humanas controladas y colaborativas, logrando más del 80% de acuerdo, el mismo nivel de acuerdo entre humanos.
+
+# Si bien la evaluación humana es el estándar de oro para evaluar las preferencias humanas, es excepcionalmente lenta y costosa. Para automatizar la evaluación, exploramos el uso de LLM de última generación, como GPT-4, como sustituto de los humanos.
+# A este enfoque lo llamamos "LLM-como-juez".
+# Si bien los puntos de referencia LLM existentes los pasan por alto en gran medida, las preferencias humanas sirven como una medida directa de la utilidad de un chatbot en interacciones abiertas y de múltiples turnos entre humanos y IA. Para cerrar esta brecha, presentamos dos puntos de referencia novedosos expresamente diseñados para evaluar las preferencias humanas. Al mismo tiempo, estos puntos de referencia están diseñados para distinguir las capacidades principales de los modelos de última generación.
+
+Este el meto para DPO
+
+Direct Preference Optimization:
+Your Language Model is Secretly a Reward Model
+
+
+Enhancing Chat Language Models by Scaling (Como se genero el ultrachat)
+Aqui comiar la forma de describir como se genero los datos de entrenamiento
+
+
+## Leer esto para la evaluación
+LMSYS-CHAT-1M: A LARGE-SCALE REAL-WORLD
+LLM CONVERSATION DATASET
+
+Hipotesis
+
+Es factible mediante un enfoque generacion de datos sinteticos con un LLM como GPT4, ajustar y alinear un LLM mediano al dominio específico de una Facultad Universitaria con el fin de desarrollar un Asistente de AI. Este asistente se espera que tenga la capacidad de comprender y generar lenguaje de manera precisa y efectiva, proporcionando respuestas informativas a las consultas de los usuarios sobre temas relacionados con cursos, eventos y recursos universitarios.
+utilizar un enfoque de generacion de datos sisteticos
+
+técnicas de NLP y DL, como el modelado de lenguaje basado en transformers, para ajustar un LLM al dominio específico de una Facultad Universitaria con el fin de desarrollar un asistente de IA. Este asistente se espera que tenga la capacidad de comprender y generar lenguaje de manera precisa y efectiva, proporcionando respuestas informativas a las consultas de los usuarios sobre temas relacionados con cursos, eventos y recursos universitarios.
+
+explicame si esta hipotesis de una tesis esta bien o mal planteada:Es factible mediante un enfoque generacion de datos sinteticos con un LLM como GPT4, ajustar y alinear un LLM mediano al dominio específico de una Facultad Universitaria con el fin de desarrollar un Asistente de AI. Este asistente se espera que tenga la capacidad de comprender y generar lenguaje de manera precisa y efectiva, proporcionando respuestas informativas a las consultas de los usuarios sobre temas relacionados con cursos, eventos y recursos universitarios.
+
+Hipótesis mejorada:
+
+"Es factible desarrollar un Asistente de IA para una Facultad Universitaria mediante un enfoque de generación de datos sintéticos y ajuste de un Modelo de Lenguaje de Gran Escala (LLM), como GPT4, al dominio específico de la institución. Este Asistente se espera que tenga la capacidad de comprender y generar lenguaje de manera precisa y efectiva, proporcionando respuestas informativas a las consultas de los usuarios sobre cursos, eventos y recursos universitarios.
+
+Este estudio se centrará en la generación de datos sintéticos que reflejen los tipos de consultas y respuestas que se esperan en el contexto universitario, así como en el proceso de ajuste y alineación del LLM a estas necesidades específicas. Se emplearán técnicas avanzadas de ajuste y transferencia de aprendizaje para adaptar el modelo a las características del lenguaje y la terminología utilizada en la Facultad.
+
+La viabilidad de este enfoque se respaldará mediante la revisión exhaustiva de literatura relacionada con el uso de LLMs en tareas de procesamiento de lenguaje natural y el análisis de casos de estudio similares. Además, se llevarán a cabo experimentos prácticos para evaluar la efectividad y precisión del Asistente desarrollado en comparación con otros enfoques existentes.
+
+El éxito de este proyecto se medirá mediante métricas de rendimiento específicas, como la precisión de las respuestas generadas, la cobertura de consultas atendidas y la satisfacción del usuario. Se espera que el Asistente de IA resultante sea una herramienta útil y eficaz para la comunidad universitaria, mejorando la accesibilidad y la experiencia general de los usuarios al interactuar con los recursos y servicios de la Facultad."
+
+Para la hipositesis si es factible implentar una ai asistente a partir de una lista de preguntas y respuestas con la generacion de datos sinteticos y destilacion de modelos abiertos con chatpgt
+
+
+# Metodologia
+Se recolecto un total de 56 consultas envidas por correos a la oficina de Aera, a partir de las cuales se identificaron temas relevantes para alumnos.
+Para responder estos temas se crearon 20 pares de consultas y respuenes que abarcan todo la informacion necesaria para responder a las consultas.
+Ademas se usaron los documentos de los reglamentos y procedimientos de las Faculta de ciencias en donde se indentificaros temas relevantes para alumnos, apartir de los cuales se crearon preguntas y respuestas. El proceso es resumano en la figura
+
+# con el uso de las 50 pregunras y respuestas resultantes, se creo datos sinteticos de conversaciones entre un asistente de AI y un esutdiante universitario de FC,
+# Paro ello siguo el proceso mostrado en. 
+
+## Cologar preguntas recolectadas del ano 2021 de las cuales sacamos estos temas 3

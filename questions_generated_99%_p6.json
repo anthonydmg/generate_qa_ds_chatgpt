@@ -1,0 +1,30 @@
+[
+    {
+        "context": "Postergacion Matricula\nPOSTERGACI\u00d3N DE LA MATR\u00cdCULA\n(Del Reglamento de Admisi\u00f3n Aprobado con R.R. N\u00b0 0091 del 24.01.23)\n\nDe la condici\u00f3n de estudiante:\n(...)\nArt. 106. El ingresante podr\u00e1 solicitar postergaci\u00f3n de matr\u00edcula, solo para el semestre acad\u00e9mico inmediato siguiente al semestre en el que ingres\u00f3, en las fechas se\u00f1aladas en el cronograma de actividades.\n\nPara mayor informaci\u00f3n consultar el Reglamento de Admisi\u00f3n.\n",
+        "topic": "Postergacion Matricula",
+        "source_context": "./documentos/matricula/postergacion_matricula.txt",
+        "questions": [
+            "\u00bfCu\u00e1l es el procedimiento y plazo que un estudiante recién ingresado debe seguir para solicitar la postergaci\u00f3n de su matr\u00edcula en la UNI, seg\u00fan las normas de admisi\u00f3n actualizadas?",
+            "\u00bfD\u00f3nde pueden los estudiantes de la UNI encontrar informaci\u00f3n detallada sobre las normativas y condiciones aplicables a la postergaci\u00f3n de matr\u00edcula?"
+        ],
+        "type": "factoid"
+    },
+    {
+        "context": "Condiciones Para Matricula En Asignaturas\nCondiciones para la Matricula en Asignaturas\n\nArt. 49\u00b0 El estudiante se matricular\u00e1 s\u00f3lo en las asignaturas que corresponden a su Plan de Estudios de su especialidad. Quien haya solicitado matr\u00edcula en asignaturas de otra especialidad de la UNI, primero har\u00e1 su Matricula ordinaria y reservar\u00e1 cr\u00e9ditos para esas adicionales, las que se registrar\u00e1n mediante oficio ante la DIRCE.\n\nArt. 50\u00b0 La matr\u00edcula en una asignatura procede:\n\t\ta. Si el prerrequisito de la asignatura ha sido aprobado.\n\t\tb. Si se ha solicitado la matr\u00edcula en las asignaturas pendientes de menor ciclo y en riesgo acad\u00e9mico.\n\t\tc. Si no existen cruces entre los horarios de las asignaturas-secci\u00f3n, y de las sesiones si corresponde, registradas en la matr\u00edcula.\n\t\td. Si no existen cruces entre los horarios de pr\u00e1cticas o laboratorios de dos asignatura-secci\u00f3n. De manera excepcional, se aceptan los siguientes cruces de dos asignaturas:\n\t\t\t-\tHasta cuatro (04) horas de cruces de horarios de solo teor\u00eda con teor\u00eda de dos asignatura-secci\u00f3n, siendo las horas no necesariamente consecutivas.\n\t\t\t-\tHasta dos (02) horas de cruces de horario de teor\u00eda con horarios de pr\u00e1ctica o laboratorios, no necesariamente consecutivas.\n\t\t\t-\tHasta dos (02) horas de cruces de horarios de teor\u00eda con horarios de pr\u00e1ctica o laboratorios y hasta dos (02) horas de cruces de horarios de solo teor\u00eda con teor\u00eda, no necesariamente consecutivos.\n\nArt. 54\u00b0 El estudiante que haya aprobado los cinco (05) primeros ciclos de su Plan de Estudios o un n\u00famero de cr\u00e9ditos equivalente a estos, podr\u00e1 matricularse en las asignaturas electivas en las que cumplan con el prerrequisito.\n\t\tPuede considerarse como prerrequisito una determinada cantidad de cr\u00e9ditos aprobados acumulados.\n\nArt. 55\u00b0 El estudiante que haya aprobado el n\u00famero total de cr\u00e9ditos exigidos en el Plan de Estudios de su especialidad, ser\u00e1 considerado autom\u00e1ticamente en la condici\u00f3n de \"Curr\u00edculo completo\" y por ello, eximido de los efectos del Reglamento de Matricula. \n\nArt. 56\u00b0 El estudiante considerado \"Curr\u00edculo Completo\" o que haya tramitado su Constancia de Egresado, podr\u00e1 inscribirse como estudiante libre en cualquier asignatura, abonando los derechos correspondientes al de estudiante libre. A la aprobaci\u00f3n de dichas asignaturas se le podr\u00e1 otorgar un certificado de capacitaci\u00f3n expedido por la Facultad.\n",
+        "topic": "Condiciones Para Matricula En Asignaturas",
+        "source_context": "./documentos/matricula/condiciones_para_matricula_en_asignaturas.txt",
+        "questions": [
+            "\u00bfCu\u00e1les son los criterios que debe cumplir un estudiante de la UNI para inscribirse en asignaturas de su especialidad?",
+            "\u00bfQu\u00e9 condiciones espec\u00edficas se deben cumplir para que la inscripci\u00f3n en una asignatura sea aceptada?",
+            "\u00bfCu\u00e1ntas horas de cruce entre horarios de teor\u00eda y pr\u00e1ctica o laboratorio son permitidas excepcionalmente?",
+            "\u00bfQu\u00e9 requisitos debe cumplir un estudiante para inscribirse en asignaturas electivas?",
+            "\u00bfC\u00f3mo puede afectar el n\u00famero de cr\u00e9ditos aprobados acumulados a la posibilidad de matricularse en asignaturas electivas?",
+            "\u00bfQu\u00e9 significa estar en la condici\u00f3n de \"Curr\u00edculo completo\" y c\u00f3mo afecta esto al proceso de inscripci\u00f3n?",
+            "\u00bfQu\u00e9 derechos y certificaciones puede obtener un estudiante con \"Curr\u00edculo completo\" o con Constancia de Egresado al inscribirse en asignaturas adicionales?",
+            "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que desee matricularse en asignaturas de otra especialidad dentro de la UNI?",
+            "\u00bfQu\u00e9 se entiende por matr\u00edcula ordinaria y c\u00f3mo se relaciona con la reserva de cr\u00e9ditos para asignaturas adicionales de otras especialidades?",
+            "\u00bfQu\u00e9 implicaciones tiene para un estudiante el no cumplir con los prerrequisitos de una asignatura o tener cruces de horario no permitidos en su matr\u00edcula?"
+        ],
+        "type": "factoid"
+    }
+]

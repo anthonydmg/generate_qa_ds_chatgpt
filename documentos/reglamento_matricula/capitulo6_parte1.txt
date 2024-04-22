@@ -1,10 +1,12 @@
+REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE ANTEGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA 
+
 CAPÍTULO VI
 DEL NÚMERO DE CRÉDITOS A MATRICULAR
 Art. 57° El estudiante podrá matricularse en un número máximo de créditos, según los siguientes casos:
 	a. La primera matrícula de un estudiante es responsabilidad de la Escuela Profesional correspondiente y estará a cargo de la Comisión de Matrícula de la Facultad. La inscripción luego de su admisión a una especialidad de la universidad, se considerará como su primera matrícula.
 	b. El estudiante que haya aprobado en primera matrícula todas las asignaturas del primer ciclo podrá matricularse en todas las asignaturas del segundo ciclo; además, podrá adelantar como máximo dos asignaturas, en los casos que su promedio ponderado sea igual o mayor a doce (12) y que el plan de estudios lo permita.
 	c. El que haya cursado solo el primer ciclo y no esté comprendido en el inciso anterior, el número de créditos máximo a matricular está indicado en la Tabla 1.
-	d. No procede la matrícula en asignaturas cuyo requisito no haya sido aprobado. \
+	d. No procede la matrícula en asignaturas cuyo requisito no haya sido aprobado.
 	e. La matrícula se realizará teniendo en cuenta el promedio ponderado de los dos últimos semestres académicos como alumno regular, de acuerdo con la Tabla 1 adjunta:
                                   
                                    TABLA 1
@@ -12,7 +14,7 @@ Art. 57° El estudiante podrá matricularse en un número máximo de créditos, 
 		|         Promedio Ponderado        |  Cantidad Máxima de Créditos   |
 		| (Dos últimos Períodos Académicos) |                                |
 		|-----------------------------------|--------------------------------|
-		|     [14,20 >                      |             28                 |
+		|     [14,20 ]                      |             28                 |
 		|     [12,14 >                      |             26                 |
 		|     [10,12 >                      |             24                 |
 		|     [08,10 >                      |             18                 |
@@ -20,6 +22,7 @@ Art. 57° El estudiante podrá matricularse en un número máximo de créditos, 
 
 	f. Para determinar la cantidad de créditos de la matrícula de los estudiantes en riesgo académico no se considerará la Tabla 1. Las asignaturas y la cantidad en las que podrá matricularse serán recomendadas por la Oficina de Tutoría y Comisión de Matricula de su Facultad.
 
+Nota 2: La norma que establece que el estudiante tiene derecho a matricularse en las asignaturas que pertenescan hasta a tres (03) ciclos consecutivos quiere decir que si por ejemplo un estudiante está en el tercer ciclo, puede elegir matricularse en cursos del tercer, cuarto y quinto ciclo, pero no en cursos del sexto ciclo. Si embargo es obligatorio matricularse primero en los cursos del ciclo más atrasado en este caso del tercer ciclo.
 
 Art. 58° El estudiante tiene derecho a matricularse en las asignaturas pertenecientes a tres (03) ciclos consecutivos (dispersión: 3), debiéndose matricular necesariamente, en las asignaturas obligatorias del ciclo más atrasado y las desaprobadas por dos (02) veces, no pudiendo retirarse de dichas asignaturas. Para este caso, un (01) ciclo completamente aprobado por el estudiante, no cuenta dentro de los tres ciclos consecutivos.
 

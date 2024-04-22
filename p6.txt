@@ -1,0 +1,76 @@
+Reformula las siguientes preguntas para hacerlas mas especificas y precisas en cuanto al tema y contexto sobre el que se consultan, descrito en la informacion delimitada por tres comillas invertidas. Es importante que las preguntas se formulen de manera que se evita ambuguidad sobre la informacion consultada y se obtenga respuestas mas precisas y especificas.
+Evita mencionar articulos especificos en las preguntas.
+
+Reformula las preguntas para enfocarlas en el tema específico, eliminando cualquier ambigüedad y asegurándote de hacer referencia al contexto proporcionado. Verifica que las preguntas sean claras, precisas y exactas.
+Lo cual implica hacer referencia explícita al contexto proporcionado y asegurarse de que las preguntas sean claras y directas.
+
+Reformula cada una de las siguientes de manera que se enfoquen de manera mas clara en el tema especifico tratado en la pregunta original y en la informacion explícita descrita y bien desarrallada en la informacion delimitada por tres comillas invertidas, evitando ambigüedades.
+
+Responde cada una de las siguientes consultas de manera clara, completa y consisa usando la informacion delimitada por tres comillas invertidas.
+Presenta las respuestas de la siguiendo manera:
+1. [Aqui la pregunta]
+Respuesta: [Aqui la respuesta]
+...
+
+lista de preguntas:
+1. ¿Qué se considera como la primera matrícula de un estudiante?
+2. ¿Qué sucede si un estudiante ha cursado solo el primer ciclo y no está comprendido en la excepción mencionada?
+3. ¿Cómo se determina la cantidad máxima de créditos que puede matricular un estudiante que ha cursado uno o más ciclos?
+4. ¿Qué promedio ponderado se considera para determinar la cantidad máxima de créditos que puede matricular un estudiante que ha cursado uno o más ciclos?
+5. ¿Qué sucede si un estudiante ha cursado uno o más ciclos y su promedio ponderado está entre 14 y 20?
+
+Información: ```Numero Creditos A Matricular
+La siguiente información proviene del REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE PREGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA, CAPÍTULO VI
+
+DEL NÚMERO DE CRÉDITOS A MATRICULAR
+Art. 57° El estudiante podrá matricularse en un número máximo de créditos, según los siguientes casos:
+        a. La primera matrícula de un estudiante es responsabilidad de la Escuela Profesional correspondiente y estará a cargo de la Comisión de Matrícula de la Facultad. La inscripción luego de su admisión a una especialidad de la universidad, se considerará como su primera matrícula.
+        b. El estudiante que haya aprobado en la primera matrícula todas las asignaturas del primer ciclo podrá matricularse en todas las asignaturas del segundo ciclo; además, podrá adelantar como máximo dos asignaturas, en los casos que su promedio ponderado sea igual o mayor a doce (12) y que el plan de estudios lo permita.
+        c. El que haya cursado solo el primer ciclo y no esté comprendido en el inciso anterior, el número de créditos máximo a matricular está indicado en la Tabla 1.
+        d. No procede la matrícula en asignaturas cuyo requisito no haya sido aprobado.
+        e. La matrícula para los estudiantes que hayan cursado uno o mas ciclos y no esten comprendidos en el inciso b se realizará teniendo en cuenta el promedio ponderado de los dos últimos semestres académicos como alumno regular, de acuerdo con la Tabla 1 adjunta:
+                                  
+                                   TABLA 1
+
+                |         Promedio Ponderado        |  Cantidad Máxima de Créditos   |
+                | (Dos últimos Períodos Académicos) |                                |
+                |-----------------------------------|--------------------------------|
+                |     [14, 20]                      |             28                 |
+                |     [12, 14>                      |             26                 |
+                |     [10, 12>                      |             24                 |
+                |     [08, 10>                      |             18                 |
+                |     [00, 08>                      |             15                 |  
+
+        f. Para determinar la cantidad de créditos de la matrícula de los estudiantes en riesgo académico no se considerará la Tabla 1. Las asignaturas y la cantidad en las que podrá matricularse serán recomendadas por la Oficina de Tutoría y Comisión de Matricula de su Facultad.
+
+
+Art. 58° El estudiante tiene derecho a elegir matricularse solo en las asignaturas que dentro de su plan de estudios pertenescan a tres ciclos consecutivos, debiéndose matricular necesariamente, en las asignaturas obligatorias del ciclo más atrasado y las desaprobadas por dos (02) veces, no pudiendo retirarse de dichas asignaturas. Para este caso, un (01) ciclo completamente aprobado por el estudiante, no cuenta dentro de los tres ciclos consecutivos. Por ejemplo, un estudiante que se encuentra en el tercer ciclo relativo pero no ha completado algunas asignaturas correspondientes al segundo ciclo en su plan de estudios, puede elegir matricularse en cursos que pertenezcan al segundo, tercer y cuarto ciclo en su plan de estudios, pero no en cursos del quinto ciclo. Por ejemplo, un estudiante que se encuentra en el tercer ciclo relativo y ha completado todas las asignaturas correspondientes al segundo ciclo en su plan de estudios, puede elegir matricularse en cursos que pertenezcan al tercer, cuarto y quinto ciclo en su plan de estudios, pero no en cursos del sexto ciclo. Además, es obligatorio matricularse primero en los cursos del ciclo más atrasado, en este caso, del tercer ciclo. Sin embargo, en otro ejemplo donde el estudiante se encuentra en tercer ciclo relativo pero no ha aprobado todas las asignaturas correspondientes al segundo ciclo en su plan de estudios, podrá elegir matricularse en cursos que pertenezcan al segundo, tercer y quinto ciclo, siendo obligatorio matricularse primero en los cursos del segundo ciclo. En ambos casos, si tiene cursos desaprobados por segunda vez, también deberá matricularse de manera obligatoria en dichos cursos.
+Art. 59° Por excepción, la Comisión de Matrícula permite la matrícula en las asignaturas que pertenescan a un ciclo consecutivo adicional al tercer ciclo consecutivo ya permitido, a aquellos estudiantes que no completen la cantidad máxima de créditos, establecidos en la Tabla 1, respetando las restricciones del Plan de Estudios y que no tengan asignaturas desaprobadas dos (02) o más veces. Están incursos en la presente excepción los estudiantes que provienen de traslados internos, externos o 2da. profesión, si lo requieren y hasta que logren nivelar el avance de sus estudios. La excepción se repetirá , siempre y cuando aprueben las asignaturas de sus dos ciclos más atrasados.
+
+Art. 60° El estudiante que a la fecha de la matrícula le falte a lo más treinta (30) créditos de su Plan de Estudios para egresar, incluyendo los créditos por idioma, prácticas pre profesionales y actividades extracurriculares; será considerado como "estudiante en posibilidad de egresar". En esta condición, podrá solicitar su inclusión en la Matrícula Preferencial y se le permitirá matrícula hasta en treinta (30) créditos, siempre que dentro de este creditaje no exista una asignatura desaprobada dos (02) veces y no le falte la asignación de los créditos por prácticas pre- profesionales. Si le faltase esta asignación, los créditos se descontarán de los 30 créditos permitidos.
+
+A los alumnos de Matrícula Preferencial se les permitirá la matrícula en una asignatura sección y su respectivo prerrequisito. De manera excepcional, si una asignatura es prerrequisito para dos diferentes asignaturas, el alumno podrá solicitar esta matrícula y quedará en la comisión de matrícula el aprobar o no dicha solicitud. La Facultad con un día hábil de anticipación enviará a la DIRCE el listado evaluado, previa verificación, de los "estudiantes en posibilidad de egresar" para que puedan proceder con su matrícula regular.
+
+Nota 1: En la primera matricula de un estudiante (matricula de un nuevo ingresante al primer ciclo) el alumno será matriculado en todas las asignaturas correspondiente al primer ciclo segun el plan de estudios de su especialidad o carrera universitaria.
+
+Nota 2: Los planes de estudios de las carreras universitarias en la UNI suelen comprender 10 ciclos académicos con una carga académica de alrededor de 20 créditos por ciclo.
+```
+
+Refina las siguientes preguntas para que sean mas claras y especificas segun sus respuestas.
+
+Reformula las preguntas para enfocarlas en el tema específico descrito en sus respuestas, eliminando cualquier ambigüedad
+
+1. ¿Qué se considera como la primera matrícula de un estudiante?
+Respuesta: La primera matrícula de un estudiante se considera cuando el alumno es admitido en una especialidad de la universidad y se inscribe en ella, lo que implica la matrícula en todas las asignaturas correspondientes al primer ciclo según el plan de estudios de su especialidad o carrera universitaria.
+
+2. ¿Qué sucede si un estudiante ha cursado solo el primer ciclo y no está comprendido en la excepción mencionada?
+Respuesta: Si un estudiante ha cursado solo el primer ciclo y no está comprendido en la excepción mencionada, el número máximo de créditos a matricular está indicado en la Tabla 1 del reglamento de matrícula para estudiantes de pregrado de la universidad.
+
+3. ¿Cómo se determina la cantidad máxima de créditos que puede matricular un estudiante que ha cursado uno o más ciclos?
+Respuesta: La cantidad máxima de créditos que puede matricular un estudiante que ha cursado uno o más ciclos se determina teniendo en cuenta el promedio ponderado de los dos últimos semestres académicos como alumno regular, según la Tabla 1 adjunta en el reglamento de matrícula.
+
+4. ¿Qué promedio ponderado se considera para determinar la cantidad máxima de créditos que puede matricular un estudiante que ha cursado uno o más ciclos?
+Respuesta: Para determinar la cantidad máxima de créditos que puede matricular un estudiante que ha cursado uno o más ciclos, se considera el promedio ponderado de los dos últimos semestres académicos como alumno regular, según la Tabla 1 del reglamento de matrícula.
+
+5. ¿Qué sucede si un estudiante ha cursado uno o más ciclos y su promedio ponderado está entre 14 y 20?
+Respuesta: Si un estudiante ha cursado uno o más ciclos y su promedio ponderado está entre 14 y 20, podrá matricular un máximo de 28 créditos, según la Tabla 1 del reglamento de matrícula para estudiantes de pregrado de la universidad.

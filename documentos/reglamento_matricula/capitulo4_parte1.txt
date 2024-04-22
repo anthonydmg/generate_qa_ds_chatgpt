@@ -1,3 +1,5 @@
+REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE ANTEGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA 
+
 CAPÍTULO IV
 PREPARACIÓN Y PREVISIONES DEL PROCESO DE MATRÍCULA
 
@@ -8,15 +10,12 @@ Art. 35° La organización de la matrícula y programación de asignaturas se ha
 
 Estas comprenden las siguientes acciones:
 			-	Cada Departamento Académico presenta su oferta de asignaturas-sección y asignatura-sección-sesión, docentes y horarios a lo más, tres semanas antes de concluir el ciclo semestral anterior; considerando que los Horarios del ciclo previo constituyen propuesta inicial para el siguiente. Podrá solicitar cambios de horarios en la menor medida posible.
-
 			-	Deberán considerar que los profesores a tiempo completo dictan de lunes a viernes con una carga horaria distribuida en al menos tres días.
 			-	La Comisión de Matrícula compulsa propuestas, reajusta y consolida horarios para cada periodo académico , verificando el respeto a cada Plan de Estudios. Estos no deben tener cruces en el mismo ciclo, y en lo posible sin cruces excluyentes con el anterior y posterior.
 
 Art. 36° La Comisión de Matrícula debe establecer la cantidad de vacantes por cada asignatura sección, teniendo en cuenta la capacidad de las aulas, y laboratorios, talleres y la disponibilidad de docentes. Para ello debe planificar con anticipación la cantidad de secciones por asignatura en base a la información procesada y proporcionada, para dicho fin, por la ORCE-UNI.
-
-Para calcular las vacantes por asignatura-sección y asignatura-sección-sesión, cada OERA, con el cierre de notas de las asignaturas elaborará el listado de posibles matriculados (en números) de las asignaturas que siguen, para el periodo siguiente. Con el cierre total de notas, elevará dicho listado a la Comisión de Matrícula.
-
-La ORCE deberá proveer a la Comisión de Matrícula de cada Facultad información estadística referente a los estudiantes que han aprobado y desaprobado una asignatura en el periodo académico anterior; a partir del segundo día útil después del cierre efectivo de notas de la Facultad. Ello permitirá confirmar o modificar las vacantes.
+		Para calcular las vacantes por asignatura-sección y asignatura-sección-sesión, cada OERA, con el cierre de notas de las asignaturas elaborará el listado de posibles matriculados (en números) de las asignaturas que siguen, para el periodo siguiente. Con el cierre total de notas, elevará dicho listado a la Comisión de Matrícula.
+		La ORCE deberá proveer a la Comisión de Matrícula de cada Facultad información estadística referente a los estudiantes que han aprobado y desaprobado una asignatura en el periodo académico anterior; a partir del segundo día útil después del cierre efectivo de notas de la Facultad. Ello permitirá confirmar o modificar las vacantes.
 
 Art. 37° El Director de Escuela Profesional presentará ante Consejo de Facultad, para su aprobación, los horarios de clases y las vacantes, para las asignaturas-sección programadas. Asimismo, los criterios para su modificación, si el proceso lo requiriera (Secciones o sesiones y horarios a recortar o adicionar). A continuación, y considerando la totalidad de la información, deberá establecer, en coordinación con la ORCE, los turnos de matrícula.
 
@@ -24,9 +23,21 @@ Art. 38° El Jefe de ORCE, bajo responsabilidad , convocará con una anticipaci�
 
 Art. 39° La Oficina de Estadística monitorea la cobertura de vacantes de las asignaturas-sección e informa en tiempo real a la Comisión de Matrícula, para la aplicación de criterios de modificación de vacantes y/o asignaturas sección o asignaturas-sección-sesión previstos, según se van completando de acuerdo con el orden de matrícula. La variación de las vacantes de las asignaturas-sección y de los turnos de matrícula será autorizada y registrada por la Comisión de Matrícula de cada Facultad en coordinación con la ORCE UNI.
 
-Art. 40° Las asignaturas obligatorias con sección unrca independientemente del número de alumno matriculados no serán canceladas. Se cancelará la sección de una asignatura electiva cuando el número de estudiantes matriculados sea menor a seis (06). En tal caso se aceptará la modificación de matrícula del estudiante, hasta el día viernes de la
-primera semana de clases.
-
-Las asignaturas con dos o más secciones no podrán estar por ningún motivo a cargo de un mismo docente, a excepción:
+Art. 40° Las asignaturas obligatorias con sección unrca independientemente del número de alumno matriculados no serán canceladas. Se cancelará la sección de una asignatura electiva cuando el número de estudiantes matriculados sea menor a seis (06). En tal caso se aceptará la modificación de matrícula del estudiante, hasta el día viernes de la primera semana de clases.
+	Las asignaturas con dos o más secciones no podrán estar por ningún motivo a cargo de un mismo docente, a excepción:
 		-	de que un docente se retire por fuerza mayor de una de las secciones.
 		-	de que un docente tenga a cargo las horas de teoría y otro, las horas de práctica.
+Art. 41° Cada estudiante de pregrado tiene asignado y sólo debe registrar su matrícula en un determinado plan de estudios.
+		En caso de que el estudiante con código activo, por retraso en su avance académico o por norma académica de la Facultad, deba cambiar de Plan de Estudios, deberá solicitarlo a la Escuela Profesional correspondiente, con 1O días hábiles de anticipación a la semana de Matrícula para que se proceda con la actualización. El Director de Escuela también podrá ordenar esta actualización masiva de oficio, en cumplimiento de las normas institucionales.
+
+Art. 42° El estudiante que tiene la opción de finalizar sus estudios en el periodo académico (le falta para finalizar sus estudios 30 o menos créditos), tendrá prioridad en su matrícula según la programación de cada facultad . Por ello podrá solicitar al Director de Escuela, hasta tres (3) días hábiles antes de la matrícula ordinaria, ser incluido en el listado de Matrícula Preferencial.
+
+Art. 43° Los estudiantes con asignaturas electivas desaprobadas por segunda vez, o que retornen de suspensión, podrán presentar la solicitud de exoneración ante su Decano, con 1O días hábiles de anticipación a la semana de Matrícula y evitar así la matrícula obligatoria; salvo que por Cambio de su Plan de Estudios, esa asignatura ya no forme parte del mismo.
+
+Art. 44° El estudiante que requiera cursar asignatura(s) electiva(s) en otra Escuela Profesional, planificará con no menos de un semestre sus expectativas: centro de estudios, asignaturas de su interés, calendarios y requisitos correspondientes. El pedido podrá ser hasta por doce (12) créditos.
+	Si fuese en una de las especialidades de la UNI, deberá solicitar, con no menos de sesenta (60) días de anticipación a la semana de matrícula, la autorización a su Consejo de Facultad, indicando las razones que justifiquen cada una, para complementar la formación en su propia especialidad. Es atendido por su Director de Escuela y con su aprobación se elevará al Decano en no más de 5 días útiles. El Decano recabará la aprobación de su Consejo de Facultad, dentro de los diez (1 O) días útiles siguientes. 
+	Con la autorización de su Consejo de Facultad y la argumentación, presentará solicitud al Decano de la Facultad de destino, quien dispondrá de 15 días útiles para aprobarlo en su Consejo de Facultad.
+	La autorización de la Facultad de destino deberá tenerla antes de la matrícula a solicitar. El registro de notas será automático, como de Asignatura Extracurricular. Si la solicitud es para una universidad de la Alianza Estratégica, la anticipación será la requerida en dicho Centro. Las asignaturas que apruebe serán registradas cuando presente el respectivo Certificado de estudios.
+
+Art. 45° El estudiante que desee acogerse a alguna Beca Internacional o cursar asignaturas por Convenio, fuera de Lima o del país; tramitará con la anticipación prevista en el respectivo convenio, la aceptación previa de su Director de Escuela y la autorización del Consejo de Facultad. Con dicha autorización, solicitará también Licencia de Estudios por cada semestre que no se matricule; hasta un máximo de tres (3) años; para evitar Retiro Definitivo.
+	Concluido cada semestre de estudios, solicitará las convalidaciones pertinentes de las asignaturas únicamente del cuarto ciclo al noveno ciclo del plan de estudios, adjuntando la respectiva documentación. A su retorno, deberá reincorporarse para continuar con la matrícula de sus asignaturas pendientes. Las notas serán convalidas según su equivalencia a la escala vigesimal por la Escuela Profesional y comunicadas a ORCE.

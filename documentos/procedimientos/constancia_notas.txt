@@ -1,0 +1,26 @@
+CONSTANCIA DE NOTAS
+
+Es un documento que certifica al estudiante de las notas aprobadas en cada semestre cursadas por el alumno, especifica el código y crédito del curso, nota obtenida, y ciclo académico.
+    Nota: La constancia de notas puede emitirse en castellano o inglés, indicar en la solicitud el tipo de constancia que desea solicitar.
+
+PROCEDIMIENTO PARA SOLICITAR LA CONSTANCIA DE NOTAS
+1. Enviar un correo a estadistica_fc@uni.edu.pe con asunto orden de pago por el concepto de CONSTANCIA DE NOTAS, en el cuerpo del mensaje enviará sus datos personales.
+    Número del DNI:
+    Apellidos:
+    Nombre:
+    Correo institucional y/o alternativo:
+
+2. La oficina de estadística emitirá la orden de pago del banco BCP, el cual llegará al correo del estudiante.
+3. Una vez realizado el pago, el alumno dejará en mesa de partes de la facultad el comprobante de pago y solicitud. (ver modelo de solicitud publicado en la Pagina Web de la Facultad de Ciencias).
+4. Por último, la oficina de estadística enviará un correo al estudiante informando que la constancia se encuentra emitida y lista para ser recogida en nuestro horario de atención de lunes a viernes de 08.00 a 13:00 y 14:00 a 15:30.
+
+GUIA PARA PAGO DE SERVICIOS UNI EN EL BCP (PLATAFORMA WEB)
+a. Ingresar a https://www.viabcp.com/
+b. Clic en el botón Banca por Internet.
+c. En la siguiente ventana llena tus datos y dale clic a ingresar.
+d. Luego dirígete a la pestaña pagos y elige la opción pagar un servicio.
+e. Digita y escoge Universidad Nacional De Ingeniería.
+f. Elige la opción pago estudiantes.
+g. En la siguiente ventana ingresa su DNI, RUC o Carné de Extranjería y clic en Continuar.
+h. Escoge la cuenta de origen, el número de recibo a pagar (ID de la Órden de Pago), verifica el monto y dale clic a continuar.
+i. Finalmente, revisa todos los datos y confirma tu operación.

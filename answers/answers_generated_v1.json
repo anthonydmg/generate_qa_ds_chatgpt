@@ -1,0 +1,314 @@
+[
+    {
+        "document": "./documentos/procedimientos/examen_regularizacion.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfPuede un estudiante solicitar una evaluaci\u00f3n de regularizaci\u00f3n si adeuda m\u00e1s de dos asignaturas?",
+                "answer": "No, un estudiante no puede solicitar una evaluaci\u00f3n de regularizaci\u00f3n si adeuda m\u00e1s de dos asignaturas. Seg\u00fan el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda, la evaluaci\u00f3n de regularizaci\u00f3n puede ser solicitada \u00fanicamente por los estudiantes que hayan cursado el d\u00e9cimo ciclo y adeuden hasta dos asignaturas.\n\n"
+            },
+            {
+                "question": "\u00bfTiene un estudiante un plazo indefinido para solicitar una evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de desaprobar un curso?",
+                "answer": "No, el estudiante no tiene un plazo indefinido para solicitar una evaluaci\u00f3n de regularizaci\u00f3n. De acuerdo con el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda, el estudiante tiene un plazo m\u00e1ximo de cinco meses para solicitar este tipo de evaluaci\u00f3n despu\u00e9s de haber cursado el curso desaprobado en el ciclo correspondiente.\n\n"
+            },
+            {
+                "question": "\u00bfEs posible solicitar una evaluaci\u00f3n de regularizaci\u00f3n para asignaturas que no sean del noveno o d\u00e9cimo ciclo?",
+                "answer": "No, la evaluaci\u00f3n de regularizaci\u00f3n solo procede en las asignaturas del noveno o d\u00e9cimo ciclo del plan de estudios o en asignaturas cursadas por el estudiante en el \u00faltimo o pen\u00faltimo per\u00edodo acad\u00e9mico, seg\u00fan lo establecido en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante rendir la evaluaci\u00f3n de regularizaci\u00f3n sin haber rendido al menos el 50% de las pruebas de evaluaci\u00f3n del curso?",
+                "answer": "No, uno de los requisitos para rendir la evaluaci\u00f3n de regularizaci\u00f3n es haber rendido por lo menos el 50% de las pruebas de evaluaci\u00f3n del curso, tal como se especifica en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario obtener una nota m\u00ednima para poder acceder a una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "S\u00ed, es necesario obtener una nota igual o mayor a seis (6.0) en el curso desaprobado para poder acceder a una evaluaci\u00f3n de regularizaci\u00f3n, como se indica en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el estudiante pagar por el derecho a rendir un examen de regularizaci\u00f3n?",
+                "answer": "S\u00ed, el estudiante debe efectuar el pago por derechos del examen de regularizaci\u00f3n, lo cual es uno de los requisitos mencionados en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEl director de la Escuela Profesional puede designar al mismo docente que dict\u00f3 la asignatura para la evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "No, el director de la Escuela Profesional debe designar un docente especialista en el curso diferente al docente que dict\u00f3 la asignatura para aplicar la evaluaci\u00f3n de regularizaci\u00f3n, seg\u00fan lo establece el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el docente especialista entregar los resultados de la evaluaci\u00f3n de regularizaci\u00f3n en un plazo mayor a diez d\u00edas h\u00e1biles?",
+                "answer": "No, el docente especialista tiene un plazo m\u00e1ximo de diez d\u00edas h\u00e1biles, a partir de su designaci\u00f3n, para remitir al director de la Escuela Profesional los resultados de la evaluaci\u00f3n de regularizaci\u00f3n, como se indica en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede la evaluaci\u00f3n de regularizaci\u00f3n incluir temas que no est\u00e9n en el s\u00edlabo de la asignatura?",
+                "answer": "No, la evaluaci\u00f3n de regularizaci\u00f3n debe versar sobre el contenido del s\u00edlabo de la asignatura, tal como se especifica en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el director de la Escuela Profesional enviar los resultados del examen de regularizaci\u00f3n directamente a DIRCE sin el visto bueno del Decano?",
+                "answer": "No, el director de la Escuela Profesional debe enviar los resultados del examen de regularizaci\u00f3n a la Oficina de Estad\u00edstica de la Facultad para que efect\u00fae su registro en el ciclo acad\u00e9mico vigente y realice el tr\u00e1mite hacia DIRCE, pero con el visto bueno del Decano, seg\u00fan lo establecido en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante desaprobado en la primera evaluaci\u00f3n de regularizaci\u00f3n optar por una tercera evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "No, el estudiante que resultase desaprobado en la primera evaluaci\u00f3n de regularizaci\u00f3n y optase por una segunda evaluaci\u00f3n de regularizaci\u00f3n no tiene derecho a una tercera evaluaci\u00f3n de regularizaci\u00f3n, como se menciona en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe registra la nota de la segunda evaluaci\u00f3n de regularizaci\u00f3n en el mismo per\u00edodo acad\u00e9mico si se realiza en ese mismo per\u00edodo?",
+                "answer": "No, si la segunda evaluaci\u00f3n de regularizaci\u00f3n ocurre en el mismo per\u00edodo acad\u00e9mico, el registro de dicha nota ser\u00e1 efectuado en el per\u00edodo siguiente, de acuerdo con el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el estudiante matricularse nuevamente en el curso desaprobado si no se presenta a la segunda evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "S\u00ed, en caso de no presentarse a la segunda evaluaci\u00f3n de regularizaci\u00f3n, el estudiante deber\u00e1 matricularse en el curso o los cursos que correspondan en el per\u00edodo inmediato, seg\u00fan lo establece el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario presentar un avance curricular visado para solicitar una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "S\u00ed, es necesario presentar un avance curricular visado por el director de la Escuela Profesional correspondiente como parte del procedimiento para solicitar una evaluaci\u00f3n de regularizaci\u00f3n, tal como se indica en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante solicitar la evaluaci\u00f3n de regularizaci\u00f3n sin presentar un recibo de pago?",
+                "answer": "No, el estudiante debe presentar el recibo de pago para su derivaci\u00f3n al director de la Escuela Profesional correspondiente como parte del procedimiento para solicitar una evaluaci\u00f3n de regularizaci\u00f3n, seg\u00fan lo establecido en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe la solicitud para una evaluaci\u00f3n de regularizaci\u00f3n dirigirse a alguien diferente al Decano de la facultad?",
+                "answer": "No, la solicitud para una evaluaci\u00f3n de regularizaci\u00f3n debe dirigirse al Decano de la facultad, como se menciona en el procedimiento descrito en el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda."
+            }
+        ],
+        "type": "yes_or_not_answer"
+    },
+    {
+        "document": "./documentos/procedimientos/examen_regularizacion.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfQu\u00e9 opciones tienen los estudiantes que han cursado el d\u00e9cimo ciclo y tienen hasta dos asignaturas pendientes?",
+                "answer": "Los estudiantes de la Universidad Nacional de Ingenier\u00eda que han cursado el d\u00e9cimo ciclo y tienen hasta dos asignaturas pendientes pueden solicitar una evaluaci\u00f3n de regularizaci\u00f3n. Esta opci\u00f3n les permite regularizar su situaci\u00f3n acad\u00e9mica sin tener que matricularse nuevamente en las asignaturas desaprobadas, siempre y cuando cumplan con los requisitos establecidos en el Reglamento de Evaluaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el plazo m\u00e1ximo que tiene un estudiante para solicitar una evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de haber cursado un curso desaprobado?",
+                "answer": "El plazo m\u00e1ximo que tiene un estudiante para solicitar una evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de haber cursado un curso desaprobado es de cinco (5) meses. Si el estudiante no solicita la evaluaci\u00f3n de regularizaci\u00f3n dentro de este plazo, deber\u00e1 matricularse en el periodo acad\u00e9mico siguiente en el curso o cursos concernidos.\n\n"
+            },
+            {
+                "question": "\u00bfEn qu\u00e9 asignaturas se permite la evaluaci\u00f3n de regularizaci\u00f3n seg\u00fan el reglamento?",
+                "answer": "Seg\u00fan el Reglamento de Evaluaci\u00f3n de la Universidad Nacional de Ingenier\u00eda, la evaluaci\u00f3n de regularizaci\u00f3n se permite \u00fanicamente en las asignaturas del noveno o d\u00e9cimo ciclo del plan de estudios o en asignaturas cursadas por el estudiante en el \u00faltimo o pen\u00faltimo per\u00edodo acad\u00e9mico.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 porcentaje m\u00ednimo de pruebas de evaluaci\u00f3n debe haber rendido un estudiante para calificar para una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Un estudiante debe haber rendido por lo menos el 50% de las pruebas de evaluaci\u00f3n para calificar para una evaluaci\u00f3n de regularizaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es la nota m\u00ednima que debe tener un estudiante en un curso desaprobado para poder acceder a una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "La nota m\u00ednima que debe tener un estudiante en un curso desaprobado para poder acceder a una evaluaci\u00f3n de regularizaci\u00f3n es igual o mayor a seis (6.0).\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer un estudiante para rendir una evaluaci\u00f3n de regularizaci\u00f3n en t\u00e9rminos de pagos?",
+                "answer": "Para rendir una evaluaci\u00f3n de regularizaci\u00f3n, el estudiante debe efectuar el pago por derechos del examen de regularizaci\u00f3n. Debe acercarse a la oficina de su Escuela Profesional para solicitar una orden de pago por este concepto.\n\n"
+            },
+            {
+                "question": "\u00bfQui\u00e9n es responsable de coordinar la fecha y hora de la evaluaci\u00f3n de regularizaci\u00f3n con el estudiante?",
+                "answer": "El director de la Escuela Profesional es responsable de coordinar con el estudiante la fecha y hora para aplicar la evaluaci\u00f3n de regularizaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 responsabilidad tiene el docente especialista designado para la evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "El docente especialista designado para realizar la evaluaci\u00f3n de regularizaci\u00f3n tiene la responsabilidad de remitir los resultados de la evaluaci\u00f3n al director de la Escuela Profesional dentro de un plazo m\u00e1ximo de diez (10) d\u00edas h\u00e1biles a partir de su designaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el plazo m\u00e1ximo que tiene el docente especialista para entregar los resultados de la evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "El plazo m\u00e1ximo que tiene el docente especialista para entregar los resultados de la evaluaci\u00f3n de regularizaci\u00f3n es de diez (10) d\u00edas h\u00e1biles a partir de su designaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfSobre qu\u00e9 se basar\u00e1 la evaluaci\u00f3n de regularizaci\u00f3n y qui\u00e9n determina la modalidad?",
+                "answer": "La evaluaci\u00f3n de regularizaci\u00f3n se basar\u00e1 sobre el contenido del s\u00edlabo de la asignatura, y la modalidad ser\u00e1 determinada por el docente especialista designado para realizar la evaluaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 proceso debe seguir el director de la Escuela Profesional una vez que se han obtenido los resultados de la evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Una vez que se han obtenido los resultados de la evaluaci\u00f3n de regularizaci\u00f3n, el director de la Escuela Profesional debe enviar estos resultados a la Oficina de Estad\u00edstica de la Facultad para que efect\u00fae su registro en el ciclo acad\u00e9mico vigente y realice el tr\u00e1mite hacia DIRCE, con el visto bueno del Decano.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante desaprueba la primera evaluaci\u00f3n de regularizaci\u00f3n y decide optar por una segunda?",
+                "answer": "Si un estudiante desaprueba la primera evaluaci\u00f3n de regularizaci\u00f3n y decide optar por una segunda, puede hacerlo dentro de los dos (02) meses contados a partir de la fecha en que rindi\u00f3 la primera evaluaci\u00f3n. Si la segunda evaluaci\u00f3n ocurre en el mismo per\u00edodo acad\u00e9mico, el registro de la nota ser\u00e1 efectuado en el per\u00edodo siguiente.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1l es el plazo para que un estudiante pueda rendir una segunda evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de la primera?",
+                "answer": "El plazo para que un estudiante pueda rendir una segunda evaluaci\u00f3n de regularizaci\u00f3n despu\u00e9s de la primera es de dos (02) meses contados a partir de la fecha en que rindi\u00f3 la primera evaluaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 consecuencias enfrenta un estudiante que desaprueba o no se presenta a la segunda evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Un estudiante que desaprueba o no se presenta a la segunda evaluaci\u00f3n de regularizaci\u00f3n deber\u00e1 matricularse en el curso o los cursos que correspondan en el per\u00edodo inmediato, sin derecho a otra evaluaci\u00f3n de regularizaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer un estudiante para iniciar el proceso de solicitud de una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Para iniciar el proceso de solicitud de una evaluaci\u00f3n de regularizaci\u00f3n, el estudiante debe acercarse a la oficina de su Escuela Profesional para solicitar una orden de pago por concepto de examen de regularizaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 documentos debe presentar un estudiante al solicitar una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Al solicitar una evaluaci\u00f3n de regularizaci\u00f3n, el estudiante debe presentar en mesa de partes de la facultad una solicitud dirigida al Decano, adjuntar el avance curricular visado por el director de la Escuela Profesional correspondiente y el recibo de pago.\n\n"
+            },
+            {
+                "question": "\u00bfA qui\u00e9n debe dirigir el estudiante su solicitud para realizar una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "El estudiante debe dirigir su solicitud para realizar una evaluaci\u00f3n de regularizaci\u00f3n al Decano de la Facultad.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 tr\u00e1mite sigue despu\u00e9s de que el estudiante presenta su solicitud y los documentos requeridos para una evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "Despu\u00e9s de que el estudiante presenta su solicitud y los documentos requeridos para una evaluaci\u00f3n de regularizaci\u00f3n, la solicitud es derivada al director de la Escuela Profesional correspondiente.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 papel juega el director de la Escuela Profesional en el proceso de evaluaci\u00f3n de regularizaci\u00f3n?",
+                "answer": "El director de la Escuela Profesional juega un papel clave en el proceso de evaluaci\u00f3n de regularizaci\u00f3n, ya que coordina con el estudiante la fecha y hora de la evaluaci\u00f3n, designa al docente especialista, y una vez obtenidos los resultados, los env\u00eda a la Oficina de Estad\u00edstica de la Facultad para su registro y tr\u00e1mite correspondiente.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se maneja el registro de notas de las evaluaciones de regularizaci\u00f3n en la Facultad?",
+                "answer": "El registro de notas de las evaluaciones de regularizaci\u00f3n en la Facultad se maneja enviando los resultados del examen de regularizaci\u00f3n a la Oficina de Estad\u00edstica de la Facultad para que efect\u00fae su registro en el ciclo acad\u00e9mico vigente y realice el tr\u00e1mite hacia DIRCE, con el visto bueno del Decano."
+            }
+        ],
+        "type": "factoid"
+    },
+    {
+        "document": "./documentos/procedimientos/reincorporacion.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfPuede un estudiante que realiz\u00f3 Retiro Total solicitar reincorporaci\u00f3n?",
+                "answer": "S\u00ed, un estudiante que realiz\u00f3 Retiro Total puede solicitar reincorporaci\u00f3n. Seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda, la reincorporaci\u00f3n es el procedimiento que restablece al estudiante la condici\u00f3n de estudiante activo, aplicable a quienes realizaron Retiro Total, entre otros casos.\n\n"
+            },
+            {
+                "question": "\u00bfEs posible reincorporarse despu\u00e9s de haber solicitado una Reserva de Matr\u00edcula?",
+                "answer": "S\u00ed, es posible reincorporarse despu\u00e9s de haber solicitado una Reserva de Matr\u00edcula. El Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda establece que la reincorporaci\u00f3n aplica tambi\u00e9n a estudiantes que solicitaron Reserva de Matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfTiene un estudiante un plazo m\u00e1ximo de tres a\u00f1os para solicitar reincorporaci\u00f3n despu\u00e9s de dejar de matricularse?",
+                "answer": "S\u00ed, el estudiante tiene un plazo m\u00e1ximo de tres a\u00f1os o seis periodos acad\u00e9micos consecutivos o alternos para solicitar reincorporaci\u00f3n despu\u00e9s de dejar de matricularse. Si los periodos son alternos, no deben exceder de cinco a\u00f1os desde el primer periodo acad\u00e9mico en el que se dej\u00f3 de matricularse, seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante que ha sido sancionado solicitar reincorporaci\u00f3n mientras la sanci\u00f3n est\u00e1 vigente?",
+                "answer": "No, un estudiante que ha sido sancionado no puede solicitar reincorporaci\u00f3n mientras la sanci\u00f3n est\u00e1 vigente. El Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda indica que la reincorporaci\u00f3n es procedente si el estudiante no tiene sanci\u00f3n vigente.\n\n"
+            },
+            {
+                "question": "\u00bfDebe un estudiante presentar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma SIGA-DIRCE?",
+                "answer": "S\u00ed, el estudiante debe presentar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma SIGA-DIRCE, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario que el estudiante realice un pago para tramitar su solicitud de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, es necesario que el estudiante realice un pago para tramitar su solicitud de reincorporaci\u00f3n. El Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda especifica que el estudiante debe realizar el pago correspondiente a trav\u00e9s de la Caja UNI o bancos autorizados.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el director de la Escuela Profesional revisar y autorizar las solicitudes de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, el director de la Escuela Profesional debe revisar la ficha acad\u00e9mica de cada estudiante, evaluar y autorizar o rechazar la solicitud de reincorporaci\u00f3n, como se indica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede haber un cambio en el Plan de Estudios del estudiante como parte del proceso de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, puede haber un cambio en el Plan de Estudios del estudiante como parte del proceso de reincorporaci\u00f3n. El director de la Escuela Profesional puede ordenar la actualizaci\u00f3n del Plan de Estudios y la convalidaci\u00f3n de asignaturas por dicho cambio, seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe realiza la matr\u00edcula de manera regular una vez que el estudiante se ha reincorporado?",
+                "answer": "S\u00ed, una vez reincorporado el estudiante, el procedimiento de matr\u00edcula se realizar\u00e1 de manera regular, tal como se menciona en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe atienden casos de rezago acad\u00e9mico por la OERA tras la reincorporaci\u00f3n?",
+                "answer": "S\u00ed, si hubiere rezago acad\u00e9mico tras la reincorporaci\u00f3n, la atenci\u00f3n ser\u00e1 por la OERA, de acuerdo con el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el estudiante generar una orden de pago para el tr\u00e1mite de reincorporaci\u00f3n a trav\u00e9s del Portal INTRALU?",
+                "answer": "S\u00ed, el estudiante debe generar una orden de pago para el tr\u00e1mite de reincorporaci\u00f3n a trav\u00e9s del Portal INTRALU, como se describe en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEl sistema indica autom\u00e1ticamente la cantidad a pagar por el tr\u00e1mite de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, el sistema indica autom\u00e1ticamente la cantidad a pagar por el tr\u00e1mite de reincorporaci\u00f3n, bas\u00e1ndose en el costo del tr\u00e1mite m\u00e1s un adicional por cada periodo no estudiado, seg\u00fan el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs el costo del tr\u00e1mite de reincorporaci\u00f3n de S/. 42.00 fijo para todos los estudiantes?",
+                "answer": "S\u00ed, el costo base del tr\u00e1mite de reincorporaci\u00f3n es de S/. 42.00 para todos los estudiantes, como se establece en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfSe a\u00f1ade un costo adicional de S/. 10.00 por cada periodo no estudiado al tramitar la reincorporaci\u00f3n?",
+                "answer": "S\u00ed, se a\u00f1ade un costo adicional de S/. 10.00 por cada periodo no estudiado al tramitar la reincorporaci\u00f3n, tal como se especifica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfDebe el estudiante subir el recibo de pago a la Plataforma de intranet-alumno despu\u00e9s de realizar el pago?",
+                "answer": "S\u00ed, el estudiante debe subir el recibo de pago a la Plataforma de intranet-alumno despu\u00e9s de realizar el pago, dentro de las fechas se\u00f1aladas para este proceso, de acuerdo con el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfEs necesario revisar el calendario acad\u00e9mico para conocer las fechas se\u00f1aladas para el proceso de reincorporaci\u00f3n?",
+                "answer": "S\u00ed, es necesario revisar el calendario acad\u00e9mico para conocer las fechas se\u00f1aladas para el proceso de reincorporaci\u00f3n, como se indica en el Reglamento de Matr\u00edcula de la Universidad Nacional de Ingenier\u00eda."
+            }
+        ],
+        "type": "yes_or_not_answer"
+    },
+    {
+        "document": "./documentos/procedimientos/reincorporacion.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfQu\u00e9 es la reincorporaci\u00f3n en el contexto del reglamento de matr\u00edcula de la Facultad de Ciencias de la UNI?",
+                "answer": "La reincorporaci\u00f3n, seg\u00fan el Reglamento de Matr\u00edcula de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda, es un procedimiento administrativo que permite a un estudiante que ha realizado un Retiro Total, solicitado Reserva de Matr\u00edcula o Licencia, o ha dejado de matricularse por un semestre acad\u00e9mico o m\u00e1s, recuperar su condici\u00f3n de estudiante activo. Este proceso est\u00e1 sujeto a un plazo l\u00edmite de tres a\u00f1os o seis periodos acad\u00e9micos, ya sean consecutivos o alternos, con una extensi\u00f3n m\u00e1xima de cinco a\u00f1os desde el primer periodo no matriculado.\n\n"
+            },
+            {
+                "question": "\u00bfCu\u00e1les son las condiciones para que un estudiante pueda solicitar la reincorporaci\u00f3n?",
+                "answer": "Un estudiante puede solicitar la reincorporaci\u00f3n si cumple con las siguientes condiciones: no tener una sanci\u00f3n vigente y no haber superado el plazo m\u00e1ximo de Reserva de Matr\u00edcula, que es de tres a\u00f1os o seis periodos acad\u00e9micos, pudiendo ser estos consecutivos o alternos, pero no excediendo los cinco a\u00f1os desde el primer periodo en que se dej\u00f3 de matricularse.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 plazo m\u00e1ximo tiene un estudiante para solicitar la reincorporaci\u00f3n despu\u00e9s de haber dejado de matricularse?",
+                "answer": "El plazo m\u00e1ximo para solicitar la reincorporaci\u00f3n despu\u00e9s de haber dejado de matricularse es de tres a\u00f1os o seis periodos acad\u00e9micos, que pueden ser consecutivos o alternos, con la condici\u00f3n de que, en el caso de periodos alternos, no se excedan cinco a\u00f1os desde el primer periodo acad\u00e9mico en el que el estudiante dej\u00f3 de matricularse.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo debe un estudiante presentar su solicitud de reincorporaci\u00f3n seg\u00fan el reglamento?",
+                "answer": "Un estudiante debe presentar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma SIGA-DIRCE de la Universidad Nacional de Ingenier\u00eda, siguiendo el formato establecido y de acuerdo con el calendario oficial.\n\n"
+            },
+            {
+                "question": "\u00bfCon cu\u00e1nta anticipaci\u00f3n debe un estudiante tramitar su solicitud de reincorporaci\u00f3n antes de la semana de matr\u00edcula?",
+                "answer": "Un estudiante debe tramitar su solicitud de reincorporaci\u00f3n con una anticipaci\u00f3n no menor de diez d\u00edas \u00fatiles antes de la semana de matr\u00edcula, y esto debe hacerse conforme al Calendario Acad\u00e9mico de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 pasos debe seguir un estudiante para realizar el pago correspondiente a la reincorporaci\u00f3n?",
+                "answer": "El estudiante debe generar una orden de pago a trav\u00e9s de la plataforma de intranet-alumno (Portal INTRALU) de la Universidad Nacional de Ingenier\u00eda, y luego realizar el pago correspondiente a trav\u00e9s de la Caja UNI o bancos autorizados.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 rol juega el director de la Escuela Profesional en el proceso de reincorporaci\u00f3n de un estudiante?",
+                "answer": "El director de la Escuela Profesional juega un papel crucial en el proceso de reincorporaci\u00f3n, ya que es responsable de revisar la ficha acad\u00e9mica del estudiante, evaluar y autorizar o rechazar la solicitud de reincorporaci\u00f3n. Adem\u00e1s, si corresponde, el director ordena a la DIRCE la actualizaci\u00f3n del Plan de Estudios y la convalidaci\u00f3n de asignaturas debido a cambios en el plan.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede una vez que un estudiante ha sido reincorporado en t\u00e9rminos de matr\u00edcula y convalidaciones?",
+                "answer": "Una vez que un estudiante ha sido reincorporado, si es necesario, se realiza el cambio de Plan de Estudios y las convalidaciones correspondientes. Posteriormente, el procedimiento de matr\u00edcula se lleva a cabo de manera regular. Si el estudiante presenta rezago acad\u00e9mico, la atenci\u00f3n ser\u00e1 por parte de la OERA de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 es la OERA y cu\u00e1l es su funci\u00f3n en el proceso de reincorporaci\u00f3n si hay rezago acad\u00e9mico?",
+                "answer": "La OERA es una entidad dentro de la Universidad Nacional de Ingenier\u00eda, aunque el reglamento no especifica su significado completo ni sus funciones detalladamente, se infiere que su rol es brindar atenci\u00f3n a los estudiantes reincorporados que presentan rezago acad\u00e9mico.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se calcula el costo total que un estudiante debe pagar por el tr\u00e1mite de reincorporaci\u00f3n?",
+                "answer": "El costo total del tr\u00e1mite de reincorporaci\u00f3n se calcula sumando una tarifa base de S/. 42.00 m\u00e1s S/. 10.00 por cada periodo acad\u00e9mico no estudiado. El sistema de intranet-alumno de la Universidad Nacional de Ingenier\u00eda indica autom\u00e1ticamente al estudiante la cantidad a pagar bas\u00e1ndose en esta f\u00f3rmula.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 plataforma debe utilizar un estudiante para generar la orden de pago para la reincorporaci\u00f3n?",
+                "answer": "Un estudiante debe utilizar la plataforma de intranet-alumno (Portal INTRALU) de la Universidad Nacional de Ingenier\u00eda para generar la orden de pago para la reincorporaci\u00f3n.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 debe hacer el estudiante despu\u00e9s de haber realizado el pago para el tr\u00e1mite de reincorporaci\u00f3n?",
+                "answer": "Despu\u00e9s de haber realizado el pago, el estudiante debe ingresar a la plataforma de intranet-alumno dentro de las fechas se\u00f1aladas por el calendario acad\u00e9mico y subir la solicitud junto con el recibo de pago.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 informaci\u00f3n proporciona el sistema autom\u00e1ticamente al estudiante al generar la orden de pago?",
+                "answer": "Al generar la orden de pago, el sistema de intranet-alumno de la Universidad Nacional de Ingenier\u00eda proporciona autom\u00e1ticamente al estudiante la cantidad total a pagar, calculada en base a la tarifa base m\u00e1s el costo adicional por cada periodo no estudiado.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 recursos o manuales puede consultar un estudiante para entender el proceso de pagos en la UNI?",
+                "answer": "Los estudiantes pueden consultar el manual de pagos UNI, que se presume est\u00e1 disponible en la plataforma de intranet-alumno o en otros medios proporcionados por la Universidad Nacional de Ingenier\u00eda, para entender el proceso de pagos.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 sucede si un estudiante desea reincorporarse pero tiene una sanci\u00f3n vigente?",
+                "answer": "Si un estudiante tiene una sanci\u00f3n vigente, no puede proceder con el tr\u00e1mite de reincorporaci\u00f3n, ya que una de las condiciones para solicitar la reincorporaci\u00f3n es no tener sanciones vigentes.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 procedimientos adicionales debe realizar un estudiante si ha habido un cambio en el Plan de Estudios durante su ausencia?",
+                "answer": "Si ha habido un cambio en el Plan de Estudios durante la ausencia del estudiante, el director de la Escuela Profesional debe ordenar a la DIRCE la actualizaci\u00f3n del Plan de Estudios y realizar las convalidaciones de asignaturas necesarias debido a dicho cambio.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 documentaci\u00f3n debe subir el estudiante a la plataforma de intranet-alumno una vez realizado el pago?",
+                "answer": "Una vez realizado el pago, el estudiante debe subir a la plataforma de intranet-alumno la solicitud de reincorporaci\u00f3n y el recibo de pago dentro de las fechas establecidas por el calendario acad\u00e9mico.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 opciones de pago est\u00e1n disponibles para los estudiantes que desean reincorporarse?",
+                "answer": "Las opciones de pago disponibles para los estudiantes que desean reincorporarse incluyen el pago a trav\u00e9s de la Caja UNI o bancos autorizados, seg\u00fan lo establecido en el Reglamento de Matr\u00edcula de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n\n"
+            },
+            {
+                "question": "\u00bfPuede un estudiante reincorporarse si ha excedido el plazo m\u00e1ximo de Reserva de Matr\u00edcula?",
+                "answer": "No, un estudiante no puede reincorporarse si ha excedido el plazo m\u00e1ximo de Reserva de Matr\u00edcula, que es de tres a\u00f1os o seis periodos acad\u00e9micos, con la condici\u00f3n de que no se excedan cinco a\u00f1os desde el primer periodo acad\u00e9mico en que dej\u00f3 de matricularse.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 medidas debe tomar un estudiante si no logra reincorporarse antes del inicio de la semana de matr\u00edcula?",
+                "answer": "El reglamento no especifica medidas concretas para esta situaci\u00f3n, pero se infiere que el estudiante deber\u00eda contactar a la DIRCE o al director de su Escuela Profesional para recibir orientaci\u00f3n sobre los pasos a seguir si no logra reincorporarse antes del inicio de la semana de matr\u00edcula."
+            }
+        ],
+        "type": "factoid"
+    }
+]

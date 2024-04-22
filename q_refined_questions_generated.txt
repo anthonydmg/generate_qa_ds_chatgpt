@@ -1,0 +1,47 @@
+------------------------------
+Numero Creditos A Matricular
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Cuál es el requisito para matricularse en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Quién determina la cantidad de créditos de matrícula para estudiantes en riesgo académico y cómo se hace?
+6. ¿Cuáles son los derechos del estudiante en cuanto a la elección de asignaturas a matricular y qué asignaturas son obligatorias?
+7. ¿Bajo qué condiciones se permite la matrícula en asignaturas que pertenecen a un ciclo consecutivo adicional al tercer ciclo consecutivo ya permitido?
+8. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar" y cuántos créditos puede matricular en esta condición?
+9. ¿Cuáles son los requisitos para la Matrícula Preferencial de un estudiante en posibilidad de egresar?
+10. ¿Qué excepciones se permiten a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+11. ¿Qué asignaturas se matriculan en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+12. ¿Cuántos ciclos académicos abarcan los planes de estudios de las carreras universitarias en la UNI?
+13. ¿Cuál es la carga académica promedio por ciclo en los planes de estudios de las carreras universitarias en la UNI?
+------------------------------
+Matricula Preperencial Y Libre
+1. ¿Cuáles son los requisitos para solicitar la inclusión en el grupo de matrícula preferencial en la Facultad de Ciencias de la UNI?
+2. ¿Cuál es el procedimiento que deben seguir los estudiantes para solicitar la inclusión en el listado de Matrícula Preferencial?
+3. ¿Cuáles son las condiciones y normativas para optar por la modalidad de matrícula libre en la Facultad de Ciencias de la UNI?
+------------------------------
+Matricula Condicionada
+1. ¿Qué se considera como estudiante en riesgo académico?
+2. ¿Cuáles son los casos en los que se aplica la matrícula condicionada?
+3. ¿Cuál es el procedimiento para incluir una asignatura desaprobada dos veces en la oferta de matrícula como obligatoria?
+4. ¿Cuál es el procedimiento para la matrícula condicionada de un estudiante que retorna después de haber cumplido suspensión por bajo rendimiento académico?
+5. ¿Qué es el Grupo Cero de matrícula y quiénes son incluidos en este grupo?
+6. ¿Quiénes son considerados participantes de la matrícula condicionada?
+7. ¿Cuáles son las prerrogativas que tiene un estudiante que se reincorpora después de una separación temporal de un año?
+8. ¿Qué consecuencias tiene para un estudiante en riesgo académico que se reincorpora en condición de rezagado y no acude a su tutoría oportunamente?
+9. ¿Cuál es el procedimiento para solicitar la reincorporación como rezagado?
+10. ¿Cuál es el plazo recomendado para solicitar la reincorporación de un estudiante en condición de suspensión por Bajo Rendimiento Académico y qué requisitos deben cumplirse?
+------------------------------
+Grupo Cero
+1. ¿Cuál es el propósito del Grupo Cero de matrícula en la Facultad de Ciencias de la UNI para los estudiantes en riesgo académico o aquellos que han retornado de una separación temporal por bajo rendimiento académico?
+2. ¿Qué tipo de estudiantes pueden formar parte del Grupo Cero de matrícula en la institución?
+3. ¿Cuál es el proceso específico para que un estudiante en riesgo académico pueda solicitar matrícula en el Grupo Cero en la Facultad de Ciencias de la UNI?
+4. ¿Cuál es el plazo para que la comisión de Matrícula remita el listado total de alumnos y asignaturas a la DIRCE antes del inicio de la matrícula ordinaria?
+5. ¿Cuáles son las acciones específicas que deben realizar los estudiantes que forman parte del Grupo Cero de matrícula una vez que se ha ejecutado su matrícula en la Facultad de Ciencias de la UNI?
+6. ¿Cuáles son las restricciones específicas para las asignaturas matriculadas en el turno cero (0) en la Facultad de Ciencias de la UNI?
+------------------------------
+Matricula Rezagada
+1. ¿Cuáles son los tipos de matrícula que se pueden realizar en la Facultad de Ciencias de la UNI y cuál es la diferencia entre la matrícula regular y la matrícula rezagada?
+2. ¿Cuáles son los requisitos específicos para realizar una matrícula rezagada en la Facultad de Ciencias de la UNI?
+3. ¿Cuál es el procedimiento detallado para realizar una matrícula rezagada en la Facultad de Ciencias de la UNI?
+4. ¿Cuál es el costo exacto de la matrícula rezagada en la Facultad de Ciencias de la UNI?
+5. ¿Cuándo se llevará a cabo la matrícula rezagada para los alumnos ingresantes y regulares en la Facultad de Ciencias de la UNI según el calendario académico actualizado?

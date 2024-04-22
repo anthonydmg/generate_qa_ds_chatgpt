@@ -19,14 +19,13 @@ def set_openai_key():
     openai.api_key = API_KEY
 
 def get_completion_from_messages(messages, model="gpt-3.5-turbo-0613", temperature=0):
-    response = openai.ChatCompletion.create(
+    response = openai.chat.completions.create(
         model=model,
         messages=messages,
         #max_tokens = 0,
         temperature=temperature, # this is the degree of randomness of the model's output
     )
-    return response.choices[0].message["content"]
-
+    return response.choices[0].message.content
 
 def get_prompt_gen_questions(text, question_type, num_questions):
     if question_type == QuestionType.YES_OR_NOT_ANSWER:

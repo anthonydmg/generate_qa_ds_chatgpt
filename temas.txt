@@ -1,0 +1,73 @@
+Tema:Reglamentación de Matrícula para Estudiantes
+   -Requisitos de Créditos y Condiciones de Estudiante Regular
+   -Gratuidad de la Enseñanza # Mejor No
+   -Reserva de Matrícula por Razones Justificadas # Tema
+   -Consecuencias de Desaprobaciones Repetidas # Tema
+   -Tutoría para Estudiantes en Riesgo Académico # Tema
+Tema:Proceso de Matrícula
+   -Definición y Responsabilidad de la Matrícula
+   -Categorización de Estudiantes en el Proceso de Matrícula # No necesita ser un contexto
+   -Tipos de Matrícula por Oportunidad # Tema
+   -Tipos de Matrícula por Tratamiento # Tema
+   -Reportes Iniciales y Publicación de Listados # No me parece importante mejor quitar
+   -Eliminación y Cambio de Asignaturas Electivas # Tema
+   -Registro de Matrículas Rezagadas y Cambios Autorizados # No va
+Tema:Procesos y Procedimientos de Matrícula
+   -Reincorporación # Tema
+   -Verificación, Depuración y Ratificación de Matrícula # Tema
+   -Retiro Parcial # Tema
+   -Retiro Total # Tema
+   -Retiro Reglamentario # Tema
+   -Retiro Definitivo # Tema
+   -Reserva de Matrícula # Tema
+   -Cambio de Plan de Estudios # Tema
+   -Tutoría Obligatoria # Tema
+   -Oferta de Matrícula # Tema
+   -Reporte de Matrícula # Tema
+   -Boleta de Matrícula # Tema
+   -Turno de Matrícula # Tema
+   -Grupo Cero de Matrícula # Tema
+   -Asignatura Paralela # Tema
+Tema:Convalidación de Asignaturas
+   -Procedimiento y Criterios para la Convalidación de Asignaturas # Tema
+   -Plazos para la Convalidación de Asignaturas # Tema
+Tema:Requisitos de Matrícula para Asignaturas Desaprobadas # Tema
+   -Matrícula Obligatoria en Asignaturas Obligatorias Desaprobadas # Tema
+   -Exoneración de Asignaturas Electivas Desaprobadas # Tema
+Tema:Procedimientos de Matrícula
+   -Matrícula Condicionada # Tema
+   -Grupo Cero de Matrícula # Tema
+Tema:Políticas y Procedimientos Específicos de Matrícula
+   -Cancelación y Asignación de Secciones de Asignaturas # no es neceario hacer lo del bot
+   -Asignación de Plan de Estudios y Cambios Requeridos # Tema
+   -Prioridad en la Matrícula para Estudiantes Próximos a Graduarse # Tema
+   -Exoneración de Matrícula Obligatoria por Asignaturas Electivas Desaprobadas # Tema
+   -Cursado de Asignaturas Electivas en Otras Escuelas o Universidades # Tema
+   -Becas Internacionales y Convenios para Cursar Asignaturas en el Extranjero # Tema
+
+Tema:Requisitos de Matrícula
+   -Requisitos Generales para la Matrícula # Tema
+
+Tema:Procedimiento de Matrícula
+   -Matrícula Regular y Proceso de Matrícula # Tema
+   -Matrícula por Apoderado en Casos Especiales # Tema
+   -Condiciones para la Matrícula en Asignaturas # Tema
+   -Matrícula Asesorada para Estudiantes en Riesgo Académico # Tema
+   -Matrícula para Ingresantes por Traslado y Convenios # Tema
+   -Matrícula en Asignaturas Electivas # Tema
+   -Condiciones de "Currículo Completo" # no es necesario, tambien no se si es necesario para el bot
+
+Tema:Reglamento de Matrícula para Estudiantes de Pregrado de la Universidad Nacional de Ingeniería
+   -Número Máximo de Créditos a Matricular # Tema
+   -Derecho a Matricularse en Asignaturas de Tres Ciclos Consecutivos  # Tema
+   -Matrícula en Asignaturas de un Ciclo Adicional # Tema
+   -Condiciones para Estudiantes en Posibilidad de Egresar  # Tema
+Tema:Procedimientos Administrativos Académicos
+   -Procedimiento de Reincorporación # Tema
+   -Procedimiento de Retiro Parcial # Tema
+   -Procedimiento de Retiro Total # Tema
+   -Procedimiento de Reserva de Matrícula # Tema
+Tema:Proceso de Matrícula y Condiciones Académicas
+   -Condiciones para la Matrícula Condicionada por Rendimiento Académico # Tema
+   -Separación Temporal y Retiro Definitivo por Desaprobaciones  # Tema
+   -Opciones de Matrícula para Estudiantes en Proceso de Egreso # Tema

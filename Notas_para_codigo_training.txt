@@ -1,0 +1,10 @@
+## El formato del chat puede usarse con esto
+
+https://huggingface.co/docs/transformers/main/en/chat_templating
+
+## Este el paper de referencia:
+ZEPHYR: DIRECT DISTILLATION OF LM ALIGNMENT
+
+
+## Aqui esta el datasetss
+https://huggingface.co/collections/HuggingFaceH4/zephyr-7b-6538c6d6d5ddd1cbb1744a66

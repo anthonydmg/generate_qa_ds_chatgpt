@@ -1,0 +1,331 @@
+Ajusta o refina en caso sea necesario siguiente las preguntas para que sean más claras, relevantes y adecuadas para el contexto de cada respuesta
+
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+
+Respuesta: Según el Reglamento de Matrícula para Estudiantes de Pregrado de la Universidad Nacional de Ingeniería, en la primera matrícula de un estudiante, este será matriculado en todas las asignaturas correspondientes al primer ciclo según el plan de estudios de su especialidad o carrera universitaria. Por lo tanto, el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula dependerá de la carga académica del primer ciclo de su plan de estudios.
+
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+
+Respuesta: Según el Reglamento de Matrícula para Estudiantes de Pregrado de la Universidad Nacional de Ingeniería, un estudiante puede matricularse en todas las asignaturas del segundo ciclo si ha aprobado en su primera matrícula todas las asignaturas del primer ciclo. Además, podrá adelantar como máximo dos asignaturas si su promedio ponderado es igual o mayor a doce (12) y si el plan de estudios lo permite.
+
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+
+Respuesta: Según el Reglamento de Matrícula para Estudiantes de Pregrado de la Universidad Nacional de Ingeniería, para un estudiante que solo ha cursado el primer ciclo y no cumple con las condiciones para matricularse en todas las asignaturas del segundo ciclo, el número máximo de créditos a matricular está indicado en la Tabla 1 adjunta al reglamento. El número máximo de créditos dependerá del promedio ponderado de los dos últimos períodos académicos como alumno regular. Según la tabla, el número máximo de créditos a matricular puede ser de 28, 26, 24, 18 o 15, dependiendo del rango de promedio ponderado en el que se encuentre el estudiante.
+
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+
+Respuesta: Según el Reglamento de Matrícula para Estudiantes de Pregrado de la Universidad Nacional de Ingeniería, no procede la matrícula en asignaturas cuyos requisitos no hayan sido aprobados. Esto significa que un estudiante no podrá matricularse en una asignatura si no ha aprobado los requisitos previos necesarios para cursarla. Por lo tanto, es necesario haber aprobado los requisitos de una asignatura antes de poder matricularse en ella.
+
+Preguntas y respuestas:
+    1.- ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+Respuesta: A los alumnos de Matrícula Preferencial se les permite matricularse en una asignatura sección y su respectivo prerrequisito. En casos excepcionales, si una asignatura es prerrequisito para dos diferentes asignaturas, el alumno puede solicitar esta matrícula y la comisión de matrícula decidirá si aprueba o no dicha solicitud.
+
+2.- ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+Respuesta: En la primera matrícula de un estudiante nuevo ingresante al primer ciclo, el alumno será matriculado en todas las asignaturas correspondientes al primer ciclo según el plan de estudios de su especialidad o carrera universitaria.
+
+3.- ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+Respuesta: Los planes de estudios de las carreras universitarias en la UNI suelen comprender 10 ciclos académicos. La carga académica promedio por ciclo es de alrededor de 20 créditos
+
+------------------------
+Identifica cuales de las siguientes preguntas, consulta sobre consecuencias.
+Luego selecciona de la preguntas identificadas anteriormente aquellas que no especifican precisamente el tema sobre el que consultan.
+
+Preguntas y respuestas:
+    1.- ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+Respuesta: A los alumnos de Matrícula Preferencial se les permite matricularse en una asignatura sección y su respectivo prerrequisito. En casos excepcionales, si una asignatura es prerrequisito para dos diferentes asignaturas, el alumno puede solicitar esta matrícula y la comisión de matrícula decidirá si aprueba o no dicha solicitud.
+
+2.- ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+Respuesta: En la primera matrícula de un estudiante nuevo ingresante al primer ciclo, el alumno será matriculado en todas las asignaturas correspondientes al primer ciclo según el plan de estudios de su especialidad o carrera universitaria.
+
+3.- ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+Respuesta: Los planes de estudios de las carreras universitarias en la UNI suelen comprender 10 ciclos académicos. La carga académica promedio por ciclo es de alrededor de 20 créditos
+
+Presenta la preguntas seleccionadas de la siguiente manera:
+1. Aqui la pregunta
+...
+
+
+------------
+
+Selecciona de las siguientes preguntas aquellas que no especifican precisamente el tema sobre el que consultan o no especifica el contexto o el ámbito al que se refiere
+
+Preguntas y respuestas:
+1.- ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+2.- ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+3.- ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+
+
+--------------------------
+
+Tu tareas es seleccionar de las siguientes preguntas aquellas que no especifican precisamente el tema sobre el que consultan.
+Para ello presenta las preguntas junto a un breve explicacion se por que la pregunta es selccionada o no, usa el siguiente formato.
+1. Aqui la pregunta.
+Explicacion: Aqui la explicacion o razanado de haberla seleccionado o no.
+Selecionada: Aqui 'Si' es caso especifique precisamente el tema sobre el que consultan o 'No' en caso contrario.
+
+Preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+6. ¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+9. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+10. ¿Cuál es la cantidad máxima de créditos permitida para la matrícula de un "estudiante en posibilidad de egresar"?
+11. ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+12. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+13. ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+
+Se te provera una lista de preguntas si tarea es seleccionar que no especifican precisamente el tema sobre el que consultan. 
+Para ello presentaras las preguntas junto a un breve explicacion de por que la pregunta es selccionada o no, como el siguiente ejemplo:
+
+Lista de preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+6. ¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+9. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+10. ¿Cuál es la cantidad máxima de créditos permitida para la matrícula de un "estudiante en posibilidad de egresar"?
+11. ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+12. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+13. ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+Seleccion de preguntas:
+
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+Explicacion: Esta pregunta es específica y clara sobre el tema de la matrícula de estudiantes en su primera inscripción. Por lo tanto, no la seleccioné como una consulta que no es especifica el tema sobre el que trata.
+Seleccionado: No
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+Explicacion: Esta pregunta también es específica y clara sobre el tema de las condiciones para la matrícula en asignaturas del segundo ciclo. Por lo tanto, no la seleccioné como una consulta que no es especifica con el tema sobre el que trata.
+Seleccionado: No
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+Explicacion: Esta pregunta se centra en el límite de créditos para estudiantes que han cursado solo el primer ciclo. Es específica y directa, por lo tanto, no la seleccioné como una consulta que no es especifica con el tema sobre el que trata.
+Seleccionado: No
+4.¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+Explicacion: Esta pregunta carece de especificidad en cuanto a las consecuencias relacionadas con no aprobar los requisitos previos de una asignatura. No es especifica ni directa, por lo tanto, la seleccione como una consulta que no es especifica con el tema sobre el que trata.
+Seleccionada: Si
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+Explicacion: Esta pregunta aborda el proceso para determinar la cantidad máxima de créditos para estudiantes en riesgo académico. Es específica y clara, así que no la seleccioné como una consulta que no es especifica con el tema sobre el que trata.
+Seleccionada: No
+6.¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+Explicacion: Esta pregunta es amplia y pero es clara en lo que busca sobre el derecho del estudiante a elegir asignaturas.
+Seleccionada: No
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+Explicacion: Esta pregunta también es específica y directa sobre las condiciones para la matrícula en asignaturas de tres ciclos consecutivos. Por lo tanto, no la seleccioné como una consulta que no es especifica con el tema sobre el que trata.
+Seleccionada: Si
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+Explicacion:  Esta pregunta se refiere a las excepciones específicas permitidas por la Comisión de Matrícula para la matrícula en asignaturas de un ciclo adicional al tercer ciclo permitido. Es clara y específica, por lo tanto, no la seleccioné como una consulta que no especifica el tema sobre el que trata.
+Seleccionada: No
+
+
+Preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+6. ¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+9. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+10. ¿Cuál es la cantidad máxima de créditos permitida para la matrícula de un "estudiante en posibilidad de egresar"?
+11. ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+12. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+13. ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+Tu tarea es identificar cuales preguntas de una lista no definen claramente qué información se están buscando y explicar las razonas para seleccionar o no cada pregunta. Como en el siguiente ejemplo:
+
+Lista de preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+3.  ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+
+Seleccion de preguntas:
+
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+Explicacion: Esta pregunta específica claramente la información que esta buscando sobre número máximo de créditos en la matrícula de estudiantes en su primera inscripción. Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+Seleccionada: No
+2. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+Explicacion: Esta pregunta específica claramente la información que esta buscando sobre condiciones que debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar". Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+Seleccionada: No
+3.  ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+Explicacion: Esta pregunta no es precisa ni específica porque no define claramente qué tipo de información se está buscando. Podría referirse a una variedad de procesos que ocurren durante la matrícula de un estudiante nuevo en un ciclo inicial.  Por lo tanto, la seleccioné como una consulta que no definen claramente qué información se están buscando.
+Seleccionada: Si
+
+Realiza la identificacion de las preguntas que no definen claramente qué información están buscando como lo explicado anteriormente para las siguientes preguntas:
+
+Lista de preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+6. ¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+9. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+10. ¿Cuál es la cantidad máxima de créditos permitida para la matrícula de un "estudiante en posibilidad de egresar"?
+11. ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+12. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+13. ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+
+Aplica
+Esta pregunta específica claramente la información que esta buscando sobre número máximo de créditos en la matrícula de estudiantes en su primera inscripción. Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+
+
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+6. ¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+9. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+10. ¿Cuál es la cantidad máxima de créditos permitida para la matrícula de un "estudiante en posibilidad de egresar"?
+11. ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+12. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+13. ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+
+
+
+Tu tarea consiste en identificar cuáles preguntas de una lista carecen de precisión y no definen claramente qué información se está buscando, además de explicar las razones para seleccionar o no seleccionar cada pregunta. Teniendo en cuento que las consultas se realizan en el contexto los estudios universitarios de Facultad de Ciencias de la Universidad Nacional de Ingeniería.
+
+Aquí tienes un ejemplo:
+
+Lista de preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+3. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+4. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+
+Preguntas de Seleccionadas:
+
+3.  ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+Explicacion: La pregunta carece de precisión y claridad en cuanto a qué tipo de información se está buscando. El término "qué sucede" es demasiado amplio y puede abarcar una variedad de eventos y procesos que ocurren durante la matrícula de un estudiante nuevo ingresante al primer ciclo universitario.  Por lo tanto, carece de precisión y claridad en su definición. Por lo tanto, esta pregunta debería ser revisada y refinada para hacerla más específica y enfocada en un área particular del proceso de matrícula.
+
+Esta pregunta no es precisa ni específica porque no define claramente qué tipo de información se está buscando. Podría referirse a una variedad de procesos que ocurren durante la matrícula de un estudiante nuevo en un ciclo inicial.  Por lo tanto, la seleccioné como una consulta que no definen claramente qué información se están buscando.
+
+Preguntas no Seleccionada.
+
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+Explicacion: Esta pregunta específica claramente la información que esta buscando sobre número máximo de créditos en la matrícula de estudiantes en su primera inscripción. Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+2. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+Explicacion: Esta pregunta específica claramente la información que esta buscando sobre condiciones que debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar". Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+4. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+Explicacion: Esta pregunta específica claramente la información que esta buscando sobre las condiciones que debe cumplir un estudiante para matricularse en asignaturas que pertenezcan a tres ciclos consecutivos. Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+
+
+Ahora, procede a identificar las preguntas de siguinte lista proporcionada que no definen claramente qué información se está buscando y proporciona explicaciones similares para cada una.
+
+Lista de preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+6. ¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+9. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+10. ¿Cuál es la cantidad máxima de créditos permitida para la matrícula de un "estudiante en posibilidad de egresar"?
+11. ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+12. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+13. ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+
+Realiza la identificacion de las preguntas que no definen claramente qué información están buscando como lo explicado anteriormente para las siguientes preguntas:
+
+Esta pregunta no es precisa ni específica porque no define claramente qué tipo de información se está buscando. Podría referirse a una variedad de procesos que ocurren durante la matrícula de un estudiante nuevo en un ciclo inicial.  Por lo tanto, la seleccioné como una consulta que no definen claramente qué información se están buscando.
+
+
+Tu tarea consiste en identificar cuáles preguntas de una lista carecen de precisión y no definen claramente qué información se está buscando. Para ello utiliza los siguientes criterios:
+1. Identifica preguntas con terminos como "que sucede" los cuales son demasiado amplios, las cuales deberían ser reformulada para ser más específica y definir claramente el alcance de la información que se está buscando
+2. Ten en cuenta que las preguntas se realizan en el contexto universitario de La Facultad de Ciencias de La Universidad Nacional de Ingeniería, por lo tanto algunos terminos no necesitan ser explicitamente especificados.
+
+Identifica preguntas con terminos como "que sucede" los cuales son demasiado amplios, las cuales deberían ser reformulada para ser más específica y definir claramente el alcance de la información que se está buscando
+2. Ten en cuenta que las preguntas se realizan en el contexto universitario de La Facultad de Ciencias de La Universidad Nacional de Ingeniería, por lo tanto algunos terminos no necesitan ser explicitamente especificados.
+
+
+
+Tu tarea consiste en identificar cuáles preguntas de las siguiente lista carecen de precisión y no definen claramente qué información se está buscando. Para ello utiliza los siguientes criterios:
+1. Considera preguntas con terminos demasiado amplios como "Qué sucede" como carentes de precisión.
+2. No considerares la falta de claridad de terminos propios del contexto Facultad de Ciencias de La Universidad Nacional de Ingeniería como un criterio de falta de precision.
+3. Enfocate en las preguntas que son demasiado amplias y no definen claramente qué información se está buscando.
+
+Lista de preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+6. ¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+9. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+10. ¿Cuál es la cantidad máxima de créditos permitida para la matrícula de un "estudiante en posibilidad de egresar"?
+11. ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+12. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+13. ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+2. Identificas preguntas que no especifiquen claramente cuál aspecto o información se está buscando
+
+
+
+El término "qué sucede" es demasiado amplio y puede abarcar una variedad de eventos y procesos que ocurren durante la matrícula de un estudiante nuevo ingresante al primer ciclo universitario. Podría incluir aspectos como la orientación académica, la selección de asignaturas, el proceso de inscripción, los requisitos administrativos, entre otros.
+
+
+
+, además de explicar las razones para seleccionar o no seleccionar cada pregunta. Teniendo en cuento que las consultas se realizan en el contexto los estudios universitarios de Facultad de Ciencias de la Universidad Nacional de Ingeniería.
+
+Aquí tienes un ejemplo:
+
+Se te proveera una lista de preguntas, tu tarea es seleccionar cuales preguntas de esa lista carecen de precisión y no definen claramente qué información se está buscando, ademas de explicar las razones por cada pregunta es selecciona o no.
+
+Lista de preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+3. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+4. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+
+Preguntas de Seleccionadas:
+
+3.  ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+Explicacion: La pregunta carece de precisión y claridad en cuanto a qué tipo de información se está buscando. El término "qué sucede" es demasiado amplio y puede abarcar una variedad de eventos y procesos que ocurren durante la matrícula de un estudiante nuevo ingresante al primer ciclo universitario.  Por lo tanto, carece de precisión y claridad en su definición. Por lo tanto, esta pregunta debería ser revisada y refinada para hacerla más específica y enfocada en un área particular del proceso de matrícula.
+
+Preguntas no Seleccionads:
+
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+Explicacion: Esta pregunta específica claramente la información que esta buscando sobre número máximo de créditos en la matrícula de estudiantes en su primera inscripción. Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+2. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+Explicacion: Esta pregunta específica claramente la información que esta buscando sobre condiciones que debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar". Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+4. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+Explicacion: Esta pregunta específica claramente la información que esta buscando sobre las condiciones que debe cumplir un estudiante para matricularse en asignaturas que pertenezcan a tres ciclos consecutivos. Por lo tanto, no la seleccioné como una consulta que no definen claramente qué información se están buscando.
+
+Lista de preguntas:
+1. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en su primera matrícula?
+2. ¿Bajo qué condiciones un estudiante puede matricularse en todas las asignaturas del segundo ciclo?
+3. ¿Cuál es el número máximo de créditos a matricular para un estudiante que solo ha cursado el primer ciclo?
+4. ¿Qué sucede con la matrícula en asignaturas cuyos requisitos no han sido aprobados?
+5. ¿Cómo se determina la cantidad máxima de créditos para la matrícula de estudiantes en riesgo académico?
+6. ¿Cuál es el derecho del estudiante en cuanto a la elección de asignaturas a matricular?
+7. ¿Bajo qué condiciones un estudiante puede matricularse en asignaturas que pertenezcan a tres ciclos consecutivos?
+8. ¿Qué excepción permite la Comisión de Matrícula en cuanto a la matrícula en asignaturas de un ciclo consecutivo adicional al tercer ciclo permitido?
+9. ¿Qué condiciones debe cumplir un estudiante para ser considerado como "estudiante en posibilidad de egresar"?
+10. ¿Cuál es la cantidad máxima de créditos permitida para la matrícula de un "estudiante en posibilidad de egresar"?
+11. ¿Qué se permite a los alumnos de Matrícula Preferencial en cuanto a la matrícula de asignaturas y sus prerrequisitos?
+12. ¿Qué sucede en la primera matrícula de un estudiante nuevo ingresante al primer ciclo?
+13. ¿Cuántos ciclos académicos suelen comprender los planes de estudios de las carreras universitarias en la UNI y cuál es la carga académica promedio por ciclo?
+
+
+

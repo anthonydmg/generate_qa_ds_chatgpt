@@ -1,0 +1,222 @@
+Tema: Fecha de Pago de Autoseguro
+
+Preguntas:
+    - Tengo una consulta sobre la matrícula dado que el día de hoy realize el pago de autoseguro, puedo matricularme de forma normal o paso a rezagado
+    - ¿Que sucede si demore en realizar el pago de autoseguro?
+    - ¿Cuando se puede pagar el autoseguro?
+    - hoy puedo pagar el autoseguro?
+    - Si recien me acorde que debo pagar el autoseguro antes de la matricula, hasta cuando puedo pagarlo 
+
+Tema: Precedimiento para solicitar una Constancia de Matricula
+Preguntas Reales:
+    - Buenas tardes una consulta, cómo puedo obtener una constancia de matricula?
+    - Quisiera tramitar una constancia de estudios de este ciclo
+
+Preguntas Creadas Manualmente:
+    - ¿Que procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en español?
+ 
+
+Tema: Procedimiento para solicitar de Constancias de Notas
+Preguntas Reales:
+    - Solicito constancia de notas en español e inglés (transcript) oficial, esto significa que esté firmada y sellada por los órganos que correspondan. Por favor me dice lo que necesita para ello.
+    - Que tal, acabo de realizar mi pago para obtener una constancia de notas pero no sé qué más hacer?
+    - ¿dónde puedo ver un modelo para la solicitud de una constancia de notas? # Generada pero en contextual no indica el documento
+    - ¿A quién el envío esta solicitud? # Generada pero en contextual no indica el documento
+    - Buenas tardes, ¿cuál es el procedimiento para obtener una constancia de estudios?
+    - Quisiera tramitar una constancia de estudios de este ciclo
+Preguntas Creadas Manualmente:
+    - ¿Que procedimiento debe seguir un estudiante para solicitar una constancia de notas en ingles?
+    - ¿En donde un estudiante puede encontrar un modelo para la solicita de constancia de notas en ingles?
+
+Tema: Solicitud Certificado de decimo o quinto Superior
+Preguntas Reales:
+    - De acuerdo, me encargaré de realizar el procedimiento. También requiero un certificado de décimo o quinto superior según corresponda
+Preguntas Creadas Manualmente:
+ 
+Tema: Reincorporacion despues de una una Reserva de matricula
+Preguntas Reales:
+    - Buenas tardes,le envio este mensaje porque quiero información, el ciclo pasado no pude matricularme pero tampoco hice el trámite de reserva de matricula, quisiera saber si aún puedo realizar el trámte de reincorporación para matricularme o en todo caso como podria reservar mi matricula. Por favor agradecería como arreglar este asunto, gracias.
+    - Buenas tardes, Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo
+    - Buenas tardes me dirijo a ustedes porque quiero incorporarme en el siguiente ciclo. 
+    - Buenas tardes me dirijo a ustedes porque quiero Reincorporarme en el siguiente periodo académico
+Preguntas Creadas Manualmente:
+Tema: Plazo Para soliciar la reincorporacion
+
+Tema: Deber Tutoria obligatorio antes de la matricula o reincorporacion para alumnos en Riego academico
+
+Tema: Procedimiento general para genera una orden de pago
+Preguntas:
+    - Buenos días, podrian explicarme el procedimiento para obtener una orden de pago?
+    - ¿Cuál es el procedimiento para solicitar orden de pago?
+
+
+Tema: Problemas al Realizar la Matrícula Virtual
+Preguntas:
+    - Solicité mi reincorporación para este ciclo, hice todos los trámites pero no tengo habilitado mi matrícula en el sistema, me sale que no tengo proceso de matrícula para este período
+    - Buenas noches, tengo problema para ingresar al sistema, me aparece "EL PROCESO DE MATRÍCULA HA CULMINADO",
+    - Buenas tardes, tengo problemas con mi matricula, es mi turno y no puedo acceder a la matricula.
+    - Tengo problemas para matricularme
+    - Buen día, no estoy habilitado para matricularme y estoy en mi horario de matrícula
+
+Tema: Cambio de Seccion debido a Cruces de Horario
+Preguntas:
+    - Buenas tardes Estadística, en mi boleta de matrícula estoy matriculado en el curso de biología en la sección B pero la profesora del curso me menciona que estoy en la sección A, no puedo llevar en la sección A porque en ese horario estoy llevando económia
+    - Buenos días, me  percate que tengo un cruce en mi matrícula 
+    - Buenas tardes, me percate que tengo un cruce en mi matrícula y deseo corregir que debo hacer o a quien debo dirigirme par solucionarlo
+    - Señorita ¿Cómo hago para solicitar cambio de sección?
+    - Buenos días, quiero hacer un cambio de sección
+
+
+Tema: Procedimiento para el Retiro Total
+Preguntas:
+    - Quiero hacer el retiro total de cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.
+    - Puedo retirarme de todos los cursos?
+    - Deseo hacer solicitar retiro total, cuales son los requisitos? ## Requisitos
+    - Por motivos familiares, requiero hacer el retiro total de mi matrícula, cual es el procedimiento
+    - Buenas tardes, como realizo un retiro total.Gracias.
+    - Por motivos familiares, requiero hacer el retiro total de mi matrícula, ya que actualmente estoy en provincia, donde encuentro los requisitos
+    - Buenos días, me veo obligada de retirarme de todos los cursos por motivos de trabajo, cual es el procedimiento por favor
+    - Buenos días, que documentos debo presentar para el proceso de retiro total
+    - Buenas tardes, estoy matriculado en un solo curso y deseo realizar mi retiro parcial pero el sistema no me lo permite, que debo hacer
+
+Preguntas Generadas manualmente:
+    -¿Hasta cuando se puede solicitar el retiro total?
+    -¿Por cuales motivos un estudiante puede solicitar un retiro total?
+
+
+Tema: Fechas para el Retiro Total
+Preguntas:
+    - Cuando es la fecha para el retiro total?
+    - Hasta cuando puedo presentar los documentos para solicitar el retiro total?
+    - Buenos dias, quisiera saber cuando vence el plazo de retiro total 
+
+## Ver estas preguntas si contextualizar
+Tema: Motivos por los que procede el Retiro Total
+Preguntas:
+    - Deseo realizar un retiro total y quiero saber por que motivos procede
+    - y es necesario justificar con documentos ?
+    - cuales son los motivos de fuerza mayor por que procede?
+    - Sera necesario que se justifique con documentos ?
+    - Los llevo a la Facultad? ## ver esto es interesante como responder a esto
+
+
+Tema: Matricula de Curso y su Prerquisito
+Preguntas:
+    - Buenas tardes, soy un estudiante de ing. Física. Queria preguntar si es posible llevar cursos con sus pre requisitos
+    - Soy alumno del último ciclo, quisiera llevar un curso con su prerequisito, cual es el trámite
+
+Tema: Solicitar Vacantes adicionales
+Preguntas:
+    - aún no estoy matrículado pero veo en el sistema que no hay vacante en el curso de CIRCUITOS ELECTRONICOS ANALOGICOS ¿Qué debo hacer?
+    - hola estadística, solicité vacante para el curso de CIRCUITOS ELECTRÓNICOS ANALOGICOS y aún no tengo respuesta
+    - Deseo obtener una vacante en un curso que debo hacer
+
+
+Tema: Procedimiento Para Reserva de Matricula
+preguntas:
+    - Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de trabajo .¿Que procedimiento deberia seguir?
+    - "Le escribo porque necesito información, el semestre que viene estaré haciendo un intercambio estudiantil por lo que quisiera saber si necesito hacer algo en la ORCE ya que este semestre no podré matricularé en la UNI.
+Mi escuela ya sabe que haré intercambio y ya les envié el sílabo de los cursos pero aún no tengo respuesta."
+
+Tema: Procedimiento de Retiro Parcial
+
+Preguntas: 
+    - puede decirme como realizar un retiro parcial ?
+    - puede decirme como realizar un retiro parcial ?
+    - Estoy matriculado en solo un curso, puedo acceder al retiro parcial?
+    - Buen día, para acceder al retiro parcial necesito presentar algún documento?
+    - Podría indicarme el procedimiento para realizar el retiro parcial para el presente ciclo?
+    - Acabo de realizar mi retiro parcial en ORCE, es necesario que envíe el documento a mi director de escuela?
+    - Acabo de retirarme en ORCE de un curso, necesito hacer algo más?
+    - Buenas, quisiera informe sobre el retiro parcial en esta modalidad virtual, sobre si debo presentar algún documento o algo
+    - osea que no debo presentar ningún documento     
+    - Buenas tardes, realice mi retiro parcial por ORCE, pero como se que ya procedió
+    - Buenas tardes, realicé el procedimiento para el retiro parcial en ORCE y quisiera saber cuándo se actualizará los cursos en los cuales sigo matriculado.
+    - Buenos días quisiera confirmar el procedimiento del retiro parcial, lo que hice fue entrar al orce y seleccionar el curso a retirarme, ¿Ese sería todo el proceso?
+    - Buenos días, quisiera saber si para el retiro parcial sólo es necesario hacer click en el botón retirar que está en la sección mis trámites - retiro parcial
+
+Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para el retiro de cursos?
+Pregunta: ¿Es posible el retiro cursos electivos?
+Pregunta: ¿Es posible el retiro cursos desaprobadas?
+Pregunta: ¿Cual es el maximo numero de cursos matriculados que un estudiante puede retirarse?
+Pregunta: ¿Hasta que fecha puede un estudiante solicitar el retiro de cursos matriculados?
+
+Tema: Retiro de curso electivo
+Preguntas:
+    - Buenos días, quiero retirarme de un curso electivo, ¿es factible?
+Preguntas:
+    - Puedo retirarme de cursos con repitencias?
+
+Tema: Maximo de Cursos a retirar
+Preguntas:
+    - De cuántos cursos puedo solicitar retiro parcial?
+Respuestas:
+    - Se puede solicitar el retiro parcial de hasta tres (03) asignaturas. Pero en caso este matriculado en tres o menos cursos no puede solicitar retiro de todos sus cursos, ya que ello se denomina retiro total.
+
+Tema: Fechas del Retiro Parcial
+Preguntas:
+    - Y hasta cuando podria enviar la solicitud ?
+    - Buenos días, cuándo es la fecha para el retiro parcial?
+    - Hasta que fecha podría hacerlo?
+    - Buenas tardes, ¿Cuando se habilitara el retiro parcial?
+    - Buenas, quisiera saber si aún se puede hacer el retiro parcial, el motivo es que estoy con tratamiento psiquiátrico y me recomendaron que me retire de algunos cursos
+    - no hay nada que se pueda hacer o con quien puedo conversar ## ver esto si podria ser una hostoria
+    - Buenos dias, quisiera saber cuando vence el plazo de retiro parcial
+
+Tema: Horario de Atencion AERA
+Preguntas:
+    - Puede decirme cual es el horaro de atencion de la oficina?
+    - Podria saber los horarios?
+    - Puede decirme cual es el horaro de atencion ?
+
+Tema: Horarios de Cursos
+Preguntas:
+    - Quiero saber el horario de mis cursos
+    - Pueden ayudarme con un horario?
+    - Buenas dias, me podria decir cuales son los horarios para el curso de Algoritmos
+
+Tema: Informacion de Mesa de Partes ORCE
+Preguntas:
+    - Quiero saber el horario de atención de Mesa de Partes Virtual de la ORCE
+    - Ok, qué ocurre si envio mis documentos en otro horario?
+Tema: Procedimiento para solicitar Constancia de Ayudantia academica
+Preguntas:
+    - Quisiera saber ¿cómo podría hacer valido mi constancia de ayudantía académica que hice en periodo regular antes de la pandemia?.
+
+Tema: Procedimiento para realizar Ayudantia Academica
+Preguntas:
+    - Buenas tardes estadística el profesor acaba de aceptarme para hacer ayudantía, ¿Cuál es el procedemiendo?
+    - ¿Cual es el procedimiento para realizar ayudantía?
+
+Tema: Traslado Interno Requisitos
+Preguntas:
+    - Hola, ¿Cuáles son los requisitos para poder aplicar el traslado interno ?
+
+
+
+Tema: Practicas Pre Profesionales
+Preguntas:
+    - Buenas, quisiera saber que documento debo presentar para confirmar mis practicas pre profesionales
+    - Buenas noches, quisiera saber que pasos debo seguir para convalidar las prácticas preprofesionales
+
+Tema: Pago de Carnet Universitario
+Preguntas:
+    - Puedo realizar el pago por carné universitario?
+
+
+
+Tema: Turno de Matricula
+Pregunas:
+    - Entiendo, me podria decir como sober mi horario de matricula.
+Tema: Estado de Tramites
+Preguntas:
+    - Buenos días, escribo para consultar como va mi trámite de constancia de notas depurada
+
+
+Tema: Maximo de creditos a Matricular
+Preguntas:
+    - Soy alumno por egresar, cuantos créditos puedo llevar
+    - Buenos días, que trámite debo realizar para llevar un crédito adicional
+    - Buenos dias, me gustaría saber si existe lo de ampliación de créditos por favor y qué necesito para solicitarlo
+    - Buenas noches, si me sobran créditos, todavía puedo matricularme en más cursos
+    

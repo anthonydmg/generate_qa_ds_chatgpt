@@ -1,0 +1,17 @@
+Procedimiento de Matricula Para Ingresantes
+
+Los nuevos ingresantes a la Facultad de Ciencias de la Universidad Nacional de Ingenieria, deberan seguir realizar el siguiente proceso para completar su matricula (primera matricula al primer ciclo):
+    1. Recabar su constancia de ingreso. Luego de gestionar la emisión de su constancia de ingreso, la Dirección de Admisión (DIAD) de la UNI enviará a su correo electrónico la constancia de ingreso. Para más detalles sobre el proceso, puede consultar con DIAD al correo informes.admision@uni.edu.pe. 
+    2. Actualizacion de datos en DIRCE. La Dirección de Registros Central y Estadística hará llegar a su correo su clave para acceder a la plataforma para intranet-alumnos y completar sus datos.
+    3. Registrar los datos en la Facultad de Ciencias. La oficina de estadística enviará al correo del ingresante la ficha de datos. El llenado es carácter obligatorio.
+    4. Efectuar el pago por autoseguro dentro del plazo establecido en el cronograma de actividades academicas publicado en la pagina web de la Facultad de ciencias. Para ello, el ingresante debera generar una orden de pago atravez de la plataforma intranet-alumnos, luego podra realizar el pago por aplicativo movil BCP o en alguna sucursal de la entidad bancaria.
+    5. Realizar la entrega de los siguientes documentos a la oficina de estadística según el cronograma de actividades de matrícula de ingresantes publicado en la sección 'MATRÍCULA Y PROCEDIMIENTOS' en la página web de la Facultad de Ciencias.
+        - Contancia de Ingreso
+        - Ficha de datos Personales. Enviada por la oficina de estadística al correo del ingresante.
+        - Constancia de Evaluacion Socioeconomica. El ingresante debera acudir a la cita para su evaluacion socioeconomica que le llegara a su correo. 
+        - Certificado Médico expedido por el Centro Medico UNI. Para ello acudir a su examen medico segun los cronograma publicados por la Dirección de Admisión. 
+        - Comprobante de pago de Autoseguro Estudiantil
+    6. AERA ejecutará la matrícula (inscripción de cursos) de los ingresantes según el cronograma de actividades, únicamente para aquellos que hayan cumplido con la entrega de la entrega de los documentos requeridos en de las fechas establecidas en el cronograma.
+    7. Los ingresantes matriculados recibirán un mensaje en su correo con el horario de sus cursos, ademas podran visualizar los cursos y horarios dentro la plataforma intranet alumnos.
+
+Para generar una orden de pago, el ingresante debe ingresar a la plataforma Intranet-Alumno. En esta plataforma, selecciona la opción "Trámites y Pagos" para acceder al módulo de pagos (Portal INTRALU). En dicho módulo, selecciona el trámite correspondiente en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago. Para mas detalles sobre el proceso para generar un orden de pogo puede revisar el manual de pagos de la UNI publicado en la pagina web de la Facultad de Ciencias.

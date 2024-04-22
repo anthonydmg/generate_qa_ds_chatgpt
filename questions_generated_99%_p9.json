@@ -1,0 +1,31 @@
+[
+    {
+        "context": "Informacion General Fc\nFacultad de Ciencias de la Universidad Nacional de Ingenieria\n\nLa Facultad de Ciencias es una de las 11 facultades dentro de la universidad peruana llamada Universidad Nacional de Ingenier\u00eda (UNI).\nEsta facultad ofrece 5 carreras universitarias, las cuales conforman las escuelas profesionales. Estas son:\n    - Escuela Profesional de Ingenier\u00eda F\u00edsica\n    - Escuela Profesional de Qu\u00edmica\n    - Escuela Profesional de F\u00edsica\n    - Escuela Profesional de Matem\u00e1ticas\n    - Escuela Profesional de Ciencias de la Computaci\u00f3n\n\nLa facultad de ciencias de la UNI cuenta con un pagina web: https://fc.uni.edu.pe/ \nEn la secci\u00f3n de Matr\u00edcula y Procedimientos (dentro de Aera) de la pagina web de la facultad se publica:\n    * Manuales/diagramas de diferentes procesos de matricula, procedimientos y tramites academicos.\n    * El calendario de actividades academicas.\n    * Modelos para solicitudes de diferentes procesos academicos.",
+        "topic": "Informacion General Fc",
+        "source_context": "./documentos/otros/informacion_general_fc.txt",
+        "questions": [
+            "\u00bfCu\u00e1les son las cinco carreras universitarias que ofrece la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda y c\u00f3mo se organizan acad\u00e9micamente?",
+            "\u00bfQu\u00e9 tipo de recursos y herramientas pueden encontrar los estudiantes de la Facultad de Ciencias de la UNI en la secci\u00f3n de Matr\u00edcula y Procedimientos de su p\u00e1gina web?",
+            "\u00bfC\u00f3mo pueden los estudiantes de la Facultad de Ciencias de la UNI mantenerse informados sobre las fechas y actividades acad\u00e9micas importantes?",
+            "\u00bfD\u00f3nde pueden los estudiantes de la Facultad de Ciencias de la UNI obtener modelos para realizar solicitudes de procesos acad\u00e9micos?"
+        ],
+        "type": "factoid"
+    },
+    {
+        "context": "Informacion General Aera\nAERA\n\nEl \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (anteriormente la oficina de Estad\u00edstica) de la Facultad de Ciencias es un \u00f3rgano de apoyo administrativo, encargado de centralizar, verificar y custodiar la documentaci\u00f3n acad\u00e9mica de la Facultad de Ciencias.\n\nActividades que se realizan:\n\n1. Procesos de matr\u00edcula\nPlanificar, atender y supervisar los procedimientos de la matr\u00edcula en cada semestre Acad\u00e9mico de acuerdo al Reglamento de Matr\u00edcula de estudiantes de Antegrado vigente.\n\n    - Matr\u00edcula (ingresantes, regular, condicionada y rezagada).\n    - Reincorporaci\u00f3n.\n    - Grupo cero de Matr\u00edcula.\n    - Matr\u00edcula Condicionada.\n    - Matr\u00edcula Preferencial.\n    - Reserva de Matr\u00edcula.\n    - Retiros (Parciales, Totales y Definitivos).\n\n\n2. Procesos de evaluaci\u00f3n\nSupervisar e informar el cumplimiento de los procedimientos que regulan el sistema de calificaci\u00f3n de acuerdo al Reglamento de Evaluaci\u00f3n para estudiantes de Antegrado vigente.\n    - Supervisar el registro de notas de pr\u00e1cticas, ex\u00e1menes y solucionario.\n    - Supervisi\u00f3n en la atenci\u00f3n de los reclamos de notas de los estudiantes.\n    - Informar sobre las faltas en la entrega oportuna de notas por parte de los docentes.\n    - Gestionar el registro de nota del Examen de Regularizaci\u00f3n.\n\n3. Otras Actividades\n- Coordinar el tr\u00e1mite de los carn\u00e9s universitarios.\n- Elaborar las Constancias de Notas y/o Matr\u00edcula.\n- Verificar la informaci\u00f3n de los Certificados de notas, Constancias de Egresado y Constancias de No Adeudos emitidas por la DIRCE.\n- Entrega reportes y estad\u00edsticas a las diferentes oficinas de la Facultad para su evaluaci\u00f3n y toma de decisiones.\n- Realizar el estudio de las deudas por Decreto Legislativo 739 (Derecho de la Ense\u00f1anza) e informar al estudiante para que cumplan con la cancelaci\u00f3n respectiva.\n\nInformacion de Contacto\nE-mail: estadistica_fc@uni.edu.pe\n\nHoario de Atencion:\nDe Lunes a Viernes de 8:00 a.m. a 4:00 p.m.",
+        "topic": "Informacion General Aera",
+        "source_context": "./documentos/otros/informacion_general_aera.txt",
+        "questions": [
+            "\u00bfCu\u00e1l es la funci\u00f3n principal del \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (AERA) de la Facultad de Ciencias en la UNI?",
+            "\u00bfQu\u00e9 procedimientos abarca el proceso de matr\u00edcula gestionado por AERA y cu\u00e1les son las diferentes modalidades de matr\u00edcula disponibles para los estudiantes?",
+            "\u00bfC\u00f3mo se supervisa el sistema de calificaci\u00f3n y qu\u00e9 aspectos del proceso de evaluaci\u00f3n est\u00e1n bajo la responsabilidad de AERA?",
+            "\u00bfQu\u00e9 tipo de documentaci\u00f3n acad\u00e9mica es centralizada, verificada y custodiada por AERA?",
+            "\u00bfQu\u00e9 servicios ofrece AERA en relaci\u00f3n con la identificaci\u00f3n estudiantil y la verificaci\u00f3n de la informaci\u00f3n acad\u00e9mica?",
+            "\u00bfDe qu\u00e9 manera contribuye AERA a la toma de decisiones dentro de la Facultad de Ciencias mediante la entrega de reportes y estad\u00edsticas?",
+            "\u00bfC\u00f3mo gestiona AERA el estudio de las deudas por Derecho de la Ense\u00f1anza y qu\u00e9 se espera de los estudiantes en este aspecto?",
+            "\u00bfCu\u00e1l es el correo electr\u00f3nico de contacto para comunicarse con AERA en caso de necesitar informaci\u00f3n o realizar tr\u00e1mites acad\u00e9micos?",
+            "\u00bfEn qu\u00e9 horario se puede recibir atenci\u00f3n por parte de AERA y durante qu\u00e9 d\u00edas de la semana est\u00e1 disponible este servicio?"
+        ],
+        "type": "factoid"
+    }
+]

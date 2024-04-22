@@ -1,0 +1,92 @@
+
+from utils import get_completion_from_messages, set_openai_key, count_tokens
+from dotenv import load_dotenv
+import tiktoken
+
+load_dotenv()
+
+set_openai_key()
+
+encoding = tiktoken.encoding_for_model('gpt-4-turbo')
+#     - Las preguntas deben abarcar los diferentes subtemas mencionados abajo.
+
+prompt = f"""
+Tu tarea es generar al menos 3 preguntas de cada subtema mencionados a continuación, basándote en la información proporcionada sobre los reglamentos académicos de la Facultad de Ciencias de la UNI (delimitada por tres comillas invertidas). 
+Antes de crear una pregunta, asegúrate de cumplir estrictamente cada uno de los siguientes criterios:
+- Evita mencionar o citar numerales de artículos específicos en las preguntas.
+- No formules preguntas que requieran identificar el número de artículos específicos en el reglamento.
+- No crees preguntas que mencionen directamente datos específicos.
+- Concéntrate en preguntas prácticas relacionadas con los subtemas mencionados a continuación y que puedan ser respondidas con la información proporcionada.
+- Las preguntas deben fomentar respuestas extensas, basadas en la información proporcionada.
+- Evita la repetición y asegúrate de crear preguntas únicas relacionadas con los subtemas mencionados a continuación y que puedan ser respondidas con la información proporcionada.
+
+Por favor, considera los siguientes temas y subtemas como ejemplos para guiar tus preguntas:
+
+1. Proceso de Matrícula
+1.1. Definición y Responsabilidad
+1.2. Tipos de Matrícula
+1.2.1. Matrícula Regular
+1.2.2. Matrícula Rezagada
+1.3. Tratamiento de la Matrícula
+1.3.1. Matrícula Libre
+1.3.2. Matrícula Condicionada
+1.3.3. Matrícula Preferencial
+1.3.4. Matrícula Especial por Convenio
+2. Estudiante Regular y en Riesgo Académico
+2.1. Definición de Estudiante Regular
+2.2. Definición de Estudiante en Riesgo Académico
+2.3. Tutoría Académica para Estudiantes en Riesgo
+3. Fechas y Procedimientos de Matrícula
+3.1. Fechas y Procedimientos para Matrícula Regular
+3.2. Proceso de Matrícula Rezagada
+3.3. Tutoría Obligatoria para Determinados Casos
+4. Condiciones Especiales para la Matrícula
+4.1. Casos Específicos de Matrícula Condicionada
+4.2. Matrícula Preferencial para Estudiantes Próximos a Graduarse
+4.3. Matrícula Especial por Convenio Internacional
+5. Procedimientos Administrativos para Matrícula
+5.1. Autorización y Validación de Matrícula
+5.2. Generación de Códigos Especiales de Alumno
+5.3. Responsabilidades de la Oficina de Registro y Control de Estudios (ORCE)
+5.4. Verificación y Validación de Matrículas por la Comisión de Matrícula
+
+Presenta las preguntas y el número de subtema al que pertenece de la siguiente manera:
+
+1. pregunta...
+Tema: 1, Subtema: 1.1.
+2. pregunta...
+Tema: 2, Subtema: 2.1
+...
+
+Fragmento de texto: ```REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE ANTEGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA 
+
+CAPÍTULO II
+
+CONCEPTOS Y NORMAS DEL PROCESO DE MATRÍCULA
+Art. 7° La matrícula es el resultado de un acto formal que es ejecutado personal y voluntariamente por el estudiante (sujeto a verificación posterior), de inscribirse en un período académico; no es obligatorio tomar el máximo de créditos permitidos. Implica el cumplimiento de la Ley Universitaria, el Estatuto, las normas de la UNI y el presente reglamento. La matrícula es responsabilidad exclusiva del estudiante y se realiza semestralmente. 
+
+Art. 8°	Se define como estudiante regular en un semestre, al estudiante matriculado en no menos de doce (12) créditos del Plan de Estudios de su especialidad, luego del retiro parcial. Se exceptúa a quienes culminen sus estudios en dicho semestre. 
+		Se define como estudiante en riesgo académico a quien tenga desaprobada una o más asignaturas en dos o tres oportunidades. Previo a su matrícula debe pasar, de manera obligatoria, por un proceso de tutoría académica. 
+		
+Art. 9°	La matrícula, por su oportunidad, puede ser de dos tipos: 
+			a. Matrícula Regular: cuando se realiza de manera digital, en las fechas establecidas en el calendario de actividades académicas y en no menos de doce (12) créditos. La realizará el estudiante de modo virtual y en estricto orden de mérito. El orden de mérito se establece en base al promedio ponderado de los dos (02) últimos períodos académicos regulares cursados como estudiante regular. 
+			b. Matrícula Rezagada: cuando se realiza fuera de las fechas establecidas para la matrícula en la primera semana de clases, fijada en el calendario de actividades académicas. Se realizará exclusivamente a través de la Oficina de Estadística de la respectiva Facultad y debe contar con la autorización del Director de la Escuela Profesional que corresponda. Es la que corresponde a los ingresantes de todo tipo y reincorporados rezagados. Puede solicitar autorización para esta matrícula, todo estudiante que no haya podido ejecutar su matrícula regular Académica. 
+
+Art. 10° La matrícula, por su tratamiento, puede ser de cinco tipos: 
+			a. Matrícula Libre: Aquella que no tiene condicionamientos: asignaturas a cursar por primera o segunda vez. 
+			b. Matrícula Condicionada: conforme al Artículo 102º de la Ley Universitaria Nº 30220, y los Art. 251 º, Art. 252º y Art. 253º del Estatuto de la UNI, se presentan los siguientes casos: 
+				i. Cuando el estudiante ha desaprobado una misma asignatura dos (02) veces, ORCE la incluirá en la oferta de Matrícula, como obligatoria. En este caso, en la tutoría previa al inicio del semestre a matricularse, se podrá incluir dicha asignatura en el Grupo Cero (ver Art. 11 º, n) y se definirán las demás asignaturas a matricular. Alguna podrá ser obviada sólo si tiene cruce de horario con otra de ciclo inferior. Estas últimas van a matricula regular en las fechas establecidas en el calendario académico de cada Facultad. 
+				ii. Cuando el estudiante retorna de haber cumplido suspensión de un año, por Bajo Rendimiento Académico, sólo se podrá matricular en un máximo de dos asignaturas desaprobadas por tercera vez; no pudiendo matricularse en ninguna otra asignatura. Podrá solicitar, a través de la Tutoría Obligatoria, su incorporación en el Grupo Cero y su matrícula automática. Si fuese una asignatura y ésta hubiese cambiado de código, será cursada como por primera vez y podrá incluir en su matrícula una segunda asignatura. Si alguna fuese electiva, y no desea aprobarla, podrá solicitar previamente su exoneración. Si por exoneraciones se excluye del riesgo académico, podrá matricularse, en acuerdo con la tutoría, hasta en 15 créditos. 
+					Para retornar de manera regular a sus estudios en el ciclo siguiente, el estudiante debe haber aprobado la totalidad de las asignaturas desaprobadas por tercera vez y haber cumplido con el proceso de tutoría. 
+				En estos dos (02) casos, la matrícula de las asignaturas en riesgo se realizará a pedido del Tutor en el Grupo Cero, en la sección de menor demanda. Las otras asignaturas se matricularán de modo regular, en el turno que corresponda a cada estudiante; siendo verificada por la Comisión de Matricula correspondiente. El alumno que no se presente dentro del calendario a la tutoría no podrá matricularse. 
+			c. Matrícula Preferencial. Es la de un grupo previo al primero que está integrado por los estudiantes con un máximo 30 créditos pendientes para concluir su carrera. Esta ventaja se podrá solicitar sólo una vez, también la es, la del Grupo Cero, consolidado por la Oficina de Tutoría. Cada estudiante solicitará con anticipación a su Director de Escuela, que lo incluya en dicho grupo. Este listado se cierra tres días útiles antes del inicio de la matrícula regular; una vez vencido el plazo, este no se admitirá. 
+			d. Matrícula Especial por Convenio: Es la que corresponde a estudiantes procedentes de intercambio por convenios con universidades nacionales o extranjeras. No requiere señalarse el plan de estudios, ni los requisitos. Se autoriza la matrícula del estudiante mediante Resolución Decana! dirigida a la ORCE, acompañada de la constancia de ingreso emitida por la Oficina Central de Cooperación Internacional y Convenios de la UNI. La ORCE genera código especial de alumno, previo a la matrícula.```
+
+"""
+#print(prompt)
+
+print("size input: ",count_tokens(encoding,prompt))
+messages =  [{'role':'user', 'content':prompt}]
+response = get_completion_from_messages(messages, temperature=0, model= "gpt-4-1106-preview")
+print(response)
+print("size output: ", count_tokens(encoding,response))

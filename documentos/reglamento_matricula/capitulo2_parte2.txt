@@ -1,12 +1,12 @@
+REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE ANTEGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA 
+
 CAPÍTULO II
 
 CONCEPTOS Y NORMAS DEL PROCESO DE MATRÍCULA
 
 Art. 11° Para el presente reglamento se entiende por: 
 
-	a. Reincorporación: es el procedimiento que restablece al estudiante la condición de estudiante activo, quien realizó Retiro total, solicitó Reserva de Matrícula o Licencia, o dejó de matricularse un semestre académico o más, teniendo como plazo límite tres (03) años o seis (06) periodos académicos consecutivos o alternos. En caso de periodos académicos alternos estos no excederán de cinco (05) años contados a partir del primer periodo académico en el que dejó de matricularse. Es procedente si no tiene sanción vigente y no ha superado el plazo máximo de Reserva de
-Matrícula.
-
+	a. Reincorporación: es el procedimiento que restablece al estudiante la condición de estudiante activo, quien realizó Retiro total, solicitó Reserva de Matrícula o Licencia, o dejó de matricularse un semestre académico o más, teniendo como plazo límite tres (03) años o seis (06) periodos académicos consecutivos o alternos. En caso de periodos académicos alternos estos no excederán de cinco (05) años contados a partir del primer periodo académico en el que dejó de matricularse. Es procedente si no tiene sanción vigente y no ha superado el plazo máximo de Reserva de Matrícula.
 	La reincorporación se presenta según el calendario oficial, a través de la Plataforma SIGA-ORCE.
 
 	b. Verificación, depuración y ratificación de matrícula: proceso que se realiza en la primera semana de clases; mediante el cual el estudiante, luego de efectuar su matrícula regular, solicita al Director de la Escuela Profesional la autorización para incluir o excluir asignaturas. 
@@ -15,15 +15,14 @@ Matrícula.
 	La matrícula en las asignaturas en riesgo académico y más atrasadas estarán registradas por defecto ya que su matrícula tiene carácter obligatorio; solo se podrá seleccionar la sección.
 	
 	c. Retiro Parcial: es la prerrogativa de eliminar la matrícula de hasta tres (03) asignaturas, dentro del plazo que vence el último día útil de la quinta semana después del inicio de clases del período académico.
-No es posible el retiro parcial de las asignaturas matriculadas en el ciclo más bajo, ni de las desaprobadas por segunda o tercera vez, ni de las que son prerrequisito (en caso se encuentre matriculado en una asignatura y su prerrequisito). 
+	No es posible el retiro parcial de las asignaturas matriculadas en el ciclo más bajo, ni de las desaprobadas por segunda o tercera vez, ni de las que son prerrequisito (en caso se encuentre matriculado en una asignatura y su prerrequisito). 
 
 	d. Retiro Total: es el procedimiento mediante el cual el estudiante solicita a su Decano, la anulación total de su matrícula. Procede sólo por motivos de fuerza mayor y se podrá presentar hasta el último día útil de la penúltima semana de clases.
 	No procede un retiro Total cuando el estudiante ha rendido todas las evaluaciones regulares de alguna de las asignaturas en la que se encuentra matriculado o si en los dos ciclos regulares precedentes ha optado por el retiro total o si tiene algún curso desaprobado dos veces o más al periodo académico regular precedente. 
 
 	Los estudiantes que soliciten el retiro total deberán adjuntar la debida documentación que sustente los motivos por  los cuales solita dicha medida.
 
-	e. Retiro Reglamentario: Es el procedimiento de oficio ejecutado por ORCE que elimina la matrícula del estudiante, por contravenir al presente reglamento.
-Pudiendo ser: por eliminación de la asignatura-sección, por registro convalidatorio tardío que hace innecesaria una matrícula obligatoria, por no haber aprobado prerrequisito, o por activación irregular del código de alumno separado temporalmente o retirado definitivamente, etc.
+	e. Retiro Reglamentario: Es el procedimiento de oficio ejecutado por ORCE que elimina la matrícula del estudiante, por contravenir al presente reglamento. Pudiendo ser: por eliminación de la asignatura-sección, por registro convalidatorio tardío que hace innecesaria una matrícula obligatoria, por no haber aprobado prerrequisito, o por activación irregular del código de alumno separado temporalmente o retirado definitivamente, etc.
 
 	f. Retiro Definitivo: es el procedimiento voluntario o de oficio mediante el cual un estudiante es desvinculado de manera definitiva de la UNI. Procede a solicitud del estudiante ante su Decano o por mandato de Resolución Decana! o Rectoral, motivada por falta disciplinaria muy grave, por Exceso de Licencia o por Bajo Rendimiento Académico, conforme a ley y los reglamentos de la UNI. 
 

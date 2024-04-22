@@ -52,3 +52,10 @@ Lista de preguntas:
 Fragmento del Reglamento:
 {reglamento}"
 
+
+## AQUI LA JUSTIFICACION DE POR QUE USAR ROUGE PARA COMPARAR INSTRUCCIONES : SELF-INSTRUCT: Aligning Language Models
+with Self-Generated Instructions
+
+POR QUE USAR ROUGE POR CAPTURA LA SOBREPOCICION ENTRE LOS TEXTO LO QUE CONTRUBUYE A EVITAR LA REDUNCIA DE FRASES Y CONTRIBER A LA DIVERSIDAD.
+## https://plainenglish.io/community/evaluating-nlp-models-a-comprehensive-guide-to-rouge-bleu-meteor-and-bertscore-metrics-d0f1b1
+https://medium.com/@priyankads/rouge-your-nlp-results-b2feba61053a

@@ -1,0 +1,15 @@
+Facultad de Ciencias de la Universidad Nacional de Ingenieria
+
+La Facultad de Ciencias es una de las 11 facultades dentro de la universidad peruana llamada Universidad Nacional de Ingeniería (UNI).
+Esta facultad ofrece 5 carreras universitarias, las cuales conforman las escuelas profesionales. Estas son:
+    - Escuela Profesional de Ingeniería Física
+    - Escuela Profesional de Química
+    - Escuela Profesional de Física
+    - Escuela Profesional de Matemáticas
+    - Escuela Profesional de Ciencias de la Computación
+
+La facultad de ciencias de la UNI cuenta con un pagina web: https://fc.uni.edu.pe/ 
+En la sección de Matrícula y Procedimientos (dentro de Aera) de la pagina web de la facultad se publica:
+    * Manuales/diagramas de diferentes procesos de matricula, procedimientos y tramites academicos.
+    * El calendario de actividades academicas.
+    * Modelos para solicitudes de diferentes procesos academicos.

@@ -1,0 +1,30 @@
+[
+    {
+        "source_context": "./documentos/matricula/matricula_ingresantes.txt",
+        "question_answer_pairs": [
+            {
+                "question": "\u00bfCu\u00e1l es el primer paso que deben seguir los nuevos ingresantes a la Facultad de Ciencias de la UNI para iniciar su proceso de matr\u00edcula?",
+                "answer": "El primer paso que deben seguir los nuevos ingresantes a la Facultad de Ciencias de la UNI es recabar su constancia de ingreso. La direcci\u00f3n de Admisi\u00f3n de la UNI enviar\u00e1 a su correo electr\u00f3nico la constancia de ingreso, la cual es necesaria para continuar con el proceso de matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 deben hacer los ingresantes una vez que hayan recabado su constancia de ingreso seg\u00fan el procedimiento de matr\u00edcula de la UNI?",
+                "answer": "Una vez que los ingresantes hayan recabado su constancia de ingreso, deben registrar sus datos en la Facultad de Ciencias. El \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos les proporcionar\u00e1 un formulario para completar sus datos personales de manera presencial. Es importante destacar que el llenado de este formulario es obligatorio para completar el proceso de matr\u00edcula.\n\n"
+            },
+            {
+                "question": "\u00bfC\u00f3mo se realiza la actualizaci\u00f3n de datos personales en la UNI y qu\u00e9 herramienta proporciona la universidad para completar este paso?",
+                "answer": "La actualizaci\u00f3n de datos personales en la UNI se realiza a trav\u00e9s del sistema DIRCE (Direcci\u00f3n de Registros Central y Estad\u00edstica). Una vez que los ingresantes hayan registrado sus datos en la Facultad de Ciencias, la Direcci\u00f3n de Registros Central y Estad\u00edstica les enviar\u00e1 a su correo electr\u00f3nico una clave para acceder al sistema zona intranet alumnos. A trav\u00e9s de este sistema, los ingresantes podr\u00e1n completar y actualizar sus datos personales de manera online.\n\n"
+            },
+            {
+                "question": "\u00bfQu\u00e9 proceso deben seguir los ingresantes para realizar el pago por Autoseguro y cu\u00e1les son las opciones disponibles para efectuar dicho pago?",
+                "answer": "Para realizar el pago por Autoseguro, los ingresantes deben generar una orden de pago. Para ello, deben ingresar a Intranet-Alumno (Portal INTRALU) y revisar el manual de pagos de la UNI publicado en la p\u00e1gina web de la Facultad de Ciencias. En este manual encontrar\u00e1n los detalles y pasos espec\u00edficos para generar la orden de pago. Una vez generada la orden de pago, los ingresantes tienen dos opciones para efectuar el pago: pueden realizarlo a trav\u00e9s del aplicativo m\u00f3vil del BCP o en los establecimientos autorizados de la entidad bancaria.\n\n"
+            },
+            {
+                "question": "\u00bfD\u00f3nde pueden los nuevos alumnos de la UNI encontrar el manual de pagos y qu\u00e9 herramienta deben utilizar para generar una orden de pago?",
+                "answer": "Los nuevos alumnos de la UNI pueden encontrar el manual de pagos en la p\u00e1gina web de la Facultad de Ciencias. Para acceder a este manual, deben ingresar a Intranet-Alumno (Portal INTRALU) y buscar la secci\u00f3n correspondiente al proceso de matr\u00edcula. En este manual encontrar\u00e1n toda la informaci\u00f3n necesaria sobre los pagos a realizar. Para generar una orden de pago, los nuevos alumnos deben utilizar el aplicativo m\u00f3vil del BCP o seguir los pasos indicados en el manual de pagos para realizarlo en los establecimientos autorizados de la entidad bancaria."
+            }
+        ],
+        "type": "factoid",
+        "topic": "Matricula Ingresantes",
+        "context": "Matricula Ingresantes\nProcedimiento de Matricula Para Ingresantes\n\nLos nuevos ingresantes a la Facultad de Ciencias de la Universidad Nacional de Ingenieria, deberan seguir realizar el siguiente proceso para completar su matricula:\n    1. Recabar su contancia de ingreso. La direccion de Admision de la UNI enviar\u00e1 a su correo su constancia de ingreso.\n    2. Registrar los datos en la Facultad de Ciencias. El \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos realizar\u00e1 la entrega de manera presencial un formulario para completar sus datos personales. El llenado es car\u00e1cter obligatorio.\n    3. Actualizacion de datos en DIRCE. La Direcci\u00f3n de Registros Central y Estad\u00edstica har\u00e1 llegar a su correo su clave para acceder al sistema zona intranet alumnos y completar sus datos.\n    4. Realizar el pago por Autoseguro. El ingresante debera generar una orden de pago, luego podra realizar el pago por aplicativo movil BCP o en los establecimiento autorizados de la entidad bancaria.\n\nPara generar una orden de pago, el alumno debe ingresar a Intranet-Alumno (Portal INTRALU) y revisar el manual de pagos de la UNI publicado en la pagina web de la Facultad de Ciencias para obtener m\u00e1s detalles."
+    }
+]

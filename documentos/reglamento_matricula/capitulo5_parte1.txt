@@ -1,3 +1,6 @@
+REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE ANTEGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA 
+REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE ANTEGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA 
+
 CAPÍTULO V
 DE LA MATRÍCULA
 De los Requisitos de la Matrícula
@@ -9,13 +12,12 @@ Art. 46° La enseñanza en el antegrado es gratuita para la primera carrera prof
 	e. En el caso de los traslados internos, externos, graduados, titulados, convenios internacionales, además de los incisos anteriores, deben presentar la Constancia o la Resolución Directora! de convalidación de las asignaturas. 
 	f. Los estudiantes que realizan su matrícula en forma rezagada deberán efectuar el pago correspondiente establecido en las normas de la UNI. 
 	g. Los estudiantes que hayan dejado de estudiar, o reservado matrícula o hayan solicitado su retiro total en algún periodo anterior, deberán previamente haber solicitado su reincorporación ante su Decano y su trámite lo realizará vía la plataforma ORCE-UNI.
-		 Si requiriesen cambio previo de Plan de Estudios y convalidaciones correspondientes, éstas ya deben haberse tramitado. En estos casos , el trámite de reincorporación debe hacerse con no menos de una semana adicional de ·
-anticipación.
-	h. El pago del carné universitario no es requisito para la matrícula. \
+		 Si requiriesen cambio previo de Plan de Estudios y convalidaciones correspondientes, éstas ya deben haberse tramitado. En estos casos , el trámite de reincorporación debe hacerse con no menos de una semana adicional de anticipación.
+	h. El pago del carné universitario no es requisito para la matrícula.
 	i. No será necesario que los estudiantes hayan participado en el último proceso electoral para ser matriculados, sin que esto signifique exonerarlo de la multa correspondiente. 
 	j. Otros de acuerdo con lo establecido en las normas de la UNI.
 
-Todas las deudas pendientes del estudiante serán exigidas al finalizar sus estudios e iniciar el trámite para obtener de su grado de bachiller.
+	Todas las deudas pendientes del estudiante serán exigidas al finalizar sus estudios e iniciar el trámite para obtener de su grado de bachiller.
 
 Del Procedimiento de Matrícula
 
@@ -32,3 +34,26 @@ Art. 48° En casos especiales, cuando el estudiante por un impedimento de fuerza
 
 Art. 49° El estudiante se matriculará sólo en las asignaturas que corresponden a su Plan de Estudios de su especialidad. Quien haya solicitado matrícula en asignaturas de otra especialidad de la UNI, primero hará su Matricula ordinaria y reservará créditos para esas adicionales, las que se registrarán mediante oficio ante la ORCE.
 
+Art. 50° La matrícula en una asignatura procede:
+		a. Si el prerrequisito de la asignatura ha sido aprobado.
+		b. Si se ha solicitado la matrícula en las asignaturas pendientes de menor ciclo y en riesgo académico.
+		c. Si no existen cruces entre los horarios de las asignaturas-sección, y de las sesiones si corresponde, registradas en la matrícula.
+		d. Si no existen cruces entre los horarios de prácticas o laboratorios de dos asignatura-sección. De manera excepcional, se aceptan los siguientes cruces de dos asignaturas:
+			-	Hasta cuatro (04) horas de cruces de horarios de solo teoría con teoría de dos asignatura-sección, siendo las horas no necesariamente consecutivas.
+			-	Hasta dos (02) horas de cruces de horario de teoría con horarios de práctica o laboratorios, no necesariamente consecutivas.
+			-	Hasta dos (02) horas de cruces de horarios de teoría con horarios de práctica o laboratorios y hasta dos (02) horas de cruces de horarios de solo teoría con teoría, no necesariamente consecutivos.
+
+Art. 51° La matrícula, si se efectuase, deviene en nula, en los siguientes casos:
+		a. Conforme a lo establecido en el Art. 102o de la Ley Universitaria No 30220, del estudiante que haya desaprobado la misma asignatura por cuarta (4a) vez, después de haber cumplido Suspensión por Bajo Rendimiento Académico.
+		b. Conforme a lo establecido en el numeral 100.11 de la Ley y el literal 1) del Art. 247° del Estatuto, de quien haya tomado licencia voluntaria por más de seis periodos académicos semest	rales o tres anuales. En ambos casos corresponde el retiro definitivo del estudiante, vía Resolución Decanal.
+
+Art. 52° La matrícula de los estudiantes que tengan asignaturas en riesgo académico, así como la de quienes retornan de haber cumplido Suspensión por Bajo Rendimiento Académico, será asesorada, supervisada y confirmada por la Facultad. La Facultad brindará a estos estudiantes una dedicación tutoría! específica, de carácter obligatorio. La tutoría podrá disponer la matrícula anticipada de esas asignaturas, en la sección de menor demanda. La Oficina de Tutoría o la Dirección de Escuela consolidará el listado de matrícula de asignaturas en riesgo, a pedido inmediato del tutor y lo enviará a la ORCE con no menos de un día útil antes del inicio de la matrícula.
+
+Art. 53° Los ingresantes a la UNI por traslado interno o externo, graduados, titulados, y por convenios, solicitarán a la Escuela Profesional correspondiente su primera matricula, la misma que se realizará a través de la Oficina de Estadistica de la Facultad, en coordinación con la ORCE-UNI.
+
+Art. 54° El estudiante que haya aprobado los cinco (05) primeros ciclos de su Plan de Estudios o un número de créditos equivalente a estos, podrá matricularse en las asignaturas electivas en las que cumplan con el prerrequisito.
+		Puede considerarse como prerrequisito una determinada cantidad de créditos aprobados acumulados.
+
+Art. 55° El estudiante que haya aprobado el número total de créditos exigidos en el Plan de Estudios de su especialidad, será considerado automáticamente en la condición de "Currículo completo" y por ello, eximido de los efectos de este Reglamento. 
+
+Art. 56° El estudiante considerado "Currículo Completo" o que haya tramitado su Constancia de Egresado, podrá inscribirse como estudiante libre en cualquier asignatura, abonando los derechos correspondientes al de estudiante libre. A la aprobación de dichas asignaturas se le podrá otorgar un certificado de capacitación expedido por la Facultad.

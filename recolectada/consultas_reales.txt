@@ -1,0 +1,476 @@
+Tema: Pago Autoseguro Fuero de Fecha Anticipada 
+
+Preguntas:
+ - Tengo una consulta sobre la matrícula dado que el día de hoy realize el pago de autoseguro, puedo matricularme de forma normal o paso a rezagado
+ - ¿Que sucede si demore en realizar el pago de autoseguro?
+## Mejorar las respuestas
+Repuestas:
+ - Le informo que el pago de autoseguro debe realizarse con 72 horas de antelacion a su matricula (no se cuenta sábado ni domingo) caso contrario su matricula pasara a ser rezagada.
+ - El reglamento indica que sea con 72 horas de antelación a su matrícula (no se cuenta sábado ni domingo), pero usted puede comprobar solo ingresando al sistema
+ - si lo realizó en menos de 72 horas, es casi seguro que pasó a ser rezagado, lo comprobará si se le habilita o no el proceso de matrícula
+
+Notas:
+ - Colocar en la respuesta que se comunique con AERA para ver posibilidaes adicionales
+
+Tema: Procedimiento para solicitar de Constancias de Notas
+Preguntas:
+    - Solicito constancia de notas en español e inglés (transcript) oficial, esto significa que esté firmada y sellada por los órganos que correspondan. Por favor me dice lo que necesita para ello.
+    - Que tal, acabo de realizar mi pago para obtener una constancia de notas pero no sé qué más hacer?
+    - ¿dónde puedo ver un modelo para la solicitud de una constancia de notas? # Generada pero en contextual no indica el documento
+    - ¿A quién el envío esta solicitud? # Generada pero en contextual no indica el documento
+    - Buenas tardes, ¿cuál es el procedimiento para obtener una constancia de estudios?
+    - Quisiera tramitar una constancia de estudios de este ciclo
+
+Respuestas:
+    - AERA puede generar una constancia de notas en INGLES, firma el jefe de AERA y el Decano, si estas interesado puedes encontrar el detalle del procedimiento en la pagina web de la facultad
+    - "Este es el procedimiento consultado:
+1.- Solicite orden de pago enviando un correo electrónico a este despacho (estadística_fc@uni.edu.pe),
+colocando en asunto SOLICITO ORDEN DE PAGO POR CONSTANCIA, en el cuerpo del mensaje debe indicar
+tus datos personales, número del DNI y domicilio actual.
+2.- El sistema te enviará a tu correo institucional el código ID con el cual puedes realizar el pago en el
+aplicativo del BCP.
+3.- Enviar al correo de mesa de partes (mesadepartes_fc@uni.edu.pe) el comprobante de pago y solicitud. "
+    - En la página de la facultad se ha publicado el procedimiento para este trámite, ingrese al siguiente enlace
+Notas:
+    - En la respuestas indicar a donde se debe enviar la solicitud si es que hay esa informacion. (Enviar al correo de mesa de partes (mesadepartes_fc@uni.edu.pe) el comprobante de pago y solicitud)
+
+
+Tema: Solicitud Certificado de decimo o quinto Superior
+
+Preguntas:
+    - De acuerdo, me encargaré de realizar el procedimiento. También requiero un certificado de décimo o quinto superior según corresponda
+Respuesta: 
+    - Las constancias de Quinto y/o Tercio Superior los emite la Esculeas Profesionales correspondientes, ellos les darán el detalle para dicho trámite
+
+Tema: Reincorporacion despues de una una Reserva de matricula #
+
+Preguntas:
+    - Buenas tardes,le envio este mensaje porque quiero información, el ciclo pasado no pude matricularme pero tampoco hice el trámite de reserva de matricula, quisiera saber si aún puedo realizar el trámte de reincorporación para matricularme o en todo caso como podria reservar mi matricula. Por favor agradecería como arreglar este asunto, gracias.
+    - Buenas tardes, Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo
+    - Buenas tardes me dirijo a ustedes porque quiero incorporarme en el siguiente ciclo. # No MENCIONA LA RESERVA DE MATRICULA
+    - Buenas tardes me dirijo a ustedes porque quiero Reincorporarme en el siguiente periodo académico
+
+Respuestas:
+    -  Primero debes inciar con el trámite de reincorporación, revise el cronograma de actividades y el procedimiento publicada en la página de la facultad, luego podrá matricularse en las fechas establecidadas según su promedio ponderado de dos últimos períodos académicos.
+
+Notas:
+    - Comentar el detalle que si no se realiza en la fechas indicadas en el cronograma tendra que esperar al siguiente perioro academico
+
+Tema: Deber Tutoria obligatorio antes de la matricula o reincorporacion para alumnos en Riego academico
+
+Preguntas:
+    - Le escribro porque tengo un inconveniente para poder matricularme (reincorporación ), pues olvidé pasar por tutoría soy alumno de riesgo académico. Le agradeceria mucho me pudieran ayudar para poder matricularme en este ciclo
+    - Quiero matricularme pero me figura que tengo deuda con tutoría, que puedo hacer
+
+respuestas:
+    - Para que pueda matricularse debe regularizar su situación con tutoría, escribe al correo tutoria.fc@uni.edu.pe para solicitar información.
+    - debe comunicarse con dicha oficina, aqui su correo tutoría.fc@uni.edu.pe
+
+
+
+Tema: Procedimiento para genera un orden de pago
+
+Preguntas:
+    - Buenos días, podrian explicarme el procedimiento para obtener una orden de pago?
+    - ¿Cuál es el procedimiento para solicitar orden de pago?
+    
+Repuestas:
+    - El estudiante envía un correo a estadística_fc@uni.edu.pe solicitando una orden de pago por concepto de reincorporación, en el cuerpo del mensaje enviará sus datos personales, DNI, domicilio, su correo institucional y/o alternativo.
+    
+Notas:
+    - Colocar al ultimo de la respuesta los precemientos de para solicitar la orden de pagos por diferentes conceptos estan en la pagina de la facultad por lo que se sugiere revisalsos.
+    - Detallar como y donde llega su orden de pago al correo segun la respuesta que le dan. (sistema enviará a su correo institucional un código ID con el cual usted podrá realizar el pago en el aplicativo del banco BCP.)
+
+
+# Esto no va pero estaria bien para testear la informacion que no tiene.
+
+Tema: Prodecimiento para pagar una constancia de engresado
+Preguntas: 
+    - Quisiera pagar mi constancia de egresado, actualmente me encuentro en provincia y me comentaron que se podía habilitar un código para realizar el pago.
+    - Buenos dias, quisiera saber el procedimiento para tramitar la constancia de egresado
+Respuestas:
+    - En el caso de pago por Constancia de Egresado el trámite inicia por ORCE, para mayor información puede escribir al correo de Mesa de Partes Virtual de ORCE 
+    - Por favor revise la página de ORCE, allí encontrará información 
+
+Nota:
+    - También consulta por el correo de Mesa de partes de ORCE, tambien puede ser para testaer partes que no tiene conocimientos.
+
+Tema: Problemas con la Matrícula
+Preguntas:
+    - Solicité mi reincorporación para este ciclo, hice todos los trámites pero no tengo habilitado mi matrícula en el sistema, me sale que no tengo proceso de matrícula para este período
+    - Buenas noches, tengo problema para ingresar al sistema, me aparece "EL PROCESO DE MATRÍCULA HA CULMINADO",
+    - Buenas tardes Estadística, en mi boleta de matrícula estoy matriculado en el curso de biología en la sección B pero la profesora del curso me menciona que estoy en la sección A, no puedo llevar en la sección A porque en ese horario estoy llevando económia
+    - Buenas tardes, tengo problemas con mi matricula, es mi turno y no puedo acceder a la matricula.
+    - Tengo problemas para matricularme
+    - Buenos días, me  percate que tengo un cruce en mi matrícula 
+    - Buen día, no estoy habilitado para matricularme y estoy en mi horario de matrícula
+    - Buenas tardes, me percate que tengo un cruce en mi matrícula y deseo corregir que debo hacer o a quien debo dirigirme par solucionarlo
+
+Respuestas:
+    - "Estimado alumno ingrese a la página de la facultad y revise en avisos, posiblemente aún no se haya habilitado la matrícula de los reincorporados.
+https://fc.uni.edu.pe/documentos/"
+    - Decir que debe comincarse son AERA
+    - si pude contacto darselo
+    - la matrícula de los alumnos regulares se ha programado en dos fechas (revise la publicación en la página de la facultad de Ciencias) si por algún motivo no logró matricularse en su fecha de matrícula debe pagar adicionalmente 26 soles por el concepto de rezagado previo orden de pago
+    - Buen día, primero verifique que su pago de autoseguro lo realizó con 03 días de anticipación a su matrícula (no se cuenta sábado ni domingo)
+    - Revisar primero si no tiene deuda alguna registrado en el sistema o no pagó el autoseguro con 72 horas de anticipación, en todo caso, registre su reclamo en el formulario "problema de matrícula"
+Notas:
+    - Ver si separar en problemas al realizar la matricula y problemas con la matricuala posterior a la inscripcion de cursos.
+
+Tema: Procedimiento para el Retiro Total
+Preguntas:
+    - Quiero hacer el retiro total de cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.
+    - Puedo retirarme de todos los cursos?
+    - Deseo hacer solicitar retiro total, cuales son los requisitos? ## Requisitos
+    - Por motivos familiares, requiero hacer el retiro total de mi matrícula, cual es el procedimiento
+    - Buenas tardes, como realizo un retiro total.Gracias.
+    - Por motivos familiares, requiero hacer el retiro total de mi matrícula, ya que actualmente estoy en provincia, donde encuentro los requisitos
+    - Buenos días, me veo obligada de retirarme de todos los cursos por motivos de trabajo, cual es el procedimiento por favor
+    - Buenos días, que documentos debo presentar para el proceso de retiro total
+    - Buenas tardes, estoy matriculado en un solo curso y deseo realizar mi retiro parcial pero el sistema no me lo permite, que debo hacer
+
+Respuesta:
+    - "El procedimiento y los requisitos para el trámite de retiro total se encuentra publicada en la página de la facultad, para continuar con sus estudios el siguiente periodo debe realizar el proceso de REINCORPORACIÓN, este procedimiento inicia con una anticipación no menor de diez (10) días antes del inicio de la matrícula, mayor información ingrese al siguiente enlace: https://drive.google.com/file/d/1WCZ54XQL16yRjT_h20fPQmDXS4daDfRi/view
+https://drive.google.com/file/d/1MHa9Mrsu8qsStzqFKgVAVYUoJMHjMKOt/view"
+    - Ingrese a la página de facultad y haga clic en AERA allí encontrará el calendario académico, si aún no termina el proceso de reincorporación podrá presentar su solicitud.
+    - En dicho caso, usted debe tramitar el retiro total
+    - El procedimiento de retiro total se da sólo por motivos de fuerza mayor, los cuales deben ser sustentados, para mayor información sugerimos que revise el reglamento de matrícula vigente que lo encuentra en la página web de la Facultad
+    - Buen dia, los pasos que debe seguir lo encontrará en el módulo de procedimientos de la pagina web de la Facultad
+    - Buen dia, el proceso se realiza por el sistema de intranet alumno, los pasos que debe seguir lo encontrará en el módulo de procedimientos de la pagina web de la Facultad
+    - Buen dia, el proceso se realiza por el sistema de intranet alumno, los pasos que debe seguir lo encontrará en el módulo de procedimientos de la pagina web de la Facultad
+    - Buen día, primero informar que el retiro total es autorizado si el alumno sustenta que son por motivos de fuerza mayor, los detalles lo encontrará en el módulo de procedimientos de la página web de la Facultad
+    - Buen día, si estas inscrito en un solo curso y deseas retirarte, ese proceso se llama retiro total, mayor información en el módulo de procedimientos de la página web
+
+Tema: Retiro Total Fechas
+Preguntas:
+    - Cuando es la fecha para eso?
+    - Hasta cuando puedo presentar los documentos?
+    - Buenos dias, quisiera saber cuando vence el plazo de retiro total 
+Respuestas:
+    - Hasta la penultima semana de clases
+    - Buen día, los procedimientos se rigen según el calendario académico el cual se encuentra publicado en la página web de la Facultad
+
+Tema: Motivos por los que procede el Retiro Total
+Preguntas:
+    - Deseo realizar un retiro total y quiero saber por que motivos procede
+    - y es necesario justificar con documentos ?
+    - cuales son los motivos de fuerza mayor por que procede?
+    - Sera necesario que se justifique con documentos ?
+    - Los llevo a la Facultad? ## ver esto es interesante como responder a esto
+Respuestas:
+    - "El retiro total procede por motivos de fuerza mayor
+1) Viaje al extranjero
+2) Accidente limitante 
+3) Enfermedad limitante
+4) Emergencia familiar limitante
+5) Afectación limitante por COVID-19 (Incluye alumnos separados por un 1año)"
+
+Notas:
+    - ver como entra aca el temas de las preguntas epecificas
+
+Tema: Matricula de Curso y su Prerquisito
+Preguntas:
+    - Buenas tardes, soy un estudiante de ing. Física. Queria preguntar si es posible llevar cursos con sus pre requisitos
+    - Soy alumno del último ciclo, quisiera llevar un curso con su prerequisito, cual es el trámite
+Respuestas:
+    - Si es posible siempre y cuando a la fecha de la matrícula te falte a lo más 30 créditos de su plan de estudios para egresar; puede llevar una asignatura con su pre requisito y debes tener un promedio ponderando acumulado mayor o igual a diez en los dos últimos periodos académicos regulares
+    - llevar un curso con su pre-requisito requiere la aprobación del Director de Escuela, revisará tu Avance Curricular y según eso te comunicará si es factible tu pedido
+Notas:
+    - Ver de que manera se coloar todo el proceso para esto
+
+
+Tema: Precedmiento para solicitar una Constancia de Matricula
+Preguntas:
+    - Buenas tardes una consulta, cómo puedo obtener una constancia de matricula?
+    - Quisiera tramitar una constancia de estudios de este ciclo
+
+
+Respuestas:
+    - "Debe elaborar una solicitud y tener presente que hacer entrega de una constancia que certifica que el estudiante está matriculado en el ciclo
+correspondiente, especifica el año o ciclo en que se encuentra el estudiante de su carrera profesional y el
+número total de créditos matriculados."
+Notas:
+    - Mencionar el la respuesta el formato y si tiene costo
+    - En la página de la facultad se ha publicado el procedimiento para este trámite, ingrese al siguiente enlace
+
+Tema: Cambio de Seccion
+
+Preguntas: 
+    - Señorita ¿Cómo hago para solicitar cambio de sección?
+Respuestas: 
+    - Puede completar el formulario de problemas publicado en la pag de la facultad:
+
+## Ver esto en los dos casos derivar a estadistica
+
+Tema: Solicitar Vacantes adicionales
+Preguntas:
+    - aún no estoy matrículado pero veo en el sistema que no hay vacante en el curso de CIRCUITOS ELECTRONICOS ANALOGICOS ¿Qué debo hacer?
+    - hola estadística, solicité vacante para el curso de CIRCUITOS ELECTRÓNICOS ANALOGICOS y aún no tengo respuesta
+    - Deseo obtener una vacante en un curso que debo hacer
+Respuesta:
+    - realice su matrícula en los demás cursos que eligió llevar en el presente periodo y para el curso de circuitos ingrese al siguiente enlace y complete la información 
+    - Estimiado alumno, estamos atendiendo las solicitudes de acuerdo a la fecha de recepción, provisionalmente podemos enviar a su correo institucional la invitación al aula virtual con la finalidad de que no pierda clases de no proceder su solicitud será retiriado del aula virtual.
+    - todo lo concerniente a problemas de matrícula son atendidos por el formulario "problemas de matrícula" que lo encontrará publicado en la pagina web de la Facultad
+
+Tema: Procedimiento Para Reserva de Matricula
+preguntas:
+    - Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de trabajo .¿Que procedimiento deberia seguir?
+    - "Le escribo porque necesito información, el semestre que viene estaré haciendo un intercambio estudiantil por lo que quisiera saber si necesito hacer algo en la ORCE ya que este semestre no podré matricularé en la UNI.
+Mi escuela ya sabe que haré intercambio y ya les envié el sílabo de los cursos pero aún no tengo respuesta."
+
+Respuesta:
+    - Ingrese a la plataforma intranet - alumno, de todas las opciones selecciona RESERVA DE MATRICULA para subir su solicitud y el documento que acrediten la razón invocada, ingrese al siguiente enlace para descargar el formato de solicitud. https://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view
+    - "Buenas tardes
+La Reserva de Matrícula se solicita en cada semestre que el alumno opte no estudiar, es lo que se debe realizar en estos casos, Este proceso se realiza por el sistema de la ORCE/ intranet - alumno, adjuntas tu solicitud y los documentos que acrediten la razón invocada, no hay formato de solicitud, para retomar tus estudios debes solicitar reincorporación, este trámtie se realiza con un mes de anticipación a la matrícula, más información ingrese al siguiente enlace: https://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view"
+
+Tema: Cambio de Seccion
+Preguntas:
+    - Buenos días, quiero hacer un cambio de sección
+Repuestas:
+    - Estimado alumno, el cambio de sección se atenderá solo si es que presenta cruces, llene el formulario de "Problemas en la matrícula" que se encuentra en la pagina web para revisar su caso
+
+## Esto podria entrar dentro del Tema Problemas al Realizar la Matricula
+Tema: Perdida de Turno de Matricula
+    - Buenas tardes disculpe tuve problemas de conexión y no pude entrar en mi horario de matrícula, que puedo hacer
+    - buenos dias, no pude matricularme en la fecha que me correspondía, cual es el procedimiento para rezagado
+
+Respuestas:
+    - Estimado alumno, si perdió su turno de matrícula, usted pasará a MATRICULA DE REZAGADOS, el detalle del procedimiento esta en la pagina web de la Facultad
+
+Tema: Procedimiento de Retiro Parcial
+Preguntas: 
+    - puede decirme como realizar un retiro parcial ?
+    - puede decirme como realizar un retiro parcial ?
+    - Estoy matriculado en solo un curso, puedo acceder al retiro parcial?
+    - Buen día, para acceder al retiro parcial necesito presentar algún documento?
+    - Podría indicarme el procedimiento para realizar el retiro parcial para el presente ciclo?
+    - Acabo de realizar mi retiro parcial en ORCE, es necesario que envíe el documento a mi director de escuela?
+    - Acabo de retirarme en ORCE de un curso, necesito hacer algo más?
+    - Buenas, quisiera informe sobre el retiro parcial en esta modalidad virtual, sobre si debo presentar algún documento o algo
+    - osea que no debo presentar ningún documento     
+    - Buenas tardes, realice mi retiro parcial por ORCE, pero como se que ya procedió
+    - Buenas tardes, realicé el procedimiento para el retiro parcial en ORCE y quisiera saber cuándo se actualizará los cursos en los cuales sigo matriculado.
+    - Buenos días quisiera confirmar el procedimiento del retiro parcial, lo que hice fue entrar al orce y seleccionar el curso a retirarme, ¿Ese sería todo el proceso?
+    - Buenos días, quisiera saber si para el retiro parcial sólo es necesario hacer click en el botón retirar que está en la sección mis trámites - retiro parcial
+
+Resuestas:
+    - Ingrese a la zona intranet alumno y encontrará el módulo de RETIRO PARCIAL en el cual seleccionará el curso que desea retirarse
+    - No. Simplemente no exceder el plazo.
+    - Puedes presentar tu solicitud ingresando a zona intranet-ORCE durante la 5ta semana de clases. Luego con el visto bueno del director de su escuela su solicitud será enviada a la ORCE para su ejecución.
+    - No hay necesidad, se viene trabajando solo con lo registrado en el sistema de intranet alumno de ORCE.
+    - No. Luego del visto bueno del Director de Escuela podrá visualizar en ORCE su solicitud de retiro parcial (R).
+    - Buen día, el procedimiento se realiza por el mismo intranet alumno, usted encontrará la opción de retiro parcial y escogerá los cursos del cual desea retirarse
+    - para los casos de retiro parcial, solo es necesario cumplir con los requisitos establecidos en el Reglamento de Matrícula vigente, el cual está publicado en la página web de la Facultad
+    - Buen día, despues de haber culminado la semana de retiro, todos los casos son vericados por AERA , ejecutado por ORCE y actualizado en cada uno de los reportes con la sigla R que significa retiro parcial
+    - Buen día, despues de haber culminado la semana de retiro, todos los casos son vericados por AERA , ejecutado por ORCE y actualizado en cada uno de los reportes con la sigla R que significa retiro parcial
+    - Buen día, si el alumno solo selecciona el curso que desea retirarse, AERA se encarga de revisar y ORCE finalmente de ejecutar
+    - Buen día, si efectivamente, el alumno solo selecciona el curso que desea retirarse, y despues de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar
+    - Buenos días, quiero retirarme de un curso electivo, ¿es factible?
+Notas:
+    - Ver como puedo encerrar todas la preguntas referentes al retiro parcial aca 
+
+Tema: Retiro de curso electivo
+Preguntas:
+    - Buenos días, quiero retirarme de un curso electivo, ¿es factible?
+
+Respuestas:
+    - Buen día, si es factible a menos que la Dirección de Escuela haya publicado una directiva que indique lo contrario
+Tema: Retiro de Cursos con Repitencias:
+Preguntas:
+    - Puedo retirarme de cursos con repitencias?
+Respuesta:
+    - No. El reglamento indica que el retiro parcial procede para las asignaturas más avanzadas y no para las del ciclo más atrasado o repetidas dos o más veces.
+
+
+Tema: Maximo de Cursos a retirar
+Preguntas:
+    - De cuántos cursos puedo solicitar retiro parcial?
+Respuestas:
+    - Se puede solicitar el retiro parcial de hasta tres (03) asignaturas. Pero en caso este matriculado en tres o menos cursos no puede solicitar retiro de todos sus cursos, ya que ello se denomina retiro total.
+
+Tema: Fechas del Retiro Parcial
+Preguntas:
+    - Y hasta cuando podria enviar la solicitud ?
+    - Buenos días, cuándo es la fecha para el retiro parcial?
+    - Hasta que fecha podría hacerlo?
+    - Buenas tardes, ¿Cuando se habilitara el retiro parcial?
+    - Buenas, quisiera saber si aún se puede hacer el retiro parcial, el motivo es que estoy con tratamiento psiquiátrico y me recomendaron que me retire de algunos cursos
+    - no hay nada que se pueda hacer o con quien puedo conversar ## ver esto si podria ser una hostoria
+    - Buenos dias, quisiera saber cuando vence el plazo de retiro parcial
+Respuestas:
+    - El cronograma de actividades académicas estan publicadas en la Pagina Web de la Facultad
+    - Último día de la 5ta semana de clases.
+    - Buenos días, los retiros parciales se realizan en la 5ta semana de clases.
+    - Las fechas para el procedimiento de retiro parcial están establecidos en el calendario académico, el cual está publicado en la página web de la Facultad, si se pasó la fecha lo sentimos
+    - Lamento informarle que no tenemos acceso al módulo de retiros parciales, el sistema está programado por ORCE para cerrarse automáticamente en cumplimiento a lo establecido
+    - Buen día, los procedimientos se rigen según el calendario académico el cual se encuentra publicado en la página web de la Facultad
+
+Tema: Horario de Atencion AERA
+Preguntas:
+    - Puede decirme cual es el horaro de atencion de la oficina?
+    - Podria saber los horarios?
+    - Puede decirme cual es el horaro de atencion ?
+Respuesta:
+    - El horario de atencion es de 8:00 am a 4:00 pm
+    - De Lunes a Viernes de 09h00 a 17h00.
+
+Tema: Horarios de Cursos
+Preguntas:
+    - Quiero saber el horario de mis cursos
+    - Pueden ayudarme con un horario?
+    - Buenas dias, me podria decir cuales son los horarios para el curso de Algoritmos
+Respuestas:
+    - Los horarios están disponibles en la zona intranet alumno
+    - Le adjunto la lista de los horarios para el periodo 2021-II.
+
+## Esto se podria usar para ver cosas fueras del alcance
+
+Tema: Informacion de Mesa de Partes ORCE
+Preguntas:
+    - Quiero saber el horario de atención de Mesa de Partes Virtual de la ORCE
+    - Ok, qué ocurre si envio mis documentos en otro horario?
+Respuesta:
+    -  La recepción de documentos es de lunes a viernes de 8:30am a 03:00pm
+    - Pasado el horario mencionado, la documentación podrá ser presentada, pero se dará por recibida a partir del día hábil siguiente.
+
+Tema: Procedimiento para solicitar Constancia de Ayudantia academica
+Preguntas:
+    - Quisiera saber ¿cómo podría hacer valido mi constancia de ayudantía académica que hice en periodo regular antes de la pandemia?.
+respuestas:
+    - "El trámite se realiza con el Director de Escuela,  por favor de solicitar informacicón a los siguientes direcciones de correo según su escuela 
+escuelas_fc1@uni.edu.pe : Física, Química o Ciencia de la Computacion.
+escuelas_fc2@uni.edu.pe: Matemática o ingeniería física."
+
+## Me parece que tampoco va
+Tema: Avanze Curricular
+Preguntas:
+    - Quisiera saber ¿cuántos créditos me faltan para poder egresar? he tratado de cálcular pero se me dificulta con los cursos exonerados, estoy en noveno ciclo.
+    - Hola buenas tardes, por favor me podría brindar información de mi avance curricular para ver cuántos créditos me faltan para egresar
+    - Buenos dias, quisiera saber cuantos electivos me faltan para egresar
+
+Respuestas:
+    - "El estudio curricular es realizada por el Director de Escuela, por favor de solicitar informacicón a las siguientes direcciones de correo según su escuela
+escuelas_fc1@uni.edu.pe: Física, Química o Ciencia de la Computacion.
+escuelas_fc2@uni.edu.pe: Matemática o ingeniería física."
+    - si desea saber cuantos créditos le falta para egresar, debe comunicarse con la Escuela Profesional a la que pertenece, ellos le brindar esa información
+    - el número de electivos esta especificado en el Plan de Estudios, pero para mayor información comuniquese al correo de la Dirección de la Escuela Profesional a la que pertenece
+    
+
+Tema: Procedimiento para realizar Ayudantia Academica
+Preguntas:
+    - Buenas tardes estadística el profesor acaba de aceptarme para hacer ayudantía, ¿Cuál es el procedemiendo?
+    - ¿Cual es el procedimiento para realizar ayudantía?
+Respuestas:
+    - "debes solicitar el formato de asistencia de Ayudantía Académica a la siguientes direcciones de correo según su escuela:
+escuelas_fc@uni.edu.pe: Física, Química o Ciencia de la Computación
+escuelas_fc2@uni.edu.pe : Matemática o Ingeniería Física"
+    - por favor comunicarse con la Escuela Profesional a la que pertenece, ellos le brindar esa información
+
+
+Tema: Traslado Interno Requisitos
+Preguntas:
+    - Hola, ¿Cuáles son los requisitos para poder aplicar el traslado interno ?
+Respuestas:
+    - "Buen día, son las Escuelas Profesionales las encargadas de brindar dicha información. Puede hacer la consulta según su escuela a las siguientes direcciones de correo:
+
+escuelas_fc1@uni.edu.pe: Matemática e Ingeniería Física
+escuelas_fc2@uni.edu.pe: Física, Química y Ciencia de la Computación"
+
+## Me parece que tampoco va
+Tema: Pago Por Diplama de Bachiller
+Preguntas:
+    - Quisiera consultar por el pago del concepto de Diploma de Grado Bachiller para un egresado.
+Respuestas:
+    - El monto a pagar dependerá de su año de egreso. Le sugerimos revisar el TARIFARIO publicado en la página web de la Facultad en la sección GRADOS Y TITULOS.
+
+## Me parece que tampoco va
+Tema: Ingresante por Modalidad Titulado o Graduado en otra Univerdad
+Preguntas:
+    - "Buenas tardes, soy alumno ingresante mediante la modalidad de ""Titulado o graduado en otra universidad"", El motivo de la presente es consultar sobre el pago de ciclo a realizar. Hasta el momento no se me ha informado de cuanto debo pagar por la matrícula en el ciclo ¿Donde puedo ver cuanto tengo que pagar en el ciclo?
+Respuestas:
+    - pronto estaremos enviando a su correo institucional los montos a pagar por los créditos llevados. Asimismo, se generá una orden de pago para que realice el pago en cualquier canal del banco BCP 
+
+Tema: Practicas Pre Profesionales
+Preguntas:
+    - Buenas, quisiera saber que documento debo presentar para confirmar mis practicas pre profesionales
+    - Buenas noches, quisiera saber que pasos debo seguir para convalidar las prácticas preprofesionales
+Respuestas:
+    - por favor comunicarse con la Escuela Profesional a la que pertenece, ellos le brindar esa información
+    - Es la Dirección de la Escuela Profesional quien debe informarle el procedimiento a seguir, los correos y anexos están publicados en la página web de la Facultad
+
+Tema: Residencia Universitaria
+Preguntas:
+    - Hola, Quisiera saber los requisitos para pedir la residencia universitaria. Gracias!
+Respuestas
+    - los requisitos respecto a este tema los tiene que consultar con la oficina de Bienestar Universitario
+
+Tema: Pago de Carnet Universitario
+Preguntas:
+    - Puedo realizar el pago por carné universitario?
+Respuestas:
+    - El plazo ya se venció, espere el próximo aviso
+
+Tema: Fechas de Matricula
+Preguntas:
+    - Buenas tardes, podria  decirme que dias son las fechas de la matricula
+Respuestas:
+    - Buenas tardes, la matricula se ralizara el dia 15,16,17 de marzo. Debe realizar su matricula segun el horario asignado.
+
+Tema: Turno de Matricula
+Pregunas:
+    - Entiendo, me podria decir como sober mi horario de matricula.
+Respuesta:
+    - Su horario de matricula puede verlo entrando a ORCE.
+
+## Esto no va
+Tema: Entrega de Carnet
+Preguntas:
+    - Buen día, no tuve tiempo para recoger mi carnet en la fecha que indicaron. Quisiera saber si habrá nueva fecha de entrega.
+Respuestas:
+    - Por ahora nuestro horario de atención son los martes de 11:00 a 13:00 y jueves de 09:00 a 11:00, la entrega es personal
+
+Tema: Estado de Tramites
+Preguntas:
+    - Buenos días, escribo para consultar como va mi trámite de constancia de notas depurada
+Respuestas:
+    - Cada trámite tiene un número de expediente, con el cual usted puede realiza el seguimiento, ingresando a https://stduni.uni.pe/modalum/
+
+
+Tema: Maximo de creditos a Matricular
+Preguntas:
+    - Soy alumno por egresar, cuantos créditos puedo llevar
+    - Buenos días, que trámite debo realizar para llevar un crédito adicional
+    - Buenos dias, me gustaría saber si existe lo de ampliación de créditos por favor y qué necesito para solicitarlo
+    - Buenas noches, si me sobran créditos, todavía puedo matricularme en más cursos
+    
+
+Respuestas:
+    - Si es correcta su afirmación, quiere decir que tiene pendiente como máximo 30 créditos y los puede llevar todos en un mismo periodo si así lo requiere
+    - El número de créditos que un alumno esta autorizado a llevar, está sujeto al promedio de los dos últimos periodos cursados, no se adicionan créditos mayor a lo establecido
+    - El número de créditos que un alumno esta autorizado a llevar, está sujeto al promedio de los dos últimos periodos cursados, no se adicionan créditos mayor a lo establecido
+
+Tema: Procedimiento para solicitar el correo Intitucional:
+Preguntas:
+    - Una pregunta como obtengo mi correo institucional
+Respuestas:
+    - es CTIC la ofina encargada del correo institucional, ingrese a https://www.uni.edu.pe/index.php/2015-05-28-20-25-15/obten-tu-correo-uni
+
+Tema: Procedimiento de Matricula Rezagada
+Preguntas:
+    - Donde pago matrícula de rezagado
+    - Buenos días, la matrícula en mi horario se me pasó, así que realicé el pago por rezagados, pero no puedo ingresar a la matrícula
+
+Respuestas:
+    - Lo primero que debe hacer es solicitar una orden de pago al correo estadística_fc@uni.edu.pe, una vez realizado el pago, debe subir sus recibos de autoseguro y rezagado al formulario "MATRICULA DE REZAGADOS" publicado en la página web de la Facultad, de esta forma se le habilitará la matrícula
+    - Lo primero que debe hacer es solicitar una orden de pago al correo estadística_fc@uni.edu.pe, una vez realizado el pago, debe subir sus recibos de autoseguro y rezagado al formulario "MATRICULA DE REZAGADOS" publicado en la página web de la Facultad, de esta forma se le habilitará la matrícula
+
+## No considera pero posiblemente probar en el test
+Tema: Problemas con Procedmientos Por la Plataforma
+Preguntas:
+    - Disculpe, en la intranet intento entrar a retiro total y me sale error, me podría ayudar por favor?
+    - Buenas tardes, ingrese al intranet alumno y no me permite seleccionar el curso del cual deseo retirarme
+    - si lo está, entonces que debo hacer
+Respuestas:
+    - Buen dia, hay que tener en cuenta que el sistema tiene definido la semana de retiro total de cursos que es la 14ava semana, no se habilita antes
+    - Buen día, primero debe verificar si su solicitud esta acorde con lo permitido en el reglamento de matrícula vigente
+    - enviar un correo a la dirección de la Escuela Profesional a la que corresponde, para que analicen su pedido

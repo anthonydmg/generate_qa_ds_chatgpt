@@ -1,0 +1,57 @@
+## Me parece que falta tambien aqui poner conceptos importances como. Que es la matricula, por que es virtual
+
+Matricula
+Tema: Pago Autoseguro Fuera de Fecha Anticipada ## Listo 
+# En parte esta en la matricula condicion falta lo de que se debe hacer a quien consultar.
+
+Tema: Deber Tutoria obligatorio antes de la matricula o reincorporacion para alumnos en Riego academico
+# 
+Tema: Problemas con la Matrícula ## Listo P
+Tema: Matricula de Curso y su Prerquisito ## Listo P
+Tema: Cambio de Seccion ## Listo P
+Tema: Solicitar Vacantes adicionales  ## Listo P
+Tema: Perdida de Turno de Matricula ## Listo T
+Tema: Horarios de Cursos ## Listo P
+Tema: Fechas de Matricula  ## Listo P
+Tema: Turno de Matricula ## Listo P
+Tema: Maximo de creditos a Matricular ## Listo P
+Tema: Procedimiento de Matricula Rezagada ## Listo TP
+
+Contancias y Certificados
+Tema: Procedimiento para solicitar de Constancias de Notas ## Listo TP
+Tema: Solicitud Certificado de decimo o quinto Superior ## Listo P
+Tema: Prodecimiento para pagar una constancia de engresado ## Listo P
+Tema: Precedimiento para solicitar una Constancia de Matricula ## Listo TP
+
+Tema: Procedimiento para solicitar Constancia de Ayudantia academica ## Listo P
+Tema: Procedimiento para realizar Ayudantia Academica ## Listo P
+
+Procedimientos 
+Tema: Reincorporacion despues de una una Reserva de matricula ## Listo TP
+Tema: Procedimiento para genera un orden de pago ## Listo P
+Tema: Procedimiento para el Retiro Total ## Listo T
+Tema: Retiro Total Fechas ## Listo TP
+Tema: Motivos por los que procede el Retiro Total ## Listo TP
+Tema: Procedimiento Para Reserva de Matricula ## Listo TP
+Tema: Procedimiento de Retiro Parcial ## Listo TP
+Tema: Retiro de curso electivo ## Listo TP
+Tema: Retiro de Cursos con Repitencias ## Listo TP
+Tema: Meximo de Cursos a retirar ## Listo TP
+Tema: Fechas del Retiro Parcial ## Listo TP
+Tema: Traslado Interno Requisitos ## Listo TP
+
+Informacion de Oficinas
+Tema: Horario de Atencion AERA ## Listo TP
+Tema: Informacion de Mesa de Partes ORCE  ## Listo P
+
+Otros temas:
+Tema: Avanze Curricular # N
+Tema: Pago Por Diplama de Bachiller # N
+Tema: Ingresante por Modalidad Titulado o Graduado en otra Un # N
+Tema: Practicas Pre Profesionales ## P
+Tema: Residencia Universitaria # N
+Tema: Pago de Carnet Universitario ## P
+Tema: Entrega de Carnet ## P
+Tema: Estado de Tramites ##P
+Tema: Procedimiento para solicitar el correo Intitucional ##P
+Tema: Problemas con Procedmientos Por la Plataforma # N esto derivar a estadistica diciendo que cualquier otra pregunta derivar a estadistica
