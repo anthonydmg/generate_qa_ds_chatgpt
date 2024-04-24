@@ -1,0 +1,1008 @@
+1. ¿Cuáles son las direcciones de correo a las que un estudiante de la Facultad de Ciencias de la Universidad Nacional de Ingeniería debe dirigirse para solicitar constancias de Quinto y/o Tercio Superior?
+2. ¿Cuáles son los pasos que debe seguir un nuevo ingresante de pregrado en la Facultad de Ciencias de la UNI para completar su matrícula?
+3. ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matrícula en la UNI?
+4. ¿Cuál es el plazo establecido para presentar la solicitud de Reserva de Matrícula en la UNI?
+5. ¿Qué documentos debe adjuntar un estudiante al presentar la solicitud de Reserva de Matrícula en la UNI?
+6. ¿Qué sucede si un estudiante no presenta la solicitud de Reserva de Matrícula en la UNI?
+7. ¿Cuál es el periodo máximo de reserva de matrícula en la UNI?
+8. ¿Cuál es el procedimiento para obtener la constancia de ingreso a la UNI?
+9. ¿Qué es la Dirección de Admisión (DIAD) de la UNI?
+10. ¿Qué es la plataforma de intranet-alumnos de la UNI?
+11. ¿Qué es la DIRCE en la UNI?
+12. ¿Qué es el autoseguro estudiantil en la UNI?
+13. ¿Cuáles son los documentos que un ingresante debe entregar para completar su matrícula en la Facultad de Ciencias de la UNI?
+14. ¿Qué sucede si un ingresante no cumple con la entrega de los documentos requeridos para la matrícula en la UNI?
+15. ¿Cuál es el cronograma de actividades de matrícula para ingresantes en la UNI?
+16. ¿Qué sucede una vez que un ingresante es matriculado en la UNI?
+17. ¿Cómo puede un ingresante conocer su horario de cursos en la UNI?
+18. ¿Cuál es el procedimiento para solicitar información sobre el trámite de constancias de Quinto y/o Tercio Superior en la UNI?
+19. ¿Cuál es el proceso para generar una orden de pago en la UNI?
+20. ¿Cuál es el procedimiento para realizar la entrega de documentos a la oficina de estadística en la UNI?
+21. ¿Qué es la Evaluación Socioeconómica en la UNI?
+22. ¿Qué es el Certificado Médico expedido por el Centro Médico de la UNI?
+23. ¿Cuál es el procedimiento para solicitar información sobre el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la UNI?
+24. ¿Dónde puede encontrar un estudiante las fechas de matrícula y los plazos establecidos para el pago del autoseguro estudiantil?
+25. ¿Qué sucede si un estudiante no realiza el pago del autoseguro estudiantil dentro del plazo establecido?
+26. ¿Cuál es el procedimiento para gestionar la matrícula rezagada en la Facultad de Ciencias de la UNI?
+27. ¿Qué requisitos debe cumplir un estudiante para poder matricularse en una asignatura y su respectivo prerrequisito?
+28. ¿Quién evalúa y aprueba la solicitud de matricularse en una asignatura y su respectivo prerrequisito?
+29. ¿Cuál es el significado de "estudiante en posibilidad de egresar"?
+30. ¿Cuántos créditos como máximo le pueden faltar a un estudiante para poder matricularse en una asignatura y su respectivo prerrequisito?
+31. ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar el Retiro Total?
+32. ¿Qué opciones debe seleccionar un estudiante dentro de la plataforma intranet-alumnos para solicitar el Retiro Total?
+33. ¿Qué información debe proporcionar un estudiante al completar el formulario de solicitud de retiro total?
+34. ¿Qué documentos debe adjuntar un estudiante al solicitar el Retiro Total?
+35. ¿Cuándo puede un estudiante solicitar el retiro total de manera excepcional?
+36. ¿Qué tipo de enfermedades graves justifican una solicitud de retiro total excepcional?
+37. ¿Quién evalúa las solicitudes de retiro total excepcional por enfermedad grave?
+38. ¿Cuál es el plazo máximo para solicitar el retiro total de manera excepcional por enfermedad grave?
+39. ¿Cuál es el procedimiento para solicitar el retiro total por causa de enfermedad grave ascendiente o descendiente?
+40. ¿Qué es considerado como motivo de fuerza mayor para solicitar un retiro total?
+41. ¿Cuál es el plazo máximo para realizar el pago del autoseguro estudiantil en la Facultad de Ciencias de la UNI?
+42. ¿Dónde puede un estudiante verificar si su matrícula se ha habilitado en las fechas regulares?
+43. ¿Qué sucede si un estudiante no logra matricularse de manera regular?
+44. ¿Cuáles son los requisitos para poder matricularse en una asignatura y su respectivo prerrequisito?
+45. ¿Dónde puede un estudiante encontrar información detallada sobre los requisitos para solicitar el retiro total de todas las asignaturas matriculadas?
+46. ¿Cuál es el procedimiento para generar una orden de pago por algún concepto o trámite en la Universidad Nacional de Ingeniería?
+47. ¿Qué pasos debe seguir un estudiante para acceder a la lista de cursos y horarios en la plataforma intranet-alumnos?
+48. ¿Cuál es el tiempo máximo que tiene un estudiante para realizar el pago luego de generar una orden de pago?
+49. ¿Cuáles son los motivos de fuerza mayor que se consideran válidos para solicitar el retiro total de la matrícula en la Universidad Nacional de Ingeniería?
+50. ¿Qué opciones tiene un estudiante para realizar el pago de una orden de pago generada por algún concepto o trámite?
+51. ¿Qué información adicional puede encontrar un estudiante en la sección de "MATRÍCULA Y PROCEDIMIENTOS" en el sitio web de la facultad?
+52. ¿Cuál es la diferencia entre el retiro parcial y el retiro total de asignaturas en la Universidad Nacional de Ingeniería?
+53. ¿Qué recomendaciones se dan a los estudiantes luego de generar una orden de pago para realizar el pago correspondiente?
+54. ¿Cuál es el procedimiento para que un estudiante de Física, Química o Ciencia de la Computación convalide sus prácticas pre profesionales?
+55. ¿Cuál es el límite de créditos para matricularse en la Facultad de Ciencias de la UNI para un estudiante que haya aprobado todas las asignaturas del primer ciclo en su primera matrícula?
+56. ¿Cuál es el límite de créditos para matricularse en la Facultad de Ciencias de la UNI para un estudiante que haya cursado solo el primer ciclo y no cumpla con los requisitos anteriores?
+57. ¿Dónde puede un ingresante o alumno regular generar una orden de pago para el autoseguro médico?
+58. ¿Qué opciones tiene un ingresante o alumno regular para realizar el pago del autoseguro médico una vez que ha generado la orden de pago?
+59. ¿Cuál es el procedimiento para que un estudiante de Matemáticas o Ingeniería Física convalide sus prácticas pre profesionales?
+60. ¿Cuál es el límite de créditos para matricularse en la Facultad de Ciencias de la UNI para un estudiante que haya cursado dos o más ciclos?
+61. ¿Cuál es el proceso para obtener más información sobre la convalidación de prácticas pre profesionales en la UNI?
+62. ¿Cuál es el procedimiento para que un estudiante de la Facultad de Ciencias de la UNI adelante asignaturas adicionales?
+63. ¿Cuál es el proceso para obtener el manual de pagos de la UNI?
+64. ¿Cuál es el límite de créditos para matricularse en la Facultad de Ciencias de la UNI para un estudiante en riesgo académico?
+65. ¿Qué requisitos debe cumplir un estudiante para matricularse en todas las asignaturas del segundo ciclo y adelantar como máximo dos asignaturas adicionales?
+66. ¿Cuál es el procedimiento para que un estudiante de la Facultad de Ciencias de la UNI genere una orden de pago para el autoseguro médico?
+67. ¿Cuál es el límite de créditos para matricularse en la Facultad de Ciencias de la UNI para un estudiante con un promedio ponderado entre 14 y 20?
+68. ¿Cuál es el proceso para que un ingresante o alumno regular realice el pago del autoseguro médico a través del aplicativo móvil BCP?
+69. ¿Cuál es el proceso para que un ingresante o alumno regular realice el pago del autoseguro médico en una sucursal bancaria?
+70. ¿Cuál es el procedimiento para que un estudiante de la Facultad de Ciencias de la UNI obtenga más información sobre el límite de créditos para matricularse?
+71. ¿Cuál es el proceso para que un ingresante o alumno regular genere una orden de pago para el autoseguro médico a través de la plataforma Intranet-Alumnos?
+72. ¿Cuál es el procedimiento para solicitar el correo institucional de la UNI?
+73. ¿Cuál es el plazo máximo para solicitar la reserva de matrícula de un estudiante?
+74. ¿Qué sucede si un estudiante no presenta la solicitud de reserva de matrícula antes del plazo establecido?
+75. ¿Cuál es el proceso para realizar un cambio de sección/horario de un curso matriculado debido a conflictos de horario?
+76. ¿Dónde puede un estudiante obtener información detallada sobre el proceso de cambio de sección/horario de un curso matriculado?
+77. ¿Cuáles son los requisitos para solicitar el correo institucional de la UNI?
+78. ¿Qué información debe proporcionar un estudiante al solicitar su correo institucional?
+79. ¿Cuál es la dirección de correo electrónico a la que un estudiante debe enviar la solicitud de correo institucional?
+80. ¿Qué oficina se encarga de gestionar los cambios de sección/horario de un curso matriculado?
+81. ¿Qué sucede si un estudiante desea realizar un cambio de sección/horario de un curso matriculado pero no hay disponibilidad de plazas?
+82. ¿Dónde puede un estudiante encontrar formularios o avisos referentes a cambios de sección/horario de cursos matriculados?
+83. ¿Cuál es la página web de la facultad donde un estudiante puede encontrar información sobre cambios de sección/horario de cursos matriculados?
+84. ¿Qué información debe proporcionar un estudiante al comunicarse con la oficina de AERA para solicitar un cambio de sección/horario de un curso matriculado?
+85. ¿Cuáles son los requisitos para la matrícula regular de alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+86. ¿Cuál es el proceso para generar una orden de pago para el autoseguro estudiantil en la plataforma intranet-alumnos?
+87. ¿Cómo se asignan los turnos para la matrícula de los alumnos de pregrado en la Universidad Nacional de Ingeniería?
+88. ¿Cuál es el horario de atención de la oficina de Mesa de Parte de Orce?
+89. ¿Cuáles son los pasos para solicitar una constancia de notas en la Facultad de Ciencias?
+90. ¿Cuál es el correo al que se debe enviar la solicitud de orden de pago para la constancia de notas?
+91. ¿Cuál es el monto actual para la constancia de notas en la Universidad Nacional de Ingeniería?
+92. ¿Cuál es el procedimiento para realizar el pago de la constancia de notas a través de la aplicación móvil del BCP?
+93. ¿Dónde debe dejar el estudiante el comprobante de pago y la solicitud para la constancia de notas?
+94. ¿En qué horario puede ser recogida la constancia de notas en la Facultad de Ciencias?
+95. ¿Qué sucede si un alumno presenta adeudos con su Facultad al momento de la matrícula regular?
+96. ¿Qué deben hacer los alumnos en riesgo académico antes de la matrícula regular?
+97. ¿Cuál es el banco con el que la Universidad Nacional de Ingeniería tiene convenio para el pago de servicios?
+98. ¿Cuál es el procedimiento para realizar el pago de la constancia de notas en una sucursal del BCP?
+99. ¿Dónde puede encontrar el modelo de solicitud para la constancia de notas en la página web de la Facultad de Ciencias?
+100. ¿Cuál es el correo al que se debe enviar el comprobante de pago y la solicitud para la constancia de notas?
+101. ¿Cuál es el procedimiento para solicitar una constancia de notas en inglés?
+102. ¿Cuál es el monto actual para la constancia de notas en inglés?
+103. ¿Cuál es el procedimiento para solicitar una tutoría obligatoria previa a la matrícula?
+104. ¿Cuáles son los pasos que debe seguir un estudiante para tramitar su matrícula rezagada?
+105. ¿Qué costo tiene el procedimiento de matrícula rezagada para un estudiante?
+106. ¿Dónde puede encontrar un estudiante el calendario académico para conocer las fechas de la matrícula rezagada?
+107. ¿Qué debe hacer un estudiante que desea solicitar una vacante adicional para la inscripción a un curso?
+108. ¿Cuál es el proceso de evaluación que se lleva a cabo para otorgar una vacante adicional a un estudiante?
+109. ¿Dónde puede un estudiante encontrar información sobre la solicitud de vacantes adicionales en la página web de la Facultad de Ciencias?
+110. ¿Cuál es el procedimiento que debe seguir un estudiante para retirarse de asignaturas en las que está matriculado?
+111. ¿En qué momento puede un estudiante tramitar su solicitud de retiro de asignaturas?
+112. ¿Cuál es el plazo límite para solicitar el retiro parcial de asignaturas?
+113. ¿Qué requisitos deben cumplir las asignaturas para poder ser retiradas por un estudiante?
+114. ¿Cuántas asignaturas como máximo puede retirar un estudiante en un periodo académico?
+115. ¿Dónde puede un estudiante consultar el resultado de su solicitud de retiro de asignaturas?
+116. ¿Cuál es el procedimiento para realizar el pago de la matrícula rezagada?
+117. ¿Qué sucede si un estudiante no puede realizar su matrícula en las fechas establecidas?
+118. ¿Cuál es el papel de la oficina de Estadística en el proceso de matrícula rezagada?
+119. ¿Qué sucede si un estudiante no sube el comprobante de pago después de realizar el pago de la matrícula rezagada?
+120. ¿Qué diferencia hay entre la matrícula regular y la matrícula rezagada?
+121. ¿Cuál es el costo de la matrícula regular para un estudiante?
+122. ¿Cuál es el procedimiento para comunicarse con la oficina y solicitar una vacante adicional?
+123. ¿Qué recomendaciones se les dan a los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso?
+124. ¿Cuál es el costo por tramite de reincorporación y cómo se calcula?
+125. ¿Cuáles son los pasos que debe seguir un estudiante para generar una orden de pago para la reincorporación?
+126. ¿Cuál es el plazo establecido para enviar la solicitud de reincorporación a través de la Plataforma de Intranet-Alumnos?
+127. ¿Qué debe hacer un estudiante una vez completado el pago correspondiente a la orden de reincorporación?
+128. ¿Qué requisitos debe cumplir un estudiante para realizar un traslado interno?
+129. ¿Cuál es el proceso que sigue la Escuela para verificar los documentos y requisitos de un traslado interno?
+130. ¿Qué autoridad aprueba el traslado interno de un estudiante?
+131. ¿Qué sucede una vez aprobado el traslado interno por el Consejo de Facultad?
+132. ¿Cuál es el plazo para presentar la solicitud de traslado interno?
+133. ¿Cuáles son los pasos que debe seguir un estudiante para solicitar una orden de pago a través de la plataforma de intranet-alumnos?
+134. ¿Qué debe hacer un estudiante si el trámite que desea realizar no está estipulado en la lista de opciones dentro de la plataforma de intranet-alumnos?
+135. ¿Cuánto tiempo debe esperar un alumno después de generar la orden de pago para realizar el pago correspondiente?
+136. ¿Cuál es el procedimiento para realizar el pago correspondiente a una orden de pago generada a través de la plataforma de intranet-alumnos?
+137. ¿Cuál es el correo al que un estudiante debe enviar la solicitud de generación de una orden de pago para trámites no estipulados en la plataforma?
+138. ¿Dónde puede encontrar un estudiante más detalles sobre el proceso para generar una orden de pago a través de la plataforma?
+139. ¿Cuál es el procedimiento para realizar la matrícula después de haber completado la reincorporación?
+140. ¿Cuál es el plazo para realizar la matrícula después de haber completado un traslado interno?
+141. ¿Cuál es el proceso para comunicarse con la oficina de tutoría para los alumnos en riesgo académico?
+142. ¿Dónde puede un estudiante verificar el estado de sus solicitudes a través del intranet alumnos?
+143. ¿Cuál es el procedimiento para solicitar una constancia de Ayudantía Académica para estudiantes de Física, Química o Ciencia de la Computación?
+144. ¿Cuál es el procedimiento para solicitar una constancia de Ayudantía Académica para estudiantes de Matemáticas o Ingeniería Física?
+145. ¿Cuál es la dirección de correo electrónico para solicitar información sobre la constancia de Ayudantía Académica para estudiantes de Física, Química o Ciencia de la Computación?
+146. ¿Cuál es el requisito obligatorio para la habilitación de la matrícula de los alumnos en riesgo académico?
+147. ¿Cuál es el horario de atención de la oficina de estadística o AERA?
+148. ¿Cuál es el horario de atención y el correo de contacto de la oficina de Mesa de Parte de la Facultad de Ciencias?
+149. ¿Cuál es el proceso para obtener el carnet universitario por primera vez o renovarlo?
+150. ¿Cuáles son los requisitos para obtener el carnet universitario?
+151. ¿Cuál es la vigencia del carnet universitario una vez emitido?
+152. ¿Dónde se realiza la entrega del carnet universitario una vez completado el trámite?
+153. ¿El pago por carnet universitario es requisito para la matrícula en la Facultad de Ciencias de la Universidad?
+154. ¿Qué beneficios adicionales ofrece el carnet universitario además de la identificación estudiantil?
+155. ¿Cuál es el procedimiento para generar una orden de pago para el carnet universitario a través del Portal INTRALU?
+156. ¿Cuál es el monto correspondiente al pago del carnet universitario?
+157. ¿Qué sucede si un estudiante no completa la ficha de datos en el portal web INTRALU para el trámite del carnet universitario?
+158. ¿Cuál es la importancia de estar atento a avisos o notificaciones por parte de la Oficina de Estadística en relación al carnet universitario?
+159. ¿Qué sucede si un estudiante no renueva su carnet universitario una vez vencida su vigencia?
+160. ¿Cuáles son los descuentos disponibles en el transporte público para los poseedores del carnet universitario?
+161. ¿Qué otros beneficios ofrece el carnet universitario en términos de acceso a servicios y descuentos?
+162. ¿Cuál es el proceso para gestionar la matrícula rezagada si un estudiante no logró inscribirse a tiempo en sus cursos?
+163. ¿Cómo se asignan los turnos de matrícula para los estudiantes en función de su promedio ponderado?
+164. ¿Dónde puede un estudiante verificar su turno de matrícula para el ciclo académico?
+165. ¿Cuál es el requisito para que un estudiante pueda realizar ayudantía académica?
+166. ¿Qué información debe proporcionar un estudiante al departamento de su Escuela Profesional si desea realizar ayudantía académica?
+167. ¿Cuáles son las direcciones de correo electrónico para obtener más información sobre la ayudantía académica en las Escuelas Profesionales de Física, Química o Ciencia de la Computación?
+168. ¿Cuál es el plazo establecido en el calendario académico para la matrícula regular del ciclo académico?
+169. ¿Qué sucede si un estudiante no logra inscribirse en sus cursos a tiempo durante la matrícula regular del ciclo académico?
+170. ¿Cuál es el propósito de publicar el orden de mérito y los respectivos turnos de matrícula en la página web de la facultad de ciencias?
+171. ¿Qué plataforma se utiliza para realizar la inscripción de cursos de manera virtual?
+172. ¿Cuál es la importancia de conocer las fechas de matrícula para cada ciclo académico?
+173. ¿Cómo se garantiza que todos los alumnos estén informados sobre sus turnos de matrícula?
+174. ¿Cuál es el costo de la constancia de matrícula para el año 2024?
+175. ¿Qué información debe incluir el correo electrónico que el estudiante envía para solicitar la orden de pago?
+176. ¿Qué pasa si un estudiante no puede realizar el pago en una sucursal del BCP?
+177. ¿Cuál es el horario de atención para recoger la constancia de matrícula?
+178. ¿Qué debe hacer un estudiante si no puede completar su proceso de inscripción de cursos en la plataforma de intranet-alumnos?
+179. ¿Cuál es el correo electrónico al que un estudiante debe comunicarse si tiene problemas con la inscripción de cursos?
+180. ¿Qué debe hacer un estudiante si tiene una deuda registrada en el sistema y no puede inscribir cursos?
+181. ¿Cuál es el plazo establecido para realizar el pago del autoseguro antes de las fechas de matrícula regular?
+182. ¿Qué debe hacer un estudiante si la matrícula virtual no se ha habilitado hasta los días de matrícula regular?
+183. ¿Cuál es el plazo establecido en el calendario de actividades académicas para solicitar la reincorporación?
+184. ¿Qué sucede si un estudiante no presenta la solicitud de reincorporación dentro del plazo establecido?
+185. ¿Cuál es el procedimiento para solicitar la reincorporación?
+186. ¿Qué requisitos debe cumplir un estudiante para solicitar la reincorporación?
+187. ¿Cuál es la diferencia entre la solicitud de reincorporación y la solicitud de matrícula?
+188. ¿Qué sucede si un estudiante no puede presentar la solicitud de reincorporación a través de la plataforma de intranet-alumnos?
+189. ¿Cuál es el proceso para solicitar una orden de pago para la constancia de matrícula?
+190. ¿Qué información debe incluir la solicitud de constancia de matrícula?
+191. ¿Qué sucede si un estudiante no puede recoger la constancia de matrícula en el horario de atención establecido?
+192. ¿Cuál es el procedimiento para comunicarse con la oficina de estadística (AERA) si se presenta algún inconveniente?
+193. ¿Cuál es el correo electrónico al que un estudiante debe enviar la solicitud de constancia de matrícula?
+194. ¿Cuál es el procedimiento para solicitar la reserva de matrícula y cuáles son los plazos establecidos para ello?
+195. ¿Cuáles son las razones válidas para realizar una reserva de matrícula y qué documentos debe adjuntar el estudiante para sustentar su solicitud?
+196. ¿Qué sucede si un estudiante no presenta la solicitud de reserva de matrícula y no concreta su matrícula en el periodo académico actual?
+197. ¿Cuál es el límite de tiempo para la reserva de matrícula de un estudiante y existe algún costo asociado a este trámite?
+198. ¿Cuál es el procedimiento para solicitar la reincorporación como estudiante y cuál es el plazo para hacerlo?
+199. ¿Cómo se gestionan los cambios de sección/horario de un curso matriculado y bajo qué condiciones se atenderán estas solicitudes?
+200. ¿Qué requisitos debe cumplir un estudiante para solicitar un cambio de sección/horario de un curso matriculado?
+201. ¿Qué oficina se encarga de gestionar los cambios de sección/horario de un curso matriculado y cómo puede un estudiante comunicarse con ellos?
+202. ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matrícula si tiene conflictos de horario entre los cursos en los que está matriculado?
+203. ¿Qué sucede si un estudiante no puede realizar un cambio de sección/horario de un curso matriculado debido a conflictos de horario?
+204. ¿Cuál es el papel de la oficina de estadística (AERA) en el proceso de cambios de sección/horario de un curso matriculado?
+205. ¿Dónde puede un estudiante encontrar formularios o avisos referentes al cambio de sección/horario de un curso matriculado?
+206. ¿Cuáles son los motivos de fuerza mayor que permiten a un estudiante solicitar el retiro total de todas las asignaturas en las que está matriculado?
+207. ¿Qué pasos debe seguir un estudiante para solicitar una constancia de notas en la Facultad de Ciencias?
+208. ¿En qué horario puede un estudiante recoger la constancia de notas una vez que esté lista?
+209. ¿Cuál es el monto actual para el pago del autoseguro médico en la Universidad Nacional de Ingeniería?
+210. ¿Qué plataforma debe utilizar un ingresante o alumno regular para generar una orden de pago para el autoseguro médico?
+211. ¿Qué pasos debe seguir un estudiante para generar una orden de pago para el autoseguro médico en la plataforma Intranet-Alumnos?
+212. ¿Dónde puede encontrar un estudiante el manual de pagos de la UNI para obtener más detalles sobre el proceso de generación de una orden de pago?
+213. ¿Cuál es el procedimiento para solicitar un retiro parcial de asignaturas en la Universidad Nacional de Ingeniería?
+214. ¿Cuáles son las consecuencias de solicitar un retiro total de todas las asignaturas en las que está matriculado un estudiante?
+215. ¿Cuál es el banco en el que un estudiante puede realizar el pago de la constancia de notas?
+216. ¿Qué información debe incluir la solicitud de orden de pago para la constancia de notas?
+217. ¿Cuál es el horario de atención para recoger la constancia de notas una vez que esté lista?
+218. ¿Cuáles son las posibles razones por las que un estudiante podría tener problemas para realizar la matrícula de sus cursos a través del módulo de Matrícula UNI?
+219. ¿Qué debe hacer un estudiante si no encuentra el trámite correspondiente en la lista de opciones dentro de la plataforma de intranet-alumnos para generar una orden de pago?
+220. ¿Cuál es el procedimiento para comunicarse con la Oficina de Tutoría si un estudiante adeuda la tutoría previa requerida para estudiantes en riesgo académico?
+221. ¿Cuál es el correo electrónico al que un estudiante debe enviar un mensaje si tiene algún otro inconveniente con la matrícula de sus cursos?
+222. ¿Cuál es el tiempo de espera recomendado luego de generar una orden de pago para realizar el pago correspondiente?
+223. ¿Qué debe hacer un estudiante si no puede realizar el pago a través de la aplicación móvil del banco?
+224. ¿Cuál es el primer paso que debe seguir un estudiante para generar una orden de pago por algún concepto o trámite específico?
+225. ¿Cuál es el procedimiento para solicitar la generación de una orden de pago a la oficina de estadística (AERA) si el trámite no está estipulado en la lista de opciones dentro de la plataforma?
+226. ¿Cuál es la sección de la Página Web de la Facultad de Ciencias donde se puede encontrar el Manual de Pagos?
+227. ¿Cuál es la información que un estudiante debe proporcionar al solicitar la generación de una orden de pago a la oficina de estadística (AERA)?
+228. ¿Cuál es el banco con el que se puede realizar el pago de una orden de pago generada por algún concepto o trámite?
+229. ¿Cuál es la opción que un estudiante debe seleccionar en la aplicación móvil del banco para realizar el pago de una orden de pago?
+230. ¿Cuál es el correo electrónico al que un estudiante debe enviar un mensaje si necesita más detalles sobre el proceso para generar una orden de pago a través de la plataforma?
+231. ¿Cuál es el tiempo aproximado que debe esperar un estudiante para realizar el pago correspondiente en una sucursal del BCP luego de generar una orden de pago?
+232. ¿Cuál es el procedimiento para que un estudiante realice ayudantía académica en las áreas de Física, Química o Ciencia de la Computación?
+233. ¿Cuál es el correo electrónico al que deben contactar los estudiantes de Matemáticas o Ingeniería Física para obtener información sobre la ayudantía académica?
+234. ¿Qué pasos debe seguir un estudiante que no pudo inscribir sus cursos a tiempo durante la matrícula regular?
+235. ¿Cuál es el proceso para gestionar la matrícula rezagada en la Universidad Nacional de Ingeniería (UNI)?
+236. ¿Cuál es el costo del trámite de reincorporación para un estudiante que ha reservado su matrícula por uno o más periodos académicos?
+237. ¿Cómo puede un estudiante generar una orden de pago para el trámite de reincorporación?
+238. ¿Cuál es el procedimiento para realizar el pago del trámite de reincorporación en la UNI?
+239. ¿Cuál es el siguiente paso después de completar el pago del trámite de reincorporación?
+240. ¿Dónde debe enviar un estudiante su solicitud de reincorporación una vez completado el pago?
+241. ¿Qué debe hacer un estudiante si desea realizar su reincorporación después de haber reservado su matrícula por uno o más periodos académicos?
+242. ¿Cuál es el procedimiento para acceder al módulo de pagos del Portal INTRALU en la plataforma Intranet-Alumnos?
+243. ¿Qué debe hacer un estudiante una vez aprobada su solicitud de reincorporación?
+244. ¿Cuál es el estado que se visualiza una vez completado el envío de la solicitud de reincorporación por la plataforma?
+245. ¿Qué puede hacer un estudiante una vez realizada la reincorporación para poder matricularse de manera regular?
+246. ¿Cuáles son los pasos que debe seguir un estudiante para completar su matrícula como nuevo ingresante en la Facultad de Ciencias de la UNI?
+247. ¿Cuál es el costo del autoseguro estudiantil que los ingresantes deben pagar durante su matrícula?
+248. ¿Cómo pueden los ingresantes verificar su horario de cursos después de completar su matrícula?
+249. ¿Cuál es el plazo límite para que un estudiante solicite el Retiro Total?
+250. ¿Qué pasos debe seguir un estudiante para solicitar el Retiro Total?
+251. ¿Cuáles son los motivos aceptados para solicitar un Retiro Total?
+252. ¿Cuál es el procedimiento para solicitar un retiro total en casos de enfermedad grave certificada por el Centro Médico de la UNI, MINSA o ESSALUD?
+253. ¿Cuál es el costo de la matrícula rezagada para los estudiantes que no pudieron matricularse en las fechas establecidas?
+254. ¿Qué documentos debe subir un estudiante después de realizar el pago para la matrícula rezagada?
+255. ¿Qué debe hacer un estudiante después de subir el comprobante de pago para la matrícula rezagada?
+256. ¿Cuál es el enlace para acceder al formulario de matrícula rezagada en la página web de la Facultad de Ciencias?
+257. ¿Cuál es el plazo límite para realizar la matrícula rezagada?
+258. ¿Cuál es el procedimiento para actualizar los datos en la plataforma de intranet-alumnos?
+259. ¿Qué sucede si un estudiante no completa su constancia de ingreso a tiempo?
+260. ¿Cuál es el papel de la Dirección de Admisión (DIAD) en el proceso de matrícula de nuevos ingresantes?
+261. ¿Cuál es el papel del Consejo Directivo de la Escuela Profesional en el proceso de solicitud de Retiro Total?
+262. ¿Cuál es el papel del Centro Médico de la UNI, MINSA o ESSALUD en el proceso de solicitud de Retiro Total?
+263. ¿Cuál es el procedimiento para completar la ficha de datos requerida para la matrícula de nuevos ingresantes?
+264. ¿Cuál es el procedimiento para realizar la entrega de los documentos requeridos para la matrícula de nuevos ingresantes?
+265. ¿Cuál es el procedimiento para acceder a la plataforma de intranet-alumnos?
+266. ¿Cuál es el procedimiento para completar la solicitud de retiro total en la plataforma intranet-alumnos?
+267. ¿Cuál es el procedimiento para generar una orden de pago para la matrícula rezagada?
+268. ¿Cuál es el procedimiento para verificar el horario de cursos después de completar la matrícula?
+269. ¿Cuáles son los pasos que debe seguir un estudiante para realizar una solicitud de traslado interno?
+270. ¿Qué documentos debe adjuntar un estudiante a su solicitud de traslado interno?
+271. ¿Qué órgano de la universidad analiza las solicitudes de traslado interno?
+272. ¿Qué beneficios tiene el carnet universitario para los estudiantes?
+273. ¿Cuál es el costo del carnet universitario?
+274. ¿Qué requisitos debe cumplir un estudiante para obtener el carnet universitario?
+275. ¿Qué institución bancaria permite el pago del carnet universitario?
+276. ¿Cuál es el proceso de entrega del carnet universitario una vez que se han cumplido los requisitos?
+277. ¿Cuál es la fecha límite para realizar la solicitud de traslado interno?
+278. ¿Qué sucede si un estudiante presenta una solicitud de traslado interno fuera de la fecha indicada?
+279. ¿Cuál es el procedimiento para renovar el carnet universitario?
+280. ¿Qué departamentos de la universidad pueden proporcionar información sobre la convalidación de prácticas pre profesionales?
+281. ¿Cuál es el plazo máximo para realizar la convalidación de prácticas pre profesionales?
+282. ¿Qué sucede si un estudiante no cumple con los requisitos para obtener el carnet universitario?
+283. ¿Cuál es el procedimiento para completar la ficha de datos en el portal INTRALU?
+284. ¿Qué tipo de fotografía se requiere para el carnet universitario?
+285. ¿Cuál es el proceso que sigue la Oficina de Estadística una vez que se ha completado el trámite del carnet universitario?
+286. ¿Cuál es el descuento que ofrece el carnet universitario en el transporte público?
+287. ¿Qué tipo de notificaciones debe esperar un estudiante una vez que ha completado el trámite del carnet universitario?
+288. ¿Dónde se publica el calendario de actividades con las fechas de matrícula para cada ciclo académico?
+289. ¿Cómo se asignan los turnos de matrícula a los estudiantes y en qué se basa esta asignación?
+290. ¿Cuál es el procedimiento para que un estudiante verifique su turno de matrícula dentro de la plataforma intranet-alumnos?
+291. ¿Cuál es la información que un estudiante debe proporcionar al solicitar su correo institucional de la UNI?
+292. ¿A quién debe dirigirse un estudiante para solicitar su constancia de Ayudantia académica y cuál es el procedimiento a seguir?
+293. ¿Cuáles son las direcciones de correo electrónico a las que un estudiante puede solicitar información sobre la constancia de Ayudantia académica, según su escuela profesional?
+294. ¿Qué requisitos debe cumplir un estudiante para recibir prioridad en los primeros turnos de matrícula?
+295. ¿Qué diferencia hay en el procedimiento para solicitar la constancia de Ayudantia académica entre las escuelas de Física, Química o Ciencia de la Computación y las de Matemáticas o Ingeniería Física?
+296. ¿Qué información se le enviará al correo personal del estudiante al solicitar su correo institucional de la UNI?
+297. ¿Por qué es importante que un estudiante verifique su turno correspondiente de matrícula dentro de la plataforma intranet-alumnos?
+298. ¿Cuál es el proceso para completar la matrícula virtual en un curso adicional?
+299. ¿Cuándo deben los estudiantes comunicarse con la oficina para solicitar una vacante adicional en un curso?
+300. ¿Cuál es el procedimiento para solicitar el retiro parcial de asignaturas a través de la plataforma DIRCE?
+301. ¿Qué significa ser un "estudiante en posibilidad de egresar" y cómo afecta esto a la matrícula en un curso y su pre requisito?
+302. ¿Dónde pueden los estudiantes consultar el calendario de actividades académicas para conocer las fechas específicas de trámites como el retiro parcial de asignaturas?
+303. ¿Qué sucede si un estudiante se matricula en un curso y su pre requisito sin cumplir con los requisitos de "estudiante en posibilidad de egresar"?
+304. ¿Cuáles son las restricciones para el retiro parcial de asignaturas en cuanto a asignaturas repetidas y prerrequisitos?
+305. ¿Qué pasos debe seguir un estudiante para completar su matrícula virtual en un curso adicional?
+306. ¿Cuál es el límite de créditos faltantes para completar el Plan de Estudios y poder matricularse en un curso y su pre requisito?
+307. ¿Qué debe hacer un estudiante si desea retirarse de todas las asignaturas en las que está matriculado?
+308. ¿Qué información debe proporcionar un estudiante al comunicarse con su escuela profesional para solicitar matricularse en un curso y su pre requisito?
+309. ¿Qué opciones tiene un estudiante para conocer el resultado de su solicitud de retiro de asignaturas?
+310. ¿Cuáles son las consecuencias de no seguir el procedimiento adecuado para solicitar el retiro parcial de asignaturas?
+311. ¿Dónde puede un estudiante de pregrado encontrar el calendario de actividades académicas en la Facultad de Ciencias de la UNI?
+312. ¿Cuáles son los pasos para generar una orden de pago para el autoseguro estudiantil a través de la plataforma intranet-alumnos?
+313. ¿Cuál es el proceso para realizar la matrícula regular de un estudiante de pregrado en la Facultad de Ciencias de la UNI?
+314. ¿Cómo se asignan los turnos para la matrícula de los estudiantes en la Facultad de Ciencias de la UNI?
+315. ¿Cuál es el número máximo de créditos en los que un estudiante de la Facultad de Ciencias de la UNI puede matricularse si ha aprobado todas las asignaturas del primer ciclo en su primera matrícula y tiene un promedio ponderado igual o mayor a doce?
+316. ¿Cuántas asignaturas adicionales puede adelantar un estudiante de la Facultad de Ciencias de la UNI si cumple con ciertos requisitos académicos?
+317. ¿Dónde se puede encontrar el número máximo de créditos permitidos a matricularse para estudiantes que no cumplan con los requisitos anteriores?
+318. ¿En qué se basa la determinación de la cantidad de créditos a matricular para estudiantes en riesgo académico en la Facultad de Ciencias de la UNI?
+319. ¿Cuál es el límite de créditos para estudiantes con un promedio ponderado entre 14 y 20 en la Tabla 1 del Reglamento de Matrícula de la Facultad de Ciencias de la UNI?
+320. ¿Cuál es el procedimiento para realizar la inscripción de cursos a través de la plataforma intranet-alumnos en la Facultad de Ciencias de la UNI?
+321. ¿Cuál es el proceso para realizar el pago del autoseguro estudiantil a través de la aplicación móvil del BCP?
+322. ¿Qué sucede si un estudiante no realiza el pago del autoseguro estudiantil antes de la fecha de matrícula regular en la Facultad de Ciencias?
+323. ¿Cuál es el procedimiento para presentar documentos en la Mesa de Parte de la Facultad de Ciencias?
+324. ¿Qué es el intranet alumnos y cómo puede un estudiante acceder a él?
+325. ¿Qué tipo de solicitudes pueden ser visualizadas a través del intranet alumnos en la Facultad de Ciencias?
+326. ¿Cuál es el enlace para realizar el seguimiento de un número de expediente para otros trámites en la Facultad de Ciencias?
+327. ¿Cuál es el procedimiento para realizar la matrícula regular en la Facultad de Ciencias?
+328. ¿Cuál es la función de la oficina de estadística (AERA) en la Facultad de Ciencias?
+329. ¿Qué información puede verificar un estudiante al comprobar si su matrícula se habilita o no en las fechas de matrícula regular en la Facultad de Ciencias?
+330. ¿Cuáles son las especialidades o carreras universitarias que pueden solicitar constancias de Quinto y/o Tercio Superior?
+331. ¿Cuál es el correo de contacto para obtener información sobre la tutoría obligatoria previa a la matrícula para alumnos en riesgo académico?
+332. ¿Qué información adicional pueden obtener los estudiantes acerca del trámite para solicitar certificados de Quinto y/o Tercio Superior?
+333. ¿Qué requisitos deben cumplir los alumnos en riesgo académico para la habilitación de su matrícula?
+334. ¿Cuál es la dirección de la oficina de estadística o AERA?
+335. ¿Cuál es el costo de la constancia de matrícula en la Universidad Nacional de Ingeniería?
+336. ¿Qué opciones tiene el estudiante para realizar el pago de la constancia de matrícula?
+337. ¿Qué documentos debe presentar el estudiante en la mesa de partes de la facultad después de realizar el pago?
+338. ¿Cuál es el procedimiento para solicitar la constancia de matrícula en inglés o español?
+339. ¿Dónde puede encontrar el estudiante el calendario de actividades académicas para conocer el plazo máximo de solicitud de reserva de matrícula?
+340. ¿Cuál es el procedimiento para realizar la reserva de matrícula a través de la plataforma SIGA-DIRCE?
+341. ¿Qué sucede si un estudiante no puede presentar la solicitud de reserva de matrícula a través de la plataforma SIGA-DIRCE?
+342. ¿Cuál es el monto exacto para realizar el pago de la constancia de matrícula?
+343. ¿Qué información debe incluir la solicitud de reserva de matrícula que el estudiante presenta a través de la plataforma SIGA-DIRCE?
+344. ¿Cuál es el procedimiento para recoger la constancia de matrícula una vez que esté lista?
+345. ¿Qué sucede si un estudiante no puede realizar el pago de la constancia de matrícula en una sucursal del BCP?
+346. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si el estudiante no puede recogerla en persona?
+347. ¿Cuál es el plazo máximo para presentar la solicitud de reserva de matrícula en la Universidad Nacional de Ingeniería?
+348. ¿Cuáles son las consecuencias para un estudiante que no cumple con el requisito de tutoría obligatoria previa a la matrícula?
+349. ¿Qué pasos debe seguir un estudiante para obtener más información sobre la tutoría obligatoria previa a la matrícula?
+350. ¿Qué diferencia hay entre acceder a la lista de cursos y horarios desde la plataforma intranet-alumnos y desde la sección de "MATRÍCULA Y PROCEDIMIENTOS" en el sitio web de la facultad?
+351. ¿Dónde puede encontrar un estudiante los formularios necesarios para solicitar un cambio de sección/horario de un curso matriculado?
+352. ¿Cuáles son las razones por las que un estudiante puede solicitar la reserva de matrícula?
+353. ¿Cuál es el número máximo de años que un estudiante puede reservar su matrícula?
+354. ¿Cuántas asignaturas adicionales puede adelantar un estudiante si cumple con ciertos requisitos académicos?
+355. ¿Cuál es el límite de créditos para estudiantes con un promedio ponderado entre 0 y 8, según la Tabla 1 del Reglamento de Matrícula?
+356. ¿Qué sucede si un estudiante desea matricularse en más créditos de los permitidos según su promedio ponderado?
+357. ¿Cuál es el papel de la Oficina de Tutoría y la Comisión de Matrícula de la Facultad en la determinación de la cantidad de créditos a matricular para estudiantes en riesgo académico?
+358. ¿Cuál es el procedimiento para solicitar una excepción al límite de créditos a matricularse?
+359. ¿Cuál es el impacto de no cumplir con el límite de créditos a matricularse según el promedio ponderado?
+360. ¿Cuál es el proceso para recibir recomendaciones sobre la cantidad de créditos a matricular para estudiantes en riesgo académico?
+361. ¿Qué sucede si un estudiante no está de acuerdo con la recomendación de la Oficina de Tutoría y la Comisión de Matrícula de la Facultad sobre la cantidad de créditos a matricular?
+362. ¿Qué sucede si un estudiante no tiene conflictos de horario entre los cursos en los que está matriculado pero desea realizar un cambio de sección/horario?
+363. ¿Cuáles son las direcciones de correo electrónico a las que un estudiante debe contactar para obtener información sobre la convalidación de prácticas pre profesionales en la Universidad Nacional de Ingeniería?
+364. ¿En qué momento debe un estudiante tramitar su solicitud de retiro parcial de asignaturas en la Universidad Nacional de Ingeniería?
+365. ¿Cuántas asignaturas como máximo puede retirar un estudiante en el procedimiento de retiro parcial en la Universidad Nacional de Ingeniería?
+366. ¿Qué pasos debe seguir un estudiante para consultar el resultado de su solicitud de retiro de asignaturas en la Universidad Nacional de Ingeniería?
+367. ¿Qué sucede si un estudiante se retira de todas las asignaturas en las que está matriculado en la Universidad Nacional de Ingeniería?
+368. ¿Cuál es el impacto de retirarse de asignaturas más avanzadas en comparación con asignaturas de ciclos más atrasados en la Universidad Nacional de Ingeniería?
+369. ¿Cuáles son las restricciones para el retiro parcial de asignaturas en la Universidad Nacional de Ingeniería?
+370. ¿Cuál es el procedimiento que debe seguir un estudiante para convalidar sus prácticas pre profesionales en la Universidad Nacional de Ingeniería?
+371. ¿Cuál es el papel del departamento de la Escuela Profesional en el proceso de convalidación de prácticas pre profesionales en la Universidad Nacional de Ingeniería?
+372. ¿Cuál es el impacto de retirarse de asignaturas prerrequisito en la Universidad Nacional de Ingeniería?
+373. ¿Cuáles son los pasos específicos que un estudiante debe seguir para generar una orden de pago para el autoseguro médico?
+374. ¿Qué requisitos debe cumplir un estudiante para poder realizar ayudantía académica en la UNI?
+375. ¿Cuál es el plazo límite para generar una orden de pago para el autoseguro médico?
+376. ¿Qué consecuencias puede tener un estudiante que no realiza la inscripción de sus cursos en el plazo establecido?
+377. ¿Cuál es el procedimiento para realizar el pago del autoseguro médico en una sucursal bancaria?
+378. ¿Qué información adicional puede encontrar un estudiante en el manual de pagos de la UNI?
+379. ¿Cuál es la diferencia entre la matrícula regular y la matrícula rezagada en la UNI?
+380. ¿Qué beneficios puede obtener un estudiante al realizar ayudantía académica en la UNI?
+381. ¿Qué acciones debe tomar un estudiante que no puede realizar el pago del autoseguro médico a través del aplicativo móvil BCP?
+382. ¿Cuál es el impacto de no cumplir con los plazos establecidos para la inscripción de cursos en la UNI?
+383. ¿Qué pasos debe seguir un estudiante para obtener más información sobre la realización de ayudantía académica en su Escuela Profesional?
+384. ¿Dónde puede un estudiante verificar el estado de sus trámites en la universidad?
+385. ¿Qué información se necesita para realizar el seguimiento de un trámite a través del número de expediente?
+386. ¿Qué tipo de certificados emiten las Escuelas Profesionales correspondientes a la Especialidad del estudiante?
+387. ¿Cuál es la recomendación para obtener más detalles sobre el trámite de las constancias de Quinto y/o Tercio Superior?
+388. ¿Cuáles son las direcciones de correo para solicitar información sobre las constancias de Quinto y/o Tercio Superior en las Escuelas Profesionales de Física, Química o Ciencia de la Computación?
+389. ¿Cuál es la dirección de correo para solicitar información sobre las constancias de Quinto y/o Tercio Superior en la Escuela Profesional de Matemáticas?
+390. ¿Qué datos personales debe incluir un estudiante al enviar un correo solicitando una orden de pago para la constancia de matrícula?
+391. ¿Qué pasos debe seguir un estudiante para realizar el pago de la constancia de matrícula a través de la aplicación móvil del banco?
+392. ¿Dónde puede encontrar el modelo para la solicitud de constancia de matrícula en inglés o español?
+393. ¿Cuáles son las posibles razones por las que un estudiante podría tener problemas para completar su proceso de inscripción de cursos?
+394. ¿A quién debe contactar un estudiante si tiene problemas con la inscripción de cursos?
+395. ¿Cuál es la función de la Oficina de Tutoría en el proceso de inscripción de cursos?
+396. ¿Cuál es el plazo para solicitar el retiro total de un estudiante?
+397. ¿Cuáles son los motivos por los que un estudiante puede solicitar un retiro total?
+398. ¿Cuál es el procedimiento para solicitar el retiro total en casos excepcionales?
+399. ¿Quién evaluará las solicitudes de retiro total en casos excepcionales?
+400. ¿Qué debe hacer un estudiante después de completar el pago para su reincorporación?
+401. ¿Cuál es el procedimiento para enviar la solicitud de reincorporación después de completar el pago?
+402. ¿Cuáles son los requisitos para realizar un traslado interno?
+403. ¿Cuál es el primer paso que debe realizar un estudiante para solicitar un traslado interno?
+404. ¿Qué sucede después de que un estudiante presenta su solicitud de traslado interno?
+405. ¿Cuál es el papel del director de Escuela o la Comisión de Matrícula en el proceso de traslado interno?
+406. ¿Qué sucede una vez que el expediente de traslado interno es presentado ante el Consejo de Facultad?
+407. ¿Cuándo se pueden realizar las solicitudes de matrícula rezagada?
+408. ¿Cuál es el costo de la matrícula rezagada para los estudiantes que la realizan?
+409. ¿Qué pasos debe seguir un estudiante para generar una orden de pago para la matrícula rezagada?
+410. ¿Cuál es el plazo para enviar la solicitud de reincorporación?
+411. ¿Qué sucede si un estudiante no cumple con los requisitos para realizar un traslado interno?
+412. ¿Cuál es el plazo para que el personal de la oficina de Estadística habilite el acceso a la plataforma de intranet para la matrícula rezagada?
+413. ¿Cuál es el costo total de la reincorporación de un estudiante que ha reservado su matrícula por dos periodos académicos?
+414. ¿Cuál es el papel del Decano en el proceso de traslado interno?
+415. ¿Qué sucede si un estudiante no presenta la solicitud de matrícula rezagada dentro de las fechas establecidas?
+416. ¿Dónde se publica el calendario de actividades para el ciclo académico?
+417. ¿Cómo se asignan los turnos de matrícula a los estudiantes?
+418. ¿Qué es la plataforma intranet-alumnos y cómo se puede acceder a ella?
+419. ¿Cuál es el procedimiento que sigue DIRCE si un estudiante no ha concretado su matrícula en el período académico actual?
+420. ¿Cuáles son los días de atención de la Mesa de Parte de la Facultad de Ciencias?
+421. ¿Qué tipo de documentos se pueden presentar en la Mesa de Parte de la Facultad de Ciencias?
+422. ¿Dónde se puede encontrar información detallada sobre los plazos y procedimientos de matrícula en la Facultad de Ciencias?
+423. ¿Cuál es el procedimiento para realizar la matrícula virtual de un estudiante de pregrado en la Universidad Nacional de Ingeniería?
+424. ¿Qué requisitos deben cumplir los alumnos en riesgo académico para realizar la matrícula regular en la Universidad Nacional de Ingeniería?
+425. ¿Cuál es el proceso para realizar la inscripción de cursos a través de la plataforma intranet-alumnos en la Universidad Nacional de Ingeniería?
+426. ¿Cómo puede un estudiante verificar su turno correspondiente para la matrícula en la Universidad Nacional de Ingeniería?
+427. ¿Cuál es el procedimiento para solicitar la generación de una orden de pago a la oficina de estadística (AERA) en la Universidad Nacional de Ingeniería?
+428. ¿Cuál es el tiempo de espera recomendado antes de realizar el pago de una orden de pago generada por algún concepto o trámite?
+429. ¿Cuál es el proceso para realizar el pago de una orden de pago generada por algún concepto o trámite en una sucursal del BCP?
+430. ¿Cuál es el procedimiento para generar una orden de pago para trámites que no estén estipulados en la lista de opciones dentro de la plataforma intranet-alumnos?
+431. ¿Cuál es el enlace para acceder al Manual de Pagos publicado en la sección de "MATRÍCULA Y PROCEDIMIENTOS" en la Página Web de la Facultad de Ciencias?
+432. ¿Cuál es el procedimiento para completar la tutoría obligatoria previa a la matrícula en la Universidad Nacional de Ingeniería?
+433. ¿Cuál es el proceso para seleccionar las asignaturas y horarios deseados durante la matrícula virtual en la Universidad Nacional de Ingeniería?
+434. ¿Cuál es el procedimiento para confirmar la matrícula en todas las asignaturas elegidas durante la matrícula virtual en la Universidad Nacional de Ingeniería?
+435. ¿Cuál es el plazo establecido para realizar la matrícula regular al ciclo académico en la Universidad Nacional de Ingeniería?
+436. ¿Cuál es el procedimiento para solicitar una constancia de notas en la Facultad de Ciencias?
+437. ¿Cuál es el costo actual de la constancia de notas en la Facultad de Ciencias?
+438. ¿Cuál es el procedimiento para realizar el pago de la constancia de notas en la Facultad de Ciencias?
+439. ¿Cuál es el horario de atención para recoger la constancia de notas en la Facultad de Ciencias?
+440. ¿Con quién debe realizar el trámite un estudiante para solicitar su constancia de Ayudantia academica en la Facultad de Ciencias?
+441. ¿Cuál es la dirección de correo electrónico para solicitar información sobre Ayudantia academica en las escuelas de Física, Química o Ciencia de la Computación?
+442. ¿Cuál es la dirección de correo electrónico para solicitar información sobre Ayudantia academica en las escuelas de Matemáticas o Ingeniería Física?
+443. ¿Cuál es el procedimiento para solicitar la reincorporación como estudiante en la Universidad Nacional de Ingeniería?
+444. ¿Cuál es el papel de la oficina de estadística en el proceso de matrícula de nuevos ingresantes en la Facultad de Ciencias?
+445. ¿Cuál es el contenido de la ficha de datos que debe completar un nuevo ingresante en la Facultad de Ciencias?
+446. ¿Cuál es el procedimiento para solicitar una vacante adicional para inscribirse en un curso en la Facultad de Ciencias?
+447. ¿Cuál es el papel de la oficina de estadística en la solicitud de vacantes adicionales para inscribirse en un curso en la Facultad de Ciencias?
+448. ¿Cuál es el procedimiento para obtener el certificado médico expedido por el Centro Médico de la Universidad Nacional de Ingeniería?
+449. ¿Cuál es el contenido de la constancia de evaluación socioeconómica que debe entregar un nuevo ingresante en la Facultad de Ciencias?
+450. ¿Cuál es el procedimiento para comunicarse con la oficina de estadística para solicitar una vacante adicional en un curso?
+451. ¿Cuál es el contenido del correo que recibirán los ingresantes matriculados en la Universidad Nacional de Ingeniería?
+452. ¿Cuál es el procedimiento para acceder a la plataforma de intranet-alumnos en la Universidad Nacional de Ingeniería?
+453. ¿Cuáles son los beneficios de contar con el carnet universitario en la Universidad?
+454. ¿Qué sucede si un estudiante no tramita la renovación del carnet universitario antes de su vencimiento?
+455. ¿Cuál es el costo del autoseguro estudiantil y cómo se realiza el pago?
+456. ¿Qué sucede si un estudiante no realiza el pago del autoseguro estudiantil antes de la fecha límite?
+457. ¿Cuáles son los requisitos para que un estudiante pueda matricularse en un curso y su pre requisito?
+458. ¿Cuál es el procedimiento para comunicarse con la oficina de estadística (AERA) en caso de problemas con la matrícula?
+459. ¿Qué tipo de descuentos ofrece el carnet universitario en el transporte público?
+460. ¿Cuál es el proceso para acceder al comedor universitario con el carnet universitario?
+461. ¿Qué tipo de avisos o notificaciones debe estar atento un estudiante con respecto a la entrega del carnet universitario?
+462. ¿Cuál es el plazo máximo para realizar la renovación del carnet universitario antes de su vencimiento?
+463. ¿Cuál es el procedimiento para verificar si la matrícula se ha habilitado en las fechas regulares?
+464. ¿Cuál es el proceso para solicitar la evaluación y aprobación del director de escuela para matricularse en un curso y su pre requisito?
+465. ¿Cuál es el procedimiento para obtener una fotografía digital en el portal web INTRALU?
+466. ¿Cuál es el enlace para acceder al calendario de actividades académicas correspondiente al periodo académico en la Facultad de Ciencias?
+467. ¿Cuál es el procedimiento para solicitar la convalidación de prácticas pre profesionales en la Escuela Profesional de Matemáticas o Ingeniería Física?
+468. ¿Cuál es el plazo establecido para solicitar la reincorporación a la universidad?
+469. ¿Cuáles son los requisitos para convalidar prácticas pre profesionales en la Escuela Profesional de Física, Química o Ciencia de la Computación?
+470. ¿Cuál es la diferencia en el proceso de solicitud de vacantes adicionales entre las diferentes escuelas profesionales de la Facultad de Ciencias?
+471. ¿Cuál es el procedimiento para comunicarse con la oficina encargada de evaluar la solicitud de vacantes adicionales?
+472. ¿Qué información se puede encontrar en la página web de la Facultad de Ciencias sobre la solicitud de vacantes adicionales para la inscripción a un curso?
+473. ¿Qué pasos debe seguir un estudiante para generar una orden de pago para su reincorporación?
+474. ¿Cuál es el medio de pago que un estudiante puede utilizar para completar el pago de su trámite de reincorporación?
+475. ¿Qué significa el término "estudiante en posibilidad de egresar" en el contexto de la matrícula de asignaturas y prerrequisitos?
+476. ¿Qué proceso debe seguir un estudiante para comunicarse con su escuela profesional y solicitar matricularse en una asignatura y su prerrequisito?
+477. ¿Dónde se publica la lista completa de cursos junto con sus horarios correspondientes para la matrícula de los estudiantes?
+478. ¿Cuál es el procedimiento para acceder a la lista de cursos y horarios desde la plataforma intranet-alumnos?
+479. ¿Cuál es el número máximo de créditos que un estudiante puede tener pendientes para poder matricularse en una asignatura y su respectivo prerrequisito?
+480. ¿Qué sucede una vez que un estudiante completa el envío de la solicitud de reincorporación a través de la Plataforma de Intranet-Alumnos?
+481. ¿Cuál es el procedimiento para realizar la matrícula de manera regular una vez aprobada la reincorporación de un estudiante?
+482. ¿Qué información debe incluir el formulario de solicitud de reincorporación que un estudiante completa en la Plataforma de Intranet-Alumnos?
+483. ¿Cuál es el estado actual de la solicitud que un estudiante puede visualizar una vez completado el envío de la solicitud de reincorporación?
+484. ¿Cuál es el procedimiento para solicitar la reserva de matrícula?
+485. ¿Cuáles son las razones que justifican la solicitud de reserva de matrícula?
+486. ¿Qué documentos debe adjuntar un estudiante al solicitar la reserva de matrícula por razones de salud?
+487. ¿Cuál es el costo asociado al trámite de reserva de matrícula?
+488. ¿Dónde se publica el calendario de actividades académicas para la matrícula?
+489. ¿Cómo se realiza la matrícula rezagada?
+490. ¿Cuáles son los pasos para realizar la matrícula rezagada?
+491. ¿Cuál es el costo de la matrícula rezagada?
+492. ¿Dónde se debe subir el comprobante de pago para la matrícula rezagada?
+493. ¿Quién habilita el acceso a la plataforma de intranet para la matrícula rezagada?
+494. ¿En qué se basa el orden de mérito para los turnos de matrícula?
+495. ¿Dónde se publica el orden de mérito y los respectivos turnos de matrícula?
+496. ¿Cómo puede un estudiante verificar su turno de matrícula?
+497. ¿Cuál es el propósito de la reserva de matrícula?
+498. ¿Qué sucede si un estudiante no realiza la matrícula en el periodo académico actual?
+499. ¿Cuáles son los requisitos para obtener el carnet universitario en la Facultad de Ciencias de la Universidad?
+500. ¿Cuál es el procedimiento para recibir notificaciones sobre la entrega del carnet universitario?
+501. ¿Dónde puede un estudiante o apoderado presentar la solicitud de reserva de matrícula?
+502. ¿Quién se encarga de gestionar los cambios de sección/horario de un curso matriculado en la Facultad de Ciencias?
+503. ¿Cuál es el proceso para comunicarse con la oficina de AERA para solicitar un cambio de sección/horario?
+504. ¿Cuál es el costo del carnet universitario en la Facultad de Ciencias?
+505. ¿Cuál es el procedimiento para realizar el pago por el monto correspondiente al carnet universitario?
+506. ¿Cuál es el procedimiento para acceder al 50% de descuento en el transporte público con el carnet universitario?
+507. ¿Cuál es el procedimiento para obtener descuentos en museos y centros turísticos con el carnet universitario?
+508. ¿Cuál es el proceso para tramitar la renovación del carnet universitario en la Facultad de Ciencias?
+509. ¿Qué debe hacer un estudiante si tiene problemas para realizar la matrícula de sus cursos a través del módulo de Matrícula UNI en la plataforma de intranet-alumnos?
+510. ¿Cuáles son las posibles situaciones que podrían impedir a un estudiante completar su proceso de inscripción de cursos a través del módulo de Matrícula UNI?
+511. ¿Qué debe hacer un estudiante si tiene una deuda registrada en el sistema que le impide completar su proceso de inscripción de cursos?
+512. ¿Cuál es el procedimiento para gestionar la matrícula rezagada si el estudiante no ha habilitado la matrícula virtual en las fechas regulares?
+513. ¿Cómo puede un estudiante ponerse en contacto con la Oficina de Tutoría si adeuda la tutoría previa requerida?
+514. ¿Cómo puede un estudiante acceder al módulo de pagos del Portal INTRALU para generar una orden de pago?
+515. ¿Qué pasos debe seguir un estudiante para generar una orden de pago a través del módulo de pagos del Portal INTRALU?
+516. ¿Cómo puede un estudiante solicitar la generación de una orden de pago a la oficina de estadística (AERA)?
+517. ¿Cuánto tiempo debe esperar un estudiante una vez generada la orden de pago para realizar el pago correspondiente?
+518. ¿Dónde puede un estudiante realizar el pago correspondiente una vez generada la orden de pago?
+519. ¿Qué información específica debe proporcionar un estudiante al solicitar la generación de una orden de pago a la oficina de estadística (AERA)?
+520. ¿Cuál es el procedimiento para solicitar un certificado de décimo o quinto superior en la Facultad de Ciencias de la UNI?
+521. ¿Cuál es la fecha límite para realizar el pago del autoseguro estudiantil antes de la matrícula regular en la Facultad de Ciencias de la UNI?
+522. ¿Cuál es el número máximo de créditos en los que un estudiante de la Facultad de Ciencias de la UNI puede matricularse?
+523. ¿Cuáles son las direcciones de correo a las que un estudiante de la Facultad de Ciencias de la UNI puede solicitar información sobre las constancias de Quinto y/o Tercio Superior?
+524. ¿Cuáles son los requisitos para que un estudiante de la Facultad de Ciencias de la UNI pueda matricularse en todas las asignaturas del segundo ciclo y adelantar dos asignaturas adicionales?
+525. ¿Dónde puede un estudiante de la Facultad de Ciencias de la UNI verificar el calendario de actividades académicas correspondiente al periodo académico?
+526. ¿Cuál es el límite de créditos para matricularse en la Facultad de Ciencias de la UNI si un estudiante ha cursado dos o más ciclos y no cumple con los requisitos para adelantar asignaturas?
+527. ¿Qué sucede si un estudiante de la Facultad de Ciencias de la UNI no cumple con el límite de créditos establecido para su situación académica al momento de la matrícula?
+528. ¿Quién determina la cantidad de créditos a matricular para un estudiante en riesgo académico en la Facultad de Ciencias de la UNI?
+529. ¿Cuál es el contenido de la Tabla 1 del Reglamento de Matrícula de la Facultad de Ciencias de la UNI?
+530. ¿Cuál es el procedimiento para comunicarse con la oficina de estadística (AERA) si la matrícula no se habilita en las fechas de matrícula regular en la Facultad de Ciencias de la UNI?
+531. ¿Cuáles son las asignaturas que un estudiante de Física, Química o Ciencia de la Computación puede adelantar si cumple con los requisitos establecidos?
+532. ¿Cuáles son las asignaturas que un estudiante de Matemáticas o Ingeniería Física puede adelantar si cumple con los requisitos establecidos?
+533. ¿Qué debe hacer un estudiante si su matrícula no se habilita en las fechas de matrícula regular en la Facultad de Ciencias de la UNI?
+534. ¿Cuáles son los requisitos para la matrícula de nuevos ingresantes de pregrado en la Facultad de Ciencias de la UNI?
+535. ¿Qué pasos debe seguir un ingresante para recabar su constancia de ingreso a la UNI?
+536. ¿Cuál es el proceso de actualización de datos en la plataforma de intranet-alumnos para los nuevos ingresantes?
+537. ¿Qué documentos debe entregar un ingresante a la oficina de estadística para completar su matrícula?
+538. ¿Quién ejecuta la matrícula de los ingresantes en la Facultad de Ciencias?
+539. ¿Cómo recibirán los ingresantes matriculados su horario de cursos?
+540. ¿Cuál es el procedimiento para realizar el seguimiento de una solicitud a través de la plataforma intranet alumnos?
+541. ¿Qué opciones tiene un estudiante para realizar el pago por autoseguro una vez que ha generado la orden de pago?
+542. ¿Cuál es el plazo establecido para realizar el pago por autoseguro según el cronograma de actividades de matrícula para ingresantes?
+543. ¿Qué documentos debe presentar un ingresante para la matrícula en la Facultad de Ciencias?
+544. ¿Qué es la constancia de evaluación socioeconómica y por qué es necesaria para la matrícula?
+545. ¿Qué entidad expide el certificado médico requerido para la matrícula en la UNI?
+546. ¿Cuál es el procedimiento para generar una orden de pago por autoseguro a través de la plataforma intranet-alumnos?
+547. ¿Qué es la clave que DIRCE hará llegar al correo del ingresante y para qué se utiliza?
+548. ¿Qué es la ficha de datos que la oficina de estadística enviará al correo del ingresante y por qué es obligatorio completarla?
+549. ¿Qué es el autoseguro estudiantil y por qué es necesario para la matrícula en la UNI?
+550. ¿Dónde puede un ingresante encontrar el cronograma de actividades de matrícula para nuevos ingresantes en la Facultad de Ciencias?
+551. ¿Dónde debe presentar un estudiante la solicitud de traslado interno?
+552. ¿Qué verifica la Escuela una vez presentada la solicitud de traslado interno?
+553. ¿Quién analiza las solicitudes de traslado interno y realiza las convalidaciones?
+554. ¿Qué oficina gestiona la matrícula de los estudiantes por traslado interno?
+555. ¿Cuál es el procedimiento para solicitar una constancia de Ayudantía académica?
+556. ¿Con quién debe realizar el trámite un estudiante para solicitar su constancia de Ayudantía académica?
+557. ¿A quién puede solicitar información un estudiante de Física, Química o Ciencia de la Computación sobre la constancia de Ayudantía académica?
+558. ¿A quién puede solicitar información un estudiante de Matemáticas o Ingeniería Física sobre la constancia de Ayudantía académica?
+559. ¿Cuál es el correo al que deben comunicarse los alumnos en riesgo académico para obtener información sobre la tutoría obligatoria previa a la matrícula?
+560. ¿Cuál es el monto a pagar por la constancia de notas en el año 2024?
+561. ¿Qué entidad bancaria se encarga de recibir el pago por la constancia de notas?
+562. ¿Qué documentos debe dejar el estudiante en mesa de partes de la facultad para solicitar la constancia de notas?
+563. ¿En qué horario puede ser recogida la constancia de notas una vez esté lista?
+564. ¿Cuáles son los pasos que debe seguir un estudiante para solicitar su correo institucional?
+565. ¿Dónde pueden realizar el pago los ingresantes o estudiantes de la Universidad Nacional de Ingeniería?
+566. ¿Cuál es el procedimiento para solicitar una beca en la Universidad Nacional de Ingeniería?
+567. ¿Cuáles son los requisitos para solicitar una beca en la Universidad Nacional de Ingeniería?
+568. ¿Qué pasos debe seguir un estudiante para inscribirse en un curso?
+569. ¿Cuáles son los documentos que se deben presentar al solicitar una constancia de estudios en la Universidad Nacional de Ingeniería?
+570. ¿Cuál es el plazo límite para solicitar una constancia de estudios en la Universidad Nacional de Ingeniería?
+571. ¿Qué pasos debe seguir un estudiante para solicitar una cita con un asesor académico?
+572. ¿Cuándo puede un estudiante solicitar el retiro parcial de asignaturas?
+573. ¿Cuántas asignaturas como máximo puede retirar un estudiante utilizando el procedimiento de retiro parcial?
+574. ¿Cuál es el procedimiento para solicitar el retiro total de todas las asignaturas en las que está matriculado un estudiante?
+575. ¿Qué motivos de fuerza mayor justifican el retiro total de todas las asignaturas matriculadas?
+576. ¿Qué plataforma debe utilizar un estudiante para gestionar su matrícula rezagada?
+577. ¿Cuál es el plazo para solicitar el retiro total de todas las asignaturas matriculadas?
+578. ¿Qué sucede si un estudiante no logra inscribirse en sus cursos a tiempo?
+579. ¿Qué consecuencias tiene el retiro total de todas las asignaturas matriculadas para un estudiante?
+580. ¿Qué requisitos debe cumplir un estudiante para solicitar el retiro total de todas las asignaturas matriculadas?
+581. ¿Qué opciones tiene un estudiante si no logra realizar la inscripción de sus cursos a tiempo?
+582. ¿Qué sucede si un estudiante no completa la tutoría obligatoria previa a la matrícula?
+583. ¿Cuál es el plazo establecido para realizar el pago del autoseguro estudiantil?
+584. ¿Qué sucede si un estudiante no puede realizar la matrícula en la fecha y turno asignado?
+585. ¿Cuál es el procedimiento para realizar la matrícula de forma virtual?
+586. ¿Cuál es el proceso para confirmar la matrícula en las asignaturas elegidas?
+587. ¿Cuáles son los requisitos para realizar ayudantía académica en la Facultad de Ciencias?
+588. ¿Qué beneficios tiene realizar ayudantía académica en la Universidad Nacional de Ingeniería?
+589. ¿Cuál es la duración de la ayudantía académica en la Universidad Nacional de Ingeniería?
+590. ¿Cuál es el proceso de selección para realizar ayudantía académica?
+591. ¿Cuál es el papel del departamento de Escuela Profesional en el proceso de ayudantía académica?
+592. ¿Cuál es el horario de atención de la oficina de estadística (AERA) para solicitar la constancia de matrícula?
+593. ¿Qué información debe incluir el mensaje al enviar un correo para solicitar la orden de pago de la constancia de matrícula?
+594. ¿Qué sucede si un estudiante no deja el comprobante de pago y la solicitud correspondiente en mesa de partes de la facultad?
+595. ¿Qué sucede si un estudiante no puede realizar la matrícula de forma virtual?
+596. ¿Cuál es el proceso para verificar el turno asignado para la matrícula dentro de la plataforma intranet-alumnos?
+597. ¿Cuál es la diferencia entre las direcciones de correo electrónico para obtener información sobre la ayudantía académica según la escuela profesional?
+598. ¿Cuál es la plataforma a través de la cual se debe presentar la solicitud de reserva de matrícula?
+599. ¿Cuál es el periodo máximo de tiempo que un estudiante puede estar matriculado de manera consecutiva o alternada?
+600. ¿Cuál es el motivo por el cual un estudiante puede solicitar el retiro total de asignaturas?
+601. ¿Cuál es la información que debe proporcionar un estudiante al solicitar su correo institucional?
+602. ¿Cuál es el motivo por el cual un estudiante puede solicitar la reserva de matrícula?
+603. ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matrícula si no puede hacerlo personalmente?
+604. ¿Cuál es el procedimiento para solicitar un certificado de Quinto o Tercio Superior en la Universidad?
+605. ¿Cuáles son las direcciones de correo a las que un estudiante debe escribir para solicitar información sobre la emisión de constancias de Quinto y/o Tercio Superior?
+606. ¿Quién realiza la reserva de matrícula de un estudiante si no ha concretado su matrícula en el período académico actual?
+607. ¿Quién gestiona los cambios de sección/horario de un curso matriculado en caso de conflictos de horario?
+608. ¿Bajo qué condiciones se atenderán las solicitudes de cambio de sección/horario de un curso matriculado?
+609. ¿Qué requisitos debe cumplir un estudiante para realizar modificaciones en la sección/horario de un curso matriculado debido a conflictos de horario?
+610. ¿Qué recomendación se le da a un estudiante que desea realizar modificaciones en la sección/horario de un curso matriculado debido a conflictos de horario?
+611. ¿Cuál es el procedimiento para solicitar un cambio de sección/horario de un curso matriculado en la Universidad?
+612. ¿Qué información se puede encontrar en la página web de la facultad (https://fc.uni.edu.pe) sobre cambios de sección/horario de cursos matriculados?
+613. ¿Qué debe hacer un alumno en riesgo académico antes de realizar su matrícula regular?
+614. ¿Cómo puede un alumno generar una orden de pago para el autoseguro estudiantil?
+615. ¿Cómo se lleva a cabo la matrícula de un estudiante de pregrado en la UNI?
+616. ¿En qué consiste la matrícula virtual para los estudiantes de pregrado?
+617. ¿Cómo se asignan los turnos para la matrícula de los estudiantes de pregrado?
+618. ¿Cuál es el horario de atención para realizar la matrícula de forma presencial?
+619. ¿Qué debe hacer un estudiante si tiene adeudos con la Facultad antes de realizar su matrícula regular?
+620. ¿Cuál es el monto del autoseguro estudiantil para el año 2024?
+621. ¿Cuál es el monto a pagar por la constancia de matrícula?
+622. ¿En qué entidad bancaria puede realizar el pago el estudiante?
+623. ¿Qué sucede si un estudiante solicita un retiro total por causa de enfermedad grave?
+624. ¿Cuál es el procedimiento para solicitar una orden de pago para el autoseguro estudiantil?
+625. ¿Dónde puede un estudiante encontrar la lista de cursos y horarios disponibles?
+626. ¿Cuáles son los pasos que debe seguir un estudiante para reincorporarse después de haber reservado su matrícula por uno o más periodos académicos?
+627. ¿Cuál es el costo del trámite de reincorporación para un estudiante?
+628. ¿Qué institución bancaria se encarga de recibir el pago por el trámite de reincorporación?
+629. ¿Qué información debe incluir la solicitud de reincorporación?
+630. ¿Cuál es el siguiente paso una vez que se completa el pago por la reincorporación?
+631. ¿Qué sección del sitio web de la facultad proporciona información detallada sobre el proceso de matrícula y procedimientos?
+632. ¿Cuál es la dirección de correo electrónico para solicitar información sobre la constancia de Ayudantía Académica en la escuela de Matemáticas o Ingeniería Física?
+633. ¿Qué información se puede encontrar en la plataforma intranet-alumnos?
+634. ¿Qué opciones tiene el estudiante para realizar el pago por la reincorporación?
+635. ¿Qué debe hacer el estudiante una vez que su solicitud de reincorporación ha sido aprobada?
+636. ¿Qué información específica debe proporcionar un estudiante al comunicarse con la oficina para solicitar una vacante adicional?
+637. ¿Cuáles son las direcciones de correo electrónico para obtener información sobre la convalidación de prácticas pre profesionales en las diferentes escuelas profesionales?
+638. ¿Cuál es el horario de atención de la Mesa de Parte de la Facultad de Ciencias los días sábados?
+639. ¿Cuál es el correo de contacto de la oficina de Mesa de Parte de la Facultad de Ciencias para enviar consultas sobre la recepción de documentos?
+640. ¿Cuáles son las opciones de pago para una orden de pago generada por algún concepto o trámite en la Universidad Nacional de Ingeniería?
+641. ¿Dónde se puede encontrar el límite de créditos permitidos a matricularse para estudiantes de la Facultad de Ciencias de la UNI que no cumplen con los requisitos mencionados?
+642. ¿Qué sucede con el número máximo de créditos a matricular para estudiantes en riesgo académico en la Facultad de Ciencias de la UNI?
+643. ¿Qué se recomienda hacer luego de generar una orden de pago en la Universidad Nacional de Ingeniería?
+644. ¿Qué requisitos debe cumplir un estudiante para matricularse en todas las asignaturas del segundo ciclo y adelantar asignaturas adicionales en la Facultad de Ciencias de la UNI?
+645. ¿Qué opciones de pago están disponibles a través de la aplicación móvil del BCP para estudiantes de la Universidad Nacional de Ingeniería?
+646. ¿Qué sucede si un estudiante de la Facultad de Ciencias de la UNI ha cursado solo el primer ciclo y no cumple con los requisitos para matricularse en todas las asignaturas del segundo ciclo?
+647. ¿Dónde se puede encontrar la Tabla que establece el límite de créditos según el promedio ponderado de los dos últimos semestres académicos cursados en la Facultad de Ciencias de la UNI?
+648. ¿Qué se recomienda hacer antes de realizar el pago correspondiente a una orden de pago generada por algún concepto o trámite en la Universidad Nacional de Ingeniería?
+649. ¿Cuál es el procedimiento para determinar la cantidad de créditos a matricular para estudiantes en riesgo académico en la Facultad de Ciencias de la UNI?
+650. ¿Qué sucede si un estudiante de la Facultad de Ciencias de la UNI no cumple con los requisitos para matricularse en todas las asignaturas del segundo ciclo y no está en riesgo académico?
+651. ¿Dónde puede un estudiante verificar el calendario de actividades académicas para conocer las fechas límite de pago del autoseguro estudiantil?
+652. ¿Cuál es la diferencia entre una matrícula regular y una matrícula rezagada en la Facultad de Ciencias de la UNI?
+653. ¿Qué opciones se encuentran disponibles dentro del módulo de pagos del Portal INTRALU?
+654. ¿Cuál es el procedimiento para gestionar una matrícula rezagada?
+655. ¿Cuál es el procedimiento para realizar el pago correspondiente a una orden de pago generada?
+656. ¿Cuál es el procedimiento para dejar en mesa de partes el comprobante de pago y la solicitud correspondiente?
+657. ¿Cuál es el procedimiento para enviar el comprobante de pago y la solicitud correspondiente por correo electrónico?
+658. ¿Qué pasos debe seguir un estudiante para ponerse al día con la tutoría previa requerida para estudiantes en riesgo académico?
+659. ¿Cuál es el procedimiento para gestionar la matrícula rezagada en caso de no haber efectuado el pago del autoseguro en el plazo establecido?
+660. ¿Cuál es la información de contacto de la Oficina de Tutoría para estudiantes en riesgo académico?
+661. ¿Qué documentos se pueden presentar en la Mesa de Parte de Orce?
+662. ¿Cuál es la ubicación física de la oficina de estadística (AERA) para aquellos que necesiten acercarse personalmente?
+663. ¿Cuál es el correo de contacto de la oficina de estadística (AERA) para aquellos que necesiten comunicarse por escrito?
+664. ¿Qué tipo de deuda registrada en el sistema puede impedir a un estudiante completar su proceso de inscripción de cursos?
+665. ¿Cuál es el plazo establecido en el calendario de actividades académicas para el pago del autoseguro antes de las fechas de matrícula?
+666. ¿Cuál es el procedimiento para que un estudiante pueda realizar una convalidación de cursos en caso de traslado interno?
+667. ¿Cuál es el plazo para gestionar la matrícula rezagada en caso de no haberse inscrito a tiempo durante la matrícula regular?
+668. ¿Qué consecuencias puede tener para un estudiante no gestionar su matrícula rezagada a tiempo?
+669. ¿Qué sucede si un estudiante no recibe la autorización del director de Escuela para realizar un traslado interno?
+670. ¿Cómo se asignan los turnos de matrícula para los estudiantes en la Facultad de Ciencias?
+671. ¿Cuál es el proceso que deben seguir los estudiantes en riesgo académico para cumplir con la tutoría obligatoria previa a la matrícula?
+672. ¿Cuál es la importancia de consultar el calendario de actividades para los estudiantes que deseen matricularse en la Facultad de Ciencias?
+673. ¿Cuál es la diferencia entre el horario de atención de la oficina de estadística y los horarios de matrícula en la Facultad de Ciencias?
+674. ¿Qué recursos adicionales pueden utilizar los estudiantes para obtener información sobre su turno de matrícula, además de la página web de la facultad?
+675. ¿Cuál es el impacto de no cumplir con la tutoría obligatoria previa a la matrícula para los estudiantes en riesgo académico?
+676. ¿Cómo se puede solicitar una excepción al proceso de asignación de turnos de matrícula en la Facultad de Ciencias?
+677. ¿Cuál es el procedimiento para comunicarse con la oficina de tutoría de la Facultad de Ciencias?
+678. ¿Cuál es el costo del trámite de matrícula rezagada para los estudiantes?
+679. ¿Qué requisitos debe cumplir un estudiante para obtener el carné universitario por primera vez o renovarlo?
+680. ¿Dónde debe realizar el pago un estudiante para obtener el carné universitario?
+681. ¿Qué beneficios adicionales obtiene un estudiante al obtener el carné universitario?
+682. ¿Qué sucede si un estudiante no tramita el carné universitario?
+683. ¿Dónde se realiza la entrega del carné universitario una vez tramitado?
+684. ¿Cómo puede un estudiante verificar si su carné universitario está listo para ser recogido?
+685. ¿Qué información debe contener la fotografía digital que se sube al portal web INTRALU para el carné universitario?
+686. ¿Cuál es el proceso para habilitar el acceso a la plataforma de intranet para la matrícula rezagada?
+687. ¿Cómo puede un estudiante verificar el estado de sus trámites a través del intranet alumnos?
+688. ¿Qué otros trámites pueden ser seguidos utilizando el número de expediente ingresando a http://stduni.uni.pe/modalum?
+689. ¿Qué tipo de notificaciones debe estar atento un estudiante con respecto al carné universitario?
+690. ¿Cuál es el procedimiento para tramitar la renovación del carné universitario?
+691. ¿Cuáles son los requisitos para la renovación del carné universitario?
+692. ¿Cuál es el plazo para que un estudiante pueda solicitar el retiro parcial de asignaturas?
+693. ¿Cuál es el límite de asignaturas que un estudiante puede retirar en un período académico?
+694. ¿Cuál es el procedimiento para que un estudiante nuevo complete su matrícula en la Facultad de Ciencias?
+695. ¿Qué documentos debe entregar un estudiante nuevo para completar su matrícula?
+696. ¿Cuál es el plazo para realizar el pago por autoseguro como parte del proceso de matrícula para nuevos ingresantes?
+697. ¿Qué es la constancia de ingreso y cómo se obtiene?
+698. ¿Qué es la plataforma de intranet-alumnos y cuál es su función en el proceso de matrícula?
+699. ¿Cuál es el rol de la oficina de estadística de la facultad en el proceso de matrícula para nuevos ingresantes?
+700. ¿Qué es el autoseguro estudiantil y por qué es necesario realizar el pago?
+701. ¿Cuál es el propósito del certificado médico expedido por el Centro Médico UNI en el proceso de matrícula?
+702. ¿Qué sucede si un estudiante no completa su matrícula dentro del plazo establecido?
+703. ¿Cuál es el procedimiento para que un estudiante solicite una excepción para matricularse en un curso y su pre requisito?
+704. ¿Cuál es el papel del director de escuela en el proceso de matrícula de un estudiante que está próximo a egresar?
+705. ¿Qué sucede si un estudiante no cumple con los requisitos de "estudiante en posibilidad de egresar" pero necesita matricularse en un curso y su pre requisito?
+706. ¿Cuál es el impacto de retirarse de asignaturas en el expediente académico de un estudiante?
+707. ¿Qué recursos o apoyos adicionales se ofrecen a los estudiantes que deseen retirarse de asignaturas?
+708. ¿Cuál es el proceso para que un estudiante pueda repetir una asignatura?
+709. ¿Cuál es el procedimiento para que un estudiante solicite una revisión de su solicitud de retiro parcial?
+710. ¿Qué sucede si un estudiante no recibe su horario de cursos después de completar su matrícula?
+711. ¿Cuál es el papel de la Facultad de Ciencias en el proceso de matrícula para nuevos ingresantes?
+712. ¿Qué sucede si un estudiante no entrega todos los documentos requeridos para completar su matrícula?
+713. ¿Cuál es el impacto de no realizar el pago por autoseguro dentro del plazo establecido en el proceso de matrícula para nuevos ingresantes?
+714. ¿Cuál es el costo de la constancia de matrícula y cómo se realiza el pago?
+715. ¿Qué información se necesita para ver el estado de las solicitudes a través del intranet alumnos?
+716. ¿Qué otros trámites pueden ser seguidos utilizando el número de expediente?
+717. ¿Cuál es el procedimiento para realizar el seguimiento de un trámite utilizando el número de expediente?
+718. ¿Cuál es el enlace para ingresar al formulario para subir el comprobante de pago para la matrícula rezagada?
+719. ¿Cuál es el paso a seguir después de completar el pago para la reincorporación de un estudiante en la Facultad de Ciencias de la UNI?
+720. ¿Dónde puede un estudiante consultar la fecha y turno de matrícula para el ciclo académico en la Facultad de Ciencias de la UNI?
+721. ¿Dónde se publica la lista del orden de mérito y los respectivos turnos de matrícula para los estudiantes en la Facultad de Ciencias de la UNI?
+722. ¿Dónde puede un alumno verificar su turno correspondiente para la matrícula en la Facultad de Ciencias de la UNI?
+723. ¿Cuál es el costo por trámite de reincorporación para un estudiante que desea volver después de haber reservado su matrícula por dos periodos académicos?
+724. ¿Cuál es el procedimiento que debe seguir un estudiante para realizar el pago en una sucursal del BCP?
+725. ¿Cuál es el procedimiento que debe seguir un estudiante para realizar el pago utilizando la aplicación móvil del BCP?
+726. ¿Dónde puede un estudiante encontrar el calendario de actividades académicas correspondiente al periodo académico si no tiene acceso a la página web de la Facultad de Ciencias de la UNI?
+727. ¿Cuál es el procedimiento que debe seguir un estudiante para completar el formulario con la solicitud y el comprobante de pago para la reincorporación?
+728. ¿Cuál es el procedimiento que debe seguir un estudiante para realizar la matrícula de manera regular después de haber sido aprobada su reincorporación?
+729. ¿Cuál es el procedimiento que debe seguir un estudiante para verificar si su matrícula se habilita en las fechas de matrícula regular?
+730. ¿Bajo qué circunstancias un estudiante puede solicitar el retiro total de todas las asignaturas en las que está matriculado?
+731. ¿Qué requisitos debe cumplir un estudiante para matricularse en un curso y su pre requisito?
+732. ¿Cuál es el procedimiento para presentar una solicitud de reserva de matrícula?
+733. ¿Cuáles son las razones aceptadas para realizar una reserva de matrícula?
+734. ¿Cuánto tiempo puede durar la reserva de matrícula de un estudiante?
+735. ¿Cuál es el procedimiento para solicitar un retiro parcial de asignaturas?
+736. ¿Qué diferencia hay entre el retiro parcial y el retiro total de asignaturas?
+737. ¿Qué es un "estudiante en posibilidad de egresar" y cómo puede matricularse en una asignatura y su respectivo prerrequisito?
+738. ¿Cuáles son los plazos establecidos para presentar la solicitud de reserva de matrícula?
+739. ¿Qué documentos debe adjuntar un estudiante para sustentar su solicitud de reserva de matrícula?
+740. ¿Hay algún pago asociado al trámite de reserva de matrícula?
+741. ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar una vacante adicional para la inscripción a un curso?
+742. ¿Cuáles son los requisitos para que un estudiante pueda matricularse en todas las asignaturas del segundo ciclo en la Facultad de Ciencias de la UNI?
+743. ¿Cuál es el límite de créditos para estudiantes con un promedio ponderado entre 0 y 8 en la Facultad de Ciencias de la UNI?
+744. ¿Qué debe hacer un estudiante en riesgo académico para determinar la cantidad de créditos a matricular?
+745. ¿Dónde puede un estudiante encontrar información sobre la solicitud de vacantes adicionales para inscribirse en un curso en la Facultad de Ciencias de la UNI?
+746. ¿Cuál es el procedimiento para comunicarse con la oficina y obtener mayor información sobre la solicitud de vacantes adicionales?
+747. ¿Cuál es el requisito académico para que un estudiante pueda adelantar como máximo dos asignaturas adicionales en la Facultad de Ciencias de la UNI?
+748. ¿Cuál es el procedimiento para completar la matrícula virtual en los demás cursos antes de solicitar una vacante adicional?
+749. ¿Qué información debe revisar un estudiante antes de solicitar una vacante adicional para inscribirse en un curso?
+750. ¿Cuál es el papel de la Tabla 1 en la determinación del número máximo de créditos permitidos a matricularse en la Facultad de Ciencias de la UNI?
+751. ¿Cuál es el requisito para que un estudiante pueda matricularse en todas las asignaturas del segundo ciclo y adelantar como máximo dos asignaturas adicionales?
+752. ¿Cuál es el procedimiento para obtener la clave del correo institucional de la UNI?
+753. ¿Cuáles son los pasos que debe seguir un estudiante para solicitar una constancia de notas?
+754. ¿Cuál es el monto a pagar por una constancia de notas y cómo se realiza el pago?
+755. ¿Qué información debe incluir el correo que el estudiante envía a estadistica_fc@uni.edu.pe para solicitar una orden de pago para la constancia de notas?
+756. ¿Dónde puede encontrar el estudiante el modelo de solicitud para la constancia de notas en inglés o español?
+757. ¿Qué sucede si un estudiante no logra inscribirse en sus cursos a tiempo usando el Módulo de Matrícula UNI en la plataforma Intranet-Alumnos?
+758. ¿Qué debe hacer un estudiante si desea inscribirse en el ciclo académico pero no pudo hacerlo en la fecha y turno asignado para la matrícula regular?
+759. ¿Qué entidad se encarga de emitir la orden de pago para la constancia de notas?
+760. ¿Qué información debe incluir el estudiante en la solicitud para la constancia de notas?
+761. ¿Cuál es el proceso que debe seguir un estudiante para convalidar sus prácticas pre profesionales en el área de Matemáticas o Ingeniería Física?
+762. ¿Cuáles son los requisitos para realizar ayudantía académica en el área de Química?
+763. ¿Cuál es el procedimiento para gestionar la matrícula rezagada si un estudiante no ha pagado el autoseguro en el plazo establecido?
+764. ¿Cuál es la forma de contacto recomendada para un estudiante que tiene dificultades con la matrícula de sus cursos?
+765. ¿Qué pasos debe seguir un estudiante para solicitar una orden de pago relacionada con un trámite específico?
+766. ¿Cuándo debe enviar un estudiante su solicitud de Retiro Total a través de la Plataforma intranet-alumnos?
+767. ¿Hasta cuándo se puede solicitar el retiro total a través de la plataforma SIGA-DIRCE?
+768. ¿Cuáles son los casos excepcionales en los que un estudiante puede solicitar el retiro total hasta una semana antes de los exámenes finales?
+769. ¿Qué documentos debe adjuntar un estudiante al solicitar un retiro total por causa de enfermedad grave certificada por el Centro Médico de la UNI, MINSA o ESSALUD?
+770. ¿Qué debe hacer un estudiante si tiene problemas para acceder a la plataforma de intranet-alumnos?
+771. ¿Cuál es el procedimiento para solicitar una tutoría previa si un estudiante está en riesgo académico?
+772. ¿Cuál es el procedimiento para solicitar una orden de pago si un estudiante no puede acceder a la plataforma de intranet-alumnos?
+773. ¿Cuál es el procedimiento para solicitar una orden de pago si el trámite que necesita no está estipulado en la lista de opciones dentro de la plataforma de pagos?
+774. ¿Cuál es el procedimiento para solicitar una orden de pago si un estudiante no tiene acceso a una sucursal del BCP o a la aplicación móvil del banco?
+775. ¿Quién es el encargado de analizar las solicitudes de traslado interno?
+776. ¿Cuál es el proceso que sigue la solicitud de traslado interno una vez que es presentada ante el Consejo de Facultad?
+777. ¿Qué diferencia hay entre una constancia de Quinto y Tercio Superior?
+778. ¿Quién emite las constancias de Quinto y Tercio Superior?
+779. ¿Cuál es el procedimiento para obtener una constancia de Quinto o Tercio Superior en la Escuela de Física?
+780. ¿Cuál es el plazo para solicitar una constancia de Quinto o Tercio Superior?
+781. ¿Cuáles son los pasos para recabar la constancia de ingreso a la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+782. ¿Qué documentos deben entregar los ingresantes a la oficina de estadística para completar su matrícula en la Facultad de Ciencias?
+783. ¿Cuál es el plazo establecido para realizar el pago por autoseguro en la Universidad Nacional de Ingeniería?
+784. ¿Qué sucede si un ingresante no cumple con la entrega de los documentos requeridos en las fechas establecidas en el cronograma de matrícula?
+785. ¿Cuál es el procedimiento para recibir el horario de cursos una vez que un ingresante ha sido matriculado en la Universidad Nacional de Ingeniería?
+786. ¿Cuál es el procedimiento para acercarse personalmente a la oficina de tutoría en la Universidad Nacional de Ingeniería?
+787. ¿Cuál es el proceso de gestión de emisión de la constancia de ingreso para nuevos ingresantes en la Universidad Nacional de Ingeniería?
+788. ¿Cuál es la importancia de completar los datos en la plataforma de intranet-alumnos para los nuevos ingresantes?
+789. ¿Cuál es el propósito de la entrega de documentos a la oficina de estadística para completar la matrícula en la Facultad de Ciencias?
+790. ¿Cuál es la diferencia entre el pago por autoseguro y otros conceptos de pago en la Universidad Nacional de Ingeniería?
+791. ¿Cuál es el proceso de inscripción de cursos para los ingresantes que han cumplido con la entrega de documentos requeridos en las fechas establecidas en el cronograma de matrícula?
+792. ¿Cómo puede un estudiante solicitar su constancia de Ayudantia academica?
+793. ¿Dónde puede un estudiante realizar el pago del autoseguro estudiantil?
+794. ¿Cómo puede un estudiante realizar su matrícula de forma virtual?
+795. ¿Qué debe hacer un estudiante en la plataforma intranet-alumnos para realizar su matrícula?
+796. ¿En qué orden se asignan los turnos para la matrícula de los alumnos de pregrado?
+797. ¿Dónde puede un alumno verificar su turno correspondiente para la matrícula?
+798. ¿Qué beneficios adicionales obtienen los estudiantes al tramitar el carnet universitario?
+799. ¿Qué sucede si un estudiante pierde su carnet universitario?
+800. ¿Cuál es el plazo para solicitar el retiro parcial de asignaturas en la Facultad de Ciencias?
+801. ¿Cuál es el procedimiento para consultar el resultado de la solicitud de retiro de asignaturas?
+802. ¿Qué sucede si un estudiante no cumple con el plazo para solicitar el retiro parcial de asignaturas?
+803. ¿Qué sucede si un estudiante no puede acudir a la oficina de estadística en el horario establecido?
+804. ¿Cuál es el procedimiento para solicitar una cita en la oficina de estadística?
+805. ¿Cuál es el procedimiento para solicitar una extensión de la vigencia del carnet universitario?
+806. ¿Cuál es el procedimiento para reportar un problema con el carnet universitario?
+807. ¿Cuál es el procedimiento para obtener una copia de seguridad del carnet universitario?
+808. ¿Qué información adicional se puede encontrar en el manual de pagos de la UNI sobre el proceso para generar una orden de pago?
+809. ¿Existe alguna otra forma de acceder a la lista de cursos y horarios además de la plataforma intranet-alumnos?
+810. ¿Cuál es el plazo límite para que un estudiante solicite la reserva de matrícula?
+811. ¿Qué opciones de pago tiene un ingresante o estudiante regular para realizar el pago del autoseguro médico?
+812. ¿Qué entidad bancaria se encarga de procesar los pagos de autoseguro médico para la UNI?
+813. ¿Cuál es la importancia de la reserva de matrícula para un estudiante en la UNI?
+814. ¿Qué acciones toma DIRCE en caso de que un estudiante no haya realizado la reserva de matrícula en el período académico actual?
+815. ¿Dónde puede un estudiante encontrar el calendario de actividades académicas correspondiente al periodo académico?
+816. ¿Qué sucede si un estudiante no realiza el pago del autoseguro estudiantil antes de las fechas de matrícula?
+817. ¿Qué pasos debe seguir un estudiante para solicitar el Retiro Total a través de la Plataforma intranet-alumnos?
+818. ¿Qué sucede si un estudiante solicita el retiro total por causa de enfermedad grave ascendiente o descendiente certificada por el Centro Médico de la UNI, MINSA o ESSALUD?
+819. ¿Cuál es el órgano encargado de evaluar las solicitudes de retiro total por causa de enfermedad grave ascendiente o descendiente?
+820. ¿Qué es la Plataforma SIGA-DIRCE y cómo puede un estudiante acceder a ella?
+821. ¿Qué es el Consejo Directivo de la Escuela Profesional y cuál es su función en el proceso de retiro total?
+822. ¿Cuál es la diferencia entre los exámenes parciales y los exámenes finales en relación al plazo para solicitar el retiro total?
+823. ¿Qué sucede si un estudiante no adjunta los documentos sustentatorios al solicitar el retiro total?
+824. ¿Qué es la aplicación móvil del BCP y cómo puede un estudiante utilizarla para realizar el pago de una orden de pago?
+825. ¿Cuál es el procedimiento para seleccionar la opción de pago para estudiantes en la aplicación móvil del BCP?
+826. ¿Qué es la clave correspondiente que un estudiante debe utilizar para acceder a la plataforma intranet-alumnos?
+827. ¿Qué sucede si un estudiante no completa el formulario de solicitud de retiro total de manera adecuada?
+828. ¿Cuál es el procedimiento para seleccionar "Enviar Solicitud" luego de completar el formulario de solicitud de retiro total?
+829. ¿Cuáles son las fechas establecidas para la matrícula rezagada?
+830. ¿Dónde puede un estudiante encontrar el manual de pagos de la UNI?
+831. ¿Cuál es el proceso para realizar el pago del autoseguro médico una vez que se ha generado la orden de pago?
+832. ¿Cuál es la diferencia en el procedimiento de matrícula para un estudiante ingresante y un estudiante regular?
+833. ¿Qué sucede si un estudiante no puede pagar el autoseguro médico?
+834. ¿Qué información debe proporcionar un estudiante al generar una orden de pago para el autoseguro médico?
+835. ¿Cuál es el procedimiento para obtener más información sobre la ayudantía académica?
+836. ¿Cuál es el propósito del autoseguro médico para los estudiantes?
+837. ¿Dónde pueden los estudiantes verificar el estado de sus trámites a través del intranet alumnos?
+838. ¿Qué información adicional pueden obtener los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso?
+839. ¿Qué recursos adicionales pueden utilizar los estudiantes para obtener información sobre la solicitud de vacantes en la Facultad de Ciencias?
+840. ¿Qué pasos debe seguir un estudiante para enviar su solicitud de reincorporación después de completar el pago correspondiente?
+841. ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar el retiro total de su matrícula en el periodo académico actual?
+842. ¿Cuál es el costo del trámite de retiro total de la matrícula en el periodo académico actual?
+843. ¿Cuál es la diferencia entre el retiro parcial y el retiro total de la matrícula para un estudiante?
+844. ¿Cuál es el procedimiento que debe seguir un estudiante para obtener una constancia de Quinto y/o Tercio Superior?
+845. ¿Cuál es el contenido del formulario que un estudiante debe completar al solicitar la reincorporación?
+846. ¿Cuál es el procedimiento que debe seguir un estudiante para realizar su matrícula después de haber sido reincorporado?
+847. ¿Cuál es el costo total que un estudiante debe pagar por el trámite de reincorporación si reservó su matrícula por dos periodos académicos?
+848. ¿Cuál es el procedimiento que debe seguir un estudiante para acceder al módulo de pagos del Portal INTRALU?
+849. ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar información sobre el trámite de reincorporación?
+850. ¿Bajo qué circunstancias un estudiante puede matricularse en un curso y su pre requisito?
+851. ¿Qué documentos debe adjuntar un estudiante para reservar su matrícula por razones de salud, trabajo u otras razones debidamente sustentadas?
+852. ¿Qué significa ser un "estudiante en posibilidad de egresar" en la Universidad Nacional de Ingeniería?
+853. ¿Cuál es el procedimiento para comunicarse con la escuela profesional correspondiente para solicitar la matrícula en un curso y su pre requisito?
+854. ¿Cuál es el procedimiento para solicitar una orden de pago para la constancia de notas en inglés o en español?
+855. ¿Qué procedimiento debe seguir un estudiante que no pudo inscribir sus cursos en la fecha y turno asignado?
+856. ¿Cuál es el Módulo de Matrícula UNI y dónde se encuentra?
+857. ¿Cuáles son los plazos establecidos para la matrícula regular del ciclo académico?
+858. ¿Qué es la gestión de matrícula rezagada?
+859. ¿Dónde puede un estudiante encontrar información detallada sobre los procedimientos de matrícula?
+860. ¿Cuál es el criterio para asignar prioridad en los primeros turnos de matrícula?
+861. ¿Qué es la plataforma SIGA-DIRCE y cómo se accede a ella?
+862. ¿Qué acciones tomará DIRCE si un estudiante no ha concretado su matrícula en el período académico actual?
+863. ¿Cuál es el procedimiento para inscribirse en un curso optativo?
+864. ¿Cuáles son los requisitos para obtener una beca de investigación en la facultad?
+865. ¿Qué pasos debe seguir un estudiante para solicitar una extensión en la entrega de un trabajo académico?
+866. ¿Cuál es el proceso para solicitar un cambio de carrera dentro de la facultad?
+867. ¿Cuál es la dirección de correo electrónico para ponerse en contacto con la Oficina de Tutoría en caso de tener dificultades con la inscripción de cursos?
+868. ¿Cuál es el correo al que un estudiante debe enviar la solicitud de su correo institucional?
+869. ¿Qué requisitos debe cumplir el correo personal proporcionado por el estudiante para recibir la clave del correo institucional?
+870. ¿Qué información debe incluir el correo de solicitud de correo institucional?
+871. ¿Cuál es el proceso para generar una orden de pago relacionada con algún concepto o trámite específico en la Facultad de Ciencias?
+872. ¿Cómo puede un estudiante solicitar un cambio de sección/horario de un curso matriculado debido a conflictos de horario?
+873. ¿Cuánto tiempo debe esperar un alumno para realizar el pago correspondiente después de generar una orden de pago?
+874. ¿Dónde puede un estudiante realizar el pago correspondiente después de generar una orden de pago?
+875. ¿Qué debe hacer un estudiante si tiene problemas para generar una orden de pago a través de la plataforma de intranet-alumnos?
+876. ¿Cuál es el criterio para atender solicitudes de cambios de sección/horario de un curso matriculado en la Facultad de Ciencias?
+877. ¿Cuál es el horario de atención de la oficina de estadística para solicitar cambios de sección/horario de un curso matriculado?
+878. ¿Qué debe hacer un estudiante si no recibe la constancia de ingreso a la Universidad Nacional de Ingeniería?
+879. ¿Cuál es el proceso para obtener el certificado médico expedido por el Centro Médico UNI?
+880. ¿Cuál es el procedimiento para acceder al horario de cursos después de haber sido matriculado?
+881. ¿Cuál es el contenido de la ficha de datos que debe completar un nuevo ingresante para completar su matrícula?
+882. ¿Cuál es el plazo para realizar modificaciones en la matrícula después de haber sido matriculado?
+883. ¿Cuál es el proceso para solicitar una constancia de evaluación socioeconómica?
+884. ¿Cuál es el procedimiento para solicitar una orden de pago a través de la aplicación móvil del BCP?
+885. ¿Cuál es el procedimiento para solicitar una orden de pago a través de la plataforma de intranet-alumnos si se encuentra en el extranjero?
+886. ¿Cuál es el costo de la constancia de matrícula en la Facultad de Ciencias de la UNI?
+887. ¿Cuál es el plazo establecido para solicitar la reincorporación a la Facultad de Ciencias de la UNI?
+888. ¿Cuántas asignaturas adicionales puede adelantar un estudiante que cumple con los requisitos para matricularse en todas las asignaturas del segundo ciclo?
+889. ¿Cuál es el límite de créditos para matricularse según el promedio ponderado de los dos últimos semestres académicos cursados?
+890. ¿Dónde se puede encontrar la Tabla 1 que establece el límite de créditos para matricularse según el promedio ponderado?
+891. ¿Qué sucede si un estudiante está en riesgo académico al momento de la matrícula?
+892. ¿Cuál es el procedimiento para solicitar la orden de pago de la constancia de matrícula en inglés?
+893. ¿Qué documentos debe presentar un estudiante al dejar en mesa de partes el comprobante de pago y la solicitud correspondiente?
+894. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si un estudiante se encuentra en el extranjero?
+895. ¿Qué sucede si un estudiante no indica si desea la constancia de matrícula en inglés o español en la solicitud?
+896. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si un estudiante no tiene correo institucional?
+897. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si un estudiante no puede realizar el pago en una sucursal del BCP?
+898. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si un estudiante no puede recogerla en el horario de atención establecido?
+899. ¿Cuál es el plazo límite para realizar la matrícula regular en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+900. ¿Cuáles son los beneficios adicionales que ofrece el carnet universitario además de los descuentos en el transporte público y acceso al comedor universitario?
+901. ¿Qué sucede si un estudiante no cumple con los requisitos para la matrícula regular en la Facultad de Ciencias?
+902. ¿Cuál es el procedimiento para obtener una tutoría obligatoria previa a la matrícula en caso de estar en riesgo académico?
+903. ¿Cómo se asignan los turnos para la matrícula de acuerdo al promedio ponderado de los últimos ciclos?
+904. ¿Cuáles son las restricciones para solicitar el retiro parcial de asignaturas?
+905. ¿Cuál es la vigencia del carnet universitario desde su emisión?
+906. ¿Qué sucede si un estudiante no recoge su carnet universitario en la Oficina de Estadística?
+907. ¿Cuál es el plazo límite para realizar el pago del carnet universitario?
+908. ¿Cuáles son los beneficios de tener el carnet universitario actualizado?
+909. ¿Qué pasos debe seguir un estudiante para convalidar sus prácticas pre profesionales en las Escuelas de Física, Química o Ciencia de la Computación?
+910. ¿Qué pasos debe seguir un estudiante para convalidar sus prácticas pre profesionales en las Escuelas de Matemáticas o Ingeniería Física?
+911. ¿Quién verifica los documentos y requisitos propios para el traslado interno?
+912. ¿Cuál es el procedimiento para la ejecución de la matrícula en el sistema SIGA después de un traslado interno?
+913. ¿Cuál es el costo actual para solicitar una constancia de notas?
+914. ¿Quiénes son considerados "estudiantes en posibilidad de egresar"?
+915. ¿A quién debe comunicarse un estudiante que cumple con los requisitos de "estudiante en posibilidad de egresar" para matricularse en un curso y su pre requisito?
+916. ¿Qué debe hacer un estudiante si adeuda la tutoría previa requerida para estudiantes en riesgo académico?
+917. ¿A quién debe comunicarse un estudiante si tiene algún otro inconveniente al intentar realizar la matrícula de sus cursos?
+918. ¿Qué datos personales debe incluir un estudiante en el correo para solicitar una orden de pago para la constancia de notas?
+919. ¿Cuál es el monto actual de la orden de pago para la constancia de notas?
+920. ¿Qué debe hacer un estudiante una vez que ha realizado el pago de la constancia de notas?
+921. ¿Qué documentos debe dejar un estudiante en mesa de partes de la facultad una vez que ha realizado el pago de la constancia de notas?
+922. ¿Cuál es el modelo para la solicitud de la constancia de notas y dónde está disponible?
+923. ¿Cuál es el correo electrónico al que un estudiante debe enviar los documentos una vez que ha realizado el pago de la constancia de notas?
+924. ¿En qué sección de la página web de la Facultad de Ciencias está disponible el modelo para la solicitud de la constancia de notas?
+925. ¿Qué factores determinan el número máximo de créditos en los que un estudiante puede matricularse en la Facultad de Ciencias de la UNI?
+926. ¿Cuál es el proceso que debe seguir un estudiante para presentar la solicitud de traslado interno?
+927. ¿Quién analiza las solicitudes de traslado interno en la Facultad de Ciencias de la UNI?
+928. ¿Qué es la DIRCE y cuál es su función en el proceso de traslado interno?
+929. ¿Qué sucede si un estudiante presenta una solicitud de traslado interno de manera extemporánea?
+930. ¿Qué es el promedio ponderado de los dos últimos semestres académicos y cómo afecta la matrícula de un estudiante?
+931. ¿Qué es la Tabla 1 mencionada en el Reglamento de Matrícula de la Facultad de Ciencias de la UNI?
+932. ¿Qué es la Comisión de Matrícula y cuál es su función en la determinación de la cantidad de créditos a matricular para estudiantes en riesgo académico?
+933. ¿Qué es el Avance Curricular y cómo afecta el proceso de traslado interno?
+934. ¿Cuál es el procedimiento para realizar las convalidaciones en el proceso de traslado interno?
+935. ¿Cuál es el procedimiento para gestionar la matrícula de un estudiante por traslado interno?
+936. ¿Cuál es el costo por el trámite de reincorporación y cómo se puede realizar el pago?
+937. ¿Qué debe hacer un estudiante si desea realizar un cambio de sección/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?
+938. ¿Cuál es el medio por el cual un estudiante puede realizar el pago del autoseguro médico?
+939. ¿Cuál es la diferencia entre el retiro total y el retiro parcial de un estudiante?
+940. ¿Cuál es el plazo máximo para que un estudiante regular genere una orden de pago para el autoseguro médico?
+941. ¿Cuáles son las consecuencias de no realizar el pago del autoseguro médico en el plazo establecido?
+942. ¿Cuál es el plazo máximo para que un estudiante regular solicite el retiro total por motivo de viaje al extranjero?
+943. ¿Cuál es el procedimiento para solicitar una constancia de estudios de postgrado?
+944. ¿Cuáles son las direcciones de correo electrónico a las que un estudiante puede solicitar información para obtener su constancia de Ayudantía académica?
+945. ¿Cuál es el banco con el que los ingresantes o estudiantes de la Universidad Nacional de Ingeniería pueden realizar el pago de una orden de pago?
+946. ¿Cuál es el procedimiento para solicitar información sobre la constancia de Ayudantía académica si un estudiante pertenece a la Escuela de Matemáticas?
+947. ¿Cuál es el procedimiento para realizar el pago de una orden de pago generada por algún concepto o trámite si un estudiante no tiene acceso a la aplicación móvil del banco?
+948. ¿Cuál es el procedimiento para realizar la reserva de matrícula de un estudiante de la Universidad Nacional de Ingeniería si no presenta la solicitud correspondiente?
+949. ¿Cuáles son los pasos que deben seguir los nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería para completar su matrícula?
+950. ¿Qué documentos deben entregar los nuevos ingresantes de pregrado en la Facultad de Ciencias para completar su matrícula?
+951. ¿Cuál es el proceso de actualización de datos en intranet para los nuevos ingresantes de pregrado en la Facultad de Ciencias?
+952. ¿Cuál es el plazo establecido para realizar el pago por autoseguro estudiantil para los nuevos ingresantes de pregrado en la Facultad de Ciencias?
+953. ¿Qué documentos debe entregar un alumno de pregrado en la Facultad de Ciencias para completar su matrícula regular?
+954. ¿Cuál es el horario de atención de la oficina de estadística o AERA para los alumnos de pregrado en la Facultad de Ciencias?
+955. ¿Cuál es el proceso para completar la tutoría obligatoria previa a la matrícula para los alumnos en riesgo académico en la Facultad de Ciencias?
+956. ¿Cuál es el criterio utilizado para asignar los turnos de matrícula a los alumnos de pregrado en la Facultad de Ciencias?
+957. ¿Cuál es el proceso para realizar la matrícula de forma virtual para los alumnos de pregrado en la Facultad de Ciencias?
+958. ¿Qué pasos debe seguir un alumno para realizar la inscripción de sus cursos a través de la plataforma intranet-alumnos?
+959. ¿Cómo pueden los alumnos verificar su turno correspondiente para la matrícula dentro de la plataforma intranet-alumnos?
+960. ¿Cuál es el proceso para realizar la entrega de los documentos requeridos en las fechas establecidas en el cronograma para los nuevos ingresantes de pregrado en la Facultad de Ciencias?
+961. ¿Cuál es el horario de atención de la Mesa de Parte de Orce y cuál es su correo de contacto?
+962. ¿Cuál es la diferencia en el correo de contacto entre la Mesa de Parte de Orce y la Mesa de Parte de la Facultad de Ciencias?
+963. ¿Dónde puede un estudiante ingresar para realizar el seguimiento de un trámite utilizando el número de expediente?
+964. ¿Dónde puede encontrar un estudiante la información sobre las fechas para la matrícula rezagada?
+965. ¿Qué requisitos debe cumplir un estudiante para poder realizar la matrícula rezagada?
+966. ¿Dónde puede encontrar un estudiante los formularios de solicitud correspondientes a la solicitud de vacantes?
+967. ¿Cuál es el proceso que debe seguir un estudiante para convalidar sus prácticas pre profesionales?
+968. ¿Qué información debe proporcionar un estudiante al departamento de su Escuela Profesional para convalidar sus prácticas pre profesionales?
+969. ¿Cuáles son las escuelas profesionales que deben contactar los estudiantes para convalidar sus prácticas pre profesionales?
+970. ¿Cuál es la dirección de correo electrónico para contactar a la Escuela Profesional de Física, Química o Ciencia de la Computación?
+971. ¿Cuál es la dirección de correo electrónico para contactar a la Escuela Profesional de Matemáticas o Ingeniería Física?
+972. ¿Qué beneficios tiene para un estudiante la convalidación de prácticas pre profesionales?
+973. ¿Qué documentación debe presentar un estudiante para solicitar la convalidación de prácticas pre profesionales?
+974. ¿Cuál es el procedimiento para acceder a la plataforma SIGA-DIRCE y realizar la solicitud de reserva de matrícula?
+975. ¿Cuáles son las consecuencias de no cumplir con el plazo establecido para solicitar la reserva de matrícula?
+976. ¿Qué recursos adicionales tiene un estudiante para obtener información sobre los cursos y horarios disponibles, además de la plataforma intranet-alumnos?
+977. ¿Qué documentos o requisitos adicionales debe presentar un estudiante al solicitar el retiro total de su matrícula por motivos de fuerza mayor?
+978. ¿Cuál es el plazo límite para que un estudiante pueda solicitar su reincorporación a la universidad?
+979. ¿Cuáles son las consecuencias para un estudiante que no logra inscribirse en sus cursos dentro del plazo establecido en el calendario académico?
+980. ¿Qué recursos adicionales se ofrecen a los estudiantes que necesitan ayuda para completar su proceso de matrícula?
+981. ¿Cuáles son los requisitos para que un estudiante pueda ser considerado en riesgo académico y necesite pasar por la tutoría obligatoria previa a la matrícula?
+982. ¿Qué pasos debe seguir un estudiante que desea solicitar la reincorporación a la universidad después de haber pasado el plazo establecido?
+983. ¿Cuál es el impacto de no cumplir con la tutoría obligatoria previa a la matrícula en el proceso de reincorporación de un estudiante a la universidad?
+984. ¿Cuánto tiempo debe esperar un estudiante después de generar una orden de pago para realizar el pago correspondiente en una sucursal del BCP o a través de la aplicación móvil del banco?
+985. ¿A quién deben contactar los estudiantes que deseen realizar ayudantía académica en las áreas de Matemáticas o Ingeniería Física?
+986. ¿Cuál es el proceso que debe seguir un estudiante para solicitar su correo institucional de la UNI?
+987. ¿Qué información específica debe proporcionar un estudiante al enviar un correo a obtenercorreo@uni.pe para solicitar su correo institucional?
+988. ¿Cuál es el procedimiento que deben seguir los estudiantes para obtener más detalles sobre el proceso para generar una orden de pago a través de la plataforma?
+989. ¿Cuál es el tiempo estimado para que un estudiante pueda realizar el pago correspondiente después de solicitar la generación de una orden de pago a la oficina de estadística (AERA)?
+990. ¿Cuál es el procedimiento que deben seguir los estudiantes para obtener más información sobre la realización de ayudantías académicas en la UNI?
+991. ¿Qué pasos debe seguir un estudiante para seleccionar el trámite correspondiente en el menú desplegable dentro del módulo de pagos en la plataforma de intranet-alumnos?
+992. ¿Qué acciones debe tomar un estudiante si no puede realizar el pago correspondiente en una sucursal del BCP o a través de la aplicación móvil del banco después de generar una orden de pago?
+993. ¿Dónde se realiza la entrega del carnet universitario una vez que se han cumplido los requisitos?
+994. ¿Cuál es la vigencia del carnet universitario y qué se recomienda hacer antes de que expire?
+995. ¿Dónde se pueden consultar las fechas de matrícula para cada ciclo académico?
+996. ¿Cuál es el plazo para solicitar el retiro parcial de asignaturas en un ciclo académico?
+997. ¿Qué sucede si un estudiante desea retirarse de asignaturas repetidas dos o más veces?
+998. ¿Qué beneficios adicionales tiene el carnet universitario además de ser un documento de identificación estudiantil?
+999. ¿Qué se recomienda hacer si un estudiante no recibe notificaciones sobre la entrega del carnet universitario?
+1000. ¿Qué sucede si un estudiante no puede pagar el monto correspondiente por el carnet universitario?
+1001. ¿Qué se debe hacer si un estudiante no tiene fotografía digital en el portal web INTRALU para el trámite del carnet universitario?
+1002. ¿Qué se debe hacer si un estudiante no puede acceder a la plataforma de intranet-alumnos para solicitar el retiro parcial de asignaturas?
+1003. ¿Qué sucede si un estudiante no puede realizar el pago por el monto correspondiente para el carnet universitario en una sucursal del bcp?
+1004. ¿Qué se debe hacer si un estudiante no puede realizar el pago por el monto correspondiente para el carnet universitario a través de la aplicación móvil del banco?
+1005. ¿Qué sucede si un estudiante no puede acceder a la plataforma de intranet-alumnos para completar la ficha de datos para el trámite del carnet universitario?
+1006. ¿Qué se debe hacer si un estudiante no puede acceder a la plataforma de intranet-alumnos para consultar su turno de matrícula?
+1007. ¿Qué sucede si un estudiante no puede acceder a la plataforma de intranet-alumnos para verificar el resultado de su solicitud de retiro de asignaturas?
+1008. ¿Qué se debe hacer si un estudiante no puede acceder a la plataforma de intranet-alumnos para generar una orden de pago para el carnet universitario?

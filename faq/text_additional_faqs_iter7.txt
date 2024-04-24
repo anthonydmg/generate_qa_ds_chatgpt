@@ -1,0 +1,309 @@
+
+Preguntas originales:
+1. ¿Hasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matrícula regular al ciclo academico en la Facultad de Ciencias de la UNI?
+2. ¿Como pagar una orden de pago generada por el algún concepto o tramite?
+3. ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar el Retiro Total?
+Los estudiantes que deseen retirarse deben enviar su solicitud a través de la Plataforma intranet-alumnos hasta una semana antes de los exámenes parciales. Consultar fechas en el calendario académico. A continuación, se detallan los pasos a seguir:
+1. El alumno accederá a la plataforma intranet-alumnos, utilizando su código UNI y la clave correspondiente.
+2. Dentro de la plataforma, seleccionará la opción "Mis Trámites" en el menú de navegación ubicado en la parte izquierda de la pantalla. Al hacer clic en dicho menú, se desplegarán varias opciones, entre las cuales deberá seleccionar "Retiro Total".
+3. Completará el formulario desplegado para la solicitud de retiro total, donde deberá proporcionar la siguiente información:
+    - Motivo por el cual desea realizar el retiro total, que puede ser: Viaje al extranjero, Accidente limitante, Enfermedad limitante o emergencia familiar limitante.
+    - Descripción del motivo por el que desea realizar el retiro.
+    - Número de ciclos que estará ausente.
+    - Adjuntar documentos sustentatorios para el motivo de retiro total.
+4. Una vez completado el formulario, seleccionará "Enviar Solicitud".
+
+De manera excepcional, un estudiante puede solicitar el retiro total, en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro Médico de la UNI, MINSA o ESSALUD, hasta una semana antes de los exámenes finales, el mismo que será evaluado por el Consejo Directivo de la Escuela Profesional correspondiente.
+
+Pregunta: ¿Hasta cuanto se puede solicitar el retiro total?
+Nuevas Preguntas:
+1. ¿Dónde puede un estudiante encontrar el calendario de actividades académicas correspondiente al periodo académico?
+2. ¿Qué sucede si un estudiante no realiza el pago del autoseguro estudiantil antes de las fechas de matrícula?
+3. ¿Cuál es el procedimiento para realizar el pago de una orden de pago generada por algún concepto o trámite?
+4. ¿Cuánto tiempo debe esperar un estudiante luego de generar una orden de pago para realizar el pago correspondiente?
+5. ¿Cuál es el plazo máximo para solicitar el Retiro Total?
+6. ¿Qué pasos debe seguir un estudiante para solicitar el Retiro Total a través de la Plataforma intranet-alumnos?
+7. ¿Qué información debe proporcionar un estudiante al completar el formulario de solicitud de retiro total?
+8. ¿Cuáles son los motivos por los cuales un estudiante puede solicitar un retiro total?
+9. ¿Qué documentos sustentatorios debe adjuntar un estudiante al solicitar el retiro total?
+10. ¿Qué sucede si un estudiante solicita el retiro total por causa de enfermedad grave ascendiente o descendiente certificada por el Centro Médico de la UNI, MINSA o ESSALUD?
+11. ¿Cuál es el órgano encargado de evaluar las solicitudes de retiro total por causa de enfermedad grave ascendiente o descendiente?
+12. ¿Cuál es el plazo máximo para solicitar el retiro total de manera excepcional por causa de enfermedad grave ascendiente o descendiente?
+13. ¿Qué es la Plataforma SIGA-DIRCE y cómo puede un estudiante acceder a ella?
+14. ¿Cuál es el procedimiento para solicitar el retiro total a través de la Plataforma SIGA-DIRCE?
+15. ¿Qué es el Consejo Directivo de la Escuela Profesional y cuál es su función en el proceso de retiro total?
+16. ¿Cuál es la diferencia entre los exámenes parciales y los exámenes finales en relación al plazo para solicitar el retiro total?
+17. ¿Qué sucede si un estudiante no adjunta los documentos sustentatorios al solicitar el retiro total?
+18. ¿Cuál es el procedimiento para comunicarse con la oficina de estadística (AERA) si la matrícula no se habilita en las fechas de matrícula regular?
+19. ¿Qué sucede si un estudiante no puede realizar la matrícula de manera regular?
+20. ¿Cuál es el procedimiento para gestionar la matrícula rezagada?
+21. ¿Qué es la aplicación móvil del BCP y cómo puede un estudiante utilizarla para realizar el pago de una orden de pago?
+22. ¿Cuál es el procedimiento para seleccionar la opción de pago para estudiantes en la aplicación móvil del BCP?
+23. ¿Qué es la clave correspondiente que un estudiante debe utilizar para acceder a la plataforma intranet-alumnos?
+24. ¿Qué sucede si un estudiante no completa el formulario de solicitud de retiro total de manera adecuada?
+25. ¿Cuál es el procedimiento para seleccionar "Enviar Solicitud" luego de completar el formulario de solicitud de retiro total?
+26. ¿Qué es la Plataforma intranet-alumnos y cuál es su función en el proceso de solicitud de retiro total?
+
+Preguntas originales:
+1. ¿Qué procedimiento debe seguir un estudiante para tramitar su matricula rezagada?
+2. ¿Cual es el proceso para que un ingresante o alumno regular genere una orden de pago para el pago de autoseguro?
+3. ¿Cual es el procedimiento a seguir para que un estudiante pueda realizar ayudantía academica?
+Nuevas Preguntas:
+1. ¿Cuáles son las fechas establecidas para la matrícula rezagada?
+2. ¿Cuál es el costo de la matrícula rezagada para los estudiantes?
+3. ¿Qué pasos debe seguir un estudiante para generar una orden de pago para el autoseguro médico?
+4. ¿Dónde puede un estudiante encontrar el manual de pagos de la UNI?
+5. ¿Cuál es el proceso para realizar el pago del autoseguro médico una vez que se ha generado la orden de pago?
+6. ¿Qué requisitos debe cumplir un estudiante para realizar ayudantía académica?
+7. ¿Cuál es la diferencia en el procedimiento de matrícula para un estudiante ingresante y un estudiante regular?
+8. ¿Qué sucede si un estudiante no puede realizar la matrícula en las fechas establecidas?
+9. ¿Cuál es el papel del departamento de Escuela Profesional en el proceso de ayudantía académica?
+10. ¿Cuál es el propósito de la matrícula rezagada?
+11. ¿Qué sucede si un estudiante no puede pagar el autoseguro médico?
+12. ¿Cuál es el plazo límite para realizar la matrícula rezagada?
+13. ¿Qué información debe proporcionar un estudiante al generar una orden de pago para el autoseguro médico?
+14. ¿Cuál es el procedimiento para obtener más información sobre la ayudantía académica?
+15. ¿Qué sucede si un estudiante no puede realizar la matrícula en las fechas establecidas?
+16. ¿Cuál es el papel de la oficina de Estadística en el proceso de matrícula rezagada?
+17. ¿Cuál es el propósito del autoseguro médico para los estudiantes?
+18. ¿Qué sucede si un estudiante no puede realizar la matrícula en las fechas establecidas?
+
+Preguntas originales:
+1. ¿Qué deben hacer los estudiantes que adeuden la tutoria obligatoria previa a la matricula para alumnos en riesgo academico?
+2. ¿Como un estudiante puede ver el estado de sus tramites?
+3. ¿Qué debe hacer un estudiante que desea solicitar una vacante adicional para la inscripcion a un curso?
+Nuevas Preguntas:
+1. ¿Cuál es el proceso que deben seguir los estudiantes en riesgo académico para cumplir con la tutoría obligatoria previa a la matrícula?
+2. ¿Dónde pueden los estudiantes verificar el estado de sus trámites a través del intranet alumnos?
+3. ¿Cuál es el procedimiento para solicitar una vacante adicional para inscribirse en un curso?
+4. ¿Cuáles son las consecuencias de no cumplir con la tutoría obligatoria previa a la matrícula para los estudiantes en riesgo académico?
+5. ¿Qué información adicional pueden obtener los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso?
+6. ¿Cuál es la importancia de completar la matrícula virtual en los demás cursos antes de solicitar una vacante adicional?
+7. ¿Qué recursos adicionales pueden utilizar los estudiantes para obtener información sobre la solicitud de vacantes en la Facultad de Ciencias?
+
+Preguntas originales:
+1. ¿Qué procedimiento debe seguir un estudiante para solicitar certificado de decimo o quinto superior?
+2. ¿Qué procedimiento debe seguir un estudiante que desea reincorporarse después de haber reservado su matricula por uno o mas periodos academico?
+3. ¿Un estudiante puede retirarse de todas las asignaturas en las que esta matriculado?
+Nuevas Preguntas:
+1. ¿Cuál es el costo del trámite de reincorporación para un estudiante que ha reservado su matrícula por uno o más periodos académicos?
+2. ¿Cuáles son las direcciones de correo a las que un estudiante puede solicitar información sobre las constancias de Quinto y/o Tercio Superior?
+3. ¿Cuáles son los pasos que debe seguir un estudiante para generar una orden de pago para su reincorporación?
+4. ¿Cuál es el costo por trámite de reincorporación para un estudiante que desea volver a la universidad después de haber reservado su matrícula por varios periodos académicos?
+5. ¿Qué pasos debe seguir un estudiante para enviar su solicitud de reincorporación después de completar el pago correspondiente?
+6. ¿Cuáles son los motivos de fuerza mayor que justifican el retiro total de todas las asignaturas en las que un estudiante está matriculado?
+7. ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar el retiro total de su matrícula en el periodo académico actual?
+8. ¿Cuál es el costo del trámite de retiro total de la matrícula en el periodo académico actual?
+9. ¿Cuál es la diferencia entre el retiro parcial y el retiro total de la matrícula para un estudiante?
+10. ¿Cuál es el procedimiento que debe seguir un estudiante para obtener una constancia de Quinto y/o Tercio Superior?
+11. ¿Cuál es el plazo establecido para enviar la solicitud de reincorporación a través de la Plataforma de Intranet-Alumnos?
+12. ¿Qué debe hacer un estudiante una vez aprobada su solicitud de reincorporación?
+13. ¿Cuál es el medio de pago que un estudiante puede utilizar para completar el pago de su trámite de reincorporación?
+14. ¿Cuál es el contenido del formulario que un estudiante debe completar al solicitar la reincorporación?
+15. ¿Cuál es el procedimiento que debe seguir un estudiante para realizar su matrícula después de haber sido reincorporado?
+16. ¿Cuál es el costo total que un estudiante debe pagar por el trámite de reincorporación si reservó su matrícula por dos periodos académicos?
+17. ¿Cuál es el procedimiento que debe seguir un estudiante para acceder al módulo de pagos del Portal INTRALU?
+18. ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar información sobre el trámite de reincorporación?
+
+Preguntas originales:
+1. ¿Un estudiante puede matricularse en un curso y su pre requisito?
+2. ¿Qué procedimiento debe seguir un estudiante para solicitar una constancia de notas?
+3. ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matricula?
+Nuevas Preguntas:
+1. ¿Bajo qué circunstancias un estudiante puede matricularse en un curso y su pre requisito?
+2. ¿Cuál es el procedimiento para solicitar una constancia de notas en la Universidad Nacional de Ingeniería?
+3. ¿Qué documentos debe adjuntar un estudiante para reservar su matrícula por razones de salud, trabajo u otras razones debidamente sustentadas?
+4. ¿Cuál es el monto actual para la solicitud de una constancia de notas en la Universidad Nacional de Ingeniería?
+5. ¿Cuál es el plazo establecido para presentar la solicitud de Reserva de Matrícula en la plataforma SIGA-DIRCE?
+6. ¿Qué significa ser un "estudiante en posibilidad de egresar" en la Universidad Nacional de Ingeniería?
+7. ¿Cuál es el horario de atención para recoger una constancia de notas en la Facultad de Ciencias?
+8. ¿Cuál es el procedimiento para realizar el pago de la constancia de notas a través de la aplicación móvil del banco?
+9. ¿Qué sucede si un estudiante no presenta la solicitud de Reserva de Matrícula en la Universidad Nacional de Ingeniería?
+10. ¿Cuál es el modelo de solicitud para la constancia de notas en la Universidad Nacional de Ingeniería?
+11. ¿Cuál es el correo electrónico al que un estudiante debe enviar la solicitud de orden de pago para la constancia de notas?
+12. ¿Cuál es el plazo máximo para la reserva de matrícula en la Universidad Nacional de Ingeniería?
+13. ¿Cuál es el procedimiento para comunicarse con la escuela profesional correspondiente para solicitar la matrícula en un curso y su pre requisito?
+14. ¿Cuál es el procedimiento para realizar el pago de la constancia de notas en una sucursal del BCP?
+15. ¿Cuál es el procedimiento para dejar en mesa de partes de la facultad el comprobante de pago y la solicitud correspondiente para la constancia de notas?
+16. ¿Cuál es el correo electrónico al que un estudiante debe enviar el comprobante de pago y la solicitud correspondiente para la constancia de notas?
+17. ¿Cuál es el procedimiento que realiza DIRCE si un estudiante no ha concretado su matrícula en el periodo académico actual?
+18. ¿Cuál es el periodo máximo para la reserva de matrícula en la Universidad Nacional de Ingeniería?
+19. ¿Cuál es el procedimiento para solicitar una orden de pago para la constancia de notas en inglés o en español?
+20. ¿Cuál es el procedimiento para realizar el pago de la constancia de notas a través de la aplicación móvil del banco?
+21. ¿Cuál es el procedimiento para solicitar una orden de pago para la constancia de notas en inglés o en español?
+
+Preguntas originales:
+1. ¿Dónde puede un estudiante consultar la fecha y turno de matrícula para el ciclo académico?
+2. ¿Cuál plazo para que un estudiante puede solicitar su reserva de matricula?
+3. ¿Qué debe hacer un estudiante que no pudo realizar la inscripción de sus cursos de manera virtual en la fecha y turno asignado para su matrícula regular?
+Nuevas Preguntas:
+1. ¿Dónde se publica el calendario de actividades para el ciclo académico?
+2. ¿Cómo se asignan los turnos de matrícula a los estudiantes?
+3. ¿Dónde puede un estudiante verificar su turno de matrícula?
+4. ¿Cuál es el plazo máximo para solicitar la reserva de matrícula?
+5. ¿Qué sucede si un estudiante no presenta la solicitud de reserva de matrícula?
+6. ¿Qué procedimiento debe seguir un estudiante que no pudo inscribir sus cursos en la fecha y turno asignado?
+7. ¿Cuál es el Módulo de Matrícula UNI y dónde se encuentra?
+8. ¿Cuáles son los plazos establecidos para la matrícula regular del ciclo académico?
+9. ¿Qué es la gestión de matrícula rezagada?
+10. ¿Dónde puede un estudiante encontrar información detallada sobre los procedimientos de matrícula?
+11. ¿Cuál es el criterio para asignar prioridad en los primeros turnos de matrícula?
+12. ¿Qué es la plataforma SIGA-DIRCE y cómo se accede a ella?
+13. ¿Qué acciones tomará DIRCE si un estudiante no ha concretado su matrícula en el período académico actual?
+
+Preguntas originales:
+1. ¿En donde un estudiante puede visualizar la lista de cursos y sus respectivos horarios?
+2. ¿Qué procedimiento debe seguir un estudiante para solicitar su constancia de Ayudantia academica?
+3. ¿Cual es el horario de atención y el correo de contacto de la oficina de Mesa de Parte de Orce?
+Nuevas Preguntas:
+1. ¿Cuál es el procedimiento para inscribirse en un curso optativo?
+2. ¿Cuáles son los requisitos para obtener una beca de investigación en la facultad?
+3. ¿Qué pasos debe seguir un estudiante para solicitar una extensión en la entrega de un trabajo académico?
+4. ¿Cuál es el proceso para solicitar un cambio de carrera dentro de la facultad?
+
+Preguntas originales:
+1. ¿Qué debe hacer un estudiante si presenta problemas para realizar la matricula de sus cursos a traves del modulo de Matrícula UNI dentro de la plataforma de intranet-alumnos?
+2. ¿Cuál es el horario de atención de la oficina de estadística o AERA?
+3. ¿Qué procedimiento debe seguir un estudiante para solicitar su correo institucional?
+Nuevas Preguntas:
+1. ¿Cuáles son las posibles razones por las que un estudiante podría tener problemas para completar su proceso de inscripción de cursos a través del módulo de Matrícula UNI?
+2. ¿Qué pasos debe seguir un estudiante que adeuda la tutoría previa requerida para estudiantes en riesgo académico?
+3. ¿Cuál es el procedimiento para gestionar la matrícula rezagada en caso de no haber efectuado el pago del autoseguro en el plazo establecido?
+4. ¿Cuál es la dirección de correo electrónico para ponerse en contacto con la Oficina de Tutoría en caso de tener dificultades con la inscripción de cursos?
+5. ¿Cuál es el horario de atención de la oficina de estadística o AERA?
+6. ¿Qué información debe proporcionar un estudiante para solicitar su correo institucional de la UNI?
+7. ¿Cuál es el correo al que un estudiante debe enviar la solicitud de su correo institucional?
+8. ¿Qué requisitos debe cumplir el correo personal proporcionado por el estudiante para recibir la clave del correo institucional?
+9. ¿Qué información debe incluir el correo de solicitud de correo institucional?
+10. ¿Cuál es el plazo establecido en el calendario de actividades académicas para efectuar el pago del autoseguro?
+11. ¿Qué debe hacer un estudiante si la matrícula virtual no se ha habilitado hasta los días de matrícula regular?
+12. ¿Cuál es la ubicación de la oficina de estadística (AERA) para aquellos estudiantes que prefieran acercarse personalmente?
+
+Preguntas originales:
+1. ¿Cuales son los requisitos y el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+2. ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar una orden de pago relacionada con algún concepto o trámite específico y realizar el pago correspondiente?
+3. ¿Qué debe hacer un estudiante si desea realizar un cambio de sección/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?
+Nuevas Preguntas:
+1. ¿Cuáles son los pasos que debe seguir un nuevo ingresante de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería para completar su matrícula?
+2. ¿Cuál es el proceso para generar una orden de pago relacionada con algún concepto o trámite específico en la Facultad de Ciencias?
+3. ¿Cómo puede un estudiante solicitar un cambio de sección/horario de un curso matriculado debido a conflictos de horario?
+4. ¿Cuáles son los documentos que un nuevo ingresante debe entregar para completar su matrícula en la Facultad de Ciencias?
+5. ¿Cuál es el plazo establecido para realizar el pago por autoseguro en la Facultad de Ciencias?
+6. ¿Qué debe hacer un estudiante si no encuentra el trámite correspondiente en la lista de opciones para generar una orden de pago?
+7. ¿Cuánto tiempo debe esperar un alumno para realizar el pago correspondiente después de generar una orden de pago?
+8. ¿Dónde puede un estudiante realizar el pago correspondiente después de generar una orden de pago?
+9. ¿Qué debe hacer un estudiante si tiene problemas para generar una orden de pago a través de la plataforma de intranet-alumnos?
+10. ¿Cuál es el procedimiento para solicitar la generación de una orden de pago a la oficina de estadística?
+11. ¿Cuál es el proceso para realizar modificaciones en la sección/horario de un curso matriculado debido a conflictos de horario?
+12. ¿Cuál es el criterio para atender solicitudes de cambios de sección/horario de un curso matriculado en la Facultad de Ciencias?
+13. ¿Dónde puede un estudiante encontrar información detallada sobre el proceso para realizar cambios de sección/horario de un curso matriculado?
+14. ¿Cuál es el horario de atención de la oficina de estadística para solicitar cambios de sección/horario de un curso matriculado?
+15. ¿Cuál es el procedimiento para actualizar los datos en la plataforma de intranet-alumnos?
+16. ¿Cuál es el requisito para realizar la entrega de documentos a la oficina de estadística para completar la matrícula?
+17. ¿Qué debe hacer un estudiante si no recibe la constancia de ingreso a la Universidad Nacional de Ingeniería?
+18. ¿Cuál es el proceso para obtener el certificado médico expedido por el Centro Médico UNI?
+19. ¿Cuál es el procedimiento para acceder al horario de cursos después de haber sido matriculado?
+20. ¿Cuál es el contenido de la ficha de datos que debe completar un nuevo ingresante para completar su matrícula?
+21. ¿Cuál es el procedimiento para solicitar información adicional sobre el proceso de matrícula en la Facultad de Ciencias?
+22. ¿Cuál es el plazo para realizar modificaciones en la matrícula después de haber sido matriculado?
+23. ¿Cuál es el proceso para solicitar una constancia de evaluación socioeconómica?
+24. ¿Cuál es el procedimiento para solicitar una orden de pago a través de la aplicación móvil del BCP?
+25. ¿Cuál es el proceso para solicitar una orden de pago a través de la sucursal del BCP?
+26. ¿Cuál es el procedimiento para solicitar una orden de pago a través de la plataforma de intranet-alumnos si se encuentra en el extranjero?
+27. ¿Cuál es el proceso para obtener el Manual de Pagos publicado en la sección de "MATRÍCULA Y PROCEDIMIENTOS" en la Página Web de la Facultad de Ciencias?
+
+Preguntas originales:
+1. ¿Qué procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en español?
+2. ¿Hasta que fecha un estudiante podrá solicitar su Reincorporación?
+3. ¿En cuantos créditos como máximo puede matricularse un estudiante de Facultad de Ciencias de la UNI?
+Nuevas Preguntas:
+1. ¿Cuál es el costo de la constancia de matrícula en la Facultad de Ciencias de la UNI?
+2. ¿Cuál es el procedimiento para realizar el pago de la constancia de matrícula?
+3. ¿Qué información debe incluir el correo electrónico para solicitar la orden de pago de la constancia de matrícula?
+4. ¿Cuál es el horario de atención para recoger la constancia de matrícula una vez que esté lista?
+5. ¿Cuál es el plazo establecido para solicitar la reincorporación a la Facultad de Ciencias de la UNI?
+6. ¿Qué sucede si un estudiante no presenta la solicitud de reincorporación dentro del plazo establecido?
+7. ¿Cuál es el número máximo de créditos en los que un estudiante puede matricularse en la Facultad de Ciencias de la UNI si ha aprobado todas las asignaturas del primer ciclo en su primera matrícula?
+8. ¿Cuántas asignaturas adicionales puede adelantar un estudiante que cumple con los requisitos para matricularse en todas las asignaturas del segundo ciclo?
+9. ¿Cuál es el límite de créditos para matricularse según el promedio ponderado de los dos últimos semestres académicos cursados?
+10. ¿Dónde se puede encontrar la Tabla 1 que establece el límite de créditos para matricularse según el promedio ponderado?
+11. ¿Qué sucede si un estudiante está en riesgo académico al momento de la matrícula?
+12. ¿Cuál es el procedimiento para solicitar la orden de pago de la constancia de matrícula en inglés?
+13. ¿Cuál es el banco autorizado para realizar el pago de la constancia de matrícula?
+14. ¿Qué documentos debe presentar un estudiante al dejar en mesa de partes el comprobante de pago y la solicitud correspondiente?
+15. ¿Qué información debe incluir la solicitud de constancia de matrícula?
+16. ¿Cuál es el procedimiento para solicitar la constancia de matrícula en español?
+17. ¿Cuál es el costo de la constancia de matrícula en el año 2024?
+18. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si un estudiante se encuentra en el extranjero?
+19. ¿Cuál es el horario de atención de la oficina de estadística (AERA) para solicitar la orden de pago de la constancia de matrícula?
+20. ¿Qué sucede si un estudiante no indica si desea la constancia de matrícula en inglés o español en la solicitud?
+21. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si un estudiante no tiene correo institucional?
+22. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si un estudiante no puede realizar el pago en una sucursal del BCP?
+23. ¿Cuál es el procedimiento para solicitar la constancia de matrícula si un estudiante no puede recogerla en el horario de atención establecido?
+
+Preguntas originales:
+1. ¿Cual es el proceso obtener el carnet universitario y como se realiza la entrega?
+El trámite de carné universitario por primera vez o renovación, requiere que el alumno cumpla los siguientes requisitos:
+1. Estar matriculado en el periodo académico vigente
+2. Realizar el pago por el monto correspondiente a S/ 11.50. Para ello debera generar una orden de pago a traves del Portal INTRALU y realizar el pago en una sucursal del bcp o a traves de la aplicación Movil del banco.
+3. Tener completa la ficha de datos en el portal INTRALU
+4. Tener fotografía digital en el portal web INTRALU
+
+Luego de realizar el pago y cumplir con los requisitos para el carné universitario, la entrega del carné será lo realizada la Oficina de Estadística. Se recomienda estar atento a avisos o notificaciones por parte de dicha oficina.
+
+El carné universitario tiene una vigencia de 1 año desde su emisión, por lo que se recomienda tener en cuenta dicha fecha y estar atento a avisos sobre convocatorias para tramitar la renovación del carné.
+
+Tema: Pago de Carnet Universitario no es Requisito de la Matricula y Beneficios del carnet Universitario
+
+Pregunta: ¿El pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?
+2. ¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+3. ¿Cuál es el procedimiento que debe seguir un estudiante para retirarse de asignaturas en las que esta mataricula?
+Nuevas Preguntas:
+1. ¿Cuál es el plazo límite para realizar la matrícula regular en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+2. ¿Cuáles son los beneficios adicionales que ofrece el carnet universitario además de los descuentos en el transporte público y acceso al comedor universitario?
+3. ¿Qué sucede si un estudiante no cumple con los requisitos para la matrícula regular en la Facultad de Ciencias?
+4. ¿Cuál es el procedimiento para obtener una tutoría obligatoria previa a la matrícula en caso de estar en riesgo académico?
+5. ¿Cuál es el proceso para generar una orden de pago para el autoseguro estudiantil a través de la plataforma intranet-alumnos?
+6. ¿Cuál es el plazo límite para realizar el pago del autoseguro estudiantil?
+7. ¿Qué sucede si un estudiante no realiza la matrícula en la fecha y turno asignado?
+8. ¿Cuál es el proceso para realizar la inscripción de cursos a través de la plataforma intranet-alumnos?
+9. ¿Cómo se asignan los turnos para la matrícula de acuerdo al promedio ponderado de los últimos ciclos?
+10. ¿Cuál es el procedimiento para solicitar el retiro parcial de asignaturas a través de la plataforma DIRCE?
+11. ¿Cuál es el plazo límite para solicitar el retiro parcial de asignaturas?
+12. ¿Cuáles son las restricciones para solicitar el retiro parcial de asignaturas?
+13. ¿Cuántas asignaturas como máximo puede retirar un estudiante en un ciclo académico?
+14. ¿Qué pasos debe seguir un estudiante para consultar el resultado de su solicitud de retiro de asignaturas?
+15. ¿Cuál es la vigencia del carnet universitario desde su emisión?
+16. ¿Qué sucede si un estudiante no recoge su carnet universitario en la Oficina de Estadística?
+17. ¿Cuál es el costo del carnet universitario?
+18. ¿Cuál es el procedimiento para generar una orden de pago a través del Portal INTRALU?
+19. ¿Cuál es el plazo límite para realizar el pago del carnet universitario?
+20. ¿Cuál es el proceso para completar la ficha de datos en el portal INTRALU?
+21. ¿Cuál es el procedimiento para obtener una fotografía digital en el portal web INTRALU?
+22. ¿Cuál es el proceso para recibir notificaciones sobre la entrega del carnet universitario?
+23. ¿Cuál es el proceso para tramitar la renovación del carnet universitario?
+24. ¿Cuáles son los beneficios de tener el carnet universitario actualizado?
+25. ¿Cuál es el procedimiento para obtener el descuento del 50% en el transporte público con el carnet universitario?
+26. ¿Cuál es el proceso para acceder al comedor universitario con el carnet universitario?
+27. ¿Cuál es el procedimiento para obtener descuentos en museos y centros turísticos con el carnet universitario?
+28. ¿Cuál es el proceso para verificar el turno correspondiente para la matrícula dentro de la plataforma intranet-alumnos?
+
+Preguntas originales:
+1. ¿Cual es el horario de atención y el correo de contacto de la oficina de Mesa de Parte de de la Facultad de Ciencias?
+2. ¿Cual es el proceso que debe seguir un estudiante para convalidar sus practicas pre pre profesionales?
+3. ¿Cuáles son los requisitos que un estudiante debe cumplir para poder realizar un traslado interno?
+Nuevas Preguntas:
+1. ¿Cuál es el horario de atención de la oficina de Mesa de Parte de la Facultad de Ciencias?
+2. ¿Cuál es el correo de contacto de la oficina de Mesa de Parte de la Facultad de Ciencias?
+3. ¿Qué pasos debe seguir un estudiante para convalidar sus prácticas pre profesionales en las Escuelas de Física, Química o Ciencia de la Computación?
+4. ¿Qué pasos debe seguir un estudiante para convalidar sus prácticas pre profesionales en las Escuelas de Matemáticas o Ingeniería Física?
+5. ¿Cuáles son los requisitos para realizar un traslado interno en la universidad?
+6. ¿Dónde debe presentar un estudiante la solicitud de traslado interno?
+7. ¿Qué documentos debe adjuntar un estudiante a su solicitud de traslado interno?
+8. ¿Quién verifica los documentos y requisitos propios para el traslado interno?
+9. ¿Quién analiza las solicitudes de traslado interno y realiza las convalidaciones pertinentes?
+10. ¿Qué órgano aprueba el traslado interno de un estudiante?
+11. ¿Quién gestiona la matrícula de los estudiantes por traslado interno?
+12. ¿Qué sucede si un estudiante presenta una solicitud de traslado interno fuera de la fecha indicada en el calendario académico?
+13. ¿Cuál es el procedimiento para la ejecución de la matrícula en el sistema SIGA después de un traslado interno?
+14. ¿Cuál es el plazo para presentar una solicitud de traslado interno?

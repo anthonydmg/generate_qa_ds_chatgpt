@@ -144,7 +144,7 @@ Propociona una respuesta informativa, significativa y concisa al siguiente mensa
 
     def generate_response(self, message):
         
-        info_texs, relatednesses = self.strings_ranked_by_relatedness(query=message, df= self.df_kb, top_n=2)
+        info_texs, relatednesses = self.strings_ranked_by_relatedness(query=message, df= self.df_kb, top_n=5)
 
         print("\nrelatednesses:", relatednesses)
 
@@ -172,37 +172,34 @@ Propociona una respuesta informativa, significativa y concisa al siguiente mensa
 if __name__ == "__main__":
 
     questions_topics = load_json("./refined_questions_generated.json")
-    opening_lines = [
-        "Quiero hacer el retiro total de cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.",
-        "Deseo hacer solicitar retiro total, cuales son los requisitos?",
-        ]
+    questions_faq = load_json("./faq/filtered_questions.json")
 
-    for questions_about_topic in questions_topics[0:1]:
-        questions = questions_about_topic["questions"]
-        information = questions_about_topic["context"]
+    #for questions_about_topic in questions_topics[0:1]:
+    #    questions = questions_about_topic["questions"]
+        #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
         
-        for i, question in enumerate(questions[1:2]):
-            print(f"\n\nConversacion {i + 1}.......................................................\n\n")
+    for i, question in enumerate(questions_faq[0:2]):
+        print(f"\n\nConversacion {i + 1}.......................................................\n\n")
 
-            ai_assistant = AIAssistant()
-            user_ai_sim = UserAISim(first_message = question)
+        ai_assistant = AIAssistant()
+        user_ai_sim = UserAISim(first_message = question)
+        
+        print("\nUser:", question)
+        response_ai_assistant = ai_assistant.generate_response(message = question)
+        print("\nAssitant:", response_ai_assistant)
+        
+        time.sleep(4)
+
+        for i in range(2):
+            response_user_ai = user_ai_sim.generate_response(message=response_ai_assistant)
+
+            print("\nUser:", response_user_ai)
             
-            print("\nUser:", question)
-            response_ai_assistant = ai_assistant.generate_response(message = question)
+            time.sleep(5)
+
+            response_ai_assistant = ai_assistant.generate_response(message = response_user_ai)
+
             print("\nAssitant:", response_ai_assistant)
             
-            time.sleep(4)
-
-            for i in range(2):
-                response_user_ai = user_ai_sim.generate_response(message=response_ai_assistant)
-
-                print("\nUser:", response_user_ai)
-                
-                time.sleep(5)
-
-                response_ai_assistant = ai_assistant.generate_response(message = response_user_ai)
-
-                print("\nAssitant:", response_ai_assistant)
-                
-                time.sleep(5)
+            time.sleep(5)
