@@ -62,13 +62,26 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
 
 
     def generate_response(self, message):
-        self.messages.append({"role": "user", "content": message})
         
+        prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde al siguiente mensaje del asistente de IA de manera concisa y significativa, teniendo en cuenta el contexto del historial del diálogo en curso.
+        Mensaje del asistente de AI: {message}"""
+
         response_user_ai = get_completion_from_messages(
-            self.messages,
+            self.messages + [{
+            "role": "user", 
+            "content": prompt_response_message
+            }],
             model=self.model)
         
-        self.messages.append({"role": "assistant", "content": response_user_ai})
+        self.messages.append({
+            "role": "user", 
+            "content": message
+            })
+            
+        self.messages.append({
+            "role": "assistant", 
+            "content": response_user_ai
+            })
         
         return response_user_ai
 
@@ -94,27 +107,33 @@ class AIAssistant:
         prompt_system_role_assistant = f"""
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites academicos de la Facultad de Ciencias de la Universidad Nacional de Ingenieria de Peru.
 Deberas responder a los mensajes asegurandote de cumplir con los siguientes criterios.
-    1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario al basandote exclusivamente en la información que sera proporcionada, sin añadir información ficticia.
+    1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario al basándote exclusivamente en la información que sera proporcionada, sin añadir información ficticia.
     2. Manten un tono cordial y empático en sus interacciones.
     3. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario.
 """
         return prompt_system_role_assistant
 
     def get_prompt_response_to_query(self, query, info_texts, token_budget):
-        instrucction = """
-Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basandote exclusivamente en la informacion delimitada por tress comillas invertidas y teniendo en el contexto del historial del diálogo en curso."""
+        #instrucction = """
+#Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
+        instrucction = """Proporciona una respuesta concisa, informativa y significativa al siguiente mensaje del usuario utilizando únicamente la información contenida entre tres comillas invertidas. Evita ofrecer datos no respaldados por dicha información y ten en cuenta el contexto del historial del diálogo en curso."""
+        #instrucction = """Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha información y teniendo en cuenta el contexto del historial del diálogo en curso."""
         mensaje_user = f"""Mensaje del usuario: {query}"""
 
         information = ""
-        prompt_response_to_query = instrucction
 
         for text in info_texts:
-            information += "\n"+ text
+            
             #template_information = f"""\nInformacion: ```{information}```\n"""
-            if count_num_tokens(instrucction + information + mensaje_user,model=self.model) > token_budget:
+            template_information = f"\nInformación: ```{information + text}```\n"
+            prompt_response_to_query = instrucction + template_information + mensaje_user
+
+            if count_num_tokens(prompt_response_to_query, model=self.model) > token_budget:
                 break
 
-        template_information = f"""\nInformacion: ```{information}```\n"""
+            information += "\n"+ text
+
+        template_information = f"""\nInformación: ```{information}```\n"""
 
         prompt_response_to_query = instrucction + template_information + mensaje_user
 
@@ -179,7 +198,7 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
         
-    for i, question in enumerate(questions_faq[0:2]):
+    for i, question in enumerate(questions_faq[2:4]):
         print(f"\n\nConversacion {i + 1}.......................................................\n\n")
 
         ai_assistant = AIAssistant()
