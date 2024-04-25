@@ -110,13 +110,14 @@ Deberas responder a los mensajes asegurandote de cumplir con los siguientes crit
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario al basándote exclusivamente en la información que sera proporcionada, sin añadir información ficticia.
     2. Manten un tono cordial y empático en sus interacciones.
     3. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario.
+    4. En caso de no encontrar información sobre la consulta en los datos proporcionados, expresa con empatía que no tienes acceso a dicha información.
 """
         return prompt_system_role_assistant
 
     def get_prompt_response_to_query(self, query, info_texts, token_budget):
         #instrucction = """
 #Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
-        instrucction = """Proporciona una respuesta concisa, informativa y significativa al siguiente mensaje del usuario utilizando únicamente la información contenida entre tres comillas invertidas. Evita ofrecer datos no respaldados por dicha información y ten en cuenta el contexto del historial del diálogo en curso."""
+        instrucction = """Proporciona una respuesta concisa, informativa y significativa al siguiente mensaje del usuario utilizando únicamente la información contenida entre tres comillas invertidas. Evita ofrecer datos no respaldados por dicha información y ten en cuenta el contexto del historial del diálogo en curso. Usa maximo 100 palabras"""
         #instrucction = """Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha información y teniendo en cuenta el contexto del historial del diálogo en curso."""
         mensaje_user = f"""Mensaje del usuario: {query}"""
 
@@ -198,7 +199,7 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
         
-    for i, question in enumerate(questions_faq[2:4]):
+    for i, question in enumerate(questions_faq[4:6]):
         print(f"\n\nConversacion {i + 1}.......................................................\n\n")
 
         ai_assistant = AIAssistant()
