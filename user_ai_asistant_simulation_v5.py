@@ -10,6 +10,8 @@ import re
 import pandas as pd
 from scipy import spatial
 import ast
+import random
+import numpy
 
 load_dotenv(override=True)
 
@@ -27,18 +29,39 @@ def conversation_to_text(messages):
     return txt
 
 class UserAISim:
-    def __init__(self, first_message, model = "gpt-3.5-turbo-0613") -> None:
+    def __init__(self, model = "gpt-3.5-turbo-0613", start_greeting = False) -> None:
         
         #prompt_system_role_user = self.get_prompt_system_role()
-        prompt_start = self.get_prompt_start()
+        prompt_start = self.get_prompt_start(start_greeting)
         
         self.messages = [
-            #{'role':'system', 'content': prompt_system_role_user},
             {'role': 'user', 'content': prompt_start},
-            {"role": "assistant", "content": first_message}]
+            ]
         
         self.model = model
     
+    def start_conversation(self):
+        response_user_ai = get_completion_from_messages(
+            self.messages,
+            model=self.model)
+        
+        self.push_user_messages_to_history(response_user_ai)
+        return response_user_ai
+
+    def push_user_messages_to_history(self, message):
+        # El asistente actua como un usuario
+        self.messages.append({
+            "role": 'assistant',
+            "content": message 
+        })
+    
+    def push_assistant_messages_to_history(self, message):
+        # Desde la perspectiva del asistente el usuario seria seria el asistente de AI
+        self.messages.append({
+            "role": 'user',
+            "content": message 
+        })
+
     def get_prompt_system_role(self):
         prompt_system_role_user = """
 Eres un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) y estás buscando información o asesoría sobre uno o varios temas. Asegúrate de cumplir con los siguientes criterios al responder a los mensajes:
@@ -51,13 +74,17 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
 """
         return prompt_system_role_user
     # y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado
-    def get_prompt_start(self):
-        prompt_start = """Actua como un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que estás buscando información o asesoría.
-        Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad en dichos temas.
-        Utiliza un tono semi formal adecuado para un estudiante universitario.
-        Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado
-        Comienza la conversación con una consulta sobre el tema de interés y mantén dicho rol en las siguientes interacciones.
-        """
+    def get_prompt_start(self, start_greeting = False):
+        prompt_start = """Actúa como un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que estás buscando información o asesoría.
+            Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad en dichos temas.
+            Utiliza un tono semi formal adecuado para un estudiante universitario.
+            Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado"""
+        
+        if start_greeting:
+            prompt_start += "\nComienza la conversación con un saludo conciso y mantén dicho rol en las siguientes interacciones."
+        else:
+            prompt_start += "\nComienza la conversación con una consulta sobre el tema de interés y mantén dicho rol en las siguientes interacciones."
+
         return prompt_start
 
 
@@ -73,15 +100,18 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
             }],
             model=self.model)
         
-        self.messages.append({
-            "role": "user", 
-            "content": message
-            })
-            
-        self.messages.append({
-            "role": "assistant", 
-            "content": response_user_ai
-            })
+        
+        self.push_assistant_messages_to_history(message)
+        #self.messages.append({
+        #    "role": "user", 
+        #    "content": message
+        #    })
+        self.push_user_messages_to_history(response_user_ai)   
+        
+        #self.messages.append({
+        #    "role": "assistant", 
+        #    "content": response_user_ai
+        #    })
         
         return response_user_ai
 
@@ -106,7 +136,7 @@ class AIAssistant:
     def get_prompt_system_role(self):
         prompt_system_role_assistant = f"""
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingenieria de Peru.
-Deberas responder a los mensajes asegurandote de cumplir con los siguientes criterios.
+Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario al basándote exclusivamente en la información que sera proporcionada, sin añadir información ficticia.
     2. Mantén un tono cordial y empático en sus interacciones.
     3. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario.
@@ -162,27 +192,34 @@ Deberas responder a los mensajes asegurandote de cumplir con los siguientes crit
         strings, relatednesses = zip(*strings_and_relatednesses)
         return strings[:top_n], relatednesses[:top_n]
 
-    def generate_response(self, message):
-        
-        info_texs, relatednesses = self.strings_ranked_by_relatedness(query=message, df= self.df_kb, top_n=5)
+    def generate_response(self, message, use_kb = True):
+        if use_kb == True:
+            info_texs, relatednesses = self.strings_ranked_by_relatedness(query=message, df= self.df_kb, top_n=5)
 
-        print("\nrelatednesses:", relatednesses)
+            print("\nrelatednesses:", relatednesses)
 
-        num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
-        print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
-        max_tokens_response = 600
+            num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
+            print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
+            max_tokens_response = 600
 
-        prompt_response_to_query = self.get_prompt_response_to_query(
-            message, info_texs, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response)
-        
-        #print("\nprompt_response_to_query:", prompt_response_to_query)
+            prompt_response_to_query = self.get_prompt_response_to_query(
+                message, info_texs, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response)
+            
+            response_ai_assistant = get_completion_from_messages(
+            messages= self.messages + [{"role": "user", "content": prompt_response_to_query}],
+            model = self.model
+            )
+
+            self.messages.append({"role": "user", "content": message})
+
+        else:
+            self.messages.append({"role": "user", "content": message})
+            response_ai_assistant = get_completion_from_messages(
+            messages= self.messages,
+            model = self.model)
+            
         print()
-
-        response_ai_assistant = get_completion_from_messages(
-            messages=  self.messages + [{"role": "user", "content": prompt_response_to_query}],
-            model=self.model)
         
-        self.messages.append({"role": "user", "content": message})
         self.messages.append({"role": "assistant", "content": response_ai_assistant})
         
         return response_ai_assistant
@@ -198,12 +235,24 @@ if __name__ == "__main__":
     #    questions = questions_about_topic["questions"]
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
-        
-    for i, question in enumerate(questions_faq[4:6]):
-        print(f"\n\nConversacion {i + 1}.......................................................\n\n")
+    
+    
+    for i, question in enumerate(questions_faq[0:3]):
+        print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
         ai_assistant = AIAssistant()
-        user_ai_sim = UserAISim(first_message = question)
+        
+        start_greeting = numpy.random.choice([True, False],1, p = [0.7,0.3])[0]
+        user_ai_sim = UserAISim(start_greeting = start_greeting)
+        print("start_greeting:", start_greeting)
+        
+        if start_greeting:
+            response_user_ai = user_ai_sim.start_conversation()
+            print("\nUser:", response_user_ai)
+            response_ai_assistant = ai_assistant.generate_response(message = response_user_ai, use_kb= False)
+            print("\nAssitant:", response_ai_assistant)
+        
+        user_ai_sim.push_user_messages_to_history(question) 
         
         print("\nUser:", question)
         response_ai_assistant = ai_assistant.generate_response(message = question)
