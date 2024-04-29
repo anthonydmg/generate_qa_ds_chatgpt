@@ -16,7 +16,7 @@ Art. 69° (R.R. N° 2292-2022) El Retiro Total se computa para efectos de un Ret
 
 Pasos para solicitar el Retiro Total a través de la plataforma SIGA-DIRCE:
 
-1. El alumno accederá a la intranet de alumnos utilizando su código UNI y la clave correspondiente.
+1. El alumno accederá a la intranet de alumnos (https://www.academico.uni.edu.pe/alumno/entra) utilizando su código UNI y la clave correspondiente.
 2. Dentro de la intranet de alumnos, seleccionará la opción "Mis Trámites" en el menú de navegación ubicado en la parte izquierda de la pantalla. Al hacer clic en dicho menú, se desplegarán varias opciones, entre las cuales deberá seleccionar "Retiro Total".
 3. Completará el formulario desplegado para la solicitud de retiro total, donde deberá proporcionar la siguiente información:
     - Motivo por el cual desea realizar el retiro total, que puede ser: Viaje al extranjero, Accidente limitante, Enfermedad limitante o Asumir emergencia familiar limitante.

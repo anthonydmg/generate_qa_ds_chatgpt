@@ -96,7 +96,7 @@ def split_text_into_subsections(
     return [truncated_text(string, model=model, max_tokens=max_tokens)]
 
 
-MAX_TOKENS = 1600
+MAX_TOKENS = 1000
 
 text_subsections = []
 general_topics_subsections = []
@@ -110,18 +110,24 @@ for topic in topics:
     print("title:", title)
     section = (title, content)
     subsections = split_text_into_subsections(section, max_tokens=MAX_TOKENS)
+    print(f"Divido en {len(subsections)} secciones")
     text_subsections.extend(subsections)
     general_topics_subsections.extend([title] * len(subsections))
 
 embeddings = []
+
+print("\nNumero de secciones encontradas:", len(text_subsections))
 
 for faq in faqs:
     text_faq = faq["topic"].title() + "\n" + faq["question"] + "\n" + faq["answer"]
     text_subsections.append(text_faq)
     general_topics_subsections.append(faq["topic"])
 
+print("\nNumero de secciones encontradas:", len(text_subsections))
+
 EMBEDDING_MODEL = "text-embedding-3-small"
 BATCH_SIZE = 50
+print("\nNumero de secciones encontradas:", len(text_subsections))
 for batch_start in range(0, len(text_subsections), BATCH_SIZE):
     batch_end = min(batch_start + BATCH_SIZE, len(text_subsections))
     batch = text_subsections[batch_start:batch_end]

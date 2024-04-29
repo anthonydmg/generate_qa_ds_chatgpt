@@ -89,7 +89,7 @@ class AIAssistant:
     def __init__(
             self, 
             model = "gpt-3.5-turbo-0613",
-            path_df_kb = "./topics.csv",
+            path_df_kb = "./kb/topics.csv",
             embedding_model = "text-embedding-3-small") -> None:
         
         prompt_system_role_assistant = self.get_prompt_system_role()
@@ -199,7 +199,7 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
         
-    for i, question in enumerate(questions_faq[4:6]):
+    for i, question in enumerate(questions_faq[9:10]):
         print(f"\n\nConversacion {i + 1}.......................................................\n\n")
 
         ai_assistant = AIAssistant()

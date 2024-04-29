@@ -29,13 +29,15 @@ def conversation_to_text(messages):
     for m in messages:
         txt = txt + "\n" + m["role"] + ": "+ m["content"]
     return txt
+
 class UserAISim:
     def __init__(self, model = "gpt-3.5-turbo-0613", start_greeting = False) -> None:
         
-        #prompt_system_role_user = self.get_prompt_system_role()
+        prompt_system_role_user = self.get_prompt_system_role()
         prompt_start = self.get_prompt_start(start_greeting)
-        self.start_greeting = start_greeting
+        
         self.messages = [
+            {"role": "system", 'content': prompt_system_role_user},
             {'role': 'user', 'content': prompt_start},
             ]
         
@@ -59,11 +61,8 @@ class UserAISim:
     def finish_conversation(self, message):
         num_words = random.choice([2, 4, 5, 10, 15, 20])
 
-        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento que esta conversando con un asistente de AI especializado en dichos temas, responde al siguiente mensaje del asistente de IA finalizando la conversación (Max. {num_words} palabras).
-Mensaje del asistente de AI: {message}"""
-
-        #prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde al siguiente mensaje del asistente de IA finalizando la conversación (Max. {num_words} palabras).
-        #Mensaje del asistente de AI: {message}"""
+        prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa al siguiente mensaje del asistente de IA para finalizar la conversación (Max. {num_words} palabras).
+        Mensaje del asistente de AI: {message}"""
 
         response_user_ai = get_completion_from_messages(
             self.messages + [{
@@ -88,28 +87,26 @@ Mensaje del asistente de AI: {message}"""
 
     def get_prompt_system_role(self):
         prompt_system_role_user = """
-Eres un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) y estás buscando información o asesoría sobre uno o varios temas. Asegúrate de cumplir con los siguientes criterios al responder a los mensajes:
-
-Criterio 1: Utiliza un tono semi formal adecuado para un estudiante universitario, evitando declaraciones excesivamente educadas.
-
-Criterio 2: Ten en cuenta el contexto del historial del diálogo en curso y tu objetivo principal para responder de manera concisa y significativa.
-
-Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu interés por comprender completamente todo lo relacionado con el tema o temas consultados.
+Eres un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que estás buscando información o asesoría.
+Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad en dichos temas.
+Utiliza un tono semi formal adecuado para un estudiante universitario.
+Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado
 """
         return prompt_system_role_user
     # y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado
     def get_prompt_start(self, start_greeting = False):
-        prompt_start = """Actúa como un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que estás buscando información o asesoría.
-            Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad en dichos temas.
-            Utiliza un tono semi formal adecuado para un estudiante universitario.
-            Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado"""
+        #prompt_start = """Actúa como un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que estás buscando información o asesoría.
+        #    Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad en dichos temas.
+        #    Utiliza un tono semi formal adecuado para un estudiante universitario.
+        #    Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado"""
         
+        prompt_start = "Recuerda tu papel de estudiante universitario que está buscando información o asesoría"
         type_greeting = random.choice(["formal","informal", "semiformal"])
         print("type_greeting:", type_greeting)
         num_words = random.choice([1, 2, 5, 10, 15, 20])
         print("num_words", num_words)
         if start_greeting:
-            prompt_start += f"\nComienza la conversación simplemente con un saludo {type_greeting} conciso al asistente (Max. {num_words} palabras) y mantén dicho rol en las siguientes interacciones."
+            prompt_start += f"\nComienza la conversación simplemente con un saludo {type_greeting} conciso al asistente de AI (Max. {num_words} palabras) y mantén rol en las siguientes interacciones."
         else:
             prompt_start += "\nComienza la conversación con una consulta sobre el tema de interés y mantén dicho rol en las siguientes interacciones."
 
@@ -118,23 +115,10 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
 
     def generate_response(self, message):
         
-        #prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento que esta conversando con un asistente de AI especializado en dichos temas, responde de manera concisa y significativa al siguiente mensaje del asistente en máximo 40 palabras.
-#Mensaje del asistente de AI: {message}"""
-        num_turn = len(self.messages) // 2 + (1 if not self.start_greeting else 0)
-        print("\nNumero de turno:", num_turn)
-        if num_turn > 2:
-            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos 40 palabras de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
-        Mensaje del asistente de AI: {message}"""
-        else:
-            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
+        prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa y significativa al siguiente mensaje del asistente de IA (Max. 40 palabras), teniendo en cuenta el contexto del historial del diálogo en curso.
         Mensaje del asistente de AI: {message}"""
 
-        #prompt_response_message = f"""Recuerda que tu (el estudiante universitario en busca de información o asesoramiento) estas hablando con un asistente de AI, responde de manera concisa y significativa al siguiente mensaje del asistente de IA (Max. 50 palabras), teniendo en cuenta el contexto del historial del diálogo en curso.
-        #Mensaje del asistente de AI: {message}"""
 
-        #Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad
-
-        
         response_user_ai = get_completion_from_messages(
             self.messages + [{
             "role": "user", 
@@ -144,7 +128,7 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         
         
         self.push_assistant_messages_to_history(message)
-        #print("self.messages:",  self.messages)
+ 
         self.push_user_messages_to_history(response_user_ai)   
         
         return response_user_ai
@@ -200,11 +184,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         return information
 
     def get_prompt_response_to_query(self, query, info_texts, token_budget):
-        #instrucction = """# sin hacer mención a la información
+        #instrucction = """
 #Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
-        #  en lugar menciona que no tienes acceso a dicha información según sea necesario
-        
-        instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita proporcionar datos no respaldados explícitamente en dicha información. Usa máximo 100 palabras."""
+        instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa. Evita proporcionar datos no respaldados. Usa máximo 100 palabras."""
         
         #instrucction = """Proporciona una respuesta concisa, informativa y significativa al siguiente mensaje del usuario utilizando únicamente la información contenida entre tres comillas invertidas. Evita ofrecer datos no respaldados por dicha información y ten en cuenta el contexto del historial del diálogo en curso. Usa máximo 100 palabras"""
         #instrucction = """Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha información y teniendo en cuenta el contexto del historial del diálogo en curso."""
@@ -257,7 +239,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 
             num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
             print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
-            max_tokens_response = 1000
+            max_tokens_response = 600
 
             prompt_response_to_query = self.get_prompt_response_to_query(
                 message, info_texs, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response)
@@ -311,8 +293,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 75
-    end = 76
+    start = 5
+    end = 8
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
@@ -328,7 +310,6 @@ if __name__ == "__main__":
             print("\nUser:", response_user_ai)
             response_ai_assistant = ai_assistant.generate_response(message = response_user_ai, use_kb= False)
             print("\nAssistant:", response_ai_assistant)
-            user_ai_sim.push_assistant_messages_to_history(response_ai_assistant)
         
         user_ai_sim.push_user_messages_to_history(question) 
         
@@ -337,13 +318,14 @@ if __name__ == "__main__":
         print("\nAssistant:", response_ai_assistant)
         
         time.sleep(4)
-        num_turns = random.choice([2,3])
-        for i in range(num_turns):
+
+        for i in range(3):
             
             finish_conversation = numpy.random.choice([True, False],1, p = [0.3,0.7])[0]
-           
+            
+            print("\nfinish_conversation:",finish_conversation)
+            
             if i >= 1 and finish_conversation:
-                print("\nfinish_conversation:",finish_conversation)
                 response_user_ai = user_ai_sim.finish_conversation(message=response_ai_assistant)
                 
                 print("\nUser:", response_user_ai)
@@ -354,11 +336,11 @@ if __name__ == "__main__":
 
                  ## save conversation
 
-                #messages = ai_assistant.get_history_dialog(include_context=True)
-                #conversations_simulated.append({
-                #    "openline": question,
-                #    "messages": messages
-                #})
+                messages = ai_assistant.get_history_dialog(include_context=True)
+                conversations_simulated.append({
+                    "openline": question,
+                    "messages": messages
+                })
             
                 break
 
