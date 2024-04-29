@@ -324,6 +324,6 @@ for e in examples:
 #pool_data = list(table_data.values())
 #save_json("./","examples", pool_data)
 
-d = load_json("./conversational_data/conversations_simulated_75_to_75.json")
-print(d[0]["messages"][2]["context"])
+#d = load_json("./conversational_data/conversations_simulated_75_to_75.json")
+#print(d[0]["messages"][2]["context"])
 
