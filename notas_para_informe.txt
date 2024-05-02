@@ -55,3 +55,15 @@ Ademas se usaron los documentos de los reglamentos y procedimientos de las Facul
 # Paro ello siguo el proceso mostrado en. 
 
 ## Cologar preguntas recolectadas del ano 2021 de las cuales sacamos estos temas 3
+
+# evaluación
+Esto justifica evaluar la calidad del texto generado con modelos de lenguaje
+Exploring the Use of Large Language Models for Reference-Free Text
+Quality Evaluation: An Empirical Study
+
+Esto lo justifica mejor me parece:
+Is ChatGPT a Good NLG Evaluator? A Preliminary Study
+
+Este es buena para justificar en el caso de chatbots
+Judging LLM-as-a-Judge
+with MT-Bench and Chatbot Arena

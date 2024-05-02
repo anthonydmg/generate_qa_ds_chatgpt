@@ -1,5 +1,7 @@
 import evaluate
-from user_ai_asistant_simulation_v3 import AIAssistant
+from user_ai_asistant_simulation_v3 import AIAssistant as AIAssistantV3
+from user_ai_asistant_simulation_v5 import AIAssistant as AIAssistantV5
+
 from utils import read_fragment_doc, list_json_to_txt, set_openai_key, save_json, load_json
 import re
 import os
@@ -62,7 +64,8 @@ def save_pools_questions(all_pool_questions, threshold_rouge = 0.6):
     file.close()
 
 
-test_data = "./tests/test_examples.txt"
+#test_data = "./tests/test_examples.txt"
+test_data = "./tests/test_examples_rouge_0.5.txt"
 
 data = read_data_questions_from_text(test_data)
 total_examples = sum([len(e["questions"]) for e in data])
@@ -86,13 +89,21 @@ if filter_question_by_rouge:
 cache_path = "./tests/cache.json"
 cache = load_json(cache_path) if os.path.exists(cache_path) else {}
 test_data = []
-for row in data[0:1]:
+
+print("Numero de Temas:", len(data))
+
+for row in data[0:32]:
     questions = row["questions"]
-    for question in questions[0:15]:
+    for question in questions:
         print("\nUser:", question)
         if question not in cache:
-            ai_assistant = AIAssistant()
-            response_ai_assistant = ai_assistant.generate_response(message = question)
+            #ai_assistant_v3 = AIAssistantV3(path_df_kb="./kb/topics.csv")
+            ai_assistant_v5 = AIAssistantV5(path_df_kb="./kb/topics.csv")
+            #response_ai_assistant_v3 = ai_assistant_v3.generate_response(message = question)
+            response_ai_assistant_v5 = ai_assistant_v5.generate_response(message = question)
+            #print("\nAssitant V3:", response_ai_assistant_v3)
+            #print("\nAssitant V5:", response_ai_assistant_v5)
+            response_ai_assistant = response_ai_assistant_v5
             cache[question] = response_ai_assistant
         else:
             response_ai_assistant = cache[question]

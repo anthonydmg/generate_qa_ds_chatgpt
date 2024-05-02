@@ -177,7 +177,7 @@ Eres Aerito un asistente de AI especializado en temas de matricula, procedimient
 Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin añadir información ficticia.
     2. Mantén un tono cordial, empático y servicial en sus interacciones.
-    3. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario.
+    3. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
     4. En caso de no encontrar información sobre la consulta en los datos proporcionados, expresa con empatía que no tienes acceso a dicha información.
 """
         return prompt_system_role_assistant
@@ -203,8 +203,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         #instrucction = """# sin hacer mención a la información
 #Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
         #  en lugar menciona que no tienes acceso a dicha información según sea necesario
-        
-        instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita proporcionar datos no respaldados explícitamente en dicha información. Usa máximo 100 palabras."""
+        instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Limita la respuesta a un máximo de 100 palabras."""
+
+        #instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita proporcionar datos no respaldados explícitamente en dicha información. Usa máximo 100 palabras."""
         
         #instrucction = """Proporciona una respuesta concisa, informativa y significativa al siguiente mensaje del usuario utilizando únicamente la información contenida entre tres comillas invertidas. Evita ofrecer datos no respaldados por dicha información y ten en cuenta el contexto del historial del diálogo en curso. Usa máximo 100 palabras"""
         #instrucction = """Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha información y teniendo en cuenta el contexto del historial del diálogo en curso."""
@@ -311,8 +312,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 75
-    end = 76
+    start = 140
+    end = 150
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 

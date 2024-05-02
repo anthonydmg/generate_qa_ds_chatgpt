@@ -88,7 +88,7 @@ Una vez aprobada y realizada la reincorporación, el estudiante podrá realizar 
 
 Tema: Plazo Para solicitar la reincorporación
 Pregunta: ¿Hasta que fecha un estudiante podrá solicitar su Reincorporación?
-Respuesta: La solicitud de reincorporación debe presentarse a través de la plataforma de intranet-alumnos dentro del plazo establecido en el calendario de actividades académicas del ciclo actual. En caso contrario, el estudiante deberá esperar al siguiente periodo académico para solicitar la reincorporación.
+Respuesta: La solicitud de reincorporación debe presentarse a través de la plataforma de intranet-alumnos dentro del plazo establecido en el calendario de actividades académicas del ciclo actual, el cual es publicado en la página web de la Facultad de Ciencias. En caso contrario, el estudiante deberá esperar al siguiente periodo académico para solicitar la reincorporación.
 
 Tema: Deber Tutoria obligatorio antes de la matricula o reincorporación para alumnos en Riego academico ## Ver si va o no
 Pregunta: ¿Qué deben hacer los estudiantes que adeuden la tutoria obligatoria previa a la matricula para alumnos en riesgo academico?
@@ -105,7 +105,7 @@ Para cualquier otro trámite que no esté estipulado en la lista de opciones den
 
 Una vez generada la orden de pago, el alumno deberá esperar aproximadamente 10 minutos para realizar el pago correspondiente en una sucursal del BCP o a través de la aplicación móvil del banco.
 
-Para obtener más detalles sobre el proceso para generar una orden de pago a traves de la plataforma, consulta el Manual de Pagos publicado en la sección de "MATRÍCULA Y PROCEDIMIENTOS" en la Página Web de la Facultad de Ciencias ((https://fc.uni.edu.pe/documentos/).
+Para obtener más detalles sobre el proceso para generar una orden de pago a traves de la plataforma, consulta el Manual de Pagos publicado en la sección de "MATRÍCULA Y PROCEDIMIENTOS" en la Página Web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).
 
 Tema: Problemas al Realizar la Matrícula Virtual
 
@@ -154,8 +154,8 @@ Pregunta: ¿Un estudiante puede matricularse en un curso y su pre requisito?
 Respuesta: Únicamente podrán matricularse en una asignatura y su respectivo prerrequisito aquellos estudiantes que cumplan con los requisitos de "estudiante en posibilidad de egresar". Este término se aplica a aquellos alumnos que, en el momento de la matrícula, les falten como máximo treinta (30) créditos para completar su Plan de Estudios y poder egresar. Para ello el estudiante debera conmunicarse con su escuela profersional correspondiente para que su solicitud sea evaluada y aprobada por el director de escuela.
 
 Tema: Solicitar Vacantes adicionales 
-Pregunta: ¿Qué debe hacer un estudiante que desea solicitar una vacante adicional para la inscripcion a un curso?
-Respuesta: A los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso, se les recomienda completar su matrícula virtual en los demás cursos y posteriormente comunicarse con la oficina para obtener mayor información y que su caso sea evaluado. También se recomienda revisar posibles publicaciones de avisos o formularios de solicitud correspondientes a la solicitud de vacantes dentro de la página web de la Facultad de Ciencias.
+Pregunta: ¿Qué debe hacer un estudiante que desea solicitar una vacante adicional para la inscripción a un curso?
+Respuesta: A los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso, se les recomienda completar su matrícula virtual en los demás cursos y posteriormente comunicarse con la oficina para obtener mayor información y que su caso sea evaluado. También se recomienda revisar posibles publicaciones de avisos o formularios de solicitud correspondientes a la solicitud de vacantes dentro de la página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).
 
 Tema: Procedimiento Para Reserva de Matricula
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matricula?
@@ -249,12 +249,12 @@ Respuesta: El pago del carnet universitario no es indispensable para el proceso 
 
 Tema: Estado de Tramites
 Pregunta: ¿Como un estudiante puede ver el estado de sus tramites?
-Respuesta: Es estado de las solicitudes presentadas través del intranet alumnos, puede ser visualizadas en la mismo platador. Para otros tramites puede usar el número de expediente para realizar el seguimiento, ingresando a http://stduni.uni.pe/modalum
+Respuesta: El estado de las solicitudes presentadas través del intranet alumnos, puede ser visualizadas en la mismo plataforma. Para otros tramites puede usar el número de expediente para realizar el seguimiento, ingresando a http://stduni.uni.pe/modalum
 
 Tema: Fechas de Matricula
 Pregunta: ¿Dónde puede un estudiante consultar la fecha y turno de matrícula para el ciclo académico?
-Respuesta: Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica en la página web de la Facultad de Ciencias.
-Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica en la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
+Respuesta: Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica en la sección "Matrícula y Procedimientos" página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).
+Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica en la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
 
 Tema: Máximo de Créditos a Matricularse Para un Estudiante
 Pregunta: ¿En cuantos créditos como máximo puede matricularse un estudiante de Facultad de Ciencias de la UNI?
@@ -262,7 +262,7 @@ Respuesta: El número máximo de créditos en los que un estudiante de la Facult
 
 Para estudiantes que hayan aprobado todas las asignaturas del primer ciclo en su primera matrícula y tengan un promedio ponderado igual o mayor a doce (12), podrán matricularse en todas las asignaturas del segundo ciclo y adelantar como máximo dos asignaturas adicionales, siempre y cuando el plan de estudios lo permita.
 
-Para estudiantes que hayan cursado solo el primer ciclo y no cumplan con los requisitos anteriores, así como para aquellos que hayan cursado dos o más ciclos, el número máximo de créditos permitidos a matricularse se establece según el promedio ponderado de los dos últimos semestres académicos cursados y está indicado en la Tabla 1, descrita en el CAPÍTULO VI del Reglamento de Matrícula publicado en la página web de la Facultad de Ciencias. Esta tabla asigna un límite de créditos según el promedio ponderado de los dos últimos semestres, desde 28 créditos para promedios entre 14 y 20, hasta 15 créditos para promedios entre 0 y 8.
+Para estudiantes que hayan cursado solo el primer ciclo y no cumplan con los requisitos anteriores, así como para aquellos que hayan cursado dos o más ciclos, el número máximo de créditos permitidos a matricularse se establece según el promedio ponderado de los dos últimos semestres académicos cursados y está indicado en la Tabla 1, descrita en el CAPÍTULO VI del Reglamento de Matrícula publicado en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Esta tabla asigna un límite de créditos según el promedio ponderado de los dos últimos semestres, desde 28 créditos para promedios entre 14 y 20, hasta 15 créditos para promedios entre 0 y 8.
 
 Es importante mencionar que para estudiantes en riesgo académico, la determinación de la cantidad de créditos a matricular no se basará en dicha Tabla, sino que será recomendada por la Oficina de Tutoría y la Comisión de Matrícula de la Facultad. Dicha cantidad de créditos a matricularse para un estudiante en riesgo academico usualmente es mas limitada poniendo mayor prioridad en la matricula de los cursos desaprobados mas de dos veces.
 
