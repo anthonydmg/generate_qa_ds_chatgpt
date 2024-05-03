@@ -6920,5 +6920,1293 @@
                 "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener detalles sobre el costo del autoseguro m\u00e9dico."
             }
         ]
+    },
+    {
+        "id": 211,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos debe seguir un estudiante para generar una orden de pago para el autoseguro m\u00e9dico en la plataforma Intranet-Alumnos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para generar una orden de pago para el autoseguro m\u00e9dico en la plataforma Intranet-Alumnos, el estudiante debe seguir los siguientes pasos:\n\n1. Ingresar a la plataforma Intranet-Alumnos.\n2. Seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\".\n3. Ser\u00e1 redirigido al m\u00f3dulo de pagos del Portal INTRALU.\n4. En el m\u00f3dulo de pagos, seleccionar la opci\u00f3n \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable.\n5. Hacer clic en el bot\u00f3n \"Nuevo\" y seguir las indicaciones hasta generar la orden de pago.\n\nUna vez generada la orden de pago, el estudiante podr\u00e1 realizar el pago por aplicativo m\u00f3vil BCP o en alguna sucursal de la entidad bancaria. Para m\u00e1s detalles sobre el proceso, puedes consultar el Manual de Pagos publicado en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas indicarme d\u00f3nde puedo encontrar el Manual de Pagos en la p\u00e1gina web de la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica sobre la ubicaci\u00f3n exacta del Manual de Pagos en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda buscar en la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias para encontrar el Manual de Pagos. Si no encuentras la informaci\u00f3n, te sugiero contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener la ubicaci\u00f3n exacta del manual."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la respuesta. Buscar\u00e9 en la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias para encontrar el Manual de Pagos. Si no lo encuentro, me pondr\u00e9 en contacto con la Oficina de Estad\u00edstica para obtener m\u00e1s informaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar el Manual de Pagos en la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias. Si no lo encuentras, te sugiero contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener m\u00e1s informaci\u00f3n."
+            }
+        ]
+    },
+    {
+        "id": 212,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfD\u00f3nde puede encontrar un estudiante el manual de pagos de la UNI para obtener m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar el manual de pagos de la UNI en la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la P\u00e1gina Web de la Facultad de Ciencias. Aqu\u00ed est\u00e1 el enlace directo: [https://fc.uni.edu.pe/documentos/](https://fc.uni.edu.pe/documentos/)."
+            },
+            {
+                "role": "user",
+                "content": "\u00a1Gracias por la informaci\u00f3n! Revisar\u00e9 el enlace que me proporcionaste para encontrar el manual de pagos de la UNI. Si tengo alguna otra pregunta o necesito m\u00e1s asesoramiento, \u00bfpuedo volver a contactarte?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Claro! Estoy aqu\u00ed para ayudarte. Si tienes alguna otra pregunta o necesitas m\u00e1s asesoramiento, no dudes en contactarme nuevamente. Estar\u00e9 encantado de ayudarte en lo que necesites."
+            },
+            {
+                "role": "user",
+                "content": "\u00a1Gracias! Si tengo m\u00e1s preguntas o necesito m\u00e1s asesoramiento, definitivamente te contactar\u00e9 nuevamente. Aprecio tu disposici\u00f3n para ayudar."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes m\u00e1s preguntas o necesitas m\u00e1s asesoramiento, no dudes en contactarme nuevamente. Estoy disponible para brindarte la informaci\u00f3n que necesites. \u00a1Gracias por tu aprecio y confianza!"
+            }
+        ]
+    },
+    {
+        "id": 213,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para solicitar un retiro parcial de asignaturas en la Universidad Nacional de Ingenier\u00eda?"
+            },
+            {
+                "role": "assistant",
+                "content": "El procedimiento para solicitar un retiro parcial de asignaturas en la Universidad Nacional de Ingenier\u00eda es el siguiente:\n1. Ingresa a la plataforma de intranet-alumnos.\n2. Selecciona la opci\u00f3n \"retiro parcial\".\n3. Se mostrar\u00e1n los cursos matriculados en el presente ciclo, selecciona aquellos cursos de los que deseas retirarte.\n4. Ten en cuenta que el retiro parcial procede \u00fanicamente para asignaturas m\u00e1s avanzadas, no para asignaturas de ciclos m\u00e1s atrasados, asignaturas repetidas dos o m\u00e1s veces, ni asignaturas prerrequisito.\n5. Puedes retirarte de un m\u00e1ximo de hasta tres asignaturas retiradas, siempre y cuando no implique retirarte de todos los cursos en los que est\u00e1s matriculado.\n6. Podr\u00e1s consultar el resultado de tu solicitud de retiro de asignaturas accediendo a la plataforma de intranet-alumno y seleccionando la opci\u00f3n de ficha de matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfHay alg\u00fan plazo espec\u00edfico para solicitar el retiro parcial de asignaturas?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, el plazo espec\u00edfico para solicitar el retiro parcial de asignaturas es hasta el \u00faltimo d\u00eda h\u00e1bil de la quinta semana despu\u00e9s del inicio de clases del per\u00edodo acad\u00e9mico. Recuerda que este procedimiento solo aplica para asignaturas m\u00e1s avanzadas y no para asignaturas del ciclo m\u00e1s bajo, asignaturas repetidas dos o m\u00e1s veces, ni asignaturas prerrequisito."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfHay alguna consecuencia acad\u00e9mica o financiera al solicitar un retiro parcial de asignaturas?"
+            },
+            {
+                "role": "assistant",
+                "content": "Al solicitar un retiro parcial de asignaturas, no hay consecuencias acad\u00e9micas ni financieras siempre y cuando se realice dentro del plazo establecido y se cumplan los requisitos mencionados anteriormente. Sin embargo, es importante tener en cuenta que el retiro parcial puede afectar el avance en el plan de estudios y posiblemente retrasar la graduaci\u00f3n. Adem\u00e1s, es posible que se deba pagar una tasa administrativa por el tr\u00e1mite de retiro parcial, cuyo monto puede variar seg\u00fan las pol\u00edticas de la universidad. Te recomiendo consultar con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre las implicaciones financieras."
+            }
+        ]
+    },
+    {
+        "id": 214,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son las consecuencias de solicitar un retiro total de todas las asignaturas en las que est\u00e1 matriculado un estudiante?"
+            },
+            {
+                "role": "assistant",
+                "content": "Al solicitar un retiro total de todas las asignaturas en las que est\u00e1 matriculado un estudiante, las consecuencias pueden variar seg\u00fan el contexto y las pol\u00edticas espec\u00edficas de la Facultad de Ciencias. Sin embargo, generalmente se considera que el retiro total implica la anulaci\u00f3n total de la matr\u00edcula en el per\u00edodo acad\u00e9mico actual. Esto significa que el estudiante no recibir\u00e1 cr\u00e9ditos ni calificaciones por las asignaturas retiradas y deber\u00e1 volver a matricularse en un per\u00edodo acad\u00e9mico posterior para continuar con sus estudios. Es importante tener en cuenta que las pol\u00edticas y consecuencias exactas pueden variar, por lo que se recomienda consultar el reglamento de matr\u00edcula y procedimientos de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me gustar\u00eda saber si hay alguna restricci\u00f3n o l\u00edmite en la cantidad de veces que un estudiante puede solicitar un retiro total de asignaturas durante su carrera universitaria."
+            },
+            {
+                "role": "assistant",
+                "content": "Seg\u00fan la informaci\u00f3n proporcionada, no se menciona ninguna restricci\u00f3n o l\u00edmite en la cantidad de veces que un estudiante puede solicitar un retiro total de asignaturas durante su carrera universitaria. Sin embargo, es importante tener en cuenta que el retiro total procede \u00fanicamente por motivos de fuerza mayor y debe ser evaluado y aprobado por el Consejo Directivo de la Escuela Profesional correspondiente. Se recomienda consultar el reglamento de matr\u00edcula y procedimientos de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre posibles restricciones o limitaciones adicionales."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Tomar\u00e9 en cuenta lo mencionado y revisar\u00e9 el reglamento de matr\u00edcula y procedimientos de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre las posibles restricciones o limitaciones adicionales."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Revisar el reglamento de matr\u00edcula y procedimientos de la Facultad de Ciencias te brindar\u00e1 informaci\u00f3n m\u00e1s precisa sobre posibles restricciones o limitaciones adicionales en relaci\u00f3n con el retiro total de asignaturas. Si tienes alguna otra pregunta o necesitas m\u00e1s ayuda, no dudes en preguntar. \u00a1Buena suerte con tu proceso de matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": 215,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el banco en el que un estudiante puede realizar el pago de la constancia de notas?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los estudiantes pueden realizar el pago de la constancia de notas en el Banco de Cr\u00e9dito del Per\u00fa (BCP). Pueden hacerlo en alguna sucursal del banco o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas indicarme cu\u00e1les son los pasos espec\u00edficos para realizar el pago de la constancia de notas a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para realizar el pago de la constancia de notas a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP, sigue estos pasos:\n\n1. Descarga e instala la aplicaci\u00f3n m\u00f3vil del BCP en tu dispositivo.\n2. Inicia sesi\u00f3n en la aplicaci\u00f3n con tus credenciales.\n3. Busca la opci\u00f3n \"Pagar servicios\" dentro de la aplicaci\u00f3n.\n4. Busca y selecciona \"Universidad Nacional de Ingenier\u00eda\" como el beneficiario del pago.\n5. Elige la opci\u00f3n de pago para estudiantes.\n6. Ingresa tu n\u00famero de DNI cuando se te solicite.\n7. La aplicaci\u00f3n mostrar\u00e1 la orden de pago con el monto exacto a pagar.\n8. Verifica los datos y confirma la operaci\u00f3n para realizar el pago.\n\nRecuerda esperar al menos 10 minutos despu\u00e9s de generar la orden de pago antes de realizar el pago correspondiente."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n detallada. Entendido, seguir\u00e9 los pasos mencionados para realizar el pago de la constancia de notas a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP. Asegurar\u00e9 esperar al menos 10 minutos despu\u00e9s de generar la orden de pago antes de realizar el pago correspondiente."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Excelente! Siguiendo los pasos mencionados, podr\u00e1s realizar el pago de la constancia de notas a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP. Recuerda esperar al menos 10 minutos despu\u00e9s de generar la orden de pago antes de realizar el pago correspondiente. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Estoy aqu\u00ed para ayudarte!"
+            }
+        ]
+    },
+    {
+        "id": 216,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 informaci\u00f3n debe incluir la solicitud de orden de pago para la constancia de notas?"
+            },
+            {
+                "role": "assistant",
+                "content": "La solicitud de orden de pago para la constancia de notas debe incluir los siguientes datos personales: n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfHay alg\u00fan formato espec\u00edfico que deba utilizar para la solicitud de orden de pago?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, hay un formato espec\u00edfico que debes utilizar para la solicitud de orden de pago. Puedes encontrar el modelo de solicitud en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias, lo buscar\u00e9."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 217,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el horario de atenci\u00f3n para recoger la constancia de notas una vez que est\u00e9 lista?"
+            },
+            {
+                "role": "assistant",
+                "content": "El horario de atenci\u00f3n para recoger la constancia de notas una vez que est\u00e9 lista es de lunes a viernes, de 08:00 a 13:00 y de 14:00 a 15:30."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfD\u00f3nde se encuentra ubicada la oficina donde puedo recoger la constancia de notas?"
+            },
+            {
+                "role": "assistant",
+                "content": "La oficina donde puedes recoger la constancia de notas se encuentra en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda. Te recomendar\u00eda dirigirte a la Oficina de Estad\u00edstica, ubicada en la direcci\u00f3n Av. T\u00fapac Amaru 210, R\u00edmac, Lima, Per\u00fa."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me dirigir\u00e9 a la Oficina de Estad\u00edstica en la direcci\u00f3n Av. T\u00fapac Amaru 210, R\u00edmac, Lima, Per\u00fa para recoger la constancia de notas."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Excelente! Te recomiendo dirigirte a la Oficina de Estad\u00edstica en la direcci\u00f3n Av. T\u00fapac Amaru 210, R\u00edmac, Lima, Per\u00fa para recoger tu constancia de notas. Recuerda que el horario de atenci\u00f3n es de lunes a viernes, de 08:00 a 13:00 y de 14:00 a 15:30. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte!"
+            }
+        ]
+    },
+    {
+        "id": 218,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son las posibles razones por las que un estudiante podr\u00eda tener problemas para realizar la matr\u00edcula de sus cursos a trav\u00e9s del m\u00f3dulo de Matr\u00edcula UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los posibles problemas que un estudiante podr\u00eda enfrentar al realizar la matr\u00edcula de sus cursos a trav\u00e9s del m\u00f3dulo de Matr\u00edcula UNI son los siguientes:\n1. Tener deudas registradas en el sistema, incluyendo la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico.\n2. No haber realizado el pago del autoseguro dentro del plazo establecido en el calendario de actividades acad\u00e9micas.\n3. Otros inconvenientes no especificados, para los cuales se recomienda ponerse en contacto directamente con la Oficina de Estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe o acercarse personalmente a dicha oficina."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me gustar\u00eda saber m\u00e1s sobre la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico. \u00bfPodr\u00edas proporcionarme m\u00e1s detalles sobre c\u00f3mo funciona este proceso y c\u00f3mo puedo acceder a la tutor\u00eda?"
+            },
+            {
+                "role": "assistant",
+                "content": "La tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico es un proceso obligatorio antes de la matr\u00edcula. Para acceder a la tutor\u00eda, puedes comunicarte al correo tutoria.fc@uni.edu.pe o acercarte personalmente a la oficina correspondiente. Durante la tutor\u00eda, recibir\u00e1s orientaci\u00f3n y acompa\u00f1amiento en tu desarrollo acad\u00e9mico. Al finalizar el semestre, el tutor enviar\u00e1 un informe sobre tu desempe\u00f1o acad\u00e9mico. Es importante cumplir con este requisito para poder habilitar tu matr\u00edcula. Para obtener m\u00e1s detalles sobre el proceso y c\u00f3mo acceder a la tutor\u00eda, te recomiendo contactar directamente con la Oficina de Tutor\u00eda."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la Oficina de Tutor\u00eda a trav\u00e9s del correo tutoria.fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso y c\u00f3mo acceder a la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico."
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes comunicarte con la Oficina de Tutor\u00eda a trav\u00e9s del correo tutoria.fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso y c\u00f3mo acceder a la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico. Ellos te brindar\u00e1n la informaci\u00f3n necesaria y te guiar\u00e1n en el proceso."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la Oficina de Tutor\u00eda a trav\u00e9s del correo tutoria.fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso y c\u00f3mo acceder a la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico."
+            },
+            {
+                "role": "assistant",
+                "content": "Perfecto, te recomiendo que te comuniques con la Oficina de Tutor\u00eda a trav\u00e9s del correo tutoria.fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso y c\u00f3mo acceder a la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico. Ellos podr\u00e1n brindarte la informaci\u00f3n necesaria y guiarte en el proceso."
+            }
+        ]
+    },
+    {
+        "id": 219,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 debe hacer un estudiante si no encuentra el tr\u00e1mite correspondiente en la lista de opciones dentro de la plataforma de intranet-alumnos para generar una orden de pago?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante no encuentra el tr\u00e1mite correspondiente en la lista de opciones dentro de la plataforma de intranet-alumnos para generar una orden de pago, debe solicitar la generaci\u00f3n de la orden de pago a la Oficina de Estad\u00edstica (AERA) enviando un correo electr\u00f3nico a estadistica_fc@uni.edu.pe. En el mensaje, debe detallar el concepto del tr\u00e1mite y proporcionar sus datos personales, como DNI, apellidos, nombres y correo institucional. La Oficina de Estad\u00edstica se encargar\u00e1 de generar la orden de pago correspondiente."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si no encuentro el tr\u00e1mite para generar una orden de pago en la plataforma de intranet-alumnos, debo enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe detallando el concepto del tr\u00e1mite y proporcionando mis datos personales, como DNI, apellidos, nombres y correo institucional. La Oficina de Estad\u00edstica se encargar\u00e1 de generar la orden de pago correspondiente, \u00bfes correcto?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, eso es correcto. Si no encuentras el tr\u00e1mite para generar una orden de pago en la plataforma de intranet-alumnos, debes enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe detallando el concepto del tr\u00e1mite y proporcionando tus datos personales, como DNI, apellidos, nombres y correo institucional. La Oficina de Estad\u00edstica se encargar\u00e1 de generar la orden de pago correspondiente."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la confirmaci\u00f3n. En caso de no encontrar el tr\u00e1mite en la plataforma, enviar\u00e9 un correo a estadistica_fc@uni.edu.pe con los detalles del tr\u00e1mite y mis datos personales para que la Oficina de Estad\u00edstica genere la orden de pago."
+            },
+            {
+                "role": "assistant",
+                "content": "Correcto, si no encuentras el tr\u00e1mite en la plataforma, debes enviar un correo a estadistica_fc@uni.edu.pe con los detalles del tr\u00e1mite y tus datos personales para que la Oficina de Estad\u00edstica genere la orden de pago correspondiente. Ellos se encargar\u00e1n de enviar la orden de pago a tu correo electr\u00f3nico para que puedas realizar el pago. Recuerda incluir en el correo el concepto del tr\u00e1mite, tu n\u00famero de DNI, apellidos, nombres y correo institucional."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, gracias."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Buena suerte con tus tr\u00e1mites acad\u00e9micos!"
+            }
+        ]
+    },
+    {
+        "id": 220,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para comunicarse con la Oficina de Tutor\u00eda si un estudiante adeuda la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes comunicarte con la Oficina de Tutor\u00eda para obtener m\u00e1s informaci\u00f3n sobre el procedimiento para los estudiantes que adeudan la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico. Puedes enviar un correo electr\u00f3nico a tutoria.fc@uni.edu.pe o acercarte personalmente a la oficina. Recuerda que la tutor\u00eda previa es obligatoria para la habilitaci\u00f3n de la matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme los horarios de atenci\u00f3n de la Oficina de Tutor\u00eda? Tambi\u00e9n me gustar\u00eda saber si es necesario hacer una cita previa o si puedo acercarme directamente durante los horarios de atenci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "La informaci\u00f3n proporcionada no incluye los horarios de atenci\u00f3n de la Oficina de Tutor\u00eda ni menciona si es necesario hacer una cita previa. Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica. Te recomendar\u00eda comunicarte directamente con la Oficina de Tutor\u00eda a trav\u00e9s del correo electr\u00f3nico tutoria.fc@uni.edu.pe para obtener los horarios de atenci\u00f3n y confirmar si es necesario hacer una cita previa. Ellos podr\u00e1n brindarte la informaci\u00f3n actualizada y precisa que necesitas."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la ayuda."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tus tr\u00e1mites acad\u00e9micos!"
+            }
+        ]
+    },
+    {
+        "id": 221,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el correo electr\u00f3nico al que un estudiante debe enviar un mensaje si tiene alg\u00fan otro inconveniente con la matr\u00edcula de sus cursos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante tiene alg\u00fan otro inconveniente con la matr\u00edcula de sus cursos, debe enviar un mensaje al correo estadistica_fc@uni.edu.pe. El equipo de la Oficina de Estad\u00edstica (AERA) podr\u00e1 brindarle la asistencia necesaria."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme m\u00e1s detalles sobre los servicios que ofrece la Oficina de Estad\u00edstica (AERA) en relaci\u00f3n a los inconvenientes de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "La Oficina de Estad\u00edstica (AERA) ofrece diversos servicios relacionados con los inconvenientes de matr\u00edcula. Estos incluyen:\n\n1. Procesos de matr\u00edcula: Planificaci\u00f3n, atenci\u00f3n y supervisi\u00f3n de los procedimientos de matr\u00edcula en cada semestre acad\u00e9mico, incluyendo matr\u00edcula regular, condicionada y rezagada, reincorporaci\u00f3n, grupo cero de matr\u00edcula, matr\u00edcula preferencial, reserva de matr\u00edcula y retiros parciales, totales y definitivos.\n\n2. Procesos de evaluaci\u00f3n: Supervisi\u00f3n del sistema de calificaci\u00f3n, registro de notas de pr\u00e1cticas y ex\u00e1menes, atenci\u00f3n de reclamos de notas, seguimiento de la entrega oportuna de notas por parte de los docentes y registro de notas del Examen de Regularizaci\u00f3n.\n\n3. Otras actividades: Coordinaci\u00f3n del tr\u00e1mite de carn\u00e9s universitarios, elaboraci\u00f3n de constancias de notas y/o matr\u00edcula, verificaci\u00f3n de certificados de notas y constancias de egresado emitidas por la DIRCE, entrega de reportes y estad\u00edsticas a las diferentes oficinas de la facultad y gesti\u00f3n de deudas por Derecho de la Ense\u00f1anza.\n\nRecuerda que si tienes alg\u00fan inconveniente espec\u00edfico con la matr\u00edcula, puedes comunicarte directamente con la Oficina de Estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n detallada. Ahora tengo una mejor comprensi\u00f3n de los servicios que ofrece la Oficina de Estad\u00edstica (AERA) en relaci\u00f3n a los inconvenientes de matr\u00edcula. Si tengo alg\u00fan problema espec\u00edfico, me comunicar\u00e9 con ellos a trav\u00e9s del correo proporcionado."
+            },
+            {
+                "role": "assistant",
+                "content": "Me alegra que la informaci\u00f3n haya sido \u00fatil para ti. Si tienes alg\u00fan problema espec\u00edfico con la matr\u00edcula, te recomiendo que te comuniques directamente con la Oficina de Estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe. Ellos podr\u00e1n brindarte la asistencia necesaria."
+            }
+        ]
+    },
+    {
+        "id": 222,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el tiempo de espera recomendado luego de generar una orden de pago para realizar el pago correspondiente?"
+            },
+            {
+                "role": "assistant",
+                "content": "Se recomienda esperar al menos 10 minutos luego de generar la orden de pago para realizar el pago correspondiente."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfHay alguna raz\u00f3n espec\u00edfica por la cual se recomienda esperar 10 minutos antes de realizar el pago?"
+            },
+            {
+                "role": "assistant",
+                "content": "No tengo acceso a esa informaci\u00f3n espec\u00edfica. Sin embargo, es posible que se recomiende esperar 10 minutos para asegurarse de que la orden de pago se haya procesado correctamente en el sistema antes de realizar el pago correspondiente. Esto puede ayudar a evitar posibles errores o inconvenientes al realizar el pago. Si deseas obtener m\u00e1s detalles sobre el proceso de pago, te sugiero consultar el Manual de Pagos publicado en la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la P\u00e1gina Web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la respuesta. Entiendo que esperar 10 minutos puede ayudar a asegurar que la orden de pago se haya procesado correctamente. Consultar el Manual de Pagos en la P\u00e1gina Web de la Facultad de Ciencias ser\u00eda \u00fatil para obtener m\u00e1s detalles sobre el proceso de pago."
+            },
+            {
+                "role": "assistant",
+                "content": "Es correcto, consultar el Manual de Pagos en la P\u00e1gina Web de la Facultad de Ciencias te brindar\u00e1 m\u00e1s detalles sobre el proceso de pago y te ayudar\u00e1 a tener una gu\u00eda completa para realizar el pago de manera adecuada."
+            }
+        ]
+    },
+    {
+        "id": 223,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 debe hacer un estudiante si no puede realizar el pago a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante no puede realizar el pago a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco, puede dirigirse a alguna sucursal del BCP para realizar el pago correspondiente. Recuerda que es importante esperar al menos 10 minutos despu\u00e9s de generar la orden de pago antes de realizar el pago en la sucursal. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la respuesta. \u00bfPodr\u00edas decirme cu\u00e1les son las sucursales del BCP m\u00e1s cercanas a la Universidad Nacional de Ingenier\u00eda?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias o consultar en la p\u00e1gina web del BCP para obtener una lista actualizada de las sucursales m\u00e1s cercanas a la Universidad Nacional de Ingenier\u00eda."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la sugerencia. Me pondr\u00e9 en contacto con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener esa informaci\u00f3n o consultar\u00e9 la p\u00e1gina web del BCP."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Esa es una excelente idea. Te recomiendo contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias o consultar la p\u00e1gina web del BCP para obtener la informaci\u00f3n actualizada sobre las sucursales m\u00e1s cercanas a la Universidad Nacional de Ingenier\u00eda. Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 224,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpodr\u00edas ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. Adelante, preg\u00fantame lo que necesites saber."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el primer paso que debe seguir un estudiante para generar una orden de pago por alg\u00fan concepto o tr\u00e1mite espec\u00edfico?"
+            },
+            {
+                "role": "assistant",
+                "content": "El primer paso que debe seguir un estudiante para generar una orden de pago por alg\u00fan concepto o tr\u00e1mite espec\u00edfico es acceder a la plataforma de intranet-alumnos. Dentro de la plataforma, selecciona la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU. En el m\u00f3dulo de pagos, selecciona el tr\u00e1mite correspondiente en el men\u00fa desplegable. Despu\u00e9s, haz clic en el bot\u00f3n \"Nuevo\" y sigue las indicaciones hasta generar la orden de pago correspondiente. Si el tr\u00e1mite no est\u00e1 estipulado en la lista de opciones dentro de la plataforma, puedes solicitar la generaci\u00f3n de la orden de pago a la oficina de estad\u00edstica (AERA) al correo estadistica_fc@uni.edu.pe, proporcionando los detalles del tr\u00e1mite y tus datos personales (DNI, apellidos, nombres, correo institucional) en el mensaje."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, para generar una orden de pago por alg\u00fan concepto o tr\u00e1mite espec\u00edfico, debo acceder a la plataforma de intranet-alumnos y seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" en el Portal INTRALU. Luego, elijo el tr\u00e1mite correspondiente en el men\u00fa desplegable y sigo las indicaciones para generar la orden de pago. Si el tr\u00e1mite no est\u00e1 en la lista, puedo solicitarlo a la oficina de estad\u00edstica (AERA) por correo electr\u00f3nico. \u00bfEs correcto?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, eso es correcto. Para generar una orden de pago por alg\u00fan concepto o tr\u00e1mite espec\u00edfico, debes acceder a la plataforma de intranet-alumnos y seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" en el Portal INTRALU. Luego, elige el tr\u00e1mite correspondiente en el men\u00fa desplegable y sigue las indicaciones para generar la orden de pago. Si el tr\u00e1mite no est\u00e1 en la lista, puedes solicitarlo a la oficina de estad\u00edstica (AERA) por correo electr\u00f3nico."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la confirmaci\u00f3n. Entonces, para generar una orden de pago, debo acceder a la plataforma de intranet-alumnos, seleccionar \"Tr\u00e1mites y Pagos\" en el Portal INTRALU, elegir el tr\u00e1mite y seguir las indicaciones. Si no est\u00e1 en la lista, puedo solicitarlo a la oficina de estad\u00edstica por correo electr\u00f3nico."
+            },
+            {
+                "role": "assistant",
+                "content": "As\u00ed es, para generar una orden de pago debes acceder a la plataforma de intranet-alumnos, seleccionar \"Tr\u00e1mites y Pagos\" en el Portal INTRALU, elegir el tr\u00e1mite y seguir las indicaciones. Si el tr\u00e1mite no est\u00e1 en la lista, puedes solicitarlo a la oficina de estad\u00edstica por correo electr\u00f3nico."
+            }
+        ]
+    },
+    {
+        "id": 225,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpuedes ayudarme con informaci\u00f3n sobre la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro que s\u00ed, estar\u00e9 encantado de ayudarte con informaci\u00f3n sobre la Facultad de Ciencias. \u00bfEn qu\u00e9 puedo ayudarte espec\u00edficamente?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para solicitar la generaci\u00f3n de una orden de pago a la oficina de estad\u00edstica (AERA) si el tr\u00e1mite no est\u00e1 estipulado en la lista de opciones dentro de la plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si el tr\u00e1mite que deseas solicitar no est\u00e1 estipulado en la lista de opciones dentro de la plataforma, puedes enviar un correo a la oficina de estad\u00edstica (AERA) al correo estadistica_fc@uni.edu.pe. En el mensaje, detalla el concepto del tr\u00e1mite y proporciona tus datos personales (DNI, apellidos, nombres, correo institucional). El personal de AERA te brindar\u00e1 la asistencia necesaria para generar la orden de pago correspondiente. Recuerda que el horario de atenci\u00f3n de AERA es de lunes a viernes, de 8:00 a.m. a 4:00 p.m."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Enviar\u00e9 un correo a la oficina de estad\u00edstica (AERA) detallando el concepto del tr\u00e1mite y proporcionando mis datos personales. \u00bfHay alg\u00fan formato espec\u00edfico que deba utilizar en el correo o alguna informaci\u00f3n adicional que deba incluir?"
+            },
+            {
+                "role": "assistant",
+                "content": "En el correo que enviar\u00e1s a la oficina de estad\u00edstica (AERA), es importante que incluyas tus datos personales (n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo) y detalles espec\u00edficos sobre el concepto del tr\u00e1mite que deseas solicitar. No es necesario utilizar un formato espec\u00edfico en el correo, pero puedes mencionar que est\u00e1s solicitando una orden de pago para un tr\u00e1mite no estipulado en la lista de opciones de la plataforma. Recuerda que el modelo para la solicitud de tr\u00e1mites est\u00e1 disponible en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/)."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. En el correo a AERA, incluir\u00e9 mis datos personales y detalles espec\u00edficos sobre el tr\u00e1mite. No es necesario utilizar un formato espec\u00edfico, pero mencionar\u00e9 que solicito una orden de pago para un tr\u00e1mite no estipulado en la plataforma. Revisar\u00e9 el modelo de solicitud en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "assistant",
+                "content": "Perfecto, has comprendido correctamente el procedimiento. Recuerda incluir tus datos personales y detalles espec\u00edficos sobre el tr\u00e1mite en el correo a AERA. No es necesario utilizar un formato espec\u00edfico, pero menciona que est\u00e1s solicitando una orden de pago para un tr\u00e1mite no estipulado en la plataforma. Adem\u00e1s, te recomiendo revisar el modelo de solicitud disponible en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias para asegurarte de incluir toda la informaci\u00f3n necesaria. \u00a1Buena suerte con tu tr\u00e1mite!"
+            }
+        ]
+    },
+    {
+        "id": 226,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es la secci\u00f3n de la P\u00e1gina Web de la Facultad de Ciencias donde se puede encontrar el Manual de Pagos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar el Manual de Pagos en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias. Este manual proporciona informaci\u00f3n detallada sobre el proceso de generaci\u00f3n de una orden de pago y los pasos a seguir para realizar el pago correspondiente. Te recomiendo visitar la p\u00e1gina web de la facultad para acceder al manual y obtener m\u00e1s detalles sobre el proceso de pagos."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me dirigir\u00e9 a la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias para encontrar el Manual de Pagos y obtener m\u00e1s detalles sobre el proceso de pagos."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber sido de ayuda. Te recomiendo dirigirte a la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias para encontrar el Manual de Pagos. All\u00ed encontrar\u00e1s informaci\u00f3n detallada sobre el proceso de generaci\u00f3n de una orden de pago y los pasos a seguir para realizar el pago correspondiente. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu proceso de matr\u00edcula!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias por tu ayuda."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta en el futuro, no dudes en hacerla. \u00a1Que tengas un excelente d\u00eda!"
+            }
+        ]
+    },
+    {
+        "id": 227,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es la informaci\u00f3n que un estudiante debe proporcionar al solicitar la generaci\u00f3n de una orden de pago a la oficina de estad\u00edstica (AERA)?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante debe proporcionar los siguientes datos al solicitar la generaci\u00f3n de una orden de pago a la oficina de estad\u00edstica (AERA):\n\n- N\u00famero de DNI\n- Apellidos\n- Nombres\n- Correo institucional\n\nEstos datos deben ser incluidos en el mensaje enviado al correo estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, para solicitar la generaci\u00f3n de una orden de pago a la oficina de estad\u00edstica (AERA), debo enviar un correo a estadistica_fc@uni.edu.pe con los siguientes datos:\n\n- N\u00famero de DNI\n- Apellidos\n- Nombres\n- Correo institucional\n\n\u00bfHay alg\u00fan otro detalle o requisito que deba tener en cuenta al enviar el correo?"
+            },
+            {
+                "role": "assistant",
+                "content": "No, no hay ning\u00fan otro detalle o requisito adicional que debas tener en cuenta al enviar el correo a estadistica_fc@uni.edu.pe. Simplemente aseg\u00farate de incluir los datos solicitados (n\u00famero de DNI, apellidos, nombres y correo institucional) en el mensaje. La oficina de estad\u00edstica (AERA) se encargar\u00e1 de enviar la orden de pago correspondiente a tu correo electr\u00f3nico una vez recibida la solicitud."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, simplemente debo asegurarme de incluir los datos solicitados en el mensaje al correo estadistica_fc@uni.edu.pe y la oficina de estad\u00edstica (AERA) enviar\u00e1 la orden de pago a mi correo una vez recibida la solicitud."
+            },
+            {
+                "role": "assistant",
+                "content": "Exactamente, al enviar un correo a estadistica_fc@uni.edu.pe e incluir los datos solicitados (n\u00famero de DNI, apellidos, nombres y correo institucional), la oficina de estad\u00edstica (AERA) generar\u00e1 la orden de pago correspondiente y la enviar\u00e1 a tu correo electr\u00f3nico. Una vez que realices el pago y entregues el comprobante de pago junto con la solicitud en mesa de partes de la facultad o por correo electr\u00f3nico a mesadepartes_fc@uni.edu.pe, la oficina de estad\u00edstica te notificar\u00e1 cuando la constancia est\u00e9 lista para ser recogida."
+            }
+        ]
+    },
+    {
+        "id": 228,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el banco con el que se puede realizar el pago de una orden de pago generada por alg\u00fan concepto o tr\u00e1mite?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los ingresantes o estudiantes de la Universidad Nacional de Ingenier\u00eda pueden realizar el pago de una orden de pago generada por alg\u00fan concepto o tr\u00e1mite en alguna sucursal del BCP (Banco de Cr\u00e9dito del Per\u00fa) o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas decirme si hay alguna sucursal del BCP cerca del campus de la Universidad Nacional de Ingenier\u00eda?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, hay una sucursal del BCP cerca del campus de la Universidad Nacional de Ingenier\u00eda. Puedes dirigirte a la sucursal ubicada en la Av. T\u00fapac Amaru 210, R\u00edmac, Lima."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 229,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es la opci\u00f3n que un estudiante debe seleccionar en la aplicaci\u00f3n m\u00f3vil del banco para realizar el pago de una orden de pago?"
+            },
+            {
+                "role": "assistant",
+                "content": "En la aplicaci\u00f3n m\u00f3vil del banco, el estudiante debe seleccionar la opci\u00f3n \"Pagar servicios\", buscar a la Universidad Nacional de Ingenier\u00eda y seleccionarla. Luego, debe elegir la opci\u00f3n de pago para estudiantes e ingresar su n\u00famero de DNI. La aplicaci\u00f3n mostrar\u00e1 la orden de pago con el monto exacto para realizar el pago."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas decirme si es posible realizar el pago de la orden de pago a trav\u00e9s de transferencia bancaria desde otra entidad financiera o solo se puede hacer desde la misma entidad bancaria?"
+            },
+            {
+                "role": "assistant",
+                "content": "Seg\u00fan la informaci\u00f3n proporcionada, el pago de la orden de pago se puede realizar a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP o en alguna sucursal del mismo banco. No se menciona la posibilidad de realizar el pago a trav\u00e9s de transferencia bancaria desde otra entidad financiera. Para obtener informaci\u00f3n m\u00e1s precisa sobre las opciones de pago disponibles, te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, gracias."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 230,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpodr\u00edas ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. Adelante, preg\u00fantame lo que necesites saber."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el correo electr\u00f3nico al que un estudiante debe enviar un mensaje si necesita m\u00e1s detalles sobre el proceso para generar una orden de pago a trav\u00e9s de la plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "El correo electr\u00f3nico al que un estudiante debe enviar un mensaje si necesita m\u00e1s detalles sobre el proceso para generar una orden de pago a trav\u00e9s de la plataforma es estadistica_fc@uni.edu.pe. Puedes enviar tu consulta a esa direcci\u00f3n y ellos te brindar\u00e1n la informaci\u00f3n adicional que necesites."
+            },
+            {
+                "role": "user",
+                "content": "\u00a1Gracias por la informaci\u00f3n! Enviar\u00e9 mi consulta a estadistica_fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber sido de ayuda. Estoy seguro de que la oficina de estad\u00edstica de la Facultad de Ciencias estar\u00e1 encantada de brindarte m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago. No dudes en enviar tu consulta a estadistica_fc@uni.edu.pe y ellos te proporcionar\u00e1n la informaci\u00f3n adicional que necesitas. \u00a1Buena suerte con tu tr\u00e1mite!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias por tu ayuda. Enviar\u00e9 mi consulta a estadistica_fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago. \u00a1Aprecio tu apoyo!"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber sido de ayuda. Estoy seguro de que la oficina de estad\u00edstica de la Facultad de Ciencias estar\u00e1 encantada de brindarte m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago. No dudes en enviar tu consulta a estadistica_fc@uni.edu.pe y ellos te proporcionar\u00e1n la informaci\u00f3n adicional que necesitas. \u00a1Buena suerte con tu tr\u00e1mite!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Enviar\u00e9 mi consulta a estadistica_fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago. \u00a1Aprecio tu apoyo!"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber sido de ayuda. Estoy seguro de que la oficina de estad\u00edstica de la Facultad de Ciencias estar\u00e1 encantada de brindarte m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago. No dudes en enviar tu consulta a estadistica_fc@uni.edu.pe y ellos te proporcionar\u00e1n la informaci\u00f3n adicional que necesitas. \u00a1Buena suerte con tu tr\u00e1mite!"
+            }
+        ]
+    },
+    {
+        "id": 231,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el tiempo aproximado que debe esperar un estudiante para realizar el pago correspondiente en una sucursal del BCP luego de generar una orden de pago?"
+            },
+            {
+                "role": "assistant",
+                "content": "Despu\u00e9s de generar una orden de pago, se recomienda esperar al menos 10 minutos antes de realizar el pago correspondiente en una sucursal del BCP."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfHay alguna raz\u00f3n espec\u00edfica por la cual se recomienda esperar 10 minutos antes de realizar el pago en una sucursal del BCP?"
+            },
+            {
+                "role": "assistant",
+                "content": "No tengo acceso a esa informaci\u00f3n espec\u00edfica. Sin embargo, es posible que se recomiende esperar 10 minutos para asegurarse de que la orden de pago se haya procesado correctamente en el sistema antes de realizar el pago correspondiente en una sucursal del BCP. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, estar\u00e9 encantado de ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por tu respuesta. No tengo m\u00e1s preguntas en este momento. \u00a1Gracias por tu ayuda!"
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1ha sido un placer ayudarte! Si tienes alguna otra pregunta en el futuro, no dudes en hacerla. \u00a1Que tengas un excelente d\u00eda!"
+            }
+        ]
+    },
+    {
+        "id": 232,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para que un estudiante realice ayudant\u00eda acad\u00e9mica en las \u00e1reas de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante interesado en realizar ayudant\u00eda acad\u00e9mica en las \u00e1reas de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n debe ponerse en contacto con el departamento de su Escuela Profesional correspondiente. Puede obtener m\u00e1s informaci\u00f3n enviando un correo electr\u00f3nico a escuelas_fc1@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme m\u00e1s detalles sobre los requisitos espec\u00edficos para realizar una ayudant\u00eda acad\u00e9mica en esas \u00e1reas?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a informaci\u00f3n espec\u00edfica sobre los requisitos para realizar una ayudant\u00eda acad\u00e9mica en las \u00e1reas de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n. Te recomendar\u00eda que te pongas en contacto con el departamento de tu Escuela Profesional correspondiente a trav\u00e9s del correo electr\u00f3nico escuelas_fc1@uni.edu.pe para obtener m\u00e1s detalles sobre los requisitos espec\u00edficos para realizar una ayudant\u00eda acad\u00e9mica en esas \u00e1reas."
+            },
+            {
+                "role": "user",
+                "content": "Entiendo, gracias por tu respuesta. Me pondr\u00e9 en contacto con el departamento correspondiente para obtener m\u00e1s informaci\u00f3n sobre los requisitos para realizar una ayudant\u00eda acad\u00e9mica en las \u00e1reas de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una excelente idea ponerte en contacto con el departamento correspondiente para obtener m\u00e1s informaci\u00f3n sobre los requisitos para realizar una ayudant\u00eda acad\u00e9mica en las \u00e1reas de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n. Ellos podr\u00e1n brindarte todos los detalles necesarios para que puedas iniciar el proceso. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu solicitud de ayudant\u00eda acad\u00e9mica!"
+            }
+        ]
+    },
+    {
+        "id": 233,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el correo electr\u00f3nico al que deben contactar los estudiantes de Matem\u00e1ticas o Ingenier\u00eda F\u00edsica para obtener informaci\u00f3n sobre la ayudant\u00eda acad\u00e9mica?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los estudiantes de Matem\u00e1ticas o Ingenier\u00eda F\u00edsica deben contactar a la escuela correspondiente a trav\u00e9s del correo electr\u00f3nico escuelas_fc2@uni.edu.pe para obtener informaci\u00f3n sobre la ayudant\u00eda acad\u00e9mica."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme m\u00e1s detalles sobre el proceso de selecci\u00f3n de ayudantes acad\u00e9micos en la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica sobre el proceso de selecci\u00f3n de ayudantes acad\u00e9micos en la Facultad de Ciencias de la UNI. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener m\u00e1s detalles sobre este proceso. Puedes enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe o visitar su oficina en persona. El personal de la oficina estar\u00e1 encantado de brindarte la informaci\u00f3n que necesitas."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Contactar\u00e9 directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias de la UNI."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy seguro de que la Oficina de Estad\u00edstica de la Facultad de Ciencias de la UNI podr\u00e1 brindarte la informaci\u00f3n que necesitas sobre el proceso de selecci\u00f3n de ayudantes acad\u00e9micos. Si tienes alguna otra pregunta o necesitas ayuda adicional, no dudes en preguntar. \u00a1Buena suerte con tu consulta!"
+            }
+        ]
+    },
+    {
+        "id": 234,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpodr\u00edas ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. Adelante, preg\u00fantame lo que necesites saber."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos debe seguir un estudiante que no pudo inscribir sus cursos a tiempo durante la matr\u00edcula regular?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante no pudo inscribir sus cursos a tiempo durante la matr\u00edcula regular, debe seguir los siguientes pasos:\n\n1. Verificar si tiene alguna deuda registrada en el sistema. En caso de adeudar la tutor\u00eda previa requerida para estudiantes en riesgo acad\u00e9mico, debe ponerse en contacto con la Oficina de Tutor\u00eda a trav\u00e9s del correo electr\u00f3nico tutoria.fc@uni.edu.pe.\n\n2. Si no ha realizado el pago del autoseguro en el plazo establecido, es necesario comunicarse con la Oficina de Estad\u00edstica (AERA) o revisar el procedimiento para gestionar su matr\u00edcula rezagada.\n\n3. Para cualquier otro inconveniente, se recomienda ponerse en contacto directamente con la Oficina de Estad\u00edstica (AERA), enviando un mensaje al correo estadistica_fc@uni.edu.pe o acerc\u00e1ndose personalmente a dicha oficina.\n\nRecuerda que es importante resolver estos problemas lo antes posible para evitar contratiempos en tu matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si no pude inscribir mis cursos a tiempo, debo verificar si tengo alguna deuda registrada y contactar a la Oficina de Tutor\u00eda si adeudo la tutor\u00eda previa. Tambi\u00e9n debo comunicarme con la Oficina de Estad\u00edstica si no he realizado el pago del autoseguro o si tengo alg\u00fan otro inconveniente. Es importante resolver estos problemas lo antes posible."
+            },
+            {
+                "role": "assistant",
+                "content": "Exactamente, has comprendido correctamente los pasos a seguir. Si no pudiste inscribir tus cursos a tiempo, es importante verificar si tienes alguna deuda registrada y, en caso de adeudar la tutor\u00eda previa, contactar a la Oficina de Tutor\u00eda a trav\u00e9s del correo electr\u00f3nico tutoria.fc@uni.edu.pe. Adem\u00e1s, si no has realizado el pago del autoseguro o tienes alg\u00fan otro inconveniente, es recomendable comunicarte con la Oficina de Estad\u00edstica (AERA) enviando un mensaje al correo estadistica_fc@uni.edu.pe o acerc\u00e1ndote personalmente a dicha oficina. Recuerda resolver estos problemas lo antes posible para evitar contratiempos en tu matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Verificar\u00e9 si tengo alguna deuda registrada y me pondr\u00e9 en contacto con la Oficina de Tutor\u00eda o la Oficina de Estad\u00edstica seg\u00fan sea necesario. Resolver\u00e9 estos problemas lo antes posible."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber podido ayudarte. Recuerda verificar si tienes alguna deuda registrada y, en caso de adeudar la tutor\u00eda previa, contactar a la Oficina de Tutor\u00eda a trav\u00e9s del correo electr\u00f3nico tutoria.fc@uni.edu.pe. Si tienes alg\u00fan otro inconveniente, comun\u00edcate directamente con la Oficina de Estad\u00edstica (AERA) enviando un mensaje al correo estadistica_fc@uni.edu.pe o ac\u00e9rcate personalmente a dicha oficina. Es importante resolver estos problemas lo antes posible. Si necesitas m\u00e1s ayuda, no dudes en preguntar. \u00a1Buena suerte con tu matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": 235,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el proceso para gestionar la matr\u00edcula rezagada en la Universidad Nacional de Ingenier\u00eda (UNI)?"
+            },
+            {
+                "role": "assistant",
+                "content": "El proceso para gestionar la matr\u00edcula rezagada en la Universidad Nacional de Ingenier\u00eda (UNI) es el siguiente:\n\n1. Los estudiantes que deseen realizar la matr\u00edcula rezagada deben realizar el pago correspondiente de 26 soles. Para ello, deber\u00e1n generar una orden de pago a trav\u00e9s del Portal INTRALU, en la plataforma intranet-alumno.\n\n2. Despu\u00e9s de realizar el pago, deber\u00e1n subir el comprobante de pago en el formulario que se encuentra en el documento \"MATR\u00cdCULA REZAGADA\", publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la p\u00e1gina web de la Facultad de Ciencias.\n\n3. Una vez realizado el pago y subido el comprobante, el estudiante deber\u00e1 esperar a que el personal de la Oficina de Estad\u00edstica habilite el acceso a la plataforma de intranet-alumno, para que pueda realizar la matr\u00edcula directamente.\n\nRecuerda que la matr\u00edcula rezagada se realiza en las fechas establecidas en el calendario acad\u00e9mico publicado en la p\u00e1gina de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Tengo algunas preguntas adicionales sobre el proceso de matr\u00edcula rezagada en la UNI:\n\n1. \u00bfCu\u00e1l es el plazo para realizar el pago de la matr\u00edcula rezagada?\n2. \u00bfD\u00f3nde puedo encontrar el formulario para subir el comprobante de pago?\n3. \u00bfCu\u00e1nto tiempo suele tomar que el personal de la Oficina de Estad\u00edstica habilite el acceso a la plataforma de intranet-alumno despu\u00e9s de subir el comprobante de pago?\n\nAgradezco tu ayuda en aclarar estos detalles."
+            },
+            {
+                "role": "assistant",
+                "content": "1. El plazo para realizar el pago de la matr\u00edcula rezagada en la UNI no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda consultar el calendario acad\u00e9mico publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias para obtener esa informaci\u00f3n precisa.\n\n2. El formulario para subir el comprobante de pago se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias. Puedes acceder a dicho formulario siguiendo el enlace proporcionado en el documento.\n\n3. El tiempo que toma que el personal de la Oficina de Estad\u00edstica habilite el acceso a la plataforma de intranet-alumno despu\u00e9s de subir el comprobante de pago no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda comunicarte directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener esa informaci\u00f3n precisa."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Consultar\u00e9 el calendario acad\u00e9mico para conocer el plazo de pago y buscar\u00e9 el formulario en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\". Tambi\u00e9n me comunicar\u00e9 con la Oficina de Estad\u00edstica para obtener informaci\u00f3n sobre el tiempo de habilitaci\u00f3n de acceso a la plataforma."
+            },
+            {
+                "role": "assistant",
+                "content": "Entendido. Te recomendar\u00eda consultar el calendario acad\u00e9mico para conocer el plazo de pago de la matr\u00edcula rezagada y buscar el formulario para subir el comprobante de pago en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias. Adem\u00e1s, puedes comunicarte con la Oficina de Estad\u00edstica para obtener informaci\u00f3n sobre el tiempo de habilitaci\u00f3n de acceso a la plataforma de intranet-alumno. Ellos podr\u00e1n brindarte informaci\u00f3n m\u00e1s precisa sobre ese proceso. \u00a1Buena suerte con tu matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": 236,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el costo del tr\u00e1mite de reincorporaci\u00f3n para un estudiante que ha reservado su matr\u00edcula por uno o m\u00e1s periodos acad\u00e9micos?"
+            },
+            {
+                "role": "assistant",
+                "content": "El costo del tr\u00e1mite de reincorporaci\u00f3n para un estudiante que ha reservado su matr\u00edcula por uno o m\u00e1s periodos acad\u00e9micos es de S/. 42.00 + S/. 10.00 por cada periodo no estudiado. Este monto debe ser pagado al generar la orden de pago a trav\u00e9s de la plataforma intranet-alumnos. Puedes encontrar m\u00e1s detalles sobre el proceso en el Manual de Pagos publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me gustar\u00eda saber si hay alg\u00fan plazo espec\u00edfico para realizar el tr\u00e1mite de reincorporaci\u00f3n y si existen requisitos adicionales que deba cumplir."
+            },
+            {
+                "role": "assistant",
+                "content": "La solicitud de reincorporaci\u00f3n debe presentarse dentro del plazo establecido en el calendario de actividades acad\u00e9micas del ciclo actual, el cual es publicado en la p\u00e1gina web de la Facultad de Ciencias. No se mencionan requisitos adicionales en la informaci\u00f3n proporcionada. Para obtener m\u00e1s detalles sobre el proceso de solicitud de reincorporaci\u00f3n, te recomendar\u00eda revisar el Manual de Reincorporaci\u00f3n publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, revisar\u00e9 el manual. Gracias."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Buena suerte con tu tr\u00e1mite de reincorporaci\u00f3n!"
+            }
+        ]
+    },
+    {
+        "id": 237,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfC\u00f3mo puede un estudiante generar una orden de pago para el tr\u00e1mite de reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para generar una orden de pago para el tr\u00e1mite de reincorporaci\u00f3n, el estudiante debe seguir los siguientes pasos:\n\n1. Acceder a la plataforma Intranet-Alumnos con su c\u00f3digo UNI y clave correspondiente.\n2. Seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU.\n3. En el m\u00f3dulo de pagos, seleccionar el tr\u00e1mite correspondiente y generar un nuevo pago siguiendo las indicaciones en la plataforma.\n\nUna vez generada la orden de pago, el alumno debe realizar el pago en una sucursal del BCP o utilizando la aplicaci\u00f3n m\u00f3vil del BCP. Despu\u00e9s de completar el pago, el estudiante debe enviar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos dentro de los plazos establecidos."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfCu\u00e1les son los plazos establecidos para enviar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los plazos establecidos para enviar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos se encuentran en el calendario de actividades acad\u00e9micas del ciclo actual, el cual es publicado en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda revisar el calendario correspondiente para conocer los plazos espec\u00edficos para enviar tu solicitud de reincorporaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 el calendario de actividades acad\u00e9micas en la p\u00e1gina web de la Facultad de Ciencias para conocer los plazos espec\u00edficos para enviar mi solicitud de reincorporaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una buena idea revisar el calendario de actividades acad\u00e9micas en la p\u00e1gina web de la Facultad de Ciencias para conocer los plazos espec\u00edficos para enviar tu solicitud de reincorporaci\u00f3n. All\u00ed encontrar\u00e1s la informaci\u00f3n actualizada sobre los plazos establecidos para este tr\u00e1mite. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu solicitud de reincorporaci\u00f3n!"
+            }
+        ]
+    },
+    {
+        "id": 238,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para realizar el pago del tr\u00e1mite de reincorporaci\u00f3n en la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "El procedimiento para realizar el pago del tr\u00e1mite de reincorporaci\u00f3n en la UNI es el siguiente:\n\n1. Accede a la plataforma intranet-alumnos con tu c\u00f3digo UNI y clave correspondiente.\n2. Selecciona la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU.\n3. En el m\u00f3dulo de pagos, selecciona el tr\u00e1mite correspondiente y genera un nuevo pago siguiendo las indicaciones en la plataforma.\n\nRecuerda que el costo por el tr\u00e1mite de reincorporaci\u00f3n es de S/. 42.00 + S/. 10.00 por cada periodo no estudiado. Para obtener m\u00e1s detalles sobre el proceso, consulta el Manual de Pagos publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me gustar\u00eda saber si hay alguna fecha l\u00edmite para realizar el pago del tr\u00e1mite de reincorporaci\u00f3n. Adem\u00e1s, \u00bfqu\u00e9 documentos necesito presentar junto con el comprobante de pago?"
+            },
+            {
+                "role": "assistant",
+                "content": "La fecha l\u00edmite para realizar el pago del tr\u00e1mite de reincorporaci\u00f3n se establece en el calendario de actividades acad\u00e9micas del ciclo actual, el cual es publicado en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda revisar dicho calendario para conocer la fecha exacta.\n\nAdem\u00e1s del comprobante de pago, deber\u00e1s presentar los siguientes documentos al solicitar la reincorporaci\u00f3n:\n- Solicitud de reincorporaci\u00f3n, la cual puedes encontrar en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias.\n- Constancia de pago del tr\u00e1mite de reincorporaci\u00f3n.\n- Cualquier otro documento adicional que se indique en el Manual de Reincorporaci\u00f3n publicado en la misma secci\u00f3n de la p\u00e1gina web.\n\nRecuerda que es importante seguir las instrucciones y plazos establecidos para completar el proceso de reincorporaci\u00f3n de manera exitosa."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 el calendario de actividades acad\u00e9micas para conocer la fecha l\u00edmite. Adem\u00e1s, tomar\u00e9 nota de los documentos necesarios para solicitar la reincorporaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada. Recuerda revisar el calendario de actividades acad\u00e9micas para conocer la fecha l\u00edmite de solicitud de reincorporaci\u00f3n. Adem\u00e1s del comprobante de pago, deber\u00e1s presentar la solicitud de reincorporaci\u00f3n y cualquier otro documento adicional que se indique en el Manual de Reincorporaci\u00f3n publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias. Si tienes alguna otra pregunta, estar\u00e9 encantado de ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 el calendario de actividades acad\u00e9micas y el Manual de Reincorporaci\u00f3n para asegurarme de cumplir con todos los requisitos necesarios. Si tengo alguna otra pregunta, te lo har\u00e9 saber."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Revisa el calendario de actividades acad\u00e9micas y el Manual de Reincorporaci\u00f3n para asegurarte de cumplir con todos los requisitos necesarios. Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 239,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpuedes ayudarme con informaci\u00f3n sobre la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro que s\u00ed, estar\u00e9 encantado de ayudarte con informaci\u00f3n sobre la Facultad de Ciencias. \u00bfEn qu\u00e9 puedo ayudarte espec\u00edficamente?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el siguiente paso despu\u00e9s de completar el pago del tr\u00e1mite de reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Una vez completado el pago del tr\u00e1mite de reincorporaci\u00f3n, debes enviar tu solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos dentro de los plazos establecidos en el calendario acad\u00e9mico. Accede a la plataforma, selecciona \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\", completa el formulario con la solicitud y el comprobante de pago, y env\u00eda la solicitud. Una vez aprobada y realizada la reincorporaci\u00f3n, podr\u00e1s realizar tu matr\u00edcula de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, una vez completado el pago del tr\u00e1mite de reincorporaci\u00f3n, debo enviar mi solicitud a trav\u00e9s de la Plataforma de Intranet-Alumnos, seleccionando \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\". \u00bfEs correcto? Adem\u00e1s, \u00bfhay alg\u00fan plazo espec\u00edfico para enviar la solicitud?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Exactamente! Despu\u00e9s de completar el pago del tr\u00e1mite de reincorporaci\u00f3n, debes enviar tu solicitud a trav\u00e9s de la Plataforma de Intranet-Alumnos. Selecciona \"Reincorporaci\u00f3n de Estudiantes\" en la secci\u00f3n \"Mis Tr\u00e1mites\" y completa el formulario con la solicitud y el comprobante de pago. En cuanto al plazo, debes enviar la solicitud dentro del plazo establecido en el calendario acad\u00e9mico del ciclo actual, el cual se encuentra publicado en la p\u00e1gina web de la Facultad de Ciencias. Recuerda revisar el calendario para asegurarte de enviar la solicitud a tiempo."
+            },
+            {
+                "role": "user",
+                "content": "Gracias, entendido."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta sobre la Facultad de Ciencias o cualquier otro tema, no dudes en preguntar. \u00a1Estoy aqu\u00ed para asistirte en lo que necesites!"
+            }
+        ]
+    },
+    {
+        "id": 240,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpodr\u00edas ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. Adelante, preg\u00fantame lo que necesites saber."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfD\u00f3nde debe enviar un estudiante su solicitud de reincorporaci\u00f3n una vez completado el pago?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante debe enviar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos dentro de los plazos establecidos. Para ello, debe acceder a la plataforma, seleccionar \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\", completar el formulario con la solicitud y el comprobante de pago, y enviar la solicitud."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si entiendo correctamente, debo enviar mi solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos, seleccionando \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\" y completando el formulario con la solicitud y el comprobante de pago. \u00bfEs correcto?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Exactamente! Para solicitar tu reincorporaci\u00f3n, debes acceder a la Plataforma de Intranet-Alumnos y seleccionar la opci\u00f3n \"Reincorporaci\u00f3n de Estudiantes\" en la secci\u00f3n \"Mis Tr\u00e1mites\". Luego, completa el formulario con la solicitud y adjunta el comprobante de pago. Una vez que hayas enviado la solicitud, podr\u00e1s ver el estado de la misma en la plataforma. Recuerda realizar este tr\u00e1mite dentro de los plazos establecidos en el calendario acad\u00e9mico. Si tienes alguna otra pregunta, no dudes en hacerla."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n detallada. Entendido, debo acceder a la Plataforma de Intranet-Alumnos, seleccionar \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\", completar el formulario y adjuntar el comprobante de pago. Adem\u00e1s, debo estar atento a los plazos establecidos en el calendario acad\u00e9mico."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Exactamente! Has comprendido correctamente el procedimiento. Debes acceder a la Plataforma de Intranet-Alumnos, seleccionar \"Reincorporaci\u00f3n de Estudiantes\" en la secci\u00f3n \"Mis Tr\u00e1mites\", completar el formulario de solicitud y adjuntar el comprobante de pago. Recuerda estar atento a los plazos establecidos en el calendario acad\u00e9mico para realizar este tr\u00e1mite. Si tienes alguna otra pregunta, no dudes en hacerla."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la confirmaci\u00f3n. Entendido, debo acceder a la Plataforma de Intranet-Alumnos, seleccionar \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\", completar el formulario y adjuntar el comprobante de pago. Estar\u00e9 atento a los plazos establecidos en el calendario acad\u00e9mico."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Exactamente! Has comprendido correctamente el procedimiento. Debes acceder a la Plataforma de Intranet-Alumnos, seleccionar \"Reincorporaci\u00f3n de Estudiantes\" en la secci\u00f3n \"Mis Tr\u00e1mites\", completar el formulario de solicitud y adjuntar el comprobante de pago. Recuerda estar atento a los plazos establecidos en el calendario acad\u00e9mico para realizar este tr\u00e1mite. Si tienes alguna otra pregunta, no dudes en hacerla."
+            }
+        ]
+    },
+    {
+        "id": 241,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 debe hacer un estudiante si desea realizar su reincorporaci\u00f3n despu\u00e9s de haber reservado su matr\u00edcula por uno o m\u00e1s periodos acad\u00e9micos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para realizar la reincorporaci\u00f3n despu\u00e9s de haber reservado la matr\u00edcula, el estudiante debe seguir estos pasos:\n\n1. Generar una orden de pago a trav\u00e9s de la plataforma intranet-alumnos, en el m\u00f3dulo de pagos del Portal INTRALU.\n2. Realizar el pago correspondiente en una sucursal del BCP o utilizando la aplicaci\u00f3n m\u00f3vil del BCP.\n3. Enviar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos dentro de los plazos establecidos, seleccionando \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\" y adjuntando el formulario de solicitud y el comprobante de pago.\n4. Una vez aprobada la solicitud, el estudiante podr\u00e1 realizar su matr\u00edcula de manera regular.\n\nRecuerda consultar el Manual de Reincorporaci\u00f3n publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles sobre el proceso."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si entiendo correctamente, para realizar la reincorporaci\u00f3n despu\u00e9s de haber reservado la matr\u00edcula, debo generar una orden de pago a trav\u00e9s de la plataforma intranet-alumnos, realizar el pago correspondiente en el BCP, enviar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos adjuntando el formulario de solicitud y el comprobante de pago, y una vez aprobada la solicitud, podr\u00e9 realizar mi matr\u00edcula. \u00bfEs correcto? Adem\u00e1s, buscar\u00e9 el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Exactamente! Has comprendido correctamente el proceso de reincorporaci\u00f3n despu\u00e9s de haber reservado la matr\u00edcula. Debes generar una orden de pago a trav\u00e9s de la plataforma intranet-alumnos, realizar el pago correspondiente en el BCP y luego enviar la solicitud de reincorporaci\u00f3n adjuntando el formulario de solicitud y el comprobante de pago a trav\u00e9s de la Plataforma de Intranet-Alumnos. Una vez que tu solicitud sea aprobada, podr\u00e1s realizar tu matr\u00edcula de manera regular. Te recomiendo buscar el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles y asegurarte de seguir correctamente el procedimiento. \u00a1Buena suerte con tu reincorporaci\u00f3n!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n y los consejos. Buscar\u00e9 el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles y asegurarme de seguir correctamente el procedimiento. \u00a1Buena suerte con tu reincorporaci\u00f3n!"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una excelente idea buscar el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles y asegurarte de seguir correctamente el procedimiento. \u00a1Buena suerte con tu reincorporaci\u00f3n y cualquier otra consulta que tengas, no dudes en preguntar! Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 242,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para acceder al m\u00f3dulo de pagos del Portal INTRALU en la plataforma Intranet-Alumnos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder al m\u00f3dulo de pagos del Portal INTRALU en la plataforma Intranet-Alumnos, debes seguir los siguientes pasos:\n1. Ingresa a la plataforma de Intranet-Alumnos de la UNI.\n2. Dentro de la plataforma, busca y selecciona la opci\u00f3n \"Tr\u00e1mites y Pagos\".\n3. Ser\u00e1s redirigido al m\u00f3dulo de pagos del Portal INTRALU, donde podr\u00e1s realizar tus pagos correspondientes a conceptos y tr\u00e1mites espec\u00edficos.\nRecuerda que para acceder a la plataforma de Intranet-Alumnos, debes utilizar tus credenciales de acceso proporcionadas por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE). Si tienes alguna dificultad, te recomiendo comunicarte con la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entendido, para acceder al m\u00f3dulo de pagos del Portal INTRALU en la plataforma Intranet-Alumnos debo seguir los siguientes pasos: ingresar a la plataforma de Intranet-Alumnos de la UNI, buscar y seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" y ser\u00e9 redirigido al m\u00f3dulo de pagos del Portal INTRALU. Adem\u00e1s, debo utilizar mis credenciales de acceso proporcionadas por la DIRCE. Si tengo alguna dificultad, puedo comunicarme con la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe. \u00bfHay alg\u00fan otro detalle importante que deba tener en cuenta al realizar los pagos a trav\u00e9s de este m\u00f3dulo?"
+            },
+            {
+                "role": "assistant",
+                "content": "No tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda comunicarte con la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener detalles adicionales sobre el proceso de pagos a trav\u00e9s del m\u00f3dulo de pagos del Portal INTRALU en la plataforma Intranet-Alumnos. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada que necesitas."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, me comunicar\u00e9 con la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener detalles adicionales sobre el proceso de pagos a trav\u00e9s del m\u00f3dulo de pagos del Portal INTRALU en la plataforma Intranet-Alumnos. Gracias por la recomendaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy seguro de que la oficina de estad\u00edstica (AERA) podr\u00e1 brindarte m\u00e1s detalles sobre el proceso de pagos a trav\u00e9s del m\u00f3dulo de pagos del Portal INTRALU en la plataforma Intranet-Alumnos. No dudes en contactarlos a trav\u00e9s del correo estadistica_fc@uni.edu.pe. \u00a1Buena suerte con tu tr\u00e1mite!"
+            }
+        ]
+    },
+    {
+        "id": 243,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 debe hacer un estudiante una vez aprobada su solicitud de reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Una vez aprobada la solicitud de reincorporaci\u00f3n, el estudiante debe realizar su matr\u00edcula de manera regular. Puede acceder a la plataforma de intranet-alumnos, seleccionar la opci\u00f3n \"Mis Tr\u00e1mites\" y luego \"Reincorporaci\u00f3n de Estudiantes\". All\u00ed deber\u00e1 completar el formulario con la solicitud y el comprobante de pago, y enviar la solicitud. Despu\u00e9s de completar este proceso, se visualizar\u00e1 la solicitud enviada, la fecha de env\u00edo y el estado actual de la solicitud. Una vez aprobada y realizada la reincorporaci\u00f3n, el estudiante podr\u00e1 realizar su matr\u00edcula de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas decirme cu\u00e1l es el plazo para realizar la matr\u00edcula despu\u00e9s de que la solicitud de reincorporaci\u00f3n haya sido aprobada? Adem\u00e1s, \u00bfhay alg\u00fan requisito adicional que deba cumplir el estudiante antes de poder matricularse?"
+            },
+            {
+                "role": "assistant",
+                "content": "El plazo para realizar la matr\u00edcula despu\u00e9s de que la solicitud de reincorporaci\u00f3n haya sido aprobada se establece en el calendario de actividades acad\u00e9micas del ciclo actual, el cual es publicado en la p\u00e1gina web de la Facultad de Ciencias. Es importante revisar este calendario para conocer las fechas espec\u00edficas. En cuanto a los requisitos adicionales, una vez aprobada la solicitud de reincorporaci\u00f3n, el estudiante debe realizar el pago correspondiente y enviar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma de intranet-alumnos. Una vez completados estos pasos, el estudiante podr\u00e1 realizar su matr\u00edcula de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Eso es todo lo que necesitaba saber. \u00a1Gracias por tu ayuda!"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu proceso de reincorporaci\u00f3n y matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": 244,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el estado que se visualiza una vez completado el env\u00edo de la solicitud de reincorporaci\u00f3n por la plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "Una vez completado el env\u00edo de la solicitud de reincorporaci\u00f3n por la plataforma, se visualizar\u00e1 el estado actual de la solicitud, la fecha de env\u00edo y la solicitud enviada."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la respuesta. \u00bfPodr\u00edas indicarme c\u00f3mo puedo acceder a la plataforma para enviar la solicitud de reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder a la plataforma de intranet-alumnos y enviar la solicitud de reincorporaci\u00f3n, sigue estos pasos:\n1. Ingresa a la p\u00e1gina web de la DIRCE de la UNI (https://dirce.uni.edu.pe/).\n2. Busca la opci\u00f3n \"Acceso a alumnos\" en la p\u00e1gina principal y haz clic en ella.\n3. Se abrir\u00e1 la plataforma intranet-alumnos en una nueva ventana.\n4. Ingresa tus credenciales de acceso utilizando la clave que te ha sido enviada a tu correo electr\u00f3nico por la DIRCE.\n5. Una vez que hayas ingresado, busca la opci\u00f3n \"Mis Tr\u00e1mites\" y selecciona \"Reincorporaci\u00f3n de Estudiantes\".\n6. Completa el formulario con la solicitud y adjunta el comprobante de pago.\n7. Finalmente, env\u00eda la solicitud y podr\u00e1s visualizar el estado actual de la misma en la plataforma."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, para enviar la solicitud de reincorporaci\u00f3n debo ingresar a la p\u00e1gina web de la DIRCE de la UNI, acceder a la plataforma intranet-alumnos, completar el formulario de solicitud y adjuntar el comprobante de pago. \u00bfEs correcto?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, eso es correcto. Para enviar la solicitud de reincorporaci\u00f3n, debes ingresar a la p\u00e1gina web de la DIRCE de la UNI, acceder a la plataforma intranet-alumnos, completar el formulario de solicitud y adjuntar el comprobante de pago. Una vez que hayas enviado la solicitud, podr\u00e1s visualizar el estado actual de la misma en la plataforma."
+            }
+        ]
+    },
+    {
+        "id": 245,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 puede hacer un estudiante una vez realizada la reincorporaci\u00f3n para poder matricularse de manera regular?"
+            },
+            {
+                "role": "assistant",
+                "content": "Una vez realizada la reincorporaci\u00f3n, el estudiante puede matricularse de manera regular siguiendo estos pasos:\n\n1. Verificar que la reincorporaci\u00f3n haya sido aprobada y que se haya realizado el cambio de plan de estudios y las convalidaciones, si corresponde.\n2. Generar una orden de pago en la plataforma intranet-alumnos, siguiendo las indicaciones del Manual de Pagos publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias.\n3. Realizar el pago correspondiente en una sucursal del BCP o utilizando la aplicaci\u00f3n m\u00f3vil del BCP.\n4. Enviar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos dentro de los plazos establecidos, accediendo a la plataforma, seleccionando \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\", completando el formulario con la solicitud y el comprobante de pago, y enviando la solicitud.\n5. Una vez aprobada la reincorporaci\u00f3n, el estudiante podr\u00e1 realizar su matr\u00edcula de manera regular.\n\nRecuerda consultar el Manual de Reincorporaci\u00f3n publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles sobre el proceso de presentaci\u00f3n de la solicitud y el recibo de pago."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n detallada. Me gustar\u00eda saber m\u00e1s sobre el proceso de cambio de plan de estudios y las convalidaciones. \u00bfCu\u00e1les son los requisitos y pasos espec\u00edficos que debo seguir para realizar estos cambios?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica sobre los requisitos y pasos para realizar cambios de plan de estudios y convalidaciones. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener una respuesta precisa y actualizada sobre este tema. Ellos podr\u00e1n brindarte la informaci\u00f3n necesaria y guiarte en el proceso de cambio de plan de estudios y convalidaciones."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, gracias."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 246,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, asistente AI."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son los pasos que debe seguir un estudiante para completar su matr\u00edcula como nuevo ingresante en la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los pasos que debe seguir un estudiante nuevo ingresante para completar su matr\u00edcula en la Facultad de Ciencias de la UNI son los siguientes:\n\n1. Recabar su constancia de ingreso, la cual ser\u00e1 enviada por la Direcci\u00f3n de Admisi\u00f3n (DIAD) al correo electr\u00f3nico del estudiante.\n2. Actualizar sus datos en la plataforma intranet-alumnos, utilizando la clave que ser\u00e1 enviada por DIRCE al correo del estudiante.\n3. Registrar sus datos en la Facultad de Ciencias, siguiendo las indicaciones de la oficina de estad\u00edstica, la cual enviar\u00e1 la ficha de datos al correo del estudiante.\n4. Efectuar el pago por autoseguro dentro del plazo establecido en el cronograma de actividades acad\u00e9micas. Para ello, el estudiante deber\u00e1 generar una orden de pago a trav\u00e9s de la plataforma intranet-alumnos y realizar el pago en el Banco de Cr\u00e9dito del Per\u00fa (BCP) o en alguna sucursal de la entidad bancaria.\n5. Entregar los documentos requeridos a la oficina de estad\u00edstica, seg\u00fan el cronograma de actividades de matr\u00edcula para ingresantes publicado en la p\u00e1gina web de la Facultad de Ciencias. Estos documentos incluyen la constancia de ingreso, la ficha de datos, la constancia de evaluaci\u00f3n socioecon\u00f3mica, el certificado m\u00e9dico expedido por el Centro M\u00e9dico UNI y el comprobante de pago de autoseguro estudiantil.\n6. La oficina de estad\u00edstica ejecutar\u00e1 la matr\u00edcula (inscripci\u00f3n de cursos) de los ingresantes que hayan cumplido con la entrega de los documentos requeridos en las fechas establecidas en el cronograma.\n7. Los ingresantes matriculados recibir\u00e1n un correo con el horario de sus cursos y podr\u00e1n verlos en la plataforma intranet-alumnos.\n\nRecuerda que estos pasos son espec\u00edficos para nuevos ingresantes y pueden estar sujetos a cambios. Te recomiendo consultar el cronograma y la informaci\u00f3n actualizada en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "\u00a1Gracias por la informaci\u00f3n detallada! Me ha sido de mucha ayuda para entender el proceso de matr\u00edcula como nuevo ingresante en la Facultad de Ciencias de la UNI. Tendr\u00e9 en cuenta los pasos que mencionaste y consultar\u00e9 el cronograma y la p\u00e1gina web de la facultad para obtener informaci\u00f3n actualizada. Si tengo alguna otra pregunta, \u00bfpuedo acudir a ti?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra que la informaci\u00f3n haya sido \u00fatil para ti. Por supuesto, puedes acudir a m\u00ed si tienes alguna otra pregunta relacionada con el proceso de matr\u00edcula en la Facultad de Ciencias de la UNI. Estoy aqu\u00ed para ayudarte en lo que necesites."
+            },
+            {
+                "role": "user",
+                "content": "Gracias, lo tendr\u00e9 en cuenta. Si tengo alguna otra pregunta relacionada con la matr\u00edcula en la Facultad de Ciencias de la UNI, acudir\u00e9 a ti. Aprecio tu disposici\u00f3n para ayudar."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Gracias por tu aprecio! Estoy aqu\u00ed para ayudarte en lo que necesites relacionado con la matr\u00edcula en la Facultad de Ciencias de la UNI. No dudes en acudir a m\u00ed si tienes alguna otra pregunta. Estoy aqu\u00ed para brindarte informaci\u00f3n y asistencia."
+            }
+        ]
+    },
+    {
+        "id": 247,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el costo del autoseguro estudiantil que los ingresantes deben pagar durante su matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "El costo del autoseguro estudiantil que los ingresantes deben pagar durante su matr\u00edcula no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda consultar el manual de pagos de la UNI publicado en la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la respuesta. Entiendo que el costo del autoseguro estudiantil no est\u00e1 especificado en la informaci\u00f3n proporcionada. Consultar\u00e9 el manual de pagos en la p\u00e1gina web de la Facultad de Ciencias de la UNI para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una buena idea consultar el manual de pagos en la p\u00e1gina web de la Facultad de Ciencias de la UNI para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil. All\u00ed encontrar\u00e1s la informaci\u00f3n precisa que necesitas. Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la sugerencia. Consultar\u00e9 el manual de pagos en la p\u00e1gina web de la Facultad de Ciencias de la UNI para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil. Si tengo m\u00e1s preguntas, te las har\u00e9 saber."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una buena idea consultar el manual de pagos en la p\u00e1gina web de la Facultad de Ciencias de la UNI para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil. Si tienes m\u00e1s preguntas, estar\u00e9 encantado de ayudarte en lo que pueda."
+            }
+        ]
+    },
+    {
+        "id": 248,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfC\u00f3mo pueden los ingresantes verificar su horario de cursos despu\u00e9s de completar su matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los ingresantes pueden verificar su horario de cursos despu\u00e9s de completar su matr\u00edcula en la plataforma intranet-alumnos. En esta plataforma, podr\u00e1n acceder a su oferta de matr\u00edcula, donde encontrar\u00e1n el listado de asignaturas y sus respectivos horarios correspondientes. Adem\u00e1s, podr\u00e1n consultar el Reporte de Matr\u00edcula, que muestra las asignaturas matriculadas en el per\u00edodo acad\u00e9mico vigente. Recuerda que cualquier duda adicional puede ser consultada en la Oficina de Estad\u00edstica de la Facultad."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas indicarme c\u00f3mo puedo acceder a la plataforma intranet-alumnos? Adem\u00e1s, \u00bfd\u00f3nde se encuentra ubicada la Oficina de Estad\u00edstica de la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder a la plataforma intranet-alumnos, debes seguir los siguientes pasos:\n1. Ingresa al sitio web de la Facultad de Ciencias (https://fc.uni.edu.pe/).\n2. Dir\u00edgete a la secci\u00f3n \"Matr\u00edcula y Procedimientos\".\n3. Dentro de esa secci\u00f3n, encontrar\u00e1s un enlace o bot\u00f3n que te llevar\u00e1 a la plataforma intranet-alumnos.\n4. Haz clic en ese enlace y sigue las instrucciones para iniciar sesi\u00f3n con tu usuario y contrase\u00f1a proporcionados por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE).\n\nEn cuanto a la ubicaci\u00f3n de la Oficina de Estad\u00edstica de la Facultad de Ciencias, lamentablemente no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica a trav\u00e9s de los canales de comunicaci\u00f3n proporcionados en la p\u00e1gina web de la facultad para obtener esa informaci\u00f3n espec\u00edfica."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n sobre c\u00f3mo acceder a la plataforma intranet-alumnos. \u00bfPodr\u00edas proporcionarme los canales de comunicaci\u00f3n de la Facultad de Ciencias para contactar con la Oficina de Estad\u00edstica?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes contactar con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del siguiente canal de comunicaci\u00f3n:\n\n- E-mail: estadistica_fc@uni.edu.pe\n\nRecuerda que la Oficina de Estad\u00edstica est\u00e1 disponible de lunes a viernes de 8:00 a.m. a 4:00 p.m. para atender tus consultas y brindarte la informaci\u00f3n que necesites."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por proporcionar el correo electr\u00f3nico de la Oficina de Estad\u00edstica de la Facultad de Ciencias. Les enviar\u00e9 un correo con mis consultas y esperar\u00e9 su respuesta."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy seguro de que la Oficina de Estad\u00edstica de la Facultad de Ciencias estar\u00e1 encantada de recibir tu correo y responder a tus consultas. Espero que puedan brindarte la informaci\u00f3n que necesitas. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tus tr\u00e1mites acad\u00e9micos!"
+            }
+        ]
+    },
+    {
+        "id": 249,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el plazo l\u00edmite para que un estudiante solicite el Retiro Total?"
+            },
+            {
+                "role": "assistant",
+                "content": "El plazo l\u00edmite para que un estudiante solicite el Retiro Total es hasta una semana antes de los ex\u00e1menes parciales. Sin embargo, de manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los ex\u00e1menes finales en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD. Esta solicitud ser\u00e1 evaluada por el Consejo Directivo de la Escuela Profesional correspondiente."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas decirme cu\u00e1les son los pasos que debo seguir para solicitar el Retiro Total en caso de que cumpla con los requisitos mencionados?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar el Retiro Total, debes seguir los siguientes pasos:\n\n1. Accede a la plataforma intranet-alumnos utilizando tu c\u00f3digo UNI y la clave correspondiente.\n2. En el men\u00fa de navegaci\u00f3n, selecciona la opci\u00f3n \"Mis Tr\u00e1mites\" y luego \"Retiro Total\".\n3. Completa el formulario de solicitud, proporcionando la siguiente informaci\u00f3n:\n   - Motivo por el cual deseas realizar el retiro total (viaje al extranjero, accidente limitante, enfermedad limitante o emergencia familiar limitante).\n   - Descripci\u00f3n detallada del motivo.\n   - N\u00famero de ciclos que estar\u00e1s ausente.\n   - Adjunta los documentos sustentatorios para el motivo de retiro total.\n4. Una vez completado el formulario, selecciona \"Enviar Solicitud\".\n\nRecuerda que tu solicitud ser\u00e1 evaluada por el Consejo Directivo de la Escuela Profesional correspondiente. Si tienes m\u00e1s dudas, puedes consultar el Manual de Retiro Total publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la P\u00e1gina Web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, gracias."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Buena suerte con tu tr\u00e1mite de Retiro Total!"
+            }
+        ]
+    },
+    {
+        "id": 250,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos debe seguir un estudiante para solicitar el Retiro Total?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante debe seguir los siguientes pasos para solicitar el Retiro Total:\n1. Acceder a la plataforma intranet-alumnos utilizando su c\u00f3digo UNI y clave correspondiente.\n2. Seleccionar la opci\u00f3n \"Mis Tr\u00e1mites\" en el men\u00fa de navegaci\u00f3n.\n3. Dentro de \"Mis Tr\u00e1mites\", seleccionar \"Retiro Total\".\n4. Completar el formulario de solicitud de retiro total, proporcionando la informaci\u00f3n requerida, como el motivo del retiro, descripci\u00f3n del motivo, n\u00famero de ciclos de ausencia y adjuntar documentos sustentatorios.\n5. Finalmente, seleccionar \"Enviar Solicitud\".\nRecuerda que el retiro total debe ser solicitado hasta una semana antes de los ex\u00e1menes parciales, a trav\u00e9s de la plataforma SIGA-DIRCE. En casos excepcionales, por enfermedad grave ascendiente o descendiente (en primer grado) certificada por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD, se puede solicitar hasta una semana antes de los ex\u00e1menes finales, siendo evaluado por el Consejo Directivo de la Escuela Profesional correspondiente."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me gustar\u00eda saber si hay alg\u00fan requisito espec\u00edfico que deba cumplir un estudiante para solicitar el Retiro Total. Adem\u00e1s, \u00bfcu\u00e1l es el proceso de evaluaci\u00f3n que se lleva a cabo por el Consejo Directivo en casos excepcionales?"
+            },
+            {
+                "role": "assistant",
+                "content": "No tengo acceso a esa informaci\u00f3n espec\u00edfica sobre los requisitos y el proceso de evaluaci\u00f3n por parte del Consejo Directivo en casos excepcionales. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener una respuesta precisa y actualizada sobre esos temas. Ellos podr\u00e1n brindarte la informaci\u00f3n necesaria y orientarte adecuadamente en el proceso de solicitud de Retiro Total."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la respuesta. Me pondr\u00e9 en contacto con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener m\u00e1s informaci\u00f3n sobre los requisitos y el proceso de evaluaci\u00f3n en casos excepcionales para solicitar el Retiro Total."
+            },
+            {
+                "role": "assistant",
+                "content": "De acuerdo, es una buena idea contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n precisa sobre los requisitos y el proceso de evaluaci\u00f3n en casos excepcionales para solicitar el Retiro Total. Ellos podr\u00e1n brindarte la informaci\u00f3n necesaria y orientarte adecuadamente en el proceso. Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la sugerencia. Me pondr\u00e9 en contacto con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n precisa sobre los requisitos y el proceso de evaluaci\u00f3n en casos excepcionales para solicitar el Retiro Total. Si tengo alguna otra pregunta, te lo har\u00e9 saber."
+            },
+            {
+                "role": "assistant",
+                "content": "Es una buena idea contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n precisa sobre los requisitos y el proceso de evaluaci\u00f3n en casos excepcionales para solicitar el Retiro Total. Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
     }
 ]
