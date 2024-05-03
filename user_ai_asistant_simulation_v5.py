@@ -312,15 +312,15 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 190
-    end = 200
+    start = 220
+    end = 230
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
         #conversation = [{}]
         ai_assistant = AIAssistant()
         
-        start_greeting = numpy.random.choice([True, False],1, p = [0.3,0.7])[0]
+        start_greeting = numpy.random.choice([True, False],1, p = [0.2,0.8])[0]
         user_ai_sim = UserAISim(start_greeting = start_greeting)
         print("start_greeting:", start_greeting)
         

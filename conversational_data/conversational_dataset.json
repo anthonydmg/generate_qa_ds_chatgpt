@@ -2109,7 +2109,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Para generar una orden de pago para el autoseguro m\u00e9dico, el estudiante de la Facultad de Ciencias de la UNI debe seguir los siguientes pasos:\n\n1. Ingresar a la plataforma Intranet-Alumnos.\n2. Seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU.\n3. En el m\u00f3dulo de pagos, seleccionar la opci\u00f3n \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable.\n4. Hacer clic en el bot\u00f3n \"Nuevo\" y seguir las indicaciones hasta generar la orden de pago.\n\nUna vez generada la orden de pago, el estudiante podr\u00e1 realizar el pago por aplicativo m\u00f3vil BCP o en alguna sucursal de la entidad bancaria. Para m\u00e1s detalles, puedes consultar el Manual de Pagos publicado en la p\u00e1gina web de la Facultad de Ciencias."
+                "content": "Para generar una orden de pago para el autoseguro m\u00e9dico, el estudiante debe seguir estos pasos:\n1. Ingresar a la plataforma Intranet-Alumnos.\n2. Seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU.\n3. En el m\u00f3dulo de pagos, seleccionar la opci\u00f3n \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable.\n4. Hacer clic en el bot\u00f3n \"Nuevo\" y seguir las indicaciones hasta generar la orden de pago.\nUna vez generada la orden de pago, el estudiante podr\u00e1 realizar el pago por la aplicaci\u00f3n m\u00f3vil del BCP o en alguna sucursal del banco. Para m\u00e1s detalles, puedes consultar el Manual de Pagos publicado en la p\u00e1gina web de la Facultad de Ciencias."
             },
             {
                 "role": "user",
@@ -2117,15 +2117,15 @@
             },
             {
                 "role": "assistant",
-                "content": "Puedes encontrar el Manual de Pagos en la p\u00e1gina web de la Facultad de Ciencias en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\". Aqu\u00ed est\u00e1 el enlace directo: [https://fc.uni.edu.pe/documentos/]."
+                "content": "Puedes encontrar el Manual de Pagos en la p\u00e1gina web de la Facultad de Ciencias en la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\". Aqu\u00ed est\u00e1 el enlace directo: [https://fc.uni.edu.pe/documentos/](https://fc.uni.edu.pe/documentos/)."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Eso es todo lo que necesitaba. \u00a1Tenga un buen d\u00eda!"
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias para encontrar el Manual de Pagos."
             },
             {
                 "role": "assistant",
-                "content": "\u00a1De nada! Me alegra haber podido ayudarte. Si tienes alguna otra pregunta en el futuro, no dudes en hacerla. \u00a1Que tengas un excelente d\u00eda tambi\u00e9n!"
+                "content": "\u00a1De nada! Me alegra haber sido de ayuda. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. Estoy aqu\u00ed para ayudarte."
             }
         ]
     },
@@ -3796,23 +3796,23 @@
             },
             {
                 "role": "assistant",
-                "content": "Si un estudiante no puede realizar su matr\u00edcula en las fechas establecidas, puede gestionar su matr\u00edcula rezagada. Esto se aplica a aquellos estudiantes que no lograron inscribirse en sus cursos a tiempo usando el M\u00f3dulo de Matr\u00edcula UNI en la plataforma Intranet-Alumnos. La matr\u00edcula rezagada se realiza fuera de las fechas establecidas para la matr\u00edcula regular y debe contar con la autorizaci\u00f3n del Director de la Escuela Profesional correspondiente. Para realizar la matr\u00edcula rezagada, el estudiante debe acudir a la Oficina de Estad\u00edstica de la Facultad de Ciencias."
+                "content": "Si un estudiante no puede realizar su matr\u00edcula en las fechas establecidas para la matr\u00edcula regular, puede gestionar su matr\u00edcula rezagada. La matr\u00edcula rezagada se realiza fuera de las fechas establecidas y debe contar con la autorizaci\u00f3n del Director de la Escuela Profesional correspondiente. Para realizar la matr\u00edcula rezagada, el estudiante debe acudir a la Oficina de Estad\u00edstica de la Facultad."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas decirme cu\u00e1les son los requisitos y el procedimiento espec\u00edfico para gestionar la matr\u00edcula rezagada en la Facultad de Ciencias de la UNI?"
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas decirme cu\u00e1les son los requisitos y el proceso para solicitar la autorizaci\u00f3n del Director de la Escuela Profesional para realizar la matr\u00edcula rezagada?"
             },
             {
                 "role": "assistant",
-                "content": "El procedimiento para gestionar la matr\u00edcula rezagada en la Facultad de Ciencias de la UNI es el siguiente:\n\n1. Los estudiantes que deseen realizar la matr\u00edcula rezagada deben efectuar el pago correspondiente de 26 soles. Para ello, deber\u00e1n generar una orden de pago a trav\u00e9s del Portal INTRALU.\n\n2. Despu\u00e9s de realizar el pago, deber\u00e1n subir el comprobante de pago ingresando al formulario que se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la p\u00e1gina web de la Facultad de Ciencias.\n\n3. Una vez realizado el pago y subido el comprobante, el estudiante deber\u00e1 esperar a que el personal de la Oficina de Estad\u00edstica habilite el acceso a la plataforma de intranet-alumno. Esto permitir\u00e1 al estudiante matricularse directamente.\n\nRecuerda que la matr\u00edcula rezagada se realiza en las fechas establecidas en el calendario acad\u00e9mico y est\u00e1 sujeta a la disponibilidad de vacantes."
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener los requisitos y el proceso para solicitar la autorizaci\u00f3n del Director de la Escuela Profesional para realizar la matr\u00edcula rezagada. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Entonces, para gestionar la matr\u00edcula rezagada en la Facultad de Ciencias de la UNI, debo realizar el pago de 26 soles, subir el comprobante de pago en el formulario correspondiente y esperar a que habilite el acceso a la plataforma de intranet-alumno. \u00bfEs correcto?"
+                "content": "Gracias por la sugerencia. Me pondr\u00e9 en contacto con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener los requisitos y el proceso para solicitar la autorizaci\u00f3n del Director de la Escuela Profesional para realizar la matr\u00edcula rezagada."
             },
             {
                 "role": "assistant",
-                "content": "S\u00ed, eso es correcto. Para gestionar la matr\u00edcula rezagada en la Facultad de Ciencias de la UNI, debes realizar el pago de 26 soles, subir el comprobante de pago en el formulario correspondiente y esperar a que habilite el acceso a la plataforma de intranet-alumno. Una vez habilitado el acceso, podr\u00e1s matricularte directamente. Recuerda que la matr\u00edcula rezagada se realiza en las fechas establecidas en el calendario acad\u00e9mico y est\u00e1 sujeta a la disponibilidad de vacantes."
+                "content": "\u00a1De nada! Es una buena idea contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener los requisitos y el proceso espec\u00edfico para solicitar la autorizaci\u00f3n del Director de la Escuela Profesional para realizar la matr\u00edcula rezagada. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu tr\u00e1mite de matr\u00edcula!"
             }
         ]
     },
@@ -3850,35 +3850,35 @@
         "messages": [
             {
                 "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
                 "content": "\u00bfQu\u00e9 sucede si un estudiante no sube el comprobante de pago despu\u00e9s de realizar el pago de la matr\u00edcula rezagada?"
             },
             {
                 "role": "assistant",
-                "content": "Si un estudiante no sube el comprobante de pago despu\u00e9s de realizar el pago de la matr\u00edcula rezagada, es importante que se comunique con la Oficina de Estad\u00edstica de la Facultad de Ciencias para informar sobre la situaci\u00f3n y solicitar instrucciones adicionales. El personal de la oficina podr\u00e1 brindarle orientaci\u00f3n sobre c\u00f3mo proceder y resolver cualquier problema relacionado con la falta de presentaci\u00f3n del comprobante de pago."
+                "content": "Si un estudiante no sube el comprobante de pago despu\u00e9s de realizar el pago de la matr\u00edcula rezagada, es importante que se comunique directamente con la Oficina de Estad\u00edstica (AERA) de la Facultad de Ciencias. Puede enviar un mensaje al correo estadistica_fc@uni.edu.pe o acercarse personalmente a dicha oficina para informar sobre su situaci\u00f3n y proporcionar la documentaci\u00f3n necesaria. El equipo de la Oficina de Estad\u00edstica podr\u00e1 brindarle la asistencia necesaria y guiarlo en el proceso de completar su matr\u00edcula rezagada."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme el n\u00famero de tel\u00e9fono o la direcci\u00f3n de correo electr\u00f3nico de la Oficina de Estad\u00edstica de la Facultad de Ciencias? Me gustar\u00eda comunicarme con ellos lo antes posible para resolver este problema."
+                "content": "Gracias por la informaci\u00f3n. Entonces, si no subo el comprobante de pago de la matr\u00edcula rezagada, debo comunicarme con la Oficina de Estad\u00edstica de la Facultad de Ciencias, \u00bfverdad? \u00bfPodr\u00edas proporcionarme el correo electr\u00f3nico de la Oficina de Estad\u00edstica para poder enviarles un mensaje?"
             },
             {
                 "role": "assistant",
-                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda que te comuniques directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener el n\u00famero de tel\u00e9fono o la direcci\u00f3n de correo electr\u00f3nico. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y resolver cualquier problema que puedas tener."
+                "content": "Claro, si no subes el comprobante de pago de la matr\u00edcula rezagada, te recomiendo que te comuniques con la Oficina de Estad\u00edstica (AERA) de la Facultad de Ciencias. Puedes enviarles un mensaje al correo estadistica_fc@uni.edu.pe para informarles sobre tu situaci\u00f3n y solicitar su asistencia. El equipo de la Oficina de Estad\u00edstica estar\u00e1 encantado de ayudarte con cualquier consulta o problema relacionado con tu matr\u00edcula."
             },
             {
                 "role": "user",
-                "content": "Entiendo, gracias por tu respuesta. Me pondr\u00e9 en contacto directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener la informaci\u00f3n que necesito."
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para informarles sobre mi situaci\u00f3n y solicitar su asistencia."
             },
             {
                 "role": "assistant",
-                "content": "\u00a1De nada! Es una buena idea ponerte en contacto directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias. Ellos podr\u00e1n brindarte la informaci\u00f3n que necesitas y resolver cualquier duda o problema que puedas tener. \u00a1Buena suerte!"
-            },
-            {
-                "role": "user",
-                "content": "Gracias por tu consejo. Me comunicar\u00e9 con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener la informaci\u00f3n necesaria y resolver cualquier problema. \u00a1Aprecio tu ayuda!"
-            },
-            {
-                "role": "assistant",
-                "content": "\u00a1De nada! Me alegra poder ayudarte. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en hacerla. Estoy aqu\u00ed para ayudarte en lo que necesites. \u00a1Buena suerte con tu tr\u00e1mite en la Oficina de Estad\u00edstica de la Facultad de Ciencias!"
+                "content": "\u00a1De nada! Es una excelente idea comunicarte con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe. Ellos estar\u00e1n encantados de ayudarte con tu situaci\u00f3n y brindarte la asistencia necesaria. No dudes en enviarles un mensaje para informarles sobre tu situaci\u00f3n y solicitar su apoyo. Estoy seguro de que te brindar\u00e1n la orientaci\u00f3n adecuada para resolver cualquier problema relacionado con tu matr\u00edcula. \u00a1Buena suerte!"
             }
         ]
     },
@@ -3953,27 +3953,35 @@
         "messages": [
             {
                 "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
                 "content": "\u00bfCu\u00e1l es el procedimiento para comunicarse con la oficina y solicitar una vacante adicional?"
             },
             {
                 "role": "assistant",
-                "content": "Para solicitar una vacante adicional, se recomienda completar la matr\u00edcula virtual en los dem\u00e1s cursos y luego comunicarse con la oficina correspondiente para obtener m\u00e1s informaci\u00f3n y evaluar su caso. Puede encontrar posibles publicaciones de avisos o formularios de solicitud en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/)."
+                "content": "Para solicitar una vacante adicional, se recomienda completar la matr\u00edcula virtual en los dem\u00e1s cursos y luego comunicarse con la oficina de estad\u00edstica (AERA) de la Facultad de Ciencias. Puedes enviar un mensaje al correo estadistica_fc@uni.edu.pe o acercarte personalmente a dicha oficina durante su horario de atenci\u00f3n, de lunes a viernes de 8:00 a.m. a 4:00 p.m. El personal de la oficina podr\u00e1 brindarte mayor informaci\u00f3n y evaluar tu caso."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Entonces, si entiendo correctamente, debo completar mi matr\u00edcula virtual en los dem\u00e1s cursos y luego comunicarme con la oficina correspondiente para solicitar una vacante adicional. \u00bfPodr\u00edas indicarme cu\u00e1l es la oficina a la que debo dirigirme espec\u00edficamente para este tipo de solicitudes?"
+                "content": "Gracias por la informaci\u00f3n. Entonces, para solicitar una vacante adicional debo completar la matr\u00edcula virtual en los dem\u00e1s cursos y luego comunicarme con la oficina de estad\u00edstica (AERA) de la Facultad de Ciencias. \u00bfEs correcto? \u00bfHay alg\u00fan requisito adicional que deba cumplir?"
             },
             {
                 "role": "assistant",
-                "content": "Para solicitar una vacante adicional, te recomiendo comunicarte con la Oficina de Estad\u00edstica de la Facultad de Ciencias. Puedes enviar un mensaje al correo estadistica_fc@uni.edu.pe o acercarte personalmente a dicha oficina. Ellos podr\u00e1n brindarte mayor informaci\u00f3n y evaluar tu caso. Recuerda completar primero tu matr\u00edcula virtual en los dem\u00e1s cursos antes de realizar esta solicitud."
+                "content": "S\u00ed, es correcto. Para solicitar una vacante adicional, debes completar la matr\u00edcula virtual en los dem\u00e1s cursos y luego comunicarte con la oficina de estad\u00edstica (AERA) de la Facultad de Ciencias. No se mencionan requisitos adicionales en la informaci\u00f3n proporcionada. Te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica para obtener informaci\u00f3n m\u00e1s detallada sobre el proceso y posibles requisitos adicionales."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para solicitar una vacante adicional. Antes de hacerlo, completar\u00e9 mi matr\u00edcula virtual en los dem\u00e1s cursos."
+                "content": "Gracias por la respuesta. Entonces, debo completar la matr\u00edcula virtual en los dem\u00e1s cursos y comunicarme con la oficina de estad\u00edstica (AERA) para solicitar una vacante adicional. Entender\u00e9 mejor los posibles requisitos adicionales al contactar directamente con la oficina."
             },
             {
                 "role": "assistant",
-                "content": "Perfecto, has entendido correctamente el procedimiento. Recuerda completar primero tu matr\u00edcula virtual en los dem\u00e1s cursos y luego comun\u00edcate con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para solicitar una vacante adicional. Ellos te brindar\u00e1n mayor informaci\u00f3n y evaluar\u00e1n tu caso. \u00a1Buena suerte con tu solicitud!"
+                "content": "Exactamente, para solicitar una vacante adicional debes completar la matr\u00edcula virtual en los dem\u00e1s cursos y comunicarte con la oficina de estad\u00edstica (AERA). Ellos podr\u00e1n brindarte informaci\u00f3n m\u00e1s detallada sobre posibles requisitos adicionales y evaluar tu caso espec\u00edfico. Te recomiendo contactar directamente con la oficina de estad\u00edstica para obtener toda la informaci\u00f3n necesaria."
             }
         ]
     },
@@ -4291,35 +4299,27 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Hola, \u00bfc\u00f3mo est\u00e1s?"
-            },
-            {
-                "role": "assistant",
-                "content": "\u00a1Hola! Soy Aerito, el asistente de AI de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda. Estoy aqu\u00ed para ayudarte con tus consultas sobre matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
-            },
-            {
-                "role": "user",
                 "content": "\u00bfCu\u00e1l es el plazo para presentar la solicitud de traslado interno?"
             },
             {
                 "role": "assistant",
-                "content": "El plazo para presentar la solicitud de traslado interno puede variar seg\u00fan la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n precisa sobre los plazos y requisitos espec\u00edficos para el traslado interno. Puedes enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe o visitar su oficina durante su horario de atenci\u00f3n de lunes a viernes de 8:00 a.m. a 4:00 p.m. Ellos podr\u00e1n brindarte la informaci\u00f3n necesaria para realizar el proceso de traslado interno."
+                "content": "El plazo para presentar la solicitud de traslado interno es hasta la fecha indicada en el calendario acad\u00e9mico. Debes ingresar a la plataforma de intranet alumnos/tramites y adjuntar el comprobante de pago por el concepto de traslado interno y la ficha acad\u00e9mica. La Escuela verificar\u00e1 los documentos y requisitos propios dentro del primer d\u00eda \u00fatil de presentada la solicitud y te enviar\u00e1 un correo de recepci\u00f3n. Recuerda que no se recibir\u00e1n solicitudes extempor\u00e1neas."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Me pondr\u00e9 en contacto con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener los plazos y requisitos espec\u00edficos para el traslado interno."
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas indicarme d\u00f3nde puedo encontrar el calendario acad\u00e9mico y los requisitos espec\u00edficos para el traslado interno?"
             },
             {
                 "role": "assistant",
-                "content": "\u00a1De nada! Es una buena idea ponerte en contacto con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener los plazos y requisitos espec\u00edficos para el traslado interno. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada sobre el proceso. Recuerda que puedes enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe o visitar su oficina durante su horario de atenci\u00f3n de lunes a viernes de 8:00 a.m. a 4:00 p.m. \u00a1Buena suerte con tu solicitud de traslado interno!"
+                "content": "Puedes encontrar el calendario acad\u00e9mico y los requisitos espec\u00edficos para el traslado interno en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda visitar la secci\u00f3n de \"Tr\u00e1mites\" o \"Matr\u00edcula\" donde podr\u00e1s encontrar toda la informaci\u00f3n detallada sobre el proceso de traslado interno, incluyendo los requisitos y fechas l\u00edmite. Si tienes alguna dificultad para encontrar esta informaci\u00f3n, te sugiero contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener la informaci\u00f3n precisa."
             },
             {
                 "role": "user",
-                "content": "Gracias por la ayuda. \u00a1Buena suerte!"
+                "content": "Gracias por la respuesta. \u00bfPodr\u00edas proporcionarme el enlace directo a la p\u00e1gina web de la Facultad de Ciencias de la UNI?"
             },
             {
                 "role": "assistant",
-                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta en el futuro, no dudes en hacerla. \u00a1Buena suerte en tus tr\u00e1mites acad\u00e9micos y que tengas un excelente d\u00eda!"
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda buscar en los motores de b\u00fasqueda utilizando palabras clave como \"Facultad de Ciencias UNI\" para encontrar el enlace directo a su p\u00e1gina web. Tambi\u00e9n puedes intentar visitar el sitio web principal de la Universidad Nacional de Ingenier\u00eda y buscar la secci\u00f3n correspondiente a la Facultad de Ciencias."
             }
         ]
     },
@@ -4724,27 +4724,35 @@
         "messages": [
             {
                 "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
                 "content": "\u00bfCu\u00e1l es la direcci\u00f3n de correo electr\u00f3nico para solicitar informaci\u00f3n sobre la constancia de Ayudant\u00eda Acad\u00e9mica para estudiantes de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n?"
             },
             {
                 "role": "assistant",
-                "content": "La direcci\u00f3n de correo electr\u00f3nico para solicitar informaci\u00f3n sobre la constancia de Ayudant\u00eda Acad\u00e9mica para estudiantes de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n es: escuelas_fc1@uni.edu.pe."
+                "content": "La direcci\u00f3n de correo electr\u00f3nico para solicitar informaci\u00f3n sobre la constancia de Ayudant\u00eda Acad\u00e9mica para estudiantes de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n es: escuelas_fc1@uni.edu.pe. Puedes enviar un correo a esta direcci\u00f3n para obtener m\u00e1s detalles sobre el procedimiento para solicitar la constancia."
             },
             {
                 "role": "user",
-                "content": "\u00a1Gracias por la informaci\u00f3n! \u00bfPodr\u00edas proporcionarme m\u00e1s detalles sobre los requisitos y el proceso de solicitud para obtener la constancia de Ayudant\u00eda Acad\u00e9mica en la Facultad de Ciencias de la UNI?"
+                "content": "\u00a1Gracias por la informaci\u00f3n! Enviar\u00e9 un correo a la direcci\u00f3n proporcionada para obtener m\u00e1s detalles sobre el procedimiento de solicitud de la constancia de Ayudant\u00eda Acad\u00e9mica."
             },
             {
                 "role": "assistant",
-                "content": "El proceso de solicitud para obtener la constancia de Ayudant\u00eda Acad\u00e9mica en la Facultad de Ciencias de la UNI se realiza a trav\u00e9s del Director de Escuela correspondiente. Debes comunicarte con la Escuela Profesional de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n a trav\u00e9s del correo electr\u00f3nico escuelas_fc1@uni.edu.pe para obtener m\u00e1s informaci\u00f3n sobre los requisitos y el proceso de solicitud. Ellos te brindar\u00e1n los detalles espec\u00edficos y te guiar\u00e1n en el procedimiento a seguir."
+                "content": "\u00a1De nada! Me alegra haber sido de ayuda. Env\u00eda tu correo a la direcci\u00f3n proporcionada (escuelas_fc1@uni.edu.pe) y ellos te brindar\u00e1n m\u00e1s detalles sobre el procedimiento de solicitud de la constancia de Ayudant\u00eda Acad\u00e9mica. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu tr\u00e1mite!"
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la Escuela Profesional de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n a trav\u00e9s del correo electr\u00f3nico proporcionado para obtener m\u00e1s detalles sobre los requisitos y el proceso de solicitud de la constancia de Ayudant\u00eda Acad\u00e9mica."
+                "content": "Gracias por la informaci\u00f3n. Enviar\u00e9 mi correo a la direcci\u00f3n proporcionada y espero recibir m\u00e1s detalles sobre el procedimiento de solicitud de la constancia de Ayudant\u00eda Acad\u00e9mica. Agradezco tu ayuda."
             },
             {
                 "role": "assistant",
-                "content": "Perfecto, te recomiendo que te comuniques con la Escuela Profesional de F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n a trav\u00e9s del correo electr\u00f3nico escuelas_fc1@uni.edu.pe. Ellos podr\u00e1n brindarte los detalles espec\u00edficos sobre los requisitos y el proceso de solicitud de la constancia de Ayudant\u00eda Acad\u00e9mica. \u00a1Buena suerte con tu solicitud!"
+                "content": "\u00a1De nada! Me alegra haber sido de ayuda. Env\u00eda tu correo a la direcci\u00f3n proporcionada (escuelas_fc1@uni.edu.pe) y ellos te brindar\u00e1n m\u00e1s detalles sobre el procedimiento de solicitud de la constancia de Ayudant\u00eda Acad\u00e9mica. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu tr\u00e1mite!"
             }
         ]
     },
@@ -4835,11 +4843,11 @@
             },
             {
                 "role": "user",
-                "content": "Gracias por la ayuda."
+                "content": "Gracias por la respuesta. Me comunicar\u00e9 con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener la ubicaci\u00f3n exacta de la oficina de Mesa de Parte. Les enviar\u00e9 un correo a estadistica_fc@uni.edu.pe."
             },
             {
                 "role": "assistant",
-                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta, no dudes en hacerla."
+                "content": "Perfecto, es una buena idea contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias. Puedes enviarles un correo a estadistica_fc@uni.edu.pe para obtener la ubicaci\u00f3n exacta de la oficina de Mesa de Parte. Ellos estar\u00e1n encantados de brindarte esa informaci\u00f3n."
             }
         ]
     },
@@ -5120,27 +5128,35 @@
         "messages": [
             {
                 "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
                 "content": "\u00bfQu\u00e9 sucede si un estudiante no completa la ficha de datos en el portal web INTRALU para el tr\u00e1mite del carnet universitario?"
             },
             {
                 "role": "assistant",
-                "content": "Si un estudiante no completa la ficha de datos en el portal web INTRALU para el tr\u00e1mite del carnet universitario, es posible que su solicitud de carnet no pueda ser procesada. Se recomienda completar todos los campos requeridos en la ficha de datos para asegurar que la solicitud sea exitosa. En caso de tener alguna dificultad o duda, se puede contactar directamente con la Oficina de Estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe para recibir asistencia adicional."
+                "content": "Si un estudiante no completa la ficha de datos en el portal web INTRALU para el tr\u00e1mite del carnet universitario, es importante que se comunique directamente con la oficina de estad\u00edstica (AERA) de la Facultad de Ciencias. Puede enviar un mensaje al correo estadistica_fc@uni.edu.pe o acercarse personalmente a dicha oficina para recibir instrucciones sobre c\u00f3mo completar la ficha de datos y continuar con el tr\u00e1mite del carnet universitario. Recuerda que la oficina de estad\u00edstica es la encargada de centralizar y verificar la documentaci\u00f3n acad\u00e9mica, por lo que podr\u00e1n brindar la asistencia necesaria en este proceso."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Entonces, si un estudiante no completa la ficha de datos en el portal web INTRALU, es probable que su solicitud de carnet universitario no sea procesada. Entiendo que es importante completar todos los campos requeridos en la ficha de datos para asegurar que la solicitud sea exitosa. Si tengo alguna dificultad o duda, puedo contactar directamente con la Oficina de Estad\u00edstica (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe para recibir asistencia adicional. \u00bfHay alg\u00fan otro detalle importante que deba tener en cuenta en relaci\u00f3n a este tr\u00e1mite?"
+                "content": "Gracias por la informaci\u00f3n. Entonces, si no completo la ficha de datos en el portal web INTRALU, debo comunicarme con la oficina de estad\u00edstica de la Facultad de Ciencias, \u00bfverdad? \u00bfPodr\u00edas proporcionarme el correo electr\u00f3nico de contacto de la oficina de estad\u00edstica?"
             },
             {
                 "role": "assistant",
-                "content": "No, no hay ning\u00fan otro detalle importante que debas tener en cuenta en relaci\u00f3n a este tr\u00e1mite. Recuerda completar todos los campos requeridos en la ficha de datos en el portal web INTRALU y estar atento a cualquier aviso o notificaci\u00f3n por parte de la Oficina de Estad\u00edstica (AERA) sobre la entrega del carnet universitario. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en contactar con la Oficina de Estad\u00edstica a trav\u00e9s del correo estadistica_fc@uni.edu.pe. Estar\u00e1n encantados de ayudarte."
+                "content": "\u00a1Exactamente! Si no completas la ficha de datos en el portal web INTRALU, debes comunicarte con la oficina de estad\u00edstica (AERA) de la Facultad de Ciencias. Puedes enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe para ponerse en contacto con ellos. Estar\u00e1n encantados de ayudarte con cualquier consulta o tr\u00e1mite relacionado con la matr\u00edcula y los procedimientos acad\u00e9micos."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Tomar\u00e9 en cuenta tus recomendaciones. \u00a1Hasta luego!"
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la oficina de estad\u00edstica a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener ayuda con la ficha de datos y el tr\u00e1mite del carnet universitario."
             },
             {
                 "role": "assistant",
-                "content": "De nada, estoy aqu\u00ed para ayudarte. Si tienes alguna otra pregunta en el futuro, no dudes en volver. \u00a1Que tengas un buen d\u00eda! \u00a1Hasta luego!"
+                "content": "\u00a1De nada! Es una excelente decisi\u00f3n comunicarte con la oficina de estad\u00edstica a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe. Ellos podr\u00e1n brindarte la asistencia necesaria con la ficha de datos y el tr\u00e1mite del carnet universitario. Recuerda proporcionar tus datos personales, como n\u00famero de DNI, apellidos, nombres y correo institucional, para que puedan ayudarte de manera m\u00e1s eficiente. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu tr\u00e1mite!"
             }
         ]
     },
@@ -5235,23 +5251,23 @@
             },
             {
                 "role": "assistant",
-                "content": "Los poseedores del carnet universitario tienen acceso a un descuento del 50% en el transporte p\u00fablico. Este descuento se aplica en el pago de pasajes en buses y combis autorizadas por la Municipalidad Metropolitana de Lima. Es importante tener en cuenta que este beneficio solo se puede utilizar presentando el carnet universitario vigente al momento de abordar el transporte p\u00fablico."
+                "content": "Los poseedores del carnet universitario tienen acceso a un descuento del 50% en el transporte p\u00fablico. Este descuento se aplica en el pago de pasajes en buses y combis autorizadas por la Municipalidad Metropolitana de Lima. Es importante tener en cuenta que este beneficio solo se aplica presentando el carnet universitario al momento de pagar el pasaje."
             },
             {
                 "role": "user",
-                "content": "\u00a1Gracias por la informaci\u00f3n! Me gustar\u00eda saber si este descuento tambi\u00e9n se aplica a otros medios de transporte, como el metro o el tren el\u00e9ctrico. Adem\u00e1s, \u00bfhay alguna restricci\u00f3n en cuanto a la frecuencia o el horario en el que se puede utilizar el descuento?"
+                "content": "\u00a1Gracias por la informaci\u00f3n! Me alegra saber que los poseedores del carnet universitario tienen acceso a un descuento del 50% en el transporte p\u00fablico. \u00bfPodr\u00edas decirme si este descuento tambi\u00e9n se aplica en el Metropolitano y en el Tren El\u00e9ctrico? Adem\u00e1s, \u00bfhay alguna restricci\u00f3n en cuanto a los horarios en los que se puede utilizar este descuento?"
             },
             {
                 "role": "assistant",
-                "content": "El descuento del 50% en el transporte p\u00fablico para poseedores del carnet universitario se aplica espec\u00edficamente en el pago de pasajes en buses y combis autorizadas por la Municipalidad Metropolitana de Lima. No se menciona que este descuento se aplique al metro o al tren el\u00e9ctrico. En cuanto a restricciones de frecuencia u horario, la informaci\u00f3n proporcionada no especifica ninguna limitaci\u00f3n en ese sentido. Sin embargo, te recomendar\u00eda verificar con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre las condiciones de uso del descuento."
+                "content": "El descuento del 50% en el transporte p\u00fablico para los poseedores del carnet universitario se aplica tanto en el Metropolitano como en el Tren El\u00e9ctrico. En cuanto a los horarios, este descuento se puede utilizar en cualquier horario, sin restricciones. Recuerda que para acceder al descuento, es necesario presentar el carnet universitario al momento de pagar el pasaje."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Lo tendr\u00e9 en cuenta."
+                "content": "Gracias por la informaci\u00f3n. Me alegra saber que el descuento del 50% tambi\u00e9n se aplica en el Metropolitano y en el Tren El\u00e9ctrico, y que no hay restricciones de horario. Tomar\u00e9 en cuenta presentar mi carnet universitario al momento de pagar el pasaje."
             },
             {
                 "role": "assistant",
-                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Estoy aqu\u00ed para asistirte en lo que necesites!"
+                "content": "\u00a1De nada! Me alegra que la informaci\u00f3n te haya sido \u00fatil. Recuerda presentar tu carnet universitario al momento de pagar el pasaje en el Metropolitano y en el Tren El\u00e9ctrico para acceder al descuento del 50%. No hay restricciones de horario para utilizar este descuento. \u00a1Que tengas un buen viaje!"
             }
         ]
     },
@@ -5268,7 +5284,7 @@
             },
             {
                 "role": "user",
-                "content": "\u00a1Gracias por la informaci\u00f3n! Me gustar\u00eda saber m\u00e1s sobre el acceso al comedor universitario. \u00bfCu\u00e1les son los horarios de atenci\u00f3n y qu\u00e9 tipo de alimentos se ofrecen? Adem\u00e1s, \u00bfhay alg\u00fan requisito especial para acceder a este servicio?"
+                "content": "Gracias por la informaci\u00f3n. Me gustar\u00eda saber m\u00e1s sobre el acceso al comedor universitario. \u00bfCu\u00e1les son los horarios de atenci\u00f3n y qu\u00e9 tipo de alimentos se ofrecen? Adem\u00e1s, \u00bfhay alg\u00fan requisito especial para acceder a este servicio?"
             },
             {
                 "role": "assistant",
@@ -5280,7 +5296,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Me alegra que la informaci\u00f3n haya sido \u00fatil. Recuerda estar atento a los avisos de la Oficina de Estad\u00edstica para conocer los horarios de atenci\u00f3n del comedor universitario. All\u00ed podr\u00e1s disfrutar de men\u00fas balanceados que incluyen platos de entrada, plato de fondo, guarnici\u00f3n, ensalada y postre. \u00a1Buen provecho!"
+                "content": "El horario de atenci\u00f3n del comedor universitario de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda puede variar, por lo que es importante estar atento a los avisos de la Oficina de Estad\u00edstica para conocer los horarios actualizados. Se ofrecen men\u00fas balanceados que incluyen platos de entrada, plato de fondo, guarnici\u00f3n, ensalada y postre. \u00a1Disfruta de una alimentaci\u00f3n equilibrada durante tu tiempo en la universidad!"
             }
         ]
     },
@@ -5582,35 +5598,27 @@
         "messages": [
             {
                 "role": "user",
-                "content": "Hola."
-            },
-            {
-                "role": "assistant",
-                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
-            },
-            {
-                "role": "user",
                 "content": "\u00bfQu\u00e9 plataforma se utiliza para realizar la inscripci\u00f3n de cursos de manera virtual?"
             },
             {
                 "role": "assistant",
-                "content": "La plataforma utilizada para realizar la inscripci\u00f3n de cursos de manera virtual en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda es la plataforma intranet-alumnos. Dentro de esta plataforma, los estudiantes pueden acceder al m\u00f3dulo de Matr\u00edcula UNI para seleccionar las asignaturas y horarios deseados, y confirmar su matr\u00edcula en todas las asignaturas elegidas en el sistema. Recuerda que los turnos para la matr\u00edcula son asignados por grupos de acuerdo al promedio ponderado de los \u00faltimos ciclos."
+                "content": "La inscripci\u00f3n de cursos de manera virtual se realiza a trav\u00e9s del M\u00f3dulo de Matr\u00edcula UNI dentro de la plataforma de intranet-alumnos. Puedes acceder a esta plataforma siguiendo los pasos que se encuentran en la respuesta anterior."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas indicarme c\u00f3mo puedo acceder a la plataforma intranet-alumnos?"
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme los pasos espec\u00edficos para acceder al M\u00f3dulo de Matr\u00edcula UNI en la plataforma de intranet-alumnos?"
             },
             {
                 "role": "assistant",
-                "content": "Para acceder a la plataforma intranet-alumnos, debes seguir los siguientes pasos:\n1. Ingresa a la p\u00e1gina web de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.\n2. Busca la secci\u00f3n de \"Intranet\" o \"Alumnos\" en el men\u00fa principal.\n3. Haz clic en el enlace que te redirija a la plataforma intranet-alumnos.\n4. En la p\u00e1gina de inicio de sesi\u00f3n, ingresa tu usuario y contrase\u00f1a. Si eres un ingresante, recibir\u00e1s tu clave de acceso al correo electr\u00f3nico proporcionado durante el proceso de matr\u00edcula.\n5. Una vez que hayas iniciado sesi\u00f3n, podr\u00e1s acceder al m\u00f3dulo de Matr\u00edcula UNI para realizar la inscripci\u00f3n de tus cursos y completar otros tr\u00e1mites acad\u00e9micos.\n\nSi tienes alguna dificultad para acceder a la plataforma, te recomiendo comunicarte con la oficina de estad\u00edstica (AERA) enviando un mensaje al correo estadistica_fc@uni.edu.pe o acerc\u00e1ndote personalmente a dicha oficina para recibir asistencia."
+                "content": "Para acceder al M\u00f3dulo de Matr\u00edcula UNI dentro de la plataforma de intranet-alumnos, sigue estos pasos:\n1. Ingresa a la p\u00e1gina web de la DIRCE de la UNI (https://dirce.uni.edu.pe/).\n2. Busca la opci\u00f3n \"Acceso a alumnos\" en la p\u00e1gina principal y haz clic en ella.\n3. Se abrir\u00e1 la plataforma intranet-alumnos en una nueva ventana.\n4. Ingresa tus credenciales de acceso, utilizando la clave que te ha sido enviada a tu correo electr\u00f3nico por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE).\n5. Una vez que hayas ingresado, podr\u00e1s acceder al M\u00f3dulo de Matr\u00edcula UNI y realizar la inscripci\u00f3n de tus cursos de manera virtual."
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Seguir\u00e9 los pasos que me has indicado para acceder a la plataforma intranet-alumnos. Si encuentro alguna dificultad, me comunicar\u00e9 con la oficina de estad\u00edstica (AERA) para recibir asistencia."
+                "content": "Gracias por la informaci\u00f3n. Seguir\u00e9 los pasos que me has proporcionado para acceder al M\u00f3dulo de Matr\u00edcula UNI en la plataforma de intranet-alumnos. Si tengo alguna otra pregunta, \u00bfd\u00f3nde puedo encontrar asesor\u00eda adicional sobre el proceso de inscripci\u00f3n de cursos?"
             },
             {
                 "role": "assistant",
-                "content": "\u00a1De nada! Me alegra haber podido ayudarte. Si encuentras alguna dificultad al acceder a la plataforma intranet-alumnos, te recomiendo comunicarte con la oficina de estad\u00edstica (AERA) enviando un mensaje al correo estadistica_fc@uni.edu.pe o acerc\u00e1ndote personalmente a dicha oficina. Ellos estar\u00e1n encantados de brindarte la asistencia necesaria. \u00a1Buena suerte con tu proceso de matr\u00edcula!"
+                "content": "Puedes encontrar asesor\u00eda adicional sobre el proceso de inscripci\u00f3n de cursos en la Oficina de Estad\u00edstica de la Facultad de Ciencias. Puedes enviar un mensaje al correo estadistica_fc@uni.edu.pe o acercarte personalmente a dicha oficina para recibir orientaci\u00f3n y resolver tus dudas. El personal de la Oficina de Estad\u00edstica estar\u00e1 encantado de ayudarte con cualquier consulta relacionada con la matr\u00edcula y los procedimientos acad\u00e9micos."
             }
         ]
     },
@@ -5730,11 +5738,11 @@
             },
             {
                 "role": "user",
-                "content": "Gracias por la informaci\u00f3n. Entonces, para solicitar la orden de pago, debo enviar un correo electr\u00f3nico a obtenercorreo@uni.pe con mi n\u00famero de DNI, apellidos, nombres y mi correo institucional y/o alternativo. No se menciona un formato espec\u00edfico, as\u00ed que lo redactar\u00e9 de manera clara y concisa."
+                "content": "Entendido, enviar\u00e9 un correo a obtenercorreo@uni.pe con los datos requeridos. \u00a1Gracias por la ayuda!"
             },
             {
                 "role": "assistant",
-                "content": "Correcto, para solicitar la orden de pago debes enviar un correo electr\u00f3nico a obtenercorreo@uni.pe con tu n\u00famero de DNI, apellidos, nombres y tu correo institucional y/o alternativo. No se menciona un formato espec\u00edfico, as\u00ed que puedes redactarlo de manera clara y concisa."
+                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Buena suerte con tu solicitud de orden de pago!"
             }
         ]
     },
@@ -5904,6 +5912,1012 @@
             {
                 "role": "assistant",
                 "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en hacerla. Estoy aqu\u00ed para brindarte toda la ayuda que pueda. \u00a1Aprecio tu confianza y estoy feliz de poder ayudarte en tu proceso de matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el plazo establecido para realizar el pago del autoseguro antes de las fechas de matr\u00edcula regular?"
+            },
+            {
+                "role": "assistant",
+                "content": "El plazo establecido para realizar el pago del autoseguro estudiantil antes de las fechas de matr\u00edcula regular en la Facultad de Ciencias de la UNI se encuentra especificado en el calendario de actividades acad\u00e9micas correspondiente al periodo acad\u00e9mico. Puedes encontrar este calendario en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Es importante cumplir con este plazo m\u00e1ximo para poder realizar la matr\u00edcula de manera regular. Si no se cumple con el plazo, la matr\u00edcula podr\u00eda gestionarse como rezagada."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, para asegurarme de entender correctamente, \u00bfel plazo para realizar el pago del autoseguro estudiantil antes de las fechas de matr\u00edcula regular se encuentra especificado en el calendario de actividades acad\u00e9micas de la Facultad de Ciencias? \u00bfY si no se cumple con este plazo, la matr\u00edcula se considerar\u00eda rezagada?"
+            },
+            {
+                "role": "assistant",
+                "content": "As\u00ed es, el plazo para realizar el pago del autoseguro estudiantil antes de las fechas de matr\u00edcula regular se encuentra especificado en el calendario de actividades acad\u00e9micas de la Facultad de Ciencias. Si no se cumple con este plazo, la matr\u00edcula se considerar\u00eda rezagada y deber\u00e1 seguir el procedimiento correspondiente para realizar la matr\u00edcula rezagada. Recuerda que es importante cumplir con el plazo establecido para poder realizar la matr\u00edcula de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Tomar\u00e9 en cuenta el plazo establecido para realizar el pago del autoseguro y evitar matr\u00edcula rezagada."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra poder ayudarte. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. Estoy aqu\u00ed para ayudarte en todo lo que necesites relacionado con la matr\u00edcula y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias. \u00a1Buena suerte con tu proceso de matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfc\u00f3mo est\u00e1s?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda. Estoy aqu\u00ed para ayudarte con tus consultas sobre matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 debe hacer un estudiante si la matr\u00edcula virtual no se ha habilitado hasta los d\u00edas de matr\u00edcula regular?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante encuentra que la matr\u00edcula virtual no se ha habilitado hasta los d\u00edas de matr\u00edcula regular, es necesario que se comunique con la oficina de estad\u00edstica (AERA) de la Facultad de Ciencias. Puede enviar un mensaje al correo estadistica_fc@uni.edu.pe o acercarse personalmente a dicha oficina. El personal de la oficina de estad\u00edstica podr\u00e1 brindarle la asistencia necesaria y orientarlo sobre los pasos a seguir en esta situaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si la matr\u00edcula virtual no est\u00e1 habilitada en los d\u00edas de matr\u00edcula regular, debo comunicarme con la oficina de estad\u00edstica de la Facultad de Ciencias, \u00bfverdad? \u00bfPodr\u00edas proporcionarme el correo electr\u00f3nico de contacto de la oficina de estad\u00edstica?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Exactamente! Si la matr\u00edcula virtual no est\u00e1 habilitada en los d\u00edas de matr\u00edcula regular, debes comunicarte con la oficina de estad\u00edstica (AERA) de la Facultad de Ciencias. Puedes enviar un mensaje al correo estadistica_fc@uni.edu.pe para obtener la asistencia necesaria en tu caso. El personal de la oficina de estad\u00edstica estar\u00e1 encantado de ayudarte con cualquier problema o consulta relacionada con la matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la oficina de estad\u00edstica de la Facultad de Ciencias enviando un mensaje al correo estadistica_fc@uni.edu.pe para obtener asistencia en mi caso."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una excelente idea comunicarte con la oficina de estad\u00edstica de la Facultad de Ciencias. Puedes enviarles un mensaje al correo estadistica_fc@uni.edu.pe para obtener la asistencia necesaria en tu caso. El personal de la oficina de estad\u00edstica estar\u00e1 encantado de ayudarte con cualquier problema o consulta relacionada con la matr\u00edcula. \u00a1Buena suerte con tu tr\u00e1mite!"
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el plazo establecido en el calendario de actividades acad\u00e9micas para solicitar la reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "El plazo establecido en el calendario de actividades acad\u00e9micas para solicitar la reincorporaci\u00f3n se encuentra publicado en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda revisar el calendario acad\u00e9mico actualizado para obtener esa informaci\u00f3n espec\u00edfica."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la respuesta. Entiendo que debo revisar el calendario acad\u00e9mico en la p\u00e1gina web de la Facultad de Ciencias para obtener la informaci\u00f3n espec\u00edfica sobre el plazo de solicitud de reincorporaci\u00f3n. \u00bfPodr\u00edas indicarme d\u00f3nde puedo encontrar el calendario acad\u00e9mico en la p\u00e1gina web?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar el calendario acad\u00e9mico en la p\u00e1gina web de la Facultad de Ciencias, espec\u00edficamente en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\". Ah\u00ed encontrar\u00e1s el calendario de actividades acad\u00e9micas actualizado, donde podr\u00e1s consultar el plazo establecido para solicitar la reincorporaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Buena suerte con tu b\u00fasqueda en la p\u00e1gina web de la Facultad de Ciencias!"
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpodr\u00edas ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. Adelante, preg\u00fantame lo que necesites saber."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 sucede si un estudiante no presenta la solicitud de reincorporaci\u00f3n dentro del plazo establecido?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante no presenta la solicitud de reincorporaci\u00f3n dentro del plazo establecido, deber\u00e1 esperar al siguiente periodo acad\u00e9mico para solicitar la reincorporaci\u00f3n. Es importante cumplir con los plazos establecidos en el calendario de actividades acad\u00e9micas de la Facultad de Ciencias para asegurar una correcta gesti\u00f3n de la reincorporaci\u00f3n. Recuerda que la solicitud de reincorporaci\u00f3n se realiza a trav\u00e9s de la plataforma de intranet-alumnos, siguiendo el procedimiento indicado en el Manual de Reincorporaci\u00f3n publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' de la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, si no presento la solicitud de reincorporaci\u00f3n dentro del plazo establecido, tendr\u00e9 que esperar al siguiente periodo acad\u00e9mico para hacerlo. Es importante cumplir con los plazos establecidos y seguir el procedimiento indicado en el Manual de Reincorporaci\u00f3n. \u00bfD\u00f3nde puedo encontrar el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar el Manual de Reincorporaci\u00f3n en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' de la p\u00e1gina web de la Facultad de Ciencias. Aqu\u00ed est\u00e1 el enlace directo al documento: [Manual de Reincorporaci\u00f3n](https://fc.uni.edu.pe/documentos/). Te recomiendo revisarlo detenidamente para conocer todos los detalles y requisitos necesarios para solicitar la reincorporaci\u00f3n. Si tienes alguna otra pregunta, no dudes en hacerla."
+            },
+            {
+                "role": "user",
+                "content": "\u00a1Gracias por la informaci\u00f3n! Revisar\u00e9 el Manual de Reincorporaci\u00f3n. Si tengo m\u00e1s preguntas, te contactar\u00e9 nuevamente."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes m\u00e1s preguntas o necesitas m\u00e1s informaci\u00f3n, no dudes en contactarme nuevamente. Estar\u00e9 encantado de asistirte. \u00a1Buena suerte con tu proceso de reincorporaci\u00f3n!"
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para solicitar la reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "El procedimiento para solicitar la reincorporaci\u00f3n es el siguiente:\n1. Accede a la plataforma de intranet-alumnos.\n2. Genera una orden de pago por el tr\u00e1mite de reincorporaci\u00f3n, cuyo costo es de S/. 42.00 + S/. 10.00 por cada periodo no estudiado.\n3. Realiza el pago en una sucursal del BCP o utilizando la aplicaci\u00f3n m\u00f3vil del BCP.\n4. Entra a la plataforma de intranet-alumnos y sube la solicitud de reincorporaci\u00f3n y el recibo de pago.\n5. Env\u00eda la solicitud a trav\u00e9s de la plataforma dentro de los plazos establecidos en el calendario acad\u00e9mico.\nUna vez aprobada la reincorporaci\u00f3n, podr\u00e1s realizar tu matr\u00edcula de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme m\u00e1s detalles sobre los plazos establecidos en el calendario acad\u00e9mico para enviar la solicitud de reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica sobre los plazos establecidos en el calendario acad\u00e9mico para enviar la solicitud de reincorporaci\u00f3n. Te recomendar\u00eda consultar el calendario acad\u00e9mico publicado en la p\u00e1gina web de la Facultad de Ciencias para obtener los plazos exactos. Si tienes alguna otra pregunta o necesitas ayuda con otro tema, estar\u00e9 encantado de ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por tu respuesta. Consultar\u00e9 el calendario acad\u00e9mico en la p\u00e1gina web de la Facultad de Ciencias para obtener los plazos exactos. Si tengo alguna otra pregunta, te lo har\u00e9 saber."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en hacerla. Estar\u00e9 encantado de asistirte."
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 requisitos debe cumplir un estudiante para solicitar la reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar la reincorporaci\u00f3n, un estudiante debe cumplir con los siguientes requisitos:\n1. Haber realizado un Retiro Total, solicitado una Reserva de Matr\u00edcula o Licencia, o haber dejado de matricularse por un semestre acad\u00e9mico o m\u00e1s.\n2. No tener sanciones vigentes.\n3. No haber superado el plazo m\u00e1ximo de Reserva de Matr\u00edcula, que es de tres (03) a\u00f1os o seis (06) periodos acad\u00e9micos consecutivos o alternos.\n4. Presentar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma SIGA-DIRCE, seg\u00fan el calendario oficial establecido.\n5. Realizar el pago correspondiente a trav\u00e9s de la Caja UNI o bancos autorizados.\n6. El director de la Escuela Profesional correspondiente revisar\u00e1 la ficha acad\u00e9mica del estudiante y evaluar\u00e1 y autorizar\u00e1 o rechazar\u00e1 la solicitud de reincorporaci\u00f3n.\nUna vez reincorporado, el estudiante podr\u00e1 realizar su matr\u00edcula de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme m\u00e1s detalles sobre el proceso de solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma SIGA-DIRCE? \u00bfCu\u00e1l es el calendario oficial establecido para presentar la solicitud?"
+            },
+            {
+                "role": "assistant",
+                "content": "El proceso de solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma SIGA-DIRCE implica los siguientes pasos:\n1. Generar una orden de pago a trav\u00e9s de la plataforma intranet-alumnos, siguiendo las indicaciones en el Manual de Pagos publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias.\n2. Realizar el pago en una sucursal del BCP o utilizando la aplicaci\u00f3n m\u00f3vil del BCP.\n3. Ingresar a la Plataforma de intranet-alumnos dentro de las fechas se\u00f1aladas en el calendario acad\u00e9mico.\n4. Subir la solicitud de reincorporaci\u00f3n y el recibo de pago en la secci\u00f3n \"Mis Tr\u00e1mites\" > \"Reincorporaci\u00f3n de Estudiantes\".\n5. Enviar la solicitud a trav\u00e9s de la plataforma.\n\nEl calendario oficial para presentar la solicitud de reincorporaci\u00f3n se encuentra publicado en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda revisar el calendario acad\u00e9mico actualizado para conocer las fechas espec\u00edficas para este proceso."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 el calendario acad\u00e9mico en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber podido ayudarte. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. Estoy aqu\u00ed para ayudarte. \u00a1Buena suerte con tu proceso de reincorporaci\u00f3n!"
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es la diferencia entre la solicitud de reincorporaci\u00f3n y la solicitud de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "La solicitud de reincorporaci\u00f3n es el procedimiento que permite a un estudiante restablecer su condici\u00f3n de estudiante activo despu\u00e9s de haber realizado un retiro total, solicitado una reserva de matr\u00edcula o licencia, o haber dejado de matricularse por un per\u00edodo acad\u00e9mico o m\u00e1s. Por otro lado, la solicitud de matr\u00edcula es el proceso mediante el cual un estudiante elige y se inscribe en las asignaturas que desea cursar en un determinado per\u00edodo acad\u00e9mico. En resumen, la solicitud de reincorporaci\u00f3n es previa a la solicitud de matr\u00edcula y permite al estudiante volver a ser considerado activo para poder realizar su matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la explicaci\u00f3n. Entonces, si entiendo correctamente, la solicitud de reincorporaci\u00f3n es necesaria para restablecer mi condici\u00f3n de estudiante activo antes de poder realizar la solicitud de matr\u00edcula. \u00bfCu\u00e1les son los requisitos y pasos espec\u00edficos para solicitar la reincorporaci\u00f3n en la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar la reincorporaci\u00f3n en la Facultad de Ciencias de la UNI, debes seguir los siguientes pasos:\n\n1. Accede a la plataforma de intranet-alumnos con tu c\u00f3digo UNI y clave correspondiente.\n2. Selecciona la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU.\n3. En el m\u00f3dulo de pagos, selecciona el tr\u00e1mite correspondiente y genera una nueva orden de pago siguiendo las indicaciones en la plataforma. El costo por tr\u00e1mite de reincorporaci\u00f3n es S/. 42.00 + S/. 10.00 por cada periodo no estudiado.\n4. Realiza el pago en una sucursal del BCP o utilizando la aplicaci\u00f3n m\u00f3vil del BCP.\n5. Despu\u00e9s de completar el pago, env\u00eda tu solicitud de reincorporaci\u00f3n a trav\u00e9s de la Plataforma de Intranet-Alumnos dentro de los plazos establecidos en el calendario acad\u00e9mico. Accede a la plataforma, elige \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\", completa el formulario con la solicitud y el comprobante de pago, y env\u00eda la solicitud.\n6. Una vez enviada la solicitud, podr\u00e1s ver la solicitud enviada, la fecha de env\u00edo y el estado actual de la solicitud en la plataforma.\n\nRecuerda revisar el Manual de Reincorporaci\u00f3n publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' de la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles sobre el proceso de presentaci\u00f3n de la solicitud y el recibo de pago."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 el Manual de Reincorporaci\u00f3n para obtener m\u00e1s detalles sobre el proceso."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber podido ayudarte. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. Estoy aqu\u00ed para ayudarte. \u00a1Buena suerte con tu proceso de reincorporaci\u00f3n en la Facultad de Ciencias de la UNI!"
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpodr\u00edas ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. Adelante, preg\u00fantame lo que necesites saber."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 sucede si un estudiante no puede presentar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma de intranet-alumnos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante no puede presentar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma de intranet-alumnos, se recomienda que se comunique directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias (AERA) enviando un mensaje al correo estadistica_fc@uni.edu.pe o acerc\u00e1ndose personalmente a dicha oficina. El personal de la AERA podr\u00e1 brindarle asistencia y orientaci\u00f3n adicional sobre c\u00f3mo proceder en ese caso espec\u00edfico."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Si no puedo presentar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma de intranet-alumnos, me comunicar\u00e9 con la Oficina de Estad\u00edstica de la Facultad de Ciencias. \u00bfPodr\u00edas proporcionarme el horario de atenci\u00f3n de la AERA?"
+            },
+            {
+                "role": "assistant",
+                "content": "El horario de atenci\u00f3n de la Oficina de Estad\u00edstica de la Facultad de Ciencias (AERA) es de lunes a viernes de 8:00 a.m. a 4:00 p.m. Recuerda que puedes comunicarte con ellos a trav\u00e9s del correo estadistica_fc@uni.edu.pe. \u00a1Espero que esta informaci\u00f3n te sea \u00fatil!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la Oficina de Estad\u00edstica de la Facultad de Ciencias durante su horario de atenci\u00f3n de lunes a viernes de 8:00 a.m. a 4:00 p.m. a trav\u00e9s del correo estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra que la informaci\u00f3n haya sido \u00fatil. Recuerda que puedes comunicarte con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe durante su horario de atenci\u00f3n de lunes a viernes de 8:00 a.m. a 4:00 p.m. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Estoy aqu\u00ed para ayudarte!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias por tu ayuda."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes m\u00e1s preguntas en el futuro, no dudes en contactarme. \u00a1Que tengas un excelente d\u00eda!"
+            }
+        ]
+    },
+    {
+        "id": 189,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpuedes ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. \u00bfEn qu\u00e9 puedo ayudarte?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el proceso para solicitar una orden de pago para la constancia de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "El proceso para solicitar una orden de pago para la constancia de matr\u00edcula es el siguiente:\n\n1. Env\u00eda un correo a estadistica_fc@uni.edu.pe solicitando una orden de pago para la CONSTANCIA DE MATR\u00cdCULA. En el mensaje, incluye tus datos personales: n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo.\n\n2. La oficina de estad\u00edstica (AERA) te enviar\u00e1 la orden de pago por el monto correspondiente a tu constancia de matr\u00edcula a tu correo electr\u00f3nico.\n\n3. Realiza el pago en alguna sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco, siguiendo las indicaciones proporcionadas en la orden de pago.\n\n4. Luego, entrega el comprobante de pago y la solicitud correspondiente en mesa de partes de la facultad, o env\u00edalos por correo electr\u00f3nico a mesadepartes_fc@uni.edu.pe. Aseg\u00farate de indicar en la solicitud si deseas la CONSTANCIA DE MATR\u00cdCULA en ingl\u00e9s o espa\u00f1ol.\n\n5. AERA te enviar\u00e1 un correo para notificarte que la constancia est\u00e1 lista para ser recogida en el horario de atenci\u00f3n de Lunes a Viernes, de 08:00 a 13:00 y de 14:00 a 15:30.\n\nRecuerda que este proceso est\u00e1 sujeto a posibles cambios, por lo que te recomiendo verificar la informaci\u00f3n actualizada en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n detallada. Tendr\u00e9 en cuenta los pasos que mencionaste y verificar\u00e9 la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n actualizada."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber podido ayudarte. Recuerda verificar la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n actualizada sobre los procedimientos de solicitud de constancia de matr\u00edcula y constancia de notas. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Estoy aqu\u00ed para ayudarte!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias, adi\u00f3s."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Ha sido un gusto poder ayudarte. Si tienes m\u00e1s preguntas en el futuro, no dudes en volver. \u00a1Que tengas un excelente d\u00eda! \u00a1Adi\u00f3s!"
+            }
+        ]
+    },
+    {
+        "id": 190,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 informaci\u00f3n debe incluir la solicitud de constancia de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "La solicitud de constancia de matr\u00edcula debe incluir los siguientes datos personales: n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo. Adem\u00e1s, es importante indicar si se desea la constancia en ingl\u00e9s o en espa\u00f1ol. Recuerda que el modelo para esta solicitud est\u00e1 disponible en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, para solicitar la constancia de matr\u00edcula debo incluir mi n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo. Adem\u00e1s, debo indicar si quiero la constancia en ingl\u00e9s o en espa\u00f1ol. \u00bfD\u00f3nde puedo encontrar el modelo de solicitud en la p\u00e1gina web de la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar el modelo de solicitud para la constancia de matr\u00edcula en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias. Aqu\u00ed est\u00e1 el enlace directo: [https://fc.uni.edu.pe/documentos/](https://fc.uni.edu.pe/documentos/)."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Encontr\u00e9 el enlace directo a la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias. Ah\u00ed podr\u00e9 encontrar el modelo de solicitud para la constancia de matr\u00edcula."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Excelente! Me alegra que hayas encontrado el enlace directo a la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias. Ah\u00ed podr\u00e1s encontrar el modelo de solicitud para la constancia de matr\u00edcula. Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por tu ayuda. Si tengo alguna otra pregunta, no dudar\u00e9 en hacerla. Aprecio tu disposici\u00f3n para brindarme asesoramiento."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en hacerla. Estoy a tu disposici\u00f3n para brindarte asesoramiento."
+            }
+        ]
+    },
+    {
+        "id": 191,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 sucede si un estudiante no puede recoger la constancia de matr\u00edcula en el horario de atenci\u00f3n establecido?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante no puede recoger la constancia de matr\u00edcula en el horario de atenci\u00f3n establecido, deber\u00e1 comunicarse con la Oficina de Estad\u00edstica de la Facultad de Ciencias para solicitar una soluci\u00f3n alternativa. Ellos podr\u00e1n brindarle informaci\u00f3n sobre los procedimientos y requisitos para recoger la constancia en otro momento o de manera excepcional. Recuerda que es importante cumplir con los plazos y horarios establecidos para evitar contratiempos en el proceso de matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si no puedo recoger la constancia de matr\u00edcula en el horario establecido, debo comunicarme con la Oficina de Estad\u00edstica de la Facultad de Ciencias para solicitar una soluci\u00f3n alternativa. \u00bfPodr\u00edas proporcionarme el n\u00famero de contacto o la direcci\u00f3n de correo electr\u00f3nico de la Oficina de Estad\u00edstica para poder comunicarme con ellos? Adem\u00e1s, \u00bfhay alg\u00fan requisito espec\u00edfico que deba cumplir para solicitar una soluci\u00f3n alternativa?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes comunicarte con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe. Ellos podr\u00e1n brindarte informaci\u00f3n sobre los requisitos espec\u00edficos para solicitar una soluci\u00f3n alternativa en caso de no poder recoger la constancia de matr\u00edcula en el horario establecido."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la Oficina de Estad\u00edstica a trav\u00e9s del correo electr\u00f3nico proporcionado."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte. Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Buena suerte con tu tr\u00e1mite de matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": 192,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para comunicarse con la oficina de estad\u00edstica (AERA) si se presenta alg\u00fan inconveniente?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes comunicarte con la oficina de estad\u00edstica (AERA) enviando un mensaje al correo estadistica_fc@uni.edu.pe o acerc\u00e1ndote personalmente a dicha oficina."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme los horarios de atenci\u00f3n de la oficina de estad\u00edstica (AERA)?"
+            },
+            {
+                "role": "assistant",
+                "content": "El horario de atenci\u00f3n de la oficina de estad\u00edstica (AERA) es de lunes a viernes de 8:00 a.m. a 4:00 p.m."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfLa oficina de estad\u00edstica (AERA) tambi\u00e9n est\u00e1 abierta durante los per\u00edodos de vacaciones universitarias?"
+            },
+            {
+                "role": "assistant",
+                "content": "Durante los per\u00edodos de vacaciones universitarias, la oficina de estad\u00edstica (AERA) puede tener un horario de atenci\u00f3n reducido o estar cerrada. Te recomendar\u00eda comunicarte directamente con la oficina de estad\u00edstica para obtener informaci\u00f3n actualizada sobre su horario durante los per\u00edodos de vacaciones. Puedes enviar un correo a estadistica_fc@uni.edu.pe para consultar sobre el horario de atenci\u00f3n durante esos per\u00edodos."
+            }
+        ]
+    },
+    {
+        "id": 193,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpodr\u00edas ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. Adelante, preg\u00fantame lo que necesites saber."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el correo electr\u00f3nico al que un estudiante debe enviar la solicitud de constancia de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "El correo electr\u00f3nico al que un estudiante debe enviar la solicitud de constancia de matr\u00edcula es estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "\u00a1Gracias por la informaci\u00f3n! \u00bfPodr\u00edas tambi\u00e9n decirme cu\u00e1nto tiempo tarda en procesarse la solicitud de constancia de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "El tiempo de procesamiento de la solicitud de constancia de matr\u00edcula puede variar, pero generalmente se estima que tarda alrededor de 3 a 5 d\u00edas h\u00e1biles. Sin embargo, te recomendar\u00eda verificar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre los tiempos de procesamiento actuales. Puedes contactarlos a trav\u00e9s del correo estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "El tiempo de procesamiento de la solicitud de constancia de matr\u00edcula puede variar, pero generalmente se estima que tarda alrededor de 3 a 5 d\u00edas h\u00e1biles. Te recomendar\u00eda verificar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa."
+            },
+            {
+                "role": "assistant",
+                "content": "El tiempo de procesamiento de la solicitud de constancia de matr\u00edcula generalmente es de 3 a 5 d\u00edas h\u00e1biles. Sin embargo, te recomendar\u00eda verificar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre los tiempos de procesamiento actuales. Puedes contactarlos a trav\u00e9s del correo estadistica_fc@uni.edu.pe."
+            }
+        ]
+    },
+    {
+        "id": 194,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para solicitar la reserva de matr\u00edcula y cu\u00e1les son los plazos establecidos para ello?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante o apoderado debe presentar la solicitud de Reserva de Matr\u00edcula dirigida al Decano a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matr\u00edcula. El modelo de solicitud se encuentra en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias. El plazo m\u00e1ximo para solicitar la reserva de matr\u00edcula se establece en el calendario de actividades acad\u00e9micas publicado en la misma p\u00e1gina web. Si no se presenta la solicitud, DIRCE realizar\u00e1 la reserva de matr\u00edcula de oficio."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si entiendo correctamente, debo presentar la solicitud de Reserva de Matr\u00edcula a trav\u00e9s de la plataforma SIGA-DIRCE antes de la semana oficial de matr\u00edcula. \u00bfD\u00f3nde puedo encontrar el modelo de solicitud en la p\u00e1gina web de la Facultad de Ciencias? Y tambi\u00e9n me gustar\u00eda saber cu\u00e1l es el plazo m\u00e1ximo para solicitar la reserva de matr\u00edcula seg\u00fan el calendario de actividades acad\u00e9micas."
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar el modelo de solicitud de Reserva de Matr\u00edcula en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias, espec\u00edficamente en este enlace: [https://fc.uni.edu.pe/documentos/](https://fc.uni.edu.pe/documentos/). El plazo m\u00e1ximo para solicitar la reserva de matr\u00edcula se establece en el calendario de actividades acad\u00e9micas, el cual tambi\u00e9n est\u00e1 publicado en la misma p\u00e1gina web. Te recomendar\u00eda revisar el calendario para obtener la informaci\u00f3n precisa sobre los plazos establecidos."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias para encontrar el modelo de solicitud de Reserva de Matr\u00edcula. Tambi\u00e9n consultar\u00e9 el calendario de actividades acad\u00e9micas para conocer el plazo m\u00e1ximo para solicitar la reserva."
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar el modelo de solicitud de Reserva de Matr\u00edcula en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias. Adem\u00e1s, el plazo m\u00e1ximo para solicitar la reserva de matr\u00edcula se encuentra establecido en el calendario de actividades acad\u00e9micas, el cual tambi\u00e9n est\u00e1 disponible en la misma p\u00e1gina web. Te recomendar\u00eda revisar ambas secciones para obtener la informaci\u00f3n precisa que est\u00e1s buscando."
+            }
+        ]
+    },
+    {
+        "id": 195,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpuedes ayudarme con informaci\u00f3n sobre la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro que s\u00ed, estar\u00e9 encantado de ayudarte con informaci\u00f3n sobre la Facultad de Ciencias. \u00bfEn qu\u00e9 puedo ayudarte espec\u00edficamente?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son las razones v\u00e1lidas para realizar una reserva de matr\u00edcula y qu\u00e9 documentos debe adjuntar el estudiante para sustentar su solicitud?"
+            },
+            {
+                "role": "assistant",
+                "content": "Las razones v\u00e1lidas para realizar una reserva de matr\u00edcula son por motivos de salud, trabajo u otras razones debidamente sustentadas. El estudiante debe adjuntar los documentos que acrediten la raz\u00f3n invocada al momento de presentar la solicitud de reserva de matr\u00edcula. Puedes encontrar el modelo de solicitud y m\u00e1s informaci\u00f3n en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Recuerda que la reserva de matr\u00edcula no tiene ning\u00fan pago asociado. Si necesitas m\u00e1s detalles, te recomiendo contactar directamente con el \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si necesito hacer una reserva de matr\u00edcula por motivos de salud, \u00bfqu\u00e9 documentos espec\u00edficos debo adjuntar para sustentar mi solicitud? Adem\u00e1s, \u00bfhay alg\u00fan plazo espec\u00edfico para presentar la solicitud de reserva de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para realizar una reserva de matr\u00edcula por motivos de salud, deber\u00e1s adjuntar los documentos que acrediten dicha raz\u00f3n invocada. Estos documentos pueden ser certificados m\u00e9dicos, informes m\u00e9dicos o cualquier otro documento que respalde tu situaci\u00f3n de salud. Recuerda que la solicitud de reserva de matr\u00edcula debe presentarse a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matr\u00edcula, respetando los plazos establecidos en el calendario de actividades acad\u00e9micas publicado en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Si tienes alguna otra pregunta, no dudes en hacerla."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, para realizar una reserva de matr\u00edcula por motivos de salud, debo adjuntar certificados m\u00e9dicos o informes m\u00e9dicos que respalden mi situaci\u00f3n de salud. Adem\u00e1s, debo presentar la solicitud a trav\u00e9s de la plataforma SIGA-DIRCE antes de la semana oficial de matr\u00edcula, siguiendo el calendario de actividades acad\u00e9micas publicado en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "assistant",
+                "content": "Correcto, para realizar una reserva de matr\u00edcula por motivos de salud, debes adjuntar certificados m\u00e9dicos o informes m\u00e9dicos que respalden tu situaci\u00f3n de salud. Adem\u00e1s, debes presentar la solicitud a trav\u00e9s de la plataforma SIGA-DIRCE antes de la semana oficial de matr\u00edcula, siguiendo el calendario de actividades acad\u00e9micas publicado en la p\u00e1gina web de la Facultad de Ciencias. Recuerda que la reserva de matr\u00edcula no tiene ning\u00fan pago asociado. Si tienes alguna otra pregunta, estar\u00e9 encantado de ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 196,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 sucede si un estudiante no presenta la solicitud de reserva de matr\u00edcula y no concreta su matr\u00edcula en el periodo acad\u00e9mico actual?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante no presenta la solicitud de reserva de matr\u00edcula y no concreta su matr\u00edcula en el periodo acad\u00e9mico actual, la DIRCE realizar\u00e1, de oficio, la reserva de matr\u00edcula del estudiante. Sin embargo, es importante tener en cuenta que todas las deudas pendientes del estudiante ser\u00e1n exigidas al finalizar sus estudios e iniciar el tr\u00e1mite para obtener su grado de bachiller. Recuerda que la solicitud de reserva de matr\u00edcula debe presentarse a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matr\u00edcula, dentro de los plazos establecidos en el calendario de actividades acad\u00e9micas."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si un estudiante no presenta la solicitud de reserva de matr\u00edcula, la DIRCE realizar\u00e1 la reserva de matr\u00edcula de manera autom\u00e1tica. Sin embargo, es importante tener en cuenta que todas las deudas pendientes del estudiante ser\u00e1n exigidas al finalizar sus estudios. \u00bfD\u00f3nde puedo encontrar el calendario de actividades acad\u00e9micas y la plataforma SIGA-DIRCE para realizar la solicitud de reserva de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "La solicitud de reserva de matr\u00edcula se realiza a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos). Puedes encontrar el enlace a esta plataforma en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Adem\u00e1s, el calendario de actividades acad\u00e9micas tambi\u00e9n se encuentra disponible en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la misma p\u00e1gina web."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Encontrar\u00e9 el enlace a la plataforma SIGA-DIRCE en la p\u00e1gina web de la Facultad de Ciencias y tambi\u00e9n buscar\u00e9 el calendario de actividades acad\u00e9micas en la secci\u00f3n \"Matr\u00edcula y Procedimientos\"."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra que hayas encontrado \u00fatil la informaci\u00f3n. Efectivamente, puedes encontrar el enlace a la plataforma SIGA-DIRCE en la p\u00e1gina web de la Facultad de Ciencias. Adem\u00e1s, el calendario de actividades acad\u00e9micas, incluyendo las fechas de matr\u00edcula, se encuentra en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la misma p\u00e1gina web. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Estoy aqu\u00ed para ayudarte!"
+            }
+        ]
+    },
+    {
+        "id": 197,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, \u00bfpodr\u00edas ayudarme con algunas consultas sobre la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Claro, estar\u00e9 encantado de ayudarte con tus consultas sobre la Facultad de Ciencias de la UNI. Adelante, preg\u00fantame lo que necesites saber."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el l\u00edmite de tiempo para la reserva de matr\u00edcula de un estudiante y existe alg\u00fan costo asociado a este tr\u00e1mite?"
+            },
+            {
+                "role": "assistant",
+                "content": "El l\u00edmite de tiempo para la reserva de matr\u00edcula de un estudiante en la Facultad de Ciencias de la UNI es de tres (03) a\u00f1os acad\u00e9micos consecutivos o alternos, lo que equivale a seis (06) periodos acad\u00e9micos. No hay ning\u00fan costo asociado a este tr\u00e1mite. Recuerda que la reserva de matr\u00edcula se realiza por solicitud y procede por razones debidamente sustentadas, como salud, trabajo u otras circunstancias. Los documentos que acrediten la raz\u00f3n invocada deben ser adjuntados al momento de realizar la solicitud."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si necesito reservar mi matr\u00edcula, \u00bfdebo presentar documentos que respalden la raz\u00f3n por la cual solicito la reserva? \u00bfCu\u00e1les son los documentos aceptados para respaldar la raz\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, al solicitar la reserva de matr\u00edcula, es necesario presentar documentos que respalden la raz\u00f3n por la cual solicitas la reserva. Los documentos aceptados para respaldar la raz\u00f3n pueden variar dependiendo de la naturaleza de la misma, como por ejemplo, certificados m\u00e9dicos en caso de razones de salud, constancias de trabajo en caso de razones laborales, entre otros. Te recomendar\u00eda revisar la secci\u00f3n \"Matr\u00edcula y Procedimientos\" en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/) para obtener informaci\u00f3n m\u00e1s detallada sobre los documentos aceptados para respaldar cada tipo de raz\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 la secci\u00f3n \"Matr\u00edcula y Procedimientos\" en la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s detallada sobre los documentos aceptados para respaldar cada tipo de raz\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una buena idea revisar la secci\u00f3n \"Matr\u00edcula y Procedimientos\" en la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s detallada sobre los documentos aceptados para respaldar cada tipo de raz\u00f3n al solicitar la reserva de matr\u00edcula. All\u00ed encontrar\u00e1s informaci\u00f3n espec\u00edfica sobre los documentos requeridos para respaldar razones de salud, trabajo u otras circunstancias. Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 198,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento para solicitar la reincorporaci\u00f3n como estudiante y cu\u00e1l es el plazo para hacerlo?"
+            },
+            {
+                "role": "assistant",
+                "content": "El procedimiento para solicitar la reincorporaci\u00f3n como estudiante es el siguiente:\n1. Genera una orden de pago en la plataforma intranet-alumnos, siguiendo las indicaciones en el m\u00f3dulo de pagos.\n2. Realiza el pago correspondiente en una sucursal del BCP o utilizando la aplicaci\u00f3n m\u00f3vil del BCP.\n3. Accede a la plataforma de intranet-alumnos y selecciona \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\".\n4. Completa el formulario con la solicitud y el comprobante de pago, y env\u00eda la solicitud.\n\nEl plazo para solicitar la reincorporaci\u00f3n se establece en el calendario de actividades acad\u00e9micas del ciclo actual, el cual es publicado en la p\u00e1gina web de la Facultad de Ciencias. Si no se realiza dentro de ese plazo, deber\u00e1s esperar al siguiente periodo acad\u00e9mico para solicitar la reincorporaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas proporcionarme m\u00e1s detalles sobre los requisitos necesarios para solicitar la reincorporaci\u00f3n como estudiante?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los requisitos necesarios para solicitar la reincorporaci\u00f3n como estudiante son los siguientes:\n1. No tener sanciones vigentes.\n2. No haber superado el plazo m\u00e1ximo de Reserva de Matr\u00edcula.\n3. Realizar la solicitud de reincorporaci\u00f3n dentro del plazo establecido en el calendario de actividades acad\u00e9micas del ciclo actual.\n4. Generar una orden de pago en la plataforma intranet-alumnos y realizar el pago correspondiente.\n5. En caso de haber reservado la matr\u00edcula por uno o m\u00e1s periodos acad\u00e9micos, se deber\u00e1 pagar un monto adicional por cada periodo no estudiado.\n6. Enviar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma de intranet-alumnos, adjuntando el comprobante de pago.\n\nRecuerda consultar el Manual de Reincorporaci\u00f3n publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' de la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles sobre el proceso de solicitud de reincorporaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Consultar\u00e9 el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias para obtener m\u00e1s detalles sobre el proceso de solicitud de reincorporaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una excelente idea consultar el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias. All\u00ed encontrar\u00e1s informaci\u00f3n detallada sobre el proceso de solicitud de reincorporaci\u00f3n, incluyendo los formularios necesarios, los plazos y los requisitos espec\u00edficos. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Estoy aqu\u00ed para ayudarte!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la sugerencia. Consultar\u00e9 el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n detallada sobre el proceso de solicitud de reincorporaci\u00f3n. Si tengo alguna otra pregunta, te lo har\u00e9 saber."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una excelente idea consultar el Manual de Reincorporaci\u00f3n en la p\u00e1gina web de la Facultad de Ciencias. All\u00ed encontrar\u00e1s informaci\u00f3n detallada sobre el proceso de solicitud de reincorporaci\u00f3n, incluyendo los formularios necesarios, los plazos y los requisitos espec\u00edficos. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Estoy aqu\u00ed para ayudarte!"
+            }
+        ]
+    },
+    {
+        "id": 199,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfC\u00f3mo se gestionan los cambios de secci\u00f3n/horario de un curso matriculado y bajo qu\u00e9 condiciones se atender\u00e1n estas solicitudes?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los cambios de secci\u00f3n/horario de un curso matriculado se gestionan directamente a trav\u00e9s de la oficina de estad\u00edstica (AERA). Solo se atender\u00e1n solicitudes en caso de que el estudiante tenga conflictos de horario entre los cursos en los que est\u00e1 matriculado. Adem\u00e1s, cualquier cambio de secci\u00f3n/horario estar\u00e1 sujeto a la disponibilidad de plazas. Se recomienda comunicarse directamente con la oficina de AERA para recibir informaci\u00f3n detallada sobre el proceso a seguir."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entiendo que los cambios de secci\u00f3n/horario de un curso matriculado se gestionan a trav\u00e9s de la oficina de estad\u00edstica (AERA) y que solo se atender\u00e1n solicitudes en caso de conflictos de horario entre los cursos en los que estoy matriculado. Tambi\u00e9n entiendo que los cambios est\u00e1n sujetos a la disponibilidad de plazas. \u00bfPodr\u00edas proporcionarme el contacto de la oficina de AERA para poder comunicarme con ellos y obtener m\u00e1s informaci\u00f3n sobre el proceso a seguir?"
+            },
+            {
+                "role": "assistant",
+                "content": "Por supuesto, puedes comunicarte con la oficina de estad\u00edstica (AERA) a trav\u00e9s del siguiente correo electr\u00f3nico: estadistica_fc@uni.edu.pe. El horario de atenci\u00f3n de la oficina es de lunes a viernes de 8:00 a.m. a 4:00 p.m. Recuerda que ellos podr\u00e1n brindarte informaci\u00f3n detallada sobre el proceso de cambio de secci\u00f3n/horario de un curso matriculado."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso de cambio de secci\u00f3n/horario de un curso matriculado."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Excelente! Comun\u00edcate con la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener m\u00e1s detalles sobre el proceso de cambio de secci\u00f3n/horario de un curso matriculado. Ellos podr\u00e1n brindarte informaci\u00f3n detallada y orientarte en el procedimiento a seguir. \u00a1Buena suerte con tu solicitud!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias. Adi\u00f3s."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1ha sido un placer ayudarte! Si tienes alguna otra pregunta en el futuro, no dudes en volver. \u00a1Que tengas un buen d\u00eda! \u00a1Adi\u00f3s!"
+            }
+        ]
+    },
+    {
+        "id": 200,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 requisitos debe cumplir un estudiante para solicitar un cambio de secci\u00f3n/horario de un curso matriculado?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar un cambio de secci\u00f3n/horario de un curso matriculado, el estudiante debe cumplir con los siguientes requisitos:\n1. Tener conflictos de horario entre los cursos en los que est\u00e1 matriculado.\n2. Comunicarse directamente con la oficina de estad\u00edstica (AERA) para solicitar el cambio.\n3. El cambio de secci\u00f3n/horario estar\u00e1 sujeto a la disponibilidad de plazas.\nSe recomienda revisar en la p\u00e1gina web de la facultad (https://fc.uni.edu.pe) avisos o formularios referentes al tema."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entiendo que para solicitar un cambio de secci\u00f3n/horario de un curso matriculado, debo tener conflictos de horario entre los cursos en los que estoy matriculado. Adem\u00e1s, debo comunicarme directamente con la oficina de estad\u00edstica (AERA) para solicitar el cambio y tener en cuenta que el cambio estar\u00e1 sujeto a la disponibilidad de plazas. Tambi\u00e9n revisar\u00e9 la p\u00e1gina web de la facultad (https://fc.uni.edu.pe) para obtener m\u00e1s informaci\u00f3n sobre este tema. \u00bfHay alg\u00fan otro requisito o consideraci\u00f3n importante que deba tener en cuenta al solicitar un cambio de secci\u00f3n/horario?"
+            },
+            {
+                "role": "assistant",
+                "content": "No, no hay otros requisitos o consideraciones adicionales que debas tener en cuenta al solicitar un cambio de secci\u00f3n/horario de un curso matriculado. Recuerda que es importante comunicarte directamente con la oficina de estad\u00edstica (AERA) y revisar la p\u00e1gina web de la facultad para obtener informaci\u00f3n actualizada sobre el proceso y posibles formularios o avisos relacionados."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte con tu solicitud de cambio de secci\u00f3n/horario!"
+            }
+        ]
+    },
+    {
+        "id": 201,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente de AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 oficina se encarga de gestionar los cambios de secci\u00f3n/horario de un curso matriculado y c\u00f3mo puede un estudiante comunicarse con ellos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los cambios de secci\u00f3n/horario de un curso matriculado son gestionados por el \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (AERA) de la Facultad de Ciencias. Los estudiantes que deseen realizar un cambio de secci\u00f3n/horario debido a conflictos de horario deben comunicarse directamente con la oficina de AERA. Pueden enviar un mensaje al correo estadistica_fc@uni.edu.pe o acercarse personalmente a dicha oficina durante su horario de atenci\u00f3n, de lunes a viernes de 8:00 a.m. a 4:00 p.m."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si tengo alg\u00fan conflicto de horario y necesito cambiar de secci\u00f3n o horario de un curso matriculado, debo comunicarme con el \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (AERA) de la Facultad de Ciencias. \u00bfEs correcto? \u00bfPodr\u00edas proporcionarme el correo electr\u00f3nico de AERA nuevamente, por favor?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, es correcto. Si tienes alg\u00fan conflicto de horario y necesitas cambiar de secci\u00f3n o horario de un curso matriculado, debes comunicarte con el \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (AERA) de la Facultad de Ciencias. El correo electr\u00f3nico de AERA es estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la confirmaci\u00f3n. Me comunicar\u00e9 con el \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe si necesito cambiar de secci\u00f3n o horario de un curso matriculado."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es correcto, si necesitas cambiar de secci\u00f3n o horario de un curso matriculado, puedes comunicarte con el \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (AERA) a trav\u00e9s del correo estadistica_fc@uni.edu.pe. Ellos te brindar\u00e1n la informaci\u00f3n y los pasos necesarios para realizar el cambio. \u00a1Buena suerte con tu tr\u00e1mite!"
+            }
+        ]
+    },
+    {
+        "id": 202,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para reservar su matr\u00edcula si tiene conflictos de horario entre los cursos en los que est\u00e1 matriculado?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante debe presentar una solicitud de Reserva de Matr\u00edcula dirigida al Decano a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matr\u00edcula. La reserva de matr\u00edcula por conflictos de horario entre los cursos matriculados se realiza por solicitud y debe adjuntar los documentos que sustenten la raz\u00f3n invocada. Es importante tener en cuenta que los cambios de secci\u00f3n/horario son gestionados directamente por la oficina de estad\u00edstica (AERA) y est\u00e1n sujetos a la disponibilidad de plazas. Se recomienda comunicarse directamente con la oficina de AERA para obtener informaci\u00f3n detallada sobre el proceso a seguir."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entiendo que debo presentar una solicitud de Reserva de Matr\u00edcula a trav\u00e9s de la plataforma SIGA-DIRCE antes de la semana oficial de matr\u00edcula. Adem\u00e1s, debo adjuntar los documentos que respalden mi raz\u00f3n para solicitar la reserva debido a los conflictos de horario entre los cursos en los que estoy matriculado. \n\nTambi\u00e9n mencionaste que los cambios de secci\u00f3n/horario son gestionados por la oficina de estad\u00edstica (AERA) y dependen de la disponibilidad de plazas. \u00bfPodr\u00edas proporcionarme el contacto de la oficina de AERA para obtener m\u00e1s informaci\u00f3n sobre el proceso a seguir?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a la informaci\u00f3n de contacto espec\u00edfica de la oficina de AERA. Te recomendar\u00eda revisar la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe) para obtener informaci\u00f3n actualizada sobre los contactos de las oficinas relevantes. Tambi\u00e9n puedes buscar en la secci\u00f3n de \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la facultad para encontrar posibles avisos o formularios relacionados con el tema."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la sugerencia. Revisar\u00e9 la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe) para obtener informaci\u00f3n actualizada sobre los contactos de la oficina de AERA y buscar\u00e9 en la secci\u00f3n de \"Matr\u00edcula y Procedimientos\" posibles avisos o formularios relacionados con el tema."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una excelente idea revisar la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n actualizada sobre los contactos de la oficina de AERA y buscar posibles avisos o formularios relacionados con el tema en la secci\u00f3n de \"Matr\u00edcula y Procedimientos\". Si tienes alguna otra pregunta o necesitas m\u00e1s ayuda, no dudes en preguntar. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 203,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 sucede si un estudiante no puede realizar un cambio de secci\u00f3n/horario de un curso matriculado debido a conflictos de horario?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si un estudiante no puede realizar un cambio de secci\u00f3n/horario de un curso matriculado debido a conflictos de horario, deber\u00e1 comunicarse directamente con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n detallada sobre el proceso a seguir. Es importante tener en cuenta que los cambios de secci\u00f3n/horario est\u00e1n sujetos a la disponibilidad de plazas. La oficina de AERA podr\u00e1 brindar orientaci\u00f3n y asistencia en este tipo de situaciones."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si tengo un conflicto de horario con un curso matriculado y quiero realizar un cambio de secci\u00f3n, debo comunicarme con la oficina de estad\u00edstica (AERA) para obtener m\u00e1s informaci\u00f3n sobre el proceso. \u00bfPodr\u00edas proporcionarme el n\u00famero de contacto o la direcci\u00f3n de correo electr\u00f3nico de la oficina de AERA para que pueda comunicarme con ellos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes comunicarte con la oficina de estad\u00edstica (AERA) de la Facultad de Ciencias a trav\u00e9s del siguiente correo electr\u00f3nico: estadistica_fc@uni.edu.pe. Tambi\u00e9n puedes contactarlos por tel\u00e9fono, pero no tengo acceso a esa informaci\u00f3n espec\u00edfica. Te recomendar\u00eda enviarles un correo electr\u00f3nico para obtener la informaci\u00f3n que necesitas sobre el proceso de cambio de secci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener m\u00e1s informaci\u00f3n sobre el proceso de cambio de secci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "Perfecto, es una excelente idea comunicarte con la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe. Ellos podr\u00e1n brindarte informaci\u00f3n detallada sobre el proceso de cambio de secci\u00f3n y resolver cualquier duda que puedas tener al respecto. Recuerda que los cambios de secci\u00f3n est\u00e1n sujetos a la disponibilidad de plazas, por lo que es importante que te comuniques con ellos lo antes posible. \u00a1Buena suerte con tu solicitud de cambio de secci\u00f3n!"
+            }
+        ]
+    },
+    {
+        "id": 204,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el papel de la oficina de estad\u00edstica (AERA) en el proceso de cambios de secci\u00f3n/horario de un curso matriculado?"
+            },
+            {
+                "role": "assistant",
+                "content": "La oficina de estad\u00edstica (AERA) es responsable de gestionar los cambios de secci\u00f3n/horario de un curso matriculado en la Facultad de Ciencias. Los estudiantes deben comunicarse directamente con la oficina de AERA para solicitar un cambio de secci\u00f3n/horario debido a conflictos de horario entre los cursos en los que est\u00e1n matriculados. Sin embargo, es importante tener en cuenta que los cambios de secci\u00f3n/horario est\u00e1n sujetos a la disponibilidad de plazas. La oficina de AERA proporcionar\u00e1 informaci\u00f3n detallada sobre el proceso a seguir."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si tengo un conflicto de horario entre dos cursos en los que estoy matriculado, debo comunicarme directamente con la oficina de AERA para solicitar un cambio de secci\u00f3n/horario, \u00bfverdad? \u00bfPodr\u00edas proporcionarme el contacto de la oficina de AERA para que pueda comunicarme con ellos?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, si tienes un conflicto de horario entre dos cursos matriculados, debes comunicarte directamente con la oficina de AERA para solicitar un cambio de secci\u00f3n/horario. Puedes contactarlos a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe. El horario de atenci\u00f3n de la oficina de AERA es de lunes a viernes de 8:00 a.m. a 4:00 p.m."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me comunicar\u00e9 con la oficina de AERA a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe para solicitar el cambio de secci\u00f3n/horario. Tendr\u00e9 en cuenta que su horario de atenci\u00f3n es de lunes a viernes de 8:00 a.m. a 4:00 p.m."
+            },
+            {
+                "role": "assistant",
+                "content": "Perfecto, es correcto. Puedes comunicarte con la oficina de AERA a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe para solicitar el cambio de secci\u00f3n/horario. Recuerda que su horario de atenci\u00f3n es de lunes a viernes de 8:00 a.m. a 4:00 p.m. \u00a1Buena suerte con tu solicitud!"
+            }
+        ]
+    },
+    {
+        "id": 205,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfD\u00f3nde puede un estudiante encontrar formularios o avisos referentes al cambio de secci\u00f3n/horario de un curso matriculado?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los estudiantes pueden encontrar formularios o avisos referentes al cambio de secci\u00f3n/horario de un curso matriculado en la p\u00e1gina web de la facultad (https://fc.uni.edu.pe). Se recomienda revisar la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" para obtener informaci\u00f3n detallada sobre el proceso a seguir. Adem\u00e1s, pueden comunicarse directamente con la oficina de estad\u00edstica (AERA) para recibir asistencia personalizada."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Entonces, si tengo alguna duda o necesito asesoramiento adicional sobre el cambio de secci\u00f3n/horario de un curso matriculado, \u00bfpuedo comunicarme directamente con la oficina de estad\u00edstica (AERA)? \u00bfTienen alg\u00fan n\u00famero de tel\u00e9fono o direcci\u00f3n de correo electr\u00f3nico al que pueda dirigirme?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, puedes comunicarte directamente con la oficina de estad\u00edstica (AERA) para obtener asesoramiento adicional sobre el cambio de secci\u00f3n/horario de un curso matriculado. Puedes enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe para hacer tus consultas. Lamentablemente, no tengo acceso a un n\u00famero de tel\u00e9fono espec\u00edfico de la oficina de estad\u00edstica, pero el correo electr\u00f3nico es la forma m\u00e1s efectiva de comunicarse con ellos."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, gracias."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Estoy aqu\u00ed para asistirte en lo que necesites!"
+            }
+        ]
+    },
+    {
+        "id": 206,
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, asistente AI."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Hola! Soy Aerito, el asistente AI especializado en temas de matr\u00edcula, procedimientos y tr\u00e1mites acad\u00e9micos de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda de Per\u00fa. \u00bfEn qu\u00e9 puedo ayudarte hoy?"
+            },
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son los motivos de fuerza mayor que permiten a un estudiante solicitar el retiro total de todas las asignaturas en las que est\u00e1 matriculado?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los motivos de fuerza mayor que permiten a un estudiante solicitar el retiro total de todas las asignaturas en las que est\u00e1 matriculado son los siguientes: viaje al extranjero, accidente limitante, enfermedad limitante o asumir una emergencia familiar limitante. Estos motivos deben ser debidamente justificados y sustentados con documentos correspondientes al momento de realizar la solicitud de retiro total a trav\u00e9s de la plataforma SIGA-DIRCE. Recuerda que el retiro total implica la anulaci\u00f3n total de la matr\u00edcula en el periodo acad\u00e9mico actual."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas decirme cu\u00e1l es el procedimiento exacto para solicitar el retiro total de todas las asignaturas a trav\u00e9s de la plataforma SIGA-DIRCE?"
+            },
+            {
+                "role": "assistant",
+                "content": "El procedimiento exacto para solicitar el retiro total de todas las asignaturas a trav\u00e9s de la plataforma SIGA-DIRCE es el siguiente:\n\n1. Accede a la plataforma intranet-alumnos utilizando tu c\u00f3digo UNI y la clave correspondiente.\n2. Selecciona la opci\u00f3n \"Mis Tr\u00e1mites\" en el men\u00fa de navegaci\u00f3n ubicado en la parte izquierda de la pantalla.\n3. Dentro de \"Mis Tr\u00e1mites\", elige la opci\u00f3n \"Retiro Total\".\n4. Completa el formulario de solicitud de retiro total, proporcionando la siguiente informaci\u00f3n:\n   - Motivo por el cual deseas realizar el retiro total (viaje al extranjero, accidente limitante, enfermedad limitante o emergencia familiar limitante).\n   - Descripci\u00f3n detallada del motivo de retiro.\n   - N\u00famero de ciclos que estar\u00e1s ausente.\n   - Adjunta los documentos sustentatorios correspondientes al motivo de retiro total.\n5. Una vez completado el formulario, selecciona \"Enviar Solicitud\".\n\nRecuerda que el retiro total implica la anulaci\u00f3n total de tu matr\u00edcula en el periodo acad\u00e9mico actual. Si tienes alguna duda adicional, puedes consultar el Manual de Retiro Total publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la P\u00e1gina Web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Revisar\u00e9 el Manual de Retiro Total para obtener m\u00e1s detalles. \u00a1Hasta luego!"
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, \u00a1estoy aqu\u00ed para ayudarte! Si tienes alguna otra pregunta en el futuro, no dudes en volver. \u00a1Que tengas un buen d\u00eda! \u00a1Hasta luego!"
+            }
+        ]
+    },
+    {
+        "id": 207,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos debe seguir un estudiante para solicitar una constancia de notas en la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar una constancia de notas en la Facultad de Ciencias, el estudiante debe seguir estos pasos:\n\n1. Enviar un correo a estadistica_fc@uni.edu.pe solicitando una orden de pago para la CONSTANCIA DE NOTAS. Incluir los datos personales: n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo.\n\n2. La oficina de estad\u00edstica (AERA) enviar\u00e1 la orden de pago por S/. 100.00 a su correo electr\u00f3nico.\n\n3. Realizar el pago en una sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco, siguiendo las instrucciones proporcionadas en la orden de pago.\n\n4. Dejar en mesa de partes de la facultad el comprobante de pago y la solicitud correspondiente, o enviarlos por correo electr\u00f3nico a mesadepartes_fc@uni.edu.pe. Indicar en la solicitud si desea la CONSTANCIA DE NOTAS en ingl\u00e9s o espa\u00f1ol.\n\n5. AERA enviar\u00e1 un correo para notificarle que la constancia est\u00e1 lista para ser recogida en el horario de atenci\u00f3n de Lunes a Viernes, de 08:00 a 13:00 y de 14:00 a 15:30."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfCu\u00e1nto tiempo suele tomar el proceso completo desde que se env\u00eda la solicitud hasta que se puede recoger la constancia de notas?"
+            },
+            {
+                "role": "assistant",
+                "content": "El tiempo estimado para el proceso completo de solicitud y recogida de la constancia de notas en la Facultad de Ciencias puede variar, pero generalmente toma alrededor de 3 a 5 d\u00edas h\u00e1biles. Recuerda que este tiempo puede estar sujeto a cambios y depende de la carga de trabajo de la oficina de estad\u00edstica. Te recomendar\u00eda estar atento a los correos electr\u00f3nicos que te enviar\u00e1 AERA para informarte sobre el estado de tu solicitud y la disponibilidad de la constancia para su recogida."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Tomar\u00e9 en cuenta que el proceso de solicitud y recogida de la constancia de notas puede tomar alrededor de 3 a 5 d\u00edas h\u00e1biles, y estar\u00e9 atento a los correos electr\u00f3nicos de AERA para conocer el estado de mi solicitud."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada. Recuerda que el tiempo estimado para el proceso completo de solicitud y recogida de la constancia de notas en la Facultad de Ciencias es de aproximadamente 3 a 5 d\u00edas h\u00e1biles. Te recomendar\u00eda estar atento a los correos electr\u00f3nicos que te enviar\u00e1 AERA para informarte sobre el estado de tu solicitud y la disponibilidad de la constancia para su recogida. Si tienes alguna otra pregunta, no dudes en hacerla. Estoy aqu\u00ed para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": 208,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfEn qu\u00e9 horario puede un estudiante recoger la constancia de notas una vez que est\u00e9 lista?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante puede recoger la constancia de notas en el horario de atenci\u00f3n de la oficina de estad\u00edstica de la Facultad de Ciencias, de lunes a viernes, de 08:00 a 13:00 y de 14:00 a 15:30."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfD\u00f3nde se encuentra ubicada la oficina de estad\u00edstica de la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "La ubicaci\u00f3n de la oficina de estad\u00edstica de la Facultad de Ciencias se encuentra en la Universidad Nacional de Ingenier\u00eda (UNI), en Per\u00fa. Lamentablemente, no tengo acceso a la informaci\u00f3n espec\u00edfica de la direcci\u00f3n exacta de la oficina. Te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener la ubicaci\u00f3n precisa."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la ayuda."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Estoy aqu\u00ed para ayudarte en lo que necesites. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Buena suerte en tus tr\u00e1mites acad\u00e9micos!"
+            }
+        ]
+    },
+    {
+        "id": 209,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es el monto actual para el pago del autoseguro m\u00e9dico en la Universidad Nacional de Ingenier\u00eda?"
+            },
+            {
+                "role": "assistant",
+                "content": "El monto actual para el pago del autoseguro m\u00e9dico en la Universidad Nacional de Ingenier\u00eda no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda consultar el calendario de actividades acad\u00e9micas correspondiente al periodo acad\u00e9mico en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/) o comunicarte con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Consultar\u00e9 el calendario de actividades acad\u00e9micas en la p\u00e1gina web de la Facultad de Ciencias y me comunicar\u00e9 con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una buena idea consultar el calendario de actividades acad\u00e9micas en la p\u00e1gina web de la Facultad de Ciencias y comunicarte con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada que necesitas. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Estoy aqu\u00ed para ayudarte!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la sugerencia. Consultar\u00e9 el calendario de actividades acad\u00e9micas y me comunicar\u00e9 con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico. Si surge alguna otra pregunta, te lo har\u00e9 saber. \u00a1Gracias por tu ayuda!"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una buena idea consultar el calendario de actividades acad\u00e9micas y comunicarte con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico. Si tienes alguna otra pregunta, no dudes en hacerla. \u00a1Estoy aqu\u00ed para ayudarte!"
+            },
+            {
+                "role": "user",
+                "content": "Gracias, consultar\u00e9 el calendario y me comunicar\u00e9 con AERA para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico. Te informar\u00e9 si tengo m\u00e1s preguntas."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Es una buena idea consultar el calendario de actividades acad\u00e9micas y comunicarte con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico. Estar\u00e9 aqu\u00ed para ayudarte si tienes m\u00e1s preguntas. \u00a1No dudes en hacerlas!"
+            }
+        ]
+    },
+    {
+        "id": 210,
+        "messages": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 plataforma debe utilizar un ingresante o alumno regular para generar una orden de pago para el autoseguro m\u00e9dico?"
+            },
+            {
+                "role": "assistant",
+                "content": "El ingresante o alumno regular debe utilizar la plataforma Intranet-Alumnos para generar una orden de pago para el autoseguro m\u00e9dico. En esta plataforma, selecciona la opci\u00f3n \"Tr\u00e1mites y Pagos\" y ser\u00e1 redirigido al m\u00f3dulo de pagos del Portal INTRALU. En dicho m\u00f3dulo, selecciona la opci\u00f3n \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable, haz clic en el bot\u00f3n \"Nuevo\" y sigue las indicaciones hasta generar la orden de pago. Luego de generar la orden de pago, podr\u00e1s realizar el pago por aplicativo m\u00f3vil BCP o en alguna sucursal de la entidad bancaria."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. \u00bfPodr\u00edas indicarme cu\u00e1l es el costo del autoseguro m\u00e9dico para el presente a\u00f1o acad\u00e9mico?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener detalles sobre el costo del autoseguro m\u00e9dico para el presente a\u00f1o acad\u00e9mico. Puedes comunicarte con ellos a trav\u00e9s del correo estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la respuesta. Me pondr\u00e9 en contacto con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n sobre el costo del autoseguro m\u00e9dico para el presente a\u00f1o acad\u00e9mico."
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener detalles sobre el costo del autoseguro m\u00e9dico para el presente a\u00f1o acad\u00e9mico. Puedes comunicarte con ellos a trav\u00e9s del correo estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "Gracias por la informaci\u00f3n. Me pondr\u00e9 en contacto con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener detalles sobre el costo del autoseguro m\u00e9dico."
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener detalles sobre el costo del autoseguro m\u00e9dico."
             }
         ]
     }
