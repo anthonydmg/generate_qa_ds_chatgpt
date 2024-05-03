@@ -16,5 +16,6 @@ for file_path in files:
             "messages": [{"role": m["role"], "content":m["content"]} for m in conv["messages"]]
         })
 
+print(f"Numero de conversaciones finales {len(conversational_dataset)}")
 save_json(path_directory,"conversational_dataset", conversational_dataset)
     #print(data)
