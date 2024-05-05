@@ -228,7 +228,8 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         query,
         df,
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
-        top_n = 5
+        top_n = 5,
+        weighted_source = {"faq": 1, "document": 0.9} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
         query_embedding_response = openai.embeddings.create(
@@ -238,7 +239,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 
         query_embedding = query_embedding_response.data[0].embedding
         strings_and_relatednesses = [
-            (row["text"], relatedness_fn(query_embedding, row["embedding"]))
+            (row["text"], relatedness_fn(query_embedding, row["embedding"]) * weighted_source[row["type_source"]])
             for i, row in df.iterrows()
         ]
         strings_and_relatednesses.sort(key=lambda x: x[1], reverse=True)
@@ -312,8 +313,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 235
-    end = 236
+    start = 340
+    end = 350
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 

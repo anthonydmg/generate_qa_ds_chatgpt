@@ -60,21 +60,4 @@ POR QUE USAR ROUGE POR CAPTURA LA SOBREPOCICION ENTRE LOS TEXTO LO QUE CONTRUBUY
 ## https://plainenglish.io/community/evaluating-nlp-models-a-comprehensive-guide-to-rouge-bleu-meteor-and-bertscore-metrics-d0f1b1
 https://medium.com/@priyankads/rouge-your-nlp-results-b2feba61053a
 
-32
-64
-65
-109
-113
-118
-121
-131
-143
-144
-149
-156
-170
-209
-214
-220
-229
-235
+32 sobre que no se mencionan plazo para presentar los documentos verificar esto y generar de nuevo

@@ -327,3 +327,7 @@ for e in examples:
 #d = load_json("./conversational_data/conversations_simulated_75_to_75.json")
 #print(d[0]["messages"][2]["context"])
 
+## Pregunta chatgpt como dirias este respuesta sin mencionar informacion proporcionada.
+
+#a = "La constancia de matr\u00edcula se puede obtener de forma f\u00edsica, debiendo ser recogida en la oficina de estad\u00edstica (AERA) en el horario de atenci\u00f3n mencionado anteriormente. No se menciona en la informaci\u00f3n proporcionada si tambi\u00e9n se puede obtener de forma digital, por lo que se recomienda contactar directamente con la oficina de estad\u00edstica para obtener informaci\u00f3n actualizada sobre la disponibilidad de constancias de matr\u00edcula en formato digital."
+#print(a)

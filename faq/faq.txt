@@ -37,7 +37,7 @@ Tema: Fecha de Pago de Autoseguro
 
 Pregunta: ¿Hasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matrícula regular al ciclo academico en la Facultad de Ciencias de la UNI?
 
-Respuesta: Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Este calendario se encuentra publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" en la página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Si no se cumple con este plazo máximo, es probable que la matrícula no pueda realizarse de manera regular y deba gestionarse como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, es necesario que el estudiante se comunique con la oficina de estadística (AERA) o revise el procedimiento para gestionar su matrícula rezagada.
+Respuesta: Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Este calendario se encuentra publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" en la página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Si no se cumple con este plazo máximo, es probable que la matrícula no pueda realizarse de manera regular y deba gestionarse como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, es necesario que el estudiante se comunique con la oficina de estadística (AERA) al correo estadistica_fc@uni.edu.pe o revise el procedimiento para gestionar su matrícula rezagada.
 
 Tema: Procedimiento para solicitar una Constancia de Matricula 
 Pregunta: ¿Qué procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en español?
@@ -75,8 +75,8 @@ Para Física, Química o Ciencia de la Computación: escuelas_fc1@uni.edu.pe
 Para Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe"
 
 Tema: Reincorporación después de una una Reserva de matricula
-Pregunta: ¿Qué procedimiento debe seguir un estudiante que desea reincorporarse después de haber reservado su matricula por uno o mas periodos academico?
-Respuesta: El estudiante que quiera realizar su reincorporación deberá primero generar una orden de pago, el costo por tramite de reincorporación es S/. 42.00 + S/. 10.00 por cada periodo no estudiado. Para ello, debera realizar los siguientes pasos.
+Pregunta: ¿Qué procedimiento debe seguir un estudiante que desea reincorporarse después de haber reservado su matricula por uno o mas periodos académicos?
+Respuesta: El estudiante que desee realizar su reincorporación deberá gestionarla antes de las fechas de matrícula dentro del plazo establecido en el calendario de actividades académicas. Para ello, debera realizar los siguientes pasos.
     1. Acceder a la plataforma intranet-alumnos con su código UNI y clave correspondiente.
     2. Luego, seleccionar la opción "Trámites y Pagos" para acceder al módulo de pagos del Portal INTRALU.
     3. En el módulo de pagos, seleccionar el trámite correspondiente y generar un nuevo pago siguiendo las indicaciones en la plataforma. Mas detalles del proceso consultar el Manual de Pagos publicado en la sección de "MATRÍCULA Y PROCEDIMIENTOS" de la Pagina Web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).
@@ -126,7 +126,7 @@ Los estudiantes que deseen realizar modificaciones en la sección/horario de un 
 
 Tema: Procedimiento para el Retiro Total
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar el Retiro Total?
-Los estudiantes que deseen retirarse deben enviar su solicitud a través de la Plataforma intranet-alumnos hasta una semana antes de los exámenes parciales. Consultar fechas en el calendario académico. A continuación, se detallan los pasos a seguir:
+Los estudiantes que deseen retirarse deben enviar su solicitud a través de la Plataforma intranet-alumnos hasta una semana antes de los exámenes parciales. Consultar fechas en el calendario académico. A continuación, se detallan los pasos a seguir para enviar su solicitud a través de la Plataforma:
 1. El alumno accederá a la plataforma intranet-alumnos, utilizando su código UNI y la clave correspondiente.
 2. Dentro de la plataforma, seleccionará la opción "Mis Trámites" en el menú de navegación ubicado en la parte izquierda de la pantalla. Al hacer clic en dicho menú, se desplegarán varias opciones, entre las cuales deberá seleccionar "Retiro Total".
 3. Completará el formulario desplegado para la solicitud de retiro total, donde deberá proporcionar la siguiente información:
@@ -138,7 +138,7 @@ Los estudiantes que deseen retirarse deben enviar su solicitud a través de la P
 
 De manera excepcional, un estudiante puede solicitar el retiro total, en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro Médico de la UNI, MINSA o ESSALUD, hasta una semana antes de los exámenes finales, el mismo que será evaluado por el Consejo Directivo de la Escuela Profesional correspondiente.
 
-Pregunta: ¿Hasta cuanto se puede solicitar el retiro total?
+Pregunta: ¿Hasta cuando se puede solicitar el retiro total?
 Respuesta: El Retiro Total puede ser solicitado hasta una semana antes de los exámenes parciales, a través de la plataforma SIGA-DIRCE. De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los exámenes finales en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro Médico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente. 
 
 Pregunta: ¿Por cuales motivos un estudiante puede solicitar un retiro total?
@@ -155,7 +155,7 @@ Respuesta: Únicamente podrán matricularse en una asignatura y su respectivo pr
 
 Tema: Solicitar Vacantes adicionales 
 Pregunta: ¿Qué debe hacer un estudiante que desea solicitar una vacante adicional para la inscripción a un curso?
-Respuesta: A los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso, se les recomienda completar su matrícula virtual en los demás cursos y posteriormente comunicarse con la oficina para obtener mayor información y que su caso sea evaluado. También se recomienda revisar posibles publicaciones de avisos o formularios de solicitud correspondientes a la solicitud de vacantes dentro de la página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).
+Respuesta: A los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso, se les recomienda completar su matrícula virtual en los demás cursos y posteriormente comunicarse con la oficina de estadística (AERA) para obtener mayor información y que su caso sea evaluado. También se recomienda revisar posibles publicaciones de avisos o formularios de solicitud correspondientes a la solicitud de vacantes dentro de la página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).
 
 Tema: Procedimiento Para Reserva de Matricula
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matricula?
@@ -174,7 +174,7 @@ Respuesta: Si un estudiante no logró inscribirse en sus cursos a tiempo usando 
 
 Tema: Procedimiento de Retiro Parcial
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para retirarse de asignaturas en las que esta mataricula?
-Respuesta: El estudiante podrá tramitar su solicitud de retiro de asignaturas, denominado Retiro Parcial, a través de la plataforma DIRCE (intranet-alumnos) durante la quinta semana después del inicio de clases del período académico. Para conocer las fechas específicas, consulte el calendario de actividades académicas publicado en la página de la Facultad de Ciencias. Para solicitar el retiro parcial, el alumno debe seguir los siguientes pasos
+Respuesta: El estudiante podrá tramitar su solicitud de retiro de asignaturas, denominado Retiro Parcial, a través de la plataforma DIRCE (intranet-alumnos) durante la quinta semana después del inicio de clases del período académico. Para conocer las fechas específicas, consulte el calendario de actividades académicas publicado en la sección "Matrícula y Procedimientos" de la página de la Facultad de Ciencias (https://fc.uni.edu.pe/academico/documentos/). Para solicitar el retiro parcial, el alumno debe seguir los siguientes pasos
 
 - El alumno ingresará a la plataforma de intranet-alumnos y de todas las opciones seleccionará “retiro parcial”. 
 - Se mostrarán los cursos matriculados en el presente ciclo, y el estudiante deberá seleccionar aquellos cursos de los que desea retirarse. Es importante tener en cuenta que el retiro procede únicamente para asignaturas más avanzadas, no para aquellas de ciclos más atrasados, ni para asignaturas repetidas dos (02) o más veces, ni para asignaturas prerrequisito (en caso de que el estudiante esté matriculado en una asignatura y su prerrequisito). Además, se permite el retiro de un máximo de hasta tres (03) asignaturas retiradas, siempre y cuando no implique retirarse de todos los cursos en los que esta matriculado el estudiante.

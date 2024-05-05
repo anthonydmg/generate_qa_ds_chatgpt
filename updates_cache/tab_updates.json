@@ -1,0 +1,314 @@
+[
+    {
+        "conv_id_file": 1,
+        "conv_id": 31,
+        "message_id": 7,
+        "original_message": "Los documentos sustentatorios correspondientes al motivo de retiro total deben ser adjuntados al momento de completar el formulario de solicitud a trav\u00e9s de la plataforma intranet-alumnos. No se menciona un plazo espec\u00edfico para presentar estos documentos en la informaci\u00f3n proporcionada. Sin embargo, es recomendable adjuntarlos lo antes posible para agilizar el proceso de evaluaci\u00f3n de la solicitud. Si tienes alguna duda adicional, te sugiero consultar el Manual de Retiro Total publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la P\u00e1gina Web de la Facultad de Ciencias.",
+        "new_message": "Respuesta: Los documentos sustentatorios correspondientes al motivo de retiro total deben ser adjuntados al momento de completar el formulario de solicitud a trav\u00e9s de la plataforma intranet-alumnos. No se menciona un plazo espec\u00edfico para presentar estos documentos. Sin embargo, es recomendable adjuntarlos lo antes posible para agilizar el proceso de evaluaci\u00f3n de la solicitud. Si tienes alguna duda adicional, te sugiero consultar el Manual de Retiro Total publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la P\u00e1gina Web de la Facultad de Ciencias. Lamentablemente, no tengo conocimiento sobre el plazo exacto para presentar los documentos, pero te recomendar\u00eda que te informes en la P\u00e1gina Web de la Facultad de Ciencias o consultes con el personal encargado para obtener informaci\u00f3n actualizada y precisa.",
+        "file_path": "./conversational_data/conversations_simulated_30_to_34.json"
+    },
+    {
+        "conv_id_file": 3,
+        "conv_id": 33,
+        "message_id": 5,
+        "original_message": "No es necesario consultar con la Facultad de Ciencias de la UNI para saber d\u00f3nde presentar los documentos requeridos para el Retiro Total. Seg\u00fan la informaci\u00f3n proporcionada, los documentos deben adjuntarse a trav\u00e9s de la plataforma intranet-alumnos al momento de realizar la solicitud de retiro total. No se especifica un lugar f\u00edsico para presentar los documentos.",
+        "new_message": "No es necesario consultar con la Facultad de Ciencias de la UNI para saber d\u00f3nde presentar los documentos requeridos para el Retiro Total. Seg\u00fan mi conocimiento, los documentos deben adjuntarse a trav\u00e9s de la plataforma intranet-alumnos al momento de realizar la solicitud de retiro total. No se especifica un lugar f\u00edsico para presentar los documentos.",
+        "file_path": "./conversational_data/conversations_simulated_30_to_34.json"
+    },
+    {
+        "conv_id_file": 9,
+        "conv_id": 49,
+        "message_id": 3,
+        "original_message": "Para realizar el pago a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco, los estudiantes de la Universidad Nacional de Ingenier\u00eda deben seguir los siguientes pasos:\n\n1. Descargar e instalar la aplicaci\u00f3n m\u00f3vil del BCP en su dispositivo.\n2. Abrir la aplicaci\u00f3n y seleccionar la opci\u00f3n \"Pagar servicios\".\n3. Buscar y seleccionar \"Universidad Nacional de Ingenier\u00eda\".\n4. Elegir la opci\u00f3n de pago para estudiantes.\n5. Ingresar el n\u00famero de DNI del estudiante.\n6. La aplicaci\u00f3n mostrar\u00e1 la orden de pago con el monto exacto a pagar.\n7. Verificar los datos y confirmar el pago.\n\nEn cuanto a los requisitos adicionales y fechas l\u00edmite, no se mencionan en la informaci\u00f3n proporcionada. Se recomienda consultar directamente con el banco o la oficina de estad\u00edstica de la facultad para obtener informaci\u00f3n actualizada sobre los requisitos y fechas l\u00edmite para realizar el pago.\n\nAdem\u00e1s del pago a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco, la otra opci\u00f3n de pago disponible para los estudiantes de la Universidad Nacional de Ingenier\u00eda es realizar el pago en alguna sucursal del BCP.",
+        "new_message": "Para realizar el pago a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco, los estudiantes de la Universidad Nacional de Ingenier\u00eda deben seguir los siguientes pasos:\n\n1. Descargar e instalar la aplicaci\u00f3n m\u00f3vil del BCP en su dispositivo.\n2. Abrir la aplicaci\u00f3n y seleccionar la opci\u00f3n \"Pagar servicios\".\n3. Buscar y seleccionar \"Universidad Nacional de Ingenier\u00eda\".\n4. Elegir la opci\u00f3n de pago para estudiantes.\n5. Ingresar el n\u00famero de DNI del estudiante.\n6. La aplicaci\u00f3n mostrar\u00e1 la orden de pago con el monto exacto a pagar.\n7. Verificar los datos y confirmar el pago.\n\nEn cuanto a los requisitos adicionales y fechas l\u00edmite, no tengo conocimiento sobre esa informaci\u00f3n espec\u00edfica. Ser\u00eda recomendable consultar directamente con el banco o la oficina de estad\u00edstica de la facultad para obtener informaci\u00f3n actualizada sobre los requisitos y fechas l\u00edmite para realizar el pago.\n\nAdem\u00e1s del pago a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco, la otra opci\u00f3n de pago disponible para los estudiantes de la Universidad Nacional de Ingenier\u00eda es realizar el pago en alguna sucursal del BCP.",
+        "file_path": "./conversational_data/conversations_simulated_40_to_49.json"
+    },
+    {
+        "conv_id_file": 3,
+        "conv_id": 63,
+        "message_id": 1,
+        "original_message": "El l\u00edmite de cr\u00e9ditos para matricularse en la Facultad de Ciencias de la UNI para un estudiante en riesgo acad\u00e9mico no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda contactar directamente con la Oficina de Tutor\u00eda y la Comisi\u00f3n de Matr\u00edcula de la Facultad para obtener informaci\u00f3n precisa sobre el l\u00edmite de cr\u00e9ditos en esta situaci\u00f3n. Ellos podr\u00e1n brindarte la orientaci\u00f3n necesaria.",
+        "new_message": "El l\u00edmite de cr\u00e9ditos para matricularse en la Facultad de Ciencias de la UNI para un estudiante en riesgo acad\u00e9mico no est\u00e1 especificado en mi conocimiento. Te recomendar\u00eda contactar directamente con la Oficina de Tutor\u00eda y la Comisi\u00f3n de Matr\u00edcula de la Facultad para obtener informaci\u00f3n precisa sobre el l\u00edmite de cr\u00e9ditos en esta situaci\u00f3n. Ellos podr\u00e1n brindarte la orientaci\u00f3n necesaria.",
+        "file_path": "./conversational_data/conversations_simulated_60_to_68.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 108,
+        "message_id": 5,
+        "original_message": "Me alegra que hayas encontrado \u00fatil la informaci\u00f3n proporcionada. Si tienes m\u00e1s preguntas o necesitas asesoramiento adicional sobre el tema de matr\u00edcula y procedimientos, te recomendar\u00eda dirigirte directamente a la Oficina de Estad\u00edstica de la Facultad de Ciencias. Ellos estar\u00e1n encantados de brindarte la informaci\u00f3n y el apoyo que necesites.",
+        "new_message": "Me alegra que hayas encontrado \u00fatil la respuesta. Si tienes m\u00e1s preguntas o necesitas asesoramiento adicional sobre el tema de matr\u00edcula y procedimientos, te recomendar\u00eda dirigirte directamente a la Oficina de Estad\u00edstica de la Facultad de Ciencias. Ellos estar\u00e1n encantados de brindarte la informaci\u00f3n y el apoyo que necesites.",
+        "file_path": "./conversational_data/conversations_simulated_100_to_109.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 108,
+        "message_id": 7,
+        "original_message": "Me alegra que hayas encontrado \u00fatil la informaci\u00f3n proporcionada. Si tienes m\u00e1s preguntas o necesitas asesoramiento adicional sobre el tema de matr\u00edcula y procedimientos, te recomendar\u00eda dirigirte directamente a la Oficina de Estad\u00edstica de la Facultad de Ciencias. Ellos estar\u00e1n encantados de brindarte la informaci\u00f3n y el apoyo que necesites.",
+        "new_message": "Me alegra que hayas encontrado \u00fatil la respuesta. Si tienes m\u00e1s preguntas o necesitas asesoramiento adicional sobre el tema de matr\u00edcula y procedimientos, te recomendar\u00eda dirigirte directamente a la Oficina de Estad\u00edstica de la Facultad de Ciencias. Ellos estar\u00e1n encantados de brindarte la informaci\u00f3n y el apoyo que necesites.",
+        "file_path": "./conversational_data/conversations_simulated_100_to_109.json"
+    },
+    {
+        "conv_id_file": 2,
+        "conv_id": 112,
+        "message_id": 3,
+        "original_message": "S\u00ed, hay un l\u00edmite de asignaturas que un estudiante puede retirar durante su carrera universitaria. Seg\u00fan la informaci\u00f3n proporcionada, un estudiante puede solicitar el retiro parcial de hasta tres (03) asignaturas en un per\u00edodo acad\u00e9mico. Sin embargo, no se permite el retiro total de todas las asignaturas en las que est\u00e1 matriculado. Es importante tener en cuenta que estos l\u00edmites pueden variar seg\u00fan el reglamento de matr\u00edcula de la Facultad de Ciencias. Para obtener informaci\u00f3n m\u00e1s precisa, te recomendar\u00eda consultar el reglamento o contactar con la Oficina de Estad\u00edstica de la Facultad de Ciencias.",
+        "new_message": "S\u00ed, hay un l\u00edmite de asignaturas que un estudiante puede retirar durante su carrera universitaria. Seg\u00fan mi conocimiento, un estudiante puede solicitar el retiro parcial de hasta tres (03) asignaturas en un per\u00edodo acad\u00e9mico. Sin embargo, no se permite el retiro total de todas las asignaturas en las que est\u00e1 matriculado. Es importante tener en cuenta que estos l\u00edmites pueden variar seg\u00fan el reglamento de matr\u00edcula de la Facultad de Ciencias. Para obtener informaci\u00f3n m\u00e1s precisa, te recomendar\u00eda consultar el reglamento o contactar con la Oficina de Estad\u00edstica de la Facultad de Ciencias.",
+        "file_path": "./conversational_data/conversations_simulated_110_to_119.json"
+    },
+    {
+        "conv_id_file": 5,
+        "conv_id": 115,
+        "message_id": 3,
+        "original_message": "Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica sobre las fechas de habilitaci\u00f3n de la plataforma de intranet-alumno para la matr\u00edcula rezagada. Te recomendar\u00eda consultar el calendario acad\u00e9mico publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/) para obtener las fechas exactas. En cuanto al plazo l\u00edmite para realizar el pago de la matr\u00edcula rezagada, no se menciona en la informaci\u00f3n proporcionada. Para obtener esa informaci\u00f3n, te sugiero comunicarte con la Oficina de Estad\u00edstica de la Facultad de Ciencias.",
+        "new_message": "Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica sobre las fechas de habilitaci\u00f3n de la plataforma de intranet-alumno para la matr\u00edcula rezagada. Te recomendar\u00eda consultar el calendario acad\u00e9mico publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/) para obtener las fechas exactas. En cuanto al plazo l\u00edmite para realizar el pago de la matr\u00edcula rezagada, no tengo conocimiento al respecto. Te sugiero comunicarte con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener esa informaci\u00f3n.",
+        "file_path": "./conversational_data/conversations_simulated_110_to_119.json"
+    },
+    {
+        "conv_id_file": 7,
+        "conv_id": 117,
+        "message_id": 1,
+        "original_message": "La Oficina de Estad\u00edstica de la Facultad de Ciencias tiene un papel importante en el proceso de matr\u00edcula rezagada. Seg\u00fan la informaci\u00f3n proporcionada, la matr\u00edcula rezagada se realiza exclusivamente a trav\u00e9s de la Oficina de Estad\u00edstica y requiere la autorizaci\u00f3n del Director de la Escuela Profesional correspondiente. Por lo tanto, la Oficina de Estad\u00edstica es responsable de recibir y procesar las solicitudes de matr\u00edcula rezagada, asegurando que cumplan con los requisitos establecidos. Tambi\u00e9n es posible que la Oficina de Estad\u00edstica emita el reporte de matr\u00edcula para los estudiantes que realicen la matr\u00edcula rezagada.",
+        "new_message": "La Oficina de Estad\u00edstica de la Facultad de Ciencias tiene un papel importante en el proceso de matr\u00edcula rezagada. En este proceso, la matr\u00edcula rezagada se realiza exclusivamente a trav\u00e9s de la Oficina de Estad\u00edstica y requiere la autorizaci\u00f3n del Director de la Escuela Profesional correspondiente. Por lo tanto, la Oficina de Estad\u00edstica es responsable de recibir y procesar las solicitudes de matr\u00edcula rezagada, asegurando que cumplan con los requisitos establecidos. Adem\u00e1s, es posible que la Oficina de Estad\u00edstica emita el reporte de matr\u00edcula para los estudiantes que realicen la matr\u00edcula rezagada.",
+        "file_path": "./conversational_data/conversations_simulated_110_to_119.json"
+    },
+    {
+        "conv_id_file": 7,
+        "conv_id": 117,
+        "message_id": 3,
+        "original_message": "Seg\u00fan la informaci\u00f3n proporcionada, los requisitos espec\u00edficos para realizar la matr\u00edcula rezagada a trav\u00e9s de la Oficina de Estad\u00edstica son los siguientes:\n\n1. Realizar el pago correspondiente establecido en la norma de la UNI. El monto del pago es de 26 soles.\n2. Generar la orden de pago a trav\u00e9s del Portal INTRALU, que es la zona intranet-alumno a la que el estudiante tiene acceso.\n3. Subir el comprobante de pago en el formulario que se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la p\u00e1gina web de la Facultad de Ciencias.\n4. Esperar a que el personal de la Oficina de Estad\u00edstica habilite el acceso a la plataforma de intranet-alumno para que el estudiante pueda matricularse directamente.\n\nRecuerda que estos requisitos son espec\u00edficos para la matr\u00edcula rezagada y pueden estar sujetos a cambios. Te recomendar\u00eda verificar la informaci\u00f3n actualizada en la p\u00e1gina web de la Facultad de Ciencias o contactar directamente con la Oficina de Estad\u00edstica para obtener informaci\u00f3n m\u00e1s precisa.",
+        "new_message": "Seg\u00fan mi conocimiento, los requisitos espec\u00edficos para realizar la matr\u00edcula rezagada a trav\u00e9s de la Oficina de Estad\u00edstica son los siguientes:\n\n1. Realizar el pago correspondiente establecido en la norma de la UNI. El monto del pago es de 26 soles.\n2. Generar la orden de pago a trav\u00e9s del Portal INTRALU, que es la zona intranet-alumno a la que el estudiante tiene acceso.\n3. Subir el comprobante de pago en el formulario que se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la p\u00e1gina web de la Facultad de Ciencias.\n4. Esperar a que el personal de la Oficina de Estad\u00edstica habilite el acceso a la plataforma de intranet-alumno para que el estudiante pueda matricularse directamente.\n\nSin embargo, te recomendar\u00eda verificar la informaci\u00f3n actualizada en la p\u00e1gina web de la Facultad de Ciencias o contactar directamente con la Oficina de Estad\u00edstica para obtener informaci\u00f3n m\u00e1s precisa, ya que no tengo conocimiento actualizado sobre este tema.",
+        "file_path": "./conversational_data/conversations_simulated_110_to_119.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 118,
+        "message_id": 3,
+        "original_message": "Si no subes el comprobante de pago de la matr\u00edcula rezagada, es importante que te comuniques con la Oficina de Estad\u00edstica de la Facultad de Ciencias lo antes posible. Puedes enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe o acercarte personalmente a dicha oficina para informar sobre tu situaci\u00f3n y solicitar asistencia para completar el proceso de matr\u00edcula. No se menciona un plazo espec\u00edfico en la informaci\u00f3n proporcionada, pero es recomendable que te pongas en contacto con la oficina lo antes posible para evitar retrasos en tu matr\u00edcula.",
+        "new_message": "Si no subes el comprobante de pago de la matr\u00edcula rezagada, es importante que te comuniques con la Oficina de Estad\u00edstica de la Facultad de Ciencias lo antes posible. Puedes enviar un correo electr\u00f3nico a estadistica_fc@uni.edu.pe o acercarte personalmente a dicha oficina para informar sobre tu situaci\u00f3n y solicitar asistencia para completar el proceso de matr\u00edcula. No tengo conocimiento sobre un plazo espec\u00edfico para esta situaci\u00f3n, pero es recomendable que te pongas en contacto con la oficina lo antes posible para evitar retrasos en tu matr\u00edcula.",
+        "file_path": "./conversational_data/conversations_simulated_110_to_119.json"
+    },
+    {
+        "conv_id_file": 0,
+        "conv_id": 120,
+        "message_id": 1,
+        "original_message": "El costo de la matr\u00edcula regular para un estudiante no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda para obtener informaci\u00f3n precisa sobre los costos de matr\u00edcula.",
+        "new_message": "El costo de la matr\u00edcula regular para un estudiante no est\u00e1 especificado en la informaci\u00f3n disponible. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda para obtener informaci\u00f3n precisa sobre los costos de matr\u00edcula.",
+        "file_path": "./conversational_data/conversations_simulated_120_to_129.json"
+    },
+    {
+        "conv_id_file": 0,
+        "conv_id": 130,
+        "message_id": 5,
+        "original_message": "Seg\u00fan la informaci\u00f3n proporcionada, el plazo para presentar la solicitud de matr\u00edcula por traslado interno es hasta la fecha indicada en el calendario acad\u00e9mico. Recuerda que es importante cumplir con este plazo para asegurar que tu solicitud sea procesada correctamente. Si tienes alguna otra pregunta, no dudes en hacerla.",
+        "new_message": "Seg\u00fan mi conocimiento, el plazo para presentar la solicitud de matr\u00edcula por traslado interno es hasta la fecha indicada en el calendario acad\u00e9mico. Es importante cumplir con este plazo para asegurar que tu solicitud sea procesada correctamente. Si tienes alguna otra pregunta, estar\u00e9 encantado de ayudarte.",
+        "file_path": "./conversational_data/conversations_simulated_130_to_139.json"
+    },
+    {
+        "conv_id_file": 2,
+        "conv_id": 142,
+        "message_id": 5,
+        "original_message": "No se mencionan requisitos adicionales en la informaci\u00f3n proporcionada. Sin embargo, te recomendar\u00eda incluir en tu correo los detalles espec\u00edficos de la ayudant\u00eda acad\u00e9mica que est\u00e1s solicitando, como el curso o la asignatura en la que deseas ser ayudante. Esto ayudar\u00e1 a agilizar el proceso y asegurarte de obtener la informaci\u00f3n y los pasos correctos para tu solicitud.",
+        "new_message": "No se mencionan requisitos adicionales en la respuesta proporcionada. Sin embargo, ser\u00eda recomendable que incluyas en tu correo los detalles espec\u00edficos de la ayudant\u00eda acad\u00e9mica que est\u00e1s solicitando, como el curso o la asignatura en la que deseas ser ayudante. Esto ayudar\u00e1 a agilizar el proceso y asegurarte de obtener la informaci\u00f3n y los pasos correctos para tu solicitud.",
+        "file_path": "./conversational_data/conversations_simulated_140_to_149.json"
+    },
+    {
+        "conv_id_file": 6,
+        "conv_id": 146,
+        "message_id": 3,
+        "original_message": "La ubicaci\u00f3n exacta de la oficina de estad\u00edstica o AERA en el campus de la Universidad Nacional de Ingenier\u00eda no se encuentra disponible en la informaci\u00f3n proporcionada. Te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica a trav\u00e9s de su correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener informaci\u00f3n precisa sobre su ubicaci\u00f3n.",
+        "new_message": "La ubicaci\u00f3n exacta de la oficina de estad\u00edstica o AERA en el campus de la Universidad Nacional de Ingenier\u00eda no est\u00e1 disponible en mi conocimiento. Te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica a trav\u00e9s de su correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener informaci\u00f3n precisa sobre su ubicaci\u00f3n.",
+        "file_path": "./conversational_data/conversations_simulated_140_to_149.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 148,
+        "message_id": 5,
+        "original_message": "S\u00ed, para obtener o renovar el carnet universitario en la Facultad de Ciencias de la UNI, debes estar matriculado, realizar el pago de S/ 11.50 a trav\u00e9s del Portal INTRALU, completar la ficha de datos y tener una fotograf\u00eda digital. Despu\u00e9s de cumplir con estos requisitos, puedes recoger el carnet en la Oficina de Estad\u00edstica. No se menciona un plazo espec\u00edfico en la informaci\u00f3n proporcionada, por lo que te recomendar\u00eda estar atento a los avisos o notificaciones de la oficina para conocer los plazos establecidos.",
+        "new_message": "S\u00ed, para obtener o renovar el carnet universitario en la Facultad de Ciencias de la UNI, debes estar matriculado, realizar el pago de S/ 11.50 a trav\u00e9s del Portal INTRALU, completar la ficha de datos y tener una fotograf\u00eda digital. Despu\u00e9s de cumplir con estos requisitos, puedes recoger el carnet en la Oficina de Estad\u00edstica. No tengo conocimiento de un plazo espec\u00edfico establecido, por lo que te recomendar\u00eda estar atento a los avisos o notificaciones de la oficina para conocer los plazos establecidos.",
+        "file_path": "./conversational_data/conversations_simulated_140_to_149.json"
+    },
+    {
+        "conv_id_file": 5,
+        "conv_id": 155,
+        "message_id": 3,
+        "original_message": "El plazo para realizar el pago del carnet universitario no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener informaci\u00f3n actualizada sobre los plazos y fechas l\u00edmite para el pago del carnet universitario. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada que necesitas.",
+        "new_message": "El plazo para realizar el pago del carnet universitario no est\u00e1 especificado en la informaci\u00f3n disponible. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener informaci\u00f3n actualizada sobre los plazos y fechas l\u00edmite para el pago del carnet universitario. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada que necesitas.",
+        "file_path": "./conversational_data/conversations_simulated_150_to_159.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 158,
+        "message_id": 5,
+        "original_message": "Si no renuevas tu carnet universitario a tiempo, podr\u00edas perder los beneficios asociados y tener dificultades para acceder al campus. La fecha l\u00edmite para renovar el carnet universitario no est\u00e1 especificada en la informaci\u00f3n proporcionada. Te recomendar\u00eda estar atento a los avisos o notificaciones de la Oficina de Estad\u00edstica de la Facultad de Ciencias para conocer la fecha l\u00edmite exacta y asegurarte de renovarlo dentro de ese plazo.",
+        "new_message": "Si no renuevas tu carnet universitario a tiempo, podr\u00edas perder los beneficios asociados y tener dificultades para acceder al campus. Lamentablemente, no tengo conocimiento sobre la fecha l\u00edmite para renovar el carnet universitario. Te recomendar\u00eda estar atento a los avisos o notificaciones de la Oficina de Estad\u00edstica de la Facultad de Ciencias para conocer la fecha l\u00edmite exacta y asegurarte de renovarlo dentro de ese plazo.",
+        "file_path": "./conversational_data/conversations_simulated_150_to_159.json"
+    },
+    {
+        "conv_id_file": 3,
+        "conv_id": 173,
+        "message_id": 7,
+        "original_message": "Para solicitar una constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol, no se mencionan requisitos espec\u00edficos en la informaci\u00f3n proporcionada. Sin embargo, es posible que la oficina de estad\u00edstica (AERA) pueda solicitar algunos datos personales, como el n\u00famero de DNI, apellidos, nombres y correo institucional o alternativo. Te recomendar\u00eda contactar directamente a la oficina de estad\u00edstica a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener informaci\u00f3n m\u00e1s precisa sobre los requisitos espec\u00edficos para solicitar la constancia de matr\u00edcula.",
+        "new_message": "Para solicitar una constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol, no puedo proporcionar informaci\u00f3n espec\u00edfica sobre los requisitos. Sin embargo, te recomendar\u00eda contactar directamente a la oficina de estad\u00edstica a trav\u00e9s del correo estadistica_fc@uni.edu.pe. Ellos podr\u00e1n brindarte informaci\u00f3n m\u00e1s precisa sobre los requisitos necesarios para solicitar la constancia de matr\u00edcula.",
+        "file_path": "./conversational_data/conversations_simulated_170_to_179.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 208,
+        "message_id": 1,
+        "original_message": "El monto actual para el pago del autoseguro m\u00e9dico en la Universidad Nacional de Ingenier\u00eda no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda consultar el calendario de actividades acad\u00e9micas correspondiente al periodo acad\u00e9mico en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/) o comunicarte con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico.",
+        "new_message": "El monto actual para el pago del autoseguro m\u00e9dico en la Universidad Nacional de Ingenier\u00eda no est\u00e1 especificado en mi conocimiento. Te recomendar\u00eda consultar el calendario de actividades acad\u00e9micas correspondiente al periodo acad\u00e9mico en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/) o comunicarte con la oficina de estad\u00edstica (AERA) para obtener informaci\u00f3n actualizada sobre el monto del autoseguro m\u00e9dico.",
+        "file_path": "./conversational_data/conversations_simulated_200_to_209.json"
+    },
+    {
+        "conv_id_file": 3,
+        "conv_id": 213,
+        "message_id": 3,
+        "original_message": "Seg\u00fan la informaci\u00f3n proporcionada, no se menciona ninguna restricci\u00f3n o l\u00edmite en la cantidad de veces que un estudiante puede solicitar un retiro total de asignaturas durante su carrera universitaria. Sin embargo, es importante tener en cuenta que el retiro total procede \u00fanicamente por motivos de fuerza mayor y debe ser evaluado y aprobado por el Consejo Directivo de la Escuela Profesional correspondiente. Se recomienda consultar el reglamento de matr\u00edcula y procedimientos de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre posibles restricciones o limitaciones adicionales.",
+        "new_message": "Seg\u00fan mi conocimiento, no tengo informaci\u00f3n sobre restricciones o l\u00edmites en la cantidad de veces que un estudiante puede solicitar un retiro total de asignaturas durante su carrera universitaria. Sin embargo, es importante tener en cuenta que el retiro total procede \u00fanicamente por motivos de fuerza mayor y debe ser evaluado y aprobado por el Consejo Directivo de la Escuela Profesional correspondiente. Te recomendar\u00eda consultar el reglamento de matr\u00edcula y procedimientos de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre posibles restricciones o limitaciones adicionales.",
+        "file_path": "./conversational_data/conversations_simulated_210_to_219.json"
+    },
+    {
+        "conv_id_file": 9,
+        "conv_id": 219,
+        "message_id": 3,
+        "original_message": "La informaci\u00f3n proporcionada no incluye los horarios de atenci\u00f3n de la Oficina de Tutor\u00eda ni menciona si es necesario hacer una cita previa. Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica. Te recomendar\u00eda comunicarte directamente con la Oficina de Tutor\u00eda a trav\u00e9s del correo electr\u00f3nico tutoria.fc@uni.edu.pe para obtener los horarios de atenci\u00f3n y confirmar si es necesario hacer una cita previa. Ellos podr\u00e1n brindarte la informaci\u00f3n actualizada y precisa que necesitas.",
+        "new_message": "Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica. Te recomendar\u00eda comunicarte directamente con la Oficina de Tutor\u00eda a trav\u00e9s del correo electr\u00f3nico tutoria.fc@uni.edu.pe para obtener los horarios de atenci\u00f3n y confirmar si es necesario hacer una cita previa. Ellos podr\u00e1n brindarte la informaci\u00f3n actualizada y precisa que necesitas.",
+        "file_path": "./conversational_data/conversations_simulated_210_to_219.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 228,
+        "message_id": 3,
+        "original_message": "Seg\u00fan la informaci\u00f3n proporcionada, el pago de la orden de pago se puede realizar a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP o en alguna sucursal del mismo banco. No se menciona la posibilidad de realizar el pago a trav\u00e9s de transferencia bancaria desde otra entidad financiera. Para obtener informaci\u00f3n m\u00e1s precisa sobre las opciones de pago disponibles, te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias.",
+        "new_message": "Seg\u00fan mi conocimiento, el pago de la orden de pago se puede realizar a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP o en alguna sucursal del mismo banco. No tengo informaci\u00f3n sobre la posibilidad de realizar el pago a trav\u00e9s de transferencia bancaria desde otra entidad financiera. Para obtener informaci\u00f3n m\u00e1s precisa sobre las opciones de pago disponibles, te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias.",
+        "file_path": "./conversational_data/conversations_simulated_220_to_229.json"
+    },
+    {
+        "conv_id_file": 4,
+        "conv_id": 234,
+        "message_id": 3,
+        "original_message": "1. El plazo para realizar el pago de la matr\u00edcula rezagada en la UNI no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda consultar el calendario acad\u00e9mico publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias para obtener esa informaci\u00f3n precisa.\n\n2. El formulario para subir el comprobante de pago se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias. Puedes acceder a dicho formulario siguiendo el enlace proporcionado en el documento.\n\n3. El tiempo que toma que el personal de la Oficina de Estad\u00edstica habilite el acceso a la plataforma de intranet-alumno despu\u00e9s de subir el comprobante de pago no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda comunicarte directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener esa informaci\u00f3n precisa.",
+        "new_message": "Respuesta: 1. El plazo para realizar el pago de la matr\u00edcula rezagada en la UNI no est\u00e1 especificado en la informaci\u00f3n disponible. Te recomendar\u00eda consultar el calendario acad\u00e9mico publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias para obtener esa informaci\u00f3n precisa.\n\n2. El formulario para subir el comprobante de pago se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias. Puedes acceder a dicho formulario siguiendo el enlace proporcionado en el documento.\n\n3. El tiempo que toma que el personal de la Oficina de Estad\u00edstica habilite el acceso a la plataforma de intranet-alumno despu\u00e9s de subir el comprobante de pago no est\u00e1 especificado en la informaci\u00f3n disponible. Te recomendar\u00eda comunicarte directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener esa informaci\u00f3n precisa.",
+        "file_path": "./conversational_data/conversations_simulated_230_to_239.json"
+    },
+    {
+        "conv_id_file": 6,
+        "conv_id": 246,
+        "message_id": 1,
+        "original_message": "El costo del autoseguro estudiantil que los ingresantes deben pagar durante su matr\u00edcula no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda consultar el manual de pagos de la UNI publicado en la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil.",
+        "new_message": "El costo del autoseguro estudiantil que los ingresantes deben pagar durante su matr\u00edcula no est\u00e1 especificado en la informaci\u00f3n disponible. Te recomendar\u00eda consultar el manual de pagos de la UNI publicado en la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil.",
+        "file_path": "./conversational_data/conversations_simulated_240_to_249.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 258,
+        "message_id": 3,
+        "original_message": "El plazo establecido para completar la constancia de ingreso en la Facultad de Ciencias de la UNI no se encuentra especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda comunicarte con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener informaci\u00f3n precisa sobre el plazo establecido y las consecuencias espec\u00edficas en caso de no cumplir con dicho plazo. Ellos podr\u00e1n brindarte orientaci\u00f3n y asistencia adecuada en relaci\u00f3n a este tema.",
+        "new_message": "El plazo establecido para completar la constancia de ingreso en la Facultad de Ciencias de la UNI no se encuentra especificado en la informaci\u00f3n disponible. Te recomendar\u00eda comunicarte con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener informaci\u00f3n precisa sobre el plazo establecido y las consecuencias espec\u00edficas en caso de no cumplir con dicho plazo. Ellos podr\u00e1n brindarte orientaci\u00f3n y asistencia adecuada en relaci\u00f3n a este tema.",
+        "file_path": "./conversational_data/conversations_simulated_250_to_259.json"
+    },
+    {
+        "conv_id_file": 2,
+        "conv_id": 262,
+        "message_id": 3,
+        "original_message": "El plazo establecido para la entrega de la ficha de datos de matr\u00edcula de nuevos ingresantes se encuentra en el cronograma de actividades de matr\u00edcula para ingresantes publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda revisar esa secci\u00f3n para obtener la informaci\u00f3n actualizada sobre los plazos espec\u00edficos.\n\nEn cuanto a requisitos adicionales al completar la ficha de datos, no se mencionan en la informaci\u00f3n proporcionada. Te sugiero revisar detenidamente la ficha de datos y asegurarte de completar todos los campos obligatorios de manera precisa y correcta. Si tienes alguna duda espec\u00edfica sobre alg\u00fan campo de la ficha, te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica de la Facultad de Ciencias para obtener una respuesta m\u00e1s precisa.",
+        "new_message": "El plazo establecido para la entrega de la ficha de datos de matr\u00edcula de nuevos ingresantes se encuentra en el cronograma de actividades de matr\u00edcula para ingresantes publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda revisar esa secci\u00f3n para obtener la informaci\u00f3n actualizada sobre los plazos espec\u00edficos.\n\nEn cuanto a requisitos adicionales al completar la ficha de datos, no tengo conocimiento de esa informaci\u00f3n. Te sugiero revisar detenidamente la ficha de datos y asegurarte de completar todos los campos obligatorios de manera precisa y correcta. Si tienes alguna duda espec\u00edfica sobre alg\u00fan campo de la ficha, te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica de la Facultad de Ciencias para obtener una respuesta m\u00e1s precisa.",
+        "file_path": "./conversational_data/conversations_simulated_260_to_269.json"
+    },
+    {
+        "conv_id_file": 4,
+        "conv_id": 264,
+        "message_id": 3,
+        "original_message": "No se mencionan requisitos adicionales para acceder a la plataforma de intranet-alumnos en la informaci\u00f3n proporcionada. Sin embargo, es importante tener en cuenta que necesitar\u00e1s tus credenciales de acceso, que incluyen tu c\u00f3digo UNI y la clave correspondiente que te ha sido enviada por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE) a tu correo electr\u00f3nico. Aseg\u00farate de tener esta informaci\u00f3n a mano para poder acceder correctamente a la plataforma.",
+        "new_message": "No se mencionan requisitos adicionales para acceder a la plataforma de intranet-alumnos. Sin embargo, es importante tener en cuenta que necesitar\u00e1s tus credenciales de acceso, que incluyen tu c\u00f3digo UNI y la clave correspondiente que te ha sido enviada por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE) a tu correo electr\u00f3nico. Aseg\u00farate de tener esta informaci\u00f3n a mano para poder acceder correctamente a la plataforma.",
+        "file_path": "./conversational_data/conversations_simulated_260_to_269.json"
+    },
+    {
+        "conv_id_file": 3,
+        "conv_id": 273,
+        "message_id": 3,
+        "original_message": "El plazo para cumplir con los requisitos y obtener el carnet universitario se establece en el calendario de actividades acad\u00e9micas de la Facultad de Ciencias. Te recomendar\u00eda consultar dicho calendario para conocer las fechas espec\u00edficas. En cuanto a los documentos adicionales, no se menciona en la informaci\u00f3n proporcionada que se requiera presentar alg\u00fan documento adicional al momento de solicitar el carnet universitario. Sin embargo, te sugiero estar atento a los avisos o notificaciones de la Oficina de Estad\u00edstica por si hubiera alg\u00fan requerimiento adicional.",
+        "new_message": "El plazo para cumplir con los requisitos y obtener el carnet universitario se establece en el calendario de actividades acad\u00e9micas de la Facultad de Ciencias. Te recomendar\u00eda consultar dicho calendario para conocer las fechas espec\u00edficas. En cuanto a los documentos adicionales, no tengo conocimiento de que se requiera presentar alg\u00fan documento adicional al momento de solicitar el carnet universitario. Sin embargo, te sugiero estar atento a los avisos o notificaciones de la Oficina de Estad\u00edstica por si hubiera alg\u00fan requerimiento adicional.",
+        "file_path": "./conversational_data/conversations_simulated_270_to_279.json"
+    },
+    {
+        "conv_id_file": 5,
+        "conv_id": 275,
+        "message_id": 5,
+        "original_message": "S\u00ed, hay un costo asociado a la entrega del carn\u00e9 universitario. De acuerdo a la informaci\u00f3n proporcionada, el monto correspondiente es de S/ 11.50. Este pago debe ser realizado a trav\u00e9s de una orden de pago generada en el Portal INTRALU y puede ser pagado en una sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco. Recuerda que este pago es necesario para obtener el carn\u00e9 universitario. Si tienes alguna otra pregunta, estar\u00e9 encantado de ayudarte.",
+        "new_message": "S\u00ed, hay un costo asociado a la entrega del carn\u00e9 universitario. Seg\u00fan la informaci\u00f3n disponible, el monto correspondiente es de S/ 11.50. Sin embargo, me gustar\u00eda mencionar que mi conocimiento es limitado en este tema en particular. Te recomendar\u00eda verificar esta informaci\u00f3n directamente con la universidad o con la entidad encargada de la emisi\u00f3n de los carn\u00e9s universitarios. Recuerda que este pago es necesario para obtener el carn\u00e9 universitario. Si tienes alguna otra pregunta, estar\u00e9 encantado de ayudarte.",
+        "file_path": "./conversational_data/conversations_simulated_270_to_279.json"
+    },
+    {
+        "conv_id_file": 9,
+        "conv_id": 279,
+        "message_id": 1,
+        "original_message": "De acuerdo a la informaci\u00f3n proporcionada, los estudiantes que deseen obtener informaci\u00f3n sobre la convalidaci\u00f3n de pr\u00e1cticas pre profesionales deben ponerse en contacto con el departamento de su Escuela Profesional correspondiente. Puedes obtener m\u00e1s detalles sobre este tr\u00e1mite o solicitar informaci\u00f3n a trav\u00e9s de las siguientes direcciones de correo electr\u00f3nico, seg\u00fan tu Escuela Profesional:\n\n- Para F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\n- Para Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe",
+        "new_message": "De acuerdo a la informaci\u00f3n disponible, los estudiantes que deseen obtener informaci\u00f3n sobre la convalidaci\u00f3n de pr\u00e1cticas pre profesionales pueden comunicarse con el departamento de su Escuela Profesional correspondiente. Para obtener m\u00e1s detalles sobre este tr\u00e1mite o solicitar informaci\u00f3n, te sugiero que te pongas en contacto a trav\u00e9s de las siguientes direcciones de correo electr\u00f3nico, seg\u00fan tu Escuela Profesional:\n\n- Para F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\n- Para Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe",
+        "file_path": "./conversational_data/conversations_simulated_270_to_279.json"
+    },
+    {
+        "conv_id_file": 0,
+        "conv_id": 280,
+        "message_id": 3,
+        "original_message": "El plazo m\u00e1ximo para realizar la convalidaci\u00f3n de pr\u00e1cticas pre profesionales no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda ponerse en contacto con el departamento de tu Escuela Profesional correspondiente para obtener informaci\u00f3n m\u00e1s precisa sobre los plazos y el proceso de convalidaci\u00f3n de pr\u00e1cticas pre profesionales. Puedes enviar un correo electr\u00f3nico a la direcci\u00f3n de correo electr\u00f3nico de tu escuela profesional: escuelas_fc1@uni.edu.pe para F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n, o escuelas_fc2@uni.edu.pe para Matem\u00e1ticas o Ingenier\u00eda F\u00edsica. Ellos podr\u00e1n brindarte la informaci\u00f3n necesaria.",
+        "new_message": "El plazo m\u00e1ximo para realizar la convalidaci\u00f3n de pr\u00e1cticas pre profesionales no est\u00e1 especificado en mi conocimiento. Te recomendar\u00eda ponerse en contacto con el departamento de tu Escuela Profesional correspondiente para obtener informaci\u00f3n m\u00e1s precisa sobre los plazos y el proceso de convalidaci\u00f3n de pr\u00e1cticas pre profesionales. Puedes enviar un correo electr\u00f3nico a la direcci\u00f3n de correo electr\u00f3nico de tu escuela profesional: escuelas_fc1@uni.edu.pe para F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n, o escuelas_fc2@uni.edu.pe para Matem\u00e1ticas o Ingenier\u00eda F\u00edsica. Ellos podr\u00e1n brindarte la informaci\u00f3n necesaria.",
+        "file_path": "./conversational_data/conversations_simulated_280_to_289.json"
+    },
+    {
+        "conv_id_file": 5,
+        "conv_id": 295,
+        "message_id": 5,
+        "original_message": "Puedes realizar la solicitud de tu correo institucional de la UNI en cualquier momento. No se menciona un plazo espec\u00edfico en la informaci\u00f3n proporcionada. Recuerda enviar un correo a obtenercorreo@uni.pe con los datos solicitados para que puedan procesar tu solicitud.",
+        "new_message": "Puedes realizar la solicitud de tu correo institucional de la UNI en cualquier momento. No se menciona un plazo espec\u00edfico en la informaci\u00f3n que tengo disponible. Recuerda enviar un correo a obtenercorreo@uni.pe con los datos solicitados para que puedan procesar tu solicitud.",
+        "file_path": "./conversational_data/conversations_simulated_290_to_299.json"
+    },
+    {
+        "conv_id_file": 1,
+        "conv_id": 301,
+        "message_id": 3,
+        "original_message": "S\u00ed, el retiro parcial de asignaturas tiene una fecha l\u00edmite establecida en el calendario acad\u00e9mico. Seg\u00fan la informaci\u00f3n proporcionada, los estudiantes pueden tramitar su solicitud de retiro parcial a trav\u00e9s de la plataforma DIRCE durante la quinta semana despu\u00e9s del inicio de clases del per\u00edodo acad\u00e9mico. Te recomendar\u00eda consultar el calendario de actividades acad\u00e9micas publicado en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias para conocer la fecha espec\u00edfica.",
+        "new_message": "Respuesta: S\u00ed, el retiro parcial de asignaturas tiene una fecha l\u00edmite establecida en el calendario acad\u00e9mico. Seg\u00fan mi conocimiento, los estudiantes pueden tramitar su solicitud de retiro parcial a trav\u00e9s de la plataforma DIRCE durante la quinta semana despu\u00e9s del inicio de clases del per\u00edodo acad\u00e9mico. Te recomendar\u00eda consultar el calendario de actividades acad\u00e9micas publicado en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias para conocer la fecha espec\u00edfica.",
+        "file_path": "./conversational_data/conversations_simulated_300_to_309.json"
+    },
+    {
+        "conv_id_file": 5,
+        "conv_id": 305,
+        "message_id": 3,
+        "original_message": "Seg\u00fan la informaci\u00f3n proporcionada, el l\u00edmite de cr\u00e9ditos faltantes para matricularse en un curso y su pre requisito es de treinta (30) cr\u00e9ditos. Sin embargo, existen excepciones a esta regla. Si eres un estudiante en posibilidad de egresar y te faltan hasta treinta cr\u00e9ditos para completar tu Plan de Estudios, puedes solicitar tu inclusi\u00f3n en la Matr\u00edcula Preferencial. En esta condici\u00f3n, podr\u00edas matricularte en treinta cr\u00e9ditos, siempre y cuando no tengas una asignatura desaprobada dos veces y no te falte la asignaci\u00f3n de los cr\u00e9ditos por pr\u00e1cticas pre-profesionales. Para solicitar una evaluaci\u00f3n especial y obtener m\u00e1s informaci\u00f3n sobre este proceso, te recomendar\u00eda comunicarte con tu escuela profesional correspondiente.",
+        "new_message": "Seg\u00fan la informaci\u00f3n disponible, el l\u00edmite de cr\u00e9ditos faltantes para matricularse en un curso y su pre requisito es de treinta (30) cr\u00e9ditos. Sin embargo, es importante tener en cuenta que existen excepciones a esta regla. Si eres un estudiante en posibilidad de egresar y te faltan hasta treinta cr\u00e9ditos para completar tu Plan de Estudios, es posible que puedas solicitar tu inclusi\u00f3n en la Matr\u00edcula Preferencial. En esta situaci\u00f3n, podr\u00edas matricularte en treinta cr\u00e9ditos, siempre y cuando no tengas una asignatura desaprobada dos veces y no te falte la asignaci\u00f3n de los cr\u00e9ditos por pr\u00e1cticas pre-profesionales. Si deseas obtener m\u00e1s informaci\u00f3n sobre este proceso y solicitar una evaluaci\u00f3n especial, te recomendar\u00eda comunicarte con tu escuela profesional correspondiente.",
+        "file_path": "./conversational_data/conversations_simulated_300_to_309.json"
+    },
+    {
+        "conv_id_file": 8,
+        "conv_id": 318,
+        "message_id": 3,
+        "original_message": "El procedimiento para solicitar una carga acad\u00e9mica mayor a los 28 cr\u00e9ditos permitidos para estudiantes con un promedio ponderado entre 14 y 20 en la Facultad de Ciencias de la UNI no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n precisa sobre este procedimiento. Ellos podr\u00e1n brindarte la orientaci\u00f3n necesaria y los pasos a seguir para solicitar una carga acad\u00e9mica mayor.",
+        "new_message": "El procedimiento para solicitar una carga acad\u00e9mica mayor a los 28 cr\u00e9ditos permitidos para estudiantes con un promedio ponderado entre 14 y 20 en la Facultad de Ciencias de la UNI no est\u00e1 especificado en mi conocimiento. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener informaci\u00f3n precisa sobre este procedimiento. Ellos podr\u00e1n brindarte la orientaci\u00f3n necesaria y los pasos a seguir para solicitar una carga acad\u00e9mica mayor.",
+        "file_path": "./conversational_data/conversations_simulated_310_to_319.json"
+    },
+    {
+        "conv_id_file": 3,
+        "conv_id": 333,
+        "message_id": 1,
+        "original_message": "La direcci\u00f3n de la oficina de estad\u00edstica o AERA no se encuentra disponible en la informaci\u00f3n proporcionada. Te recomendar\u00eda comunicarte directamente con la oficina de estad\u00edstica a trav\u00e9s de su correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener la direcci\u00f3n exacta.",
+        "new_message": "La direcci\u00f3n de la oficina de estad\u00edstica o AERA no est\u00e1 disponible en mi conocimiento. Te recomendar\u00eda comunicarte directamente con la oficina de estad\u00edstica a trav\u00e9s de su correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener la direcci\u00f3n exacta.",
+        "file_path": "./conversational_data/conversations_simulated_330_to_335.json"
+    },
+    {
+        "conv_id_file": 1,
+        "conv_id": 337,
+        "message_id": 3,
+        "original_message": "1. El proceso de emisi\u00f3n de la constancia de matr\u00edcula puede tardar aproximadamente 3 d\u00edas h\u00e1biles una vez que se ha presentado la solicitud y el comprobante de pago. Sin embargo, te recomendar\u00eda verificar directamente con la oficina de estad\u00edstica (AERA) para obtener una estimaci\u00f3n m\u00e1s precisa del tiempo de procesamiento.\n\n2. Seg\u00fan la informaci\u00f3n proporcionada, la constancia de matr\u00edcula debe ser recogida personalmente en la oficina de AERA durante el horario de atenci\u00f3n establecido. No se menciona la opci\u00f3n de recibir la constancia por correo electr\u00f3nico. Te sugiero contactar directamente a la oficina de estad\u00edstica para confirmar si existe alguna posibilidad de env\u00edo electr\u00f3nico en casos excepcionales.\n\n3. No se mencionan requisitos adicionales para solicitar la constancia de matr\u00edcula en ingl\u00e9s en lugar de espa\u00f1ol. Sin embargo, es posible que la oficina de estad\u00edstica pueda brindarte m\u00e1s informaci\u00f3n sobre este tema. Te recomendar\u00eda comunicarte con ellos para obtener una respuesta precisa y actualizada sobre los requisitos espec\u00edficos para solicitar la constancia en ingl\u00e9s.",
+        "new_message": "Respuesta corregida: \n\n1. El proceso de emisi\u00f3n de la constancia de matr\u00edcula puede tardar aproximadamente 3 d\u00edas h\u00e1biles una vez que se ha presentado la solicitud y el comprobante de pago. Sin embargo, te recomendar\u00eda verificar directamente con la oficina de estad\u00edstica (AERA) para obtener una estimaci\u00f3n m\u00e1s precisa del tiempo de procesamiento.\n\n2. En cuanto a la entrega de la constancia de matr\u00edcula, te sugiero contactar directamente a la oficina de AERA para confirmar si existe alguna posibilidad de env\u00edo electr\u00f3nico en casos excepcionales. Ellos podr\u00e1n brindarte informaci\u00f3n m\u00e1s precisa sobre las opciones de entrega disponibles.\n\n3. No tengo conocimiento sobre los requisitos espec\u00edficos para solicitar la constancia de matr\u00edcula en ingl\u00e9s en lugar de espa\u00f1ol. Te recomendar\u00eda comunicarte con la oficina de estad\u00edstica para obtener una respuesta precisa y actualizada sobre los requisitos espec\u00edficos para solicitar la constancia en ingl\u00e9s.",
+        "file_path": "./conversational_data/conversations_simulated_336_to_339.json"
+    },
+    {
+        "conv_id_file": 4,
+        "conv_id": 344,
+        "message_id": 5,
+        "original_message": "La constancia de matr\u00edcula se puede obtener de forma f\u00edsica, debiendo ser recogida en la oficina de estad\u00edstica (AERA) en el horario de atenci\u00f3n mencionado anteriormente. No se menciona en la informaci\u00f3n proporcionada si tambi\u00e9n se puede obtener de forma digital, por lo que se recomienda contactar directamente con la oficina de estad\u00edstica para obtener informaci\u00f3n actualizada sobre la disponibilidad de constancias de matr\u00edcula en formato digital.",
+        "new_message": "La constancia de matr\u00edcula se puede obtener de forma f\u00edsica, debiendo ser recogida en la oficina de estad\u00edstica (AERA) en el horario de atenci\u00f3n mencionado anteriormente. No tengo conocimiento si tambi\u00e9n se puede obtener de forma digital, por lo que te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica para obtener informaci\u00f3n actualizada sobre la disponibilidad de constancias de matr\u00edcula en formato digital.",
+        "file_path": "./conversational_data/conversations_simulated_340_to_349.json"
+    }
+]

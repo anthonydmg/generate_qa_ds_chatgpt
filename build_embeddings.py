@@ -100,6 +100,7 @@ MAX_TOKENS = 1000
 
 text_subsections = []
 general_topics_subsections = []
+type_sources = []
 
 topics = load_json("topics_finals.json")
 faqs = load_json("faq/faq_json.json")
@@ -113,7 +114,7 @@ for topic in topics:
     print(f"Divido en {len(subsections)} secciones")
     text_subsections.extend(subsections)
     general_topics_subsections.extend([title] * len(subsections))
-
+    type_sources.extend(["document"] * len(subsections))
 embeddings = []
 
 print("\nNumero de secciones encontradas:", len(text_subsections))
@@ -122,7 +123,7 @@ for faq in faqs:
     text_faq = faq["topic"].title() + "\n" + faq["question"] + "\n" + faq["answer"]
     text_subsections.append(text_faq)
     general_topics_subsections.append(faq["topic"])
-
+    type_sources.append("faq")
 print("\nNumero de secciones encontradas:", len(text_subsections))
 
 EMBEDDING_MODEL = "text-embedding-3-small"
@@ -138,7 +139,7 @@ for batch_start in range(0, len(text_subsections), BATCH_SIZE):
     batch_embeddings = [e.embedding for e in response.data]
     embeddings.extend(batch_embeddings)
 
-df = pd.DataFrame({"topic": general_topics_subsections, "text": text_subsections, "embedding": embeddings})
+df = pd.DataFrame({"type_source": type_sources ,"topic": general_topics_subsections, "text": text_subsections, "embedding": embeddings})
 
 SAVE_PATH = "./kb/topics.csv"
 
