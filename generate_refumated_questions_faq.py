@@ -141,7 +141,7 @@ def generate_reformulated_faq(faqs, times_samples = 8):
     reformulated_faqs = []
     for iter in range(times_samples):
         print(f"\nIteracion {iter}\n")
-        if iter < 8:
+        if iter < 10:
             continue
 
         choices = random.sample(ids, k = len(ids))
@@ -165,6 +165,6 @@ def generate_reformulated_faq(faqs, times_samples = 8):
 
     return reformulated_faqs
         
-reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 10)
+reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 14)
 
 save_json("./faq", "reformulated_faqs", reformulated_faqs)
