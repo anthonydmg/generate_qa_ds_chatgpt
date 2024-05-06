@@ -141,13 +141,16 @@ def generate_reformulated_faq(faqs, times_samples = 8):
     reformulated_faqs = []
     for iter in range(times_samples):
         print(f"\nIteracion {iter}\n")
-        if iter < 10:
-            continue
+        
 
         choices = random.sample(ids, k = len(ids))
         num_grupos = len(choices) // 3
         grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
         sobran = len(choices) % 3
+        
+        if iter < 14:
+            continue
+
         if sobran > 0:
             grupos = grupos + [choices[-3:]]
         #print(grupos)
@@ -165,6 +168,6 @@ def generate_reformulated_faq(faqs, times_samples = 8):
 
     return reformulated_faqs
         
-reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 14)
+reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 18)
 
 save_json("./faq", "reformulated_faqs", reformulated_faqs)

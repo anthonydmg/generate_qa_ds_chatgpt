@@ -371,8 +371,8 @@ def join_reformulated_questions(reformulated_faqs = []):
 
 reformulated_faqs_joined = join_reformulated_questions(reformulated_faqs)
 
-save_json("./faq", "reformulated_faqs_joined", reformulated_faqs_joined) """
-
+save_json("./faq", "reformulated_faqs_joined", reformulated_faqs_joined)
+ """
 import evaluate
 
 
@@ -403,15 +403,15 @@ def filtered_questions_reformulated_rouge(
         })
     return filtered_questions_reformulated
 
-""" reformulated_faqs_joined = load_json("./faq/reformulated_faqs_joined.json")
+#reformulated_faqs_joined = load_json("./faq/reformulated_faqs_joined.json")
 
 
-threshold_rouge = 0.85
+""" threshold_rouge = 0.85
 filtered_questions_reformulated = filtered_questions_reformulated_rouge(reformulated_faqs_joined, threshold_rouge)
 
 save_json("./faq", f"filtered_questions_reformulated_rouge_{threshold_rouge}", filtered_questions_reformulated)
- """
 
+ """
 #filtered_questions_reformulated_rouge = load_json("./faq/filtered_questions_reformulated_rouge_0.85.json")
 
 
@@ -424,6 +424,21 @@ def flat_questions_reformulate(filtered_questions_reformulated_rouge):
         filtered_reformulated_question_list.extend(questions_generated)
     return filtered_reformulated_question_list
 
-filtered_reformulated_question_list = flat_questions_reformulate(filtered_questions_reformulated_rouge)
+dir_path = "./faq-reformulated"
 
-save_json("./faq", f"filtered_reformulated_question_list", filtered_reformulated_question_list)
+
+def split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge):
+    for i, reformulated_faq in enumerate(filtered_questions_reformulated_rouge):
+        #original_question = reformulated_faq["original_question"]
+        questions_generated = reformulated_faq["questions_generated"]
+        save_json(dir_path, f"faq_{i+1}_reformulated", questions_generated)
+    return 
+
+filtered_questions_reformulated_rouge_list = load_json("./faq/filtered_questions_reformulated_rouge_0.85.json")
+
+split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge_list)
+
+
+#filtered_reformulated_question_list = flat_questions_reformulate(filtered_questions_reformulated_rouge_list)
+
+#save_json("./faq", f"filtered_reformulated_question_list", filtered_reformulated_question_list)

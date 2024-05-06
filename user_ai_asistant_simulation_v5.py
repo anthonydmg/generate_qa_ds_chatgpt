@@ -234,7 +234,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
         weighted_source = {"faq": 1, "document": 0.9},
-        weigthed_embeddings = {"query": 0.6, "context": 0.4} 
+        weigthed_embeddings = {"query": 0.65, "context": 0.4} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
         query_embedding_response = openai.embeddings.create(
