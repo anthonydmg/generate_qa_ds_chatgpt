@@ -122,8 +122,11 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
 #Mensaje del asistente de AI: {message}"""
         num_turn = len(self.messages) // 2 + (1 if not self.start_greeting else 0)
         print("\nNumero de turno:", num_turn)
+        
+        num_words = random.choice([20,30,35,40])
+        
         if num_turn > 2:
-            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos 40 palabras de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
+            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos de {num_words} palabras de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
         Mensaje del asistente de AI: {message}"""
         else:
             prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
@@ -195,7 +198,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             if count_num_tokens(template_information, model=self.model) > token_budget:
                 break
 
-            information += "\n"+ text
+            information += "\n\n"+ text
         
         return information
 
@@ -203,8 +206,8 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         #instrucction = """# sin hacer mención a la información
 #Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
         #  en lugar menciona que no tienes acceso a dicha información según sea necesario
-        instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Limita la respuesta a un máximo de 100 palabras."""
-
+        instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser demasiado redundante y limita la respuesta a un máximo de 100 palabras."""
+        # descrita a continuación 
         #instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita proporcionar datos no respaldados explícitamente en dicha información. Usa máximo 100 palabras."""
         
         #instrucction = """Proporciona una respuesta concisa, informativa y significativa al siguiente mensaje del usuario utilizando únicamente la información contenida entre tres comillas invertidas. Evita ofrecer datos no respaldados por dicha información y ten en cuenta el contexto del historial del diálogo en curso. Usa máximo 100 palabras"""
@@ -222,14 +225,16 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         prompt_response_to_query = instrucction + template_information + mensaje_user
 
         return prompt_response_to_query
-
+    ## prev context
     def strings_ranked_by_relatedness(
         self,
         query,
         df,
+        context = None,
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
-        weighted_source = {"faq": 1, "document": 0.9} 
+        weighted_source = {"faq": 1, "document": 0.9},
+        weigthed_embeddings = {"query": 0.6, "context": 0.4} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
         query_embedding_response = openai.embeddings.create(
@@ -238,20 +243,38 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         )
 
         query_embedding = query_embedding_response.data[0].embedding
-        strings_and_relatednesses = [
-            (row["text"], relatedness_fn(query_embedding, row["embedding"]) * weighted_source[row["type_source"]])
-            for i, row in df.iterrows()
-        ]
+        
+        if context is not None:
+            context_embedding_response = openai.embeddings.create(
+                model=self.embedding_model,
+                input = context 
+            )
+
+            context_embedding = context_embedding_response.data[0].embedding
+
+            strings_and_relatednesses = [
+                (row["text"], (weigthed_embeddings["query"]* relatedness_fn(query_embedding, row["embedding"]) + weigthed_embeddings["context"] * relatedness_fn(context_embedding, row["embedding"])) * weighted_source[row["type_source"]])
+                for i, row in df.iterrows()
+            ]
+        
+        else:
+            strings_and_relatednesses = [
+                (row["text"], relatedness_fn(query_embedding, row["embedding"]) * weighted_source[row["type_source"]])
+                for i, row in df.iterrows()
+            ]
+        
         strings_and_relatednesses.sort(key=lambda x: x[1], reverse=True)
         strings, relatednesses = zip(*strings_and_relatednesses)
         return strings[:top_n], relatednesses[:top_n]
 
     def generate_response(self, message, use_kb = True):
         if use_kb == True:
-            query = self.messages[-1]["content"] + "\n" + message if len(self.messages) > 1 else message
+            #query = self.messages[-1]["content"] + "\n" + message if len(self.messages) > 1 else message
 
+            query =  message
+            context = self.messages[-1]["content"] if len(self.messages) > 1 else None
             #print("query:", query)
-            info_texs, relatednesses = self.strings_ranked_by_relatedness(query=query, df= self.df_kb, top_n=5)
+            info_texs, relatednesses = self.strings_ranked_by_relatedness(query=query, context = context, df= self.df_kb, top_n=5)
             
             self.recovered_texts.append([{"text": text, "relatedness": relatedness } for text , relatedness in zip(info_texs, relatednesses)])
             
@@ -264,6 +287,8 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             prompt_response_to_query = self.get_prompt_response_to_query(
                 message, info_texs, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response)
             
+            print("\nprompt_response_to_query:\n", prompt_response_to_query)
+
             response_ai_assistant = get_completion_from_messages(
             messages= self.messages + [{"role": "user", "content": prompt_response_to_query}],
             model = self.model
@@ -313,8 +338,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 340
-    end = 350
+    start = 520
+    end = 540
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
@@ -354,14 +379,6 @@ if __name__ == "__main__":
 
                 print("\nAssistant:", response_ai_assistant)
 
-                 ## save conversation
-
-                #messages = ai_assistant.get_history_dialog(include_context=True)
-                #conversations_simulated.append({
-                #    "openline": question,
-                #    "messages": messages
-                #})
-            
                 break
 
             response_user_ai = user_ai_sim.generate_response(message=response_ai_assistant)

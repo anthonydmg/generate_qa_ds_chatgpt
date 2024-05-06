@@ -637,7 +637,7 @@
             },
             {
                 "role": "assistant",
-                "content": "El costo del autoseguro estudiantil que los ingresantes deben pagar durante su matr\u00edcula no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda consultar el manual de pagos de la UNI publicado en la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil.",
+                "content": "El costo del autoseguro estudiantil que los ingresantes deben pagar durante su matr\u00edcula no est\u00e1 especificado en la informaci\u00f3n disponible. Te recomendar\u00eda consultar el manual de pagos de la UNI publicado en la p\u00e1gina web de la Facultad de Ciencias para obtener informaci\u00f3n detallada sobre el costo del autoseguro estudiantil.",
                 "context": null,
                 "recovered_texts": null
             },

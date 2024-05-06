@@ -376,7 +376,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Seg\u00fan la informaci\u00f3n proporcionada, no se menciona ninguna restricci\u00f3n o l\u00edmite en la cantidad de veces que un estudiante puede solicitar un retiro total de asignaturas durante su carrera universitaria. Sin embargo, es importante tener en cuenta que el retiro total procede \u00fanicamente por motivos de fuerza mayor y debe ser evaluado y aprobado por el Consejo Directivo de la Escuela Profesional correspondiente. Se recomienda consultar el reglamento de matr\u00edcula y procedimientos de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre posibles restricciones o limitaciones adicionales.",
+                "content": "Seg\u00fan mi conocimiento, no tengo informaci\u00f3n sobre restricciones o l\u00edmites en la cantidad de veces que un estudiante puede solicitar un retiro total de asignaturas durante su carrera universitaria. Sin embargo, es importante tener en cuenta que el retiro total procede \u00fanicamente por motivos de fuerza mayor y debe ser evaluado y aprobado por el Consejo Directivo de la Escuela Profesional correspondiente. Te recomendar\u00eda consultar el reglamento de matr\u00edcula y procedimientos de la Facultad de Ciencias para obtener informaci\u00f3n m\u00e1s precisa sobre posibles restricciones o limitaciones adicionales.",
                 "context": null,
                 "recovered_texts": null
             },
@@ -1024,7 +1024,7 @@
             },
             {
                 "role": "assistant",
-                "content": "La informaci\u00f3n proporcionada no incluye los horarios de atenci\u00f3n de la Oficina de Tutor\u00eda ni menciona si es necesario hacer una cita previa. Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica. Te recomendar\u00eda comunicarte directamente con la Oficina de Tutor\u00eda a trav\u00e9s del correo electr\u00f3nico tutoria.fc@uni.edu.pe para obtener los horarios de atenci\u00f3n y confirmar si es necesario hacer una cita previa. Ellos podr\u00e1n brindarte la informaci\u00f3n actualizada y precisa que necesitas.",
+                "content": "Lamentablemente, no tengo acceso a esa informaci\u00f3n espec\u00edfica. Te recomendar\u00eda comunicarte directamente con la Oficina de Tutor\u00eda a trav\u00e9s del correo electr\u00f3nico tutoria.fc@uni.edu.pe para obtener los horarios de atenci\u00f3n y confirmar si es necesario hacer una cita previa. Ellos podr\u00e1n brindarte la informaci\u00f3n actualizada y precisa que necesitas.",
                 "context": null,
                 "recovered_texts": null
             },

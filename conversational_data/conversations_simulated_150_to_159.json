@@ -566,7 +566,7 @@
             },
             {
                 "role": "assistant",
-                "content": "El plazo para realizar el pago del carnet universitario no est\u00e1 especificado en la informaci\u00f3n proporcionada. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener informaci\u00f3n actualizada sobre los plazos y fechas l\u00edmite para el pago del carnet universitario. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada que necesitas.",
+                "content": "El plazo para realizar el pago del carnet universitario no est\u00e1 especificado en la informaci\u00f3n disponible. Te recomendar\u00eda contactar directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias a trav\u00e9s del correo estadistica_fc@uni.edu.pe para obtener informaci\u00f3n actualizada sobre los plazos y fechas l\u00edmite para el pago del carnet universitario. Ellos podr\u00e1n brindarte la informaci\u00f3n precisa y actualizada que necesitas.",
                 "context": null,
                 "recovered_texts": null
             },
@@ -935,7 +935,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Si no renuevas tu carnet universitario a tiempo, podr\u00edas perder los beneficios asociados y tener dificultades para acceder al campus. La fecha l\u00edmite para renovar el carnet universitario no est\u00e1 especificada en la informaci\u00f3n proporcionada. Te recomendar\u00eda estar atento a los avisos o notificaciones de la Oficina de Estad\u00edstica de la Facultad de Ciencias para conocer la fecha l\u00edmite exacta y asegurarte de renovarlo dentro de ese plazo.",
+                "content": "Si no renuevas tu carnet universitario a tiempo, podr\u00edas perder los beneficios asociados y tener dificultades para acceder al campus. Lamentablemente, no tengo conocimiento sobre la fecha l\u00edmite para renovar el carnet universitario. Te recomendar\u00eda estar atento a los avisos o notificaciones de la Oficina de Estad\u00edstica de la Facultad de Ciencias para conocer la fecha l\u00edmite exacta y asegurarte de renovarlo dentro de ese plazo.",
                 "context": null,
                 "recovered_texts": null
             },

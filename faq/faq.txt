@@ -280,12 +280,14 @@ Respuesta: Para solicitar su correo institucional de la UNI, enviar un correo ob
 
 Tema: Procedimiento de Matricula Rezagada
 Pregunta: ¿Qué procedimiento debe seguir un estudiante para tramitar su matricula rezagada?
-Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario academico publicado en la seccion " MATRÍCULA Y PROCEDIMIENTOS" dentro de la Pagina de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). La matrícula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matrícula en las fechas establecidas en el calendario de actividades académicas y se realizará en función a las vacantes disponibles.
-Para realizar la matricula el estudiado debera ejecutar los siguientes pasos:
+Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario academico publicado en la seccion " MATRÍCULA Y PROCEDIMIENTOS" dentro de la Pagina de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). La matrícula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matrícula en las fechas establecidas en el calendario de actividades académicas para la matricula regular y se realizará en función a las vacantes disponibles.
+Para realizar la matricula rezagada el estudiante debera ejecutar los siguientes pasos:
 
 1. Los estudiantes que realizan su matrícula en forma rezagada deberán efectuar el pago de 26 soles. Para ello, debera generar una order de pago atravez del Portal INTRALU.
 2. Después de haber realizado el pago deberá subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento "MATRÍCULA REZAGADA" publicado en la sección de MATRÍCULA Y PROCEDIMIENTOS dentro de la pagina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).
 3. Luego, deberá esperar a que el personal de la oficina de Estadística, dentro de las fechas establecidas para la matrícula rezagada, proceda a habilitar el acceso a la plataforma de intranet para que el estudiante pueda matricularse directamente.
+
+Posterior a la fechas de la matricula rezagada, los estudiantes ya no podrán realizar la matricula en el ciclo academico.
 
 Tema: Acceder a la plataforma de intranet-alumnos de la UNI
 Pregunta: ¿Cómo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI?

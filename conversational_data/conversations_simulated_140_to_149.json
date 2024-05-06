@@ -275,7 +275,7 @@
             },
             {
                 "role": "assistant",
-                "content": "No se mencionan requisitos adicionales en la informaci\u00f3n proporcionada. Sin embargo, te recomendar\u00eda incluir en tu correo los detalles espec\u00edficos de la ayudant\u00eda acad\u00e9mica que est\u00e1s solicitando, como el curso o la asignatura en la que deseas ser ayudante. Esto ayudar\u00e1 a agilizar el proceso y asegurarte de obtener la informaci\u00f3n y los pasos correctos para tu solicitud.",
+                "content": "No se mencionan requisitos adicionales en la respuesta proporcionada. Sin embargo, ser\u00eda recomendable que incluyas en tu correo los detalles espec\u00edficos de la ayudant\u00eda acad\u00e9mica que est\u00e1s solicitando, como el curso o la asignatura en la que deseas ser ayudante. Esto ayudar\u00e1 a agilizar el proceso y asegurarte de obtener la informaci\u00f3n y los pasos correctos para tu solicitud.",
                 "context": null,
                 "recovered_texts": null
             },
@@ -661,7 +661,7 @@
             },
             {
                 "role": "assistant",
-                "content": "La ubicaci\u00f3n exacta de la oficina de estad\u00edstica o AERA en el campus de la Universidad Nacional de Ingenier\u00eda no se encuentra disponible en la informaci\u00f3n proporcionada. Te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica a trav\u00e9s de su correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener informaci\u00f3n precisa sobre su ubicaci\u00f3n.",
+                "content": "La ubicaci\u00f3n exacta de la oficina de estad\u00edstica o AERA en el campus de la Universidad Nacional de Ingenier\u00eda no est\u00e1 disponible en mi conocimiento. Te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica a trav\u00e9s de su correo electr\u00f3nico estadistica_fc@uni.edu.pe para obtener informaci\u00f3n precisa sobre su ubicaci\u00f3n.",
                 "context": null,
                 "recovered_texts": null
             },
@@ -881,7 +881,7 @@
             },
             {
                 "role": "assistant",
-                "content": "S\u00ed, para obtener o renovar el carnet universitario en la Facultad de Ciencias de la UNI, debes estar matriculado, realizar el pago de S/ 11.50 a trav\u00e9s del Portal INTRALU, completar la ficha de datos y tener una fotograf\u00eda digital. Despu\u00e9s de cumplir con estos requisitos, puedes recoger el carnet en la Oficina de Estad\u00edstica. No se menciona un plazo espec\u00edfico en la informaci\u00f3n proporcionada, por lo que te recomendar\u00eda estar atento a los avisos o notificaciones de la oficina para conocer los plazos establecidos.",
+                "content": "S\u00ed, para obtener o renovar el carnet universitario en la Facultad de Ciencias de la UNI, debes estar matriculado, realizar el pago de S/ 11.50 a trav\u00e9s del Portal INTRALU, completar la ficha de datos y tener una fotograf\u00eda digital. Despu\u00e9s de cumplir con estos requisitos, puedes recoger el carnet en la Oficina de Estad\u00edstica. No tengo conocimiento de un plazo espec\u00edfico establecido, por lo que te recomendar\u00eda estar atento a los avisos o notificaciones de la oficina para conocer los plazos establecidos.",
                 "context": null,
                 "recovered_texts": null
             },

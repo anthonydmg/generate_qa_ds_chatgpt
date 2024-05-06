@@ -65,24 +65,52 @@ def refine_message_to_mencion_information(files):
                             "conv_id": id - 1,
                             "message_id": i_m,
                             "original_message": message,
-                            "new_message": new_answer,
+                            "new_message": new_answer.replace("Respuesta:", "").strip(),
                             "file_path": file_path
                         })
     return tab_updates
+
+def refine_message_to_no_information(files):
+    id = 0
+    tab_updates = []
+    for file_path in files:
+        data = load_json(file_path)
+        for conv_id_file, conv in enumerate(data):
+            id +=1
+            messages = conv["messages"]
+            for i_m, m in enumerate(messages):
+                if m["role"] == "assistant":
+                    message = m["content"]
+                    keywords = ["Lamentablemente"]
+                    if any(keyword.lower() in message.lower() for keyword in keywords):
+                        print("\nConv id:", id)
+                        print("\nUser Message:", messages[i_m - 1]["content"])
+                        print("\nAssistant Message:", message)
+                        print() 
+
+                    
+    return tab_updates
+
+refine_message_to_no_information(files)
+
+# Lamentablemente, no tengo acceso a esa informaci\u00f3n
 
 #tab_updates = refine_message_to_mencion_information(files)
 
 #save_json("./updates_cache", "tab_updates", tab_updates)
 
-tab_updates = load_json("./updates_cache/tab_updates.json")
+#tab_updates = load_json("./updates_cache/tab_updates.json")
 
 def updates_messages(tab_updates):
     for update_data in tab_updates:
         file_path = update_data["file_path"]
+        print("file_path:", file_path)
         data = load_json(file_path)
         conv_id_file = update_data["conv_id_file"]
+        print("conv_id_file:", conv_id_file)
         message_id = update_data["message_id"]
-        new_message = update_data["new_message"]
+        print("message_id:", message_id)
+        new_message = update_data["new_message"].replace("Respuesta:", "").strip()
 
         data[conv_id_file]["messages"][message_id]["content"] = new_message
 
@@ -90,7 +118,6 @@ def updates_messages(tab_updates):
 
         directorio, archivo = os.path.split(file_path)
 
-        save_json(directorio, archivo[:-5])
-        break
+        save_json(directorio, archivo[:-5], data)
 
-updates_messages(tab_updates)
+#updates_messages(tab_updates)

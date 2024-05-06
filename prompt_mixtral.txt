@@ -1,0 +1,122 @@
+prompt = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser demasiado redundante y limita la respuesta a un máximo de 100 palabras.
+Información: ```
+
+Fecha De Pago De Autoseguro
+¿Hasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matrícula regular al ciclo academico en la Facultad de Ciencias de la UNI?
+Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Este calendario se encuentra publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" en la página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Si no se cumple con este plazo máximo, es probable que la matrícula no pueda realizarse de manera regular y deba gestionarse como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, es necesario que el estudiante se comunique con la oficina de estadística (AERA) al correo estadistica_fc@uni.edu.pe o revise el procedimiento para gestionar su matrícula rezagada.
+
+Requisitos Y Procedimiento Matricula Regular
+¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+Son requisitos para la matrícula regular efectuar el pago por autoseguro estudiantil y no presentar adeudos con su Facultad ya sea económicas, por libros o cualquier otro material de enseñanza en general. Además, los alumnos en riesgo académico deben haber completado la tutoría obligatoria previa a la matrícula.
+
+El proceso para que un alumno de pregrado realice su matrícula regular al ciclo académico, es el siguiente:
+1. Generar una orden de pago para el autoseguro estudiantil a través de la plataforma intranet-alumnos. En esta plataforma, selecciona la opción "Trámites y Pagos" para acceder al módulo de pagos (Portal INTRALU). En dicho módulo, selecciona el trámite correspondiente en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago.
+2. Realizar el pago dentro de los plazos establecidos en el calendario de actividades académicos, acercándose a un sucursal del BCP o atravez de la aplicación movil del banco.
+3. Luego, en la fecha y turno asignado, el estudiante llevará a cabo a su matrícula de forma virtual, es decir, realizará la inscripción de sus cursos a través de la plataforma intranet-alumnos. Accederá al módulo de Matrícula UNI dentro de esta plataforma, seleccionará las asignaturas y horarios deseados, y finalizará confirmando la matrícula en todas las asignaturas elegidas en el sistema.
+Los turnos para la matrícula, son asignados por grupos de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
+
+        Todas las deudas pendientes del estudiante serán exigidas al finalizar sus estudios e iniciar el trámite para obtener de su grado de bachiller.
+
+Del Proceso de la Matrícula Regular para Estudiantes de Antegrado
+
+Art. 47° La matrícula regular se realiza vía internet a través del Sistema de Matrícula UNI suministrado por DIRCE, en las fechas establecidas en el Calendario de Actividades de los Estudios de Antegrado de la UNI.
+Este proceso es personal y se realizar puede desde cualquier equipo con acceso a internet y será bajo responsabilidad del estudiante, cumpliendo los siguientes pasos: 
+        a. Ingresar al Sistema de Matrícula UNI según el turno programado.
+        b. En su Oferta de Matrícula, seleccionar las asignaturas-sección, comenzando por las obligatorias y de menor ciclo.
+        c. Confirmar en el sistema la matrícula en las asignaturas-sección seleccionadas dentro del plazo establecido para dicho acto, consignando la sección elegida.
+        d. El sistema presentará el Reporte de Matrícula del estudiante para su impresión, remisión , o archivo.
+        e. En caso de los estudiantes que están en riesgo académico y de los que retornen de la suspensión académica realizarán su matrícula, según lo coordinado con su respectivo tutor, quien autorizará la activación de su código y supervisará el respectivo Reporte.
+
+Art. 48° En casos especiales, cuando el estudiante por un impedimento de fuerza mayor debidamente sustentado no pueda realizar personalmente su matrícula, podrá solicitarla con anticipación a la Escuela Profesional por un apoderado (a) del estudiante, con carta poder simple. En estos casos, la Escuela Profesional ordenará la matrícula del estudiante a la Oficina de Estadística de la Facultad, según la disponibilidad de vacantes y en su respectivo turno.
+
+Nota 1: El calendario de actividades académicas de la facultad de ciencias es publicado en la sección "Matrícula y Procedimientos" de la pagina de web de la Facultad (https://fc.uni.edu.pe/documentos/). 
+
+Nota 2: Es recomendable que los estudiantes realicen el pago obligatorio del AUTOSEGURO en el plazo establecido en el calendario de actividades académicas. Una vez completado este pago, DIRCE habilitará su ficha de matrícula en la plataforma de intranet-alumnos, en la fecha y turno (Horario) correspondientes.
+
+Nota 3: Los turnos de matrícula se asignan según el promedio ponderado de los últimos ciclos, en orden de mérito. Los estudiantes con promedio más alto tendrán prioridad en los primeros turnos, seguidos por los demás de manera sucesiva. La lista de orden de mérito con los turnos de matrícula se publica en la página web de la facultad para que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente en su intranet-alumno.
+
+Nota 4: Es responsabilidad de los alumnos regulares realizar la inscripción de sus cursos de manera virtual a través de la plataforma intranet-alumno (Sistema de Matrícula UNI suministrado por DIRCE), en la fecha y turno asignados. En caso de no poder realizar la matrícula en las fechas establecidas en el calendario de actividades académicas, el alumno deberá gestionar su matrícula rezagada.
+
+
+
+Plazo Para Solicitar La Reserva De Matricula
+¿Cuál plazo para que un estudiante puede solicitar su reserva de matricula?
+El estudiante o apoderado podrá presentar la solicitud de reserva de matrícula a través de la plataforma SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matrícula, hasta el plazo máximo establecido en el calendario de actividades académicas, publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" dentro de la página de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). En caso de que no se presente esta solicitud y el estudiante no haya concretado su matrícula en el período académico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
+
+Problemas Al Realizar La Matrícula Virtual
+¿Qué debe hacer un estudiante si presenta problemas para realizar la matricula de sus cursos a traves del modulo de Matrícula UNI dentro de la plataforma de intranet-alumnos?
+Los estudiantes que encuentren dificultades para completar su proceso de inscripción de cursos a traves del modulo de Matrícula UNI dentro de la plataforma de intranet-alumnos deben verificar si se encuentran en alguna de las siguientes situaciones:
+    - Poseer algún tipo de deuda registrada en el sistema. En caso de adeudar la tutoría previa requerida para estudiantes en riesgo académico, deben ponerse en contacto con la Oficina de Tutoría a través del correo electrónico tutoria.fc@uni.edu.pe.
+
+    - No haber efectuado el pago del autoseguro en el plazo establecido en el calendario de actividades académicas antes de las fechas de matricula. Si este es el caso y la matrícula virtual (inscripción de cursos) no se ha habilitado hasta los días de matrícula regular, es necesario comunicarse con la oficina de estadística (AERA) o revisar el procedimiento para gestionar su matrícula rezagada.
+
+    - Para cualquier otro inconveniente, se recomienda ponerse en contacto directamente con la oficina de estadística (AERA), enviando un mensaje al correo estadistica_fc@uni.edu.pe o acercarse personalmente a dicha oficina.```
+Mensaje del usuario: ¿Cuál es la fecha límite para realizar el pago del autoseguro estudiantil antes de la matrícula regular en la Facultad de Ciencias de la UNI?"""
+
+
+
+
+
+
+
+
+prompt = """
+Provide a concise and meaningful response to the following user message, considering the context of the ongoing dialogue history. Use only the information within three inverted commas to informatively address user inquiries. Avoid offering explicitly unsupported or underdeveloped data; instead, clearly state when 'you don't have access to that information' when relevant. Avoid excessive redundancy and limit the response to a maximum of 100 words
+
+Information: Section Change Due to Schedule Conflicts
+What should a student do if they want to change sections/schedules of a registered course due to scheduling conflicts in their enrolled courses?
+Section/schedule changes are managed directly by the statistics office (AERA). It is important to note that requests will only be addressed if the student has schedule conflicts between the courses they are enrolled in. Additionally, any section/schedule changes will be subject to seat availability.
+Students wishing to make modifications to the section/schedule of a registered course due to schedule conflicts should contact the AERA office directly. There they will receive detailed information about the process to follow. Also, it is recommended to check the faculty website (https://fc.uni.edu.pe) for notices or forms related to the topic.
+
+Requesting Additional Vacancies
+What should a student do if they want to request an additional vacancy for course registration?
+Students interested in requesting an additional vacancy to enroll in a course are advised to complete their virtual registration in other courses and then contact the statistics office (AERA) for further information and evaluation of their case. It is also recommended to review possible announcements of notices or request forms corresponding to vacancy requests on the Faculty of Science website (https://fc.uni.edu.pe/documentos/).
+
+Statistics Office or AERA Hours of Operation
+What are the hours of operation for the statistics office or AERA?
+The hours of the Statistics and Academic Records Area are from Monday to Friday from 8:00 a.m. to 4:00 p.m.
+
+Procedure to Request a Enrollment Certificate
+What procedure should a student follow to request an enrollment certificate in English or Spanish?
+To request an enrollment certificate in English or Spanish, the student must follow these steps:
+
+Send an email to estadistica_fc@uni.edu.pe requesting a payment order for the ENROLLMENT CERTIFICATE. In the message, they should include their personal information: ID number, last name, first name, institutional email, and/or alternative email.
+The statistics office (AERA) will send the payment order for the amount of S/. 100.00 (data corresponding to the year 2024) to their email.
+The student must make the payment at a BCP branch or through the bank's mobile application. In the app, select "Pay services," choose the National University of Engineering, then the payment option for students, and enter their ID number. The app will display the payment order with the exact amount to make the payment.
+Then, the student must submit the payment receipt and the corresponding request to the faculty's reception desk or send them by email to mesadepartes_fc@uni.edu.pe. It is important to ensure that they indicate in the request whether they want the ENROLLMENT CERTIFICATE in English or Spanish. The model for this request is available in the "ENROLLMENT AND PROCEDURES" section on the Faculty of Science website (https://fc.uni.edu.pe/documentos/).
+Finally, AERA will send an email to notify them that the certificate is ready to be collected during the hours of operation from Monday to Friday, from 08:00 to 13:00 and from 14:00 to 15:30.
+AERA
+
+The Statistics and Academic Records Area (formerly the Statistics office) of the Faculty of Science is an administrative support body responsible for centralizing, verifying, and safeguarding the academic documentation of the Faculty of Science.
+
+Activities carried out:
+
+Enrollment processes
+Plan, attend to, and supervise the enrollment procedures in each Academic semester according to the current Undergraduate Enrollment Regulations.
+Enrollment (incoming, regular, conditional, and late).
+Reincorporation.
+Group zero Enrollment.
+Conditional Enrollment.
+Preferential Enrollment.
+Enrollment Reservation.
+Withdrawals (Partial, Total, and Definitive).
+Evaluation processes
+Supervise and inform compliance with the procedures regulating the grading system according to the current Undergraduate Evaluation Regulations.
+Supervise the recording of practice grades, exams, and answer keys.
+Supervision in addressing student grade complaints.
+Report on delays in timely submission of grades by teachers.
+Manage the recording of grades for the Regularization Exam.
+Other Activities
+Coordinate the process of university IDs.
+Issue Grade and/or Enrollment Certificates.
+Verify information on Grade Certificates, Graduate Certificates, and No Debt Certificates issued by DIRCE.
+Provide reports and statistics to various offices of the Faculty for evaluation and decision-making.
+Conduct a study of debts under Legislative Decree 739 (Education Rights) and inform students to fulfill the respective payment.
+Contact Information for the Statistics Office (AERA)
+Email: estadistica_fc@uni.edu.pe
+
+Hours of Operation for the Statistics Office (AERA):
+Monday to Friday from 8:00 a.m. to 4:00 p.m. 
+
+User message: What is the deadline for paying the student health insurance before regular enrollment at the Faculty of Science at UNI?
+"""

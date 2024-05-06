@@ -376,7 +376,7 @@
             },
             {
                 "role": "assistant",
-                "content": "El plazo para cumplir con los requisitos y obtener el carnet universitario se establece en el calendario de actividades acad\u00e9micas de la Facultad de Ciencias. Te recomendar\u00eda consultar dicho calendario para conocer las fechas espec\u00edficas. En cuanto a los documentos adicionales, no se menciona en la informaci\u00f3n proporcionada que se requiera presentar alg\u00fan documento adicional al momento de solicitar el carnet universitario. Sin embargo, te sugiero estar atento a los avisos o notificaciones de la Oficina de Estad\u00edstica por si hubiera alg\u00fan requerimiento adicional.",
+                "content": "El plazo para cumplir con los requisitos y obtener el carnet universitario se establece en el calendario de actividades acad\u00e9micas de la Facultad de Ciencias. Te recomendar\u00eda consultar dicho calendario para conocer las fechas espec\u00edficas. En cuanto a los documentos adicionales, no tengo conocimiento de que se requiera presentar alg\u00fan documento adicional al momento de solicitar el carnet universitario. Sin embargo, te sugiero estar atento a los avisos o notificaciones de la Oficina de Estad\u00edstica por si hubiera alg\u00fan requerimiento adicional.",
                 "context": null,
                 "recovered_texts": null
             },
@@ -587,7 +587,7 @@
             },
             {
                 "role": "assistant",
-                "content": "S\u00ed, hay un costo asociado a la entrega del carn\u00e9 universitario. De acuerdo a la informaci\u00f3n proporcionada, el monto correspondiente es de S/ 11.50. Este pago debe ser realizado a trav\u00e9s de una orden de pago generada en el Portal INTRALU y puede ser pagado en una sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco. Recuerda que este pago es necesario para obtener el carn\u00e9 universitario. Si tienes alguna otra pregunta, estar\u00e9 encantado de ayudarte.",
+                "content": "S\u00ed, hay un costo asociado a la entrega del carn\u00e9 universitario. Seg\u00fan la informaci\u00f3n disponible, el monto correspondiente es de S/ 11.50. Sin embargo, me gustar\u00eda mencionar que mi conocimiento es limitado en este tema en particular. Te recomendar\u00eda verificar esta informaci\u00f3n directamente con la universidad o con la entidad encargada de la emisi\u00f3n de los carn\u00e9s universitarios. Recuerda que este pago es necesario para obtener el carn\u00e9 universitario. Si tienes alguna otra pregunta, estar\u00e9 encantado de ayudarte.",
                 "context": null,
                 "recovered_texts": null
             },
@@ -940,7 +940,7 @@
             },
             {
                 "role": "assistant",
-                "content": "De acuerdo a la informaci\u00f3n proporcionada, los estudiantes que deseen obtener informaci\u00f3n sobre la convalidaci\u00f3n de pr\u00e1cticas pre profesionales deben ponerse en contacto con el departamento de su Escuela Profesional correspondiente. Puedes obtener m\u00e1s detalles sobre este tr\u00e1mite o solicitar informaci\u00f3n a trav\u00e9s de las siguientes direcciones de correo electr\u00f3nico, seg\u00fan tu Escuela Profesional:\n\n- Para F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\n- Para Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe",
+                "content": "De acuerdo a la informaci\u00f3n disponible, los estudiantes que deseen obtener informaci\u00f3n sobre la convalidaci\u00f3n de pr\u00e1cticas pre profesionales pueden comunicarse con el departamento de su Escuela Profesional correspondiente. Para obtener m\u00e1s detalles sobre este tr\u00e1mite o solicitar informaci\u00f3n, te sugiero que te pongas en contacto a trav\u00e9s de las siguientes direcciones de correo electr\u00f3nico, seg\u00fan tu Escuela Profesional:\n\n- Para F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\n- Para Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe",
                 "context": null,
                 "recovered_texts": null
             },

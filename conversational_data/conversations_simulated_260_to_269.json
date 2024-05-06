@@ -263,7 +263,7 @@
             },
             {
                 "role": "assistant",
-                "content": "El plazo establecido para la entrega de la ficha de datos de matr\u00edcula de nuevos ingresantes se encuentra en el cronograma de actividades de matr\u00edcula para ingresantes publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda revisar esa secci\u00f3n para obtener la informaci\u00f3n actualizada sobre los plazos espec\u00edficos.\n\nEn cuanto a requisitos adicionales al completar la ficha de datos, no se mencionan en la informaci\u00f3n proporcionada. Te sugiero revisar detenidamente la ficha de datos y asegurarte de completar todos los campos obligatorios de manera precisa y correcta. Si tienes alguna duda espec\u00edfica sobre alg\u00fan campo de la ficha, te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica de la Facultad de Ciencias para obtener una respuesta m\u00e1s precisa.",
+                "content": "El plazo establecido para la entrega de la ficha de datos de matr\u00edcula de nuevos ingresantes se encuentra en el cronograma de actividades de matr\u00edcula para ingresantes publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' en la p\u00e1gina web de la Facultad de Ciencias. Te recomendar\u00eda revisar esa secci\u00f3n para obtener la informaci\u00f3n actualizada sobre los plazos espec\u00edficos.\n\nEn cuanto a requisitos adicionales al completar la ficha de datos, no tengo conocimiento de esa informaci\u00f3n. Te sugiero revisar detenidamente la ficha de datos y asegurarte de completar todos los campos obligatorios de manera precisa y correcta. Si tienes alguna duda espec\u00edfica sobre alg\u00fan campo de la ficha, te recomendar\u00eda contactar directamente con la oficina de estad\u00edstica de la Facultad de Ciencias para obtener una respuesta m\u00e1s precisa.",
                 "context": null,
                 "recovered_texts": null
             },
@@ -471,7 +471,7 @@
             },
             {
                 "role": "assistant",
-                "content": "No se mencionan requisitos adicionales para acceder a la plataforma de intranet-alumnos en la informaci\u00f3n proporcionada. Sin embargo, es importante tener en cuenta que necesitar\u00e1s tus credenciales de acceso, que incluyen tu c\u00f3digo UNI y la clave correspondiente que te ha sido enviada por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE) a tu correo electr\u00f3nico. Aseg\u00farate de tener esta informaci\u00f3n a mano para poder acceder correctamente a la plataforma.",
+                "content": "No se mencionan requisitos adicionales para acceder a la plataforma de intranet-alumnos. Sin embargo, es importante tener en cuenta que necesitar\u00e1s tus credenciales de acceso, que incluyen tu c\u00f3digo UNI y la clave correspondiente que te ha sido enviada por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE) a tu correo electr\u00f3nico. Aseg\u00farate de tener esta informaci\u00f3n a mano para poder acceder correctamente a la plataforma.",
                 "context": null,
                 "recovered_texts": null
             },

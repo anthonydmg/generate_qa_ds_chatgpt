@@ -213,7 +213,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Los documentos sustentatorios correspondientes al motivo de retiro total deben ser adjuntados al momento de completar el formulario de solicitud a trav\u00e9s de la plataforma intranet-alumnos. No se menciona un plazo espec\u00edfico para presentar estos documentos en la informaci\u00f3n proporcionada. Sin embargo, es recomendable adjuntarlos lo antes posible para agilizar el proceso de evaluaci\u00f3n de la solicitud. Si tienes alguna duda adicional, te sugiero consultar el Manual de Retiro Total publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la P\u00e1gina Web de la Facultad de Ciencias.",
+                "content": "Los documentos sustentatorios correspondientes al motivo de retiro total deben ser adjuntados al momento de completar el formulario de solicitud a trav\u00e9s de la plataforma intranet-alumnos. No se menciona un plazo espec\u00edfico para presentar estos documentos. Sin embargo, es recomendable adjuntarlos lo antes posible para agilizar el proceso de evaluaci\u00f3n de la solicitud. Si tienes alguna duda adicional, te sugiero consultar el Manual de Retiro Total publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS en la P\u00e1gina Web de la Facultad de Ciencias. Lamentablemente, no tengo conocimiento sobre el plazo exacto para presentar los documentos, pero te recomendar\u00eda que te informes en la P\u00e1gina Web de la Facultad de Ciencias o consultes con el personal encargado para obtener informaci\u00f3n actualizada y precisa.",
                 "context": null,
                 "recovered_texts": null
             }
@@ -421,7 +421,7 @@
             },
             {
                 "role": "assistant",
-                "content": "No es necesario consultar con la Facultad de Ciencias de la UNI para saber d\u00f3nde presentar los documentos requeridos para el Retiro Total. Seg\u00fan la informaci\u00f3n proporcionada, los documentos deben adjuntarse a trav\u00e9s de la plataforma intranet-alumnos al momento de realizar la solicitud de retiro total. No se especifica un lugar f\u00edsico para presentar los documentos.",
+                "content": "No es necesario consultar con la Facultad de Ciencias de la UNI para saber d\u00f3nde presentar los documentos requeridos para el Retiro Total. Seg\u00fan mi conocimiento, los documentos deben adjuntarse a trav\u00e9s de la plataforma intranet-alumnos al momento de realizar la solicitud de retiro total. No se especifica un lugar f\u00edsico para presentar los documentos.",
                 "context": null,
                 "recovered_texts": null
             }

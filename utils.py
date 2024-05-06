@@ -288,8 +288,8 @@ def count_num_tokens(text, model = GPT_MODEL):
 
 ## extract_faq_text():
 
-text = read_fragment_doc("./faq/faq.txt")
-#print(text)
+""" text = read_fragment_doc("./faq/faq.txt")
+
 pattern_block = r"Tema: (.+?)Pregunta: (.+?)Respuesta:(.+?)(?=Tema: |$)"
 bloques = re.findall(pattern_block, text, re.DOTALL)
 faq_json = []
@@ -303,8 +303,11 @@ for bloq in bloques:
         "answer": respuesta,
         "topic": tema,
         "num_tokens_answers": count_num_tokens(respuesta) 
-    })
+    }) """
 
+#context = "\nCambio De Secci\u00f3n Debido A Cruces De Horario\n\u00bfQu\u00e9 debe hacer un estudiante si desea realizar un cambio de secci\u00f3n/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?\nLos cambios de secci\u00f3n/horario son gestionados directamente por la oficina de estad\u00edstica (AERA). Es importante tener en cuenta que solo se atender\u00e1n solicitudes en caso de que el estudiante tenga conflictos de horario entre los cursos en los que est\u00e1 matriculado. Adem\u00e1s, cualquier cambio de secci\u00f3n/horario estar\u00e1 sujeto a la disponibilidad de plazas.\nLos estudiantes que deseen realizar modificaciones en la secci\u00f3n/horario de un curso matriculado debido a conflictos de horario deben comunicarse directamente con la oficina de AERA. All\u00ed recibir\u00e1n informaci\u00f3n detallada sobre el proceso a seguir. Tambi\u00e9n, se le recomienda revisar en la pagina web de la facultad (https://fc.uni.edu.pe) avisos o formularios referentes al tema.\nHorario De Atenci\u00f3n Oficina De Estad\u00edstica O Aera\n\u00bfCu\u00e1l es el horario de atenci\u00f3n de la oficina de estad\u00edstica o AERA?\nEl horario del \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos el de De Lunes a Viernes de 8:00 a.m. a 4:00 p.m.\nAERA\n\nEl \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos (anteriormente la oficina de Estad\u00edstica) de la Facultad de Ciencias es un \u00f3rgano de apoyo administrativo, encargado de centralizar, verificar y custodiar la documentaci\u00f3n acad\u00e9mica de la Facultad de Ciencias.\n\nActividades que se realizan:\n\n1. Procesos de matr\u00edcula\nPlanificar, atender y supervisar los procedimientos de la matr\u00edcula en cada semestre Acad\u00e9mico de acuerdo al Reglamento de Matr\u00edcula de estudiantes de Antegrado vigente.\n\n    - Matr\u00edcula (ingresantes, regular, condicionada y rezagada).\n    - Reincorporaci\u00f3n.\n    - Grupo cero de Matr\u00edcula.\n    - Matr\u00edcula Condicionada.\n    - Matr\u00edcula Preferencial.\n    - Reserva de Matr\u00edcula.\n    - Retiros (Parciales, Totales y Definitivos).\n\n\n2. Procesos de evaluaci\u00f3n\nSupervisar e informar el cumplimiento de los procedimientos que regulan el sistema de calificaci\u00f3n de acuerdo al Reglamento de Evaluaci\u00f3n para estudiantes de Antegrado vigente.\n    - Supervisar el registro de notas de pr\u00e1cticas, ex\u00e1menes y solucionario.\n    - Supervisi\u00f3n en la atenci\u00f3n de los reclamos de notas de los estudiantes.\n    - Informar sobre las faltas en la entrega oportuna de notas por parte de los docentes.\n    - Gestionar el registro de nota del Examen de Regularizaci\u00f3n.\n\n3. Otras Actividades\n- Coordinar el tr\u00e1mite de los carn\u00e9s universitarios.\n- Elaborar las Constancias de Notas y/o Matr\u00edcula.\n- Verificar la informaci\u00f3n de los Certificados de notas, Constancias de Egresado y Constancias de No Adeudos emitidas por la DIRCE.\n- Entrega reportes y estad\u00edsticas a las diferentes oficinas de la Facultad para su evaluaci\u00f3n y toma de decisiones.\n- Realizar el estudio de las deudas por Decreto Legislativo 739 (Derecho de la Ense\u00f1anza) e informar al estudiante para que cumplan con la cancelaci\u00f3n respectiva.\n\nInformacion de Contacto de la oficina de estad\u00edstica (Aera)\nE-mail: estadistica_fc@uni.edu.pe\n\nHoario de Atencion de la oficina de estad\u00edstica (Aera):\nDe Lunes a Viernes de 8:00 a.m. a 4:00 p.m.\nSolicitar Vacantes Adicionales\n\u00bfQu\u00e9 debe hacer un estudiante que desea solicitar una vacante adicional para la inscripci\u00f3n a un curso?\nA los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso, se les recomienda completar su matr\u00edcula virtual en los dem\u00e1s cursos y posteriormente comunicarse con la oficina de estad\u00edstica (AERA) para obtener mayor informaci\u00f3n y que su caso sea evaluado. Tambi\u00e9n se recomienda revisar posibles publicaciones de avisos o formularios de solicitud correspondientes a la solicitud de vacantes dentro de la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).\nProcedimiento Para Solicitar Una Constancia De Matricula\n\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en espa\u00f1ol?\nPara solicitar una constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol, el estudiante deber seguir los siguientes pasos:\n\n1. Enviar un correo a estadistica_fc@uni.edu.pe solicitando una orden de pago para la CONSTANCIA DE MATR\u00cdCULA. En el mensaje, deber\u00e1 incluir sus datos personales: n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo.\n\n2. La oficina de estad\u00edstica (AERA) le enviar\u00e1 la orden de pago por el monto de S/. 100.00 (dato correspondiente al a\u00f1o 2024) a su correo electr\u00f3nico.\n\n3. El alumno deber\u00e1 realizar el pago en alguna sucursal del BCP o a trav\u00e9s aplicaci\u00f3n movil del banco. En la app selecciona \"Pagar servicios\", elige la Universidad Nacional de Ingenier\u00eda, luego la opci\u00f3n de pago para estudiantes, e ingresa su n\u00famero de DNI. La app mostrar\u00e1 la orden de pago con el monto exacto para realizar el pago.\n\n4. Luego, el estudiante deber\u00e1 dejar en mesa de partes de la facultad el comprobante de pago y la solicitud correspondiente, o enviarlos por correo electr\u00f3nico a mesadepartes_fc@uni.edu.pe. Es importante que se asegure de indicar en la solicitud si desea la CONSTANCIA DE MATR\u00cdCULA en ingl\u00e9s o espa\u00f1ol. El modelo para esta solicitud est\u00e1 disponible en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).\n\n5. Por \u00faltimo, AERA enviar\u00e1 un correo para notificarle que la constancia est\u00e1 lista para ser recogida en el horario de atenci\u00f3n de Lunes a Viernes, de 08:00 a 13:00 y de 14:00 a 15:30."
+
+#print(context)
 #print(f"\nUn total de {len(faq_json)} preguntas han sido extraidas")
 #save_json("./faq", "faq_json", faq_json)
 
@@ -331,3 +334,77 @@ for e in examples:
 
 #a = "La constancia de matr\u00edcula se puede obtener de forma f\u00edsica, debiendo ser recogida en la oficina de estad\u00edstica (AERA) en el horario de atenci\u00f3n mencionado anteriormente. No se menciona en la informaci\u00f3n proporcionada si tambi\u00e9n se puede obtener de forma digital, por lo que se recomienda contactar directamente con la oficina de estad\u00edstica para obtener informaci\u00f3n actualizada sobre la disponibilidad de constancias de matr\u00edcula en formato digital."
 #print(a)
+
+""" data_conv_prev = load_json("./conversations_generated.json")
+
+print(len(data_conv_prev))
+
+data_conv = load_json("conversational_data/conversational_dataset.json")
+
+print(len(data_conv))
+
+all_conversational_data = data_conv_prev + data_conv
+
+
+print(len(all_conversational_data)) """
+
+def join_reformulated_questions(reformulated_faqs = []):
+    tab_all_questions = {}
+
+    for reformulated_faq in reformulated_faqs:
+        original_question = reformulated_faq["original_question"]
+        questions_generated = reformulated_faq["questions_generated"]
+        
+        if original_question not in tab_all_questions:
+            tab_all_questions[original_question] = questions_generated
+        else:
+            tab_all_questions[original_question].extend(questions_generated)
+    
+    ## Format questions
+    
+    reformulated_faqs_joined = [ {"original_question": k, "questions_generated": v } for k,v in tab_all_questions.items()]
+
+    return reformulated_faqs_joined
+
+#reformulated_faqs = load_json("./faq/reformulated_faqs.json")
+
+
+#reformulated_faqs_joined = join_reformulated_questions(reformulated_faqs)
+
+#save_json("./faq", "reformulated_faqs_joined", reformulated_faqs_joined)
+
+import evaluate
+rouge = evaluate.load('rouge')
+
+def filtered_questions_reformulated_rouge(
+    reformulated_faqs_joined,
+    threshold_rouge = 0.9):
+    filtered_questions_reformulated = []
+    for reformulated_faq in reformulated_faqs_joined:
+        original_question = reformulated_faq["original_question"]
+        questions_generated = reformulated_faq["questions_generated"]
+        print("Inicial questions: ", len(questions_generated))
+        all_pool_questions = [original_question]
+
+        for question in questions_generated:
+
+            rouge_results = rouge.compute(predictions=[question], references=[all_pool_questions])
+            rougeL = rouge_results["rougeL"]
+            if rougeL < threshold_rouge:
+                all_pool_questions.append(question)
+        
+        print("Final questions: ", len(all_pool_questions))
+
+        filtered_questions_reformulated.append({
+            "original_question": original_question,
+            "questions_generated": all_pool_questions
+        })
+    return filtered_questions_reformulated
+
+reformulated_faqs_joined = load_json("./faq/reformulated_faqs_joined.json")
+
+
+#threshold_rouge = 0.85
+#filtered_questions_reformulated = filtered_questions_reformulated_rouge(reformulated_faqs_joined, threshold_rouge)
+
+#save_json("./faq", f"filtered_questions_reformulated_rouge_{threshold_rouge}", filtered_questions_reformulated)

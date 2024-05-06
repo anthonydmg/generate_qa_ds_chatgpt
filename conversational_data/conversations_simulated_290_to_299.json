@@ -596,7 +596,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Puedes realizar la solicitud de tu correo institucional de la UNI en cualquier momento. No se menciona un plazo espec\u00edfico en la informaci\u00f3n proporcionada. Recuerda enviar un correo a obtenercorreo@uni.pe con los datos solicitados para que puedan procesar tu solicitud.",
+                "content": "Puedes realizar la solicitud de tu correo institucional de la UNI en cualquier momento. No se menciona un plazo espec\u00edfico en la informaci\u00f3n que tengo disponible. Recuerda enviar un correo a obtenercorreo@uni.pe con los datos solicitados para que puedan procesar tu solicitud.",
                 "context": null,
                 "recovered_texts": null
             }

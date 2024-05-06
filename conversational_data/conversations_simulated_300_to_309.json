@@ -147,7 +147,7 @@
             },
             {
                 "role": "assistant",
-                "content": "S\u00ed, el retiro parcial de asignaturas tiene una fecha l\u00edmite establecida en el calendario acad\u00e9mico. Seg\u00fan la informaci\u00f3n proporcionada, los estudiantes pueden tramitar su solicitud de retiro parcial a trav\u00e9s de la plataforma DIRCE durante la quinta semana despu\u00e9s del inicio de clases del per\u00edodo acad\u00e9mico. Te recomendar\u00eda consultar el calendario de actividades acad\u00e9micas publicado en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias para conocer la fecha espec\u00edfica.",
+                "content": "S\u00ed, el retiro parcial de asignaturas tiene una fecha l\u00edmite establecida en el calendario acad\u00e9mico. Seg\u00fan mi conocimiento, los estudiantes pueden tramitar su solicitud de retiro parcial a trav\u00e9s de la plataforma DIRCE durante la quinta semana despu\u00e9s del inicio de clases del per\u00edodo acad\u00e9mico. Te recomendar\u00eda consultar el calendario de actividades acad\u00e9micas publicado en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias para conocer la fecha espec\u00edfica.",
                 "context": null,
                 "recovered_texts": null
             },
@@ -533,7 +533,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Seg\u00fan la informaci\u00f3n proporcionada, el l\u00edmite de cr\u00e9ditos faltantes para matricularse en un curso y su pre requisito es de treinta (30) cr\u00e9ditos. Sin embargo, existen excepciones a esta regla. Si eres un estudiante en posibilidad de egresar y te faltan hasta treinta cr\u00e9ditos para completar tu Plan de Estudios, puedes solicitar tu inclusi\u00f3n en la Matr\u00edcula Preferencial. En esta condici\u00f3n, podr\u00edas matricularte en treinta cr\u00e9ditos, siempre y cuando no tengas una asignatura desaprobada dos veces y no te falte la asignaci\u00f3n de los cr\u00e9ditos por pr\u00e1cticas pre-profesionales. Para solicitar una evaluaci\u00f3n especial y obtener m\u00e1s informaci\u00f3n sobre este proceso, te recomendar\u00eda comunicarte con tu escuela profesional correspondiente.",
+                "content": "Seg\u00fan la informaci\u00f3n disponible, el l\u00edmite de cr\u00e9ditos faltantes para matricularse en un curso y su pre requisito es de treinta (30) cr\u00e9ditos. Sin embargo, es importante tener en cuenta que existen excepciones a esta regla. Si eres un estudiante en posibilidad de egresar y te faltan hasta treinta cr\u00e9ditos para completar tu Plan de Estudios, es posible que puedas solicitar tu inclusi\u00f3n en la Matr\u00edcula Preferencial. En esta situaci\u00f3n, podr\u00edas matricularte en treinta cr\u00e9ditos, siempre y cuando no tengas una asignatura desaprobada dos veces y no te falte la asignaci\u00f3n de los cr\u00e9ditos por pr\u00e1cticas pre-profesionales. Si deseas obtener m\u00e1s informaci\u00f3n sobre este proceso y solicitar una evaluaci\u00f3n especial, te recomendar\u00eda comunicarte con tu escuela profesional correspondiente.",
                 "context": null,
                 "recovered_texts": null
             },
