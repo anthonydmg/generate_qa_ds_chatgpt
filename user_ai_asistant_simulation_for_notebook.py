@@ -1,14 +1,8 @@
 ## NOO
 from utils import get_completion_from_messages
 ## NOO
-import time
-import random
-import numpy
-import requests
-import openai
-import json
-import os
 
+import openai
 # nooo
 from dotenv import load_dotenv
 
@@ -21,6 +15,13 @@ def set_openai_key():
 set_openai_key()
 #noo
 
+import time
+import random
+import numpy
+import requests
+import json
+import os
+
 def save_json(dir_path, filename, data):
     os.makedirs(dir_path, exist_ok = True)
     with open(f"{dir_path}/{filename}.json", "w", encoding="utf-8") as f:
@@ -31,14 +32,6 @@ def load_json(path):
         data = json.load(f)
     return data
 
-
-""" def get_completion_from_messages(messages, model="gpt-3.5-turbo"): 
-    response = openai.ChatCompletion.create(
-        model=model,
-        messages=messages,
-        temperature=0, 
-    )
-    return response.choices[0].message["content"] """
 
 def conversation_to_text(messages):
     txt = ""
@@ -170,6 +163,8 @@ class AIAssistant:
             model = "gpt-3.5-turbo-0613") -> None:
         
         prompt_system_role_assistant = self.get_prompt_system_role()
+        
+        self.start_greeting = False
 
         self.messages = [
             {'role':'system', 'content': prompt_system_role_assistant}
@@ -231,7 +226,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         
         num_turn = len(self.messages) // 2
 
-        min_turn = 1 #if not self.start_greeting else 2
+        min_turn = 1 if not self.start_greeting else 2
 
         if num_turn > min_turn:
             instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser demasiado redundante y limita la respuesta a un máximo de 100 palabras."""
@@ -256,7 +251,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
     def generate_response(self, message, use_kb = True):
         if use_kb == True:
             messages = [{"content": m["content"] } for m in self.messages]
-            num_tokens_context_dialog =  self.request_num_tokens(messages)
+            num_tokens_context_dialog = self.request_num_tokens(messages) if len(messages) > 0 else 0
            
             print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
             max_tokens_response = 1000
@@ -274,6 +269,10 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             self.messages.append({"role": "user", "content": message})
 
         else:
+
+            if len(self.messages) // 2 < 1:
+                self.start_greeting  = True
+
             self.messages.append({"role": "user", "content": message})
             response_ai_assistant = get_completion_from_messages(
             messages= self.messages,
@@ -305,7 +304,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             return self.messages[1:]
 
 
-filename = "faq_1_reformulated.json"
+
 
 def run_simulated_conversations(questions_faq, filename, start = 0, end = -1):
     random.seed(42)
@@ -333,7 +332,7 @@ def run_simulated_conversations(questions_faq, filename, start = 0, end = -1):
         response_ai_assistant = ai_assistant.generate_response(message = question)
         print("\nAssistant:", response_ai_assistant)
         
-        time.sleep(10)
+        time.sleep(20)
 
         for i in range(2):
             finish_conversation = numpy.random.choice([True, False],1, p = [0.3,0.7])[0]
@@ -354,13 +353,13 @@ def run_simulated_conversations(questions_faq, filename, start = 0, end = -1):
 
             print("\nUser:", response_user_ai)
             
-            time.sleep(10)
+            time.sleep(20)
 
             response_ai_assistant = ai_assistant.generate_response(message = response_user_ai)
 
             print("\nAssistant:", response_ai_assistant)
             
-            time.sleep(10)
+            time.sleep(20)
 
         messages = ai_assistant.get_history_dialog(include_context=True)
         
@@ -384,6 +383,7 @@ if __name__ == "__main__":
     #    questions = questions_about_topic["questions"]
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
-    path_file = "./faq-reformulated/faq_1_reformulated.json"
+    path_file = "./faq-reformulated/faq_2_reformulated.json"
+    filename = "faq_2_reformulated.json"
     questions_faq = load_json(path_file)
     run_simulated_conversations(questions_faq, filename, start = 0, end = 1)
