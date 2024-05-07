@@ -14,7 +14,7 @@ Respuesta: Los ingresantes, realizaran el siguiente proceso para completar su ma
     1. Recabar su constancia de ingreso. Luego de gestionar la emisión de su constancia de ingreso, la Dirección de Admisión (DIAD) de la UNI enviará a su correo la constancia de ingreso.
     2. Actualización de datos en intranet. DIRCE hará llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.
     3. Registrar los datos en la Facultad de Ciencias. La oficina de estadística de la facultad enviará al correo del ingresante la ficha de datos. El llenado es carácter obligatorio.
-    4. Efectuar el pago por autoseguro dentro del plazo establecido en el cronograma. Para ello, primero generar una orden de pago atravez de la plataforma intranet-alumnos.
+    4. Efectuar el pago por autoseguro en el plazo establecido en el cronograma. Para ello, primero generar una orden de pago atravez de la plataforma intranet-alumnos.
     5. Realizar la entrega de los siguientes documentos a la oficina de estadística según el cronograma de actividades de matrícula para ingresantes publicado en la sección 'MATRÍCULA Y PROCEDIMIENTOS' en la página web de la Facultad de Ciencias.
         - Constancia de Ingreso
         - Ficha de datos
@@ -265,6 +265,8 @@ Para estudiantes que hayan aprobado todas las asignaturas del primer ciclo en su
 Para estudiantes que hayan cursado solo el primer ciclo y no cumplan con los requisitos anteriores, así como para aquellos que hayan cursado dos o más ciclos, el número máximo de créditos permitidos a matricularse se establece según el promedio ponderado de los dos últimos semestres académicos cursados y está indicado en la Tabla 1, descrita en el CAPÍTULO VI del Reglamento de Matrícula publicado en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Esta tabla asigna un límite de créditos según el promedio ponderado de los dos últimos semestres, desde 28 créditos para promedios entre 14 y 20, hasta 15 créditos para promedios entre 0 y 8.
 
 Es importante mencionar que para estudiantes en riesgo académico, la determinación de la cantidad de créditos a matricular no se basará en dicha Tabla, sino que será recomendada por la Oficina de Tutoría y la Comisión de Matrícula de la Facultad. Dicha cantidad de créditos a matricularse para un estudiante en riesgo academico usualmente es mas limitada poniendo mayor prioridad en la matricula de los cursos desaprobados mas de dos veces.
+
+Ademas, en el caso de nuevos ingresantes 
 
 Tema: Procedimiento para solicitar el correo Institucional
 Pregunta: ¿Qué procedimiento debe seguir un estudiante para solicitar su correo institucional?

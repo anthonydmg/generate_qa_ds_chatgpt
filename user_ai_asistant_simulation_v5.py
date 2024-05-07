@@ -136,7 +136,14 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         #Mensaje del asistente de AI: {message}"""
 
         #Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad
+        num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
+        print("\nnum_tokens_context_dialog_user:", num_tokens_context_dialog)
+        
+        nnum_tokens_prompt_user = count_num_tokens(response_ai_assistant)
+        print("\nnum_tokens_prompt_user:", nnum_tokens_prompt_user)
 
+        print("\nnum_tokens_prompt_chat_user:",  nnum_tokens_prompt_user + num_tokens_context_dialog)
+        
         
         response_user_ai = get_completion_from_messages(
             self.messages + [{
@@ -161,6 +168,8 @@ class AIAssistant:
         
         prompt_system_role_assistant = self.get_prompt_system_role()
         
+        self.start_greeting = False
+
         self.df_kb = pd.read_csv(path_df_kb)
         self.df_kb["embedding"] = self.df_kb['embedding'].apply(ast.literal_eval)
 
@@ -181,7 +190,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin añadir información ficticia.
     2. Mantén un tono cordial, empático y servicial en sus interacciones.
     3. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
-    4. En caso de no encontrar información sobre la consulta en los datos proporcionados, expresa con empatía que no tienes acceso a dicha información.
+    4. En caso de no encontrar información sobre la consulta en los datos proporcionados, expresa con empatía que no tienes acceso a dicha información, tambien de manera pertinente puedes sugerir el contacto con un ofinicia para obtener mayor información.
 """
         return prompt_system_role_assistant
 
@@ -206,7 +215,16 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         #instrucction = """# sin hacer mención a la información
 #Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
         #  en lugar menciona que no tienes acceso a dicha información según sea necesario
-        instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser demasiado redundante y limita la respuesta a un máximo de 100 palabras."""
+        num_turn = len(self.messages) // 2
+
+        min_turn = 1 if not self.start_greeting else 2
+
+        if num_turn > min_turn:
+            instrucction = """Como asistente de AI Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Limita la respuesta a un máximo de 140 palabras."""
+        else:
+            instrucction = """Como asistente de AI proporciona una respuesta concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Limita la respuesta a un máximo de 150 palabras."""
+
+        print("\ninstrucction:", instrucction)
         # descrita a continuación 
         #instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita proporcionar datos no respaldados explícitamente en dicha información. Usa máximo 100 palabras."""
         
@@ -233,7 +251,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         context = None,
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
-        weighted_source = {"faq": 1, "document": 0.9},
+        weighted_source = {"faq": 1, "document": 0.80},
         weigthed_embeddings = {"query": 0.65, "context": 0.4} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
@@ -274,7 +292,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             query =  message
             context = self.messages[-1]["content"] if len(self.messages) > 1 else None
             #print("query:", query)
-            info_texs, relatednesses = self.strings_ranked_by_relatedness(query=query, context = context, df= self.df_kb, top_n=5)
+            info_texs, relatednesses = self.strings_ranked_by_relatedness(query=query, context = context, df= self.df_kb, top_n=10)
             
             self.recovered_texts.append([{"text": text, "relatedness": relatedness } for text , relatedness in zip(info_texs, relatednesses)])
             
@@ -282,21 +300,31 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 
             num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
             print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
-            max_tokens_response = 1000
+            max_tokens_response = 1200
 
             prompt_response_to_query = self.get_prompt_response_to_query(
                 message, info_texs, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response)
             
-            print("\nprompt_response_to_query:\n", prompt_response_to_query)
+            #print("\nprompt_response_to_query:\n", prompt_response_to_query)
 
             response_ai_assistant = get_completion_from_messages(
             messages= self.messages + [{"role": "user", "content": prompt_response_to_query}],
             model = self.model
             )
 
+            response_ai_assistant = response_ai_assistant.replace("```","").strip()
+
+            num_tokens_prompt_asistant = count_num_tokens(prompt_response_to_query)
+            print("\nnum_tokens_prompt_asistant:", num_tokens_prompt_asistant)
+
+            print("\nnum_tokens_prompt_chat:",  num_tokens_prompt_asistant + num_tokens_context_dialog)
+
             self.messages.append({"role": "user", "content": message})
 
         else:
+            if len(self.messages) // 2 < 1:
+                self.start_greeting  = True
+
             self.messages.append({"role": "user", "content": message})
             response_ai_assistant = get_completion_from_messages(
             messages= self.messages,
@@ -331,23 +359,30 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 if __name__ == "__main__":
     random.seed(42)
     #questions_topics = load_json("./refined_questions_generated.json")
-    questions_faq = load_json("./faq/filtered_questions.json")
+    
+    #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
+
+
+    path_file = "./faq-reformulated/faq_2_reformulated.json"
+    filename = "faq_2_reformulated.json"
+    questions_faq = load_json(path_file)
+
     #for questions_about_topic in questions_topics[0:1]:
     #    questions = questions_about_topic["questions"]
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 520
-    end = 540
+    start = 14
+    end = 16
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
         #conversation = [{}]
-        ai_assistant = AIAssistant()
+        ai_assistant = AIAssistant(model="gpt-3.5-turbo-0125")
         
         start_greeting = numpy.random.choice([True, False],1, p = [0.2,0.8])[0]
-        user_ai_sim = UserAISim(start_greeting = start_greeting)
+        user_ai_sim = UserAISim(model="gpt-3.5-turbo-0125", start_greeting = start_greeting)
         print("start_greeting:", start_greeting)
         
         if start_greeting:
@@ -363,7 +398,7 @@ if __name__ == "__main__":
         response_ai_assistant = ai_assistant.generate_response(message = question)
         print("\nAssistant:", response_ai_assistant)
         
-        time.sleep(4)
+        time.sleep(15)
         num_turns = random.choice([2,3])
         for i in range(num_turns):
             
@@ -385,13 +420,13 @@ if __name__ == "__main__":
 
             print("\nUser:", response_user_ai)
             
-            time.sleep(5)
+            time.sleep(15)
 
             response_ai_assistant = ai_assistant.generate_response(message = response_user_ai)
 
             print("\nAssistant:", response_ai_assistant)
             
-            time.sleep(5)
+            time.sleep(15)
 
         ## save conversation
 
@@ -401,6 +436,7 @@ if __name__ == "__main__":
             "messages": messages
         })
             
+    save_json("./", f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
 
     save_json("./conversational_data", f"conversations_simulated_{start}_to_{end-1}", conversations_simulated)
 

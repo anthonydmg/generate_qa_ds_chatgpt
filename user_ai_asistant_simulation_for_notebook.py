@@ -1,6 +1,7 @@
 ## NOO
 from utils import get_completion_from_messages
 ## NOO
+import os
 
 import openai
 # nooo
@@ -56,6 +57,20 @@ class UserAISim:
         
         self.model = model
     
+    def request_num_tokens(self, messages):
+        
+        url = f'{url_api_base}/count_tokens/'
+        # Datos que quieres enviar en la solicitud POST
+        #messages = []
+
+        response = requests.post(url, json=messages)
+        if response.status_code == 200:
+            # La solicitud fue exitosa, mostrar la respuesta
+            count_tokens = response.json()
+            return count_tokens["num_tokens"]
+        else:
+            print("La solicitud falló con el código de estado:", response.status_code)
+
     def start_conversation(self):
         response_user_ai = get_completion_from_messages(
             self.messages,
@@ -73,10 +88,21 @@ class UserAISim:
     
     def finish_conversation(self, message):
         num_words = random.choice([2, 4, 5, 10, 15, 20])
+        messages = [{"content": m["content"] } for m in self.messages]
 
+        num_tokens_context_dialog = self.request_num_tokens(messages) if len(messages) > 0 else 0
+           
+        print("\nnum_tokens_context_dialog user:", num_tokens_context_dialog)
+   
         prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde al siguiente mensaje del asistente de IA finalizando la conversación (Max. {num_words} palabras).
         Mensaje del asistente de AI: {message}"""
 
+        num_tokens_prompt = self.request_num_tokens([{"content": prompt_response_message}])
+            
+        print("\nnum_tokens_prompt user:", num_tokens_prompt)
+        
+        print("\nnum_tokens_chat user:", num_tokens_prompt + num_tokens_context_dialog)
+              
         response_user_ai = get_completion_from_messages(
             self.messages + [{
             "role": "user", 
@@ -131,7 +157,13 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
     def generate_response(self, message):
         
         num_turn = len(self.messages) // 2 + (1 if not self.start_greeting else 0)
-        print("\nNumero de turno:", num_turn)
+        print("\nNumero de turno user:", num_turn)
+        
+        messages = [{"content": m["content"] } for m in self.messages]
+
+        num_tokens_context_dialog = self.request_num_tokens(messages) if len(messages) > 0 else 0
+           
+        print("\nnum_tokens_context_dialog user:", num_tokens_context_dialog)
         
         num_words = random.choice([20,30,35,40])
         
@@ -143,6 +175,12 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         Mensaje del asistente de AI: {message}"""
             
 
+        num_tokens_prompt = self.request_num_tokens([{"content": prompt_response_message}])
+            
+        print("\nnum_tokens_prompt user:", num_tokens_prompt)
+        
+        print("\nnum_tokens_chat user:", num_tokens_prompt + num_tokens_context_dialog)
+                
         response_user_ai = get_completion_from_messages(
             self.messages + [{
             "role": "user", 
@@ -261,6 +299,12 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             prompt_response_to_query = self.get_prompt_response_to_query(
                 message, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response, context = context)
             
+            num_tokens_prompt = self.request_num_tokens([{"content": prompt_response_to_query}])
+            
+            print("\nnum_tokens_prompt:", num_tokens_prompt)
+           
+            print("\nnum_tokens_chat:", num_tokens_prompt + num_tokens_context_dialog)
+         
             response_ai_assistant = get_completion_from_messages(
             messages= self.messages + [{"role": "user", "content": prompt_response_to_query}],
             model = self.model
@@ -314,10 +358,10 @@ def run_simulated_conversations(questions_faq, filename, start = 0, end = -1):
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
-        ai_assistant = AIAssistant()
+        ai_assistant = AIAssistant(model = "gpt-3.5-turbo-0125")
         
         start_greeting = numpy.random.choice([True, False],1, p = [0.3,0.7])[0]
-        user_ai_sim = UserAISim(start_greeting = start_greeting)
+        user_ai_sim = UserAISim(model = "gpt-3.5-turbo-0125", start_greeting = start_greeting)
         print("start_greeting:", start_greeting)
         
         if start_greeting:
@@ -386,4 +430,4 @@ if __name__ == "__main__":
     path_file = "./faq-reformulated/faq_2_reformulated.json"
     filename = "faq_2_reformulated.json"
     questions_faq = load_json(path_file)
-    run_simulated_conversations(questions_faq, filename, start = 0, end = 1)
+    run_simulated_conversations(questions_faq, filename, start = 0, end = 4)
