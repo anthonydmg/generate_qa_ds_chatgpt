@@ -228,7 +228,15 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             print("La solicitud falló con el código de estado:", response.status_code)
 
     def get_prompt_response_to_query(self, query, token_budget, context = None):
-        instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser demasiado redundante y limita la respuesta a un máximo de 100 palabras."""
+        
+        num_turn = len(self.messages) // 2
+
+        min_turn = 1 #if not self.start_greeting else 2
+
+        if num_turn > min_turn:
+            instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser demasiado redundante y limita la respuesta a un máximo de 100 palabras."""
+        else:
+            instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser demasiado redundante y limita la respuesta a un máximo de 100 palabras."""
         
         mensaje_user = f"""Mensaje del usuario: {query}"""
 
@@ -297,8 +305,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             return self.messages[1:]
 
 
+filename = "faq_1_reformulated.json"
 
-def run_simulated_conversations(questions_faq, start = 0, end = -1):
+def run_simulated_conversations(questions_faq, filename, start = 0, end = -1):
     random.seed(42)
  
     conversations_simulated = []
@@ -361,7 +370,7 @@ def run_simulated_conversations(questions_faq, start = 0, end = -1):
         })   
 
         
-    filename = os.path.basename(file_questions)
+    #filename = os.path.basename(file_questions)
 
     save_json("./", f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
 
@@ -377,4 +386,4 @@ if __name__ == "__main__":
         #opening_lines = [question["question"] for question in questions]
     path_file = "./faq-reformulated/faq_1_reformulated.json"
     questions_faq = load_json(path_file)
-    run_simulated_conversations(questions_faq, start = 0, end = 1)
+    run_simulated_conversations(questions_faq, filename, start = 0, end = 1)
