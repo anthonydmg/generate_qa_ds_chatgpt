@@ -219,10 +219,12 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 
         min_turn = 1 if not self.start_greeting else 2
 
-        if num_turn > min_turn:
-            instrucction = """Como asistente de AI Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser redundante y limita la respuesta a un máximo de 125 palabras."""
+        print("num_turn asistant:", num_turn)
+
+        if num_turn >= min_turn:
+            instrucction = """Como asistente de AI (Aerito) proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser redundante y limita la respuesta a un máximo de 134 palabras."""
         else:
-            instrucction = """Como asistente de AI proporciona una respuesta concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evitar ser redundante y limita la respuesta a un máximo de 125 palabras."""
+            instrucction = """Como asistente de AI (Aerito) proporciona una respuesta concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evitar ser redundante y limita la respuesta a un máximo de 134 palabras."""
 
         print("\ninstrucction:", instrucction)
         # descrita a continuación 
@@ -364,8 +366,8 @@ if __name__ == "__main__":
     conversations_simulated = []
 
 
-    path_file = "./faq-reformulated/faq_2_reformulated.json"
-    filename = "faq_2_reformulated.json"
+    path_file = "./faq-reformulated/faq_16_reformulated.json"
+    filename = "faq_16_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
@@ -374,14 +376,14 @@ if __name__ == "__main__":
         #opening_lines = [question["question"] for question in questions]
     
     start = 0
-    end = 3
+    end = 1
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
         #conversation = [{}]
         ai_assistant = AIAssistant(model="gpt-3.5-turbo-0125")
         
-        start_greeting = numpy.random.choice([True, False],1, p = [0.2,0.8])[0]
+        start_greeting = numpy.random.choice([True, False],1, p = [0.8,0.2])[0]
         user_ai_sim = UserAISim(model="gpt-3.5-turbo-0125", start_greeting = start_greeting)
         print("start_greeting:", start_greeting)
         

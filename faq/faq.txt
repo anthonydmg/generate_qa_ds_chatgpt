@@ -1,5 +1,5 @@
 Tema: Requisitos y Procedimiento Matricula Regular
-Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
 Respuesta: Son requisitos para la matrícula regular efectuar el pago por autoseguro estudiantil y no presentar adeudos con su Facultad ya sea económicas, por libros o cualquier otro material de enseñanza en general. Además, los alumnos en riesgo académico deben haber completado la tutoría obligatoria previa a la matrícula.
 
 El proceso para que un alumno de pregrado realice su matrícula regular al ciclo académico, es el siguiente:
@@ -10,7 +10,7 @@ Los turnos para la matrícula, son asignados por grupos de acuerdo al promedio p
 
 Tema: Requisitos y Procedimiento para Matricula de Un Ingresante
 Pregunta: ¿Cuales son los requisitos y el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
-Respuesta: Los ingresantes, realizaran el siguiente proceso para completar su matricula (primera matricula al primer ciclo):
+Respuesta: Los nuevos alumnos de pregrado ingresantes a la Facultad de Ciencias, realizaran el siguiente proceso para completar su matricula (primera matricula al primer ciclo):
     1. Recabar su constancia de ingreso. Luego de gestionar la emisión de su constancia de ingreso, la Dirección de Admisión (DIAD) de la UNI enviará a su correo la constancia de ingreso.
     2. Actualización de datos en intranet. DIRCE hará llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.
     3. Registrar los datos en la Facultad de Ciencias. La oficina de estadística de la facultad enviará al correo del ingresante la ficha de datos. El llenado es carácter obligatorio.
@@ -266,7 +266,7 @@ Para estudiantes que hayan cursado solo el primer ciclo y no cumplan con los req
 
 Es importante mencionar que para estudiantes en riesgo académico, la determinación de la cantidad de créditos a matricular no se basará en dicha Tabla, sino que será recomendada por la Oficina de Tutoría y la Comisión de Matrícula de la Facultad. Dicha cantidad de créditos a matricularse para un estudiante en riesgo academico usualmente es mas limitada poniendo mayor prioridad en la matricula de los cursos desaprobados mas de dos veces.
 
-Ademas, en el caso de nuevos ingresantes 
+Además, en el caso de nuevos ingresantes, solo podrán inscribirse en asignaturas del primer ciclo. Esta inscripción será efectuada directamente por la oficina de estadísticas (AERA).
 
 Tema: Procedimiento para solicitar el correo Institucional
 Pregunta: ¿Qué procedimiento debe seguir un estudiante para solicitar su correo institucional?
