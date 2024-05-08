@@ -220,9 +220,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         min_turn = 1 if not self.start_greeting else 2
 
         if num_turn > min_turn:
-            instrucction = """Como asistente de AI Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Limita la respuesta a un máximo de 140 palabras."""
+            instrucction = """Como asistente de AI Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser redundante y limita la respuesta a un máximo de 125 palabras."""
         else:
-            instrucction = """Como asistente de AI proporciona una respuesta concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Limita la respuesta a un máximo de 150 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evitar ser redundante y limita la respuesta a un máximo de 125 palabras."""
 
         print("\ninstrucction:", instrucction)
         # descrita a continuación 
@@ -252,7 +252,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
         weighted_source = {"faq": 1, "document": 0.80},
-        weigthed_embeddings = {"query": 0.65, "context": 0.4} 
+        weigthed_embeddings = {"query": 0.7, "context": 0.3} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
         query_embedding_response = openai.embeddings.create(
@@ -373,8 +373,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 14
-    end = 16
+    start = 0
+    end = 3
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
