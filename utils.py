@@ -450,6 +450,8 @@ def split_file_questions_refomulated(dir_path, filtered_questions_reformulated_r
 split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge_list)
  """
 
+a = "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?"
+print(a)
 #filtered_reformulated_question_list = flat_questions_reformulate(filtered_questions_reformulated_rouge_list)
 
 #save_json("./faq", f"filtered_reformulated_question_list", filtered_reformulated_question_list)

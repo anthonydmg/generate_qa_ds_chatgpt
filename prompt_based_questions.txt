@@ -1,0 +1,64 @@
+Genera preguntas adicionales para la siguiente pregunta, sin desviarse del tema principal de la consulta. La preguntas deber consultar la misma informacion de una menera mas general.
+
+Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+
+
+Genera preguntas adicionales para la siguiente pregunta. Las preguntas deben consultar la misma informacion de una menera mas general.
+Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+
+
+sin desviarse del tema principal de la consulta. La preguntas deben consultar la misma informacion de una menera mas general.
+
+
+Genera preguntas adicionales para la siguiente pregunta. Las preguntas deben consultar la misma informacion de una manera mas general y ser relevantes para estudiantes de la UNI.
+Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+
+
+Instrucciones para generar la siguiente pregunta:
+
+Utiliza la pregunta base como contexto inicial.
+Genera diferentes praguntas eliminando una parte específica de la pregunta base, manteniendo el resto del contexto intacto.
+Asegúrate de que las preguntas generadas mantenga coherencia con el contexto original y sea una continuación lógica de la pregunta base.
+Genera la pregunta siguiente.
+Presenta las diferentes preguntas generadas de la siguiente manera:
+1. Pregunta generada 1...
+2. Pregunta generada 2...
+3. Pregunta generada 3...
+...
+8. Pregunta generada 8...
+
+Pregunta Base: ¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+
+
+
+Genera un prompt de instruccion para que un modelo de lenguaje genere las siguientes preguntas a partir de la pregunta base. En la instruccion debe especificarse que se debe considerar para que se generar las preguntas, debe haber alguna indicacion de como de como llegar el un tema especifico como matricula regular a uno mas generico como solo preguntar por la matricula.
+
+Pregunta Base: ¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+
+Pregunta Generadas: 
+- ¿Cual es el proceso de matrícula para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+- ¿Cuales son los requisitos en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+- ¿Como un alumno de pregrado puede realizar su matricula en la Facultad de Ciencias?
+- ¿Como realizar la matricula en la Facultad de Ciencias para este ciclo?
+
+
+Considerando la pregunta base "¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?", yo puedo inferir que un estudiante puede consultar sobre esa informacion sin usar el termino "matricula regular" y solo el termino matricula.
+Dame una instruccion que alverge ese razonamiento de una manera general para aplicarlo a diferentes preguntas.
+
+
+Considerando la pregunta base "¿Cuales son los requisitos y el proceso de matrícula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?", genera preguntas tomando en cuenta los siguientes elementos:
+
+Identifica los aspectos principales de la pregunta base.
+Mantén el contexto de la Facultad de Ciencias de la Universidad Nacional de Ingeniería.
+Varía la estructura y el enfoque de las preguntas para obtener una variedad de interrogantes relacionadas con los requisitos y el proceso de matrícula.
+Elimina ciertas partes específica de la pregunta base y reformula la pregunta.
+Asegúrate de que las preguntas generadas sean claras y pertinentes al tema.
+A partir de esta instrucción, genera al menos 8 preguntas distintas basadas en la pregunta base proporcionada.
+
+
+Genera 12 preguntas diferentes basadas en la siguiente pregunta base que busque la misma informacion sin desviarse de tema principal, mantén el contexto de la Facultad de Ciencias de la Universidad Nacional de Ingeniería, considera usar  utilizar una variedad de términos relacionados para referirse al mismo concepto.
+
+Pregunta base: ¿Cuales son los requisitos y el proceso de matrícula regular al ciclo academico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+
+
+
