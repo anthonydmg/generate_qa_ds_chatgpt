@@ -1,5 +1,5 @@
 Tema: Requisitos y Procedimiento Matricula Regular
-Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular al ciclo academico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular al ciclo académico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
 Respuesta: Son requisitos para la matrícula regular efectuar el pago por autoseguro estudiantil y no presentar adeudos con su Facultad ya sea económicas, por libros o cualquier otro material de enseñanza en general. Además, los alumnos en riesgo académico deben haber completado la tutoría obligatoria previa a la matrícula.
 
 El proceso para que un alumno de pregrado realice su matrícula regular al ciclo académico, es el siguiente:
@@ -126,7 +126,7 @@ Los estudiantes que deseen realizar modificaciones en la sección/horario de un 
 
 Tema: Procedimiento para el Retiro Total
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar el Retiro Total?
-Los estudiantes que deseen retirarse deben enviar su solicitud a través de la Plataforma intranet-alumnos hasta una semana antes de los exámenes parciales. Consultar fechas en el calendario académico. A continuación, se detallan los pasos a seguir para enviar su solicitud a través de la Plataforma:
+Respuesta: Los estudiantes que deseen retirarse deben enviar su solicitud a través de la Plataforma intranet-alumnos hasta una semana antes de los exámenes parciales. Consultar fechas en el calendario académico. A continuación, se detallan los pasos a seguir para enviar su solicitud a través de la Plataforma:
 1. El alumno accederá a la plataforma intranet-alumnos, utilizando su código UNI y la clave correspondiente.
 2. Dentro de la plataforma, seleccionará la opción "Mis Trámites" en el menú de navegación ubicado en la parte izquierda de la pantalla. Al hacer clic en dicho menú, se desplegarán varias opciones, entre las cuales deberá seleccionar "Retiro Total".
 3. Completará el formulario desplegado para la solicitud de retiro total, donde deberá proporcionar la siguiente información:
@@ -138,8 +138,12 @@ Los estudiantes que deseen retirarse deben enviar su solicitud a través de la P
 
 De manera excepcional, un estudiante puede solicitar el retiro total, en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro Médico de la UNI, MINSA o ESSALUD, hasta una semana antes de los exámenes finales, el mismo que será evaluado por el Consejo Directivo de la Escuela Profesional correspondiente.
 
+Tema: Fechas de Procedimiento para el Retiro Total 
+
 Pregunta: ¿Hasta cuando se puede solicitar el retiro total?
-Respuesta: El Retiro Total puede ser solicitado hasta una semana antes de los exámenes parciales, a través de la plataforma SIGA-DIRCE. De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los exámenes finales en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro Médico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente. 
+Respuesta: El Retiro Total puede ser solicitado hasta una semana antes de los exámenes parciales, a través de la plataforma SIGA-DIRCE (intranet-alumnos). De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los exámenes finales en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro Médico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente. 
+
+Tema: Motivos para el Retiro Total 
 
 Pregunta: ¿Por cuales motivos un estudiante puede solicitar un retiro total?
 Respuesta: El retiro total procede por motivos de fuerza mayor, los cuales pueden ser:
