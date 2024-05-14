@@ -56,9 +56,22 @@ Asegúrate de que las preguntas generadas sean claras y pertinentes al tema.
 A partir de esta instrucción, genera al menos 8 preguntas distintas basadas en la pregunta base proporcionada.
 
 
-Genera 12 preguntas diferentes basadas en la siguiente pregunta base que busque la misma informacion sin desviarse de tema principal, mantén el contexto de la Facultad de Ciencias de la Universidad Nacional de Ingeniería, considera usar  utilizar una variedad de términos relacionados para referirse al mismo concepto.
+Genera 20 preguntas diferentes basadas en la siguiente pregunta base que busque la misma informacion sin desviarse de tema principal, mantén el contexto de la Facultad de Ciencias de la Universidad Nacional de Ingeniería.
+Al generar las preguntas considera los siguientes Criterios:
+- Utiliza una variedad de términos relacionados para referirse al mismo concepto. 
+- Cambia algunos terminos especificos por alguno mas general, por ejemplo, en lugar de "matricula regular" podrias usar solo "matricula".
+- Las pregunta deben centrarse en el tema principal de la pregunta base.
 
 Pregunta base: ¿Cuales son los requisitos y el proceso de matrícula regular al ciclo academico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
 
+
+
+Genera 20 preguntas diferentes maneres que un estudiante podria usar para consultar la siguiente pregunta base, mantén el contexto de la Facultad de Ciencias de la Universidad Nacional de Ingeniería.
+Al generar las preguntas considera los siguientes Criterios:
+- Utiliza una variedad de términos relacionados para referirse al mismo concepto. 
+- Cambia terminos especificos por mas generales, por ejemplo, en lugar de "matricula regular" podrias usar solo "matricula".
+- Las pregunta deben centrarse en el tema principal de la pregunta base.
+
+Pregunta base: ¿Cuales son los requisitos y el proceso de matrícula regular al ciclo academico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
 
 
