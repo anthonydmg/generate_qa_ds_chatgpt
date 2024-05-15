@@ -1,5 +1,5 @@
 
-from utils import count_num_tokens, get_completion_from_messages, load_json, save_json
+from utils import count_num_tokens, get_completion_from_messages, load_json, save_json, read_fragment_doc
 
 import openai
 import json
@@ -182,7 +182,7 @@ class AIAssistant:
 
         self.embedding_model = embedding_model
         self.model = model
-    
+    # bajo el contexto de la Facultad de ciencias de la UNI
     def get_prompt_system_role(self):
         prompt_system_role_assistant = f"""
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería de Peru.
@@ -227,6 +227,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             instrucction = """Como asistente de AI (Aerito) proporciona una respuesta concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evitar ser redundante y limita la respuesta a un máximo de 134 palabras."""
 
         print("\ninstrucction:", instrucction)
+
         # descrita a continuación 
         #instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita proporcionar datos no respaldados explícitamente en dicha información. Usa máximo 100 palabras."""
         
@@ -304,11 +305,19 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
             max_tokens_response = 1200
 
+            general_information_aera = read_fragment_doc("./documentos/otros/informacion_general_aera.txt")
+            general_information_fc = read_fragment_doc("./documentos/otros/informacion_general_fc.txt")
+            general_information = general_information_aera + "\n" + general_information_fc
+            num_tokens_general_context = count_num_tokens(general_information)
+
+            print("\nnum_tokens_general_context:", num_tokens_general_context)
+
             prompt_response_to_query = self.get_prompt_response_to_query(
-                message, info_texs, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response)
+                message, info_texs, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
             
             #print("\nprompt_response_to_query:\n", prompt_response_to_query)
 
+            
             response_ai_assistant = get_completion_from_messages(
             messages= self.messages + [{"role": "user", "content": prompt_response_to_query}],
             model = self.model

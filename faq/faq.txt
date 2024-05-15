@@ -9,7 +9,7 @@ El proceso para que un alumno de pregrado realice su matrícula regular al ciclo
 Los turnos para la matrícula, son asignados por grupos de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
 
 Tema: Requisitos y Procedimiento para Matricula de Un Ingresante
-Pregunta: ¿Cuales son los requisitos y el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+Pregunta: ¿Cuales son los requisitos y el proceso de ma trícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
 Respuesta: Los nuevos alumnos de pregrado ingresantes a la Facultad de Ciencias, realizaran el siguiente proceso para completar su matricula (primera matricula al primer ciclo):
     1. Recabar su constancia de ingreso. Luego de gestionar la emisión de su constancia de ingreso, la Dirección de Admisión (DIAD) de la UNI enviará a su correo la constancia de ingreso.
     2. Actualización de datos en intranet. DIRCE hará llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.

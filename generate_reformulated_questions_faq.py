@@ -32,7 +32,7 @@ def get_prompt_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
     prompt = f"""
-Para cada una de las preguntas dentro de las tres comillas invertidas, genera 8 diferentes maneras que un estudiante podría usar para realizar la misma consulta, variando tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal), ademas de variar variando el nivel de concisión de cada una.  Algunas preguntas pueden ser concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
+Para cada una de las preguntas dentro de las tres comillas invertidas, genera 8 diferentes maneras que un estudiante podría usar para realizar la misma consulta. Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal). Además, varía el nivel de concisión de cada una. Algunas preguntas pueden ser concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
 Presenta las nuevas preguntas para cada pregunta original de la siguiente manera:
 
 Pregunta Original 1: Aqui Pregunta Original 1
@@ -112,11 +112,15 @@ def generate_questions_reformulated_based_faq(faqs):
     print()
     original_questions, generated_questions = extract_reformulated_questions(response)
 
-    print("\nlen(generated_questions):", len(generated_questions))
+   
+    num_group_question_generated = len(generated_questions)
+    
+    print("\nlen(generated_questions):",num_group_question_generated)
+    
     questions_generated_for_questions =  []
     
-    for i in range(len(generated_questions)):
-        if original_questions[i].lower() == faqs[i]["question"].strip().lower():
+    for i in range(num_group_question_generated):
+        if num_group_question_generated == 3 or original_questions[i].lower() == faqs[i]["question"].strip().lower():
             questions_generated_for_questions.append({
                 "original_question": faqs[i]["question"],
                 "questions_generated": generated_questions[i]
@@ -171,6 +175,6 @@ def generate_reformulated_faq(faqs, times_samples = 8):
 
     return reformulated_faqs
         
-reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 2)
+reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 14)
 
 save_json("./faq", "reformulated_faqs", reformulated_faqs)
