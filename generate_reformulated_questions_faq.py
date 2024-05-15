@@ -32,7 +32,7 @@ def get_prompt_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
     prompt = f"""
-Para cada una de las preguntas dentro de las tres comillas invertidas, genera 8 diferentes maneras de realizar la misma consulta.
+Para cada una de las preguntas dentro de las tres comillas invertidas, genera 8 diferentes maneras que un estudiante podría usar para realizar la misma consulta, variando tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal), ademas de variar variando el nivel de concisión de cada una.  Algunas preguntas pueden ser concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
 Presenta las nuevas preguntas para cada pregunta original de la siguiente manera:
 
 Pregunta Original 1: Aqui Pregunta Original 1
@@ -116,15 +116,18 @@ def generate_questions_reformulated_based_faq(faqs):
     questions_generated_for_questions =  []
     
     for i in range(len(generated_questions)):
-        questions_generated_for_questions.append({
-            "original_question": faqs[i]["question"],
-            "questions_generated": generated_questions[i]
-        })
+        if original_questions[i].lower() == faqs[i]["question"].strip().lower():
+            questions_generated_for_questions.append({
+                "original_question": faqs[i]["question"],
+                "questions_generated": generated_questions[i]
+            })
+        else:
+            questions_generated_for_questions.append({
+                "original_question": original_questions[i],
+                "questions_generated": generated_questions[i]
+            })
     
     return questions_generated_for_questions
-    #return preguntas
-    #print("Preguntas:", preguntas)
-
     
 
 import random
@@ -148,8 +151,8 @@ def generate_reformulated_faq(faqs, times_samples = 8):
         grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
         sobran = len(choices) % 3
         
-        if iter < 14:
-            continue
+        #if iter < 8:
+        #    continue
 
         if sobran > 0:
             grupos = grupos + [choices[-3:]]
@@ -168,6 +171,6 @@ def generate_reformulated_faq(faqs, times_samples = 8):
 
     return reformulated_faqs
         
-reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 18)
+reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 2)
 
 save_json("./faq", "reformulated_faqs", reformulated_faqs)

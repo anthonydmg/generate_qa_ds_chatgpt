@@ -376,15 +376,13 @@ def join_reformulated_questions(reformulated_faqs = []):
     reformulated_faqs_joined = [ {"original_question": k, "questions_generated": v } for k,v in tab_all_questions.items()]
 
     return reformulated_faqs_joined
-
-""" reformulated_faqs = load_json("./faq/reformulated_faqs.json")
+""" 
+reformulated_faqs = load_json("./faq/reformulated_faqs.json")
 
 
 reformulated_faqs_joined = join_reformulated_questions(reformulated_faqs)
 
-save_json("./faq", "reformulated_faqs_joined", reformulated_faqs_joined)
- """
-
+save_json("./faq", "reformulated_faqs_joined", reformulated_faqs_joined) """
 
 
 def filtered_questions_reformulated_rouge(
@@ -421,8 +419,8 @@ def filtered_questions_reformulated_rouge(
 filtered_questions_reformulated = filtered_questions_reformulated_rouge(reformulated_faqs_joined, threshold_rouge)
 
 save_json("./faq", f"filtered_questions_reformulated_rouge_{threshold_rouge}", filtered_questions_reformulated)
-
  """
+
 #filtered_questions_reformulated_rouge = load_json("./faq/filtered_questions_reformulated_rouge_0.85.json")
 
 
@@ -450,8 +448,8 @@ def split_file_questions_refomulated(dir_path, filtered_questions_reformulated_r
 split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge_list)
  """
 
-a = "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?"
-print(a)
+#a = "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?"
+#print(a)
 #filtered_reformulated_question_list = flat_questions_reformulate(filtered_questions_reformulated_rouge_list)
 
 #save_json("./faq", f"filtered_reformulated_question_list", filtered_reformulated_question_list)

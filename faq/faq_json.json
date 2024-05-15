@@ -91,9 +91,9 @@
     },
     {
         "question": "\u00bfHasta cuando se puede solicitar el retiro total?",
-        "answer": "El Retiro Total puede ser solicitado hasta una semana antes de los ex\u00e1menes parciales, a trav\u00e9s de la plataforma SIGA-DIRCE. De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los ex\u00e1menes finales en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente.",
-        "topic": "Fechas de Procedimiento para el Retiro Total",
-        "num_tokens_answers": 128
+        "answer": "El Retiro Total puede ser solicitado hasta una semana antes de los ex\u00e1menes parciales, a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos). De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los ex\u00e1menes finales en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente.",
+        "topic": "Fechas para el Retiro Total",
+        "num_tokens_answers": 134
     },
     {
         "question": "\u00bfPor cuales motivos un estudiante puede solicitar un retiro total?",
@@ -168,19 +168,19 @@
         "num_tokens_answers": 54
     },
     {
-        "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar su constancia de Ayudantia academica?",
+        "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la Facultad de Ciencias de la UNI para solicitar su constancia de Ayudantia academica?",
         "answer": "El tr\u00e1mite se realiza con el Director de Escuela correspondiente. El estudiante puede solicitar informaci\u00f3n a las siguientes direcciones de correo electr\u00f3nico seg\u00fan su escuela profesional.\nPara F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\nPara Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe",
         "topic": "Procedimiento para solicitar Constancia de Ayudantia acad\u00e9mica",
         "num_tokens_answers": 83
     },
     {
-        "question": "\u00bfCual es el procedimiento a seguir para que un estudiante pueda realizar ayudant\u00eda academica?",
+        "question": "\u00bfCual es el procedimiento a seguir para que un estudiante de pregrado de la Facultad de Ciencias de la UNI pueda realizar ayudant\u00eda academica?",
         "answer": "Los estudiantes que deseen realizar ayudant\u00eda acad\u00e9mica deben ponerse en contacto con el departamento de su Escuela Profesional correspondiente para obtener m\u00e1s informaci\u00f3n. A continuaci\u00f3n se detallan las direcciones de correo electr\u00f3nico seg\u00fan la escuela profesional:\nF\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\nMatem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe",
         "topic": "Procedimiento para Realizar ayudant\u00eda Acad\u00e9mica",
         "num_tokens_answers": 98
     },
     {
-        "question": "\u00bfCu\u00e1les son los requisitos que un estudiante debe cumplir para poder realizar un traslado interno?",
+        "question": "\u00bfCu\u00e1les son los requisitos que un estudiante de pregrado de la Facultad de Ciencias debe cumplir para poder realizar un traslado interno?",
         "answer": "Para poder realizar un traslado interno, un estudiante debe cumplir con los siguientes requisitos:\n1. Presentar la solicitud a trav\u00e9s del intranet alumnos/tramites en la fecha indicada en el calendario acad\u00e9mico, adjuntando el comprobante de pago por el concepto de traslado interno y la ficha acad\u00e9mica.\n2. La Escuela verificar\u00e1 los documentos y requisitos propios dentro del primer d\u00eda \u00fatil de presentada la solicitud, registrar\u00e1 el expediente y remitir\u00e1 un correo de recepci\u00f3n al interesado.\n3. El director de Escuela o la Comisi\u00f3n de Matr\u00edcula analizar\u00e1n las solicitudes y, utilizando el formato disponible en la web DIRCE, inscribir\u00e1n las convalidaciones pertinentes seg\u00fan el Avance Curricular del alumno, las notas y las normas de Convalidaci\u00f3n.\n4. Con la autorizaci\u00f3n del director, el expediente ser\u00e1 enviado al Decano y posteriormente presentado ante el Consejo de Facultad para su aprobaci\u00f3n mediante Resoluci\u00f3n Decanal y remisi\u00f3n a la DIRCE.\n5. La DIRCE ejecutar\u00e1 el cambio de especialidad y/o facultad y realizar\u00e1 las convalidaciones.\n6. La Oficina de Estad\u00edstica gestionar\u00e1 la matr\u00edcula de los estudiantes por traslado interno en funci\u00f3n a la solicitud de matr\u00edcula del director de la Escuela Profesional, y finalmente, la DIRCE realizar\u00e1 la ejecuci\u00f3n de la matr\u00edcula en el sistema SIGA.\n7. No se recibir\u00e1n solicitudes extempor\u00e1neas.",
         "topic": "Traslado Interno Requisitos",
         "num_tokens_answers": 340
@@ -198,31 +198,31 @@
         "num_tokens_answers": 110
     },
     {
-        "question": "\u00bfComo un estudiante puede ver el estado de sus tramites?",
-        "answer": "El estado de las solicitudes presentadas trav\u00e9s del intranet alumnos, puede ser visualizadas en la mismo plataforma. Para otros tramites puede usar el n\u00famero de expediente para realizar el seguimiento, ingresando a http://stduni.uni.pe/modalum",
+        "question": "\u00bfComo un estudiante de la UNI puede ver el estado de sus tramites?",
+        "answer": "El estado de las solicitudes presentadas trav\u00e9s de la plataforma intranet-alumnos, puede ser visualizadas en la misma plataforma. Para otros tramites puede usar el n\u00famero de expediente correspondiente para realizar el seguimiento, ingresando a http://stduni.uni.pe/modalum",
         "topic": "Estado de Tramites",
-        "num_tokens_answers": 53
+        "num_tokens_answers": 58
     },
     {
-        "question": "\u00bfD\u00f3nde puede un estudiante consultar la fecha y turno de matr\u00edcula para el ciclo acad\u00e9mico?",
+        "question": "\u00bfD\u00f3nde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matr\u00edcula para el ciclo acad\u00e9mico?",
         "answer": "Las fechas de matr\u00edcula para cada ciclo acad\u00e9mico se encuentran disponibles en el calendario de actividades, el cual se publica en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).\nLos horarios de matr\u00edcula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los \u00faltimos ciclos, en un orden de m\u00e9rito. Aquellos estudiantes con los promedios m\u00e1s altos recibir\u00e1n prioridad en los primeros turnos, seguidos por los dem\u00e1s en sucesi\u00f3n. La lista de este orden de m\u00e9rito, junto con los respectivos turnos de matr\u00edcula, se publica en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la facultad de ciencias para garantizar que todos los alumnos est\u00e9n informados. Adem\u00e1s, cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.",
         "topic": "Fechas de Matricula",
         "num_tokens_answers": 220
     },
     {
-        "question": "\u00bfEn cuantos cr\u00e9ditos como m\u00e1ximo puede matricularse un estudiante de Facultad de Ciencias de la UNI?",
+        "question": "\u00bfEn cuantos cr\u00e9ditos como m\u00e1ximo puede matricularse un estudiante de la Facultad de Ciencias de la UNI?",
         "answer": "El n\u00famero m\u00e1ximo de cr\u00e9ditos en los que un estudiante de la Facultad de Ciencias de la UNI puede matricularse var\u00eda dependiendo de su situaci\u00f3n acad\u00e9mica y el promedio ponderado de los dos \u00faltimos semestres acad\u00e9micos.\n\nPara estudiantes que hayan aprobado todas las asignaturas del primer ciclo en su primera matr\u00edcula y tengan un promedio ponderado igual o mayor a doce (12), podr\u00e1n matricularse en todas las asignaturas del segundo ciclo y adelantar como m\u00e1ximo dos asignaturas adicionales, siempre y cuando el plan de estudios lo permita.\n\nPara estudiantes que hayan cursado solo el primer ciclo y no cumplan con los requisitos anteriores, as\u00ed como para aquellos que hayan cursado dos o m\u00e1s ciclos, el n\u00famero m\u00e1ximo de cr\u00e9ditos permitidos a matricularse se establece seg\u00fan el promedio ponderado de los dos \u00faltimos semestres acad\u00e9micos cursados y est\u00e1 indicado en la Tabla 1, descrita en el CAP\u00cdTULO VI del Reglamento de Matr\u00edcula publicado en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). Esta tabla asigna un l\u00edmite de cr\u00e9ditos seg\u00fan el promedio ponderado de los dos \u00faltimos semestres, desde 28 cr\u00e9ditos para promedios entre 14 y 20, hasta 15 cr\u00e9ditos para promedios entre 0 y 8.\n\nEs importante mencionar que para estudiantes en riesgo acad\u00e9mico, la determinaci\u00f3n de la cantidad de cr\u00e9ditos a matricular no se basar\u00e1 en dicha Tabla, sino que ser\u00e1 recomendada por la Oficina de Tutor\u00eda y la Comisi\u00f3n de Matr\u00edcula de la Facultad. Dicha cantidad de cr\u00e9ditos a matricularse para un estudiante en riesgo academico usualmente es mas limitada poniendo mayor prioridad en la matricula de los cursos desaprobados mas de dos veces.\n\nAdem\u00e1s, en el caso de nuevos ingresantes, solo podr\u00e1n inscribirse en asignaturas del primer ciclo. Esta inscripci\u00f3n ser\u00e1 efectuada directamente por la oficina de estad\u00edsticas (AERA).",
         "topic": "M\u00e1ximo de Cr\u00e9ditos a Matricularse Para un Estudiante",
         "num_tokens_answers": 483
     },
     {
-        "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar su correo institucional?",
+        "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la UNI para solicitar su correo institucional?",
         "answer": "Para solicitar su correo institucional de la UNI, enviar un correo obtenercorreo@uni.pe proporcionndo la siguiente informaci\u00f3n:\n    C\u00f3digo de Alumno.\n    Nombres y Apellidos.\n    DNI.\n    Especialidad.\n    Indicar si es estudiante de pregrado o posgrado.\n    Correo personal (que no sea @uni.pe ni @UNI.PE) donde se le enviar\u00e1 la clave.\n    N\u00famero de Celular.\n    Facultad.",
         "topic": "Procedimiento para solicitar el correo Institucional",
         "num_tokens_answers": 105
     },
     {
-        "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para tramitar su matricula rezagada?",
+        "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?",
         "answer": "La matr\u00edcula rezagada se realiza en las fechas establecidas en el calendario academico publicado en la seccion \" MATR\u00cdCULA Y PROCEDIMIENTOS\" dentro de la Pagina de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/). La matr\u00edcula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matr\u00edcula en las fechas establecidas en el calendario de actividades acad\u00e9micas para la matricula regular y se realizar\u00e1 en funci\u00f3n a las vacantes disponibles.\nPara realizar la matricula rezagada el estudiante debera ejecutar los siguientes pasos:\n\n1. Los estudiantes que realizan su matr\u00edcula en forma rezagada deber\u00e1n efectuar el pago de 26 soles. Para ello, debera generar una order de pago atravez del Portal INTRALU.\n2. Despu\u00e9s de haber realizado el pago deber\u00e1 subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n de MATR\u00cdCULA Y PROCEDIMIENTOS dentro de la pagina web de la Facultad de Ciencias (https://fc.uni.edu.pe/documentos/).\n3. Luego, deber\u00e1 esperar a que el personal de la oficina de Estad\u00edstica, dentro de las fechas establecidas para la matr\u00edcula rezagada, proceda a habilitar el acceso a la plataforma de intranet para que el estudiante pueda matricularse directamente.\n\nPosterior a la fechas de la matricula rezagada, los estudiantes ya no podr\u00e1n realizar la matricula en el ciclo academico.",
         "topic": "Procedimiento de Matricula Rezagada",
         "num_tokens_answers": 380
