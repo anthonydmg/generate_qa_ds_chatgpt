@@ -433,7 +433,7 @@ def flat_questions_reformulate(filtered_questions_reformulated_rouge):
         filtered_reformulated_question_list.extend(questions_generated)
     return filtered_reformulated_question_list
 
-#dir_path = "./faq-reformulated"
+dir_path = "./faq-reformulated"
 
 
 def split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge):
@@ -443,10 +443,10 @@ def split_file_questions_refomulated(dir_path, filtered_questions_reformulated_r
         save_json(dir_path, f"faq_{i+1}_reformulated", questions_generated)
     return 
 
-""" filtered_questions_reformulated_rouge_list = load_json("./faq/filtered_questions_reformulated_rouge_0.85.json")
+filtered_questions_reformulated_rouge_list = load_json("./faq/filtered_questions_reformulated_rouge_0.85.json")
 
 split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge_list)
- """
+
 
 #a = "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?"
 #print(a)

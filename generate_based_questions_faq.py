@@ -27,13 +27,13 @@ def extract_faqs(text):
 
 ## esta bueno pero solo falta un poco
 # presenten una variedad de enfoques en la formulación de las preguntas. Asegúrate de que las nuevas preguntas
+#  Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal)
 
 def get_prompt_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
     prompt = f"""
 Utilizando las preguntas y respuestas proporcionadas, genera una lista de {num_questions} preguntas únicas que abarquen diferentes niveles de complejidad y cubran tanto puntos generales o amplios hasta detalles específicos. Cada pregunta debe tener una respuesta dentro de la información proporcionada. Sigue estas instrucciones:
-
 Instrucciones:
 
 Instrucción 1. Lee cuidadosamente las preguntas y respuestas proporcionadas para comprender completamente el contexto.
