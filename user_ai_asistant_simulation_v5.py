@@ -104,15 +104,24 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
             Utiliza un tono semi formal adecuado para un estudiante universitario.
             Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado"""
         
-        type_greeting = random.choice(["formal","informal", "semiformal"])
+        type_greeting = random.choice(["formal","informal", "semiformal", "coloquial"])
         print("type_greeting:", type_greeting)
-        num_words = random.choice([1, 2, 5, 10, 15, 20])
-        print("num_words", num_words)
+        num_words = random.choice([5, 8, 10])
+        print("num_words:", num_words)
+
+        reference_to_ai = random.choice(["asistente de AI (Aerito)","asistente de AI", "asistente", "asistente virtual"])
+
         if start_greeting:
-            prompt_start += f"\nComienza la conversación simplemente con un saludo {type_greeting} conciso al asistente (Max. {num_words} palabras) y mantén dicho rol en las siguientes interacciones."
+            #prompt_start += f"\nInicia la conversación con un mensaje breve con un saludo {type_greeting} al asistente de IA llamado Aerito sin nada mas que el saludo y mantén tu rol de estudiante universitario en busca de información o asesoria en las interacciones posteriores"
+            prompt_start += f"\nComienza la conversación simplemente con un saludo {type_greeting} al {reference_to_ai} usando como máximo {num_words} palabras y mantén tu rol de estudiante universitario en busca de información o asesoría en las siguientes interacciones."
+            
+            #, 
+
+            #en la segunda interacción realizar la consulta sobre tu tema de interés, utilizando un máximo de {num_words} palabras, y mantén este rol en las interacciones posteriores."
         else:
             prompt_start += "\nComienza la conversación con una consulta sobre el tema de interés y mantén dicho rol en las siguientes interacciones."
 
+        print("prompt_start:", prompt_start.split("\n")[-1])
         return prompt_start
 
 
@@ -123,14 +132,18 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         num_turn = len(self.messages) // 2 + (1 if not self.start_greeting else 0)
         print("\nNumero de turno:", num_turn)
         
-        num_words = random.choice([20,30,35])
+        num_words = random.choice([20,25,30,35])
         
+        print("num_words_user:", num_words)
+
         if num_turn > 2:
             prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos de {num_words} palabras de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
         Mensaje del asistente de AI: {message}"""
         else:
             prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
         Mensaje del asistente de AI: {message}"""
+        
+        #print("prompt_user:", prompt_response_message)
 
         #prompt_response_message = f"""Recuerda que tu (el estudiante universitario en busca de información o asesoramiento) estas hablando con un asistente de AI, responde de manera concisa y significativa al siguiente mensaje del asistente de IA (Max. 50 palabras), teniendo en cuenta el contexto del historial del diálogo en curso.
         #Mensaje del asistente de AI: {message}"""
@@ -182,15 +195,21 @@ class AIAssistant:
 
         self.embedding_model = embedding_model
         self.model = model
+    #     3. Evita declaraciones excesivamente formales y responde de manera concisa y servicial a mensajes de agradecimientos finales del usuario.
+    #     5. Evita declaraciones excesivamente formales y responde de manera concisa y servicial a mensajes agradecimientos del usuario.
+    # , sin ser excesivamente formal y responde de manera concisa y servicial a mensajes de agradecimiento del usuario
+    # Evitando declaraciones excesivamente formales y responde de manera sumamente concisa y servicial a los mensajes de agradecimiento.
     # bajo el contexto de la Facultad de ciencias de la UNI
+    #  Responde de manera sumamente concisa y servicial a los mensajes de agradecimiento de los usuarios, sin ser excesivamente formal.
     def get_prompt_system_role(self):
         prompt_system_role_assistant = f"""
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería de Peru.
 Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin añadir información ficticia.
     2. Mantén un tono cordial, empático y servicial en sus interacciones.
-    3. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
-    4. En caso de no encontrar información sobre la consulta en los datos proporcionados, expresa con empatía que no tienes acceso a dicha información, tambien de manera pertinente puedes sugerir el contacto con un ofinicia para obtener mayor información.
+    3. Responde de manera sumamente concisa y servicial a mensajes con agradecimientos finales del usuario.
+    4. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
+    5. En caso de no encontrar información sobre la consulta en los datos proporcionados, evita proporcionar datos no respaldados en dicha información y expresa con empatía que no tienes acceso a esa información, también de manera pertinente puedes sugerir el contacto con un oficina para obtener mayor información.
 """
         return prompt_system_role_assistant
 
@@ -220,11 +239,11 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         min_turn = 1 if not self.start_greeting else 2
 
         print("num_turn asistant:", num_turn)
-
+        # Se conciso, claro y l
         if num_turn >= min_turn:
-            instrucction = """Como asistente de AI proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que "no tienes acceso a esa información" cuando sea relevante. Evita ser redundante y limita la respuesta a un máximo de 132 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta clara, concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
         else:
-            instrucction = """Como asistente de AI proporciona una respuesta concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Evitar ser redundante y limita la respuesta a un máximo de 132 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta clara, concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
         print("\ninstrucction:", instrucction)
 
@@ -256,7 +275,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
         weighted_source = {"faq": 1, "document": 0.80},
-        weigthed_embeddings = {"query": 0.7, "context": 0.3} 
+        weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
         query_embedding_response = openai.embeddings.create(
@@ -310,11 +329,14 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
     def generate_response(self, message, use_kb = True):
         if use_kb == True:
             #query = self.messages[-1]["content"] + "\n" + message if len(self.messages) > 1 else message
+            query = message
 
-            query =  message
-            context = self.messages[-1]["content"] if len(self.messages) > 1 else None
+            if len(self.messages) > 1:
+                context = self.messages[-2]["content"] + "\n" + self.messages[-1]["content"] 
+            else:
+                context = None
             #print("query:", query)
-            info_texs, relatednesses = self.strings_ranked_by_relatedness(query=query, context = context, df= self.df_kb, top_n=10)
+            info_texs, relatednesses = self.strings_ranked_by_relatedness(query = query, context = context, df = self.df_kb, top_n=10)
             
             self.recovered_texts.append([{"text": text, "relatedness": relatedness } for text , relatedness in zip(info_texs, relatednesses)])
             
@@ -322,7 +344,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 
             num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
             print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
-            max_tokens_response = 1000
+            max_tokens_response = 950
 
             general_information_aera = read_fragment_doc("./documentos/otros/informacion_general_aera.txt")
             general_information_fc = read_fragment_doc("./documentos/otros/informacion_general_fc.txt")
@@ -401,8 +423,8 @@ if __name__ == "__main__":
     conversations_simulated = []
 
 
-    path_file = "./faq-reformulated/faq_1_reformulated.json"
-    filename = "faq_1_reformulated.json"
+    path_file = "./faq-reformulated/faq_4_reformulated.json"
+    filename = "faq_4_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
@@ -410,15 +432,15 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 5
-    end = 10
+    start = 0  
+    end = 5 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
-        #conversation = [{}]
+        #conversation = [{}]+a
         ai_assistant = AIAssistant(model="gpt-3.5-turbo-0125")
         
-        start_greeting = numpy.random.choice([True, False],1, p = [0.2,0.8])[0]
+        start_greeting = numpy.random.choice([True, False],1, p = [0.25,0.75])[0]
         user_ai_sim = UserAISim(model="gpt-3.5-turbo-0125", start_greeting = start_greeting)
         print("start_greeting:", start_greeting)
         
@@ -429,6 +451,8 @@ if __name__ == "__main__":
             print("\nAssistant:", response_ai_assistant)
             user_ai_sim.push_assistant_messages_to_history(response_ai_assistant)
         
+        time.sleep(5)
+        #continue
         user_ai_sim.push_user_messages_to_history(question) 
         
         print("\nUser:", question)
@@ -437,9 +461,10 @@ if __name__ == "__main__":
         
         time.sleep(15)
         num_turns = random.choice([2,3])
+        
         for i in range(num_turns):
-            
-            finish_conversation = numpy.random.choice([True, False],1, p = [0.3,0.7])[0]
+            additional_prob_finish = (i) * 0.05 
+            finish_conversation = numpy.random.choice([True, False],1, p = [0.3 + additional_prob_finish,0.7 - additional_prob_finish])[0]
            
             if i >= 1 and finish_conversation:
                 print("\nfinish_conversation:",finish_conversation)
