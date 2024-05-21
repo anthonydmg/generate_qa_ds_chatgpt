@@ -17,9 +17,8 @@ Planificar, atender y supervisar los procedimientos de la matrícula en cada sem
 
 2. Procesos de evaluación
 Supervisar e informar el cumplimiento de los procedimientos que regulan el sistema de calificación de acuerdo al Reglamento de Evaluación para estudiantes de Antegrado vigente.
-    - Supervisar el registro de notas de prácticas, exámenes y solucionario.
+    - Supervisar el registro de notas de prácticas y exámenes.
     - Supervisión en la atención de los reclamos de notas de los estudiantes.
-    - Informar sobre las faltas en la entrega oportuna de notas por parte de los docentes.
     - Gestionar el registro de nota del Examen de Regularización.
 
 Informacion de Contacto de la oficina de estadística (AERA)

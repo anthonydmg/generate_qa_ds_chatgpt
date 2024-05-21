@@ -9,7 +9,7 @@ Esta facultad ofrece 5 carreras universitarias, las cuales conforman las escuela
     - Escuela Profesional de Ciencias de la Computación
 
 La facultad de ciencias de la UNI cuenta con un pagina web: https://fc.uni.edu.pe/ 
-En la sección de Matrícula y Procedimientos de la pagina web de la facultad se publica:
+En la sección de Matrícula y Procedimientos de esta pagina web se publica:
     * Manuales/Documentos informativos sobre diferentes procesos de matrícula, procedimientos y trámites académicos para estudiantes de Pregrado de la Facultad.
     * El calendario de actividades académicas.
     * Modelos para solicitudes de diferentes procesos académicos.
