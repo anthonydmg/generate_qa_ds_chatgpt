@@ -207,7 +207,7 @@ Eres Aerito un asistente de AI especializado en temas de matricula, procedimient
 Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin añadir información ficticia.
     2. Mantén un tono cordial, empático y servicial en sus interacciones.
-    3. Responde de manera sumamente concisa y servicial a mensajes con agradecimientos finales del usuario.
+    3. Responde de manera muy concisa y servicial a mensajes con agradecimientos finales del usuario.
     4. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
     5. En caso de no encontrar información sobre la consulta en los datos proporcionados, evita proporcionar datos no respaldados en dicha información y expresa con empatía que no tienes acceso a esa información, también de manera pertinente puedes sugerir el contacto con un oficina para obtener mayor información.
 """
@@ -230,7 +230,12 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         
         return information
 
-    def get_prompt_response_to_query(self, query, info_texts, token_budget):
+    def get_prompt_response_to_query(
+            self, 
+            query, 
+            info_texts, 
+            token_budget,
+            additional_info = None):
         #instrucction = """# sin hacer mención a la información
 #Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
         #  en lugar menciona que no tienes acceso a dicha información según sea necesario
@@ -259,6 +264,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         print("\ntoken_budget asistant:", token_budget)
         information = self.join_info_texts(info_texts, token_budget)
         
+        if additional_info is not None:
+            information = information + "\n" + additional_info
+
         self.contexts.append(information)
         
         template_information = f"""\nInformación: ```{information}```\n"""
@@ -354,7 +362,11 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             print("\nnum_tokens_general_context:", num_tokens_general_context)
 
             prompt_response_to_query = self.get_prompt_response_to_query(
-                message, info_texs, token_budget= 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
+                message, 
+                info_texs, 
+                token_budget= 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context,
+                additional_info = general_information
+                )
             
 
             num_tokens_prompt_asistant = count_num_tokens(prompt_response_to_query)
@@ -432,8 +444,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 0  
-    end = 5 
+    start = 40  
+    end = 50 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
