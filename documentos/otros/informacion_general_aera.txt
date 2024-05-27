@@ -6,7 +6,6 @@ Actividades que se realizan:
 
 1. Procesos de matrícula
 Planificar, atender y supervisar los procedimientos de la matrícula en cada semestre Académico de acuerdo al Reglamento de Matrícula de estudiantes de Antegrado vigente.
-
     - Matrícula (ingresantes, regular, condicionada y rezagada).
     - Reincorporación.
     - Grupo cero de Matrícula.
@@ -14,15 +13,14 @@ Planificar, atender y supervisar los procedimientos de la matrícula en cada sem
     - Matrícula Preferencial.
     - Reserva de Matrícula.
     - Retiros (Parciales, Totales y Definitivos).
-
+    
 2. Procesos de evaluación
 Supervisar e informar el cumplimiento de los procedimientos que regulan el sistema de calificación de acuerdo al Reglamento de Evaluación para estudiantes de Antegrado vigente.
-    - Supervisar el registro de notas de prácticas y exámenes.
-    - Supervisión en la atención de los reclamos de notas de los estudiantes.
+    - Supervisar el registro de notas de prácticas y exámenes, y los reclamos de notas de exámenes.
     - Gestionar el registro de nota del Examen de Regularización.
 
-Informacion de Contacto de la oficina de estadística (AERA)
+Información de Contacto de la oficina de estadística (AERA)
 E-mail: estadistica_fc@uni.edu.pe
 
-Hoario de Atencion de la oficina de estadística (AERA):
+Horario de Atención de la oficina de estadística (AERA):
 De Lunes a Viernes de 8:00 a.m. a 4:00 p.m.

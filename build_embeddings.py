@@ -4,6 +4,7 @@ from utils import load_json
 import openai
 import os
 import pandas as pd
+from sentence_transformers import SentenceTransformer
 
 from dotenv import load_dotenv
 def set_openai_key():
@@ -19,16 +20,21 @@ GPT_MODEL = "gpt-3.5-turbo"
 def count_num_tokens(text, model = GPT_MODEL):
     encoding = tiktoken.encoding_for_model(model)
     return len(encoding.encode(text))
+import re
 
 def halved_by_delimiter(string, delimiter = "\n") -> list[str, str]:
     """Split a string in two, on a delimiter, trying to balance tokens on each side."""
     chunks = string.split(delimiter)
+    #print("delimiter:", repr(delimiter))
+    #print("num chunks:", len(chunks))
+    #print("len chunks:", [count_num_tokens(c) for c in chunks])
     if len(chunks) == 1:
         return [string, ""]  # no delimiter found
     elif len(chunks) == 2:
         return chunks  # no need to search for halfway point
     else:
         total_tokens = count_num_tokens(string)
+        #print("\n\ntotal_tokens:", total_tokens)
         halfway = total_tokens // 2
         best_diff = halfway
         for i, chunk in enumerate(chunks):
@@ -58,6 +64,45 @@ def truncated_text(
         print(f"Warning: Trucanted text from {len(encoded_text)} token to {max_tokens} tokens.")
     return truncated_text
 
+def merge_splits(self, splits, separator, max_size = 600):
+    # We now want to combine these smaller pieces into medium size
+    # chunks to send to the LLM.
+    separator_len = self._length_function(separator)
+
+    docs = []
+    current_doc = []
+    total = 0
+    for d in splits:
+        num_tokens = count_num_tokens(d)
+        if (
+            total + num_tokens > max_size
+        ):
+            if total > max_size:
+                print(
+                    f"Created a chunk of size {total}, ",
+                    f"which is longer than the specified {max_size}"
+                )
+            if len(current_doc) > 0:
+                doc = "\n".join(current_doc) #self._join_docs(current_doc, separator)
+                if doc is not None:
+                    docs.append(doc)
+                # Keep on popping if:
+                # - we have a larger chunk than in the chunk overlap
+                # - or if we still have any chunks and the length is long
+                while total > self._chunk_overlap or (
+                    total + num_tokens > max_size
+                    and total > 0
+                ):
+                    total -= self._length_function(current_doc[0]) + (
+                        separator_len if len(current_doc) > 1 else 0
+                    )
+                    current_doc = current_doc[1:]
+        current_doc.append(d)
+        total += num_tokens 
+    doc = self._join_docs(current_doc, separator)
+    if doc is not None:
+        docs.append(doc)
+
 def split_text_into_subsections(
         section,
         max_tokens,
@@ -68,18 +113,25 @@ def split_text_into_subsections(
     Split text into list subsections, each with no more than max_tokens
     """
     title, text = section
-    string = "\n\n".join([title,text])
-    num_tokens_in_text = count_num_tokens(string)
-    print("\n\nnum_tokens_in_text:", num_tokens_in_text)
+    string = "\n".join([title,text])
+    num_tokens_in_text = count_num_tokens(text)
+    #print("\n\nnum_tokens_in_text:", num_tokens_in_text)
     if num_tokens_in_text <= max_tokens:
-        return [text]
+        return [string]
     elif max_recursion == 0:
-        return truncated_text(string, model=model, max_tokens=max_tokens)
+        print(f"Warning: Created a chunk of {num_tokens_in_text} tokens, which is longer than the specified {max_tokens} max tokens")
+        return [string]
+        
+        #return truncated_text(string, model=model, max_tokens=max_tokens)
     else:
-        for delimiter in ["\n\n", "\n", "."]:
-            left, right = halved_by_delimiter(string, delimiter=delimiter)
-            print("left:", left)
-            print("\n\nright:", right)
+        for delimiter in ["\n\n\n","\n\n", "\n", "."]:
+            left, right = halved_by_delimiter(text, delimiter=delimiter)
+            #print("delimiter:", repr(delimiter))
+            #print("left tokens:",  count_num_tokens(left))
+            #print("right tokens:",  count_num_tokens(right))
+            #print("title tokens:",  count_num_tokens(title))
+            #print("\nleft:", left)
+            #print("\n\nright:", right)
             
             if left == "" or right == "":
                 continue
@@ -93,14 +145,22 @@ def split_text_into_subsections(
                         model=model,
                         max_recursion=max_recursion - 1,
                     )
-                    return [text]
+                    #print("add half_strings:", len(half_strings))
+                    #return [text]
+                    #half_strings[1] = "\n".join([title,half_strings[1]])
+                    if len(results) == 1 and count_num_tokens(left) < 100 and (count_num_tokens(half_strings[0] +"\n" + left) < max_tokens):
+                        results[0] = delimiter.join([results[0], half_strings[0][len(title):].strip()])
+                        half_strings = half_strings[1:] if len(half_strings)> 1 else [] 
+
                     results.extend(half_strings)
+                    
+                
                 return results
     
     return [truncated_text(string, model=model, max_tokens=max_tokens)]
 
 
-MAX_TOKENS = 600
+MAX_TOKENS = 800
 
 text_subsections = []
 general_topics_subsections = []
@@ -109,13 +169,14 @@ type_sources = []
 topics = load_json("topics_finals.json")
 faqs = load_json("faq/faq_json.json")
 
-""" for topic in topics:
+for topic in topics:
     title = topic["topic"]
     content = topic["content"]
     print("title:", title)
     section = (title, content)
     subsections = split_text_into_subsections(section, max_tokens=MAX_TOKENS)
     print(f"Divido en {len(subsections)} secciones")
+    print("len tokens:", [count_num_tokens(c) for c in subsections])
     text_subsections.extend(subsections)
     general_topics_subsections.extend([title] * len(subsections))
     type_sources.extend(["document"] * len(subsections))
@@ -128,67 +189,57 @@ for faq in faqs:
     text_subsections.append(text_faq)
     general_topics_subsections.append(faq["topic"])
     type_sources.append("faq")
-print("\nNumero de secciones encontradas:", len(text_subsections)) """
-
-text = """            TRASLADO INTERNO
-        (del Reglamento de Matrícula Aprobado R.R. N° 0570 del 29.03.22)
-
-Art. 16° De la convalidación de Asignaturas y su aplicación 
- 
-La Convalidación de Asignatura es el acto académico y administrativo mediante el cual la UNI a través de la Escuela Profesional correspondiente, aplica un sistema de equivalencia y reconoce como válidas las asignaturas de contenido similar y número de créditos igual o similar al de otro Plan de Estudios con respecto a uno vigente en la Escuela Profesional. Para que proceda, los respectivos sílabos de las asignaturas a convalidar deberán coincidir al menos en un 75% de su contenido y de horas dictadas. Las asignaturas para convalidar deben tener igual número de créditos o diferir como máximo en uno (01). Por excepción, la convalidación de una asignatura con mayor profundidad en el contenido quedará a la consideración del secretario académico de la facultad.  
-El estudiante tiene derecho a solicitar la convalidación de asignaturas en los siguientes casos: 
- 
-a. Traslado  Interno: Es un procedimiento mediante el cual el ingresante de una Escuela Profesional de la UNI pasa a otra especialidad de su Facultad o de otra, cumpliendo los requisitos académicos y administrativos. 
- 
-Art. 17° El plazo para que las Escuelas Profesionales efectúen los procesos de asignación de Plan de Estudios y convalidación será de hasta cinco (05) días útiles computados desde: 
- 
-    • En el caso de Traslado Interno, desde la aprobación del Consejo de Facultad o autorización del Decano (con cargo a dar cuenta al siguiente Consejo), previos al Examen de Admisión.  
-    • En el caso de Reincorporación, desde la recepción del expediente.  
-    • En el caso de Traslados Externos, Segunda Profesión y por convenio nacional o internacional, la Dirección de Admisión (DIAD), bajo responsabilidad, deberá entregar a las Facultades; con copia a DIRCE (para la generación de códigos), los expedientes de estos ingresantes, a más tardar en cinco (05) días hábiles de concluido el examen de admisión respectivo. La facultad dispondrá de cinco (05) días útiles más, para las convalidaciones; para lo cual disponen de los respectivos formatos en la plataforma SIGA-DIRCE. 
- 
-La DIRCE deberá procesar las convalidaciones realizadas por las Facultades en un plazo máximo de cinco (05) días útiles computados desde su recepción.  
- 
-Para los Traslados Internos del segundo semestre de cada año, no se consideran las asignaturas cursadas en el semestre inmediato anterior, pues la presentación del trámite es antes del cierre del ciclo. Si las hubiese, el estudiante solicitará su convalidación posterior a la Verificación de Matrícula y las matrículas adicionales, si fuera el caso. En segundo semestre, no se admite rezago en los Traslados.  
- 
-Art.  53°  Los  ingresantes  a  la  UNI  por  traslado  interno  o  externo,  graduados,  titulados,  y  por convenios, solicitarán a la Escuela Profesional correspondiente su primera matrícula, la misma que se realizará a través de la Oficina de Estadística de la Facultad, en coordinación con la DIRCE-UNI.
+print("\nNumero de secciones encontradas:", len(text_subsections))
 
 
-Detalle del procedimiento de Traslado Interno: 
+EMBEDDING_MODEL_OPENAI = "text-embedding-3-small"
 
-    1. El interesado presentará su solicitud a través del intranet alumnos / tramites; hasta la fecha que indica el calendario académico. Adjuntando lo siguiente: 
-        − Comprobante de pago por el concepto de Traslado Interno. 
-        − Ficha Académica 
-    2. La Escuela, dentro del 1er día útil de presentada verificará documentos y requisitos propios, registrará el expediente y remitirá correo de recepción al interesado. Luego, si fuere necesario, solicitará a otras Escuelas Profesionales de la UNI la remisión de sílabos pertinentes, si el director lo solicita y atenderá similares solicitudes de otras Escuelas  
-    3. El director de Escuela o la Comisión de Matrícula analizará las solicitudes y haciendo uso del formato disponible en la web DIRCE, inscribirá las convalidaciones pertinentes, según el Avance Curricular del alumno, las notas y las normas de Convalidación. Si quedan notas no registradas, serán motivo de convalidación posterior a la matrícula.  
-    4. Con  la  autorización  del  director,  el  expediente  es  enviado  al  Decano  y  posteriormente presentarlo ante el Consejo de Facultad para su aprobación (mediante Resolución Decanal) y remisión a la DIRCE.  
-    5. La DIRCE ejecutará el cambio de especialidad y/o facultad y las convalidaciones.   
-    6. Registradas las convalidaciones, la Oficina de Estadística gestiona la matrícula de los sestudiantes por traslado interno en función a la solicitud de matrícula del director de la Escuela Profesional, finalmente la DIRCE realiza la ejecución de la matrícula en el sistema SIGA. 
-    7. No se recibirán solicitudes extemporáneas  """
+EMBEDDING_MODEL_HF = "jinaai/jina-embeddings-v2-base-es"
+
+def create_embeddings_from_hugginface(inputs, model_name = EMBEDDING_MODEL_HF):
+    model = SentenceTransformer(model_name, trust_remote_code=True)
+    embeddings = model.encode(inputs)
+    print("embeddings shape:", embeddings.shape)
+    embeddings_list = [embeddings[i] for i in range(embeddings.shape[0])]
+    return embeddings_list
+
+def create_embeddings_from_openai(inputs, model_name = EMBEDDING_MODEL_OPENAI):
+    response = openai.embeddings.create(model=model_name, input= inputs)
+    for i, be in enumerate(response.data):
+        assert i == be.index  # double check embeddings are in same order as input
+    batch_embeddings = [e.embedding for e in response.data]
+    return batch_embeddings
+
+""" from utils import read_fragment_doc
+text = read_fragment_doc("./documentos/matricula/matricula_condicionada.txt")
 
 subsections = split_text_into_subsections(
-        section = (text, "Traslado Interno"),
+        section = ("Traslado Interno", text),
         max_tokens = 600,
         model = GPT_MODEL,
         max_recursion = 5
 )
 
-print("Len:", len(subsections))
+print("Len subsections:", len(subsections))
 
-""" EMBEDDING_MODEL = "text-embedding-3-small"
-BATCH_SIZE = 50
+for i in range(len(subsections)):
+    print(f"Num tokens {count_num_tokens(subsections[i])} subsection {i}")
+    print("subsection:",subsections[i] )
+     """
+
+EMBEDDING_MODEL = "text-embedding-3-small"
+BATCH_SIZE = 20
 print("\nNumero de secciones encontradas:", len(text_subsections))
 for batch_start in range(0, len(text_subsections), BATCH_SIZE):
     batch_end = min(batch_start + BATCH_SIZE, len(text_subsections))
     batch = text_subsections[batch_start:batch_end]
     print(f"Batch {batch_start} to {batch_end-1}")
-    response = openai.embeddings.create(model=EMBEDDING_MODEL, input= batch)
-    for i, be in enumerate(response.data):
-        assert i == be.index  # double check embeddings are in same order as input
-    batch_embeddings = [e.embedding for e in response.data]
+    batch_embeddings = create_embeddings_from_hugginface(inputs=batch)
     embeddings.extend(batch_embeddings)
 
 df = pd.DataFrame({"type_source": type_sources ,"topic": general_topics_subsections, "text": text_subsections, "embedding": embeddings})
 
+print(df.head(5))
 SAVE_PATH = "./kb/topics.csv"
 
-df.to_csv(SAVE_PATH, index=False) """
+df.to_csv(SAVE_PATH, index=False)
