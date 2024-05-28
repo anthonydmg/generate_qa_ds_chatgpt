@@ -5,6 +5,7 @@ import openai
 import os
 import pandas as pd
 from sentence_transformers import SentenceTransformer
+import numpy as np
 
 from dotenv import load_dotenv
 def set_openai_key():
@@ -180,7 +181,7 @@ for topic in topics:
     text_subsections.extend(subsections)
     general_topics_subsections.extend([title] * len(subsections))
     type_sources.extend(["document"] * len(subsections))
-embeddings = []
+
 
 print("\nNumero de secciones encontradas:", len(text_subsections))
 
@@ -199,8 +200,12 @@ EMBEDDING_MODEL_HF = "jinaai/jina-embeddings-v2-base-es"
 def create_embeddings_from_hugginface(inputs, model_name = EMBEDDING_MODEL_HF):
     model = SentenceTransformer(model_name, trust_remote_code=True)
     embeddings = model.encode(inputs)
+    #print(type(embeddings))
+    #embeddings = embeddings.numpy()
+    print(type(embeddings))
     print("embeddings shape:", embeddings.shape)
-    embeddings_list = [embeddings[i] for i in range(embeddings.shape[0])]
+    embeddings_list = [np.array2string(embeddings[i], separator=",") for i in range(embeddings.shape[0])]
+    print(embeddings_list)
     return embeddings_list
 
 def create_embeddings_from_openai(inputs, model_name = EMBEDDING_MODEL_OPENAI):
@@ -229,6 +234,7 @@ for i in range(len(subsections)):
 
 EMBEDDING_MODEL = "text-embedding-3-small"
 BATCH_SIZE = 20
+embeddings = []
 print("\nNumero de secciones encontradas:", len(text_subsections))
 for batch_start in range(0, len(text_subsections), BATCH_SIZE):
     batch_end = min(batch_start + BATCH_SIZE, len(text_subsections))

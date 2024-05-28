@@ -12,7 +12,8 @@ from scipy import spatial
 import ast
 import random
 import numpy
-
+from sentence_transformers import SentenceTransformer
+import numpy as np
 
     
 load_dotenv(override=True)
@@ -177,7 +178,7 @@ class AIAssistant:
             self, 
             model = "gpt-3.5-turbo-0613",
             path_df_kb = "./kb/topics.csv",
-            embedding_model = "text-embedding-3-small") -> None:
+            embedding_model = "jinaai/jina-embeddings-v2-base-es") -> None:
         
         prompt_system_role_assistant = self.get_prompt_system_role()
         
@@ -236,19 +237,22 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             info_texts, 
             token_budget,
             additional_info = None):
+        print("numero de info_texts:", len(info_texts))
         #instrucction = """# sin hacer mención a la información
 #Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
         #  en lugar menciona que no tienes acceso a dicha información según sea necesario
         num_turn = len(self.messages) // 2
 
         min_turn = 1 if not self.start_greeting else 2
+        #                 "context": "\n\nSolicitud Certificado De Quinto Y/O Tercio Superior En Fc De La Uni\n\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la Facultad de ciencias de la UNI para solicitar certificado de d\u00e9cimo o quinto superior?\nLas constancias de Quinto y/o Tercio Superior son emitidas por la oficina de Escuelas Profesionales de la Facultad correspondiente a la especialidad del estudiante. Por lo tanto, se recomienda a los estudiantes de la Facultad de Ciencias contactar con dicha oficina para obtener m\u00e1s detalles sobre el proceso y requisitos para este tr\u00e1mite, a trav\u00e9s de las siguientes direcciones de correo electr\u00f3nico, seg\u00fan su Escuela Profesional:\n\nPara F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\nPara Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe\nEl horario de atenci\u00f3n de las oficinas de Escuelas Profesionales es de lunes a viernes de 8:30 a.m. a 4:00 p.m.\n\nProcedimiento Para Solicitar Constancia De Ayudantia Acad\u00e9mica\n\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la Facultad de Ciencias de la UNI para solicitar su constancia de Ayudantia acad\u00e9mica?\nEl tr\u00e1mite se realiza con el Director de Escuela correspondiente. El estudiante puede solicitar informaci\u00f3n a las siguientes direcciones de correo electr\u00f3nico seg\u00fan su escuela profesional.\nPara F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\nPara Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe\nEl horario de atenci\u00f3n de las oficinas de Escuelas Profesionales es de lunes a viernes de 8:30 a.m a 4:00 p.m\n\nProcedimiento Para Realizar Ayudant\u00eda Acad\u00e9mica\n\u00bfCual es el procedimiento a seguir para que un estudiante de pregrado de la Facultad de Ciencias de la UNI pueda realizar ayudant\u00eda academica?\nLos estudiantes que deseen realizar ayudant\u00eda acad\u00e9mica deben ponerse en contacto con el departamento de su Escuela Profesional correspondiente para obtener m\u00e1s informaci\u00f3n. A continuaci\u00f3n se detallan las direcciones de correo electr\u00f3nico seg\u00fan la escuela profesional:\nF\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\nMatem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe\n\nProcedimiento Para Solicitar El Correo Institucional\n\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la UNI para solicitar su correo institucional?\nPara solicitar su correo institucional de la UNI, enviar un correo obtenercorreo@uni.pe proporcionndo la siguiente informaci\u00f3n:\n    C\u00f3digo de Alumno.\n    Nombres y Apellidos.\n    DNI.\n    Especialidad.\n    Indicar si es estudiante de pregrado o posgrado.\n    Correo personal (que no sea @uni.pe ni @UNI.PE) donde se le enviar\u00e1 la clave.\n    N\u00famero de Celular.\n    Facultad.\n\nProcedimiento Para Solicitar De Constancia De Notas\n\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de notas?\nPara solicitar una constancia de notas (constancia de estudios simple) en ingl\u00e9s o en espa\u00f1ol, el estudiante deber seguir los siguientes pasos:\n\n1. Enviar un correo a estadistica_fc@uni.edu.pe solicitando una orden de pago para la CONSTANCIA DE NOTAS. En el mensaje, deber\u00e1 incluir sus datos personales: n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo.\n\n2. La oficina de estad\u00edstica (AERA) le enviar\u00e1 la orden de pago por el monto de S/. 100.00 (dato correspondiente al a\u00f1o 2024) a su correo electr\u00f3nico.\n\n3. El alumno deber\u00e1 realizar el pago en alguna sucursal del BCP o a trav\u00e9s aplicaci\u00f3n movil del banco. En la app selecciona \"Pagar servicios\", elige la Universidad Nacional de Ingenier\u00eda, luego la opci\u00f3n de pago para estudiantes, e ingresa su n\u00famero de DNI. La app mostrar\u00e1 la orden de pago con el monto exacto para realizar el pago.\n\n4. Luego, el estudiante deber\u00e1 dejar en mesa de partes de la facultad el comprobante de pago y la solicitud correspondiente, o enviarlos por correo electr\u00f3nico a mesadepartes_fc@uni.edu.pe. Es importante que se asegure de indicar en la solicitud si desea la CONSTANCIA DE NOTAS en ingl\u00e9s o espa\u00f1ol. El modelo para esta solicitud est\u00e1 disponible en la secci\u00f3n [\"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).\n\n5. Por \u00faltimo, AERA enviar\u00e1 un correo para notificarle que la constancia est\u00e1 lista para ser recogida en el horario de atenci\u00f3n de Lunes a Viernes, de 08:00 a 13:00 y de 14:00 a 15:30.\n\nRequisitos Y Procedimiento Para Matricula De Un Ingresante\n\u00bfCuales son los requisitos y el proceso de ma tr\u00edcula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?\nLos nuevos alumnos de pregrado ingresantes a la Facultad de Ciencias, realizaran el siguiente proceso para completar su matricula (primera matricula al primer ciclo):\n    1. Recabar su constancia de ingreso. Luego de gestionar la emisi\u00f3n de su constancia de ingreso, la Direcci\u00f3n de Admisi\u00f3n (DIAD) de la UNI enviar\u00e1 a su correo la constancia de ingreso.\n    2. Actualizaci\u00f3n de datos en intranet. DIRCE har\u00e1 llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.\n    3. Registrar los datos en la Facultad de Ciencias. La oficina de estad\u00edstica de la facultad enviar\u00e1 al correo del ingresante la ficha de datos. El llenado es car\u00e1cter obligatorio.\n    4. Efectuar el pago por autoseguro en el plazo establecido en el cronograma. Para ello, primero generar una orden de pago atravez de la plataforma intranet-alumnos.\n    5. Realizar la entrega de los siguientes documentos a la oficina de estad\u00edstica seg\u00fan el cronograma de actividades de matr\u00edcula para ingresantes publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' en la p\u00e1gina web de la Facultad de Ciencias.\n        - Constancia de Ingreso\n        - Ficha de datos\n        - Constancia de Evaluaci\u00f3n Socioecon\u00f3mica\n        - Certificado M\u00e9dico expedido por el Centro Medico UNI\n        - Comprobante de pago de Autoseguro Estudiantil\n    6. La oficina de estad\u00edstica ejecutar\u00e1 la matr\u00edcula (inscripci\u00f3n de cursos) de los ingresantes seg\u00fan el cronograma de actividades, \u00fanicamente para aquellos que hayan cumplido con la entrega de la entrega de los documentos requeridos en de las fechas establecidas en el cronograma.\n    7. Los ingresantes matriculados recibir\u00e1n un correo con el horario de sus cursos y tambi\u00e9n podr\u00e1n visualizar sus cursos y horarios en la plataforma intranet-alumnos.",
 
         print("num_turn asistant:", num_turn)
         # Se conciso, claro y l
+        #  y significativa
         if num_turn >= min_turn:
-            instrucction = """Como asistente de AI proporciona una respuesta clara, concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
         else:
-            instrucction = """Como asistente de AI proporciona una respuesta clara, concisa y significativa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
         print("\ninstrucction:", instrucction)
 
@@ -275,6 +279,27 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 
         return prompt_response_to_query
     ## prev context
+    def create_embedding_from_hf(self, query, model_name):
+        model = SentenceTransformer(model_name, trust_remote_code=True)
+        embeddings = model.encode(query)
+        print("embeddings shape:", embeddings.shape)
+        return embeddings
+    
+            #print(type(embeddings))
+        #embeddings = embeddings.numpy()
+        #print(type(embeddings))
+        #print("embeddings shape:", embeddings.shape)
+        #embeddings_list = [np.array2string(embeddings[i], separator=",") for i in range(embeddings.shape[0])]
+    
+    def create_embedding_from_openai(self, query, model_name):
+        query_embedding_response = openai.embeddings.create(
+            model = model_name,
+            input=query,
+        )
+
+        query_embedding = query_embedding_response.data[0].embedding
+        return query_embedding
+    
     def strings_ranked_by_relatedness(
         self,
         query,
@@ -286,23 +311,15 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
-        query_embedding_response = openai.embeddings.create(
-            model= self.embedding_model,
-            input=query,
-        )
-
-        query_embedding = query_embedding_response.data[0].embedding
+        query_embedding = self.create_embedding_from_hf(query, self.embedding_model)
         
         if context is not None:
-            context_embedding_response = openai.embeddings.create(
-                model=self.embedding_model,
-                input = context 
-            )
-
-            context_embedding = context_embedding_response.data[0].embedding
+            context_embedding = self.create_embedding_from_hf(context, self.embedding_model)
 
             strings_and_relatednesses = [
-                (row["text"], (weigthed_embeddings["query"]* relatedness_fn(query_embedding, row["embedding"]) + weigthed_embeddings["context"] * relatedness_fn(context_embedding, row["embedding"])) * weighted_source[row["type_source"]])
+                (row["text"], (weigthed_embeddings["query"]* relatedness_fn(query_embedding, row["embedding"]) + 
+                               weigthed_embeddings["context"] * relatedness_fn(context_embedding, row["embedding"])
+                               ) * weighted_source[row["type_source"]])
                 for i, row in df.iterrows()
             ]
         
@@ -344,12 +361,27 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             else:
                 context = None
             #print("query:", query)
-            info_texs, relatednesses = self.strings_ranked_by_relatedness(query = query, context = context, df = self.df_kb, top_n=10)
             
+            info_texs, relatednesses = self.strings_ranked_by_relatedness(query = query, context = context, df = self.df_kb, top_n = 10)
+            
+
             self.recovered_texts.append([{"text": text, "relatedness": relatedness } for text , relatedness in zip(info_texs, relatednesses)])
             
             print("\nrelatednesses:", relatednesses)
 
+            ## Filter low relatednesess
+            cut_idx = len(relatednesses)
+            for i in range(len(relatednesses)):
+                if relatednesses[i] < 0.40:
+                    cut_idx = i
+                    print(f"\nSimilarity lower than threshold {relatednesses[i]}, idx {cut_idx}")
+                    break
+
+            info_texs = info_texs[:cut_idx]
+            relatednesses = relatednesses[:cut_idx]
+
+            #for  in zip(info_texs, relatednesses):
+            
             num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
             print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
             max_tokens_response = 950
@@ -365,7 +397,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
                 message, 
                 info_texs, 
                 token_budget= 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context,
-                additional_info = general_information
+                additional_info = None #general_information
                 )
             
 
@@ -434,9 +466,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-
-    path_file = "./faq-reformulated/faq_4_reformulated.json"
-    filename = "faq_4_reformulated.json"
+    path_file = "./faq-reformulated/faq_1_reformulated.json"
+    filename = "faq_1_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
@@ -444,8 +475,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 40  
-    end = 50 
+    start = 0  
+    end = 2 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
@@ -484,7 +515,10 @@ if __name__ == "__main__":
                 
                 print("\nUser:", response_user_ai)
 
-                response_ai_assistant = ai_assistant.generate_response(message = response_user_ai, use_kb= False)
+                response_ai_assistant = ai_assistant.generate_response(
+                    message = response_user_ai, 
+                    #use_kb= False
+                    )
 
                 print("\nAssistant:", response_ai_assistant)
 

@@ -29,3 +29,7 @@ Tengo que leer esto:
 
 LLaVA-Med: Training a Large Language-and-Vision
 Assistant for Biomedicine in One Day
+
+
+Esto puede servir para la Evaluacion:
+https://www.linkedin.com/pulse/guide-metrics-thresholds-evaluating-rag-llm-models-kevin-amrelle-dswje/
