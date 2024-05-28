@@ -136,12 +136,14 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         num_words = random.choice([20,25,30,35])
         
         print("num_words_user:", num_words)
-
+        # y significativa 
+        # 
+        # y significativa 
         if num_turn > 2:
-            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos de {num_words} palabras de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
+            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos de {num_words} palabras de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
         Mensaje del asistente de AI: {message}"""
         else:
-            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa y significativa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
+            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
         Mensaje del asistente de AI: {message}"""
         
         #print("prompt_user:", prompt_response_message)
@@ -206,7 +208,7 @@ class AIAssistant:
         prompt_system_role_assistant = f"""
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería de Peru.
 Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
-    1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin añadir información ficticia.
+    1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin proporcionar datos no respaldados en dicha información.
     2. Mantén un tono cordial, empático y servicial en sus interacciones.
     3. Responde de manera muy concisa y servicial a mensajes con agradecimientos finales del usuario.
     4. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
@@ -475,7 +477,7 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 0  
+    start = 0   
     end = 2 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
