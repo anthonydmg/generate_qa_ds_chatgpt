@@ -14,6 +14,9 @@ import random
 import numpy
 from sentence_transformers import SentenceTransformer
 import numpy as np
+import warnings
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
     
 load_dotenv(override=True)
@@ -209,8 +212,8 @@ class AIAssistant:
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería de Peru.
 Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin proporcionar datos no respaldados en dicha información.
-    2. Mantén un tono cordial, empático y servicial en sus interacciones.
-    3. Responde de manera muy concisa y servicial a mensajes con agradecimientos finales del usuario.
+    2. Mantén un tono empático y servicial en sus interacciones.
+    3. Responde de manera muy breve pero servicial a mensajes con agradecimientos finales del usuario.
     4. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
     5. En caso de no encontrar información sobre la consulta en los datos proporcionados, evita proporcionar datos no respaldados en dicha información y expresa con empatía que no tienes acceso a esa información, también de manera pertinente puedes sugerir el contacto con un oficina para obtener mayor información.
 """
@@ -477,8 +480,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 0   
-    end = 2 
+    start = 2   
+    end = 4 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
