@@ -101,11 +101,13 @@ Criterio 2: Ten en cuenta el contexto del historial del diálogo en curso y tu o
 Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu interés por comprender completamente todo lo relacionado con el tema o temas consultados.
 """
         return prompt_system_role_user
+    # me parece que el usuario esta mejor ahora mejora el asistente
     # y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado
     def get_prompt_start(self, start_greeting = False):
-        prompt_start = """Actúa como un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que estás buscando información o asesoría.
+        prompt_start = """Actúa como un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que esta buscando información o asesoría.
             Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad en dichos temas.
-            Utiliza un tono semi formal adecuado para un estudiante universitario.
+            Utiliza un tono informal adecuado para un estudiante universitario.
+            Evita usar declaraciones de agradecimiento.
             Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado"""
         
         type_greeting = random.choice(["formal","informal", "semiformal", "coloquial"])
@@ -140,8 +142,9 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         
         print("num_words_user:", num_words)
         # y significativa 
-        # 
+        # Evita declaraciones de agradecimiento 
         # y significativa 
+        #  Evita declaraciones de agradecimiento
         if num_turn > 2:
             prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos de {num_words} palabras de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
         Mensaje del asistente de AI: {message}"""
@@ -207,13 +210,16 @@ class AIAssistant:
     # Evitando declaraciones excesivamente formales y responde de manera sumamente concisa y servicial a los mensajes de agradecimiento.
     # bajo el contexto de la Facultad de ciencias de la UNI
     #  Responde de manera sumamente concisa y servicial a los mensajes de agradecimiento de los usuarios, sin ser excesivamente formal.
+    # Mantén un tono empático y servicial en sus interacciones.
+    # Mantén un tono amigable, empático, profesional y de apoyo en tus interacciones.
+    # Mantén un tono amigable, empático, profesional y de apoyo en tus interacciones.
     def get_prompt_system_role(self):
         prompt_system_role_assistant = f"""
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería de Peru.
 Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin proporcionar datos no respaldados en dicha información.
-    2. Mantén un tono empático y servicial en sus interacciones.
-    3. Responde de manera muy breve pero servicial a mensajes con agradecimientos finales del usuario.
+    2.  Mantén un tono empático y servicial en sus interacciones.
+    3. Responde de manera sumamente concisa pero servicial a mensajes con agradecimientos finales del usuario.
     4. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
     5. En caso de no encontrar información sobre la consulta en los datos proporcionados, evita proporcionar datos no respaldados en dicha información y expresa con empatía que no tienes acceso a esa información, también de manera pertinente puedes sugerir el contacto con un oficina para obtener mayor información.
 """
@@ -480,8 +486,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 2   
-    end = 4 
+    start = 0   
+    end = 3 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
