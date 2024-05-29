@@ -93,7 +93,7 @@ Tema: Plazo Para solicitar la reincorporación
 Pregunta: ¿Hasta que fecha un estudiante podrá solicitar su Reincorporación?
 Respuesta: La solicitud de reincorporación debe presentarse a través de la plataforma de intranet-alumnos dentro del plazo establecido en el calendario de actividades académicas del ciclo actual, el cual es publicado en la página web de la Facultad de Ciencias. En caso contrario, el estudiante deberá esperar al siguiente periodo académico para solicitar la reincorporación.
 
-Tema: Deber Tutoria obligatorio antes de la matricula o reincorporación para alumnos en Riego academico ## Ver si va o no
+Tema: Deber Tutoria obligatorio antes de la matricula o reincorporación para alumnos en Riego academico
 Pregunta: ¿Qué deben hacer los estudiantes que adeuden la tutoria obligatoria previa a la matricula para alumnos en riesgo academico?
 Respuesta: Los alumnos en riesgo académico deben pasar por un proceso de tutoría obligatoria previa a su matrícula. Para ello, pueden comunicarse al correo tutoría.fc@uni.edu.pe o acercarse personalmente a la oficina para obtener más información. Este requisito es obligatorio para la habilitación de su matrícula. 
 

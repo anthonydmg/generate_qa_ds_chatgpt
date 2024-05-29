@@ -145,12 +145,26 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         # Evita declaraciones de agradecimiento 
         # y significativa 
         #  Evita declaraciones de agradecimiento
-        if num_turn > 2:
-            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos de {num_words} palabras de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
+        #realista y natural, incluyendo personalización, evitando repetir exactamente la información del asistente, usando un tono menos formal y añadiendo preguntas o comentarios adicionales si es relevante. Por ejemplo, un usuario real podría agradecer la información, pedir detalles específicos, y mostrar una reacción personal a la situación.
+        # 
+        # Recuerda que eres un estudiante universitario en busca de información o asesoramiento. 
+        # Responde en menos de {num_words} palabras de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. 
+        # Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior: {message}.
+        # 
+
+        if num_turn > 2:    
+            prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando un Asistente de AI. Responde en menos de {num_words} palabras de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior.
         Mensaje del asistente de AI: {message}"""
         else:
-            prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
+            prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando un Asistente de AI. Responde de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior.
         Mensaje del asistente de AI: {message}"""
+            
+        #if num_turn > 2:
+        #    prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos de {num_words} palabras de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
+        #Mensaje del asistente de AI: {message}"""
+        #else:
+        #    prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
+        #Mensaje del asistente de AI: {message}"""
         
         #print("prompt_user:", prompt_response_message)
 
@@ -218,7 +232,7 @@ class AIAssistant:
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería de Peru.
 Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
     1. Debes proporcionar respuestas informativas, útiles y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información vinculada a la Faculta de Ciencias que sera proporcionada, sin proporcionar datos no respaldados en dicha información.
-    2.  Mantén un tono empático y servicial en sus interacciones.
+    2. Mantén un tono empático y servicial en sus interacciones.
     3. Responde de manera sumamente concisa pero servicial a mensajes con agradecimientos finales del usuario.
     4. Preferiblemente, evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
     5. En caso de no encontrar información sobre la consulta en los datos proporcionados, evita proporcionar datos no respaldados en dicha información y expresa con empatía que no tienes acceso a esa información, también de manera pertinente puedes sugerir el contacto con un oficina para obtener mayor información.
@@ -318,7 +332,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         context = None,
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
-        weighted_source = {"faq": 1, "document": 0.80},
+        weighted_source = {"faq": 1, "document": 0.85},
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
@@ -375,7 +389,6 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             
             info_texs, relatednesses = self.strings_ranked_by_relatedness(query = query, context = context, df = self.df_kb, top_n = 10)
             
-
             self.recovered_texts.append([{"text": text, "relatedness": relatedness } for text , relatedness in zip(info_texs, relatednesses)])
             
             print("\nrelatednesses:", relatednesses)
@@ -477,8 +490,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/faq_1_reformulated.json"
-    filename = "faq_1_reformulated.json"
+    path_file = "./faq-reformulated/faq_3_reformulated.json"
+    filename = "faq_3_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
