@@ -358,7 +358,12 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         strings, relatednesses = zip(*strings_and_relatednesses)
         return strings[:top_n], relatednesses[:top_n]
 
-
+    ## no lo esta haciendo bien
+    # Conversación 1....................................................... probar con el segundo mensaje
+    # User: ¿Un estudiante puede matricularse en un curso y su pre requisito?
+    # Assistant: Los estudiantes en posibilidad de egresar pueden matricularse en un curso y su prerequisito en el mismo ciclo. Deben comunicarse con su escuela profesional para solicitar la evaluación y aprobación por el director de la escuela correspondiente. Este beneficio aplica a aquellos alumnos que les falten como máximo treinta créditos para completar su Plan de Estudios y graduarse de la Universidad. Es importante cumplir con esta condición para poder matricularse en un curso y su prerequisito en el mismo ciclo académico.
+    # User: ¡Genial! Gracias por la información. ¿Puedes decirme cuáles son los pasos específicos que debo seguir para solicitar la evaluación y aprobación por el director de la escuela correspondiente?
+    
     def get_reformulated_contextal_query(self, query, history_chat_messages):
         
         print("\noriginal_user_query: ", query)

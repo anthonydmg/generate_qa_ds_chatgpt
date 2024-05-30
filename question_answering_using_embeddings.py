@@ -29,10 +29,10 @@ prompt_v2 = """Dado el historial de chat y la última pregunta del usuario que p
 
 history_chat = """
 user: ¿Un estudiante puede matricularse en un curso y su pre requisito?
-assistant: Un estudiante puede matricularse en un curso y su prerequisito en el mismo ciclo académico si es un "estudiante en posibilidad de egresar", es decir, le faltan como máximo treinta créditos para completar su Plan de Estudios y graduarse. Deben comunicarse con su escuela profesional para solicitar la matrícula en el curso y su prerequisito, siendo evaluada y aprobada por el director de la escuela correspondiente.
-user: ¿Qué pasos debo seguir para comunicarme con mi escuela profesional y solicitar eso?   
+assistant: Los estudiantes en posibilidad de egresar pueden matricularse en un curso y su prerequisito en el mismo ciclo. Deben comunicarse con su escuela profesional para solicitar la evaluación y aprobación por el director de la escuela correspondiente. Este beneficio aplica a aquellos alumnos que les falten como máximo treinta créditos para completar su Plan de Estudios y graduarse de la Universidad. Es importante cumplir con esta condición para poder matricularse en un curso y su prerequisito en el mismo ciclo académico.
+user: ¡Genial! Gracias por la información. ¿Puedes decirme cuáles son los pasos específicos que debo seguir para solicitar la evaluación y aprobación por el director de la escuela correspondiente?   
 """
-prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario que podría hacer referencia al contexto en el historial del chat, reformule la pregunta de manera que pueda entenderse sin el historial de chat. No responda la pregunta, simplemente reformúlela si es necesario y, en caso contrario, devuélvala tal como está.
+prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la último mensaje del usuario que podría hacer referencia al contexto en el historial del chat, reformule el mensaje de manera que pueda entenderse sin el historial del chat. No responda el mensaje, simplemente reformúlela si es necesario y, en caso contrario, devuélvala tal como está.
 
             historial del chat:```{history_chat}```"""
 
