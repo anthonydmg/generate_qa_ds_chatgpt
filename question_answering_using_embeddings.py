@@ -4,6 +4,7 @@ from scipy import spatial
 import os
 import pandas as pd
 import openai
+from utils import get_completion_from_messages
 
 from dotenv import load_dotenv
 def set_openai_key():
@@ -17,37 +18,29 @@ set_openai_key()
 GPT_MODEL = "gpt-3.5-turbo"
 EMBEDDING_MODEL = "text-embedding-3-small"
 
-embeddings_path = "topics.csv"
 
-df = pd.read_csv(embeddings_path)
+prompt_v2 = """Dado el historial de chat y la última pregunta del usuario que podría hacer referencia al contexto en el historial de chat proporcionados delimitadas por tres comillas invertidas, formule una pregunta independiente que pueda entenderse sin el historial de chat. No responda la pregunta, simplemente reformúlela si es necesario y, en caso contrario, devuélvala tal como está.
+            
+            historial del chat: ```
+                user:¿Un estudiante puede matricularse en un curso y su pre requisito?
+                assistant:Un estudiante puede matricularse en un curso y su prerequisito en el mismo ciclo académico si es un "estudiante en posibilidad de egresar", es decir, le faltan como máximo treinta créditos para completar su Plan de Estudios y graduarse. Deben comunicarse con su escuela profesional para solicitar la matrícula en el curso y su prerequisito, siendo evaluada y aprobada por el director de la escuela correspondiente.```
+            
+            última pregunta del usuario: ```¿Qué pasos debo seguir para comunicarme con mi escuela profesional y solicitar ese tramite?```"""
 
-df["embedding"] = df['embedding'].apply(ast.literal_eval)
-print(df)
+history_chat = """
+user: ¿Un estudiante puede matricularse en un curso y su pre requisito?
+assistant: Un estudiante puede matricularse en un curso y su prerequisito en el mismo ciclo académico si es un "estudiante en posibilidad de egresar", es decir, le faltan como máximo treinta créditos para completar su Plan de Estudios y graduarse. Deben comunicarse con su escuela profesional para solicitar la matrícula en el curso y su prerequisito, siendo evaluada y aprobada por el director de la escuela correspondiente.
+user: ¿Qué pasos debo seguir para comunicarme con mi escuela profesional y solicitar eso?   
+"""
+prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario que podría hacer referencia al contexto en el historial del chat, reformule la pregunta de manera que pueda entenderse sin el historial de chat. No responda la pregunta, simplemente reformúlela si es necesario y, en caso contrario, devuélvala tal como está.
 
-def strings_ranked_by_relatedness(
-    query,
-    df,
-    relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
-    top_n = 5
-):
-    """Returns a list of strings and relatednesses, sorted from most related to least."""
-    query_embedding_response = openai.embeddings.create(
-        model=EMBEDDING_MODEL,
-        input=query,
-    )
-    query_embedding = query_embedding_response.data[0].embedding
-    strings_and_relatednesses = [
-        (row["text"], relatedness_fn(query_embedding, row["embedding"]))
-        for i, row in df.iterrows()
-    ]
-    strings_and_relatednesses.sort(key=lambda x: x[1], reverse=True)
-    strings, relatednesses = zip(*strings_and_relatednesses)
-    return strings[:top_n], relatednesses[:top_n]
+            historial del chat:```{history_chat}```"""
 
-query = "En cuantos creditos se puede matricular un estudiante?"
-sub_texts, relatednesses = strings_ranked_by_relatedness(query, df, top_n=2)
-for string, relatednesses in zip(sub_texts, relatednesses):
-    print(f"{relatednesses=:.3f}")
-    print("text:", string)
+messages = [{"role": "user", "content": prompt}]
 
+response  = get_completion_from_messages(
+    messages=messages,
+    model="gpt-3.5-turbo-0125")
+
+print("response:", response)
 

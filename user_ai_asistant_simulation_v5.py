@@ -152,11 +152,11 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         # Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior: {message}.
         # 
 
-        if num_turn > 2:    
-            prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando un Asistente de AI. Responde en menos de {num_words} palabras de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior.
-        Mensaje del asistente de AI: {message}"""
-        else:
-            prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando un Asistente de AI. Responde de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior.
+        #if num_turn > 2:    
+        #    prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando un Asistente de AI. Responde en menos de {num_words} palabras de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior.
+        #Mensaje del asistente de AI: {message}"""
+        #else:
+        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando un Asistente de AI. Responde de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior.
         Mensaje del asistente de AI: {message}"""
             
         #if num_turn > 2:
@@ -359,8 +359,34 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         return strings[:top_n], relatednesses[:top_n]
 
 
+    def get_reformulated_contextal_query(self, query, history_chat_messages):
+        
+        print("\noriginal_user_query: ", query)
+
+        history_chat_messages = history_chat_messages + [{"role": "user", "content": query}]
+        
+        history_chat = self.format_text_history_chat(history_chat_messages)
+        #print("\nhistory_chat:", history_chat)
+        
+        prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y el ultimo mensaje del usuario que podría hacer referencia al contexto en el historial del chat, reformule el mensaje de manera que pueda entenderse sin el historial del chat. No responda el mensaje, simplemente reformúlela si es necesario y, en caso contrario, devuélvala tal como está.
+
+            historial del chat:```{history_chat}```"""
+
+        #print("\nprompt reformulated_contextal_query:", prompt)
+        
+        messages = [{"role": "user", "content": prompt}]
+
+        reformulated_query = get_completion_from_messages(
+                            messages,
+                            model= self.model)
+        
+        print("reformulated_query_query: ", reformulated_query)
+
+        return reformulated_query
+
+
     def get_rifined_answer(self, respuesta):
-        prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta.  Es preferible que en lugar menciones de manera cordial y pertinente que no tienes conocimento al respecto.
+        prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta.  Es preferible que te refieras a tus conocimento al respecto, solo en caso sea necesario.
 
         Respuesta: {respuesta}"""
 
@@ -376,18 +402,34 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         keywords = ["información proporcionada"]
         return any(keyword in message.lower() for keyword in keywords)
     
+    def format_text_history_chat(self, history_chat):
+        text = ""
+        for message in history_chat:
+            text += f'\n{message["role"]}:{message["content"]}'    
+        return text
+    
     def generate_response(self, message, use_kb = True):
         if use_kb == True:
             #query = self.messages[-1]["content"] + "\n" + message if len(self.messages) > 1 else message
             query = message
-
+            
+            
             if len(self.messages) > 1:
-                context = self.messages[-2]["content"] + "\n" + self.messages[-1]["content"] 
+                reformulated_query = self.get_reformulated_contextal_query(query = query, history_chat_messages = self.messages[1:])
+                #context = self.messages[-2]["content"] + "\n" + self.messages[-1]["content"]
+                context = None
+                query = reformulated_query 
             else:
                 context = None
+                
             #print("query:", query)
             
-            info_texs, relatednesses = self.strings_ranked_by_relatedness(query = query, context = context, df = self.df_kb, top_n = 10)
+            info_texs, relatednesses = self.strings_ranked_by_relatedness(
+                query = query, 
+                context = context,
+                df = self.df_kb, 
+                top_n = 10
+                )
             
             self.recovered_texts.append([{"text": text, "relatedness": relatedness } for text , relatedness in zip(info_texs, relatednesses)])
             
