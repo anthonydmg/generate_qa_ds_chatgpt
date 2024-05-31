@@ -30,17 +30,12 @@ prompt_v2 = """Dado el historial de chat y la última pregunta del usuario que p
 history_chat = """
 user: ¿Un estudiante puede matricularse en un curso y su pre requisito?
 assistant: Los estudiantes en posibilidad de egresar pueden matricularse en un curso y su prerequisito en el mismo ciclo. Deben comunicarse con su escuela profesional para solicitar la evaluación y aprobación por el director de la escuela correspondiente. Este beneficio aplica a aquellos alumnos que les falten como máximo treinta créditos para completar su Plan de Estudios y graduarse de la Universidad. Es importante cumplir con esta condición para poder matricularse en un curso y su prerequisito en el mismo ciclo académico.
-user: ¡Genial! Gracias por la información. ¿Puedes decirme cuáles son los pasos específicos que debo seguir para solicitar la evaluación y aprobación por el director de la escuela correspondiente?   
+user: ¡Genial! Gracias por la información.  ¿Puedes decirme cuáles son los pasos específicos que debo seguir para solicitar la evaluación y aprobación por el director de la escuela correspondiente?
 """
 prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y el ultimo mensaje del usuario, que podría hacer referencia al contexto en el historial del chat, reformule el mensaje de manera que incluya todo el contexto necesario para que pueda entenderse en su totalidad sin necesidad del contexto del historial del chat. No responda el mensaje, simplemente reformúlela si es necesario y, en caso contrario, devuélvala tal como está.
 
 historial del chat: {history_chat}```"""
 
-
-history_chat = """
-user: ¿Un estudiante puede matricularse en un curso y su pre requisito?
-assistant: Los estudiantes en posibilidad de egresar pueden matricularse en un curso y su prerequisito en el mismo ciclo. Deben comunicarse con su escuela profesional para solicitar la evaluación y aprobación por el director de la escuela correspondiente. Este beneficio aplica a aquellos alumnos que les falten como máximo treinta créditos para completar su Plan de Estudios y graduarse de la Universidad. Es importante cumplir con esta condición para poder matricularse en un curso y su prerequisito en el mismo ciclo académico.
-"""
 
 last_user_message = "¡Genial! Gracias por la información. ¿Puedes decirme cuáles son los pasos específicos que debo seguir para solicitar la evaluación y aprobación por el director de la escuela correspondiente?"
 
@@ -51,7 +46,15 @@ Historial del chat: {history_chat}
 Último mensaje del usuario: {last_user_message}
 """
 
-messages = [{"role": "user", "content": prompt_3}]
+prompt_4 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas, reformula la pregunta del ultimo mensaje del usuario de manera que incluya todo el contexto necesario para que pueda entenderse en su totalidad sin necesidad del historial del chat. Si la pregunta ya es claro y no requiere reformulación, devuélvelo tal como está. No respondas el mensaje, solo reformúlalo si es necesario.
+Historial del chat: {history_chat}
+"""
+
+prompt_5 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas, reformula el ultimo mensaje del usuario
+Historial del chat: {history_chat}
+"""
+
+messages = [{"role": "user", "content": prompt_5}]
 
 response  = get_completion_from_messages(
     messages=messages,
