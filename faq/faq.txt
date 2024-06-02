@@ -158,7 +158,7 @@ Respuesta: El retiro total procede por motivos de fuerza mayor, los cuales puede
 Tema: Matricula de Curso y su Prerequisito 
 
 Pregunta: ¿Un estudiante puede matricularse en un curso y su pre requisito?
-Respuesta: Podrán solicitar el beneficio de matricularse en una asignatura y en su asignatura prerequisito en el mismo ciclo, únicamente aquellos estudiantes que cumplan con el requisito de ser un "estudiante en posibilidad de egresar". Este término se refiere a los alumnos a quienes, en el momento de la matrícula, les falten como máximo treinta (30) créditos para completar su Plan de Estudios y poder graduarse de la Universidad. Los estudiantes que cumplan con esta condición y deseen matricularse en un curso y su prerequisito, deberán comunicarse con su escuela profesional correspondiente para que su solicitud sea evaluada y aprobada por el director de la escuela.
+Respuesta: Podrán solicitar el beneficio de matricularse en una asignatura y en su asignatura prerequisito en el mismo ciclo, únicamente aquellos estudiantes que cumplan con la condición de ser un "estudiante en posibilidad de egresar". Este término se refiere a los alumnos a quienes, en el momento de la matrícula, les falten como máximo treinta (30) créditos para completar su Plan de Estudios y poder graduarse de la Universidad. Los estudiantes que cumplan con esta condición y deseen matricularse en un curso y su prerequisito deberán comunicarse con su escuela profesional correspondiente con al menos 3 días hábiles de anticipación a las fechas de matrícula regular, para que su solicitud sea evaluada y aprobada por el director de la escuela correspondiente.
 
 Tema: Solicitar Vacantes adicionales 
 Pregunta: ¿Qué debe hacer un estudiante que desea solicitar una vacante adicional para la inscripción a un curso?
@@ -167,7 +167,7 @@ Respuesta: A los estudiantes interesados en solicitar una vacante adicional para
 Tema: Procedimiento Para Reserva de Matricula
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matricula?
 Respuesta: El estudiante o apoderado deberá presentar la solicitud de Reserva de Matrícula dirigida al Decano, a través de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matrícula en los plazos establecidos en el calendario de actividades académicas. El modelo de la solicitud para la reserva de matricula se puede encontrar publicado en la sección ["Matrícula y Procedimientos" de la pagina web de la facultad de ciencias](https://fc.uni.edu.pe/documentos/). La reserva de matrícula, realizada por solicitud procede por razones de salud, trabajo o de otras naturaleza debidamente sustentada, para tal efecto el estudiante adjuntará los documentos que acrediten la razón invocada.
-En caso no se presente esta solicitud y el estudiante no haya concretado su matrícula en el periodo academico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
+En caso no se presente esta solicitud y el estudiante no haya concretado su matrícula en el periodo académico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
 El periodo de reserva de matrícula no excederá a los tres (03) años (o seis semestres) académicos consecutivos o alternos (equivalente a 06 periodos académicos).
 El tramite de la reserva de matricula no tiene ningún pago asociado.
 
@@ -191,9 +191,17 @@ Tema: Retiro de Todas la Asignaturas Matriculadas
 Pregunta: ¿Un estudiante puede retirarse de todas las asignaturas en las que esta matriculado?
 Respuesta: Un estudiante no puede retirarse de todos los cursos en las que esta matricula usando el procedimiento de retiro parcial; sin embargo, puede solicitar el retiro total el cual implica la anulación total de su matrícula en el periodo académico actual. Dicho procedimiento procede por motivos de fuerza mayor tales como: Viaje al extranjero, Accidente limitante, Enfermedad limitante o emergencia familiar limitante.
 
-Tema: Horario de Atención oficina de estadística o AERA
-Pregunta: ¿Cuál es el horario de atención de la oficina de estadística o AERA?
-Respuesta: El horario del Área de Estadística y Registros Académicos el de De Lunes a Viernes de 8:00 a.m. a 4:00 p.m.
+Tema: Información de contacto y horario de atención oficina de estadística o AERA de la Facultad de Ciencias de
+Pregunta: ¿Cuál es el horario de atención y correo de contacto de la oficina de estadística o AERA?
+Respuesta: El horario del Área de Estadística y Registros Académicos es de Lunes a Viernes de 8:00 a.m. a 4:00 p.m. El correo de contacto es estadistica_fc@uni.edu.pe
+
+Tema: Información de contacto y horario de atención oficina de Escuelas Profesionales de la Facultad de Ciencias
+Pregunta: ¿Cuál es el horario de atención y correo de contacto de las Escuelas Profesionales de la Facultad de Ciencias de la UNI?
+Respuesta: El horario de atención de Escuelas Profesionales en la Facultad de Ciencias de la UNI es de Lunes a Viernes de 8:00 a.m. a 4:00 p.m.
+Según la escuela profesional (carrera universitaria), el correo de contacto es el siguiente:
+
+Para Física, Química o Ciencia de la Computación: escuelas_fc1@uni.edu.pe
+Para Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 
 Tema: Horarios de Cursos 
 Pregunta: ¿En donde un estudiante puede visualizar la lista de cursos y sus respectivos horarios?

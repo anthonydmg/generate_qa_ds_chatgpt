@@ -63,7 +63,7 @@ class UserAISim:
     def finish_conversation(self, message):
         num_words = random.choice([2, 4, 5, 10, 12, 15, 20])
 
-        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento que esta conversando con un asistente de AI especializado en dichos temas, responde al siguiente mensaje del asistente de IA finalizando la conversación (Max. {num_words} palabras).
+        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI, responde de manera concisa, realista y natural al siguiente mensaje del asistente de IA finalizando la conversación (Max. {num_words} palabras).
 Mensaje del asistente de AI: {message}"""
 
         #prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde al siguiente mensaje del asistente de IA finalizando la conversación (Max. {num_words} palabras).
@@ -156,10 +156,15 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         #    prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando un Asistente de AI. Responde en menos de {num_words} palabras de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior.
         #Mensaje del asistente de AI: {message}"""
         #else:
-        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando un Asistente de AI. Responde de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior.
+        #prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información proveída por el asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveído en respuesta a tu mensaje anterior.
+        #Mensaje del asistente de AI: {message}"""
+
+        prompt_response_message = f"""
+        Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde de manera concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso, al siguiente mensaje del asistente
         Mensaje del asistente de AI: {message}"""
-            
+
         #if num_turn > 2:
+
         #    prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde en menos de {num_words} palabras de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
         #Mensaje del asistente de AI: {message}"""
         #else:
@@ -215,6 +220,8 @@ class AIAssistant:
         
         self.contexts = [None]
         self.recovered_texts = [None]
+        self.reformulated_question = [None]
+        self.contains_questions = [None]
 
         self.embedding_model = embedding_model
         self.model = model
@@ -275,9 +282,11 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         # Se conciso, claro y l
         #  y significativa
         if num_turn >= min_turn:
-            instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información entre tres comillas invertidas para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
         else:
-            instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Usa únicamente la información entre tres comillas invertidas para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+
+            #instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
         print("\ninstrucction:", instrucction)
 
@@ -332,7 +341,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         context = None,
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
-        weighted_source = {"faq": 1, "document": 0.85},
+        weighted_source = {"faq": 1, "document": 0.80, "general_information": 1.10},
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
@@ -363,36 +372,68 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
     # User: ¿Un estudiante puede matricularse en un curso y su pre requisito?
     # Assistant: Los estudiantes en posibilidad de egresar pueden matricularse en un curso y su prerequisito en el mismo ciclo. Deben comunicarse con su escuela profesional para solicitar la evaluación y aprobación por el director de la escuela correspondiente. Este beneficio aplica a aquellos alumnos que les falten como máximo treinta créditos para completar su Plan de Estudios y graduarse de la Universidad. Es importante cumplir con esta condición para poder matricularse en un curso y su prerequisito en el mismo ciclo académico.
     # User: ¡Genial! Gracias por la información. ¿Puedes decirme cuáles son los pasos específicos que debo seguir para solicitar la evaluación y aprobación por el director de la escuela correspondiente?
+    def extract_contains_questions(self, response):
+        match = re.search(r"Contiene Preguntas:\s*(.*)", response)
+        if match:
+            resultado = match.group(1).strip()
+        else:
+            resultado = None
+        return resultado
+
+    def eval_contains_questions(self, query):
+        prompt_question_identification = f"""Dado el siguiente mensaje un usuario proveído a un asistente de AI, determina si contiene preguntas (ya sean implícitas o explícitas). Mencionado de la siguiente manera: Contiene Preguntas: Sí o Contiene Preguntas: No
+mensaje del usuario: ```{query}```
+    """
     
+        messages = [{"role": "user", "content": prompt_question_identification}]
+    
+        response  = get_completion_from_messages(
+        messages=messages,
+        model="gpt-3.5-turbo-0125")
+        
+        return self.extract_contains_questions(response) != "No"
+
+
     def get_reformulated_contextal_query(self, query, history_chat_messages):
         
         print("\noriginal_user_query: ", query)
 
-        history_chat_messages = history_chat_messages + [{"role": "user", "content": query}]
+        #history_chat_messages = history_chat_messages + [{"role": "user", "content": query}]
         
         history_chat = self.format_text_history_chat(history_chat_messages)
         #print("\nhistory_chat:", history_chat)
         
-        prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y el ultimo mensaje del usuario que podría hacer referencia al contexto en el historial del chat, reformule el mensaje de manera que pueda entenderse sin el historial del chat. No responda el mensaje, simplemente reformúlela si es necesario y, en caso contrario, devuélvala tal como está.
+        prompt_3 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, reformula la pregunta de manera que incluya todo el contexto necesario para que pueda entenderse en su totalidad sin necesidad del historial del chat. No respondas el mensaje, solo reformúlalo y proporciona la pregunta reformulada de la siguiente manera: Reformulación: Pregunta reformulada.
 
-            historial del chat:```{history_chat}```"""
+        Historial del chat: {history_chat}
+
+        Último mensaje del usuario: {query}
+        """
+
+        prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y las preguntas del usuario en su último mensaje, reformula las preguntas de manera que incluyan todo el contexto necesario para que se entiendan completamente sin necesidad de revisar el historial del chat. No respondas las preguntas, solo reformúlalas.
+Proporciona el mensaje con las preguntas reformuladas de la siguiente manera:
+Reformulación: 'Aquí el mensaje con las preguntas reformuladas'
+
+Historial del chat: {history_chat}
+
+Último mensaje del usuario: {query}"""
 
         #print("\nprompt reformulated_contextal_query:", prompt)
         
-        messages = [{"role": "user", "content": prompt}]
+        messages = [{"role": "user", "content": prompt_3}]
 
         reformulated_query = get_completion_from_messages(
                             messages,
                             model= self.model)
         
-        print("reformulated_query_query: ", reformulated_query)
+        reformulated_query = reformulated_query.replace("Reformulación:","").strip()
+        print("reformulated_query: ", reformulated_query)
 
         return reformulated_query
 
 
     def get_rifined_answer(self, respuesta):
-        prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta.  Es preferible que te refieras a tus conocimento al respecto, solo en caso sea necesario.
-
+        prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta. Es preferible que no menciones dicha frase. En caso se refiera a falta informacion corrige el mensaje para que en su lugar se menciones de menera empatida que no se tiene accesso a dicha informacion.
         Respuesta: {respuesta}"""
 
         messages = [{"role": "user", "content": prompt}]
@@ -418,8 +459,10 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             #query = self.messages[-1]["content"] + "\n" + message if len(self.messages) > 1 else message
             query = message
             
-            
-            if len(self.messages) > 1:
+            contains_questions = self.eval_contains_questions(query)
+            print("\n user message contains_questions:", contains_questions)
+
+            if len(self.messages) > 1 and contains_questions:
                 reformulated_query = self.get_reformulated_contextal_query(query = query, history_chat_messages = self.messages[1:])
                 #context = self.messages[-2]["content"] + "\n" + self.messages[-1]["content"]
                 context = None
@@ -457,25 +500,27 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
             max_tokens_response = 950
 
-            general_information_aera = read_fragment_doc("./documentos/otros/informacion_general_aera.txt")
-            general_information_fc = read_fragment_doc("./documentos/otros/informacion_general_fc.txt")
-            general_information = general_information_aera + "\n" + general_information_fc
-            num_tokens_general_context = count_num_tokens(general_information)
+            general_contact_information = read_fragment_doc("./documentos/informacion_general_contacto.txt")
+            #general_information_fc = read_fragment_doc("./documentos/otros/informacion_general_fc.txt")
+            #general_information = general_information_aera + "\n" + general_information_fc
+            num_tokens_general_context = count_num_tokens(general_contact_information)
 
-            print("\nnum_tokens_general_context:", num_tokens_general_context)
+            token_budget = min(1850, 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
+
+            #print("\nnum_tokens_general_context:", num_tokens_general_context)
 
             prompt_response_to_query = self.get_prompt_response_to_query(
                 message, 
                 info_texs, 
-                token_budget= 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context,
-                additional_info = None #general_information
+                token_budget = token_budget,
+                additional_info = general_contact_information #general_information
                 )
             
 
             num_tokens_prompt_asistant = count_num_tokens(prompt_response_to_query)
             print("\nnum_tokens_prompt_asistant:", num_tokens_prompt_asistant)
 
-            print("\nnum_tokens_prompt_chat_assitant:",  num_tokens_prompt_asistant + num_tokens_context_dialog)
+            print("\nnum_tokens_prompt_plus_history_chat_assitant:",  num_tokens_prompt_asistant + num_tokens_context_dialog)
 
 
             response_ai_assistant = get_completion_from_messages(
@@ -494,7 +539,8 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
                 
 
             self.messages.append({"role": "user", "content": message})
-
+            self.reformulated_question.append(query)
+            self.contains_questions.append(contains_questions)
         else:
             if len(self.messages) // 2 < 1:
                 self.start_greeting  = True
@@ -505,24 +551,32 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             model = self.model)
             self.contexts.append(None)
             self.recovered_texts.append(None)
+            self.reformulated_question.append(message)
+            self.contains_questions.append(False)
+            
             
         print()
         
         self.messages.append({"role": "assistant", "content": response_ai_assistant})
         self.contexts.append(None)
         self.recovered_texts.append(None)
+        self.reformulated_question.append(None)
+        self.contains_questions.append(None)
         
         return response_ai_assistant
     
     def get_history_dialog(self, include_context = True):
         if include_context:
             history_dialog = []
-            for message, context, texts in zip(self.messages[1:], self.contexts[1:], self.recovered_texts[1:]):
+            dialog_data = zip(self.messages[1:], self.contexts[1:], self.recovered_texts[1:], self.contains_questions [1:], self.reformulated_question[1:])
+            for message, context, texts, contains_questions, reformulated_question  in dialog_data:
                 history_dialog.append({
                     "role": message["role"],
                     "content": message["content"],
                     "context": context,
-                    "recovered_texts": texts
+                    "recovered_texts": texts,
+                    "contains_questions": contains_questions,
+                    "reformulated_question": reformulated_question
                 })
                 
             return history_dialog
@@ -537,8 +591,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/faq_3_reformulated.json"
-    filename = "faq_3_reformulated.json"
+    path_file = "./faq-reformulated/faq_4_reformulated.json"
+    filename = "faq_4_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:

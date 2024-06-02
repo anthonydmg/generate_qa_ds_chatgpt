@@ -180,7 +180,8 @@ for topic in topics:
     print("len tokens:", [count_num_tokens(c) for c in subsections])
     text_subsections.extend(subsections)
     general_topics_subsections.extend([title] * len(subsections))
-    type_sources.extend(["document"] * len(subsections))
+    type_source = "general_information" if "documentos/otros/informacion_general" in topic["source"] else "document"
+    type_sources.extend([type_source] * len(subsections))
 
 
 print("\nNumero de secciones encontradas:", len(text_subsections))
@@ -245,7 +246,7 @@ for batch_start in range(0, len(text_subsections), BATCH_SIZE):
 
 df = pd.DataFrame({"type_source": type_sources ,"topic": general_topics_subsections, "text": text_subsections, "embedding": embeddings})
 
-print(df.head(5))
+print(df.head(15))
 SAVE_PATH = "./kb/topics.csv"
 
 df.to_csv(SAVE_PATH, index=False)

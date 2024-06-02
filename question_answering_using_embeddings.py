@@ -6,6 +6,8 @@ import pandas as pd
 import openai
 from utils import get_completion_from_messages
 import time
+import re
+
 
 from dotenv import load_dotenv
 def set_openai_key():
@@ -19,6 +21,14 @@ set_openai_key()
 GPT_MODEL = "gpt-3.5-turbo"
 EMBEDDING_MODEL = "text-embedding-3-small"
 
+
+def extract_contains_questions(response):
+    match = re.search(r"Contiene Preguntas:\s*(.*)", response)
+    if match:
+        resultado = match.group(1).strip()
+    else:
+        resultado = None
+    return resultado
 
 prompt_v2 = """Dado el historial de chat y la última pregunta del usuario que podría hacer referencia al contexto en el historial de chat proporcionados delimitadas por tres comillas invertidas, formule una pregunta independiente que pueda entenderse sin el historial de chat. No responda la pregunta, simplemente reformúlela si es necesario y, en caso contrario, devuélvala tal como está.
             
@@ -68,12 +78,14 @@ Historial del chat: ```{history_chat}```
 
 
 lasts_messages = [
-    "¡Genial! Gracias por la información.", 
+    "¡Genial! Gracias por la información.",
+    "como me contacto con las oficina de escuelas", 
     "¡Genial! Gracias por la información. ¿Puedes decirme cuáles son los pasos específicos que debo seguir para solicitar la evaluación y aprobación por el director de la escuela correspondiente?",
     "Gracial por la informacion",
     "Gracias, entonces como puedo contactarme con esa oficina",
     "Entiendo, entonces como puedo solicitar la evalucion y aprovacion",
-    "Gracias por esa informacion"
+    "Gracias por esa informacion",
+    "entiendo, pero tengo dos preguntas, como me contacto con las oficina de escuelas?, luego de contactarlos como realizo la matricula"
     ]
 
 for last in lasts_messages:
@@ -102,27 +114,59 @@ for last in lasts_messages:
     Último mensaje del usuario: ```{last_user_message}```"""
 
 
-
-    prompt_10 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas, reformula el último mensaje del usuario si es necesario, siguiendo estos pasos:
-
-Paso 1: Identifica si el último mensaje del usuario contiene preguntas (ya sean implícitas o explícitas). Menciónalo de la siguiente manera: Contiene Preguntas: Sí o Contiene Preguntas: No.
-Paso 2: Luego, según sea el caso, realiza lo siguiente:
-    - Si no contiene preguntas, devuelve el mensaje tal como está sin reformular.
-    - Si contiene preguntas, reformula dichas preguntas para que incluyan todo el contexto necesario, de modo que puedan entenderse sin necesidad de revisar el historial del chat. Proporciona el mensaje reformulado de la siguente manera: Reformulacion: Mensaje reformulado
-
-Historial del chat: ```{history_chat}```
-Último mensaje del usuario: ```{last_user_message}```"""
-
-    prompt_9 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y el último mensaje del usuario, reformula cualquier pregunta contenida en el último mensaje del usuario para que incluya todo el contexto necesario y pueda entenderse de forma independiente, sin necesidad de revisar el historial del chat. Si el último mensaje del usuario no contiene preguntas, devuelve el mismo mensaje sin reformular.
-
-Historial del chat: {history_chat}
-Último mensaje del usuario: {last_user_message}```"""
-
-    messages = [{"role": "user", "content": prompt_10}]
-
+    prompt_question_identification = f"""Dado las el siguiente mensaje un usuario proveído a un asistente de AI, determina si contiene preguntas (ya sean implícitas o explícitas). Mencionado de la siguiente manera: Contiene Preguntas: Sí o Contiene Preguntas: No
+mensaje del usuario: ```{last_user_message}```
+    """
+    
+    messages = [{"role": "user", "content": prompt_question_identification}]
+    
     response  = get_completion_from_messages(
         messages=messages,
         model="gpt-3.5-turbo-0125")
+    
+    contains_question = extract_contains_questions(response)
 
-    print("response:", response)
+    print("\ncontains_question:", contains_question)
+    if contains_question != "No":
+        prompt_10 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas, reformula el último mensaje del usuario si es necesario, siguiendo estos pasos:
+
+    Paso 1: Identifica si el último mensaje del usuario contiene preguntas (ya sean implícitas o explícitas). Mencionado de la siguiente manera: Contiene Preguntas: Sí o Contiene Preguntas: No.
+    Paso 2: Luego, según sea el caso, realiza lo siguiente:
+        - Si no contiene preguntas, devuelve el mensaje tal como está sin reformular.
+        - Si contiene preguntas, reformula dichas preguntas para que incluyan todo el contexto necesario, de modo que puedan entenderse sin necesidad de revisar el historial del chat. Proporciona el mensaje reformulado de la siguente manera: Reformulacion: Mensaje reformulado
+
+    Historial del chat: ```{history_chat}```
+    Último mensaje del usuario: ```{last_user_message}```"""
+
+        prompt_9 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y el último mensaje del usuario, reformula cualquier pregunta contenida en el último mensaje del usuario para que incluya todo el contexto necesario y pueda entenderse de forma independiente, sin necesidad de revisar el historial del chat. No respondas la pregunta solo reformulala y  proporciona el mensaje reformulado de la siguiente manera: Reformulacion: Mensaje reformulado
+
+    Historial del chat: {history_chat}
+    Último mensaje del usuario: {last_user_message}```"""
+
+
+
+        prompt_3 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, reformula la pregunta de manera que incluya todo el contexto necesario para que pueda entenderse en su totalidad sin necesidad del historial del chat. No respondas el mensaje, solo reformúlalo y proporciona la pregunta reformulada de la siguiente manera: Reformulacion: Pregunta reformulada.
+
+        Historial del chat: {history_chat}
+
+        Último mensaje del usuario: {last_user_message}
+        """
+
+        prompt_4 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y las preguntas del usuario en su último mensaje, reformula las preguntas de manera que incluyan todo el contexto necesario para que se entiendan completamente sin necesidad de revisar el historial del chat. No respondas las preguntas, solo reformúlalas.
+Proporciona el mensaje con las preguntas reformuladas de la siguiente manera:
+Reformulación: 'Aquí el mensaje con las preguntas reformuladas'
+
+Historial del chat: {history_chat}
+
+Último mensaje del usuario: {last_user_message}"""
+
+        messages = [{"role": "user", "content": prompt_4}]
+
+        print("\n last_user_message:", last_user_message)
+        
+        response  = get_completion_from_messages(
+            messages=messages,
+            model="gpt-3.5-turbo-0125")
+
+        print("\nresponse:", response)
     time.sleep(10)

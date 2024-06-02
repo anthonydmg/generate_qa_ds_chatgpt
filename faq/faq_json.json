@@ -103,9 +103,9 @@
     },
     {
         "question": "\u00bfUn estudiante puede matricularse en un curso y su pre requisito?",
-        "answer": "Podr\u00e1n solicitar el beneficio de matricularse en una asignatura y en su asignatura prerequisito en el mismo ciclo, \u00fanicamente aquellos estudiantes que cumplan con el requisito de ser un \"estudiante en posibilidad de egresar\". Este t\u00e9rmino se refiere a los alumnos a quienes, en el momento de la matr\u00edcula, les falten como m\u00e1ximo treinta (30) cr\u00e9ditos para completar su Plan de Estudios y poder graduarse de la Universidad. Los estudiantes que cumplan con esta condici\u00f3n y deseen matricularse en un curso y su prerequisito, deber\u00e1n comunicarse con su escuela profesional correspondiente para que su solicitud sea evaluada y aprobada por el director de la escuela.",
+        "answer": "Podr\u00e1n solicitar el beneficio de matricularse en una asignatura y en su asignatura prerequisito en el mismo ciclo, \u00fanicamente aquellos estudiantes que cumplan con la condici\u00f3n de ser un \"estudiante en posibilidad de egresar\". Este t\u00e9rmino se refiere a los alumnos a quienes, en el momento de la matr\u00edcula, les falten como m\u00e1ximo treinta (30) cr\u00e9ditos para completar su Plan de Estudios y poder graduarse de la Universidad. Los estudiantes que cumplan con esta condici\u00f3n y deseen matricularse en un curso y su prerequisito deber\u00e1n comunicarse con su escuela profesional correspondiente con al menos 3 d\u00edas h\u00e1biles de anticipaci\u00f3n a las fechas de matr\u00edcula regular, para que su solicitud sea evaluada y aprobada por el director de la escuela correspondiente.",
         "topic": "Matricula de Curso y su Prerequisito",
-        "num_tokens_answers": 159
+        "num_tokens_answers": 183
     },
     {
         "question": "\u00bfQu\u00e9 debe hacer un estudiante que desea solicitar una vacante adicional para la inscripci\u00f3n a un curso?",
@@ -115,7 +115,7 @@
     },
     {
         "question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para reservar su matricula?",
-        "answer": "El estudiante o apoderado deber\u00e1 presentar la solicitud de Reserva de Matr\u00edcula dirigida al Decano, a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matr\u00edcula en los plazos establecidos en el calendario de actividades acad\u00e9micas. El modelo de la solicitud para la reserva de matricula se puede encontrar publicado en la secci\u00f3n [\"Matr\u00edcula y Procedimientos\" de la pagina web de la facultad de ciencias](https://fc.uni.edu.pe/documentos/). La reserva de matr\u00edcula, realizada por solicitud procede por razones de salud, trabajo o de otras naturaleza debidamente sustentada, para tal efecto el estudiante adjuntar\u00e1 los documentos que acrediten la raz\u00f3n invocada.\nEn caso no se presente esta solicitud y el estudiante no haya concretado su matr\u00edcula en el periodo academico actual, DIRCE realizar\u00e1, de oficio, la reserva de matr\u00edcula del estudiante.\nEl periodo de reserva de matr\u00edcula no exceder\u00e1 a los tres (03) a\u00f1os (o seis semestres) acad\u00e9micos consecutivos o alternos (equivalente a 06 periodos acad\u00e9micos).\nEl tramite de la reserva de matricula no tiene ning\u00fan pago asociado.",
+        "answer": "El estudiante o apoderado deber\u00e1 presentar la solicitud de Reserva de Matr\u00edcula dirigida al Decano, a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matr\u00edcula en los plazos establecidos en el calendario de actividades acad\u00e9micas. El modelo de la solicitud para la reserva de matricula se puede encontrar publicado en la secci\u00f3n [\"Matr\u00edcula y Procedimientos\" de la pagina web de la facultad de ciencias](https://fc.uni.edu.pe/documentos/). La reserva de matr\u00edcula, realizada por solicitud procede por razones de salud, trabajo o de otras naturaleza debidamente sustentada, para tal efecto el estudiante adjuntar\u00e1 los documentos que acrediten la raz\u00f3n invocada.\nEn caso no se presente esta solicitud y el estudiante no haya concretado su matr\u00edcula en el periodo acad\u00e9mico actual, DIRCE realizar\u00e1, de oficio, la reserva de matr\u00edcula del estudiante.\nEl periodo de reserva de matr\u00edcula no exceder\u00e1 a los tres (03) a\u00f1os (o seis semestres) acad\u00e9micos consecutivos o alternos (equivalente a 06 periodos acad\u00e9micos).\nEl tramite de la reserva de matricula no tiene ning\u00fan pago asociado.",
         "topic": "Procedimiento Para Reserva de Matricula",
         "num_tokens_answers": 295
     },
@@ -144,10 +144,16 @@
         "num_tokens_answers": 101
     },
     {
-        "question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la oficina de estad\u00edstica o AERA?",
-        "answer": "El horario del \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos el de De Lunes a Viernes de 8:00 a.m. a 4:00 p.m.",
-        "topic": "Horario de Atenci\u00f3n oficina de estad\u00edstica o AERA",
-        "num_tokens_answers": 40
+        "question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y correo de contacto de la oficina de estad\u00edstica o AERA?",
+        "answer": "El horario del \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos es de Lunes a Viernes de 8:00 a.m. a 4:00 p.m. El correo de contacto es estadistica_fc@uni.edu.pe",
+        "topic": "Informaci\u00f3n de contacto y horario de atenci\u00f3n oficina de estad\u00edstica o AERA de la Facultad de Ciencias de",
+        "num_tokens_answers": 51
+    },
+    {
+        "question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y correo de contacto de las Escuelas Profesionales de la Facultad de Ciencias de la UNI?",
+        "answer": "El horario de atenci\u00f3n de Escuelas Profesionales en la Facultad de Ciencias de la UNI es de Lunes a Viernes de 8:00 a.m. a 4:00 p.m.\nSeg\u00fan la escuela profesional (carrera universitaria), el correo de contacto es el siguiente:\n\nPara F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\nPara Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe",
+        "topic": "Informaci\u00f3n de contacto y horario de atenci\u00f3n oficina de Escuelas Profesionales de la Facultad de Ciencias",
+        "num_tokens_answers": 115
     },
     {
         "question": "\u00bfEn donde un estudiante puede visualizar la lista de cursos y sus respectivos horarios?",
