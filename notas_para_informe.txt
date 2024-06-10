@@ -67,3 +67,11 @@ Is ChatGPT a Good NLG Evaluator? A Preliminary Study
 Este es buena para justificar en el caso de chatbots
 Judging LLM-as-a-Judge
 with MT-Bench and Chatbot Arena
+
+
+
+Problematica:
+
+por otro lado, los chatbots impulsados por modelos de lenguaje generativos han demostrado gran capacidad para respuestas mas precisas y personalizadas mejorando la experiencias del usuario.
+
+
