@@ -275,7 +275,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             info_texts, 
             token_budget,
             additional_info = None):
-        print("numero de info_texts:", len(info_texts))
+        #print("numero de info_texts:", len(info_texts))
         #instrucction = """# sin hacer mención a la información
 #Proporciona una respuesta informativa, significativa y concisa al siguiente mensaje del usuario basándote exclusivamente en la información delimitada por tres comillas invertidas, evitando proporcionar información que no esté explícitamente sustentada en dicha informacion y teniendo en el contexto del historial del diálogo en curso."""
         #  en lugar menciona que no tienes acceso a dicha información según sea necesario
@@ -328,7 +328,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
     def create_embedding_from_hf(self, query, model_name):
         model = SentenceTransformer(model_name, trust_remote_code=True)
         embeddings = model.encode(query)
-        print("embeddings shape:", embeddings.shape)
+        #print("embeddings shape:", embeddings.shape)
         return embeddings
     
             #print(type(embeddings))
@@ -392,6 +392,14 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
             resultado = None
         return resultado
 
+    def extract_need_context(self, response):
+        match = re.search(r" La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí:\s*(.*)", response)
+        if match:
+            resultado = match.group(1).strip()
+        else:
+            resultado = None
+        return resultado
+
     def eval_contains_questions(self, query):
         prompt_question_identification = f"""Dado el siguiente mensaje un usuario proveído a un asistente de AI, determina si contiene preguntas (ya sean implícitas o explícitas). Mencionado de la siguiente manera: Contiene Preguntas: Sí o Contiene Preguntas: No
 mensaje del usuario: ```{query}```
@@ -414,6 +422,26 @@ mensaje del usuario: ```{query}```
         
         history_chat = self.format_text_history_chat(history_chat_messages)
         #print("\nhistory_chat:", history_chat)
+        
+        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Mencionado de la siguiente manera: La ultima pregunta del usurio se entiende sin necesidad del historial del chat: Sí o La ultima pregunta del usurio se entiende sin necesidad del historial del chat: No
+
+        Historial del chat: {history_chat}
+
+        Último mensaje del usuario: {query}
+        """
+        messages = [{"role": "user", "content": prompt_identify_reform}]
+        
+        response = get_completion_from_messages(
+                            messages,
+                            model= self.model)
+
+        need_context = self.extract_need_context(response)
+
+        if need_context == "No":
+            
+            return query
+
+        print("\nNeed context:", need_context)
         
         prompt_3 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, reformula la pregunta de manera que incluya todo el contexto necesario para que pueda entenderse en su totalidad sin necesidad del historial del chat. No respondas el mensaje, solo reformúlalo y proporciona la pregunta reformulada de la siguiente manera: Reformulación: Pregunta reformulada.
 
@@ -612,8 +640,8 @@ if __name__ == "__main__":
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     
-    start = 4   
-    end = 10 
+    start = 0   
+    end = 5 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 

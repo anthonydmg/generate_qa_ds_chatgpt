@@ -9,7 +9,7 @@ El proceso para que un alumno de pregrado realice su matrícula regular al ciclo
 Los turnos para la matrícula, son asignados por grupos de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
 
 Tema: Requisitos y Procedimiento para Matricula de Un Ingresante
-Pregunta: ¿Cuales son los requisitos y el proceso de ma trícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+Pregunta: ¿Cuales son los requisitos y el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
 Respuesta: Los nuevos alumnos de pregrado ingresantes a la Facultad de Ciencias, realizaran el siguiente proceso para completar su matricula (primera matricula al primer ciclo):
     1. Recabar su constancia de ingreso. Luego de gestionar la emisión de su constancia de ingreso, la Dirección de Admisión (DIAD) de la UNI enviará a su correo la constancia de ingreso.
     2. Actualización de datos en intranet. DIRCE hará llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.
@@ -93,8 +93,8 @@ Tema: Plazo Para solicitar la reincorporación
 Pregunta: ¿Hasta que fecha un estudiante podrá solicitar su Reincorporación?
 Respuesta: La solicitud de reincorporación debe presentarse a través de la plataforma de intranet-alumnos dentro del plazo establecido en el calendario de actividades académicas del ciclo actual, el cual es publicado en la página web de la Facultad de Ciencias. En caso contrario, el estudiante deberá esperar al siguiente periodo académico para solicitar la reincorporación.
 
-Tema: Deber Tutoria obligatorio antes de la matricula o reincorporación para alumnos en Riego academico
-Pregunta: ¿Qué deben hacer los estudiantes que adeuden la tutoria obligatoria previa a la matricula para alumnos en riesgo academico?
+Tema: Deber Tutoría obligatorio antes de la matricula o reincorporación para alumnos en Riego académico
+Pregunta: ¿Qué deben hacer los estudiantes que adeuden la tutoría obligatoria previa a la matricula para alumnos en riesgo academico?
 Respuesta: Los alumnos en riesgo académico deben pasar por un proceso de tutoría obligatoria previa a su matrícula. Para ello, pueden comunicarse al correo tutoría.fc@uni.edu.pe o acercarse personalmente a la oficina para obtener más información. Este requisito es obligatorio para la habilitación de su matrícula. 
 
 Tema: Procedimiento general para genera una orden de pago
@@ -205,7 +205,7 @@ Para Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 
 Tema: Horarios de Cursos 
 Pregunta: ¿En donde un estudiante puede visualizar la lista de cursos y sus respectivos horarios?
-Respuesta: La lista completa de cursos junto con sus horarios correspondientes se publica en la sección de "MATRÍCULA Y PROCEDIMIENTOS" en el sitio web de la facultad. Además, cada estudiante puede acceder a ellos desde la plataforma intranet-alumnos.
+Respuesta: La lista completa de cursos junto con sus horarios correspondientes se publica en la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Además, cada estudiante puede acceder a ellos desde la plataforma intranet-alumnos.
 
 Tema: Información Mesa de Partes ORCE
 Pregunta: ¿Cual es el horario de atención y el correo de contacto de la oficina de Mesa de Parte de Orce?
@@ -286,7 +286,7 @@ Además, en el caso de nuevos ingresantes, solo podrán inscribirse en asignatur
 
 Tema: Procedimiento para solicitar el correo Institucional
 Pregunta: ¿Qué procedimiento debe seguir un estudiante de la UNI para solicitar su correo institucional?
-Respuesta: Para solicitar su correo institucional de la UNI, enviar un correo obtenercorreo@uni.pe proporcionndo la siguiente información:
+Respuesta: Para solicitar su correo institucional de la UNI, enviar un correo obtenercorreo@uni.pe proporcionando la siguiente información:
     Código de Alumno.
     Nombres y Apellidos.
     DNI.
@@ -298,14 +298,14 @@ Respuesta: Para solicitar su correo institucional de la UNI, enviar un correo ob
 
 Tema: Procedimiento de Matricula Rezagada
 Pregunta: ¿Qué procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?
-Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario academico publicado en la sección ["MATRÍCULA Y PROCEDIMIENTOS" dentro de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). La matrícula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matrícula en las fechas establecidas en el calendario de actividades académicas para la matricula regular y se realizará en función a las vacantes disponibles.
+Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario académico publicado en la sección ["MATRÍCULA Y PROCEDIMIENTOS" dentro de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). La matrícula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matrícula en las fechas establecidas en el calendario de actividades académicas para la matricula regular y se realizará en función a las vacantes disponibles.
 Para realizar la matricula rezagada el estudiante debera ejecutar los siguientes pasos:
 
 1. Los estudiantes que realizan su matrícula en forma rezagada deberán efectuar el pago de 26 soles. Para ello, debera generar una order de pago atravez del Portal INTRALU.
 2. Después de haber realizado el pago deberá subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento "MATRÍCULA REZAGADA" publicado en la sección de [MATRÍCULA Y PROCEDIMIENTOS dentro de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
 3. Luego, deberá esperar a que el personal de la oficina de Estadística, dentro de las fechas establecidas para la matrícula rezagada, proceda a habilitar el acceso a la plataforma de intranet para que el estudiante pueda matricularse directamente.
 
-Posterior a la fechas de la matricula rezagada, los estudiantes ya no podrán realizar la matricula en el ciclo academico.
+Posterior a la fechas de la matricula rezagada, los estudiantes ya no podrán realizar la matricula en el ciclo académico.
 
 Tema: Acceder a la plataforma de intranet-alumnos de la UNI
 Pregunta: ¿Cómo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI?
