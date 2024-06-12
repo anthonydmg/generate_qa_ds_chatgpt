@@ -423,7 +423,7 @@ mensaje del usuario: ```{query}```
         history_chat = self.format_text_history_chat(history_chat_messages)
         #print("\nhistory_chat:", history_chat)
         
-        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Mencionado de la siguiente manera: La ultima pregunta del usurio se entiende sin necesidad del historial del chat: Sí o La ultima pregunta del usurio se entiende sin necesidad del historial del chat: No
+        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Mencionado de la siguiente manera: La última pregunta del usurio se entiende sin necesidad del historial del chat: Sí o La última pregunta del usurio se entiende sin necesidad del historial del chat: No
 
         Historial del chat: {history_chat}
 
