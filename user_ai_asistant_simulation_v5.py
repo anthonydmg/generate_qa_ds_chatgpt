@@ -60,6 +60,36 @@ class UserAISim:
             "content": message 
         })
     
+    def format_text_history_chat(self, history_chat):
+        text = ""
+        for message in history_chat:
+            text += f'\n{message["role"]}:{message["content"]}'    
+        return text
+
+    def refine_answer_contextual(self, query, history):
+        # inverse rol
+        history_inv = [{ "role": "user" if m["role"] == "assistant" else "assistant", "content": m["content"] } for m in  history]
+        history_chat = self.format_text_history_chat(history_inv)
+
+        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, reformula la pregunta para que sea más contextual y dependiente del historial del chat, manteniendo el sentido original de la consulta y la naturalidad del lenguaje del usuario. Presenta el ultimo mensaje del usuario con la pregunta reformulada de la siguiente manera: Reformulado: mensaje reformulado
+
+Historial del chat: ```{history_chat}```
+
+Último mensaje del usuario: ```{query}```"""
+
+        print("\n\nprompt_identify_reform:", prompt_identify_reform)
+        messages = [{
+            "role": "user", 
+            "content": prompt_identify_reform
+        }]
+
+        response = get_completion_from_messages(
+            messages = messages,
+            model=self.model)
+        
+        print("\n\nrefine_answer_contextual response:", response)        
+        return response
+
     def finish_conversation(self, message):
         num_words = random.choice([2, 4, 5, 10, 12, 15, 20])
 #(Max. {num_words} palabras)
@@ -158,9 +188,12 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         #else:
         #prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información proveída por el asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveído en respuesta a tu mensaje anterior.
         #Mensaje del asistente de AI: {message}"""
+        
+        level_conciseness = numpy.random.choice(["", "bastante ", "sumamente ", "extremadamente "], 1 ,p = [0.60, 0.10, 0.15, 0.15])[0]
 
+        print("\nlevel_conciseness:", level_conciseness)
         prompt_response_message = f"""
-        Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde de manera concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso, al siguiente mensaje del asistente
+        Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde de manera {level_conciseness}concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso, al siguiente mensaje del asistente
         Mensaje del asistente de AI: {message}"""
 
         #if num_turn > 2:
@@ -194,7 +227,12 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
             model=self.model)
         
         
+        
         self.push_assistant_messages_to_history(message)
+
+        #if num_turn >= 2:   
+            #self.refine_answer_contextual(response_user_ai, history = self.messages[1:])
+        
         #print("self.messages:",  self.messages)
         self.push_user_messages_to_history(response_user_ai)   
         
@@ -240,11 +278,12 @@ class AIAssistant:
     # Cambiar borrando preferiblemente
     # lo de la ruta que no la da y lo que dervia aveces demasiado a estadistica 
     # Preferiblemente,
+    # útiles
     def get_prompt_system_role(self):
         prompt_system_role_assistant = f"""
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería de Peru.
 Deberás responder a los mensajes asegurándote de cumplir con los siguientes criterios.
-    1. Debes proporcionar respuestas precisas, útiles y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información que te sera proporcionada, no proporciones datos no respaldados en dicha información.
+    1. Debes proporcionar respuestas precisas y concisas a las preguntas del usuario bajo el contexto de la Facultad de ciencias de la UNI y basándote exclusivamente en la información que te sera proporcionada, no proporciones datos no respaldados en dicha información.
     2. Mantén un tono empático y servicial en sus interacciones.
     3. Responde de manera sumamente concisa pero servicial a mensajes con agradecimientos finales del usuario.
     4. Evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
@@ -353,7 +392,8 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         context = None,
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
-        weighted_source = {"faq": 1, "document": 0.80, "general_information": 1.10},
+        weighted_source = {
+            "faq": 1, "topic-specific-document": 0.80, "regulation": 0.75, "general_information": 1.10},
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
@@ -393,7 +433,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         return resultado
 
     def extract_need_context(self, response):
-        match = re.search(r" La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí:\s*(.*)", response)
+        match = re.search(r"La última pregunta del usuario se entiende sin necesidad del historial del chat:\s*(.*)", response)
         if match:
             resultado = match.group(1).strip()
         else:
@@ -425,9 +465,9 @@ mensaje del usuario: ```{query}```
         
         prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Mencionado de la siguiente manera: La última pregunta del usurio se entiende sin necesidad del historial del chat: Sí o La última pregunta del usurio se entiende sin necesidad del historial del chat: No
 
-        Historial del chat: {history_chat}
+        Historial del chat: ```{history_chat}```
 
-        Último mensaje del usuario: {query}
+        Último mensaje del usuario: ```{query}```
         """
         messages = [{"role": "user", "content": prompt_identify_reform}]
         
@@ -435,13 +475,15 @@ mensaje del usuario: ```{query}```
                             messages,
                             model= self.model)
 
-        need_context = self.extract_need_context(response)
+        print("\nresponde need context:", response)
 
-        if need_context == "No":
+        not_need_context = self.extract_need_context(response)
+
+        if not_need_context == "Sí":
             
             return query
 
-        print("\nNeed context:", need_context)
+        print("\nNot Need context:", not_need_context)
         
         prompt_3 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, reformula la pregunta de manera que incluya todo el contexto necesario para que pueda entenderse en su totalidad sin necesidad del historial del chat. No respondas el mensaje, solo reformúlalo y proporciona la pregunta reformulada de la siguiente manera: Reformulación: Pregunta reformulada.
 
@@ -472,20 +514,33 @@ Historial del chat: {history_chat}
         return reformulated_query
 
 
-    def get_rifined_answer(self, respuesta):
-        prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta. Es preferible que no menciones dicha frase. En caso se refiera a falta informacion corrige el mensaje para que en su lugar se menciones de menera empatida que no se tiene accesso a dicha informacion.
+    def refine_answer_mention_articule(self, respuesta):
+        prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar numerales de articulos de reglamentos, manteniendo el sentido original de la respuesta.
         Respuesta: {respuesta}"""
-
         messages = [{"role": "user", "content": prompt}]
 
         new_answer = get_completion_from_messages(
                             messages,
                             model= self.model)
+        return new_answer
+
+    def get_rifined_answer(self, respuesta):
+        if "artículo" in respuesta.lower():
+            new_answer = self.refine_answer_mention_articule(respuesta)
+        else:
+            prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta. Es preferible que no menciones dicha frase. En caso se refiera a falta informacion corrige el mensaje para que en su lugar se menciones de manera empatica que no se tienes accesso a dicha informacion.
+        Respuesta: {respuesta}"""
+
+            messages = [{"role": "user", "content": prompt}]
+
+            new_answer = get_completion_from_messages(
+                                messages,
+                                model= self.model)
         
         return new_answer
         
-    def contains_bad_ketwords(self, message):
-        keywords = ["información proporcionada"]
+    def contains_bad_keywords(self, message):
+        keywords = ["información proporcionada", "artículo"]
         return any(keyword in message.lower() for keyword in keywords)
     
     def format_text_history_chat(self, history_chat):
@@ -570,7 +625,7 @@ Historial del chat: {history_chat}
 
             response_ai_assistant = response_ai_assistant.replace("```","").strip()
 
-            if self.contains_bad_ketwords(response_ai_assistant):
+            if self.contains_bad_keywords(response_ai_assistant):
                 print("Refinando la respuesta")
                 print()
                 print("Original response AI:", response_ai_assistant)
@@ -641,7 +696,7 @@ if __name__ == "__main__":
         #opening_lines = [question["question"] for question in questions]
     
     start = 0   
-    end = 5 
+    end = 10 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 

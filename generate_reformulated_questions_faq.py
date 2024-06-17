@@ -32,7 +32,7 @@ def get_prompt_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
     prompt = f"""
-Para cada una de las preguntas dentro de las tres comillas invertidas, genera 8 diferentes maneras que un estudiante podría usar para realizar la misma consulta. Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal). Además, varía el nivel de concisión de cada una. Algunas preguntas pueden ser concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
+Para cada una de las preguntas dentro de las tres comillas invertidas, genera 8 diferentes maneras que un estudiante podría usar para realizar la misma consulta de manera natural y realista. Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal). Además, varía el nivel de concisión de cada una. Algunas preguntas pueden ser sumamente concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
 Presenta las nuevas preguntas para cada pregunta original de la siguiente manera:
 
 Pregunta Original 1: Aqui Pregunta Original 1
@@ -141,13 +141,12 @@ random.seed(42)
 
 text = read_fragment_doc("./faq/faq.txt")
 faqs = extract_faqs(text)
-#faqs = faqs[0:6]
 
 def generate_reformulated_faq(faqs, times_samples = 8):
     ids = list(range(len(faqs)))
     reformulated_faqs = []
     for iter in range(times_samples):
-        print(f"\nIteracion {iter}\n")
+        print(f"\nIteración {iter}\n")
         
 
         choices = random.sample(ids, k = len(ids))
@@ -155,7 +154,7 @@ def generate_reformulated_faq(faqs, times_samples = 8):
         grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
         sobran = len(choices) % 3
         
-        if iter < 18:
+        if iter < 20:
             continue
 
         if sobran > 0:
@@ -175,6 +174,6 @@ def generate_reformulated_faq(faqs, times_samples = 8):
 
     return reformulated_faqs
         
-reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 20)
+reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 24)
 
 save_json("./faq", "reformulated_faqs", reformulated_faqs)

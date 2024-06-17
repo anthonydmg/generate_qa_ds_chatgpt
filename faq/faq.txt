@@ -248,7 +248,7 @@ Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 Tema: Tramite de de Carnet Universitario 
 
 Pregunta: ¿Cual es el proceso obtener el carnet universitario y como se realiza la entrega?
-El trámite de carné universitario por primera vez o renovación, requiere que el alumno cumpla los siguientes requisitos:
+Respuesta: El trámite de carné universitario por primera vez o renovación, requiere que el alumno cumpla los siguientes requisitos:
 1. Estar matriculado en el periodo académico vigente
 2. Realizar el pago por el monto correspondiente a S/ 11.50. Para ello debera generar una orden de pago a traves del Portal INTRALU y realizar el pago en una sucursal del bcp o a traves de la aplicación Movil del banco.
 3. Tener completa la ficha de datos en el portal INTRALU
@@ -259,7 +259,6 @@ Luego de realizar el pago y cumplir con los requisitos para el carné universita
 El carné universitario tiene una vigencia de 1 año desde su emisión, por lo que se recomienda tener en cuenta dicha fecha y estar atento a avisos sobre convocatorias para tramitar la renovación del carné.
 
 Tema: Pago de Carnet Universitario no es Requisito de la Matricula y Beneficios del carnet Universitario
-
 Pregunta: ¿El pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?
 Respuesta: El pago del carnet universitario no es indispensable para el proceso de matrícula del estudiante; sin embargo, se recomienda encarecidamente a los estudiantes tramitar dicho carnet, ya que este es el documento de identificación estudiantil que deberán presentar al acceder al campus. Además, permite tener acceso a diversos beneficios, como el 50% de descuento en el transporte público, acceso al comedor universitario y descuentos en diferentes museos y centros turísticos.
 

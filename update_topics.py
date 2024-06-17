@@ -6,7 +6,7 @@ directories = [
     "./documentos/otros",
     "./documentos/procedimientos"
 ]
-
+    
 topics = []
 
 for dir in directories:

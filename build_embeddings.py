@@ -180,7 +180,15 @@ for topic in topics:
     print("len tokens:", [count_num_tokens(c) for c in subsections])
     text_subsections.extend(subsections)
     general_topics_subsections.extend([title] * len(subsections))
-    type_source = "general_information" if "documentos/otros/informacion_general" in topic["source"] else "document"
+    
+    type_source = "general_information" 
+    if "documentos/otros/informacion_general" in topic["source"]:
+        type_source = "general_information" 
+    elif "reglamento_matricula" in topic["source"]:
+        type_source = "regulation"
+    else:
+        type_source = "topic-specific-document"
+
     type_sources.extend([type_source] * len(subsections))
 
 
@@ -203,10 +211,10 @@ def create_embeddings_from_hugginface(inputs, model_name = EMBEDDING_MODEL_HF):
     embeddings = model.encode(inputs)
     #print(type(embeddings))
     #embeddings = embeddings.numpy()
-    print(type(embeddings))
+    #print(type(embeddings))
     print("embeddings shape:", embeddings.shape)
     embeddings_list = [np.array2string(embeddings[i], separator=",") for i in range(embeddings.shape[0])]
-    print(embeddings_list)
+    #print(embeddings_list)
     return embeddings_list
 
 def create_embeddings_from_openai(inputs, model_name = EMBEDDING_MODEL_OPENAI):

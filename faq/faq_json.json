@@ -6,7 +6,7 @@
         "num_tokens_answers": 419
     },
     {
-        "question": "\u00bfCuales son los requisitos y el proceso de ma tr\u00edcula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+        "question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
         "answer": "Los nuevos alumnos de pregrado ingresantes a la Facultad de Ciencias, realizaran el siguiente proceso para completar su matricula (primera matricula al primer ciclo):\n    1. Recabar su constancia de ingreso. Luego de gestionar la emisi\u00f3n de su constancia de ingreso, la Direcci\u00f3n de Admisi\u00f3n (DIAD) de la UNI enviar\u00e1 a su correo la constancia de ingreso.\n    2. Actualizaci\u00f3n de datos en intranet. DIRCE har\u00e1 llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.\n    3. Registrar los datos en la Facultad de Ciencias. La oficina de estad\u00edstica de la facultad enviar\u00e1 al correo del ingresante la ficha de datos. El llenado es car\u00e1cter obligatorio.\n    4. Efectuar el pago por autoseguro en el plazo establecido en el cronograma. Para ello, primero generar una orden de pago atravez de la plataforma intranet-alumnos.\n    5. Realizar la entrega de los siguientes documentos a la oficina de estad\u00edstica seg\u00fan el cronograma de actividades de matr\u00edcula para ingresantes publicado en la secci\u00f3n 'MATR\u00cdCULA Y PROCEDIMIENTOS' en la p\u00e1gina web de la Facultad de Ciencias.\n        - Constancia de Ingreso\n        - Ficha de datos\n        - Constancia de Evaluaci\u00f3n Socioecon\u00f3mica\n        - Certificado M\u00e9dico expedido por el Centro Medico UNI\n        - Comprobante de pago de Autoseguro Estudiantil\n    6. La oficina de estad\u00edstica ejecutar\u00e1 la matr\u00edcula (inscripci\u00f3n de cursos) de los ingresantes seg\u00fan el cronograma de actividades, \u00fanicamente para aquellos que hayan cumplido con la entrega de la entrega de los documentos requeridos en de las fechas establecidas en el cronograma.\n    7. Los ingresantes matriculados recibir\u00e1n un correo con el horario de sus cursos y tambi\u00e9n podr\u00e1n visualizar sus cursos y horarios en la plataforma intranet-alumnos.",
         "topic": "Requisitos y Procedimiento para Matricula de Un Ingresante",
         "num_tokens_answers": 471
@@ -60,9 +60,9 @@
         "num_tokens_answers": 82
     },
     {
-        "question": "\u00bfQu\u00e9 deben hacer los estudiantes que adeuden la tutoria obligatoria previa a la matricula para alumnos en riesgo academico?",
+        "question": "\u00bfQu\u00e9 deben hacer los estudiantes que adeuden la tutor\u00eda obligatoria previa a la matricula para alumnos en riesgo academico?",
         "answer": "Los alumnos en riesgo acad\u00e9mico deben pasar por un proceso de tutor\u00eda obligatoria previa a su matr\u00edcula. Para ello, pueden comunicarse al correo tutor\u00eda.fc@uni.edu.pe o acercarse personalmente a la oficina para obtener m\u00e1s informaci\u00f3n. Este requisito es obligatorio para la habilitaci\u00f3n de su matr\u00edcula.",
-        "topic": "Deber Tutoria obligatorio antes de la matricula o reincorporaci\u00f3n para alumnos en Riego academico",
+        "topic": "Deber Tutor\u00eda obligatorio antes de la matricula o reincorporaci\u00f3n para alumnos en Riego acad\u00e9mico",
         "num_tokens_answers": 75
     },
     {
@@ -157,9 +157,9 @@
     },
     {
         "question": "\u00bfEn donde un estudiante puede visualizar la lista de cursos y sus respectivos horarios?",
-        "answer": "La lista completa de cursos junto con sus horarios correspondientes se publica en la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en el sitio web de la facultad. Adem\u00e1s, cada estudiante puede acceder a ellos desde la plataforma intranet-alumnos.",
+        "answer": "La lista completa de cursos junto con sus horarios correspondientes se publica en la secci\u00f3n [\"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Adem\u00e1s, cada estudiante puede acceder a ellos desde la plataforma intranet-alumnos.",
         "topic": "Horarios de Cursos",
-        "num_tokens_answers": 61
+        "num_tokens_answers": 71
     },
     {
         "question": "\u00bfCual es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Parte de Orce?",
@@ -198,9 +198,15 @@
         "num_tokens_answers": 102
     },
     {
-        "question": "\u00bfCual es el proceso obtener el carnet universitario y como se realiza la entrega?\nEl tr\u00e1mite de carn\u00e9 universitario por primera vez o renovaci\u00f3n, requiere que el alumno cumpla los siguientes requisitos:\n1. Estar matriculado en el periodo acad\u00e9mico vigente\n2. Realizar el pago por el monto correspondiente a S/ 11.50. Para ello debera generar una orden de pago a traves del Portal INTRALU y realizar el pago en una sucursal del bcp o a traves de la aplicaci\u00f3n Movil del banco.\n3. Tener completa la ficha de datos en el portal INTRALU\n4. Tener fotograf\u00eda digital en el portal web INTRALU\n\nLuego de realizar el pago y cumplir con los requisitos para el carn\u00e9 universitario, la entrega del carn\u00e9 ser\u00e1 lo realizada la Oficina de Estad\u00edstica. Se recomienda estar atento a avisos o notificaciones por parte de dicha oficina.\n\nEl carn\u00e9 universitario tiene una vigencia de 1 a\u00f1o desde su emisi\u00f3n, por lo que se recomienda tener en cuenta dicha fecha y estar atento a avisos sobre convocatorias para tramitar la renovaci\u00f3n del carn\u00e9.\n\nTema: Pago de Carnet Universitario no es Requisito de la Matricula y Beneficios del carnet Universitario\n\nPregunta: \u00bfEl pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?",
-        "answer": "El pago del carnet universitario no es indispensable para el proceso de matr\u00edcula del estudiante; sin embargo, se recomienda encarecidamente a los estudiantes tramitar dicho carnet, ya que este es el documento de identificaci\u00f3n estudiantil que deber\u00e1n presentar al acceder al campus. Adem\u00e1s, permite tener acceso a diversos beneficios, como el 50% de descuento en el transporte p\u00fablico, acceso al comedor universitario y descuentos en diferentes museos y centros tur\u00edsticos.",
+        "question": "\u00bfCual es el proceso obtener el carnet universitario y como se realiza la entrega?",
+        "answer": "El tr\u00e1mite de carn\u00e9 universitario por primera vez o renovaci\u00f3n, requiere que el alumno cumpla los siguientes requisitos:\n1. Estar matriculado en el periodo acad\u00e9mico vigente\n2. Realizar el pago por el monto correspondiente a S/ 11.50. Para ello debera generar una orden de pago a traves del Portal INTRALU y realizar el pago en una sucursal del bcp o a traves de la aplicaci\u00f3n Movil del banco.\n3. Tener completa la ficha de datos en el portal INTRALU\n4. Tener fotograf\u00eda digital en el portal web INTRALU\n\nLuego de realizar el pago y cumplir con los requisitos para el carn\u00e9 universitario, la entrega del carn\u00e9 ser\u00e1 lo realizada la Oficina de Estad\u00edstica. Se recomienda estar atento a avisos o notificaciones por parte de dicha oficina.\n\nEl carn\u00e9 universitario tiene una vigencia de 1 a\u00f1o desde su emisi\u00f3n, por lo que se recomienda tener en cuenta dicha fecha y estar atento a avisos sobre convocatorias para tramitar la renovaci\u00f3n del carn\u00e9.",
         "topic": "Tramite de de Carnet Universitario",
+        "num_tokens_answers": 250
+    },
+    {
+        "question": "\u00bfEl pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?",
+        "answer": "El pago del carnet universitario no es indispensable para el proceso de matr\u00edcula del estudiante; sin embargo, se recomienda encarecidamente a los estudiantes tramitar dicho carnet, ya que este es el documento de identificaci\u00f3n estudiantil que deber\u00e1n presentar al acceder al campus. Adem\u00e1s, permite tener acceso a diversos beneficios, como el 50% de descuento en el transporte p\u00fablico, acceso al comedor universitario y descuentos en diferentes museos y centros tur\u00edsticos.",
+        "topic": "Pago de Carnet Universitario no es Requisito de la Matricula y Beneficios del carnet Universitario",
         "num_tokens_answers": 110
     },
     {
@@ -223,13 +229,13 @@
     },
     {
         "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la UNI para solicitar su correo institucional?",
-        "answer": "Para solicitar su correo institucional de la UNI, enviar un correo obtenercorreo@uni.pe proporcionndo la siguiente informaci\u00f3n:\n    C\u00f3digo de Alumno.\n    Nombres y Apellidos.\n    DNI.\n    Especialidad.\n    Indicar si es estudiante de pregrado o posgrado.\n    Correo personal (que no sea @uni.pe ni @UNI.PE) donde se le enviar\u00e1 la clave.\n    N\u00famero de Celular.\n    Facultad.",
+        "answer": "Para solicitar su correo institucional de la UNI, enviar un correo obtenercorreo@uni.pe proporcionando la siguiente informaci\u00f3n:\n    C\u00f3digo de Alumno.\n    Nombres y Apellidos.\n    DNI.\n    Especialidad.\n    Indicar si es estudiante de pregrado o posgrado.\n    Correo personal (que no sea @uni.pe ni @UNI.PE) donde se le enviar\u00e1 la clave.\n    N\u00famero de Celular.\n    Facultad.",
         "topic": "Procedimiento para solicitar el correo Institucional",
         "num_tokens_answers": 105
     },
     {
         "question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?",
-        "answer": "La matr\u00edcula rezagada se realiza en las fechas establecidas en el calendario academico publicado en la secci\u00f3n [\"MATR\u00cdCULA Y PROCEDIMIENTOS\" dentro de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). La matr\u00edcula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matr\u00edcula en las fechas establecidas en el calendario de actividades acad\u00e9micas para la matricula regular y se realizar\u00e1 en funci\u00f3n a las vacantes disponibles.\nPara realizar la matricula rezagada el estudiante debera ejecutar los siguientes pasos:\n\n1. Los estudiantes que realizan su matr\u00edcula en forma rezagada deber\u00e1n efectuar el pago de 26 soles. Para ello, debera generar una order de pago atravez del Portal INTRALU.\n2. Despu\u00e9s de haber realizado el pago deber\u00e1 subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n de [MATR\u00cdCULA Y PROCEDIMIENTOS dentro de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).\n3. Luego, deber\u00e1 esperar a que el personal de la oficina de Estad\u00edstica, dentro de las fechas establecidas para la matr\u00edcula rezagada, proceda a habilitar el acceso a la plataforma de intranet para que el estudiante pueda matricularse directamente.\n\nPosterior a la fechas de la matricula rezagada, los estudiantes ya no podr\u00e1n realizar la matricula en el ciclo academico.",
+        "answer": "La matr\u00edcula rezagada se realiza en las fechas establecidas en el calendario acad\u00e9mico publicado en la secci\u00f3n [\"MATR\u00cdCULA Y PROCEDIMIENTOS\" dentro de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). La matr\u00edcula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matr\u00edcula en las fechas establecidas en el calendario de actividades acad\u00e9micas para la matricula regular y se realizar\u00e1 en funci\u00f3n a las vacantes disponibles.\nPara realizar la matricula rezagada el estudiante debera ejecutar los siguientes pasos:\n\n1. Los estudiantes que realizan su matr\u00edcula en forma rezagada deber\u00e1n efectuar el pago de 26 soles. Para ello, debera generar una order de pago atravez del Portal INTRALU.\n2. Despu\u00e9s de haber realizado el pago deber\u00e1 subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado en la secci\u00f3n de [MATR\u00cdCULA Y PROCEDIMIENTOS dentro de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).\n3. Luego, deber\u00e1 esperar a que el personal de la oficina de Estad\u00edstica, dentro de las fechas establecidas para la matr\u00edcula rezagada, proceda a habilitar el acceso a la plataforma de intranet para que el estudiante pueda matricularse directamente.\n\nPosterior a la fechas de la matricula rezagada, los estudiantes ya no podr\u00e1n realizar la matricula en el ciclo acad\u00e9mico.",
         "topic": "Procedimiento de Matricula Rezagada",
         "num_tokens_answers": 381
     },
