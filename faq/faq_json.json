@@ -241,8 +241,8 @@
     },
     {
         "question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI?",
-        "answer": "Para acceder a la plataforma de intranet-alumnos de la UNI, debes seguir los siguientes pasos:\n1. Ingresa a la p\u00e1gina web de la DIRCE de la UNI (https://dirce.uni.edu.pe/).\n2. En la p\u00e1gina principal, busca la opci\u00f3n \"Acceso a alumnos\".\n3. Al hacer click se abrir\u00e1 a la plataforma intranet-alumnos en una nueva ventana.\n4. Se te pedir\u00e1 que ingreses tus credenciales de acceso. Utiliza la clave que te ha sido enviada a tu correo electr\u00f3nico por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE).\n5. Una vez que hayas ingresado, podr\u00e1s acceder a informaci\u00f3n acad\u00e9mica relacionada con tu matr\u00edcula y cursos, adem\u00e1s de realizar diversos tr\u00e1mites de manera virtual.",
+        "answer": "Para acceder a la plataforma de intranet-alumnos de la UNI, debes seguir los siguientes pasos:\n1. Ingresa a la [p\u00e1gina web de la DIRCE de la UNI](https://dirce.uni.edu.pe/).\n2. En la p\u00e1gina principal, busca la opci\u00f3n \"Acceso a alumnos\".\n3. Al hacer click se abrir\u00e1 a la plataforma intranet-alumnos en una nueva ventana.\n4. Se te pedir\u00e1 que ingreses tus credenciales de acceso. Utiliza la clave que te ha sido enviada a tu correo electr\u00f3nico por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE). # al momento de tu ingreso\n5. Una vez que hayas ingresado, podr\u00e1s acceder a informaci\u00f3n acad\u00e9mica relacionada con tu matr\u00edcula y cursos, adem\u00e1s de realizar diversos tr\u00e1mites de manera virtual.",
         "topic": "Acceder a la plataforma de intranet-alumnos de la UNI",
-        "num_tokens_answers": 175
+        "num_tokens_answers": 185
     }
 ]

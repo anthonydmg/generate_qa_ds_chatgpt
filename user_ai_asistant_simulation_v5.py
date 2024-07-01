@@ -178,7 +178,7 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         #realista y natural, incluyendo personalización, evitando repetir exactamente la información del asistente, usando un tono menos formal y añadiendo preguntas o comentarios adicionales si es relevante. Por ejemplo, un usuario real podría agradecer la información, pedir detalles específicos, y mostrar una reacción personal a la situación.
         # 
         # Recuerda que eres un estudiante universitario en busca de información o asesoramiento. 
-        # Responde en menos de {num_words} palabras de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. 
+        #  de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información del asistente de IA. 
         # Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveido en respuesta a tu mensaje anterior: {message}.
         # 
 
@@ -190,10 +190,12 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         #Mensaje del asistente de AI: {message}"""
         
         level_conciseness = numpy.random.choice(["", "bastante ", "sumamente ", "extremadamente "], 1 ,p = [0.60, 0.10, 0.15, 0.15])[0]
-
+        limit_words =  numpy.random.choice(["",f" en menos de {num_words} palabras"], p = [0.50, 0.50])
+        # Responde en menos de {num_words} palabras
         print("\nlevel_conciseness:", level_conciseness)
+        print("\nlimit_words:", limit_words)
         prompt_response_message = f"""
-        Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde de manera {level_conciseness}concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso, al siguiente mensaje del asistente
+        Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente {limit_words} de manera {level_conciseness}concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso.
         Mensaje del asistente de AI: {message}"""
 
         #if num_turn > 2:
@@ -204,7 +206,7 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         #    prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde de manera concisa al siguiente mensaje del asistente de IA proveído en respuesta a tu ultimo mensaje, teniendo en cuenta el contexto del historial del diálogo en curso.
         #Mensaje del asistente de AI: {message}"""
         
-        #print("prompt_user:", prompt_response_message)
+        print("\nprompt_user:", prompt_response_message.strip().split("\n")[0])
 
         #prompt_response_message = f"""Recuerda que tu (el estudiante universitario en busca de información o asesoramiento) estas hablando con un asistente de AI, responde de manera concisa y significativa al siguiente mensaje del asistente de IA (Max. 50 palabras), teniendo en cuenta el contexto del historial del diálogo en curso.
         #Mensaje del asistente de AI: {message}"""
@@ -339,7 +341,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 
             #instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
-        print("\ninstrucction:", instrucction)
+        #print("\ninstrucction:", instrucctfion)
 
         # descrita a continuación 
         #instrucction = """Proporciona una respuesta concisa y significativa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Utiliza solo la información entre tres comillas invertidas para responder de manera informativa a consultas del usuario. Evita proporcionar datos no respaldados explícitamente en dicha información. Usa máximo 100 palabras."""
@@ -686,8 +688,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/faq_4_reformulated.json"
-    filename = "faq_4_reformulated.json"
+    path_file = "./faq-reformulated/faq_1_reformulated.json"
+    filename = "faq_1_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
@@ -696,7 +698,7 @@ if __name__ == "__main__":
         #opening_lines = [question["question"] for question in questions]
     
     start = 0   
-    end = 10 
+    end = 5 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
