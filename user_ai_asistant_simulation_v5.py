@@ -134,11 +134,11 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
     # me parece que el usuario esta mejor ahora mejora el asistente
     # y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado
     def get_prompt_start(self, start_greeting = False):
-        prompt_start = """Actúa como un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que esta buscando información o asesoría.
-            Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad en dichos temas.
-            Utiliza un tono informal adecuado para un estudiante universitario.
-            Evita usar declaraciones de agradecimiento.
-            Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado"""
+        prompt_start = "Actúa como un estudiante universitario de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI) que esta buscando información o asesoría.\
+Tu (el estudiante universitario) estas hablando con un asistente de AI especialidad en dichos temas.\
+Utiliza un tono informal adecuado para un estudiante universitario.\
+Evita usar declaraciones de agradecimiento.\
+Responde a los mensajes de manera concisa y significativa teniendo en cuenta el contexto del historial del diálogo en curso y realiza las consultas pertinentes para satisfacer tu interés por comprender completamente todo lo relacionado con el tema consultado"
         
         type_greeting = random.choice(["formal","informal", "semiformal", "coloquial"])
         print("type_greeting:", type_greeting)
@@ -189,14 +189,14 @@ Criterio 3: Antes de finalizar la conversación, asegúrate de satisfacer tu int
         #prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información proveída por el asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveído en respuesta a tu mensaje anterior.
         #Mensaje del asistente de AI: {message}"""
         
-        level_conciseness = numpy.random.choice(["", "bastante ", "sumamente ", "extremadamente "], 1 ,p = [0.60, 0.10, 0.15, 0.15])[0]
-        limit_words =  numpy.random.choice(["",f" en menos de {num_words} palabras"], p = [0.50, 0.50])
+        level_conciseness = "" #numpy.random.choice(["", "bastante ", "sumamente ", "extremadamente "], 1 ,p = [0.60, 0.10, 0.15, 0.15])[0]
+        limit_words = "" #numpy.random.choice(["",f" en menos de {num_words} palabras"], p = [0.50, 0.50])
         # Responde en menos de {num_words} palabras
         print("\nlevel_conciseness:", level_conciseness)
         print("\nlimit_words:", limit_words)
         prompt_response_message = f"""
-        Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente {limit_words} de manera {level_conciseness}concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso.
-        Mensaje del asistente de AI: {message}"""
+Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente{limit_words} de manera {level_conciseness}concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso.
+Mensaje del asistente de AI: {message}"""
 
         #if num_turn > 2:
 
@@ -332,11 +332,12 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         #    instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información entre tres comillas invertidas para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
         #else:
         #    instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Usa únicamente la información entre tres comillas invertidas para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
-
+        # se borro bastante
+        #
         if num_turn >= min_turn:
-            instrucction = """Como asistente de AI proporciona una respuesta bastante clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta precisa, clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
         else:
-            instrucction = """Como asistente de AI proporciona una respuesta bastante clara y concisa al siguiente mensaje del usuario. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de AI proporciona una respuesta precisa, clara y concisa al siguiente mensaje del usuario. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
 
             #instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
@@ -688,8 +689,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/faq_1_reformulated.json"
-    filename = "faq_1_reformulated.json"
+    path_file = "./faq-reformulated/data/faq_4_reformulated.json"
+    filename = "faq_4_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
@@ -766,7 +767,7 @@ if __name__ == "__main__":
             "messages": messages
         })
             
-    save_json("./conversational_faq", f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
+    save_json("./conversational_faq/data", f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
 
     #save_json("./conversational_data", f"conversations_simulated_{start}_to_{end-1}", conversations_simulated)
 
