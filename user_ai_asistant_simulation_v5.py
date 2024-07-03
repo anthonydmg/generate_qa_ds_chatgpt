@@ -93,9 +93,13 @@ Historial del chat: ```{history_chat}```
     def finish_conversation(self, message):
         num_words = random.choice([2, 4, 5, 10, 12, 15, 20])
 #(Max. {num_words} palabras)
-        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde con un máximo {num_words} palabras al siguiente mensaje del asistente de IA finalizando la conversación de manera realista y natural.
+        #prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente de IA con un máximo {num_words} palabras finalizando la conversación de manera realista y natural.
+#Mensaje del asistente de AI: {message}"""
+
+        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente de IA finalizando la conversación de manera realista y natural.
 Mensaje del asistente de AI: {message}"""
-            
+
+
         #prompt_response_message = f"""Recuerda tu papel de estudiante universitario en busca de información o asesoramiento, y responde al siguiente mensaje del asistente de IA finalizando la conversación (Max. {num_words} palabras).
         #Mensaje del asistente de AI: {message}"""
 
@@ -104,6 +108,7 @@ Mensaje del asistente de AI: {message}"""
             "role": "user", 
             "content": prompt_response_message
             }],
+            temperature = 0.1, 
             model=self.model)
         
         self.push_assistant_messages_to_history(message)
@@ -226,6 +231,7 @@ Mensaje del asistente de AI: {message}"""
             "role": "user", 
             "content": prompt_response_message
             }],
+            #temperature = 0.1,
             model=self.model)
         
         
@@ -730,7 +736,7 @@ if __name__ == "__main__":
         
         for i in range(num_turns):
             additional_prob_finish = (i) * 0.05 
-            finish_conversation = numpy.random.choice([True, False],1, p = [0.3 + additional_prob_finish,0.7 - additional_prob_finish])[0]
+            finish_conversation = numpy.random.choice([True, False],1, p = [0.5 + additional_prob_finish,0.5 - additional_prob_finish])[0]
            
             if i >= 1 and finish_conversation:
                 print("\nfinish_conversation:",finish_conversation)
