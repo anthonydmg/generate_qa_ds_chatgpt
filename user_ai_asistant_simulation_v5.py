@@ -71,7 +71,15 @@ class UserAISim:
         history_inv = [{ "role": "user" if m["role"] == "assistant" else "assistant", "content": m["content"] } for m in  history]
         history_chat = self.format_text_history_chat(history_inv)
 
-        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, reformula la pregunta para que sea más contextual y dependiente del historial del chat, manteniendo el sentido original de la consulta y la naturalidad del lenguaje del usuario. Presenta el ultimo mensaje del usuario con la pregunta reformulada de la siguiente manera: Reformulado: mensaje reformulado
+        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Sigue los siguientes criterios:
+1. El pregunta no es totalmente entendible sin el historial del chat, si es que hace referencia a informacion específica proporcionada previamente en la conversación pero no es descrita en el mensaje la cual es necesaria para entender completamente el contexto del mensaje.
+2. EL pregunta no es totalmente entendible sin el historial del chat, cuanto hace referencia a algo mencionado anteriormente en la conversación y falta ese contexto.
+3. La pregunta es totalmente comprensible sin necesidad del historial del chat si se refiere a una situación o información que no ha sido mencionada previamente en la conversación, pero se puede entender por sí sola.
+4. La pregunta es totalmente entendible sin necesidad del historial del chat, si es que contiene toda la informacion de manera explicita haciendo que la pregunta tenga sentido y sea comprensible sin necesidad del historial del chat.
+
+Proporciona una justificación precisa e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
+Justificación: ...
+La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
 
 Historial del chat: ```{history_chat}```
 
@@ -96,7 +104,7 @@ Historial del chat: ```{history_chat}```
         #prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente de IA con un máximo {num_words} palabras finalizando la conversación de manera realista y natural.
 #Mensaje del asistente de AI: {message}"""
 
-        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente de IA finalizando la conversación de manera realista y natural.
+        prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente de IA finalizando la conversación de manera sumamente concisa, realista y natural.
 Mensaje del asistente de AI: {message}"""
 
 
@@ -231,7 +239,7 @@ Mensaje del asistente de AI: {message}"""
             "role": "user", 
             "content": prompt_response_message
             }],
-            #temperature = 0.1,
+            temperature = 0.1,
             model=self.model)
         
         
@@ -472,12 +480,19 @@ mensaje del usuario: ```{query}```
         history_chat = self.format_text_history_chat(history_chat_messages)
         #print("\nhistory_chat:", history_chat)
         
-        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Mencionado de la siguiente manera: La última pregunta del usurio se entiende sin necesidad del historial del chat: Sí o La última pregunta del usurio se entiende sin necesidad del historial del chat: No
+        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Sigue los siguientes criterios:
+1. El pregunta no es totalmente entendible sin el historial del chat, si es que hace referencia a informacion específica proporcionada previamente en la conversación pero no es descrita en el mensaje la cual es necesaria para entender completamente el contexto del mensaje.
+2. EL pregunta no es totalmente entendible sin el historial del chat, cuanto hace referencia a algo mencionado anteriormente en la conversación y falta ese contexto.
+3. La pregunta es totalmente comprensible sin necesidad del historial del chat si se refiere a una situación o información que no ha sido mencionada previamente en la conversación, pero se puede entender por sí sola.
+4. La pregunta es totalmente entendible sin necesidad del historial del chat, si es que contiene toda la informacion de manera explicita haciendo que la pregunta tenga sentido y sea comprensible sin necesidad del historial del chat.
 
-        Historial del chat: ```{history_chat}```
+Proporciona una justificacion precisa e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
+Justificacion: ...
+La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
 
-        Último mensaje del usuario: ```{query}```
-        """
+Historial del chat: ```{history_chat}```
+
+Último mensaje del usuario: ```{query}```"""
         messages = [{"role": "user", "content": prompt_identify_reform}]
         
         response = get_completion_from_messages(
@@ -568,6 +583,7 @@ Historial del chat: {history_chat}
 
             if len(self.messages) > 1 and contains_questions:
                 reformulated_query = self.get_reformulated_contextal_query(query = query, history_chat_messages = self.messages[1:])
+                time.sleep(5)
                 #context = self.messages[-2]["content"] + "\n" + self.messages[-1]["content"]
                 context = None
                 query = reformulated_query 
