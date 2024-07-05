@@ -721,7 +721,7 @@ if __name__ == "__main__":
         #opening_lines = [question["question"] for question in questions]
     
     start = 0   
-    end = 5 
+    end = 3 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
@@ -729,7 +729,7 @@ if __name__ == "__main__":
         ai_assistant = AIAssistant(model="gpt-3.5-turbo-0125")
         
         start_greeting = numpy.random.choice([True, False],1, p = [0.25,0.75])[0]
-        user_ai_sim = UserAISim(model="gpt-3.5-turbo-0125", start_greeting = start_greeting)
+        user_ai_sim = UserAISim(model="gpt-4o-2024-05-13", start_greeting = start_greeting)
         print("start_greeting:", start_greeting)
         
         if start_greeting:
