@@ -152,36 +152,27 @@ history_chat_messages = [
 
 # que no es suficientemente descrita en el mensaje para poder entender completamente el contexto del mensaje.
 
-prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Sigue los siguientes criterios:
-1. Identifica si la pregunta hace referencia explícita a información previa mencionada en la conversación.
-2. La pregunta no es totalmente entendible sin el historial del chat si en el mensaje la información previa referenciada no se describe lo suficiente para que la pregunta sea entendible.
-3. La pregunta es totalmente entendible sin necesidad del historial del chat si en el mensaje la información previa referenciada se describe lo suficiente para que la pregunta sea entendible.
+prompt = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la ultima pregunta podria entenderse en su totalidad si no se tiene acceso al historial previo de la conversacion. Usa estos criterios:
+1. Una pregunta debería poder entenderse sin el historial si no hace referencia directa a información específica proporcionada anteriormente en la conversación.
+2. La pregunta no podria entenderse en su totalidad, si es que hace referencia directa a información específica que solo se proporcionó anteriormente y no en el ultimo mensaje, por lo tanto, no es claro a que se refiere sin el historial del la conversacion. 
+Ejemplos de preguntas que hace referencia a informacion anterior: 
+    - Ejemplo 1: ¿Qué pasos debo seguir entonces para poder solicitar ese tipo de matricula especial?
+        Esta pregunta hace referencia a  un "tipo de matricula especial" que ha sido mencionada antes por lo que se requiere esa informacion para entender completamente el contexto de la pregunta. 
+    - Ejemplo 2: ¿Que pasos realizo para realizar dicha solicitud?
+        Esta pregunta hace referencia a "dicha solicitud" que ha sido mencionada antes por lo que se requiere esa informacion para entender completamente el contexto de la pregunta. 
 
-Proporciona una justificacion detallada que tenga sentido e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
+Proporciona una justificacion e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
+
 Justificacion: ...
+
 La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
 
 Historial del chat: ```{history_chat}```
 
-Último mensaje del usuario: ```{query}```
-"""
+Último mensaje del usuario: ```{query}```"""
+
 
 print(prompt)
-
-prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Sigue los siguientes criterios:
-1. El pregunta no es totalmente entendible sin el historial del chat, si es que hace referencia de manera explicita a informacion específica proporcionada previamente en la conversación pero esta informacion no es suficientemente descrita para entenderse en el ultimo mensaje.
-2. La pregunta es totalmente entendible sin necesidad del historial del chat, si es que contiene toda la informacion de manera explicita haciendo que la pregunta tenga sentido y sea comprensible sin necesidad del historial del chat.
-3. EL pregunta no es totalmente entendible sin el historial del chat, cuanto hace referencia a algo mencionado anteriormente en la conversación y falta ese contexto.
-4. La pregunta es totalmente comprensible sin necesidad del historial del chat si se refiere a una situación o información que no ha sido mencionada previamente en la conversación, pero se puede entender por sí sola.
-
-Proporciona una justificacion detallada que tenga sentido e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
-Justificacion: ...
-La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
-
-Historial del chat: ```{history_chat}```
-
-Último mensaje del usuario: ```{query}```
-"""
 
 messages = [{"role": "user", "content": prompt}]
             

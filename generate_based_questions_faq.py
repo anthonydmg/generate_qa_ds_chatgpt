@@ -28,8 +28,26 @@ def extract_faqs(text):
 ## esta bueno pero solo falta un poco
 # presenten una variedad de enfoques en la formulación de las preguntas. Asegúrate de que las nuevas preguntas
 #  Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal)
-
 def get_prompt_gen_questions_based_faq(faqs, num_questions = 40):
+    questions_answer_list = list_json_to_txt(faqs)
+    print()
+    prompt = f"""
+Utilizando las preguntas y respuestas proporcionadas, genera una lista de {num_questions} preguntas únicas que abarquen diferentes niveles de complejidad y cubran tanto puntos generales o amplios hasta detalles específicos. Cada pregunta debe tener una respuesta dentro de la información proporcionada. Sigue estas instrucciones:
+Instrucciones:
+
+Instrucción 1. Lee cuidadosamente las preguntas y respuestas proporcionadas para comprender completamente el contexto.
+Instrucción 2. Utiliza una amplia variedad de enfoques en la formulación de las preguntas, como preguntas condicionales, de inferencia, de comparación, de causa y efecto, de definición, etc.
+Instrucción 3. Asegúrate que las preguntas generadas aborden tanto aspectos generales o amplios como detalles específicos, además que cada pregunta sea única y asegúrate que pueda ser respondida empleando empleando unicamente la información proporcionada en las respuestas de las preguntas proporcionadas.
+Instrucción 4. Presenta las {num_questions} preguntas generadas de la siguiente manera:
+1. [Aquí va la primera pregunta]
+2. [Aquí va la segunda pregunta]
+...
+Preguntas y Respuestas:
+{questions_answer_list}
+"""
+    return prompt
+
+def get_prompt_gen_questions_based_faq_prev(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
     prompt = f"""
@@ -72,6 +90,7 @@ def generate_questions_based_faq(faqs):
 
     response = get_completion_from_messages(
                         messages,
+                        model = "gpt-4o-2024-05-13",
                         #model="gpt-3.5-turbo-0613",
                         temperature=0)
 
@@ -89,13 +108,15 @@ random.seed(42)
 
 text = read_fragment_doc("./faq/faq.txt")
 faqs = extract_faqs(text)
-#faqs = faqs[0:6]
+faqs = faqs[0:15]
 ids = list(range(len(faqs)))
 
 
 all_additional_faqs = []
-times_samples = 8
+times_samples = 3
 for iter in range(times_samples):
+    if iter  >= 1:
+        continue
     choices = random.sample(ids, k = len(ids))
     num_grupos = len(choices) // 3
     grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
@@ -124,14 +145,14 @@ for iter in range(times_samples):
         text_additional_faqs += "\nPreguntas originales:\n"+ list_json_to_txt(original_questions) + "Nuevas Preguntas:\n" + list_json_to_txt(additional_questions)
     
     all_additional_faqs.append(additional_faqs)
-    file = open(f"./faq/text_additional_faqs_iter{iter + 1}.txt", "w")
+    file = open(f"./faq/additional_faqs/text_additional_faqs_iter{iter + 1}.txt", "w")
     file.writelines(text_additional_faqs)
     file.close()
-    save_json("./faq", "all_additional_faqs", all_additional_faqs)
+    save_json("./faq/additional_faqs", "all_additional_faqs", all_additional_faqs)
 
-save_json("./faq", "all_additional_faqs", all_additional_faqs)
+save_json("./faq/additional_faqs", "all_additional_faqs", all_additional_faqs)
 
-import evaluate
+""" import evaluate
 threshold_rouge = 0.8
 pool_additional_faqs = []
 all_pool_questions = []
@@ -173,7 +194,6 @@ for additional_faqs in all_additional_faqs:
         original_questions = temp_adds_faq["original_questions"]
         text_additional_faqs += "\nPreguntas originales:\n"+ list_json_to_txt(original_questions) + "Nuevas Preguntas:\n" + list_json_to_txt(additional_questions)
     
-    #all_additional_faqs.append(additional_faqs)
     file = open(f"./faq/text_additional_faqs_iter{iter}_filtrated.txt", "w")
     file.writelines(text_additional_faqs)
     file.close()
@@ -190,4 +210,4 @@ text_pool_questions = list_json_to_txt(all_pool_questions)
 
 file = open(f"./faq/filtered_questions.txt", "w")
 file.writelines(text_pool_questions)
-file.close()
+file.close() """

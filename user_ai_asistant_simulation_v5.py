@@ -66,38 +66,6 @@ class UserAISim:
             text += f'\n{message["role"]}:{message["content"]}'    
         return text
 
-    def refine_answer_contextual(self, query, history):
-        # inverse rol
-        history_inv = [{ "role": "user" if m["role"] == "assistant" else "assistant", "content": m["content"] } for m in  history]
-        history_chat = self.format_text_history_chat(history_inv)
-
-        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Sigue los siguientes criterios:
-1. El pregunta no es totalmente entendible sin el historial del chat, si es que hace referencia a informacion específica proporcionada previamente en la conversación pero no es descrita en el mensaje la cual es necesaria para entender completamente el contexto del mensaje.
-2. EL pregunta no es totalmente entendible sin el historial del chat, cuanto hace referencia a algo mencionado anteriormente en la conversación y falta ese contexto.
-3. La pregunta es totalmente comprensible sin necesidad del historial del chat si se refiere a una situación o información que no ha sido mencionada previamente en la conversación, pero se puede entender por sí sola.
-4. La pregunta es totalmente entendible sin necesidad del historial del chat, si es que contiene toda la informacion de manera explicita haciendo que la pregunta tenga sentido y sea comprensible sin necesidad del historial del chat.
-
-Proporciona una justificación precisa e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
-Justificación: ...
-La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
-
-Historial del chat: ```{history_chat}```
-
-Último mensaje del usuario: ```{query}```"""
-
-        print("\n\nprompt_identify_reform:", prompt_identify_reform)
-        messages = [{
-            "role": "user", 
-            "content": prompt_identify_reform
-        }]
-
-        response = get_completion_from_messages(
-            messages = messages,
-            model=self.model)
-        
-        print("\n\nrefine_answer_contextual response:", response)        
-        return response
-
     def finish_conversation(self, message):
         num_words = random.choice([2, 4, 5, 10, 12, 15, 20])
 #(Max. {num_words} palabras)
@@ -202,13 +170,13 @@ Responde a los mensajes de manera concisa y significativa teniendo en cuenta el 
         #prompt_response_message = f"""Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde de manera concisa, realista y natural, personalizando tu respuesta y evitando repetir exactamente la información proveída por el asistente de IA. Ten en cuenta el contexto del historial del diálogo en curso al responder al siguiente mensaje del asistente de IA proveído en respuesta a tu mensaje anterior.
         #Mensaje del asistente de AI: {message}"""
         
-        level_conciseness = "" #numpy.random.choice(["", "bastante ", "sumamente ", "extremadamente "], 1 ,p = [0.60, 0.10, 0.15, 0.15])[0]
+        level_conciseness = numpy.random.choice(["", "bastante ", "sumamente ", "extremadamente "], 1 ,p = [0.60, 0.10, 0.15, 0.15])[0]
         limit_words = "" #numpy.random.choice(["",f" en menos de {num_words} palabras"], p = [0.50, 0.50])
         # Responde en menos de {num_words} palabras
         print("\nlevel_conciseness:", level_conciseness)
         print("\nlimit_words:", limit_words)
         prompt_response_message = f"""
-Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente{limit_words} de manera {level_conciseness}concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso.
+Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente de manera {level_conciseness}concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso.
 Mensaje del asistente de AI: {message}"""
 
         #if num_turn > 2:
@@ -239,17 +207,12 @@ Mensaje del asistente de AI: {message}"""
             "role": "user", 
             "content": prompt_response_message
             }],
-            temperature = 0.1,
+            temperature = 0.2,
             model=self.model)
-        
-        
-        
+         
         self.push_assistant_messages_to_history(message)
 
-        #if num_turn >= 2:   
-            #self.refine_answer_contextual(response_user_ai, history = self.messages[1:])
-        
-        #print("self.messages:",  self.messages)
+
         self.push_user_messages_to_history(response_user_ai)   
         
         return response_user_ai
@@ -480,19 +443,30 @@ mensaje del usuario: ```{query}```
         history_chat = self.format_text_history_chat(history_chat_messages)
         #print("\nhistory_chat:", history_chat)
         
-        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la pregunta puede entenderse en su totalidad sin necesidad del historial del chat. Sigue los siguientes criterios:
-1. El pregunta no es totalmente entendible sin el historial del chat, si es que hace referencia a informacion específica proporcionada previamente en la conversación pero no es descrita en el mensaje la cual es necesaria para entender completamente el contexto del mensaje.
-2. EL pregunta no es totalmente entendible sin el historial del chat, cuanto hace referencia a algo mencionado anteriormente en la conversación y falta ese contexto.
-3. La pregunta es totalmente comprensible sin necesidad del historial del chat si se refiere a una situación o información que no ha sido mencionada previamente en la conversación, pero se puede entender por sí sola.
-4. La pregunta es totalmente entendible sin necesidad del historial del chat, si es que contiene toda la informacion de manera explicita haciendo que la pregunta tenga sentido y sea comprensible sin necesidad del historial del chat.
+        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la ultima pregunta podria entenderse en su totalidad si no se tiene acceso al historial previo de la conversacion. Usa estos criterios:
+1. Una pregunta debería poder entenderse sin el historial si no hace referencia directa a información específica proporcionada anteriormente en la conversación.
+2. La pregunta no podria entenderse en su totalidad, si es que hace referencia directa a información específica que solo se proporcionó anteriormente y no en el ultimo mensaje, por lo tanto, no es claro a que se refiere sin el historial del la conversacion. 
 
-Proporciona una justificacion precisa e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
-Justificacion: ...
+Ejemplos de preguntas que hacen referencia a informacion anterior: 
+    - Ejemplo 1: ¿Qué pasos debo seguir entonces para poder solicitar ese tipo de matricula especial?
+        Esta pregunta hace referencia a  un "tipo de matricula especial" que ha sido mencionada antes por lo que se requiere esa informacion para entender completamente el contexto de la pregunta. 
+    - Ejemplo 2: ¿Que pasos realizo para realizar dicha solicitud?
+        Esta pregunta hace referencia a "dicha solicitud" que ha sido mencionada antes por lo que se requiere esa informacion para entender completamente el contexto de la pregunta. 
+
+Ejemplos de preguntas que hacen referencia a informacion especifica: 
+	-  Ejemplo 1: ¿Qué requisitos se deben cumplir para ser considerado "estudiante en posibilidad de egresar"?
+			Esta pregunta hace referencia a un concepto específico ("estudiante en posibilidad de egresar") que se puede entender sin necesidad de un contexto previo, por lo que la pregunta se puede entenderse por si sola.
+
+Proporciona una justificación e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
+
+Justificación: ...
+
 La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
 
-Historial del chat: ```{history_chat}```
+Historial del chat: {history_chat}
 
-Último mensaje del usuario: ```{query}```"""
+Último mensaje del usuario: {query}"""
+
         messages = [{"role": "user", "content": prompt_identify_reform}]
         
         response = get_completion_from_messages(
@@ -552,7 +526,7 @@ Historial del chat: {history_chat}
         if "artículo" in respuesta.lower():
             new_answer = self.refine_answer_mention_articule(respuesta)
         else:
-            prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta. Es preferible que no menciones dicha frase. En caso se refiera a falta informacion corrige el mensaje para que en su lugar se menciones de manera empatica que no se tienes accesso a dicha informacion.
+            prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta y la forma de responder de una asistente de AI. Es preferible que no menciones dicha frase. En caso se refiera a falta informacion corrige el mensaje para que en su lugar se menciones de manera empatica que no se tienes accesso a dicha informacion.
         Respuesta: {respuesta}"""
 
             messages = [{"role": "user", "content": prompt}]
@@ -655,7 +629,7 @@ Historial del chat: {history_chat}
                 print()
                 print("Original response AI:", response_ai_assistant)
                 response_ai_assistant = self.get_rifined_answer(response_ai_assistant)
-                print("Refined response AI:", response_ai_assistant)
+                print("\nRefined response AI:", response_ai_assistant)
                 
 
             self.messages.append({"role": "user", "content": message})
@@ -719,25 +693,35 @@ if __name__ == "__main__":
     #    questions = questions_about_topic["questions"]
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
+    num_questions = len(questions_faq)
+    portion = 0.5
+    num_questions = int(num_questions * portion)
     
-    start = 0   
-    end = 3 
+    print("num_questions:", num_questions)
+
+    start = 8   
+    end = min(11, num_questions)
+
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
 
         #conversation = [{}]+a
         ai_assistant = AIAssistant(model="gpt-3.5-turbo-0125")
         
-        start_greeting = numpy.random.choice([True, False],1, p = [0.25,0.75])[0]
-        user_ai_sim = UserAISim(model="gpt-4o-2024-05-13", start_greeting = start_greeting)
-        print("start_greeting:", start_greeting)
+        #start_greeting = numpy.random.choice([True, False],1, p = [0.25,0.75])[0]
+        user_ai_sim = UserAISim(
+            model="gpt-4o-2024-05-13",
+            #model="gpt-3.5-turbo-0125",
+            #start_greeting = start_greeting
+            )
+        #print("start_greeting:", start_greeting)
         
-        if start_greeting:
-            response_user_ai = user_ai_sim.start_conversation()
-            print("\nUser:", response_user_ai)
-            response_ai_assistant = ai_assistant.generate_response(message = response_user_ai, use_kb= False)
-            print("\nAssistant:", response_ai_assistant)
-            user_ai_sim.push_assistant_messages_to_history(response_ai_assistant)
+        #if start_greeting:
+        #    response_user_ai = user_ai_sim.start_conversation()
+        #    print("\nUser:", response_user_ai)
+        #    response_ai_assistant = ai_assistant.generate_response(message = response_user_ai, use_kb= False)
+        #    print("\nAssistant:", response_ai_assistant)
+        #    user_ai_sim.push_assistant_messages_to_history(response_ai_assistant)
         
         time.sleep(5)
         #continue
@@ -752,7 +736,7 @@ if __name__ == "__main__":
         
         for i in range(num_turns):
             additional_prob_finish = (i) * 0.05 
-            finish_conversation = numpy.random.choice([True, False],1, p = [0.5 + additional_prob_finish,0.5 - additional_prob_finish])[0]
+            finish_conversation = numpy.random.choice([True, False],1, p = [0.3 + additional_prob_finish,0.7 - additional_prob_finish])[0]
            
             if i >= 1 and finish_conversation:
                 print("\nfinish_conversation:",finish_conversation)

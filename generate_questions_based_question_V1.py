@@ -94,7 +94,7 @@ def generate_questions_based_questions_7(questions, context):
     list_questions = list_json_to_txt(questions, numeric=True)
     prompt = f"""
 
-Tu tarea consiste en generar 8 preguntas únicas para cada una de las siguientes preguntas, las preguntas generadas deben basarse respectivamente en cada pregunta original y ser relevantes para estudiantes de la Facultad de Ciencias de la Univeridad Nacional de Ingenieria. Es importante que las preguntas busquen obtener más detalles o información específica sobre el tema o puntos relevantes mencionados en cada pregunta original, sin desviarse del mismo. Además, es esencial que las preguntas mantengan coherencia con los conceptos y contexto establecido en la información delimitada por tres comillas invertidas.
+Tu tarea consiste en generar 8 preguntas únicas para cada una de las siguientes preguntas, las preguntas generadas deben basarse respectivamente en cada pregunta original y ser relevantes para estudiantes de la Facultad de Ciencias de la Universidad Nacional de Ingeniería. Es importante que las preguntas busquen obtener más detalles o información específica sobre el tema o puntos relevantes mencionados en cada pregunta original, sin desviarse del mismo. Además, es esencial que las preguntas mantengan coherencia con los conceptos y contexto establecido en la información delimitada por tres comillas invertidas.
 
 Lista de preguntas:
 {list_questions}
