@@ -111,11 +111,11 @@ Ejemplos de mensajes de usuario con preguntas que hacen referencia a una situaci
     - Ejemplo 2: Y si no puedo conseguir el certificado a tiempo?
         Análisis: Esta pregunta hace referencia a la situación de obtener de un certificado a tiempo, pero no se describe en el ultimo mensaje del usuario que tipo de certificado ni la finalidad de el, por lo que, sin esa información no es claro a qué tipo de certificado se refiere el usuario en la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.    
     - Ejemplo 3: ¿Qué pasos debo seguir entonces para poder solicitar ese tipo de matricula especial?
-        Análisis: Esta pregunta hace referencia a un "tipo de matricula especial" que ha sido mencionada antes, por lo que, se requiere esa información para entender completamente el contexto de la pregunta. Por todo esto, la pregunta no podría entenderse en su totalidad por si sola.   
+        Análisis: Esta pregunta del usuario hace referencia a una "matrícula especial" sin especificar a qué se refiere exactamente con ese término. Por lo tanto, el concepto de "solicitar una matrícula especial" no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por todo esto, la pregunta no podría entenderse en su totalidad por si sola.   
     - Ejemplo 4: Entonces, si no estoy en esa situación de "posibilidad de egresar", ¿no puedo matricularme en ambos cursos al mismo tiempo?
-        Análisis: La pregunta hace referencia a la situación de estar en "posibilidad de egresar" la cual se entiende por si solo. Por otro lado, esta pregunta del usuario no describe los cursos referenciados ni la condición especial para matricularse en ellos, por lo tanto, no es posible entender totalmente la pregunta sin el historial previo del chat.
+        Análisis: La pregunta del usuario hace referencia a la situación de no estar en "posibilidad de egresar" y cuestiona si es posible matricularse en ambos cursos al mismo tiempo. Aunque se menciona el concepto de "posibilidad de egresar", este término es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Sin embargo, esta pregunta del usuario no describe los cursos referenciados ni la condición especial para matricularse en ellos, por lo tanto, no es posible entender totalmente la pregunta sin el historial previo del chat.
     - Ejemplo 5: Si soy un alumno en "posibilidad de egresar", entonces ¿puedo matricularme la matriculas en los dos cursos?
-        Análisis: La pregunta hace referencia a la situación de ser alumno en "posibilidad de egresar" la cual se entiende por si solo. Por otro lado, esta pregunta del usuario no describe los dos cursos referenciados ni la condición especial para matricularse en ellos, por lo tanto, no es posible entender totalmente la pregunta sin el historial previo del chat.
+        Análisis: La pregunta del usuario hace referencia a la situación de no estar en "posibilidad de egresar" y cuestiona si es posible matricularse en ambos cursos al mismo tiempo. Aunque se menciona el concepto de "posibilidad de egresar", este término es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Sin embargo, esta pregunta del usuario no describe los dos cursos referenciados ni la condición especial para matricularse en ellos, por lo tanto, no es posible entender totalmente la pregunta sin el historial previo del chat.
     - Ejemplo 6: ¿Qué requisitos se deben cumplir para ser considerado "estudiante en posibilidad de egresar"?
 		Análisis: Esta pregunta hace referencia a un concepto específico ("estudiante en posibilidad de egresar") que se puede entender sin necesidad de un contexto previo, por lo que la pregunta se puede entenderse por si sola.
     - Ejemplo 7: ¿Qué sucede si un estudiante no cumple con el requisito de ser "estudiante en posibilidad de egresar" pero necesita matricularse en un curso y su prerequisito simultáneamente por motivos académicos o personales?
@@ -132,8 +132,6 @@ Ejemplos de mensajes de usuario con preguntas que hacen referencia a una situaci
        Análisis: Esta pregunta del usuario hace una referencia a un escenario hipotético en el que se cuestiona sobre una situación diferente a la enfermedad grave pero no se especifica en que contexto o en que situación especifica se daría este escenario hipotético, por lo que, la pregunta necesita del contexto previo para que sea entendible 
     - Ejemplo 13: ¿Hay algún número de teléfono para contactarlos directamente?
        Análisis: Esta pregunta del usuario hace una referencia implícita a un grupo o entidad que se desea contactar, en este caso, a "ellos", sin embargo, no especifica a quien se refiere con "ellos". Sin ese contexto adicional, no se puede identificar a quién se refiere la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
-    - Ejemplo 14: ¿Cuánto demora en estar lista la constancia después de enviar el comprobante de pago?
-       Análisis: Esta pregunta del usuario hace una referencia implícita un constancia, sin embargo, no se especifica a que tipo de constancia se refiero por que se necesita ese contexto previo para entender la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
     
 Ejemplos de mensajes de usuario con preguntas que no hacen referencia a una situación o información especifica mencionada anteriormente: 
     - Ejemplo 1: ¿Qué debo hacer si quiero inscribirme en un curso y su prerequisito en el mismo ciclo?
@@ -148,6 +146,66 @@ La última pregunta del usuario se entiende sin necesidad del historial del chat
 Último mensaje del usuario: {query}"""
     return prompt
 
+""" - Ejemplo 14: ¿Cuánto demora en estar lista la constancia después de enviar el comprobante de pago?
+       Análisis: Esta pregunta del usuario hace una referencia implícita un constancia, sin embargo, no se especifica a que tipo de constancia se refiero por que se necesita ese contexto previo para entender la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
+    - Ejemplo 15: ¿Sabes si hay alguna correcto de contacto disponible para escribiles?
+        Análisis: Esta pregunta del usuario hace una referencia implícita a un grupo o entidad que se desea contactar por correo, en este caso, a "ellos", sin embargo, no especifica a quien se refiere con "ellos". Sin ese contexto adicional, no se puede identificar a quién se refiere la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
+    - Ejemplo 16: ¿Estoy necesitando la constancia con urgencia, hay alguna manera de acelerar el proceso?
+        Análisis: La pregunta del usuario hace referencia a la necesidad de obtener una constancia con urgencia y pregunta si hay alguna manera de acelerar el proceso. Sin embargo, no se menciona que tipo de constancia se esta solicituado por lo que no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por lo tanto, la pregunta no se entiende en su totalidad sin el historial del chat.
+    - Ejemplo 17: Perfecto, gracias por la info. ¿Me puede decir si hay algún formato específico para la solicitud de la constancia o solo basta con escribir un correo con mis datos?
+        Análisis: La última pregunta del usuario hace referencia a la solicitud de una constancia y cuestiona si es necesario completar un formato específico o si simplemente enviar un correo con los datos es suficiente. Sin embargo, no se menciona que tipo de constancia se esta solicituado por lo que no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por todo esto, no seria posible entender la pregunta por si sola.
+ """
+
+def get_prompt_4(history_chat, query):
+    prompt = f"""Dado el último mensaje del usuario, analiza e indica si la ultima pregunta del usuario podría entender total por si sola, sin necesidad de tener acceso a tiene acceso al historial previo de la conversación. Has tu análisis basándote en los siguientes criterios y ejemplos:
+Criterios:
+1. La pregunta no podría entenderse en su totalidad, si es que hace referencia directa o implícita a una situación o información específica que solo se proporcionó anteriormente pero no en el ultimo mensaje del usuario, por lo tanto, no es claro a que se refiere sin el historial del la conversacion. 
+2. La pregunta debería poder entenderse sin el historial si no hace referencia de ningún tipo a información específica proporcionada anteriormente en la conversación.
+
+Ejemplos de mensajes de usuario con preguntas que hacen referencia a una situación o información especifica mencionada anteriormente: 
+    - Ejemplo 1:  ¿Y cómo se hace esa solicitud? ¿Hay algún formato específico o solo es un correo al director?
+        Análisis: Esta pregunta hace referencia directa a "esa solicitud" que se refiere a algún proceso mencionado anteriormente pero que no es descrito en el ultimo mensaje del usuario que contiene la pregunta, por lo que, sin esa información no es claro a qué tipo de solicitud se refiere el usuario y la pregunta no se entenderia sin ese contexto.
+    - Ejemplo 2: Y si no puedo conseguir el certificado a tiempo?
+        Análisis: Esta pregunta hace referencia a la situación de obtener de un certificado a tiempo, pero no se describe en el ultimo mensaje del usuario que tipo de certificado ni la finalidad de el, por lo que, sin esa información no es claro a qué tipo de certificado se refiere el usuario en la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.    
+    - Ejemplo 3: ¿Qué pasos debo seguir entonces para poder solicitar ese tipo de matricula especial?
+        Análisis: Esta pregunta del usuario hace referencia a una "matrícula especial" sin especificar a qué se refiere exactamente con ese término. Por lo tanto, el concepto de "solicitar una matrícula especial" no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por todo esto, la pregunta no podría entenderse en su totalidad por si sola.   
+    - Ejemplo 4: Entonces, si no estoy en esa situación de "posibilidad de egresar", ¿no puedo matricularme en ambos cursos al mismo tiempo?
+        Análisis: La pregunta del usuario hace referencia a la situación de no estar en "posibilidad de egresar" y cuestiona si es posible matricularse en ambos cursos al mismo tiempo. Aunque se menciona el concepto de "posibilidad de egresar", este término es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Sin embargo, esta pregunta del usuario no describe los cursos referenciados ni la condición especial para matricularse en ellos, por lo tanto, no es posible entender totalmente la pregunta sin el historial previo del chat.
+    - Ejemplo 5: Si soy un alumno en "posibilidad de egresar", entonces ¿puedo matricularme la matriculas en los dos cursos?
+        Análisis: La pregunta del usuario hace referencia a la situación de no estar en "posibilidad de egresar" y cuestiona si es posible matricularse en ambos cursos al mismo tiempo. Aunque se menciona el concepto de "posibilidad de egresar", este término es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Sin embargo, esta pregunta del usuario no describe los dos cursos referenciados ni la condición especial para matricularse en ellos, por lo tanto, no es posible entender totalmente la pregunta sin el historial previo del chat.
+    - Ejemplo 6: ¿Qué requisitos se deben cumplir para ser considerado "estudiante en posibilidad de egresar"?
+		Análisis: Esta pregunta hace referencia a un concepto específico ("estudiante en posibilidad de egresar") que se puede entender sin necesidad de un contexto previo, por lo que la pregunta se puede entenderse por si sola.
+    - Ejemplo 7: ¿Qué sucede si un estudiante no cumple con el requisito de ser "estudiante en posibilidad de egresar" pero necesita matricularse en un curso y su prerequisito simultáneamente por motivos académicos o personales?
+        Análisis: Esta pregunta del usuario hace referencia a la situación de un estudiante que no cumple con el requisito de ser "estudiante en posibilidad de egresar" pero necesita matricularse en un curso y su prerequisito simultáneamente, sin embargo, esta situación es descrita lo suficiente para ser entendible el ultimo mensaje del usuario, por lo tanto, la pregunta es entendible.
+    - Ejemplo 8: ¿Y dónde encuentro el formulario de solicitud en la intranet?
+       Análisis: Esta pregunta del usuario hace una referencia implícita a un formulario de solicitud específico, pero en el mensaje no se describe para que tipo solicitud por lo que no es posible entender la pregunta por si sola.
+    - Ejemplo 9: Entiendo, ¿Y como obtengo a un modelo para realizar la solicitud?
+       Análisis: Esta pregunta del usuario hace una referencia implícita a un modelo de solicitud específico, pero en el mensaje no se describe para que tipo solicitud por lo que no es posible entender la pregunta por si sola.
+    - Ejemplo 11: ¿Y si no tengo el certificado del Centro Médico de la UNI, puedo usar uno de una clínica privada?
+       Análisis: Esta pregunta del usuario hace referencia a la posibilidad de utilizar un certificado de una clínica privada en lugar del certificado del Centro Médico de la UNI. Sin embargo, no se especifica para que o en que contexto se desea usar el certificado medica por lo que no esto no quedaría claro en la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
+    - Ejemplo 12: ¿Y si no es por enfermedad grave?
+       Análisis: Esta pregunta del usuario hace una referencia a un escenario hipotético en el que se cuestiona sobre una situación diferente a la enfermedad grave pero no se especifica en que contexto o en que situación especifica se daría este escenario hipotético, por lo que, la pregunta necesita del contexto previo para que sea entendible 
+    - Ejemplo 13: ¿Hay algún número de teléfono para contactarlos directamente?
+       Análisis: Esta pregunta del usuario hace una referencia implícita a un grupo o entidad que se desea contactar, en este caso, a "ellos", sin embargo, no especifica a quien se refiere con "ellos". Sin ese contexto adicional, no se puede identificar a quién se refiere la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
+    - Ejemplo 14: ¿Cuánto demora en estar lista la constancia después de enviar el comprobante de pago?
+       Análisis: Esta pregunta del usuario hace una a la tiempo para tener para obtener una constancia después de enviar el comprobante de pago. Sin embargo, no se menciona que tipo de constancia se esta solicituado por lo que no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por lo tanto, la pregunta no se entiende en su totalidad sin el historial del chat.
+    - Ejemplo 15: ¿Sabes si hay alguna correcto de contacto disponible para escribiles?
+        Análisis: Esta pregunta del usuario hace una referencia implícita a un grupo o entidad que se desea contactar por correo, en este caso, a "ellos", sin embargo, no especifica a quien se refiere con "ellos". Sin ese contexto adicional, no se puede identificar a quién se refiere la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
+    - Ejemplo 16: Necesito la constancia rapido ¿hay alguna manera de acelerar el proceso?
+        Análisis: La pregunta del usuario hace referencia a la necesidad de obtener una constancia con urgencia y pregunta si hay alguna manera de acelerar el proceso. Sin embargo, no se menciona que tipo de constancia se esta solicituado por lo que no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por lo tanto, la pregunta no se entiende en su totalidad sin el historial del chat.
+
+Ejemplos de mensajes de usuario con preguntas que no hacen referencia a una situación o información especifica mencionada anteriormente: 
+    - Ejemplo 1: ¿Qué debo hacer si quiero inscribirme en un curso y su prerequisito en el mismo ciclo?
+        Análisis: Esta pregunta no hace referencia a ningún concepto o situación especifica, ademas, la pregunta en entendible por si sola.
+
+Proporciona un análisis detallada e indica si la ultima pregunta del usuario se entiende sin necesidad del historial del chat de la siguiente manera:
+
+Análisis: ...
+
+La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
+
+Último mensaje del usuario: {query}"""
+    return prompt
 
 
 examples = [{
@@ -358,17 +416,25 @@ examples = [{
     "query": "¿Y cuánto tiempo suele tardar en estar lista la constancia después de enviar el comprobante de pago?",
     "entendible": False
 
+},
+{   "history_chat_messages": [],
+    "query": "¿Y si necesito la constancia con urgencia, hay alguna manera de acelerar el proceso?",
+    "entendible": False
+},{ 
+    "history_chat_messages": [],
+    "query": "Perfecto, gracias por la info. ¿Sabes si hay algún formato específico para la solicitud de la constancia o solo basta con escribir un correo con mis datos?",
+    "entendible": False
 }]
 
 count_good_pred = 0
 
-for example in examples[:]:
+for example in examples[-2:]:
 # que no es suficientemente descrita en el mensaje para poder entender completamente el contexto del mensaje.
     history_messages_chat = example["history_chat_messages"]
     history_chat = format_text_history_chat(history_messages_chat)
     query = example["query"]
 
-    prompt = get_prompt_3(history_chat, query)
+    prompt = get_prompt_4(history_chat, query)
     
     print()
     print("-"*90)
@@ -380,7 +446,8 @@ for example in examples[:]:
 
     response = get_completion_from_messages(
                         messages,
-                        model= "gpt-3.5-turbo-0125")
+                        #model= "gpt-3.5-turbo-0125"
+                        )
 
     print("\n\033[32mresponde need context:\033[0m", response)
 
