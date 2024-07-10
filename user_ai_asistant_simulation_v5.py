@@ -443,27 +443,48 @@ mensaje del usuario: ```{query}```
         history_chat = self.format_text_history_chat(history_chat_messages)
         #print("\nhistory_chat:", history_chat)
         
-        prompt_identify_reform = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la última pregunta del usuario, indica si la ultima pregunta podria entenderse en su totalidad si no se tiene acceso al historial previo de la conversacion. Usa estos criterios:
-1. Una pregunta debería poder entenderse sin el historial si no hace referencia directa a información específica proporcionada anteriormente en la conversación.
-2. La pregunta no podria entenderse en su totalidad, si es que hace referencia directa a información específica que solo se proporcionó anteriormente y no en el ultimo mensaje, por lo tanto, no es claro a que se refiere sin el historial del la conversacion. 
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, analiza e indica si la ultima pregunta del usuario podría entender total por si sola, sin necesidad de tener acceso a tiene acceso al historial previo de la conversación. Has tu análisis basándote en los siguientes criterios y ejemplos:
+Criterios:
+1. La pregunta no podría entenderse en su totalidad, si es que hace referencia directa o implícita a una situación o información específica que solo se proporcionó anteriormente pero no en el ultimo mensaje del usuario, por lo tanto, no es claro a que se refiere sin el historial del la conversacion. 
+2. La pregunta debería poder entenderse sin el historial si no hace referencia de ningún tipo a información específica proporcionada anteriormente en la conversación.
 
-Ejemplos de preguntas que hacen referencia a informacion anterior: 
-    - Ejemplo 1: ¿Qué pasos debo seguir entonces para poder solicitar ese tipo de matricula especial?
-        Esta pregunta hace referencia a  un "tipo de matricula especial" que ha sido mencionada antes por lo que se requiere esa informacion para entender completamente el contexto de la pregunta. 
-    - Ejemplo 2: ¿Que pasos realizo para realizar dicha solicitud?
-        Esta pregunta hace referencia a "dicha solicitud" que ha sido mencionada antes por lo que se requiere esa informacion para entender completamente el contexto de la pregunta. 
+Ejemplos de mensajes de usuario con preguntas que hacen referencia a una situación o información especifica mencionada anteriormente: 
+    - Ejemplo 1:  ¿Y cómo se hace esa solicitud? ¿Hay algún formato específico o solo es un correo al director?
+        Análisis: Esta pregunta hace referencia directa a "esa solicitud" que se refiere a algún proceso mencionado anteriormente pero que no es descrito en el ultimo mensaje del usuario que contiene la pregunta, por lo que, sin esa información no es claro a qué tipo de solicitud se refiere el usuario y la pregunta no se entenderia sin ese contexto.
+    - Ejemplo 2: Y si no puedo conseguir el certificado a tiempo?
+        Análisis: Esta pregunta hace referencia a la situación de obtener de un certificado a tiempo, pero no se describe en el ultimo mensaje del usuario que tipo de certificado ni la finalidad de el, por lo que, sin esa información no es claro a qué tipo de certificado se refiere el usuario en la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.    
+    - Ejemplo 3: ¿Qué pasos debo seguir entonces para poder solicitar ese tipo de matricula especial?
+        Análisis: Esta pregunta hace referencia a un "tipo de matricula especial" que ha sido mencionada antes, por lo que, se requiere esa información para entender completamente el contexto de la pregunta. Por todo esto, la pregunta no podría entenderse en su totalidad por si sola.   
+    - Ejemplo 4: Entonces, si no estoy en esa situación de "posibilidad de egresar", ¿no puedo matricularme en ambos cursos al mismo tiempo?
+        Análisis: La pregunta hace referencia a la situación de estar en "posibilidad de egresar" la cual se entiende por si solo. Por otro lado, esta pregunta del usuario no describe los cursos referenciados ni la condición especial para matricularse en ellos, por lo tanto, no es posible entender totalmente la pregunta sin el historial previo del chat.
+    - Ejemplo 5: Si soy un alumno en "posibilidad de egresar", entonces ¿puedo matricularme la matriculas en los dos cursos?
+        Análisis: La pregunta hace referencia a la situación de ser alumno en "posibilidad de egresar" la cual se entiende por si solo. Por otro lado, esta pregunta del usuario no describe los dos cursos referenciados ni la condición especial para matricularse en ellos, por lo tanto, no es posible entender totalmente la pregunta sin el historial previo del chat.
+    - Ejemplo 6: ¿Qué requisitos se deben cumplir para ser considerado "estudiante en posibilidad de egresar"?
+		Análisis: Esta pregunta hace referencia a un concepto específico ("estudiante en posibilidad de egresar") que se puede entender sin necesidad de un contexto previo, por lo que la pregunta se puede entenderse por si sola.
+    - Ejemplo 7: ¿Qué sucede si un estudiante no cumple con el requisito de ser "estudiante en posibilidad de egresar" pero necesita matricularse en un curso y su prerequisito simultáneamente por motivos académicos o personales?
+        Análisis: Esta pregunta del usuario hace referencia a la situación de un estudiante que no cumple con el requisito de ser "estudiante en posibilidad de egresar" pero necesita matricularse en un curso y su prerequisito simultáneamente, sin embargo, esta situación es descrita lo suficiente para ser entendible el ultimo mensaje del usuario, por lo tanto, la pregunta es entendible.
+    - Ejemplo 8: ¿Y dónde encuentro el formulario de solicitud en la intranet?
+       Análisis: Esta pregunta del usuario hace una referencia implícita a un formulario de solicitud específico, pero en el mensaje no se describe para que tipo solicitud por lo que no es posible entender la pregunta por si sola.
+    - Ejemplo 9: Entiendo, ¿Y como obtengo a un modelo para realizar la solicitud?
+       Análisis: Esta pregunta del usuario hace una referencia implícita a un modelo de solicitud específico, pero en el mensaje no se describe para que tipo solicitud por lo que no es posible entender la pregunta por si sola.
+    - Ejemplo 10: ¡Genial! Entonces, si soy un "estudiante en posibilidad de egresar" con menos de 30 créditos pendientes, puedo matricularme en un curso y su prerequisito en el mismo ciclo. ¿Debo comunicarme con mi escuela profesional para solicitar la aprobación del director correspondiente, verdad?
+       Análisis: Esta pregunta del usuario hace referencia a la situación de ser un "estudiante en posibilidad de egresar" con menos de 30 créditos pendientes y la posibilidad de matricularse en un curso y su prerequisito en el mismo ciclo lo cual se entiende sin necesidad de mayor contexto. Por otro lado, la pregunta también menciona la necesidad de comunicarse con la escuela profesional para solicitar la aprobación del director correspondiente, lo cual es entendible por si solo y no se require mayor contexto para que sea entendible. Por lo tanto, la pregunta se entiende en su totalidad sin el historial del chat.
+    - Ejemplo 11: ¿Y si no tengo el certificado del Centro Médico de la UNI, puedo usar uno de una clínica privada?
+       Análisis: Esta pregunta del usuario hace referencia a la posibilidad de utilizar un certificado de una clínica privada en lugar del certificado del Centro Médico de la UNI. Sin embargo, no se especifica para que o en que contexto se desea usar el certificado medica por lo que no esto no quedaría claro en la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
+    - Ejemplo 12: ¿Y si no es por enfermedad grave?
+       Análisis: Esta pregunta del usuario hace una referencia a un escenario hipotético en el que se cuestiona sobre una situación diferente a la enfermedad grave pero no se especifica en que contexto o en que situación especifica se daría este escenario hipotético, por lo que, la pregunta necesita del contexto previo para que sea entendible 
+    - Ejemplo 13: ¿Hay algún número de teléfono para contactarlos directamente?
+       Análisis: Esta pregunta del usuario hace una referencia implícita a un grupo o entidad que se desea contactar, en este caso, a "ellos", sin embargo, no especifica a quien se refiere con "ellos". Sin ese contexto adicional, no se puede identificar a quién se refiere la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
 
-Ejemplos de preguntas que hacen referencia a informacion especifica: 
-	-  Ejemplo 1: ¿Qué requisitos se deben cumplir para ser considerado "estudiante en posibilidad de egresar"?
-			Esta pregunta hace referencia a un concepto específico ("estudiante en posibilidad de egresar") que se puede entender sin necesidad de un contexto previo, por lo que la pregunta se puede entenderse por si sola.
+Ejemplos de mensajes de usuario con preguntas que no hacen referencia a una situación o información especifica mencionada anteriormente: 
+    - Ejemplo 1: ¿Qué debo hacer si quiero inscribirme en un curso y su prerequisito en el mismo ciclo?
+        Análisis: Esta pregunta no hace referencia a ningún concepto o situación especifica, ademas, la pregunta en entendible por si sola.
 
-Proporciona una justificación e indica si la pregunta se entiende sin necesidad del historial del chat de la siguiente manera:
+Proporciona un análisis detallada e indica si la ultima pregunta del usuario se entiende sin necesidad del historial del chat de la siguiente manera:
 
-Justificación: ...
+Análisis: ...
 
 La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
-
-Historial del chat: {history_chat}
 
 Último mensaje del usuario: {query}"""
 
@@ -685,8 +706,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/data/faq_4_reformulated.json"
-    filename = "faq_4_reformulated.json"
+    path_file = "./faq-reformulated/data/faq_8_reformulated.json"
+    filename = "faq_8_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
@@ -699,8 +720,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 8   
-    end = min(11, num_questions)
+    start = 0   
+    end = min(1, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\nConversación {i + 1}.......................................................\n\n")
@@ -776,4 +797,3 @@ if __name__ == "__main__":
     save_json("./conversational_faq/data", f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
 
     #save_json("./conversational_data", f"conversations_simulated_{start}_to_{end-1}", conversations_simulated)
-

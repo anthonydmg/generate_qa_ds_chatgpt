@@ -57,7 +57,7 @@ Utilizando las preguntas y respuestas proporcionadas, genera una lista de {num_q
 Instrucciones:
 
 Instrucción 1. Lee cuidadosamente las preguntas y respuestas proporcionadas para comprender completamente el contexto.
-Instrucción 2. Genera utilzando una amplia variedad de enfoques en la formulación de las preguntas, como preguntas condicionales, de inferencia, de comparación, de causa y efecto, de definición, etc. y asegurandote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuestas de las preguntas proporcionadas entre tres comillas invertidas. 
+Instrucción 2. Genera utilizando una amplia variedad de enfoques en la formulación de las preguntas, como preguntas condicionales, de inferencia, de comparación, de causa y efecto, de definición, etc. y asegurandote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuestas de las preguntas proporcionadas entre tres comillas invertidas. 
 Instrucción 3. Presenta las {num_questions} preguntas generadas de la siguiente manera:
 1. [Aquí va la primera pregunta]
 2. [Aquí va la segunda pregunta]
@@ -75,7 +75,7 @@ Utilizando las preguntas y respuestas proporcionadas, genera una lista de {num_q
 Instrucciones:
 
 Instrucción 1. Lee cuidadosamente las preguntas y respuestas proporcionadas para comprender completamente el contexto.
-Instrucción 2. Genera preguntas que aborden tanto aspectos generales o amplios como detalles específicos, asegurandote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuestas de las preguntas proporcionadas entre tres comillas invertidas. 
+Instrucción 2. Genera preguntas que aborden tanto aspectos generales o amplios como detalles específicos, asegurándote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuestas de las preguntas proporcionadas entre tres comillas invertidas. 
 Instrucción 3. Presenta las {num_questions} preguntas generadas de la siguiente manera:
 1. [Aquí va la primera pregunta]
 2. [Aquí va la segunda pregunta]
