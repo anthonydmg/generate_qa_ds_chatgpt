@@ -155,17 +155,7 @@ La última pregunta del usuario se entiende sin necesidad del historial del chat
     - Ejemplo 17: Perfecto, gracias por la info. ¿Me puede decir si hay algún formato específico para la solicitud de la constancia o solo basta con escribir un correo con mis datos?
         Análisis: La última pregunta del usuario hace referencia a la solicitud de una constancia y cuestiona si es necesario completar un formato específico o si simplemente enviar un correo con los datos es suficiente. Sin embargo, no se menciona que tipo de constancia se esta solicituado por lo que no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por todo esto, no seria posible entender la pregunta por si sola.
  """
-
-def get_prompt_4(history_chat, query):
-    prompt = f"""Dado el último mensaje del usuario, analiza e indica si la ultima pregunta del usuario podría entender total por si sola, sin necesidad de tener acceso a tiene acceso al historial previo de la conversación. Has tu análisis basándote en los siguientes criterios y ejemplos:
-Criterios:
-1. La pregunta no podría entenderse en su totalidad, si es que hace referencia directa o implícita a una situación o información específica que solo se proporcionó anteriormente pero no en el ultimo mensaje del usuario, por lo tanto, no es claro a que se refiere sin el historial del la conversacion. 
-2. La pregunta debería poder entenderse sin el historial si no hace referencia de ningún tipo a información específica proporcionada anteriormente en la conversación.
-
-Ejemplos de mensajes de usuario con preguntas que hacen referencia a una situación o información especifica mencionada anteriormente: 
-    - Ejemplo 1:  ¿Y cómo se hace esa solicitud? ¿Hay algún formato específico o solo es un correo al director?
-        Análisis: Esta pregunta hace referencia directa a "esa solicitud" que se refiere a algún proceso mencionado anteriormente pero que no es descrito en el ultimo mensaje del usuario que contiene la pregunta, por lo que, sin esa información no es claro a qué tipo de solicitud se refiere el usuario y la pregunta no se entenderia sin ese contexto.
-    - Ejemplo 2: Y si no puedo conseguir el certificado a tiempo?
+"""- Ejemplo 2: Y si no puedo conseguir el certificado a tiempo?
         Análisis: Esta pregunta hace referencia a la situación de obtener de un certificado a tiempo, pero no se describe en el ultimo mensaje del usuario que tipo de certificado ni la finalidad de el, por lo que, sin esa información no es claro a qué tipo de certificado se refiere el usuario en la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.    
     - Ejemplo 3: ¿Qué pasos debo seguir entonces para poder solicitar ese tipo de matricula especial?
         Análisis: Esta pregunta del usuario hace referencia a una "matrícula especial" sin especificar a qué se refiere exactamente con ese término. Por lo tanto, el concepto de "solicitar una matrícula especial" no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por todo esto, la pregunta no podría entenderse en su totalidad por si sola.   
@@ -189,11 +179,58 @@ Ejemplos de mensajes de usuario con preguntas que hacen referencia a una situaci
        Análisis: Esta pregunta del usuario hace una referencia implícita a un grupo o entidad que se desea contactar, en este caso, a "ellos", sin embargo, no especifica a quien se refiere con "ellos". Sin ese contexto adicional, no se puede identificar a quién se refiere la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
     - Ejemplo 14: ¿Cuánto demora en estar lista la constancia después de enviar el comprobante de pago?
        Análisis: Esta pregunta del usuario hace una a la tiempo para tener para obtener una constancia después de enviar el comprobante de pago. Sin embargo, no se menciona que tipo de constancia se esta solicituado por lo que no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por lo tanto, la pregunta no se entiende en su totalidad sin el historial del chat.
-    - Ejemplo 15: ¿Sabes si hay alguna correcto de contacto disponible para escribiles?
+    - Ejemplo 15: ¿Sabes si hay alguna correcto de contacto disponible para escribirles?
         Análisis: Esta pregunta del usuario hace una referencia implícita a un grupo o entidad que se desea contactar por correo, en este caso, a "ellos", sin embargo, no especifica a quien se refiere con "ellos". Sin ese contexto adicional, no se puede identificar a quién se refiere la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
-    - Ejemplo 16: Necesito la constancia rapido ¿hay alguna manera de acelerar el proceso?
+    - Ejemplo 16: Necesito la constancia rápido ¿hay alguna manera de acelerar el proceso?
         Análisis: La pregunta del usuario hace referencia a la necesidad de obtener una constancia con urgencia y pregunta si hay alguna manera de acelerar el proceso. Sin embargo, no se menciona que tipo de constancia se esta solicituado por lo que no es lo suficientemente claro y genérico como para ser entendido sin necesidad de información adicional del historial de la conversación. Por lo tanto, la pregunta no se entiende en su totalidad sin el historial del chat.
+"""
 
+def get_prompt_5(history_chat, query):
+    prompt = f"""Dado el último mensaje del usuario, analiza e indica si la ultima pregunta del usuario podría entender total por si sola, sin necesidad de tener acceso a tiene acceso al historial previo de la conversación. Has tu análisis basándote en los siguientes criterios y ejemplos:
+Criterios:
+1. La pregunta no podría entenderse en su totalidad, si es que hace referencia directa o implícita a una situación o información específica que solo se proporcionó anteriormente pero no en el ultimo mensaje del usuario, por lo tanto, no es claro a que se refiere sin el historial del la conversación. 
+2. La pregunta debería poder entenderse sin el historial si no hace referencia de ningún tipo a información específica proporcionada anteriormente en la conversación.
+3. La pregunta no podría entenderse, si es que no tiene un sentido completo sin el contexto previo.
+
+Ejemplos de mensajes de usuario con preguntas que hacen referencia a una situación o información especifica mencionada anteriormente: 
+    - Ejemplo 1: ¿Y cómo se hace esa solicitud? ¿Hay algún formato específico o solo es un correo al director?
+        Análisis: Esta pregunta hace referencia directa a "esa solicitud" que se refiere a algún proceso mencionado anteriormente pero que no es descrito en el ultimo mensaje del usuario que contiene la pregunta, por lo que, sin esa información no es claro a qué tipo de solicitud se refiere el usuario y la pregunta no se entenderia sin ese contexto.
+        La última pregunta del usuario se entiende sin necesidad del historial del chat: No
+    - Ejemplo 2: ¿Y cómo puedo conseguir el certificado?
+        Análisis: Esta pregunta hace referencia implícita a un certificado, pero no se especifica cuál. Sin ese contexto previo, esta referencia no es clara, por lo tanto, la pregunta es entendible por si sola.
+        La última pregunta del usuario se entiende sin necesidad del historial del chat: No
+    - Ejemplo 3: ¿Sabes si hay alguna correo de contacto disponible para escribirles?
+        Análisis: Esta pregunta del usuario hace una referencia implícita a un grupo o entidad que se desea contactar por correo, en este caso, a "ellos", sin embargo, no especifica a quien se refiere con "ellos". Sin ese contexto adicional, no se puede identificar a quién se refiere la pregunta. Por todo esto, no seria posible entender la pregunta por si sola.
+        La última pregunta del usuario se entiende sin necesidad del historial del chat: No
+    - Ejemplo 4: Si no cumplo con el requisito de ser "estudiante en posibilidad de egresar" pero necesito matricularse en un curso y su prerequisito al mismo tiempo, ¿Que puedo hacer?
+        Análisis: Esta pregunta hace referencia a una situación específica donde un estudiante no cumple con un requisito pero necesita matricularse en un curso y su prerequisito simultáneamente, a pesar de no tener el contexto previo la pregunta es suficientemente general y clara. Por todo esto, es posible entender la pregunta por si sola.
+        La última pregunta del usuario se entiende sin necesidad del historial del chat: Si
+         
+Ejemplos de mensajes de usuario con preguntas que no hacen referencia a una situación o información especifica mencionada anteriormente: 
+    - Ejemplo 1: ¿Qué debo hacer si quiero inscribirme en un curso y su prerequisito en el mismo ciclo?
+        Análisis: Esta pregunta no hace referencia a ningún concepto o situación especifica, ademas, la pregunta es entendible por si sola.
+        La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
+
+Ejemplos de mensajes de usuario que no tiene sentido sin el contexto previo:
+    - Ejemplo 1: ¿En caso no sea por enfermedad de gravedad?
+       Análisis: Esta pregunta plantea una situación donde no es un enfermada de gravedad, pero, sin el contexto previo dicha pregunta no es bastante ambigua y depende de un contexto anterior par tener sentido. Por lo tanto, la pregunta no es entendible por si sola
+       La última pregunta del usuario se entiende sin necesidad del historial del chat: No
+
+Realiza el análisis e indica de la misma manera que en los ejemplos anteriores si es que la ultima pregunta del usuario proporcionada se entiende sin necesidad del historial 
+
+Último mensaje del usuario: {query}"""
+    return prompt
+
+def get_prompt_4(history_chat, query):
+    prompt = f"""Dado el último mensaje del usuario, analiza e indica si la ultima pregunta del usuario podría entender total por si sola, sin necesidad de tener acceso a tiene acceso al historial previo de la conversación. Has tu análisis basándote en los siguientes criterios y ejemplos:
+Criterios:
+1. La pregunta no podría entenderse en su totalidad, si es que hace referencia directa o implícita a una situación o información específica que solo se proporcionó anteriormente pero no en el ultimo mensaje del usuario, por lo tanto, no es claro a que se refiere sin el historial del la conversación. 
+2. La pregunta debería poder entenderse sin el historial si no hace referencia de ningún tipo a información específica proporcionada anteriormente en la conversación.
+
+Ejemplos de mensajes de usuario con preguntas que hacen referencia a una situación o información especifica mencionada anteriormente: 
+    - Ejemplo 1:  ¿Y cómo se hace esa solicitud? ¿Hay algún formato específico o solo es un correo al director?
+        Análisis: Esta pregunta hace referencia directa a "esa solicitud" que se refiere a algún proceso mencionado anteriormente pero que no es descrito en el ultimo mensaje del usuario que contiene la pregunta, por lo que, sin esa información no es claro a qué tipo de solicitud se refiere el usuario y la pregunta no se entenderia sin ese contexto.
+    
 Ejemplos de mensajes de usuario con preguntas que no hacen referencia a una situación o información especifica mencionada anteriormente: 
     - Ejemplo 1: ¿Qué debo hacer si quiero inscribirme en un curso y su prerequisito en el mismo ciclo?
         Análisis: Esta pregunta no hace referencia a ningún concepto o situación especifica, ademas, la pregunta en entendible por si sola.
@@ -428,13 +465,13 @@ examples = [{
 
 count_good_pred = 0
 
-for example in examples[-2:]:
+for example in examples[:]:
 # que no es suficientemente descrita en el mensaje para poder entender completamente el contexto del mensaje.
     history_messages_chat = example["history_chat_messages"]
     history_chat = format_text_history_chat(history_messages_chat)
     query = example["query"]
 
-    prompt = get_prompt_4(history_chat, query)
+    prompt = get_prompt_5(history_chat, query)
     
     print()
     print("-"*90)
@@ -458,6 +495,6 @@ for example in examples[-2:]:
         count_good_pred += 1
     else:
         print('\n'+ "\033[31m" + f'Bad Prediction, Expected: entendible={example["entendible"]}' + "\033[0m")
-    time.sleep(5)
+    time.sleep(3)
 print("Exactitud:", count_good_pred / len(examples))
 print(f"{count_good_pred}/{len(examples)}")
