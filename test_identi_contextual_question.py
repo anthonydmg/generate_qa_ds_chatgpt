@@ -300,6 +300,36 @@ Realiza el análisis de manera minuciosa basándote en los criterios y ejemplos 
     
     return prompt
 
+def get_prompt_9(history_chat, query):
+    prompt = f"""Dado el último mensaje del usuario dado en el contexto de Facultad de Ciencias de La Universidad Nacional de Ingeniería de Peru enviado a un asistente familiarizado con las normativas académicas de la universidad, analiza e indica si la ultima pregunta del usuario podría entender total por si sola, sin necesidad de tener acceso a tiene acceso al historial previo de la conversación. Has tu análisis para identificar si la pregunta es entendible basándote en los siguientes criterios:
+
+Criterios:
+1. Contexto Suficiente: Debe de haber suficiente contexto en el mensaje para entender a que se refiere la pregunta.
+2. Claridad: La pregunta debe ser clara con respecto al tema que trata o a quien se refiere.
+3. Especificidad: El mensaje con la pregunta debe ser lo suficiente especifico para que se pueda responder de manera correcta.
+
+Ejemplos:
+- Ejemplo 1: ¿También podría usar el certificado medico, de una clínica privada?
+        - Análisis: La pregunta del usuario se refiere a la posibilidad de utilizar un certificado médico de una clínica privada en lugar de uno específico del Centro Médico de la UNI. Sin embargo, no se proporciona contexto adicional sobre el propósito del certificado, lo que es relevante para poder entender completamente la pregunta. La pregunta es clara en su formulación y se entiende que el usuario está buscando una alternativa a un requisito específico. Sin embargo, la falta de información sobre el contexto (por ejemplo, si se trata de un requisito para un examen, un trámite, etc.) dificulta la comprensión total de la situación. En cuestión de especificidad, la pregunta es concreta y puede ser respondida con un "sí" o "no", pero la falta de información sobre el propósito del certificado limita la comprensión total de la situación. Por lo tanto, aunque la pregunta es clara y específica, la falta de contexto hace que no se entienda completamente por sí sola.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
+- Ejemplo 2: ¿Y cómo se hace esa solicitud? ¿Hay algún formato específico o solo es un correo al director?
+        - Análisis: La pregunta del usuario se refiere a una solicitud de una constancia y si hay algún formato o se envía solo un correo al director. Sin embargo, el contexto sobre qué tipo de solicitud se está solicitando no se menciona, lo que es relevante para entender completamente la pregunta. A pesar, que el asistente este familiarizado con las normativas académicas de la universidad no podría inferir de que tramite se trata, si ese información la pregunta no seria clara ni especifica sobre a que se refiere y no se podría responder de forma adecuada. Por lo tanto, la falta de contexto hace que la pregunta no se entienda completamente por sí sola.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
+- Ejemplo 3: Entiendo, ¿Tambien quisiera saber si es que un dia con menos fluencia de personas en la Mesa de Partes o siempre es igual?
+        - Análisis: La pregunta del usuario se refiere a la afluencia de personas en la Mesa de Partes de la universidad, buscando información sobre si hay días más tranquilos para realizar un trámite. A pesar, que no se proporciona contexto adicional sobre a que facultad o universidad pertence la Mesa de Partes pero al trabajarse por defecto sobre el contexto de la facultad de ciencia de la UNI el asistente puede inferir que se pregunta sobre Mesa de Parte de la facultad sin necesidad de mayor contexto, ademas a paser de que  no se menciona el tipo de trámite que desea realizar, la pregunta es clara y específica en cuanto a lo que se busca saber: la variabilidad en la afluencia de personas. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional. La claridad y especificidad de la pregunta permiten que se comprenda completamente por sí sola.
+        
+        no se requiere mayor contexto para que la pregunta pueda responder se manera apropiada ya que se esta haciendo muy claro y especifico en lo que desea saber y el asistente al estar familiarizado con las normativas académicas e informacion de la universidad puede comprender la situación. Por lo tanto, la pregunta es específica y clara, y con el contexto suficiente para que se entienda completamente por sí sola.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
+
+Realiza el análisis de manera minuciosa basándote en los criterios y ejemplos anteriores e indica de la siguiente manera si es que la ultima pregunta del usuario proporcionada se entiende sin necesidad del historial:
+ 
+- Análisis: ...
+- La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí o No
+
+Último mensaje del usuario: {query}"""
+    
+    return prompt
+
 def get_prompt_4(history_chat, query):
     prompt = f"""Dado el último mensaje del usuario, analiza e indica si la ultima pregunta del usuario podría entender total por si sola, sin necesidad de tener acceso a tiene acceso al historial previo de la conversación. Has tu análisis basándote en los siguientes criterios y ejemplos:
 Criterios:
@@ -557,7 +587,7 @@ for example in examples[-1:]:
     history_chat = format_text_history_chat(history_messages_chat)
     query = example["query"]
 
-    prompt = get_prompt_8(history_chat, query)
+    prompt = get_prompt_9(history_chat, query)
 
     
     print()
