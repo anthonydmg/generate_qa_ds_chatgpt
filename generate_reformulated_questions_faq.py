@@ -32,10 +32,10 @@ def get_prompt_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
     prompt = f"""
-Para cada una de las preguntas dentro de las tres comillas invertidas, genera 8 diferentes maneras que un estudiante podría usar para realizar la misma consulta de manera natural y realista. Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal). Además, varía el nivel de concisión de cada una. Algunas preguntas pueden ser sumamente concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
+Para cada una de las preguntas dentro de las tres comillas invertidas, genera 8 diferentes maneras que un estudiante podría usar para realizar la misma consulta de manera natural y realista a un asistente de AI. Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal). Además, varía el nivel de concisión de cada una. Algunas preguntas pueden ser sumamente concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
 Presenta las nuevas preguntas para cada pregunta original de la siguiente manera:
 
-Pregunta Original 1: Aqui Pregunta Original 1
+Pregunta Original 1: Aqui la Pregunta Original 1
 
 Preguntas Generadas:
 1. Aqui la primer pregunta generada como una manera diferente de la consultar la primer pregunta original
@@ -43,7 +43,7 @@ Preguntas Generadas:
 ...
 8. Aqui la octava pregunta generada como una manera diferente de la consultar la primer pregunta original
 
-Pregunta Original 2: Aqui Pregunta Original 2
+Pregunta Original 2: Aqui la Pregunta Original 2
 
 Preguntas Generadas:
 1. Aqui la primer pregunta generada como una manera diferente de la consultar la segunda pregunta original
@@ -51,7 +51,7 @@ Preguntas Generadas:
 ...
 8. Aqui la octava pregunta generada como una manera diferente de la consultar la segunda pregunta original
 
-Pregunta Original 3: Aqui Pregunta Original 3
+Pregunta Original 3: Aqui la Pregunta Original 3
 
 Preguntas Generadas:
 ... 
@@ -74,7 +74,7 @@ def get_num_questions(num_tokens):
         return num_questions
 
 def extract_reformulated_questions(text):
-    matches = re.findall(r'Pregunta Original (\d+): (.+?)(?=Pregunta Original|\Z)', text, re.DOTALL)
+    matches = re.findall(r'Pregunta Original (\d+):\*?\*?(.+?)(?=Pregunta Original|\Z)', text, re.DOTALL)
     
     original_questions = []
     generated_questions = []
@@ -84,7 +84,7 @@ def extract_reformulated_questions(text):
         pregunta_original = match[1].strip()
         preguntas_generadas = re.findall(r'\d+\. (.+)', pregunta_original)
         pregunta_original = pregunta_original.split('\n')[0].strip()
-        #print("Pregunta Original:", pregunta_original)
+        #print("\nPregunta Original:", pregunta_original)
         #print("Preguntas Generadas:", preguntas_generadas)
         #print()
 
@@ -94,6 +94,9 @@ def extract_reformulated_questions(text):
     return original_questions, generated_questions
 
 def generate_questions_reformulated_based_faq(faqs):
+    print(f'\nquestion-0:{faqs[0]["question"]}')
+    print(f'\nquestion-1:{faqs[1]["question"]}')
+    print(f'\nquestion-2:{faqs[2]["question"]}')
     list_faqs = [faq["question"] + "\n" + "Respuesta: " +  faq["answer"] for faq in faqs]
     total_tokens = sum([count_num_tokens(faq) for faq in list_faqs])
     print("total_tokens:", total_tokens)
@@ -105,9 +108,10 @@ def generate_questions_reformulated_based_faq(faqs):
 
     response = get_completion_from_messages(
                         messages,
+                        model="gpt-4o-mini-2024-07-18",
                         #model="gpt-3.5-turbo-0613",
-                        temperature=0)
-
+                        temperature=0.2)
+    
     print("response:",response)
     print()
     original_questions, generated_questions = extract_reformulated_questions(response)
@@ -154,8 +158,8 @@ def generate_reformulated_faq(faqs, times_samples = 8):
         grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
         sobran = len(choices) % 3
         
-        if iter < 20:
-            continue
+        #if iter < 20:
+        #    continue
 
         if sobran > 0:
             grupos = grupos + [choices[-3:]]
@@ -174,6 +178,6 @@ def generate_reformulated_faq(faqs, times_samples = 8):
 
     return reformulated_faqs
         
-reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 24)
+reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 10)
 
 save_json("./faq", "reformulated_faqs", reformulated_faqs)

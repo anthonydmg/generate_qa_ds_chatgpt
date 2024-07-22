@@ -4,7 +4,7 @@ import openai
 from dotenv import load_dotenv
 import os
 import re
-import time
+import time 
 
 load_dotenv(override=True)
 
@@ -310,16 +310,17 @@ Criterios:
 
 Ejemplos:
 - Ejemplo 1: ¿También podría usar el certificado medico, de una clínica privada?
-        - Análisis: La pregunta del usuario se refiere a la posibilidad de utilizar un certificado médico de una clínica privada en lugar de uno específico del Centro Médico de la UNI. Sin embargo, no se proporciona contexto adicional sobre el propósito del certificado, lo que es relevante para poder entender completamente la pregunta. La pregunta es clara en su formulación y se entiende que el usuario está buscando una alternativa a un requisito específico. Sin embargo, la falta de información sobre el contexto (por ejemplo, si se trata de un requisito para un examen, un trámite, etc.) dificulta la comprensión total de la situación. En cuestión de especificidad, la pregunta es concreta y puede ser respondida con un "sí" o "no", pero la falta de información sobre el propósito del certificado limita la comprensión total de la situación. Por lo tanto, aunque la pregunta es clara y específica, la falta de contexto hace que no se entienda completamente por sí sola.
+        - Análisis: La pregunta del usuario se refiere a la posibilidad de utilizar un certificado médico de una clínica privada en lugar de uno específico del Centro Médico de la UNI. Sin embargo, no se proporciona contexto adicional sobre el propósito del certificado, lo que es relevante para poder entender completamente la pregunta. Aunque, la pregunta es clara en su formulación y se entiende que el usuario está buscando una alternativa a un requisito específico, la falta de información sobre el contexto (por ejemplo, si se trata de un requisito para un examen, un trámite, etc.) dificulta la comprensión total de la situación. En cuestión de especificidad, la pregunta es concreta y puede ser respondida con un "sí" o "no", pero la falta de información sobre el propósito del certificado limita la comprensión total de la situación, a pesar de, que el asistente este familiarizado con las normativas académicas de la universidad no podría inferir sobre que certificado se trata y tampoco se podría proporcionar una respuesta adecuada. Por lo tanto, aunque la pregunta es clara y específica, la falta de contexto hace que no se entienda completamente por sí sola.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
 - Ejemplo 2: ¿Y cómo se hace esa solicitud? ¿Hay algún formato específico o solo es un correo al director?
         - Análisis: La pregunta del usuario se refiere a una solicitud de una constancia y si hay algún formato o se envía solo un correo al director. Sin embargo, el contexto sobre qué tipo de solicitud se está solicitando no se menciona, lo que es relevante para entender completamente la pregunta. A pesar, que el asistente este familiarizado con las normativas académicas de la universidad no podría inferir de que tramite se trata, si ese información la pregunta no seria clara ni especifica sobre a que se refiere y no se podría responder de forma adecuada. Por lo tanto, la falta de contexto hace que la pregunta no se entienda completamente por sí sola.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
-- Ejemplo 3: Entiendo, ¿Tambien quisiera saber si es que un dia con menos fluencia de personas en la Mesa de Partes o siempre es igual?
-        - Análisis: La pregunta del usuario se refiere a la afluencia de personas en la Mesa de Partes de la universidad, buscando información sobre si hay días más tranquilos para realizar un trámite. A pesar, que no se proporciona contexto adicional sobre a que facultad o universidad pertence la Mesa de Partes pero al trabajarse por defecto sobre el contexto de la facultad de ciencia de la UNI el asistente puede inferir que se pregunta sobre Mesa de Parte de la facultad sin necesidad de mayor contexto, ademas a paser de que  no se menciona el tipo de trámite que desea realizar, la pregunta es clara y específica en cuanto a lo que se busca saber: la variabilidad en la afluencia de personas. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional. La claridad y especificidad de la pregunta permiten que se comprenda completamente por sí sola.
-        
-        no se requiere mayor contexto para que la pregunta pueda responder se manera apropiada ya que se esta haciendo muy claro y especifico en lo que desea saber y el asistente al estar familiarizado con las normativas académicas e informacion de la universidad puede comprender la situación. Por lo tanto, la pregunta es específica y clara, y con el contexto suficiente para que se entienda completamente por sí sola.
+- Ejemplo 3: Entiendo, ¿También quisiera saber si es que un dia con menos fluencia de personas en la Mesa de Partes o siempre es igual?
+        - Análisis: La pregunta del usuario se refiere a la afluencia de personas en la Mesa de Partes de la universidad, buscando información sobre si hay días más tranquilos para realizar un trámite. A pesar, que no se proporciona contexto adicional sobre a que facultad o universidad pertenece la Mesa de Partes al manejarse por defecto el contexto de la facultad de ciencias de la UNI el asistente puede inferir que se esta preguntando sobre la Mesa de Parte de la Facultad sin necesidad de tener mayor contexto. Ademas, la pregunta es clara, directa y específica en cuanto a lo que se busca saber: la variabilidad en la afluencia de personas, lo cual es algo general que se puede responder de manera adecuada sin necesidad de mayor contexto. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
+- Ejemplo 4: Cuanto tiempo tardaran en darme, la constancia?
+        - Análisis: La pregunta del usuario se refiere al tiempo que tarda en estar lista una constancia. A pesar, de manejar por defecto el contexto de la facultad y que el asistente conozca las normativas de la Universidad es relevante saber de que constancia especifica se esta hablando para poder responde de manera precisa y adecuada. Por otra lado. La pregunta es clara y directa, ya que busca información específica sobre el tiempo de espera, lo cual podría responderse de manera general, sin embargo, para responderse de manera mas adecuada y especifica es necesario la información sobre el tipo de constancia. Por lo tanto, no hay suficiente contexto para entender la pregunta sin necesidad del contexto previo.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
 
 Realiza el análisis de manera minuciosa basándote en los criterios y ejemplos anteriores e indica de la siguiente manera si es que la ultima pregunta del usuario proporcionada se entiende sin necesidad del historial:
  
@@ -574,14 +575,19 @@ examples = [{
 {   "history_chat_messages": [],
     "query": "Perfecto, eso me ayuda. ¿Sabes si hay algún día en particular que sea más tranquilo para ir a Mesa de Partes, o siempre está igual de lleno?",
     "entendible": True
-}]
+},
+{   "history_chat_messages": [],
+    "query": "¿Y cuánto tiempo suele tardar en procesarse la constancia una vez que entrego todo? ¿Hay algún horario específico para dejar el comprobante en mesa de partes?",
+    "entendible": False
+}
+]
 
 ## Respuesta a esto:
 """Análisis: La pregunta del usuario se refiere a la afluencia de personas en la Mesa de Partes de la universidad, buscando identificar si hay días más tranquilos para realizar un trámite. Sin embargo, no se proporciona contexto adicional sobre el tipo de trámite que desea realizar ni la razón por la cual le interesa saber sobre los días más tranquilos. Aunque la pregunta es clara en su formulación y se entiende que el usuario busca información sobre la carga de trabajo en la Mesa de Partes, la falta de información sobre el propósito específico de su visita limita la comprensión total de la situación. En términos de especificidad, la pregunta es concreta y puede ser respondida con información sobre los días más o menos concurridos, pero la ausencia de contexto sobre el trámite o la urgencia de su visita hace que no se entienda completamente por sí sola. Por lo tanto, aunque la pregunta es clara y específica, la falta de contexto hace que no se entienda completamente por sí sola.
 - La última pregunta del usuario se entiende sin necesidad del historial del chat: No"""
 count_good_pred = 0
 
-for example in examples[-1:]:
+for example in examples[:]:
 # que no es suficientemente descrita en el mensaje para poder entender completamente el contexto del mensaje.
     history_messages_chat = example["history_chat_messages"]
     history_chat = format_text_history_chat(history_messages_chat)
