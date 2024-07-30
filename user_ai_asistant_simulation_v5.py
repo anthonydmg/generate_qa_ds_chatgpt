@@ -696,8 +696,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/data/faq_12_reformulated.json"
-    filename = "faq_12_reformulated.json"
+    path_file = "./faq-reformulated/data/faq_1_reformulated.json"
+    filename = "faq_1_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
@@ -710,7 +710,7 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 1   
+    start = 0   
     end = min(5, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
