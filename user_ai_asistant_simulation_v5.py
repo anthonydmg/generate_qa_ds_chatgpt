@@ -242,6 +242,7 @@ class AIAssistant:
 
         self.embedding_model = embedding_model
         self.model = model
+        self.model_emb = None
     #     3. Evita declaraciones excesivamente formales y responde de manera concisa y servicial a mensajes de agradecimientos finales del usuario.
     #     5. Evita declaraciones excesivamente formales y responde de manera concisa y servicial a mensajes agradecimientos del usuario.
     # , sin ser excesivamente formal y responde de manera concisa y servicial a mensajes de agradecimiento del usuario
@@ -352,8 +353,10 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         return prompt_response_to_query
     ## prev context
     def create_embedding_from_hf(self, query, model_name):
-        model = SentenceTransformer(model_name, trust_remote_code=True)
-        embeddings = model.encode(query)
+        if self.model_emb is None:
+            self.model_emb = SentenceTransformer(model_name, trust_remote_code=True)
+        
+        embeddings = self.model_emb.encode(query)
         #print("embeddings shape:", embeddings.shape)
         return embeddings
     
