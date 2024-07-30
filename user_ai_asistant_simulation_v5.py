@@ -696,8 +696,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/data/faq_1_reformulated.json"
-    filename = "faq_1_reformulated.json"
+    path_file = "./faq-reformulated/data/faq_2_reformulated.json"
+    filename = "faq_2_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:
