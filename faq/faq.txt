@@ -312,5 +312,5 @@ Respuesta:  Para acceder a la plataforma de intranet-alumnos de la UNI, debes se
 1. Ingresa a la [página web de la DIRCE de la UNI](https://dirce.uni.edu.pe/).
 2. En la página principal, busca la opción "Acceso a alumnos".
 3. Al hacer click se abrirá a la plataforma intranet-alumnos en una nueva ventana.
-4. Se te pedirá que ingreses tus credenciales de acceso. Utiliza la clave que te ha sido enviada a tu correo electrónico por la Dirección de Registros Central y Estadística (DIRCE). # al momento de tu ingreso
+4. Se te pedirá que ingreses tus credenciales de acceso. Utiliza la clave que te ha sido enviada a tu correo electrónico por la Dirección de Registros Central y Estadística (DIRCE) cuando realizaste tu matricula como nuevo ingresante.
 5. Una vez que hayas ingresado, podrás acceder a información académica relacionada con tu matrícula y cursos, además de realizar diversos trámites de manera virtual.

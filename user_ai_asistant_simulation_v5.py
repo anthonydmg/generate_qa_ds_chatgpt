@@ -711,7 +711,7 @@ if __name__ == "__main__":
     print("num_questions:", num_questions)
 
     start = 0   
-    end = min(5, num_questions)
+    end = min(4, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
@@ -747,11 +747,11 @@ if __name__ == "__main__":
         print("\n\033[32mAssistant:\033[0m", response_ai_assistant)
         
         time.sleep(15)
-        num_turns = random.choice([2,3])
+        num_turns = random.choice([2,3,4])
         
         for i in range(num_turns):
             additional_prob_finish = (i) * 0.05 
-            finish_conversation = numpy.random.choice([True, False],1, p = [0.3 + additional_prob_finish,0.7 - additional_prob_finish])[0]
+            finish_conversation = numpy.random.choice([True, False],1, p = [0.25 + additional_prob_finish,0.75 - additional_prob_finish])[0]
            
             if i >= 1 and finish_conversation:
                 print("\nfinish_conversation:",finish_conversation)
