@@ -3,7 +3,7 @@ import os
 import re
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 set_openai_key()
 
@@ -158,8 +158,8 @@ def generate_reformulated_faq(faqs, times_samples = 8):
         grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
         sobran = len(choices) % 3
         
-        #if iter < 20:
-        #    continue
+        if iter < 10:
+           continue
 
         if sobran > 0:
             grupos = grupos + [choices[-3:]]
@@ -178,6 +178,6 @@ def generate_reformulated_faq(faqs, times_samples = 8):
 
     return reformulated_faqs
         
-reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 10)
+reformulated_faqs = generate_reformulated_faq(faqs, times_samples = 12)
 
 save_json("./faq", "reformulated_faqs", reformulated_faqs)

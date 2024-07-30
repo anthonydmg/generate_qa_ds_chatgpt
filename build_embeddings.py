@@ -242,7 +242,7 @@ for i in range(len(subsections)):
      """
 
 EMBEDDING_MODEL = "text-embedding-3-small"
-BATCH_SIZE = 20
+BATCH_SIZE = 10
 embeddings = []
 print("\nNumero de secciones encontradas:", len(text_subsections))
 for batch_start in range(0, len(text_subsections), BATCH_SIZE):
