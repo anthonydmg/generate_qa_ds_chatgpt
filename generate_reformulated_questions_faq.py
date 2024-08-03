@@ -158,8 +158,8 @@ def generate_reformulated_faq(faqs, times_samples = 8):
         grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
         sobran = len(choices) % 3
         
-        if iter < 10:
-           continue
+        #if iter < 10:
+        #   continue
 
         if sobran > 0:
             grupos = grupos + [choices[-3:]]

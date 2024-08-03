@@ -1,10 +1,10 @@
 from utils import filtered_questions_reformulated_rouge, flat_questions_reformulate, join_reformulated_questions, load_json, save_json
 
-#reformulated_faqs = load_json("./faq/reformulated_faqs.json")
+reformulated_faqs = load_json("./faq/reformulated_faqs.json")
 
-#reformulated_faqs_joined = join_reformulated_questions(reformulated_faqs)
+reformulated_faqs_joined = join_reformulated_questions(reformulated_faqs)
 
-#save_json("./faq", "reformulated_faqs_joined", reformulated_faqs_joined)
+save_json("./faq", "reformulated_faqs_joined", reformulated_faqs_joined)
 
 reformulated_faqs_joined = load_json("./faq/reformulated_faqs_joined.json")
 

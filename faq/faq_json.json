@@ -91,18 +91,18 @@
     },
     {
         "question": "\u00bfHasta cuando se puede solicitar el retiro total?",
-        "answer": "El Retiro Total puede ser solicitado hasta una semana antes de los ex\u00e1menes parciales, a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos). De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los ex\u00e1menes finales en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente.",
+        "answer": "El Retiro Total puede ser solicitado hasta una semana antes de los ex\u00e1menes parciales, a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos). De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los ex\u00e1menes finales en casos debidamente justificados, por causa de enfermedad grave del estudiante o de un ascendiente o descendiente (en primer grado) y certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente.",
         "topic": "Fechas para el Retiro Total",
-        "num_tokens_answers": 134
+        "num_tokens_answers": 140
     },
     {
         "question": "\u00bfPor cuales motivos un estudiante puede solicitar un retiro total?",
-        "answer": "El retiro total procede por motivos de fuerza mayor, los cuales pueden ser:\n- Viaje al extranjero\n- Accidente limitante \n- Enfermedad limitante\n- Emergencia familiar limitante",
+        "answer": "El retiro total puede solicitarse hasta una semana antes de los ex\u00e1menes parciales y procede de oficio, con excepci\u00f3n de estudiantes en riesgo acad\u00e9mico, por motivos como viaje al extranjero, accidente, enfermedad limitante o emergencia familiar limitante.\n\nDe manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los ex\u00e1menes finales por enfermedad grave del estudiante o de un ascendiente o descendiente en primer grado, certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD, o por otros motivos debidamente justificados.\n\nNo constituyen fundamento v\u00e1lido para el retiro total el desempe\u00f1o de un trabajo pactado antes o despu\u00e9s de la matr\u00edcula, ni las limitaciones de salud, ni los viajes, siempre y cuando estos \u00faltimos no sean menores de 30 d\u00edas, salvo que se consideren esenciales y ocurran durante los ex\u00e1menes finales.",
         "topic": "Motivos para el Retiro Total",
-        "num_tokens_answers": 48
+        "num_tokens_answers": 220
     },
     {
-        "question": "\u00bfUn estudiante puede matricularse en un curso y su pre requisito?",
+        "question": "\u00bfUn estudiante puede matricularse en un curso y su curso pre requisito en el mismo ciclo?",
         "answer": "Podr\u00e1n solicitar el beneficio de matricularse en una asignatura y en su asignatura prerequisito en el mismo ciclo, \u00fanicamente aquellos estudiantes que cumplan con la condici\u00f3n de ser un \"estudiante en posibilidad de egresar\". Este t\u00e9rmino se refiere a los alumnos a quienes, en el momento de la matr\u00edcula, les falten como m\u00e1ximo treinta (30) cr\u00e9ditos para completar su Plan de Estudios y poder graduarse de la Universidad. Los estudiantes que cumplan con esta condici\u00f3n y deseen matricularse en un curso y su prerequisito deber\u00e1n comunicarse con su escuela profesional correspondiente con al menos 3 d\u00edas h\u00e1biles de anticipaci\u00f3n a las fechas de matr\u00edcula regular, para que su solicitud sea evaluada y aprobada por el director de la escuela correspondiente.",
         "topic": "Matricula de Curso y su Prerequisito",
         "num_tokens_answers": 183
@@ -145,9 +145,9 @@
     },
     {
         "question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y correo de contacto de la oficina de estad\u00edstica o AERA?",
-        "answer": "El horario del \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos es de Lunes a Viernes de 8:00 a.m. a 4:00 p.m. El correo de contacto es estadistica_fc@uni.edu.pe",
+        "answer": "El horario del \u00c1rea de Estad\u00edstica y Registros Acad\u00e9micos de la Facultad de Ciencias es de Lunes a Viernes de 8:00 a.m. a 4:00 p.m. El correo de contacto es estadistica_fc@uni.edu.pe",
         "topic": "Informaci\u00f3n de contacto y horario de atenci\u00f3n oficina de estad\u00edstica o AERA de la Facultad de Ciencias de",
-        "num_tokens_answers": 51
+        "num_tokens_answers": 59
     },
     {
         "question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y correo de contacto de las Escuelas Profesionales de la Facultad de Ciencias de la UNI?",
@@ -156,10 +156,10 @@
         "num_tokens_answers": 115
     },
     {
-        "question": "\u00bfEn donde un estudiante puede visualizar la lista de cursos y sus respectivos horarios?",
-        "answer": "La lista completa de cursos junto con sus horarios correspondientes se publica en la secci\u00f3n [\"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Adem\u00e1s, cada estudiante puede acceder a ellos desde la plataforma intranet-alumnos.",
+        "question": "\u00bfD\u00f3nde puede un estudiante visualizar la lista de cursos y sus respectivos horarios para el ciclo academico actual o el pr\u00f3ximo a empezar?",
+        "answer": "La lista completa de los cursos que ser\u00e1n impartidos en el ciclo academico (semestre) junto con sus horarios y profesores correspondientes es publicado con respectiva anticipaci\u00f3n a la matricula en la secci\u00f3n [\"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Adem\u00e1s, cada estudiante tambien puede encontrar informaci\u00f3n sobre los cursos y horarios dentro de la plataforma intranet-alumnos.",
         "topic": "Horarios de Cursos",
-        "num_tokens_answers": 71
+        "num_tokens_answers": 106
     },
     {
         "question": "\u00bfCual es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Parte de Orce?",
@@ -241,8 +241,8 @@
     },
     {
         "question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI?",
-        "answer": "Para acceder a la plataforma de intranet-alumnos de la UNI, debes seguir los siguientes pasos:\n1. Ingresa a la [p\u00e1gina web de la DIRCE de la UNI](https://dirce.uni.edu.pe/).\n2. En la p\u00e1gina principal, busca la opci\u00f3n \"Acceso a alumnos\".\n3. Al hacer click se abrir\u00e1 a la plataforma intranet-alumnos en una nueva ventana.\n4. Se te pedir\u00e1 que ingreses tus credenciales de acceso. Utiliza la clave que te ha sido enviada a tu correo electr\u00f3nico por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE). # al momento de tu ingreso\n5. Una vez que hayas ingresado, podr\u00e1s acceder a informaci\u00f3n acad\u00e9mica relacionada con tu matr\u00edcula y cursos, adem\u00e1s de realizar diversos tr\u00e1mites de manera virtual.",
+        "answer": "Para acceder a la plataforma de intranet-alumnos de la UNI, debes seguir los siguientes pasos:\n1. Ingresa a la [p\u00e1gina web de la DIRCE de la UNI](https://dirce.uni.edu.pe/).\n2. En la p\u00e1gina principal, busca la opci\u00f3n \"Acceso a alumnos\".\n3. Al hacer click se abrir\u00e1 a la plataforma intranet-alumnos en una nueva ventana.\n4. Se te pedir\u00e1 que ingreses tus credenciales de acceso. Utiliza la clave que te ha sido enviada a tu correo electr\u00f3nico por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE) cuando realizaste tu matricula como nuevo ingresante.\n5. Una vez que hayas ingresado, podr\u00e1s acceder a informaci\u00f3n acad\u00e9mica relacionada con tu matr\u00edcula, cursos matriculados, tu avance curricular y adeudos, adem\u00e1s de realizar diversos tr\u00e1mites de manera virtual.",
         "topic": "Acceder a la plataforma de intranet-alumnos de la UNI",
-        "num_tokens_answers": 185
+        "num_tokens_answers": 201
     }
 ]

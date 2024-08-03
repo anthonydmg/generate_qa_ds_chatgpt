@@ -439,7 +439,9 @@ mensaje del usuario: ```{query}```
     
         response  = get_completion_from_messages(
         messages=messages,
-        model="gpt-3.5-turbo-0125")
+        model=self.model,
+        #model="gpt-3.5-turbo-0125"
+        )
         
         return self.extract_contains_questions(response) != "No"
 
@@ -462,7 +464,7 @@ Criterios:
 
 Ejemplos:
 - Ejemplo 1: ¿También podría usar el certificado medico, de una clínica privada?
-        - Análisis: La pregunta del usuario se refiere a la posibilidad de utilizar un certificado médico de una clínica privada en lugar de uno específico del Centro Médico de la UNI. Sin embargo, no se proporciona contexto adicional sobre el propósito del certificado, lo que es relevante para poder entender completamente la pregunta. Aunque, la pregunta es clara en su formulación y se entiende que el usuario está buscando una alternativa a un requisito específico, la falta de información sobre el contexto (por ejemplo, si se trata de un requisito para un examen, un trámite, etc.) dificulta la comprensión total de la situación. En cuestión de especificidad, la pregunta es concreta y puede ser respondida con un "sí" o "no", pero la falta de información sobre el propósito del certificado limita la comprensión total de la situación, a pesar de, que el asistente este familiarizado con las normativas académicas de la universidad no podría inferir sobre que certificado se trata y tampoco se podría proporcionar una respuesta adecuada. Por lo tanto, aunque la pregunta es clara y específica, la falta de contexto hace que no se entienda completamente por sí sola.
+        - Análisis: La pregunta del usuario se refiere a la posibilidad de utilizar un certificado médico de una clínica privada en lugar de uno específico del Centro Médico de la UNI. Esta pregunta indica que hay requisito relacionado con la presentación de un certificado médico, a pesar de ser especifico en cuanto al tipo de certificado la información sobre el contexto (por ejemplo, si se trata de un requisito para un examen, un trámite, etc.), es necesaria para comprender la situación completa. Aunque, el asistente esté familiarizado con las normativas académicas de la universidad, no podría inferir con certeza a qué requisito o trámite se refiere la presentación del certificado, lo cual es crucial es esta caso para que la pregunta pueda responderse de manera satisfactoria y adecuada. Por lo tanto, aunque la pregunta es clara y específica, la falta de contexto impide que se entienda completamente por sí sola.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
 - Ejemplo 2: ¿Y cómo se hace esa solicitud? ¿Hay algún formato específico o solo es un correo al director?
         - Análisis: La pregunta del usuario se refiere a una solicitud de una constancia y si hay algún formato o se envía solo un correo al director. Sin embargo, el contexto sobre qué tipo de solicitud se está solicitando no se menciona, lo que es relevante para entender completamente la pregunta. A pesar, que el asistente este familiarizado con las normativas académicas de la universidad no podría inferir de que tramite se trata, si ese información la pregunta no seria clara ni especifica sobre a que se refiere y no se podría responder de forma adecuada. Por lo tanto, la falta de contexto hace que la pregunta no se entienda completamente por sí sola.
@@ -471,7 +473,13 @@ Ejemplos:
         - Análisis: La pregunta del usuario se refiere a la afluencia de personas en la Mesa de Partes de la universidad, buscando información sobre si hay días más tranquilos para realizar un trámite. A pesar, que no se proporciona contexto adicional sobre a que facultad o universidad pertenece la Mesa de Partes al manejarse por defecto el contexto de la facultad de ciencias de la UNI el asistente puede inferir que se esta preguntando sobre la Mesa de Parte de la Facultad sin necesidad de tener mayor contexto. Ademas, la pregunta es clara, directa y específica en cuanto a lo que se busca saber: la variabilidad en la afluencia de personas, lo cual es algo general que se puede responder de manera adecuada sin necesidad de mayor contexto. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
 - Ejemplo 4: Cuanto tiempo tardaran en darme, la constancia?
-        - Análisis: La pregunta del usuario se refiere al tiempo que tarda en estar lista una constancia. A pesar, de manejar por defecto el contexto de la facultad y que el asistente conozca las normativas de la Universidad es relevante saber de que constancia especifica se esta hablando para poder responde de manera precisa y adecuada. Por otra lado. La pregunta es clara y directa, ya que busca información específica sobre el tiempo de espera, lo cual podría responderse de manera general, sin embargo, para responderse de manera mas adecuada y especifica es necesario la información sobre el tipo de constancia. Por lo tanto, no hay suficiente contexto para entender la pregunta sin necesidad del contexto previo.
+        - Análisis: La pregunta del usuario se refiere al tiempo que tarda en estar lista una constancia. A pesar, de manejar por defecto el contexto de la facultad y que el asistente conozca las normativas de la Universidad es relevante saber de que constancia especifica se esta hablando para poder responde de manera precisa y adecuada. Por otra lado. La pregunta es clara y directa, ya que busca información específica sobre el tiempo de espera, lo cual podría responderse de manera general, sin embargo, para responderse de manera adecuada y especifica es necesario la información sobre el tipo de constancia. Por lo tanto, no hay suficiente contexto para entender la pregunta sin necesidad del contexto previo.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
+- Ejemplo 5: Entonces, ¿Sabes si la oficina de escuelas profesionales tiene un horario fijo para atender de manera presencial?
+        - Análisis: La pregunta del usuario se refiere a si la oficina de escuelas profesionales tiene un horario fijo para la atención presencial. Es específica y clara en cuanto a la oficina de la cual se desea obtener información y al tipo de información solicitada (el horario de atención de la oficina de escuelas profesionales). Esta consulta puede ser respondida de manera adecuada sin necesidad de mayor contexto sobre el trámite que se desea realizar o el motivo de la visita. Por lo tanto, hay suficiente contexto para entender la pregunta sin requerir información adicional.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
+- Ejemplo 6: Y que correo puedo escribirles?
+        - Análisis: La pregunta del usuario por un correo para contactar a una entidad o persona específica, aunque no se menciona explícitamente a quién se refiere con "ellos". Esa informacion contextual es crucial y relevante en esta pregunta, para poder dar una respuesta adecuada a la consulta. A pesar que el asistente este familiarizado con las normativas academico y se asuma que se refiere a algun contacto dentro del ámbito académico de la universidad, al no tener la informacion especifica de a quien se refiere no se podria podricirnar una respuesta adecuada. Por lo tanto, no hay suficiente contexto para entender la pregunta sin necesidad del contexto previo.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
 
 Realiza el análisis de manera minuciosa basándote en los criterios y ejemplos anteriores e indica de la siguiente manera si es que la ultima pregunta del usuario proporcionada se entiende sin necesidad del historial:
@@ -584,7 +592,7 @@ Historial del chat: {history_chat}
                 query = query, 
                 context = context,
                 df = self.df_kb, 
-                top_n = 10
+                top_n = 8
                 )
             
             self.recovered_texts.append([{"text": text, "relatedness": relatedness } for text , relatedness in zip(info_texs, relatednesses)])
@@ -699,8 +707,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/data/faq_3_reformulated.json"
-    filename = "faq_3_reformulated.json"
+    path_file = "./faq-reformulated/data/faq_16_reformulated.json"
+    filename = "faq_16_reformulated.json"
     questions_faq = load_json(path_file)
 
     #for questions_about_topic in questions_topics[0:1]:

@@ -206,9 +206,14 @@ EMBEDDING_MODEL_OPENAI = "text-embedding-3-small"
 
 EMBEDDING_MODEL_HF = "jinaai/jina-embeddings-v2-base-es"
 
-def create_embeddings_from_hugginface(inputs, model_name = EMBEDDING_MODEL_HF):
-    model = SentenceTransformer(model_name, trust_remote_code=True)
-    embeddings = model.encode(inputs)
+model_hf = None
+
+def create_embeddings_from_hugginface(inputs, model_hf = EMBEDDING_MODEL_HF):
+    #if model_hf is None:
+    #    print("\nLoad Model")
+    #    model_hf = SentenceTransformer(model_name, trust_remote_code=True)
+    
+    embeddings = model_hf.encode(inputs)
     #print(type(embeddings))
     #embeddings = embeddings.numpy()
     #print(type(embeddings))
@@ -245,11 +250,14 @@ EMBEDDING_MODEL = "text-embedding-3-small"
 BATCH_SIZE = 10
 embeddings = []
 print("\nNumero de secciones encontradas:", len(text_subsections))
+
+model_hf = SentenceTransformer(EMBEDDING_MODEL_HF, trust_remote_code=True)
+
 for batch_start in range(0, len(text_subsections), BATCH_SIZE):
     batch_end = min(batch_start + BATCH_SIZE, len(text_subsections))
     batch = text_subsections[batch_start:batch_end]
     print(f"Batch {batch_start} to {batch_end-1}")
-    batch_embeddings = create_embeddings_from_hugginface(inputs=batch)
+    batch_embeddings = create_embeddings_from_hugginface(inputs=batch, model_hf = model_hf)
     embeddings.extend(batch_embeddings)
 
 df = pd.DataFrame({"type_source": type_sources ,"topic": general_topics_subsections, "text": text_subsections, "embedding": embeddings})

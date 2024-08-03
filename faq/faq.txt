@@ -144,20 +144,20 @@ De manera excepcional, un estudiante puede solicitar el retiro total, en casos d
 Tema: Fechas para el Retiro Total 
 
 Pregunta: ¿Hasta cuando se puede solicitar el retiro total?
-Respuesta: El Retiro Total puede ser solicitado hasta una semana antes de los exámenes parciales, a través de la plataforma SIGA-DIRCE (intranet-alumnos). De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los exámenes finales en casos debidamente justificados, por causa de enfermedad grave ascendiente o descendiente (en primer grado) y certificado por el Centro Médico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente. 
+Respuesta: El Retiro Total puede ser solicitado hasta una semana antes de los exámenes parciales, a través de la plataforma SIGA-DIRCE (intranet-alumnos). De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los exámenes finales en casos debidamente justificados, por causa de enfermedad grave del estudiante o de un ascendiente o descendiente (en primer grado) y certificado por el Centro Médico de la UNI, MINSA o ESSALUD. Dicha solicitud sera evaluada por el Consejo Directivo de la Escuela Profesional correspondiente. 
 
 Tema: Motivos para el Retiro Total 
 
 Pregunta: ¿Por cuales motivos un estudiante puede solicitar un retiro total?
-Respuesta: El retiro total procede por motivos de fuerza mayor, los cuales pueden ser:
-- Viaje al extranjero
-- Accidente limitante 
-- Enfermedad limitante
-- Emergencia familiar limitante
+Respuesta: El retiro total puede solicitarse hasta una semana antes de los exámenes parciales y procede de oficio, con excepción de estudiantes en riesgo académico, por motivos como viaje al extranjero, accidente, enfermedad limitante o emergencia familiar limitante.
+
+De manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los exámenes finales por enfermedad grave del estudiante o de un ascendiente o descendiente en primer grado, certificado por el Centro Médico de la UNI, MINSA o ESSALUD, o por otros motivos debidamente justificados.
+
+No constituyen fundamento válido para el retiro total el desempeño de un trabajo pactado antes o después de la matrícula, ni las limitaciones de salud, ni los viajes, siempre y cuando estos últimos no sean menores de 30 días, salvo que se consideren esenciales y ocurran durante los exámenes finales.
 
 Tema: Matricula de Curso y su Prerequisito 
 
-Pregunta: ¿Un estudiante puede matricularse en un curso y su pre requisito?
+Pregunta: ¿Un estudiante puede matricularse en un curso y su curso pre requisito en el mismo ciclo?
 Respuesta: Podrán solicitar el beneficio de matricularse en una asignatura y en su asignatura prerequisito en el mismo ciclo, únicamente aquellos estudiantes que cumplan con la condición de ser un "estudiante en posibilidad de egresar". Este término se refiere a los alumnos a quienes, en el momento de la matrícula, les falten como máximo treinta (30) créditos para completar su Plan de Estudios y poder graduarse de la Universidad. Los estudiantes que cumplan con esta condición y deseen matricularse en un curso y su prerequisito deberán comunicarse con su escuela profesional correspondiente con al menos 3 días hábiles de anticipación a las fechas de matrícula regular, para que su solicitud sea evaluada y aprobada por el director de la escuela correspondiente.
 
 Tema: Solicitar Vacantes adicionales 
@@ -193,7 +193,7 @@ Respuesta: Un estudiante no puede retirarse de todos los cursos en las que esta 
 
 Tema: Información de contacto y horario de atención oficina de estadística o AERA de la Facultad de Ciencias de
 Pregunta: ¿Cuál es el horario de atención y correo de contacto de la oficina de estadística o AERA?
-Respuesta: El horario del Área de Estadística y Registros Académicos es de Lunes a Viernes de 8:00 a.m. a 4:00 p.m. El correo de contacto es estadistica_fc@uni.edu.pe
+Respuesta: El horario del Área de Estadística y Registros Académicos de la Facultad de Ciencias es de Lunes a Viernes de 8:00 a.m. a 4:00 p.m. El correo de contacto es estadistica_fc@uni.edu.pe
 
 Tema: Información de contacto y horario de atención oficina de Escuelas Profesionales de la Facultad de Ciencias
 Pregunta: ¿Cuál es el horario de atención y correo de contacto de las Escuelas Profesionales de la Facultad de Ciencias de la UNI?
@@ -204,8 +204,8 @@ Para Física, Química o Ciencia de la Computación: escuelas_fc1@uni.edu.pe
 Para Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 
 Tema: Horarios de Cursos 
-Pregunta: ¿En donde un estudiante puede visualizar la lista de cursos y sus respectivos horarios?
-Respuesta: La lista completa de cursos junto con sus horarios correspondientes se publica en la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Además, cada estudiante puede acceder a ellos desde la plataforma intranet-alumnos.
+Pregunta: ¿Dónde puede un estudiante visualizar la lista de cursos y sus respectivos horarios para el ciclo academico actual o el próximo a empezar?
+Respuesta: La lista completa de los cursos que serán impartidos en el ciclo academico (semestre) junto con sus horarios y profesores correspondientes es publicado con respectiva anticipación a la matricula en la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Además, cada estudiante tambien puede encontrar información sobre los cursos y horarios dentro de la plataforma intranet-alumnos.
 
 Tema: Información Mesa de Partes ORCE
 Pregunta: ¿Cual es el horario de atención y el correo de contacto de la oficina de Mesa de Parte de Orce?
@@ -313,4 +313,4 @@ Respuesta:  Para acceder a la plataforma de intranet-alumnos de la UNI, debes se
 2. En la página principal, busca la opción "Acceso a alumnos".
 3. Al hacer click se abrirá a la plataforma intranet-alumnos en una nueva ventana.
 4. Se te pedirá que ingreses tus credenciales de acceso. Utiliza la clave que te ha sido enviada a tu correo electrónico por la Dirección de Registros Central y Estadística (DIRCE) cuando realizaste tu matricula como nuevo ingresante.
-5. Una vez que hayas ingresado, podrás acceder a información académica relacionada con tu matrícula y cursos, además de realizar diversos trámites de manera virtual.
+5. Una vez que hayas ingresado, podrás acceder a información académica relacionada con tu matrícula, cursos matriculados, tu avance curricular y adeudos, además de realizar diversos trámites de manera virtual.
