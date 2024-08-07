@@ -97,9 +97,9 @@
     },
     {
         "question": "\u00bfPor cuales motivos un estudiante puede solicitar un retiro total?",
-        "answer": "El retiro total puede solicitarse hasta una semana antes de los ex\u00e1menes parciales y procede de oficio, con excepci\u00f3n de estudiantes en riesgo acad\u00e9mico, por motivos como viaje al extranjero, accidente, enfermedad limitante o emergencia familiar limitante.\n\nDe manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los ex\u00e1menes finales por enfermedad grave del estudiante o de un ascendiente o descendiente en primer grado, certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD, o por otros motivos debidamente justificados.\n\nNo constituyen fundamento v\u00e1lido para el retiro total el desempe\u00f1o de un trabajo pactado antes o despu\u00e9s de la matr\u00edcula, ni las limitaciones de salud, ni los viajes, siempre y cuando estos \u00faltimos no sean menores de 30 d\u00edas, salvo que se consideren esenciales y ocurran durante los ex\u00e1menes finales.",
+        "answer": "El retiro total puede solicitarse hasta una semana antes de los ex\u00e1menes parciales y procede de oficio, con excepci\u00f3n de estudiantes en riesgo acad\u00e9mico, por motivos como viaje al extranjero, accidente, enfermedad limitante o emergencia familiar limitante.\nDe manera excepcional, un estudiante puede solicitar el retiro total hasta una semana antes de los ex\u00e1menes finales por enfermedad grave del estudiante o de un ascendiente o descendiente en primer grado, certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD, o por otros motivos debidamente justificados. No constituyen fundamento v\u00e1lido para el retiro total el desempe\u00f1o de un trabajo pactado antes o despu\u00e9s de la matr\u00edcula, ni limitaciones de salud menores (menos de 30 dias) o viajes menores a 30 dias, salvo que se consideren esenciales y ocurran durante los ex\u00e1menes finales.",
         "topic": "Motivos para el Retiro Total",
-        "num_tokens_answers": 220
+        "num_tokens_answers": 219
     },
     {
         "question": "\u00bfUn estudiante puede matricularse en un curso y su curso pre requisito en el mismo ciclo?",
@@ -211,9 +211,9 @@
     },
     {
         "question": "\u00bfComo un estudiante de la UNI puede ver el estado de sus tramites?",
-        "answer": "El estado de las solicitudes presentadas a trav\u00e9s en el modulo de Tramites dentro del Portal INTRALU, puede ser visualizadas en la misma plataforma. Para otros tramites puede usar el n\u00famero de expediente correspondiente para realizar el seguimiento, ingresando a http://stduni.uni.pe/modalum",
+        "answer": "El estado de las solicitudes presentadas a trav\u00e9s en el modulo de Tramites dentro del Portal INTRALU o de la Plataforma Intranet-Alumnos, puede ser visualizadas en la misma plataforma. Para otros tramites puede usar el n\u00famero de expediente correspondiente para realizar el seguimiento, ingresando a http://stduni.uni.pe/modalum",
         "topic": "Estado de Tramites",
-        "num_tokens_answers": 65
+        "num_tokens_answers": 76
     },
     {
         "question": "\u00bfD\u00f3nde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matr\u00edcula para el ciclo acad\u00e9mico?",
@@ -240,9 +240,15 @@
         "num_tokens_answers": 381
     },
     {
-        "question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI?",
-        "answer": "Para acceder a la plataforma de intranet-alumnos de la UNI, debes seguir los siguientes pasos:\n1. Ingresa a la [p\u00e1gina web de la DIRCE de la UNI](https://dirce.uni.edu.pe/).\n2. En la p\u00e1gina principal, busca la opci\u00f3n \"Acceso a alumnos\".\n3. Al hacer click se abrir\u00e1 a la plataforma intranet-alumnos en una nueva ventana.\n4. Se te pedir\u00e1 que ingreses tus credenciales de acceso. Utiliza la clave que te ha sido enviada a tu correo electr\u00f3nico por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE) cuando realizaste tu matricula como nuevo ingresante.\n5. Una vez que hayas ingresado, podr\u00e1s acceder a informaci\u00f3n acad\u00e9mica relacionada con tu matr\u00edcula, cursos matriculados, tu avance curricular y adeudos, adem\u00e1s de realizar diversos tr\u00e1mites de manera virtual.",
-        "topic": "Acceder a la plataforma de intranet-alumnos de la UNI",
-        "num_tokens_answers": 201
+        "question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
+        "answer": "Para acceder a la plataforma de intranet-alumnos de la UNI, el estudiante debe ingresar a la [p\u00e1gina web de la DIRCE de la UNI](https://dirce.uni.edu.pe/). En la p\u00e1gina principal, debe seleccionar \"Acceso a alumnos\", lo que abrir\u00e1 la plataforma intranet-alumnos en una nueva ventana. Tambi\u00e9n puede accederse directamente a trav\u00e9s de este enlace: https://www.academico.uni.edu.pe/alumno/inicio\nPara iniciar sesi\u00f3n, el estudiante debe introducir su c\u00f3digo de alumno UNI y la clave proporcionada por la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE) durante la matr\u00edcula. Alternativamente, puede usar la autenticaci\u00f3n a trav\u00e9s del correo institucional.\nEn la plataforma de intranet-alumnos, el estudiante podr\u00e1 consultar los cursos matriculados en el periodo actual, revisar las notas del presente y de ciclos anteriores, y ver el avance curricular, que incluye los cursos realizados y los cr\u00e9ditos acumulados. Tambi\u00e9n podr\u00e1 acceder a la ficha acad\u00e9mica con los cursos cursados por periodo y realizar procedimientos o tr\u00e1mites como el retiro parcial, el retiro total y la reincorporaci\u00f3n.",
+        "topic": "Acceso y Contenido de la Plataforma de intranet-alumnos de la UNI",
+        "num_tokens_answers": 274
+    },
+    {
+        "question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma INTRALU de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
+        "answer": "Para acceder a INTRALU, el estudiante debe ingresar a la [plataforma intranet-alumnos de la UNI](https://www.academico.uni.edu.pe/alumno/inicio) y seleccionar \"Tr\u00e1mites o Pagos\" o \"Informaci\u00f3n Acad\u00e9mica\". Tambi\u00e9n puede acceder directamente con el siguiente enlace: https://alumnos.uni.edu.pe/login\nPara iniciar sesi\u00f3n, el estudiante deber\u00e1 proporcionar su c\u00f3digo de alumno UNI y la clave de acceso proporcionada por DIRCE. Tambi\u00e9n puede optar por utilizar la autenticaci\u00f3n a trav\u00e9s del correo institucional.\nEn INTRALU, el estudiante podr\u00e1 consultar los cursos matriculados en el periodo actual, las notas del presente y de ciclos anteriores, el avance curricular que incluye los cursos realizados y los cr\u00e9ditos acumulados, y la ficha acad\u00e9mica con los cursos cursados por periodo. Adem\u00e1s, el estudiante puede gestionar solicitudes y pagos para diversos certificados, como la constancia de estudios simple, la constancia de primera matr\u00edcula y la constancia de no adeudos, entre otros. Tambi\u00e9n puede generar \u00f3rdenes de pago y realizar pagos para tr\u00e1mites como AUTOSEGURO Estudiantil, carnet universitario, matr\u00edcula rezagada y reincorporaci\u00f3n, entre otros.",
+        "topic": "Acceso y Contenido de la plataforma INTRALU de la UNI",
+        "num_tokens_answers": 295
     }
 ]
