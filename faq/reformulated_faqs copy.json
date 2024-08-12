@@ -1,0 +1,1328 @@
+[
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfMe podr\u00edas decir cu\u00e1les son los horarios de atenci\u00f3n y el correo electr\u00f3nico de la Mesa de Partes de DIRCE?",
+            "\u00bfCu\u00e1l es el horario de la oficina de Mesa de Partes de DIRCE y su correo de contacto?",
+            "Disculpa, \u00bfcu\u00e1les son los horarios y el correo de la Mesa de Partes de DIRCE?",
+            "Quisiera saber el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes de DIRCE, por favor.",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de DIRCE y cu\u00e1l es su correo?",
+            "\u00bfPodr\u00edas indicarme el horario y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+            "\u00bfQu\u00e9 horario tiene la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "Hola, \u00bfme puedes informar sobre el horario de atenci\u00f3n y el correo de la Mesa de Partes de DIRCE?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCual es el proceso para que un ingresante o alumno regular genere una orden de pago para el pago de autoseguro?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un ingresante o alumno regular generar una orden de pago para el autoseguro?",
+            "\u00bfCu\u00e1l es el procedimiento para que un estudiante genere una orden de pago por autoseguro?",
+            "Disculpa, \u00bfme podr\u00edas explicar c\u00f3mo un ingresante o alumno regular puede hacer una orden de pago para el autoseguro?",
+            "Quisiera saber el proceso que debe seguir un ingresante o alumno regular para generar una orden de pago de autoseguro.",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para crear una orden de pago para el autoseguro?",
+            "\u00bfPodr\u00edas indicarme c\u00f3mo un ingresante o alumno regular puede generar su orden de pago para el autoseguro?",
+            "\u00bfC\u00f3mo se hace la orden de pago por autoseguro para un ingresante o alumno regular?",
+            "Hola, \u00bfcu\u00e1l es el proceso que debe seguir un ingresante o alumno regular para generar una orden de pago de autoseguro?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular al ciclo acad\u00e9mico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+        "questions_generated": [
+            "\u00bfCu\u00e1les son los requisitos y el procedimiento para que un alumno regular de pregrado se matricule en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 requisitos necesita un estudiante regular para matricularse en el ciclo acad\u00e9mico de la Facultad de Ciencias?",
+            "Disculpa, \u00bfme podr\u00edas detallar los requisitos y el proceso de matr\u00edcula para alumnos regulares de pregrado en la Facultad de Ciencias?",
+            "Quisiera saber qu\u00e9 requisitos y pasos debe seguir un alumno regular para matricularse en la Facultad de Ciencias.",
+            "\u00bfQu\u00e9 necesita un estudiante regular para completar su matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas explicarme los requisitos y el proceso de matr\u00edcula para los alumnos regulares de pregrado en la Facultad de Ciencias?",
+            "\u00bfC\u00f3mo es el proceso de matr\u00edcula regular para un alumno de pregrado en la Facultad de Ciencias y qu\u00e9 requisitos debe cumplir?",
+            "Hola, \u00bfcu\u00e1les son los requisitos y el procedimiento para que un alumno regular de pregrado se matricule en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas explicarme el proceso que debe seguir un estudiante de pregrado en la Facultad de Ciencias para cambiarse a otra carrera?",
+            "\u00bfQu\u00e9 pasos tiene que seguir un alumno de la Facultad de Ciencias para hacer un traslado interno a otra carrera?",
+            "\u00bfC\u00f3mo puede un estudiante de la Facultad de Ciencias solicitar un traslado interno a otra carrera?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de pregrado puede realizar un traslado interno en la Facultad de Ciencias. \u00bfCu\u00e1les son los pasos?",
+            "\u00bfCu\u00e1l es el procedimiento para que un estudiante de la Facultad de Ciencias cambie de carrera internamente?",
+            "\u00bfQu\u00e9 necesita hacer un estudiante de pregrado para trasladarse a otra carrera dentro de la Facultad de Ciencias?",
+            "\u00bfHay un procedimiento espec\u00edfico que un estudiante de la Facultad de Ciencias deba seguir para cambiar de carrera?",
+            "\u00bfPodr\u00edas darme detalles sobre c\u00f3mo un estudiante de pregrado puede realizar un traslado interno en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfEl pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?",
+        "questions_generated": [
+            "\u00bfEs necesario pagar el carnet universitario para poder matricularse en la Facultad de Ciencias?",
+            "\u00bfEl carnet universitario debe ser pagado antes de la matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfSe requiere el pago del carnet universitario para matricularse en la Facultad de Ciencias de la universidad?",
+            "Quisiera saber si el pago del carnet universitario es un requisito para la matr\u00edcula en la Facultad de Ciencias.",
+            "\u00bfEs obligatorio pagar el carnet universitario para la matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfEl pago del carnet universitario es un requisito indispensable para la matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfNecesito pagar el carnet universitario para poder matricularme en la Facultad de Ciencias?",
+            "\u00bfEl carnet universitario es un requisito para la matr\u00edcula en la Facultad de Ciencias, y si es as\u00ed, hay que pagarlo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma INTRALU de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado de la UNI para acceder a la plataforma INTRALU y qu\u00e9 servicios ofrece?",
+            "\u00bfC\u00f3mo puede un alumno de la UNI ingresar a INTRALU y qu\u00e9 tipo de informaci\u00f3n puede encontrar all\u00ed?",
+            "\u00bfQu\u00e9 necesita hacer un estudiante de pregrado para acceder a la plataforma INTRALU de la UNI y qu\u00e9 funcionalidades tiene?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de la UNI puede acceder a INTRALU y qu\u00e9 informaci\u00f3n puede obtener de esa plataforma.",
+            "\u00bfC\u00f3mo accede un estudiante de pregrado a INTRALU y qu\u00e9 servicios puede utilizar en esa plataforma?",
+            "\u00bfCu\u00e1les son los pasos para que un estudiante de la UNI entre a la plataforma INTRALU y qu\u00e9 informaci\u00f3n puede consultar?",
+            "\u00bfQu\u00e9 debe hacer un estudiante de pregrado para acceder a INTRALU y qu\u00e9 funcionalidades ofrece la plataforma?",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante de la UNI puede acceder a INTRALU y qu\u00e9 tipo de informaci\u00f3n puede gestionar all\u00ed?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la UNI para solicitar su correo institucional?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante de la UNI solicitar su correo institucional?",
+            "\u00bfQu\u00e9 pasos debe seguir un alumno de la UNI para obtener su correo institucional?",
+            "\u00bfPodr\u00edas indicarme el procedimiento para que un estudiante de la UNI obtenga su correo institucional?",
+            "\u00bfQu\u00e9 necesita hacer un estudiante de la UNI para conseguir su correo institucional?",
+            "\u00bfCu\u00e1les son los requisitos para que un estudiante de la UNI solicite su correo institucional?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de la UNI puede solicitar su correo institucional, \u00bfme puedes ayudar?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante de la UNI para que le den su correo institucional?",
+            "Si un estudiante de la UNI quiere solicitar su correo institucional, \u00bfqu\u00e9 pasos debe seguir?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo de contacto?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo electr\u00f3nico de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la oficina de Mesa de Partes en la Facultad de Ciencias y su correo electr\u00f3nico?",
+            "Me gustar\u00eda saber el horario de la Mesa de Partes de la Facultad de Ciencias y su direcci\u00f3n de correo.",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la Mesa de Partes de la Facultad de Ciencias? Tambi\u00e9n, \u00bfcu\u00e1l es su correo?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo me puedo comunicar con ellos por correo?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de la oficina de Mesa de Partes en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l plazo para que un estudiante puede solicitar su reserva de matricula?",
+        "questions_generated": [
+            "\u00bfHasta cu\u00e1ndo puede un estudiante solicitar la reserva de matr\u00edcula?",
+            "\u00bfCu\u00e1l es el plazo para que un alumno pida su reserva de matr\u00edcula?",
+            "\u00bfQu\u00e9 tiempo tiene un estudiante para solicitar la reserva de matr\u00edcula?",
+            "\u00bfPodr\u00edas informarme sobre el plazo para que un estudiante solicite su reserva de matr\u00edcula?",
+            "\u00bfCu\u00e1ndo debe un estudiante presentar su solicitud de reserva de matr\u00edcula?",
+            "\u00bfQu\u00e9 fechas debe tener en cuenta un estudiante para solicitar la reserva de matr\u00edcula?",
+            "Si un estudiante quiere reservar su matr\u00edcula, \u00bfcu\u00e1l es el plazo que tiene para hacerlo?",
+            "\u00bfCu\u00e1nto tiempo tiene un estudiante para solicitar la reserva de matr\u00edcula antes de la matr\u00edcula oficial?"
+        ]
+    },
+    {
+        "original_question": "\u00bfHasta que fecha un estudiante podr\u00e1 solicitar su Reincorporaci\u00f3n?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es la fecha l\u00edmite para que un estudiante presente su solicitud de reincorporaci\u00f3n?",
+            "Me gustar\u00eda saber hasta cu\u00e1ndo puedo solicitar mi reincorporaci\u00f3n, \u00bfme puedes ayudar?",
+            "\u00bfHasta qu\u00e9 d\u00eda tengo para solicitar la reincorporaci\u00f3n como estudiante?",
+            "\u00bfPodr\u00edas indicarme la fecha hasta la cual se puede solicitar la reincorporaci\u00f3n?",
+            "\u00bfQu\u00e9 fecha es la \u00faltima para que un estudiante pida su reincorporaci\u00f3n?",
+            "\u00bfHasta cu\u00e1ndo se puede hacer la solicitud de reincorporaci\u00f3n?",
+            "\u00bfHay un plazo espec\u00edfico para que los estudiantes soliciten su reincorporaci\u00f3n?",
+            "\u00bfCu\u00e1ndo es el \u00faltimo d\u00eda para que yo pueda solicitar mi reincorporaci\u00f3n?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n y el correo de la Mesa de Partes de DIRCE, \u00bfpuedes ayudarme?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfPodr\u00edas decirme el horario y el correo de contacto de la Mesa de Partes de DIRCE?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la Mesa de Partes de DIRCE y su direcci\u00f3n de correo?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la Mesa de Partes de DIRCE, y cu\u00e1l es su correo?",
+            "\u00bfHay un correo electr\u00f3nico para contactar a la Mesa de Partes de DIRCE y cu\u00e1l es su horario?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de DIRCE y c\u00f3mo puedo enviarles un correo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfD\u00f3nde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matr\u00edcula para el ciclo acad\u00e9mico?",
+        "questions_generated": [
+            "\u00bfD\u00f3nde puedo encontrar la informaci\u00f3n sobre las fechas y turnos de matr\u00edcula para el ciclo acad\u00e9mico?",
+            "\u00bfMe podr\u00edas indicar d\u00f3nde un estudiante de pregrado puede consultar las fechas y turnos de matr\u00edcula?",
+            "\u00bfEn qu\u00e9 lugar se publican las fechas y turnos de matr\u00edcula para los estudiantes de la Facultad de Ciencias?",
+            "\u00bfD\u00f3nde se puede verificar la fecha y el turno de matr\u00edcula para el ciclo acad\u00e9mico en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 sitio web o secci\u00f3n debo visitar para saber las fechas y turnos de matr\u00edcula?",
+            "\u00bfHay un enlace espec\u00edfico donde los estudiantes de pregrado puedan consultar sus fechas y turnos de matr\u00edcula?",
+            "\u00bfC\u00f3mo puede un estudiante de la Facultad de Ciencias encontrar su fecha y turno de matr\u00edcula?",
+            "\u00bfD\u00f3nde puedo ver la informaci\u00f3n sobre mi turno y fecha de matr\u00edcula para el ciclo acad\u00e9mico?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfMe podr\u00edas informar sobre el horario de atenci\u00f3n y el correo electr\u00f3nico de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1l es el horario y el correo de contacto para la oficina de Mesa de Partes en la Facultad de Ciencias?",
+            "\u00bfA qu\u00e9 hora abre y cierra la Mesa de Partes de la Facultad de Ciencias, y cu\u00e1l es su correo electr\u00f3nico?",
+            "Disculpa, \u00bfpodr\u00edas decirme el horario de la Mesa de Partes y su correo de contacto?",
+            "Hola, \u00bfcu\u00e1les son las horas de atenci\u00f3n de la Mesa de Partes en la Facultad de Ciencias y su direcci\u00f3n de correo?",
+            "Quisiera saber el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes, por favor.",
+            "\u00bfQu\u00e9 horario maneja la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfPodr\u00edas darme informaci\u00f3n sobre el horario y el correo de la Mesa de Partes de la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para reservar su matricula?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para hacer la reserva de su matr\u00edcula?",
+            "\u00bfC\u00f3mo puede un estudiante reservar su matr\u00edcula? \u00bfCu\u00e1les son los procedimientos?",
+            "\u00bfPodr\u00edas explicarme el proceso que un estudiante necesita seguir para reservar su matr\u00edcula?",
+            "Disculpa, \u00bfcu\u00e1l es el procedimiento para que un estudiante realice la reserva de matr\u00edcula?",
+            "Hola, \u00bfme podr\u00edas indicar c\u00f3mo un estudiante puede reservar su matr\u00edcula?",
+            "Quisiera saber qu\u00e9 debe hacer un estudiante para llevar a cabo la reserva de su matr\u00edcula, por favor.",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para solicitar la reserva de matr\u00edcula?",
+            "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para reservar su matr\u00edcula?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado para trasladarse a otra carrera dentro de la Facultad de Ciencias?",
+            "\u00bfC\u00f3mo puede un estudiante de la Facultad de Ciencias hacer un traslado interno a otra carrera?",
+            "\u00bfPodr\u00edas explicarme el procedimiento para que un estudiante de pregrado realice un traslado interno en la Facultad de Ciencias?",
+            "Disculpa, \u00bfcu\u00e1l es el proceso que debe seguir un estudiante para cambiarse a otra carrera dentro de la Facultad de Ciencias?",
+            "Hola, \u00bfme podr\u00edas indicar c\u00f3mo un estudiante de pregrado puede hacer un traslado interno a otra carrera en la Facultad de Ciencias?",
+            "Quisiera saber qu\u00e9 debe hacer un estudiante para realizar un traslado interno a otra carrera en la Facultad de Ciencias, por favor.",
+            "\u00bfQu\u00e9 procedimiento sigue un estudiante de pregrado para trasladarse a otra carrera en la misma Facultad?",
+            "\u00bfCu\u00e1les son los pasos que un estudiante de la Facultad de Ciencias necesita seguir para hacer un traslado interno a otra carrera?"
+        ]
+    },
+    {
+        "original_question": "\u00bfEl pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?",
+        "questions_generated": [
+            "\u00bfEs necesario pagar el carnet universitario para poder matricularme en la Facultad de Ciencias?",
+            "\u00bfEl carnet universitario tiene alg\u00fan costo que deba pagar antes de matricularme?",
+            "\u00bfNecesito haber pagado el carnet universitario para completar mi matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfPodr\u00eda confirmarme si el pago del carnet universitario es un requisito previo a la matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfEs obligatorio el pago del carnet universitario para la matr\u00edcula en la Facultad de Ciencias de la universidad?",
+            "\u00bfQu\u00e9 pasa si no pago el carnet universitario? \u00bfAfecta mi matr\u00edcula en la Facultad de Ciencias?",
+            "Oye, \u00bftengo que pagar el carnet universitario antes de matricularme en Ciencias?",
+            "\u00bfMe podr\u00edan aclarar si el pago del carnet universitario es un requisito para la matr\u00edcula en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante de pregrado para hacer un traslado interno a otra carrera en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante puede solicitar un traslado interno a otra carrera dentro de la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de la Facultad de Ciencias para cambiarse a otra carrera?",
+            "\u00bfMe puedes detallar el procedimiento para que un estudiante de pregrado realice un traslado interno en la Facultad de Ciencias?",
+            "\u00bfC\u00f3mo puede un estudiante de la Facultad de Ciencias hacer un traslado interno a otra carrera? ",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para cambiarse de carrera dentro de la Facultad de Ciencias?",
+            "\u00bfSabes c\u00f3mo se hace un traslado interno en la Facultad de Ciencias? \u00bfCu\u00e1les son los pasos?",
+            "\u00bfQu\u00e9 necesita hacer un estudiante para solicitar un traslado a otra carrera en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 debe hacer un estudiante si presenta problemas para realizar la matricula de sus cursos a traves del modulo de Matr\u00edcula UNI dentro de la plataforma de intranet-alumnos?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante si tiene problemas para matricularse en los cursos a trav\u00e9s de la plataforma de intranet-alumnos?",
+            "Si un estudiante enfrenta dificultades con la matr\u00edcula de cursos en el m\u00f3dulo de Matr\u00edcula UNI, \u00bfqu\u00e9 deber\u00eda hacer?",
+            "\u00bfQu\u00e9 acciones puede tomar un estudiante si no puede completar su matr\u00edcula de cursos en la plataforma de intranet-alumnos?",
+            "\u00bfQu\u00e9 deber\u00eda hacer un estudiante que tiene inconvenientes para matricularse en sus cursos a trav\u00e9s del m\u00f3dulo de Matr\u00edcula UNI?",
+            "Si un estudiante tiene problemas con la matr\u00edcula de sus cursos, \u00bfa qui\u00e9n debe contactar para obtener ayuda?",
+            "Oye, si tengo problemas para matricularme en los cursos, \u00bfqu\u00e9 deber\u00eda hacer?",
+            "\u00bfQu\u00e9 opciones tiene un estudiante si no puede realizar la matr\u00edcula de sus cursos en el m\u00f3dulo de Matr\u00edcula UNI?",
+            "\u00bfPodr\u00edas decirme qu\u00e9 hacer si un estudiante no puede matricularse en sus cursos a trav\u00e9s de la plataforma de intranet-alumnos?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfMe podr\u00edas decir cu\u00e1l es el horario de la Mesa de Partes de la Facultad de Ciencias y su correo electr\u00f3nico?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su direcci\u00f3n de correo?",
+            "\u00bfPodr\u00edas informarme sobre el horario y el correo de contacto de la Mesa de Partes en la Facultad de Ciencias?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la Mesa de Partes y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su email?",
+            "\u00bfAlguien sabe el horario y el correo de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1l es el horario y el correo de contacto de la Mesa de Partes en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas decirme a qu\u00e9 hora est\u00e1n abiertos en la Mesa de Partes y c\u00f3mo puedo enviarles un correo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el proceso obtener el carnet universitario y como se realiza la entrega?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debo seguir para obtener el carn\u00e9 universitario y c\u00f3mo se entrega?",
+            "\u00bfC\u00f3mo se obtiene el carn\u00e9 universitario y cu\u00e1l es el procedimiento para su entrega?",
+            "\u00bfPodr\u00edas explicarme el proceso para conseguir el carn\u00e9 universitario y c\u00f3mo se realiza la entrega?",
+            "\u00bfCu\u00e1les son los requisitos y el proceso para obtener el carn\u00e9 universitario, as\u00ed como la forma en que se entrega?",
+            "\u00bfQu\u00e9 necesito hacer para tramitar el carn\u00e9 universitario y c\u00f3mo se lleva a cabo la entrega?",
+            "\u00bfAlguien sabe c\u00f3mo se obtiene el carn\u00e9 universitario y c\u00f3mo se entrega?",
+            "\u00bfCu\u00e1l es el procedimiento para obtener el carn\u00e9 universitario y c\u00f3mo se realiza la entrega?",
+            "\u00bfMe podr\u00edas detallar c\u00f3mo un estudiante puede obtener el carn\u00e9 universitario y qu\u00e9 pasos seguir para recibirlo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado de la UNI para acceder a la intranet-alumnos y qu\u00e9 informaci\u00f3n puede encontrar all\u00ed?",
+            "\u00bfC\u00f3mo puede un estudiante de pregrado acceder a la plataforma intranet-alumnos de la UNI y qu\u00e9 servicios ofrece?",
+            "\u00bfPodr\u00edas indicarme c\u00f3mo un estudiante de pregrado puede ingresar a la intranet-alumnos de la UNI y qu\u00e9 funcionalidades tiene?",
+            "\u00bfCu\u00e1l es el procedimiento para que un estudiante de pregrado acceda a la plataforma intranet-alumnos de la UNI y qu\u00e9 informaci\u00f3n puede consultar?",
+            "\u00bfC\u00f3mo accede un estudiante de pregrado a la intranet-alumnos de la UNI y qu\u00e9 tipo de informaci\u00f3n puede encontrar?",
+            "\u00bfAlguien sabe c\u00f3mo un estudiante de pregrado puede entrar a la plataforma intranet-alumnos y qu\u00e9 ofrece?",
+            "\u00bfQu\u00e9 necesita hacer un estudiante de pregrado para acceder a la intranet-alumnos de la UNI y qu\u00e9 funcionalidades tiene?",
+            "\u00bfMe podr\u00edas explicar c\u00f3mo un estudiante de pregrado puede acceder a la plataforma intranet-alumnos y qu\u00e9 informaci\u00f3n puede obtener all\u00ed?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfMe podr\u00edas informar sobre el horario y el correo de la Mesa de Partes de DIRCE?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes de DIRCE?",
+            "\u00bfA qu\u00e9 hora abre y cierra la Mesa de Partes de DIRCE, y cu\u00e1l es su correo de contacto?",
+            "Disculpa, \u00bfpodr\u00edas decirme el horario y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n y el correo electr\u00f3nico de la Mesa de Partes de DIRCE, por favor.",
+            "\u00bfPodr\u00edas indicarme el horario de la Mesa de Partes de DIRCE y su direcci\u00f3n de correo?",
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo electr\u00f3nico para comunicarme con la Mesa de Partes de DIRCE?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para reservar su matricula?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para hacer la reserva de su matr\u00edcula?",
+            "\u00bfC\u00f3mo puede un estudiante reservar su matr\u00edcula? Necesito saber el procedimiento.",
+            "\u00bfPodr\u00edas explicarme el proceso que un estudiante debe seguir para reservar su matr\u00edcula?",
+            "Disculpa, \u00bfcu\u00e1l es el procedimiento para que un estudiante reserve su matr\u00edcula?",
+            "Me gustar\u00eda entender c\u00f3mo un estudiante puede solicitar la reserva de matr\u00edcula, \u00bfcu\u00e1les son los pasos?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para reservar su matr\u00edcula? Agradecer\u00eda una explicaci\u00f3n.",
+            "\u00bfCu\u00e1les son los requisitos y el procedimiento para que un estudiante reserve su matr\u00edcula?",
+            "\u00bfC\u00f3mo se realiza la reserva de matr\u00edcula para los estudiantes? Quiero saber el proceso completo."
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de notas?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante solicitar una constancia de notas? \u00bfCu\u00e1les son los pasos?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para obtener una constancia de notas?",
+            "\u00bfPodr\u00edas indicarme el procedimiento para que un estudiante solicite una constancia de notas?",
+            "Disculpa, \u00bfcu\u00e1l es el proceso para que un estudiante pida una constancia de notas?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante puede solicitar su constancia de notas, \u00bfme puedes ayudar con eso?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para obtener una constancia de notas? Agradecer\u00eda detalles.",
+            "\u00bfCu\u00e1les son los requisitos y el procedimiento para que un estudiante solicite una constancia de notas?",
+            "\u00bfC\u00f3mo se solicita una constancia de notas para estudiantes? Quiero conocer el procedimiento completo."
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 debe hacer un estudiante que desea solicitar una vacante adicional para la inscripci\u00f3n a un curso?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para pedir una vacante extra en un curso?",
+            "Si un estudiante quiere inscribirse en un curso y no hay vacantes, \u00bfqu\u00e9 deber\u00eda hacer?",
+            "\u00bfCu\u00e1les son los procedimientos para que un estudiante solicite una vacante adicional en un curso?",
+            "Me gustar\u00eda saber c\u00f3mo puede un estudiante solicitar una vacante adicional para un curso. \u00bfQu\u00e9 tiene que hacer?",
+            "\u00bfQu\u00e9 recomendaciones hay para un estudiante que busca una vacante adicional en un curso?",
+            "\u00bfPodr\u00edas indicarme qu\u00e9 necesita hacer un estudiante para conseguir una vacante extra en su inscripci\u00f3n?",
+            "Un amigo m\u00edo quiere saber c\u00f3mo puede solicitar una vacante adicional para un curso. \u00bfQu\u00e9 le dir\u00edas?",
+            "\u00bfHay alg\u00fan proceso espec\u00edfico que un estudiante deba seguir para pedir una vacante adicional en un curso?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo de la oficina de Mesa de Partes de DIRCE?",
+            "Me gustar\u00eda saber cu\u00e1l es el horario y el correo de contacto de la Mesa de Partes de DIRCE. ",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la oficina de Mesa de Partes de DIRCE y su direcci\u00f3n de correo?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "Un compa\u00f1ero me pregunt\u00f3 sobre el horario y el correo de la Mesa de Partes de DIRCE. \u00bfTienes esa informaci\u00f3n?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la Mesa de Partes de DIRCE y c\u00f3mo puedo comunicarme con ellos por correo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en espa\u00f1ol?",
+        "questions_generated": [
+            "\u00bfCu\u00e1les son los pasos que debe seguir un estudiante para obtener una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?",
+            "Si un estudiante necesita una constancia de matr\u00edcula, \u00bfqu\u00e9 procedimiento debe seguir?",
+            "\u00bfQu\u00e9 debe hacer un estudiante para solicitar su constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante puede solicitar una constancia de matr\u00edcula en ambos idiomas. \u00bfQu\u00e9 pasos debe seguir?",
+            "\u00bfPodr\u00edas explicarme el proceso para que un estudiante obtenga una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?",
+            "\u00bfQu\u00e9 pasos espec\u00edficos debe seguir un estudiante para pedir una constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol?",
+            "Un amigo est\u00e1 interesado en saber c\u00f3mo solicitar una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol. \u00bfQu\u00e9 le recomendar\u00edas?",
+            "\u00bfHay un procedimiento detallado que un estudiante deba seguir para solicitar su constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas explicarme el proceso que debe seguir un estudiante de la Facultad de Ciencias para hacer un traslado interno a otra carrera?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado para solicitar un traslado interno en la Facultad de Ciencias?",
+            "\u00bfC\u00f3mo puede un alumno de la Facultad de Ciencias realizar un traslado interno a otra carrera?",
+            "Me gustar\u00eda saber el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno. \u00bfMe puedes ayudar?",
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante de la Facultad de Ciencias haga un traslado interno a otra carrera?",
+            "Si un estudiante de pregrado quiere cambiarse de carrera dentro de la Facultad de Ciencias, \u00bfqu\u00e9 tiene que hacer?",
+            "\u00bfQu\u00e9 debe hacer un estudiante de la Facultad de Ciencias para solicitar un traslado interno a otra carrera? ",
+            "\u00bfHay un procedimiento espec\u00edfico que un estudiante de pregrado de la Facultad de Ciencias deba seguir para un traslado interno?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que desea reincorporarse despu\u00e9s de haber reservado su matricula por uno o mas periodos acad\u00e9micos?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante para reincorporarse despu\u00e9s de haber reservado su matr\u00edcula?",
+            "\u00bfQu\u00e9 pasos tiene que seguir un alumno que quiere reincorporarse tras haber reservado su matr\u00edcula por varios periodos?",
+            "\u00bfC\u00f3mo puede un estudiante gestionar su reincorporaci\u00f3n despu\u00e9s de haber reservado su matr\u00edcula?",
+            "Me gustar\u00eda saber qu\u00e9 procedimiento debe seguir un estudiante que desea reincorporarse tras haber reservado su matr\u00edcula por un tiempo. ",
+            "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para reincorporarse despu\u00e9s de haber dejado su matr\u00edcula en espera?",
+            "Si un alumno ha reservado su matr\u00edcula por varios periodos, \u00bfqu\u00e9 tiene que hacer para reincorporarse?",
+            "\u00bfQu\u00e9 debe hacer un estudiante que ha reservado su matr\u00edcula y ahora quiere reincorporarse?",
+            "\u00bfHay un procedimiento espec\u00edfico para que un estudiante que ha reservado su matr\u00edcula por un tiempo pueda reincorporarse?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante de pregrado acceder a la plataforma de intranet-alumnos de la UNI y qu\u00e9 servicios ofrece?",
+            "\u00bfQu\u00e9 pasos debe seguir un alumno de la UNI para ingresar a la plataforma intranet-alumnos y qu\u00e9 informaci\u00f3n puede encontrar all\u00ed?",
+            "\u00bfC\u00f3mo accede un estudiante de pregrado a la plataforma de intranet-alumnos de la UNI y qu\u00e9 funcionalidades tiene?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de la UNI puede acceder a la plataforma intranet-alumnos y qu\u00e9 tipo de informaci\u00f3n puede consultar.",
+            "\u00bfCu\u00e1les son los pasos para que un estudiante de pregrado de la UNI acceda a la intranet-alumnos y qu\u00e9 servicios est\u00e1n disponibles?",
+            "Si un alumno quiere acceder a la plataforma de intranet-alumnos de la UNI, \u00bfqu\u00e9 tiene que hacer y qu\u00e9 puede encontrar all\u00ed?",
+            "\u00bfQu\u00e9 debe hacer un estudiante para ingresar a la plataforma intranet-alumnos de la UNI y qu\u00e9 informaci\u00f3n puede obtener?",
+            "\u00bfHay un procedimiento espec\u00edfico para que un estudiante de pregrado acceda a la intranet-alumnos de la UNI y qu\u00e9 funcionalidades ofrece?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la Facultad de Ciencias de la UNI para solicitar su constancia de Ayudantia acad\u00e9mica?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante de pregrado en la Facultad de Ciencias de la UNI solicitar su constancia de ayudant\u00eda acad\u00e9mica?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para obtener su constancia de ayudant\u00eda acad\u00e9mica en la UNI?",
+            "\u00bfPodr\u00edas indicarme el procedimiento para que un estudiante de la Facultad de Ciencias solicite su constancia de ayudant\u00eda?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de pregrado puede pedir su constancia de ayudant\u00eda acad\u00e9mica en la UNI.",
+            "\u00bfCu\u00e1l es el proceso que un estudiante de la Facultad de Ciencias debe seguir para solicitar la constancia de ayudant\u00eda acad\u00e9mica?",
+            "\u00bfQu\u00e9 necesita hacer un estudiante de pregrado para obtener su constancia de ayudant\u00eda acad\u00e9mica en la UNI?",
+            "\u00bfQu\u00e9 tr\u00e1mites debe realizar un estudiante de la Facultad de Ciencias para conseguir su constancia de ayudant\u00eda acad\u00e9mica?",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante de pregrado solicita su constancia de ayudant\u00eda acad\u00e9mica en la UNI?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1l es el horario y el contacto de la oficina de Mesa de Partes en la Facultad de Ciencias?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n y el correo electr\u00f3nico de la Mesa de Partes de la Facultad de Ciencias.",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la oficina de Mesa de Partes de la Facultad de Ciencias, y cu\u00e1l es su correo?",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo comunicarme con ellos por correo?",
+            "\u00bfPodr\u00edas informarme sobre el horario de atenci\u00f3n y el correo de contacto de la Mesa de Partes en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para reservar su matricula?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para reservar su matr\u00edcula en la UNI?",
+            "\u00bfC\u00f3mo puede un estudiante solicitar la reserva de matr\u00edcula?",
+            "\u00bfPodr\u00edas explicarme el procedimiento para que un estudiante reserve su matr\u00edcula?",
+            "Me gustar\u00eda saber qu\u00e9 debe hacer un estudiante para realizar la reserva de su matr\u00edcula.",
+            "\u00bfCu\u00e1l es el proceso que un estudiante debe seguir para reservar su matr\u00edcula en la UNI?",
+            "\u00bfQu\u00e9 necesita presentar un estudiante para solicitar la reserva de matr\u00edcula?",
+            "\u00bfQu\u00e9 tr\u00e1mites son necesarios para que un estudiante reserve su matr\u00edcula?",
+            "\u00bfPodr\u00edas darme detalles sobre c\u00f3mo un estudiante puede reservar su matr\u00edcula en la UNI?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas explicarme el proceso que debe seguir un estudiante de pregrado en la Facultad de Ciencias para cambiarse a otra carrera?",
+            "\u00bfCu\u00e1l es el procedimiento que un estudiante necesita seguir para hacer un traslado interno dentro de la Facultad de Ciencias?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de la Facultad de Ciencias puede solicitar un traslado interno a otra carrera. ",
+            "\u00bfQu\u00e9 pasos debe seguir un alumno de pregrado en la Facultad de Ciencias para realizar un traslado a otra especialidad?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante de la Facultad de Ciencias para cambiarse a otra carrera? ",
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante de pregrado realice un traslado interno en la Facultad de Ciencias?",
+            "\u00bfC\u00f3mo se lleva a cabo el proceso de traslado interno para los estudiantes de la Facultad de Ciencias?",
+            "Si un estudiante quiere cambiarse de carrera dentro de la Facultad de Ciencias, \u00bfqu\u00e9 procedimiento debe seguir?"
+        ]
+    },
+    {
+        "original_question": "\u00bfHasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matr\u00edcula regular al ciclo academico en la Facultad de Ciencias de la UNI?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es la fecha l\u00edmite para pagar el autoseguro estudiantil y poder matricularse regularmente en la Facultad de Ciencias?",
+            "\u00bfHasta cu\u00e1ndo tiene un estudiante para hacer el pago del autoseguro estudiantil para poder matricularse en la Facultad de Ciencias?",
+            "Me gustar\u00eda saber hasta qu\u00e9 fecha se debe pagar el autoseguro estudiantil para la matr\u00edcula regular en la Facultad de Ciencias.",
+            "\u00bfQu\u00e9 fecha es la \u00faltima para que un estudiante realice el pago del autoseguro estudiantil y as\u00ed pueda matricularse sin problemas?",
+            "\u00bfCu\u00e1ndo debe un estudiante pagar el autoseguro estudiantil para asegurar su matr\u00edcula regular en la Facultad de Ciencias?",
+            "\u00bfHasta qu\u00e9 fecha se permite el pago del autoseguro estudiantil para que los estudiantes puedan matricularse en el ciclo acad\u00e9mico?",
+            "\u00bfQu\u00e9 plazo tiene un estudiante para abonar el autoseguro estudiantil y evitar complicaciones en su matr\u00edcula?",
+            "Si un estudiante quiere matricularse regularmente, \u00bfhasta qu\u00e9 fecha debe hacer el pago del autoseguro estudiantil?"
+        ]
+    },
+    {
+        "original_question": "\u00bfEl pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?",
+        "questions_generated": [
+            "\u00bfEs necesario pagar el carnet universitario para poder matricularse en la Facultad de Ciencias?",
+            "\u00bfEl carnet universitario es un requisito para la matr\u00edcula en la Facultad de Ciencias de la UNI?",
+            "Quisiera saber si el pago del carnet universitario es obligatorio para la matr\u00edcula en la Facultad de Ciencias.",
+            "\u00bfLos estudiantes deben pagar el carnet universitario para poder realizar su matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfEs indispensable el pago del carnet universitario para que un estudiante se matricule en la Facultad de Ciencias?",
+            "\u00bfEl pago por el carnet universitario afecta la matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfSe requiere el pago del carnet universitario para que los estudiantes puedan matricularse en la Facultad de Ciencias?",
+            "Si un estudiante no paga el carnet universitario, \u00bfpuede matricularse en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfMe podr\u00edas decir cu\u00e1les son los horarios de atenci\u00f3n y el correo de la Mesa de Partes de DIRCE?",
+            "\u00bfCu\u00e1l es el horario y el correo electr\u00f3nico de contacto de la oficina de Mesa de Partes de DIRCE?",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de DIRCE y cu\u00e1l es su correo?",
+            "\u00bfPodr\u00edas informarme sobre el horario de atenci\u00f3n y el correo de la oficina de Mesa de Partes de DIRCE?",
+            "\u00bfQu\u00e9 horario tiene la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfAlguien sabe el horario de la Mesa de Partes de DIRCE y su correo electr\u00f3nico?",
+            "\u00bfCu\u00e1ndo est\u00e1 abierta la Mesa de Partes de DIRCE y cu\u00e1l es su direcci\u00f3n de correo?",
+            "\u00bfMe podr\u00edan facilitar el horario y el correo de contacto de la oficina de Mesa de Partes de DIRCE?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para reservar su matricula?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para hacer la reserva de su matr\u00edcula?",
+            "\u00bfC\u00f3mo puede un estudiante reservar su matr\u00edcula? \u00bfCu\u00e1les son los procedimientos?",
+            "\u00bfPodr\u00edas explicarme el proceso que un estudiante necesita seguir para reservar su matr\u00edcula?",
+            "\u00bfQu\u00e9 debe hacer un estudiante para solicitar la reserva de matr\u00edcula?",
+            "\u00bfAlguien sabe c\u00f3mo se realiza la reserva de matr\u00edcula para los estudiantes?",
+            "\u00bfCu\u00e1les son los requisitos y el procedimiento para que un estudiante reserve su matr\u00edcula?",
+            "\u00bfQu\u00e9 pasos tiene que seguir un estudiante para reservar su matr\u00edcula en la universidad?",
+            "\u00bfMe puedes detallar el procedimiento que un estudiante debe seguir para reservar su matr\u00edcula?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 debe hacer un estudiante si desea realizar un cambio de secci\u00f3n/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para cambiar de secci\u00f3n o horario de un curso si tiene conflictos de horario?",
+            "\u00bfC\u00f3mo puede un estudiante solicitar un cambio de secci\u00f3n o horario por cruce de horarios en sus cursos?",
+            "\u00bfQu\u00e9 debe hacer un estudiante si necesita cambiar la secci\u00f3n o el horario de un curso por conflictos de horario?",
+            "\u00bfPodr\u00edas indicarme el procedimiento para que un estudiante cambie de secci\u00f3n o horario debido a un cruce de horarios?",
+            "\u00bfAlguien sabe c\u00f3mo se gestiona un cambio de secci\u00f3n o horario por conflictos de horario en los cursos?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante que quiere cambiar su secci\u00f3n o horario de un curso por problemas de horario?",
+            "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para realizar un cambio de secci\u00f3n o horario por cruce de horarios?",
+            "\u00bfMe puedes informar sobre el proceso que debe seguir un estudiante para cambiar de secci\u00f3n o horario debido a conflictos en su matr\u00edcula?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma INTRALU de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante de la UNI accede a INTRALU y qu\u00e9 servicios ofrece?",
+            "\u00bfC\u00f3mo puede un alumno de pregrado de la UNI ingresar a la plataforma INTRALU y qu\u00e9 tipo de informaci\u00f3n se puede encontrar all\u00ed?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de la UNI para acceder a INTRALU y qu\u00e9 funcionalidades tiene la plataforma?",
+            "\u00bfMe podr\u00edas indicar c\u00f3mo un estudiante de la UNI puede entrar a INTRALU y qu\u00e9 informaci\u00f3n puede consultar?",
+            "\u00bfCu\u00e1les son los procedimientos para que un estudiante de pregrado de la UNI acceda a INTRALU y qu\u00e9 herramientas est\u00e1n disponibles en la plataforma?",
+            "\u00bfC\u00f3mo se accede a INTRALU para un estudiante de la UNI y qu\u00e9 datos puede obtener de ella?",
+            "\u00bfQu\u00e9 necesita un estudiante de la UNI para ingresar a INTRALU y qu\u00e9 funcionalidades tiene la plataforma?",
+            "\u00bfC\u00f3mo hace un estudiante de la UNI para acceder a INTRALU y qu\u00e9 tipo de informaci\u00f3n puede encontrar all\u00ed?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo electr\u00f3nico de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1l es el horario y el contacto por correo de la oficina de Mesa de Partes en la Facultad de Ciencias?",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo de contacto?",
+            "\u00bfMe puedes informar sobre el horario de atenci\u00f3n y el correo de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 horario tiene la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes en la Facultad de Ciencias y qu\u00e9 correo debo usar para comunicarme?",
+            "\u00bfA qu\u00e9 hora est\u00e1 abierta la Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfQu\u00e9 d\u00edas y horas atiende la Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo de contacto?"
+        ]
+    },
+    {
+        "original_question": "\u00bfEn cuantos cr\u00e9ditos como m\u00e1ximo puede matricularse un estudiante de la Facultad de Ciencias de la UNI?",
+        "questions_generated": [
+            "\u00bfCu\u00e1ntos cr\u00e9ditos puede matricular un estudiante de la Facultad de Ciencias de la UNI como m\u00e1ximo?",
+            "\u00bfCu\u00e1l es el l\u00edmite de cr\u00e9ditos para la matr\u00edcula de un estudiante en la Facultad de Ciencias de la UNI?",
+            "\u00bfQu\u00e9 cantidad m\u00e1xima de cr\u00e9ditos puede inscribir un estudiante de la Facultad de Ciencias de la UNI?",
+            "\u00bfMe podr\u00edas aclarar cu\u00e1ntos cr\u00e9ditos puede matricular un alumno de la Facultad de Ciencias de la UNI?",
+            "\u00bfCu\u00e1ntos cr\u00e9ditos son permitidos como m\u00e1ximo para la matr\u00edcula de un estudiante en la Facultad de Ciencias de la UNI?",
+            "\u00bfQu\u00e9 n\u00famero m\u00e1ximo de cr\u00e9ditos puede un estudiante de la Facultad de Ciencias de la UNI matricularse?",
+            "\u00bfEn qu\u00e9 cantidad de cr\u00e9ditos se limita la matr\u00edcula de un estudiante de la Facultad de Ciencias de la UNI?",
+            "\u00bfCu\u00e1ntos cr\u00e9ditos puede tomar un estudiante de la Facultad de Ciencias de la UNI en su matr\u00edcula m\u00e1xima?"
+        ]
+    },
+    {
+        "original_question": "\u00bfUn estudiante puede matricularse en un curso y su curso pre requisito en el mismo ciclo?",
+        "questions_generated": [
+            "\u00bfEs posible que un estudiante se inscriba en un curso y su prerequisito al mismo tiempo?",
+            "\u00bfUn alumno puede matricularse en un curso y en su asignatura prerequisito en el mismo ciclo acad\u00e9mico?",
+            "\u00bfPuedo inscribirme en un curso y su prerequisito en el mismo periodo?",
+            "\u00bfHay alguna regla que permita a los estudiantes matricularse en un curso y su prerequisito simult\u00e1neamente?",
+            "\u00bfQu\u00e9 requisitos debo cumplir para matricularme en un curso y su prerequisito en el mismo ciclo?",
+            "\u00bfEs factible que un estudiante en posibilidad de egresar se matricule en un curso y su prerequisito al mismo tiempo?",
+            "\u00bfPodr\u00eda un estudiante matricularse en un curso y su prerequisito en el mismo ciclo, si le faltan pocos cr\u00e9ditos para graduarse?",
+            "\u00bfC\u00f3mo funciona el proceso para que un estudiante se inscriba en un curso y su prerequisito en el mismo ciclo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante de la Facultad de Ciencias para cambiarse a otra carrera?",
+            "\u00bfC\u00f3mo puede un alumno de pregrado solicitar un traslado interno a otra carrera en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para realizar un traslado interno dentro de la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante de la Facultad de Ciencias puede hacer un cambio de carrera?",
+            "\u00bfQu\u00e9 procedimiento tiene que seguir un estudiante para trasladarse a otra especialidad dentro de la misma Facultad?",
+            "\u00bfC\u00f3mo se gestiona un traslado interno para un estudiante de la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 debe hacer un estudiante si quiere cambiarse de carrera dentro de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante de pregrado realice un traslado interno en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 debe hacer un estudiante si desea realizar un cambio de secci\u00f3n/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para cambiar la secci\u00f3n o el horario de un curso por conflictos de horarios?",
+            "\u00bfC\u00f3mo puede un alumno solicitar un cambio de secci\u00f3n o horario si tiene un cruce de horarios en sus cursos?",
+            "\u00bfQu\u00e9 procedimiento debe seguir un estudiante si necesita cambiar de secci\u00f3n debido a un conflicto de horarios?",
+            "\u00bfQu\u00e9 debe hacer un estudiante si se encuentra con un cruce de horarios en sus cursos y necesita cambiar de secci\u00f3n?",
+            "\u00bfC\u00f3mo se gestionan los cambios de secci\u00f3n o horario para estudiantes con conflictos en su matr\u00edcula?",
+            "\u00bfQu\u00e9 opciones tiene un estudiante si desea modificar su horario de clase por problemas de cruce?",
+            "\u00bfA qui\u00e9n debe dirigirse un estudiante para solicitar un cambio de secci\u00f3n por conflictos de horario?",
+            "\u00bfQu\u00e9 informaci\u00f3n necesita un estudiante para realizar un cambio de horario en un curso matriculado debido a un cruce de horarios?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular al ciclo acad\u00e9mico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas decirme qu\u00e9 requisitos necesito para matricularme en el ciclo acad\u00e9mico de pregrado en la Facultad de Ciencias de la UNI?",
+            "Me gustar\u00eda saber cu\u00e1les son los pasos que debo seguir para realizar mi matr\u00edcula regular en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda.",
+            "\u00bfCu\u00e1les son los requisitos y el procedimiento para que un estudiante de pregrado se matricule en la Facultad de Ciencias de la UNI?",
+            "\u00bfQu\u00e9 necesito para hacer mi matr\u00edcula regular en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+            "\u00bfCu\u00e1les son los requisitos y el proceso de matr\u00edcula para los alumnos de pregrado en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 pasos debo seguir para matricularme en el ciclo acad\u00e9mico de pregrado en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo es el proceso de matr\u00edcula regular para los estudiantes de pregrado en la UNI?",
+            "\u00bfQu\u00e9 requisitos y procedimientos debo tener en cuenta para matricularme en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE.",
+            "\u00bfPodr\u00edas informarme sobre el horario de atenci\u00f3n y el correo de la Mesa de Partes de DIRCE?",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes de DIRCE y su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfQu\u00e9 d\u00edas y horas puedo acudir a la Mesa de Partes de DIRCE? Tambi\u00e9n, \u00bfcu\u00e1l es su correo?",
+            "\u00bfA qu\u00e9 hora est\u00e1n disponibles en la Mesa de Partes de DIRCE y cu\u00e1l es su correo de contacto?",
+            "\u00bfPodr\u00edas darme el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes de DIRCE?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l plazo para que un estudiante puede solicitar su reserva de matricula?",
+        "questions_generated": [
+            "\u00bfHasta cu\u00e1ndo puede un estudiante solicitar la reserva de matr\u00edcula?",
+            "\u00bfCu\u00e1l es el plazo l\u00edmite para que un estudiante pida su reserva de matr\u00edcula?",
+            "\u00bfQu\u00e9 tiempo tiene un estudiante para solicitar la reserva de matr\u00edcula?",
+            "\u00bfCu\u00e1ndo debe un estudiante presentar su solicitud de reserva de matr\u00edcula?",
+            "\u00bfCu\u00e1l es el plazo para que los estudiantes hagan su solicitud de reserva de matr\u00edcula?",
+            "\u00bfHasta qu\u00e9 fecha puede un estudiante solicitar la reserva de matr\u00edcula?",
+            "\u00bfQu\u00e9 plazo tiene un estudiante para solicitar la reserva de matr\u00edcula antes de la matr\u00edcula oficial?",
+            "\u00bfPodr\u00edas decirme hasta cu\u00e1ndo puede un estudiante solicitar su reserva de matr\u00edcula?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en espa\u00f1ol?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante pedir una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?",
+            "\u00bfCu\u00e1les son los pasos que debe seguir un estudiante para obtener una constancia de matr\u00edcula en cualquiera de los dos idiomas?",
+            "\u00bfPodr\u00edas explicarme el proceso que un estudiante debe seguir para solicitar una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para conseguir su constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol?",
+            "Me gustar\u00eda saber, \u00bfqu\u00e9 procedimiento sigue un estudiante para solicitar una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para obtener su constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol?",
+            "\u00bfQu\u00e9 necesita hacer un estudiante para solicitar una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?",
+            "\u00bfCu\u00e1l es el procedimiento que un estudiante debe seguir para pedir una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?"
+        ]
+    },
+    {
+        "original_question": "\u00bfPor cuales motivos un estudiante puede solicitar un retiro total?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 razones puede tener un estudiante para pedir un retiro total?",
+            "\u00bfCu\u00e1les son los motivos v\u00e1lidos para que un estudiante solicite un retiro total?",
+            "\u00bfPodr\u00edas decirme por qu\u00e9 un estudiante podr\u00eda solicitar un retiro total?",
+            "\u00bfQu\u00e9 circunstancias permiten a un estudiante solicitar un retiro total?",
+            "Estoy interesado en saber, \u00bfbajo qu\u00e9 condiciones un estudiante puede pedir un retiro total?",
+            "\u00bfPor qu\u00e9 razones podr\u00eda un estudiante optar por un retiro total?",
+            "\u00bfQu\u00e9 motivos justifican que un estudiante pida un retiro total?",
+            "\u00bfCu\u00e1les son las causas que permiten a un estudiante solicitar un retiro total?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo de contacto?",
+            "\u00bfPodr\u00edas informarme sobre el horario y el correo de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo electr\u00f3nico de la Mesa de Partes en la Facultad de Ciencias?",
+            "Me gustar\u00eda saber, \u00bfcu\u00e1l es el horario de la Mesa de Partes de la Facultad de Ciencias y su correo de contacto?",
+            "\u00bfQu\u00e9 horario maneja la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su direcci\u00f3n de correo?",
+            "\u00bfA qu\u00e9 horas puedo ir a la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfHasta cuando se puede solicitar el retiro total?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es la fecha l\u00edmite para solicitar un retiro total?",
+            "Me gustar\u00eda saber hasta cu\u00e1ndo puedo pedir el retiro total de mis estudios.",
+            "\u00bfHasta qu\u00e9 momento se permite solicitar el retiro total?",
+            "\u00bfPodr\u00edas informarme sobre la fecha l\u00edmite para el retiro total?",
+            "\u00bfHasta cu\u00e1ndo se puede hacer la solicitud de retiro total, por favor?",
+            "\u00bfHay un plazo espec\u00edfico para solicitar el retiro total de la carrera?",
+            "\u00bfCu\u00e1ndo es el \u00faltimo d\u00eda para que un estudiante pida el retiro total?",
+            "\u00bfHasta cu\u00e1ndo se puede solicitar el retiro total? Estoy un poco confundido."
+        ]
+    },
+    {
+        "original_question": "\u00bfHasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matr\u00edcula regular al ciclo academico en la Facultad de Ciencias de la UNI?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es la fecha l\u00edmite para pagar el autoseguro estudiantil y poder matricularme?",
+            "Necesito saber hasta cu\u00e1ndo debo pagar el autoseguro estudiantil para la matr\u00edcula regular.",
+            "\u00bfHasta qu\u00e9 fecha tengo para realizar el pago del autoseguro estudiantil?",
+            "\u00bfPodr\u00edas indicarme la fecha l\u00edmite para el pago del autoseguro estudiantil para la matr\u00edcula?",
+            "\u00bfCu\u00e1ndo debo hacer el pago del autoseguro estudiantil para asegurar mi matr\u00edcula regular?",
+            "\u00bfHay un plazo espec\u00edfico para el pago del autoseguro estudiantil antes de la matr\u00edcula?",
+            "\u00bfHasta qu\u00e9 fecha se debe abonar el autoseguro estudiantil para poder matricularse sin problemas?",
+            "\u00bfCu\u00e1l es el \u00faltimo d\u00eda para pagar el autoseguro estudiantil y no tener inconvenientes con la matr\u00edcula?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n y el correo de la Mesa de Partes de la Facultad de Ciencias.",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas darme el horario y el correo de contacto de la oficina de Mesa de Partes?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la Mesa de Partes y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfQu\u00e9 horarios manejan en la Mesa de Partes y cu\u00e1l es su correo de contacto?",
+            "\u00bfCu\u00e1ndo puedo visitar la Mesa de Partes y cu\u00e1l es su correo para consultas?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para solicitar una orden de pago relacionada con alg\u00fan concepto o tr\u00e1mite espec\u00edfico y realizar el pago correspondiente?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para pedir una orden de pago y hacer el pago de un tr\u00e1mite espec\u00edfico?",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante puede solicitar una orden de pago para un tr\u00e1mite determinado?",
+            "\u00bfCu\u00e1l es el proceso que un estudiante tiene que seguir para generar una orden de pago y realizar el pago correspondiente?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante puede solicitar una orden de pago para un tr\u00e1mite espec\u00edfico. \u00bfCu\u00e1les son los pasos?",
+            "\u00bfC\u00f3mo se hace para que un estudiante obtenga una orden de pago y complete el pago de un tr\u00e1mite?",
+            "\u00bfQu\u00e9 procedimiento sigue un estudiante para solicitar y pagar una orden de pago relacionada con un tr\u00e1mite?",
+            "\u00bfCu\u00e1les son las instrucciones para que un estudiante genere una orden de pago y realice el pago?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para solicitar una orden de pago y luego hacer el pago correspondiente?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y correo de contacto de la oficina de estad\u00edstica o AERA?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de estad\u00edstica y cu\u00e1l es su correo de contacto?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo de la oficina de AERA?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de estad\u00edstica y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n de la oficina de estad\u00edstica y su correo de contacto, \u00bfme lo puedes proporcionar?",
+            "\u00bfCu\u00e1l es el horario y el correo de contacto de la oficina de estad\u00edstica?",
+            "\u00bfA qu\u00e9 hora est\u00e1 abierta la oficina de AERA y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfQu\u00e9 horario maneja la oficina de estad\u00edstica y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas informarme sobre el horario de atenci\u00f3n y el correo de la oficina de estad\u00edstica?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado para hacer un traslado interno a otra carrera en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas explicarme el procedimiento para que un estudiante de la Facultad de Ciencias realice un traslado interno?",
+            "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante de pregrado para cambiarse a otra carrera dentro de la misma Facultad?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de la Facultad de Ciencias puede solicitar un traslado interno a otra carrera. \u00bfCu\u00e1les son los pasos?",
+            "\u00bfC\u00f3mo puede un estudiante de pregrado hacer un traslado interno a otra carrera en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 procedimiento sigue un estudiante para realizar un traslado interno a otra carrera dentro de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1les son las instrucciones para que un estudiante de pregrado lleve a cabo un traslado interno a otra carrera?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante de la Facultad de Ciencias para solicitar un traslado interno a otra carrera?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas decirme el horario y el correo de la Mesa de Partes de DIRCE?",
+            "Me gustar\u00eda saber a qu\u00e9 hora atiende la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico.",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el email de contacto de la oficina de DIRCE?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su direcci\u00f3n de correo?",
+            "\u00bfAlguien sabe el horario y el correo de la Mesa de Partes de DIRCE?",
+            "Estoy buscando el horario de atenci\u00f3n y el correo de la oficina de DIRCE, \u00bfme pueden ayudar?",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes de DIRCE y su correo electr\u00f3nico para consultas?"
+        ]
+    },
+    {
+        "original_question": "\u00bfUn estudiante puede matricularse en un curso y su curso pre requisito en el mismo ciclo?",
+        "questions_generated": [
+            "\u00bfEs posible que un estudiante se inscriba en un curso y su prerequisito al mismo tiempo?",
+            "Quisiera saber si un estudiante puede matricularse en un curso y su curso prerequisito en el mismo ciclo acad\u00e9mico.",
+            "\u00bfPueden los estudiantes matricularse en un curso y su prerequisito en el mismo ciclo?",
+            "\u00bfUn alumno tiene la opci\u00f3n de inscribirse en un curso y su prerequisito en el mismo ciclo?",
+            "\u00bfEs factible que un estudiante se matricule en un curso y su prerequisito en el mismo ciclo acad\u00e9mico?",
+            "\u00bfAlguien sabe si se puede matricular en un curso y su prerequisito en el mismo ciclo?",
+            "Estoy interesado en saber si un estudiante puede inscribirse en un curso y su prerequisito al mismo tiempo.",
+            "\u00bfSe permite que un estudiante se matricule en un curso y su prerequisito en el mismo ciclo acad\u00e9mico?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 debe hacer un estudiante que no pudo realizar la inscripci\u00f3n de sus cursos de manera virtual en la fecha y turno asignado para su matr\u00edcula regular?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante que no pudo inscribirse en sus cursos virtualmente en la fecha asignada?",
+            "Si un estudiante no logr\u00f3 inscribirse en sus cursos en el tiempo estipulado, \u00bfqu\u00e9 debe hacer?",
+            "\u00bfQu\u00e9 opciones tiene un estudiante que no pudo realizar su inscripci\u00f3n de cursos en la fecha y turno que le correspond\u00eda?",
+            "\u00bfQu\u00e9 debe hacer un alumno si no pudo inscribirse en sus cursos de forma virtual en la fecha asignada?",
+            "\u00bfAlguien sabe qu\u00e9 hacer si un estudiante no pudo inscribirse en sus cursos a tiempo?",
+            "Estoy buscando informaci\u00f3n sobre qu\u00e9 hacer si no pude inscribirme en mis cursos en la fecha y turno asignados.",
+            "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que no pudo realizar su inscripci\u00f3n de cursos en la fecha y turno que le tocaba?",
+            "\u00bfQu\u00e9 acciones puede tomar un estudiante que no logr\u00f3 inscribirse en sus cursos virtualmente en el tiempo establecido?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 debe hacer un estudiante que no pudo realizar la inscripci\u00f3n de sus cursos de manera virtual en la fecha y turno asignado para su matr\u00edcula regular?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante que no logr\u00f3 inscribirse en sus cursos virtualmente en el tiempo y turno que le correspond\u00eda?",
+            "Si un estudiante no pudo hacer su inscripci\u00f3n a tiempo, \u00bfqu\u00e9 opciones tiene para regularizar su matr\u00edcula?",
+            "\u00bfQu\u00e9 acciones puede tomar un estudiante que se perdi\u00f3 la fecha de inscripci\u00f3n de cursos en l\u00ednea?",
+            "\u00bfQu\u00e9 debe hacer un estudiante que no pudo completar su matr\u00edcula regular en la fecha asignada?",
+            "\u00bfCu\u00e1les son las alternativas para un estudiante que no realiz\u00f3 la inscripci\u00f3n de sus cursos en el plazo establecido?",
+            "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que no pudo inscribirse en sus cursos virtualmente en la fecha y turno que le tocaba?",
+            "Si un estudiante se perdi\u00f3 la inscripci\u00f3n virtual, \u00bfqu\u00e9 deber\u00eda hacer para poder inscribirse en sus cursos?",
+            "\u00bfQu\u00e9 opciones tiene un estudiante que no logr\u00f3 inscribirse en sus cursos en la fecha y turno que le correspond\u00eda?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 debe hacer un estudiante que desea solicitar una vacante adicional para la inscripci\u00f3n a un curso?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante solicitar una vacante extra para inscribirse en un curso?",
+            "Si un estudiante quiere pedir una vacante adicional para un curso, \u00bfqu\u00e9 pasos debe seguir?",
+            "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que desea obtener una vacante adicional para un curso?",
+            "\u00bfQu\u00e9 debe hacer un estudiante que est\u00e1 interesado en solicitar una vacante adicional para inscribirse en un curso?",
+            "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para solicitar una vacante adicional en un curso?",
+            "\u00bfQu\u00e9 opciones tiene un estudiante que quiere pedir una vacante extra para un curso?",
+            "Si un estudiante desea inscribirse en un curso y necesita una vacante adicional, \u00bfc\u00f3mo puede proceder?",
+            "\u00bfQu\u00e9 acciones debe tomar un estudiante que desea solicitar una vacante adicional para un curso espec\u00edfico?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1l es el horario y el correo de contacto de la Mesa de Partes en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la oficina de Mesa de Partes de la Facultad de Ciencias, y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfMe puedes informar sobre el horario de atenci\u00f3n y el correo de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo comunicarme con ellos por correo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas explicarme el proceso que debe seguir un estudiante de pregrado para hacer un traslado interno en la Facultad de Ciencias?",
+            "\u00bfCu\u00e1les son los pasos que un alumno de la Facultad de Ciencias necesita seguir para cambiarse de carrera?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de pregrado puede solicitar un traslado interno a otra carrera en la misma Facultad.",
+            "\u00bfQu\u00e9 procedimiento tiene que seguir un estudiante de la Facultad de Ciencias para realizar un traslado interno a otra especialidad?",
+            "\u00bfC\u00f3mo se lleva a cabo el traslado interno para los estudiantes de pregrado en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 debe hacer un estudiante para cambiarse de carrera dentro de la Facultad de Ciencias?",
+            "\u00bfHay un procedimiento espec\u00edfico que un estudiante de pregrado debe seguir para un traslado interno en la Facultad de Ciencias?",
+            "\u00bfMe podr\u00edas detallar c\u00f3mo un estudiante puede realizar un traslado interno a otra carrera en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas decirme a qu\u00e9 horas atiende la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n y el correo de la oficina de Mesa de Partes de DIRCE.",
+            "\u00bfA qu\u00e9 hora puedo ir a la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes de DIRCE y c\u00f3mo puedo comunicarme con ellos por email?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la Mesa de Partes de DIRCE? Tambi\u00e9n, \u00bfcu\u00e1l es su correo de contacto?",
+            "\u00bfA qu\u00e9 hora puedo visitar la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico para consultas?",
+            "\u00bfPodr\u00edas indicarme el horario de atenci\u00f3n y el correo de la Mesa de Partes de DIRCE?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 requisitos y pasos debe seguir un nuevo ingresante para matricularse en la Facultad de Ciencias de la UNI?",
+            "\u00bfCu\u00e1les son los requisitos para la matr\u00edcula de nuevos estudiantes de pregrado en la Facultad de Ciencias?",
+            "Me gustar\u00eda conocer el proceso de matr\u00edcula y los requisitos para los nuevos ingresantes a la Facultad de Ciencias de la UNI.",
+            "\u00bfPodr\u00edas detallar qu\u00e9 necesita un nuevo alumno para matricularse en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+            "\u00bfQu\u00e9 pasos y documentos son necesarios para que un nuevo ingresante complete su matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfCu\u00e1les son los requisitos y el procedimiento que deben seguir los nuevos ingresantes para matricularse en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 debe hacer un nuevo estudiante para completar su matr\u00edcula en la Facultad de Ciencias de la UNI?",
+            "\u00bfMe puedes explicar el proceso y los requisitos para la matr\u00edcula de nuevos ingresantes en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 deben hacer los estudiantes que adeuden la tutor\u00eda obligatoria previa a la matricula para alumnos en riesgo academico?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos deben seguir los estudiantes que no han completado la tutor\u00eda obligatoria antes de matricularse si est\u00e1n en riesgo acad\u00e9mico?",
+            "Si un estudiante est\u00e1 en riesgo acad\u00e9mico y no ha cumplido con la tutor\u00eda, \u00bfqu\u00e9 acciones debe tomar para poder matricularse?",
+            "\u00bfCu\u00e1les son los requisitos para los alumnos en riesgo acad\u00e9mico que no han realizado la tutor\u00eda obligatoria antes de la matr\u00edcula?",
+            "Me gustar\u00eda saber qu\u00e9 deben hacer los estudiantes que tienen pendiente la tutor\u00eda obligatoria antes de matricularse, especialmente si est\u00e1n en riesgo acad\u00e9mico.",
+            "\u00bfQu\u00e9 opciones tienen los estudiantes que adeudan la tutor\u00eda obligatoria para poder matricularse si est\u00e1n en riesgo acad\u00e9mico?",
+            "\u00bfPodr\u00edas indicarme qu\u00e9 deben hacer los alumnos en riesgo acad\u00e9mico que no han completado la tutor\u00eda obligatoria antes de la matr\u00edcula?",
+            "Para los estudiantes que est\u00e1n en riesgo acad\u00e9mico y no han hecho la tutor\u00eda obligatoria, \u00bfqu\u00e9 deben hacer para poder matricularse?",
+            "\u00bfQu\u00e9 procedimiento deben seguir los estudiantes que no han cumplido con la tutor\u00eda obligatoria y est\u00e1n en riesgo acad\u00e9mico para poder matricularse?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas decirme cu\u00e1l es el horario de atenci\u00f3n de la Mesa de Partes de la Facultad de Ciencias y su correo electr\u00f3nico?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su direcci\u00f3n de correo?",
+            "\u00bfCu\u00e1l es el horario y el correo de contacto de la Mesa de Partes en la Facultad de Ciencias?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes de la Facultad de Ciencias.",
+            "\u00bfQu\u00e9 horario tiene la Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfA qu\u00e9 horas puedo ir a la Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes y el correo de contacto para consultas en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas informarme sobre el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfEl pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?",
+        "questions_generated": [
+            "\u00bfEs necesario pagar el carnet universitario para poder matricularse en la Facultad de Ciencias?",
+            "\u00bfEl carnet universitario debe ser pagado antes de la matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfSe requiere el pago del carnet universitario para la matr\u00edcula en la Facultad de Ciencias de la universidad?",
+            "Me gustar\u00eda saber si el pago del carnet universitario es un requisito para la matr\u00edcula en la Facultad de Ciencias.",
+            "\u00bfEs obligatorio pagar el carnet universitario para matricularse en la Facultad de Ciencias?",
+            "\u00bfLos estudiantes deben pagar el carnet universitario para poder realizar su matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfEl pago del carnet universitario es un requisito indispensable para la matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas aclararme si el pago por el carnet universitario es necesario para la matr\u00edcula en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfUn estudiante puede matricularse en un curso y su curso pre requisito en el mismo ciclo?",
+        "questions_generated": [
+            "\u00bfEs posible que un estudiante se inscriba en un curso y su prerequisito al mismo tiempo?",
+            "\u00bfUn alumno puede matricularse en un curso y en su asignatura previa en el mismo ciclo acad\u00e9mico?",
+            "\u00bfPuedo matricularme en un curso y su prerequisito en el mismo periodo?",
+            "\u00bfQu\u00e9 opciones tiene un estudiante para inscribirse en un curso y su prerequisito en un solo ciclo?",
+            "\u00bfHay alguna regla que permita a los estudiantes matricularse en un curso y su prerequisito simult\u00e1neamente?",
+            "\u00bfUn estudiante en posibilidad de egresar puede inscribirse en un curso y su prerequisito en el mismo ciclo?",
+            "\u00bfCu\u00e1les son las condiciones para que un estudiante pueda matricularse en un curso y su prerequisito en el mismo ciclo?",
+            "\u00bfPodr\u00eda un estudiante solicitar la matr\u00edcula en un curso y su prerequisito en el mismo ciclo acad\u00e9mico?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la Facultad de Ciencias de la UNI para solicitar su constancia de Ayudantia acad\u00e9mica?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante de pregrado para obtener su constancia de ayudant\u00eda acad\u00e9mica?",
+            "\u00bfQu\u00e9 pasos debe seguir un alumno de la Facultad de Ciencias para solicitar su constancia de ayudant\u00eda?",
+            "\u00bfC\u00f3mo puede un estudiante de pregrado pedir su constancia de ayudant\u00eda acad\u00e9mica en la UNI?",
+            "\u00bfQu\u00e9 procedimiento tiene que seguir un estudiante para conseguir su constancia de ayudant\u00eda en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas indicarme c\u00f3mo un estudiante de pregrado puede solicitar su constancia de ayudant\u00eda acad\u00e9mica?",
+            "\u00bfD\u00f3nde debe dirigirse un estudiante de la Facultad de Ciencias para solicitar su constancia de ayudant\u00eda?",
+            "\u00bfQu\u00e9 informaci\u00f3n necesita un estudiante para solicitar su constancia de ayudant\u00eda acad\u00e9mica?",
+            "\u00bfCu\u00e1les son los pasos que un estudiante de pregrado debe seguir para obtener su constancia de ayudant\u00eda en la UNI?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo de contacto de la Mesa de Partes de DIRCE?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes de DIRCE y su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la Mesa de Partes de DIRCE y cu\u00e1l es su correo de contacto?",
+            "\u00bfMe podr\u00edas informar sobre el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes de DIRCE?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de DIRCE y cu\u00e1l es su correo para consultas?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la Mesa de Partes de DIRCE y c\u00f3mo puedo comunicarme con ellos por correo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfHasta que fecha un estudiante podr\u00e1 solicitar su Reincorporaci\u00f3n?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es la fecha l\u00edmite para que un estudiante presente su solicitud de reincorporaci\u00f3n?",
+            "\u00bfHasta cu\u00e1ndo puedo solicitar mi reincorporaci\u00f3n como estudiante?",
+            "\u00bfMe podr\u00edas informar sobre la fecha tope para solicitar la reincorporaci\u00f3n?",
+            "\u00bfQu\u00e9 fecha se establece para que los estudiantes puedan solicitar su reincorporaci\u00f3n?",
+            "\u00bfCu\u00e1ndo es el \u00faltimo d\u00eda para que un estudiante solicite su reincorporaci\u00f3n?",
+            "\u00bfPodr\u00edas decirme hasta qu\u00e9 fecha se puede hacer la solicitud de reincorporaci\u00f3n?",
+            "\u00bfHasta qu\u00e9 fecha tiene un estudiante para pedir su reincorporaci\u00f3n?",
+            "\u00bfQu\u00e9 plazo hay para que un estudiante presente su solicitud de reincorporaci\u00f3n?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante para convalidar sus practicas pre pre profesionales?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para convalidar sus pr\u00e1cticas pre profesionales?",
+            "\u00bfC\u00f3mo puede un estudiante realizar la convalidaci\u00f3n de sus pr\u00e1cticas pre profesionales?",
+            "\u00bfCu\u00e1l es el procedimiento para que un estudiante convalide sus pr\u00e1cticas pre profesionales?",
+            "\u00bfPodr\u00edas explicarme el proceso de convalidaci\u00f3n de pr\u00e1cticas pre profesionales para estudiantes?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para que le convaliden sus pr\u00e1cticas pre profesionales?",
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante convalide sus pr\u00e1cticas pre profesionales?",
+            "\u00bfC\u00f3mo se lleva a cabo la convalidaci\u00f3n de pr\u00e1cticas pre profesionales para los estudiantes?",
+            "\u00bfQu\u00e9 debe hacer un estudiante para que sus pr\u00e1cticas pre profesionales sean convalidadas?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante de pregrado para trasladarse a otra carrera en la Facultad de Ciencias?",
+            "\u00bfC\u00f3mo puede un estudiante de la Facultad de Ciencias solicitar un traslado interno a otra carrera?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado para realizar un traslado interno dentro de la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas detallar el procedimiento para que un estudiante de pregrado cambie de carrera dentro de la misma Facultad?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante de la Facultad de Ciencias para llevar a cabo un traslado interno?",
+            "\u00bfCu\u00e1les son los requisitos y el procedimiento para que un estudiante de pregrado realice un traslado interno en la Facultad de Ciencias?",
+            "\u00bfC\u00f3mo se gestiona el traslado interno para un estudiante de pregrado en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para cambiarse de carrera dentro de la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas decirme cu\u00e1l es el horario de atenci\u00f3n y el correo de la Mesa de Partes de DIRCE?",
+            "Me gustar\u00eda saber el horario y el correo de contacto de la oficina de Mesa de Partes de DIRCE, por favor.",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la oficina de Mesa de Partes de DIRCE y su correo de contacto?",
+            "\u00bfQu\u00e9 horario tiene la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfAlguien sabe el horario y el correo de la Mesa de Partes de DIRCE?",
+            "\u00bfMe podr\u00edas informar sobre el horario de atenci\u00f3n y el correo de la oficina de Mesa de Partes de DIRCE?",
+            "\u00bfCu\u00e1l es el horario y el correo de contacto de la Mesa de Partes de DIRCE?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que desea reincorporarse despu\u00e9s de haber reservado su matricula por uno o mas periodos acad\u00e9micos?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para reincorporarse despu\u00e9s de haber reservado su matr\u00edcula?",
+            "Si un estudiante ha reservado su matr\u00edcula por varios periodos, \u00bfc\u00f3mo puede reincorporarse?",
+            "\u00bfCu\u00e1l es el procedimiento para que un estudiante se reincorpore tras haber reservado su matr\u00edcula?",
+            "\u00bfQu\u00e9 debe hacer un estudiante que quiere reincorporarse despu\u00e9s de no matricularse por uno o m\u00e1s periodos?",
+            "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para su reincorporaci\u00f3n tras haber reservado matr\u00edcula?",
+            "\u00bfAlguien sabe c\u00f3mo debe proceder un estudiante que desea reincorporarse despu\u00e9s de haber reservado su matr\u00edcula?",
+            "\u00bfQu\u00e9 proceso debe seguir un estudiante para reincorporarse si ha reservado su matr\u00edcula por varios periodos?",
+            "\u00bfC\u00f3mo puede un estudiante reincorporarse despu\u00e9s de haber dejado de matricularse por uno o m\u00e1s ciclos?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 requisitos y pasos debe seguir un nuevo ingresante para matricularse en la Facultad de Ciencias?",
+            "Me gustar\u00eda saber cu\u00e1les son los requisitos y el proceso de matr\u00edcula para los nuevos estudiantes de pregrado en la Facultad de Ciencias.",
+            "\u00bfCu\u00e1les son los requisitos para matricularse como nuevo ingresante en la Facultad de Ciencias de la UNI?",
+            "\u00bfQu\u00e9 necesita un nuevo ingresante para completar su matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas explicarme el proceso de matr\u00edcula y los requisitos para los nuevos ingresantes de pregrado en la Facultad de Ciencias?",
+            "\u00bfAlguien tiene informaci\u00f3n sobre los requisitos y el proceso de matr\u00edcula para nuevos estudiantes en la Facultad de Ciencias?",
+            "\u00bfCu\u00e1les son los pasos y requisitos que deben cumplir los nuevos ingresantes para matricularse en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 debe hacer un nuevo ingresante para matricularse en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el procedimiento a seguir para que un estudiante de pregrado de la Facultad de Ciencias de la UNI pueda realizar ayudant\u00eda academica?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado en la Facultad de Ciencias de la UNI para postular a una ayudant\u00eda acad\u00e9mica?",
+            "\u00bfC\u00f3mo puede un estudiante de la Facultad de Ciencias de la UNI solicitar una ayudant\u00eda acad\u00e9mica?",
+            "\u00bfPodr\u00edas indicarme el proceso para que un estudiante de pregrado en la Facultad de Ciencias de la UNI obtenga una ayudant\u00eda acad\u00e9mica?",
+            "Me gustar\u00eda saber, \u00bfcu\u00e1l es el procedimiento para que un estudiante de la Facultad de Ciencias de la UNI pueda hacer una ayudant\u00eda acad\u00e9mica?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante de pregrado en la Facultad de Ciencias para conseguir una ayudant\u00eda acad\u00e9mica?",
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante de la UNI en Ciencias pueda realizar una ayudant\u00eda?",
+            "\u00bfAlguien sabe c\u00f3mo un estudiante de la Facultad de Ciencias puede aplicar para una ayudant\u00eda acad\u00e9mica?",
+            "\u00bfQu\u00e9 necesita hacer un estudiante de pregrado en la Facultad de Ciencias para poder ser ayudante acad\u00e9mico?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo de la Mesa de Partes en la Facultad de Ciencias?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "Me gustar\u00eda saber, \u00bfcu\u00e1l es el horario de la Mesa de Partes de la Facultad de Ciencias y su direcci\u00f3n de correo?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el email de contacto de la Mesa de Partes en la Facultad de Ciencias?",
+            "\u00bfAlguien puede informarme sobre el horario y el correo de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la Mesa de Partes de la Facultad de Ciencias, y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfC\u00f3mo puedo contactar a la Mesa de Partes de la Facultad de Ciencias y en qu\u00e9 horario est\u00e1n disponibles?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de notas?",
+        "questions_generated": [
+            "\u00bfCu\u00e1les son los pasos que debe seguir un estudiante para pedir una constancia de notas?",
+            "\u00bfC\u00f3mo puede un estudiante solicitar una constancia de notas y qu\u00e9 procedimiento debe seguir?",
+            "\u00bfPodr\u00edas explicarme el proceso que un estudiante debe seguir para obtener una constancia de notas?",
+            "Me gustar\u00eda saber, \u00bfqu\u00e9 pasos tiene que seguir un estudiante para solicitar su constancia de notas?",
+            "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para conseguir una constancia de notas?",
+            "\u00bfAlguien sabe c\u00f3mo un estudiante puede solicitar una constancia de notas? \u00bfQu\u00e9 pasos debe seguir?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para obtener una constancia de notas y cu\u00e1les son los pasos involucrados?",
+            "\u00bfCu\u00e1l es el proceso que un estudiante necesita seguir para solicitar una constancia de notas?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l plazo para que un estudiante puede solicitar su reserva de matricula?",
+        "questions_generated": [
+            "\u00bfCu\u00e1ndo puede un estudiante pedir la reserva de matr\u00edcula?",
+            "\u00bfQu\u00e9 plazo tiene un estudiante para presentar su solicitud de reserva de matr\u00edcula?",
+            "Me gustar\u00eda saber hasta cu\u00e1ndo puedo solicitar la reserva de matr\u00edcula. ",
+            "\u00bfPodr\u00edas informarme sobre el tiempo l\u00edmite para que un estudiante solicite la reserva de matr\u00edcula?",
+            "\u00bfHasta qu\u00e9 fecha se puede hacer la solicitud de reserva de matr\u00edcula?",
+            "\u00bfCu\u00e1l es el plazo m\u00e1ximo que tiene un estudiante para solicitar la reserva de matr\u00edcula?",
+            "\u00bfHay un l\u00edmite de tiempo para que los estudiantes pidan la reserva de matr\u00edcula?",
+            "\u00bfCu\u00e1ndo es la fecha tope para que un estudiante presente su solicitud de reserva de matr\u00edcula?"
+        ]
+    },
+    {
+        "original_question": "\u00bfD\u00f3nde puede un estudiante visualizar la lista de cursos y sus respectivos horarios para el ciclo academico actual o el pr\u00f3ximo a empezar?",
+        "questions_generated": [
+            "\u00bfD\u00f3nde puedo encontrar la lista de cursos y horarios para el pr\u00f3ximo ciclo acad\u00e9mico?",
+            "\u00bfEn qu\u00e9 lugar se publica la lista de cursos y sus horarios para el ciclo acad\u00e9mico actual?",
+            "\u00bfMe podr\u00edas indicar d\u00f3nde un estudiante puede ver los cursos y horarios disponibles?",
+            "\u00bfD\u00f3nde se puede consultar la lista de cursos y horarios para el ciclo acad\u00e9mico que viene?",
+            "\u00bfHay alg\u00fan sitio espec\u00edfico donde los estudiantes puedan revisar los cursos y sus horarios?",
+            "\u00bfEn qu\u00e9 parte de la web se encuentra la informaci\u00f3n sobre los cursos y horarios para el ciclo acad\u00e9mico?",
+            "\u00bfD\u00f3nde se puede acceder a la lista de cursos y horarios para el ciclo acad\u00e9mico actual o el siguiente?",
+            "\u00bfC\u00f3mo puede un estudiante visualizar la lista de cursos y sus horarios para el ciclo acad\u00e9mico que est\u00e1 por comenzar?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante para hacer un traslado interno a otra carrera?",
+            "\u00bfC\u00f3mo puede un estudiante de pregrado solicitar un traslado interno a otra carrera en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para realizar un traslado interno a otra carrera dentro de la misma Facultad?",
+            "Me gustar\u00eda saber el procedimiento para que un estudiante de la Facultad de Ciencias cambie de carrera.",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante puede hacer un traslado interno a otra carrera en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para llevar a cabo un traslado interno a otra carrera en la misma Facultad?",
+            "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para solicitar un traslado interno a otra carrera?",
+            "\u00bfC\u00f3mo se realiza el procedimiento para que un estudiante de la Facultad de Ciencias cambie de carrera internamente?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+        "questions_generated": [
+            "\u00bfMe podr\u00edas informar sobre los requisitos y el proceso de matr\u00edcula para los nuevos estudiantes de pregrado en la Facultad de Ciencias de la UNI?",
+            "\u00bfCu\u00e1les son los pasos que debe seguir un nuevo ingresante para matricularse en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+            "\u00bfQu\u00e9 documentos necesito y cu\u00e1l es el procedimiento para matricularme como nuevo estudiante de pregrado en la Facultad de Ciencias de la UNI?",
+            "Estoy interesado en saber c\u00f3mo es el proceso de matr\u00edcula para los nuevos ingresantes a la Facultad de Ciencias. \u00bfPodr\u00edas darme detalles?",
+            "\u00bfCu\u00e1les son los requisitos para que un nuevo alumno de pregrado se matricule en la Facultad de Ciencias de la UNI?",
+            "\u00bfPodr\u00edas explicarme el proceso de matr\u00edcula para los nuevos ingresantes a la Facultad de Ciencias en la UNI?",
+            "\u00bfQu\u00e9 pasos deben seguir los nuevos estudiantes para completar su matr\u00edcula en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+            "Necesito saber c\u00f3mo se realiza la matr\u00edcula para los nuevos ingresantes de pregrado en la Facultad de Ciencias. \u00bfMe puedes ayudar con eso?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la UNI para solicitar su correo institucional?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante de la UNI solicitar su correo institucional?",
+            "\u00bfQu\u00e9 pasos debe seguir un alumno de la UNI para obtener su correo institucional?",
+            "\u00bfPodr\u00edas indicarme el procedimiento para que un estudiante de la UNI solicite su correo institucional?",
+            "Estoy buscando informaci\u00f3n sobre c\u00f3mo un estudiante de la UNI puede solicitar su correo institucional. \u00bfMe puedes ayudar?",
+            "\u00bfQu\u00e9 informaci\u00f3n necesita un estudiante para solicitar su correo institucional en la UNI?",
+            "\u00bfC\u00f3mo se solicita el correo institucional en la UNI? \u00bfCu\u00e1les son los pasos?",
+            "\u00bfQu\u00e9 debe hacer un estudiante de la UNI para conseguir su correo institucional?",
+            "Necesito saber c\u00f3mo un estudiante puede solicitar su correo institucional en la UNI. \u00bfCu\u00e1les son los pasos a seguir?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante de pregrado de la Facultad de Ciencias para hacer un traslado interno a otra carrera?",
+            "\u00bfQu\u00e9 pasos debe seguir un alumno de la Facultad de Ciencias para realizar un traslado interno a otra especialidad?",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante de pregrado puede solicitar un traslado interno dentro de la Facultad de Ciencias?",
+            "Estoy interesado en conocer el procedimiento para que un estudiante de la Facultad de Ciencias realice un traslado interno. \u00bfMe puedes dar detalles?",
+            "\u00bfQu\u00e9 requisitos y pasos debe cumplir un estudiante de pregrado para hacer un traslado interno en la Facultad de Ciencias?",
+            "\u00bfC\u00f3mo se lleva a cabo el traslado interno para los estudiantes de pregrado en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 debe hacer un estudiante de la Facultad de Ciencias para cambiarse a otra carrera dentro de la misma facultad?",
+            "Necesito informaci\u00f3n sobre el procedimiento de traslado interno para estudiantes de pregrado en la Facultad de Ciencias. \u00bfC\u00f3mo se realiza?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 deben hacer los estudiantes que adeuden la tutor\u00eda obligatoria previa a la matricula para alumnos en riesgo academico?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos deben seguir los estudiantes que no han completado la tutor\u00eda obligatoria antes de matricularse si est\u00e1n en riesgo acad\u00e9mico?",
+            "Si un alumno est\u00e1 en riesgo acad\u00e9mico y no ha hecho la tutor\u00eda obligatoria, \u00bfqu\u00e9 tiene que hacer?",
+            "\u00bfCu\u00e1les son las acciones que deben tomar los estudiantes que tienen pendiente la tutor\u00eda obligatoria antes de matricularse?",
+            "\u00bfPodr\u00edas informarme sobre el procedimiento que deben seguir los estudiantes en riesgo acad\u00e9mico que no han cumplido con la tutor\u00eda obligatoria previa a la matr\u00edcula?",
+            "\u00bfQu\u00e9 opciones tienen los estudiantes que adeudan la tutor\u00eda obligatoria para poder matricularse si est\u00e1n en riesgo acad\u00e9mico?",
+            "\u00bfQu\u00e9 deben hacer los alumnos en riesgo acad\u00e9mico que no han completado la tutor\u00eda obligatoria antes de la matr\u00edcula?",
+            "\u00bfQu\u00e9 informaci\u00f3n hay sobre la tutor\u00eda obligatoria para estudiantes en riesgo acad\u00e9mico que no la han realizado?",
+            "\u00bfQu\u00e9 deben hacer los estudiantes que no han pasado la tutor\u00eda obligatoria antes de matricularse si est\u00e1n en riesgo acad\u00e9mico?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que desea reincorporarse despu\u00e9s de haber reservado su matricula por uno o mas periodos acad\u00e9micos?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante que quiere reincorporarse tras haber reservado su matr\u00edcula por varios periodos acad\u00e9micos?",
+            "Si un alumno ha reservado su matr\u00edcula por un tiempo y desea reincorporarse, \u00bfqu\u00e9 procedimiento debe seguir?",
+            "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para reincorporarse despu\u00e9s de haber reservado su matr\u00edcula?",
+            "\u00bfPodr\u00edas explicarme el proceso que debe seguir un estudiante que quiere reincorporarse tras haber dejado su matr\u00edcula en reserva?",
+            "\u00bfQu\u00e9 debe hacer un alumno que ha reservado su matr\u00edcula por uno o m\u00e1s periodos acad\u00e9micos y ahora desea reincorporarse?",
+            "\u00bfQu\u00e9 procedimiento tiene que seguir un estudiante para reincorporarse despu\u00e9s de haber dejado su matr\u00edcula en espera?",
+            "\u00bfQu\u00e9 pasos debe tomar un estudiante que desea volver a matricularse tras haber reservado su matr\u00edcula en periodos anteriores?",
+            "\u00bfQu\u00e9 informaci\u00f3n necesito para reincorporarme si he reservado mi matr\u00edcula por varios periodos acad\u00e9micos?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo de contacto?",
+            "Si necesito comunicarme con la Mesa de Partes de DIRCE, \u00bfcu\u00e1l es su horario de atenci\u00f3n y su correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo electr\u00f3nico de la oficina de Mesa de Partes de DIRCE?",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfCu\u00e1l es el horario de la oficina de Mesa de Partes de DIRCE y qu\u00e9 correo debo usar para contactarlos?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la Mesa de Partes de DIRCE y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfMe podr\u00edas informar sobre el horario de atenci\u00f3n y el correo de la Mesa de Partes de DIRCE?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de DIRCE y cu\u00e1l es su correo de contacto?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma INTRALU de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante de la UNI puede entrar a INTRALU y qu\u00e9 servicios ofrece?",
+            "\u00bfC\u00f3mo puede acceder un alumno de pregrado a la plataforma INTRALU de la UNI y qu\u00e9 informaci\u00f3n se puede encontrar all\u00ed?",
+            "\u00bfMe puedes decir c\u00f3mo un estudiante de la UNI inicia sesi\u00f3n en INTRALU y qu\u00e9 funcionalidades tiene?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado para acceder a INTRALU y qu\u00e9 tipo de informaci\u00f3n puede obtener?",
+            "\u00bfCu\u00e1les son los procedimientos para que un estudiante de la UNI acceda a INTRALU y qu\u00e9 servicios est\u00e1n disponibles?",
+            "\u00bfC\u00f3mo se accede a la plataforma INTRALU en la UNI y qu\u00e9 informaci\u00f3n se puede consultar?",
+            "\u00bfQu\u00e9 necesita un estudiante para entrar a INTRALU y qu\u00e9 puede hacer una vez dentro?",
+            "\u00bfQu\u00e9 funcionalidades tiene INTRALU y c\u00f3mo puede un estudiante de la UNI acceder a ella?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y correo de contacto de la oficina de estad\u00edstica o AERA?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas informarme sobre el horario y el correo de contacto del \u00e1rea de estad\u00edstica de la UNI?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la oficina de estad\u00edstica y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfMe puedes decir el horario y el correo electr\u00f3nico de la oficina de AERA?",
+            "\u00bfQu\u00e9 horario tiene la oficina de estad\u00edstica y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de estad\u00edstica y cu\u00e1l es su correo de contacto?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de AERA y c\u00f3mo puedo comunicarme con ellos por correo?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la oficina de estad\u00edstica y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfQu\u00e9 horario tienen en la oficina de estad\u00edstica y c\u00f3mo puedo escribirles un correo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfPodr\u00edas decirme el horario y el correo de contacto de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la Mesa de Partes en la Facultad de Ciencias y c\u00f3mo puedo contactarlos?",
+            "\u00bfMe puedes informar sobre el horario y el correo electr\u00f3nico de la oficina de Mesa de Partes?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 disponible la Mesa de Partes en la Facultad de Ciencias y cu\u00e1l es su correo?",
+            "\u00bfA qu\u00e9 hora atiende la Mesa de Partes y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la Mesa de Partes y c\u00f3mo puedo enviarles un correo?",
+            "\u00bfQu\u00e9 horario tienen en la oficina de Mesa de Partes y cu\u00e1l es su correo de contacto?",
+            "\u00bfCu\u00e1les son los horarios de atenci\u00f3n de la Mesa de Partes y c\u00f3mo puedo comunicarme con ellos por correo?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCual es el proceso para que un ingresante o alumno regular genere una orden de pago para el pago de autoseguro?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un ingresante o estudiante regular crear una orden de pago para el autoseguro?",
+            "\u00bfPodr\u00edas explicarme el procedimiento que debe seguir un alumno regular para generar su orden de pago de autoseguro?",
+            "\u00bfQu\u00e9 pasos debe seguir un ingresante para obtener una orden de pago por autoseguro?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante regular puede generar una orden de pago para el autoseguro m\u00e9dico. ",
+            "\u00bfCu\u00e1l es el proceso que un alumno regular debe seguir para hacer su orden de pago de autoseguro?",
+            "\u00bfQu\u00e9 tiene que hacer un ingresante para generar su orden de pago de autoseguro?",
+            "\u00bfPuedes indicarme c\u00f3mo un alumno regular puede realizar la generaci\u00f3n de una orden de pago para el autoseguro?",
+            "\u00bfQu\u00e9 pasos debe seguir un ingresante para crear una orden de pago para el autoseguro?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo de contacto de la Mesa de Partes de DIRCE?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su direcci\u00f3n de correo?",
+            "Me gustar\u00eda saber el horario de atenci\u00f3n de la Mesa de Partes de DIRCE y su correo electr\u00f3nico.",
+            "\u00bfCu\u00e1l es el horario de la Mesa de Partes de DIRCE y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfQu\u00e9 horario maneja la oficina de Mesa de Partes de DIRCE y cu\u00e1l es su correo de contacto?",
+            "\u00bfA qu\u00e9 hora puedo ir a la Mesa de Partes de DIRCE y cu\u00e1l es su correo electr\u00f3nico?",
+            "\u00bfPodr\u00edas informarme sobre el horario y el correo de la oficina de Mesa de Partes de DIRCE?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular al ciclo acad\u00e9mico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+        "questions_generated": [
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un alumno regular de pregrado se matricule en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas explicarme qu\u00e9 necesita un estudiante regular para matricularse en el ciclo acad\u00e9mico de la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 requisitos y proceso debe seguir un alumno regular para su matr\u00edcula en la Facultad de Ciencias?",
+            "Me gustar\u00eda saber cu\u00e1les son los requisitos y el procedimiento para la matr\u00edcula regular en la Facultad de Ciencias.",
+            "\u00bfCu\u00e1les son los pasos y requisitos que un estudiante de pregrado debe cumplir para matricularse en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 necesita un alumno regular para llevar a cabo su matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfPuedes indicarme los requisitos y el proceso de matr\u00edcula para alumnos regulares en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante regular de pregrado para completar su matr\u00edcula en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante de pregrado en la Facultad de Ciencias de la UNI gestionar su matr\u00edcula rezagada?",
+            "\u00bfCu\u00e1les son los pasos que debe seguir un alumno de la Facultad de Ciencias para tramitar su matr\u00edcula rezagada?",
+            "\u00bfPodr\u00edas explicarme el proceso para que un estudiante de la UNI realice su matr\u00edcula rezagada?",
+            "Me gustar\u00eda saber qu\u00e9 debe hacer un estudiante de pregrado de la Facultad de Ciencias para matricularse de manera rezagada.",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de la Facultad de Ciencias para realizar su matr\u00edcula rezagada?",
+            "\u00bfQu\u00e9 procedimiento sigue un estudiante de pregrado en la Facultad de Ciencias para la matr\u00edcula rezagada?",
+            "\u00bfQu\u00e9 tiene que hacer un alumno de la UNI para tramitar su matr\u00edcula rezagada?",
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante de la Facultad de Ciencias haga su matr\u00edcula rezagada?"
+        ]
+    },
+    {
+        "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado en la Facultad de Ciencias para hacer un traslado interno a otra carrera?",
+            "\u00bfC\u00f3mo puede un alumno de la Facultad de Ciencias solicitar un traslado interno a otra especialidad?",
+            "\u00bfPodr\u00edas indicarme el procedimiento para que un estudiante de la UNI realice un traslado interno a otra carrera dentro de la misma facultad?",
+            "Me gustar\u00eda saber c\u00f3mo un estudiante de pregrado puede llevar a cabo un traslado interno en la Facultad de Ciencias.",
+            "\u00bfCu\u00e1les son los pasos que debe seguir un estudiante para realizar un traslado interno en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 procedimiento sigue un alumno de la Facultad de Ciencias para cambiarse a otra carrera?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante de pregrado para solicitar un traslado interno dentro de la Facultad de Ciencias?",
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante de la Facultad de Ciencias realice un traslado interno a otra carrera?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la Facultad de ciencias de la UNI para solicitar certificado de d\u00e9cimo o quinto superior?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante de la Facultad de Ciencias solicitar un certificado de d\u00e9cimo o quinto superior?",
+            "\u00bfCu\u00e1les son los pasos que debe seguir un alumno para obtener su certificado de quinto o d\u00e9cimo superior en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas explicarme el proceso para que un estudiante de la UNI obtenga un certificado de quinto o d\u00e9cimo superior?",
+            "Me gustar\u00eda saber qu\u00e9 debe hacer un estudiante de la Facultad de Ciencias para solicitar su certificado de quinto o d\u00e9cimo superior.",
+            "\u00bfQu\u00e9 procedimiento sigue un estudiante de la Facultad de Ciencias para obtener un certificado de d\u00e9cimo o quinto superior?",
+            "\u00bfQu\u00e9 tiene que hacer un alumno de la UNI para tramitar su certificado de quinto o d\u00e9cimo superior?",
+            "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante de la Facultad de Ciencias solicite su certificado de quinto o d\u00e9cimo superior?",
+            "\u00bfC\u00f3mo se solicita un certificado de quinto o d\u00e9cimo superior en la Facultad de Ciencias de la UNI?"
+        ]
+    },
+    {
+        "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en espa\u00f1ol?",
+        "questions_generated": [
+            "\u00bfC\u00f3mo puede un estudiante pedir una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?",
+            "\u00bfCu\u00e1les son los pasos que debe seguir un estudiante para obtener su constancia de matr\u00edcula en cualquiera de los dos idiomas?",
+            "Me gustar\u00eda saber el procedimiento para solicitar una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol. \u00bfPodr\u00edas ayudarme?",
+            "\u00bfQu\u00e9 tiene que hacer un estudiante para conseguir una constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol?",
+            "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante puede solicitar una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante para que le den una constancia de matr\u00edcula en ingl\u00e9s o en espa\u00f1ol?",
+            "Si un estudiante quiere una constancia de matr\u00edcula, \u00bfqu\u00e9 procedimiento debe seguir para obtenerla en ingl\u00e9s o espa\u00f1ol?",
+            "\u00bfCu\u00e1l es el proceso que un estudiante debe seguir para solicitar su constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 requisitos y pasos deben seguir los nuevos ingresantes de pregrado para matricularse en la Facultad de Ciencias?",
+            "\u00bfCu\u00e1les son los requisitos para la matr\u00edcula de nuevos estudiantes de pregrado en la Facultad de Ciencias?",
+            "Me gustar\u00eda saber el proceso y los requisitos para que los nuevos ingresantes de pregrado se matriculen en la Facultad de Ciencias.",
+            "\u00bfQu\u00e9 necesita un nuevo ingresante de pregrado para completar su matr\u00edcula en la Facultad de Ciencias?",
+            "\u00bfPodr\u00edas detallar los requisitos y el proceso de matr\u00edcula para los nuevos estudiantes de pregrado en la Facultad de Ciencias?",
+            "\u00bfCu\u00e1les son los pasos que deben seguir los nuevos ingresantes para matricularse en la Facultad de Ciencias?",
+            "Si un nuevo estudiante de pregrado quiere matricularse en la Facultad de Ciencias, \u00bfqu\u00e9 requisitos y proceso debe seguir?",
+            "\u00bfQu\u00e9 pasos y requisitos son necesarios para que un nuevo ingresante de pregrado complete su matr\u00edcula en la Facultad de Ciencias?"
+        ]
+    },
+    {
+        "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+        "questions_generated": [
+            "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo de contacto?",
+            "\u00bfPodr\u00edas decirme el horario de atenci\u00f3n y el correo de la oficina de Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfA qu\u00e9 hora atiende la oficina de Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo contactarlos por correo?",
+            "\u00bfCu\u00e1l es el horario y el correo electr\u00f3nico de la oficina de Mesa de Partes en la Facultad de Ciencias?",
+            "\u00bfQu\u00e9 d\u00edas y horas est\u00e1 abierta la oficina de Mesa de Partes de la Facultad de Ciencias? \u00bfCu\u00e1l es su correo?",
+            "\u00bfMe puedes informar sobre el horario de atenci\u00f3n y el correo de contacto de la Mesa de Partes de la Facultad de Ciencias?",
+            "\u00bfA qu\u00e9 hora puedo ir a la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su direcci\u00f3n de correo electr\u00f3nico?",
+            "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la oficina de Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo comunicarme con ellos por correo?"
+        ]
+    }
+]

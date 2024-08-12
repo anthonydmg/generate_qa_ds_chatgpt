@@ -1,0 +1,3 @@
+La evaluacion con GPT4 ha demostrado resultados prometodores de calidad y automatico en comparacion con la evalucion humana
+- Reinforcement Learning for Optimizing RAG for Domain Chatbots
+Entender mas la evaluacion

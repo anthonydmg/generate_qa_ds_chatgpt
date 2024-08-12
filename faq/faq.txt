@@ -15,7 +15,7 @@ Respuesta: Los nuevos alumnos de pregrado ingresantes a la Facultad de Ciencias,
     2. Actualización de datos en intranet. DIRCE hará llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.
     3. Registrar los datos en la Facultad de Ciencias. La oficina de estadística de la facultad enviará al correo del ingresante la ficha de datos. El llenado es carácter obligatorio.
     4. Efectuar el pago por autoseguro (S/. 55.00) en el plazo establecido en el cronograma. Para ello, primero generar una orden de pago a traves de la plataforma intranet-alumnos.
-    5. Realizar la entrega de los siguientes documentos a la oficina de estadística según el cronograma de actividades de matrícula para ingresantes publicado en la sección 'MATRÍCULA Y PROCEDIMIENTOS' en la página web de la Facultad de Ciencias.
+    5. Realizar la entrega de los siguientes documentos a la oficina de estadística según el cronograma de actividades de matrícula para ingresantes publicado dentro de la sección 'MATRÍCULA Y PROCEDIMIENTOS' en la página web de la Facultad de Ciencias.
         - Constancia de Ingreso
         - Ficha de datos
         - Constancia de Evaluación Socioeconómica
@@ -40,33 +40,33 @@ Pregunta: ¿Hasta que fecha se debe realizar el pago por concepto de autoseguro 
 Respuesta: Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Si no se cumple con este plazo máximo, es probable que la matrícula no pueda realizarse de manera regular y deba gestionarse como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, es necesario que el estudiante se comunique con la oficina de estadística (AERA) al correo estadistica_fc@uni.edu.pe o revise el procedimiento para gestionar su matrícula rezagada.
 El calendario de actividades académicas es publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS", puede acceder a esta sección mediante el siguiente enlace: https://fc.uni.edu.pe/documentos/
 
-Tema: Procedimiento para solicitar una Constancia de Matricula 
+Tema: Procedimiento para solicitar una Constancia de Matricula en la Facultad de Ciencias de la UNI
 Pregunta: ¿Qué procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en español?
 Respuesta: Para solicitar una constancia de matrícula en inglés o en español, el estudiante deber seguir los siguientes pasos:
 
 1. Enviar un correo a estadistica_fc@uni.edu.pe solicitando una orden de pago para la CONSTANCIA DE MATRÍCULA. En el mensaje, deberá incluir sus datos personales: número de DNI, apellidos, nombres, correo institucional y/o alternativo.
 
-2. La oficina de estadística (AERA) le enviará la orden de pago por el monto de S/. 100.00 (dato correspondiente al año 2024) a su correo electrónico.
+2. La oficina de estadística (AERA) le enviará la orden de pago por el monto correspondiente al correo electrónico del estudiante.
 
-3. El alumno deberá realizar el pago en alguna sucursal del BCP o a través aplicación movil del banco. En la app selecciona "Pagar servicios", elige la Universidad Nacional de Ingeniería, luego la opción de pago para estudiantes, e ingresa su número de DNI. La app mostrará la orden de pago con el monto exacto para realizar el pago.
+3. Realize el pago en alguna sucursal del BCP o a través aplicación movil del banco. En la app selecciona "Pagar servicios", elige la Universidad Nacional de Ingeniería, luego la opción de pago para estudiantes, e ingresa su número de DNI. La app mostrará la orden de pago con el monto exacto para realizar el pago.
 
-4. Luego, el estudiante deberá dejar en mesa de partes de la facultad el comprobante de pago y la solicitud correspondiente, o enviarlos por correo electrónico a mesadepartes_fc@uni.edu.pe. Es importante que se asegure de indicar en la solicitud si desea la CONSTANCIA DE MATRÍCULA en inglés o español. El modelo para esta solicitud está disponible en la sección ["MATRÍCULA Y PROCEDIMIENTOS" en la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
+4. Luego, deberá enviar la solicitud correspondiente a mesa de partes de la facultad de ciencias al correo mesadepartes_fc@uni.edu.pe. Es importante que se asegure de indicar en la solicitud si desea la CONSTANCIA DE MATRÍCULA en inglés o español. El modelo para esta solicitud está disponible dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" en la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
 
-5. Por último, AERA enviará un correo para notificarle que la constancia está lista para ser recogida en el horario de atención de Lunes a Viernes, de 08:00 a 13:00 y de 14:00 a 16:00.
+5. Por último, la constancia se enviará al correo institucional del estudiante.
 
-Tema: Procedimiento para solicitar de Constancia de Notas
+Tema: Procedimiento para solicitar de Constancia de Notas en la Facultad de Ciencias de la UNI
 Pregunta: ¿Qué procedimiento debe seguir un estudiante para solicitar una constancia de notas?
 Respuesta: Para solicitar una constancia de notas (constancia de estudios simple) en inglés o en español, el estudiante deber seguir los siguientes pasos:
 
 1. Enviar un correo a estadistica_fc@uni.edu.pe solicitando una orden de pago para la CONSTANCIA DE NOTAS. En el mensaje, deberá incluir sus datos personales: número de DNI, apellidos, nombres, correo institucional y/o alternativo.
 
-2. La oficina de estadística (AERA) le enviará la orden de pago por el monto de S/. 100.00 (dato correspondiente al año 2024) a su correo electrónico.
+2. La oficina de estadística (AERA) le enviará la orden de pago por el monto de S/. 100.00 (dato correspondiente al año 2024) al correo del estudiante.
 
-3. El alumno deberá realizar el pago en alguna sucursal del BCP o a través aplicación movil del banco. En la app selecciona "Pagar servicios", elige la Universidad Nacional de Ingeniería, luego la opción de pago para estudiantes, e ingresa su número de DNI. La app mostrará la orden de pago con el monto exacto para realizar el pago.
+3. Realize el pago en alguna sucursal del BCP o a través aplicación movil del banco. En la app selecciona "Pagar servicios", elige la Universidad Nacional de Ingeniería, luego la opción de pago para estudiantes, e ingresa su número de DNI. La app mostrará la orden de pago con el monto exacto para realizar el pago.
 
-4. Luego, el estudiante deberá dejar en mesa de partes de la facultad el comprobante de pago y la solicitud correspondiente, o enviarlos por correo electrónico a mesadepartes_fc@uni.edu.pe. Es importante que se asegure de indicar en la solicitud si desea la CONSTANCIA DE NOTAS en inglés o español. El modelo para esta solicitud está disponible en la sección ["MATRÍCULA Y PROCEDIMIENTOS" en la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
+4. Luego, deberá enviar la solicitud correspondiente a mesa de partes de la facultad de ciencias al correo mesadepartes_fc@uni.edu.pe. Es importante que se asegure de indicar en la solicitud si desea la CONSTANCIA DE NOTAS en inglés o español. El modelo para esta solicitud está disponible dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" en la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
 
-5. Por último, AERA enviará un correo para notificarle que la constancia está lista para ser recogida en el horario de atención de Lunes a Viernes, de 08:00 a 13:00 y de 14:00 a 15:30.
+5. Por último, la constancia se enviará al correo institucional del estudiante.
 
 Tema: Solicitud Certificado de Quinto y/o Tercio Superior en FC de la UNI
 Pregunta: ¿Qué procedimiento debe seguir un estudiante de la Facultad de ciencias de la UNI para solicitar certificado de décimo o quinto superior?
@@ -82,7 +82,7 @@ Pregunta: ¿Qué procedimiento debe seguir un estudiante que desea reincorporars
 Respuesta: El estudiante que desee realizar su reincorporación deberá gestionarla antes de las fechas de matrícula dentro del plazo establecido en el calendario de actividades académicas. Para ello, debera realizar los siguientes pasos.
     1. Acceder a la plataforma intranet-alumnos con su código UNI y clave correspondiente.
     2. Luego, seleccionar la opción "Trámites y Pagos" para acceder al módulo de pagos del Portal INTRALU.
-    3. En el módulo de pagos, seleccionar el trámite correspondiente y generar un nuevo pago siguiendo las indicaciones en la plataforma. Mas detalles del proceso consultar el Manual de Pagos publicado en la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la Pagina Web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
+    3. En el módulo de pagos, seleccionar el trámite correspondiente y generar un nuevo pago siguiendo las indicaciones en la plataforma. Mas detalles del proceso consultar el Manual de Pagos publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la Pagina Web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
 
 Una vez generada la orden de pago, el alumno debe realizar el pago en una sucursal del BCP o utilizando la aplicación móvil del BCP. 
 Después de completar el pago, el estudiante debe enviar su solicitud de reincorporación a través de la Plataforma de Intranet-Alumnos dentro de los plazos establecidos (consultar el calendario académico). Para ello accede a la plataforma, elige "Reincorporación de Estudiantes" en "Mis Trámites", completa el formulario con la solicitud y el comprobante de pago, y envía la solicitud.
@@ -108,7 +108,7 @@ Para cualquier otro trámite que no esté estipulado en la lista de opciones den
 
 Una vez generada la orden de pago, el alumno deberá esperar aproximadamente 10 minutos para realizar el pago correspondiente en una sucursal del BCP o a través de la aplicación móvil del banco.
 
-Para obtener más detalles sobre el proceso para generar una orden de pago a traves de la plataforma, consulta el Manual de Pagos publicado en la sección de "MATRÍCULA Y PROCEDIMIENTOS" en la Página Web de la Facultad de Ciencias, puede ingresar a dicha sección a traves del enlace: https://fc.uni.edu.pe/documentos/
+Para obtener más detalles sobre el proceso para generar una orden de pago a traves de la plataforma, consulta el Manual de Pagos publicado dentro de la sección de "MATRÍCULA Y PROCEDIMIENTOS" en la Página Web de la Facultad de Ciencias, puede ingresar a dicha sección a traves del enlace: https://fc.uni.edu.pe/documentos/
 
 Tema: Problemas al Realizar la Matrícula Virtual
 
@@ -163,14 +163,14 @@ Respuesta: A los estudiantes interesados en solicitar una vacante adicional para
 
 Tema: Procedimiento Para Reserva de Matricula
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para reservar su matricula?
-Respuesta: El estudiante o apoderado deberá presentar la solicitud de Reserva de Matrícula dirigida al Decano, a través de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matrícula en los plazos establecidos en el calendario de actividades académicas. El modelo de la solicitud para la reserva de matricula se puede encontrar publicado en la sección ["Matrícula y Procedimientos" de la pagina web de la facultad de ciencias](https://fc.uni.edu.pe/documentos/). La reserva de matrícula, realizada por solicitud procede por razones de salud, trabajo o de otras naturaleza debidamente sustentada, para tal efecto el estudiante adjuntará los documentos que acrediten la razón invocada.
+Respuesta: El estudiante o apoderado deberá presentar la solicitud de Reserva de Matrícula dirigida al Decano, a través de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matrícula en los plazos establecidos en el calendario de actividades académicas. El modelo de la solicitud para la reserva de matricula se puede encontrar publicado dentro de la sección ["Matrícula y Procedimientos" de la pagina web de la facultad de ciencias](https://fc.uni.edu.pe/documentos/). La reserva de matrícula, realizada por solicitud procede por razones de salud, trabajo o de otras naturaleza debidamente sustentada, para tal efecto el estudiante adjuntará los documentos que acrediten la razón invocada.
 En caso no se presente esta solicitud y el estudiante no haya concretado su matrícula en el periodo académico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
 El periodo de reserva de matrícula no excederá a los tres (03) años (o seis semestres) académicos consecutivos o alternos (equivalente a 06 periodos académicos).
 El tramite de la reserva de matricula no tiene ningún pago asociado.
 
 Tema: Plazo Para Solicitar la Reserva de Matricula
 Pregunta: ¿Cuál plazo para que un estudiante puede solicitar su reserva de matricula?
-Respuesta: El estudiante o apoderado podrá presentar la solicitud de reserva de matrícula a través de la plataforma SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matrícula, hasta el plazo máximo establecido en el calendario de actividades académicas, publicado en la sección ["MATRÍCULA Y PROCEDIMIENTOS" dentro de la página de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). En caso de que no se presente esta solicitud y el estudiante no haya concretado su matrícula en el período académico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
+Respuesta: El estudiante o apoderado podrá presentar la solicitud de reserva de matrícula a través de la plataforma SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matrícula, hasta el plazo máximo establecido en el calendario de actividades académicas, publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la página de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). En caso de que no se presente esta solicitud y el estudiante no haya concretado su matrícula en el período académico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
 
 Tema: Perdida de Turno de Matricula
 Pregunta: ¿Qué debe hacer un estudiante que no pudo realizar la inscripción de sus cursos de manera virtual en la fecha y turno asignado para su matrícula regular?
@@ -178,7 +178,7 @@ Respuesta: Si un estudiante no logró inscribirse en sus cursos a tiempo usando 
 
 Tema: Procedimiento de Retiro Parcial
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para retirarse de asignaturas en las que esta mataricula?
-Respuesta: El estudiante podrá tramitar su solicitud de retiro de asignaturas, denominado Retiro Parcial, a través de la plataforma DIRCE (intranet-alumnos) durante la quinta semana después del inicio de clases del período académico. Para conocer las fechas específicas, consulte el calendario de actividades académicas publicado en la sección ["Matrícula y Procedimientos" de la página de la Facultad de Ciencias](https://fc.uni.edu.pe/academico/documentos/). Para solicitar el retiro parcial, el alumno debe seguir los siguientes pasos
+Respuesta: El estudiante podrá tramitar su solicitud de retiro de asignaturas, denominado Retiro Parcial, a través de la plataforma DIRCE (intranet-alumnos) durante la quinta semana después del inicio de clases del período académico. Para conocer las fechas específicas, consulte el calendario de actividades académicas publicado dentro de la sección ["Matrícula y Procedimientos" de la página de la Facultad de Ciencias](https://fc.uni.edu.pe/academico/documentos/). Para solicitar el retiro parcial, el alumno debe seguir los siguientes pasos
 
 - El alumno ingresará a la plataforma de intranet-alumnos y de todas las opciones seleccionará “retiro parcial”. 
 - Se mostrarán los cursos matriculados en el presente ciclo, y el estudiante deberá seleccionar aquellos cursos de los que desea retirarse. Es importante tener en cuenta que el retiro procede únicamente para asignaturas más avanzadas, no para aquellas de ciclos más atrasados, ni para asignaturas repetidas dos (02) o más veces, ni para asignaturas prerrequisito (en caso de que el estudiante esté matriculado en una asignatura y su prerrequisito). Además, se permite el retiro de un máximo de hasta tres (03) asignaturas retiradas, siempre y cuando no implique retirarse de todos los cursos en los que esta matriculado el estudiante.
@@ -202,15 +202,15 @@ Para Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 
 Tema: Horarios de Cursos 
 Pregunta: ¿Dónde puede un estudiante visualizar la lista de cursos y sus respectivos horarios para el ciclo academico actual o el próximo a empezar?
-Respuesta: La lista completa de los cursos que serán impartidos en el ciclo academico (semestre) junto con sus horarios y profesores correspondientes es publicado con respectiva anticipación a la matricula en la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Además, cada estudiante tambien puede encontrar información sobre los cursos y horarios dentro de la plataforma intranet-alumnos.
+Respuesta: La lista completa de los cursos que serán impartidos en el ciclo academico (semestre) junto con sus horarios y profesores correspondientes es publicado con respectiva anticipación a la matricula dentro de la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Además, cada estudiante tambien puede encontrar información sobre los cursos y horarios dentro de la plataforma intranet-alumnos.
 
-Tema: Información Mesa de Partes ORCE
-Pregunta: ¿Cual es el horario de atención y el correo de contacto de la oficina de Mesa de Parte de Orce?
-Respuesta: La recepción de documentos en de Mesa de Parte de Orce es de lunes a viernes de 8:30am a 03:00pm. El correo de contacto es mesadepartesorce@uni.edu.pe
+Tema: Información Mesa de Partes DIRCE
+Pregunta: ¿Cuál es el horario de atención y el correo de contacto de la oficina de Mesa de Partes de DIRCE?
+Respuesta: La recepción de documentos en Mesa de Partes de DIRCE es de lunes a viernes de 8:30am a 03:00pm. El correo de contacto es mesadepartesorce@uni.edu.pe
 
 Tema: Información Mesa de Partes FC
-Pregunta: ¿Cual es el horario de atención y el correo de contacto de la oficina de Mesa de Parte de de la Facultad de Ciencias?
-Respuesta: La recepción de documentos en de Mesa de Parte de la Facultad de Ciencias es de lunes a viernes de 8:30am a 03:00pm. El correo de contacto es mesadepartes_fc@uni.edu.pe
+Pregunta: ¿Cuál es el horario de atención y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?
+Respuesta: La recepción de documentos en Mesa de Partes de la Facultad de Ciencias es de lunes a viernes de 8:30am a 03:00pm. El correo de contacto es mesadepartes_fc@uni.edu.pe
 
 Tema: Procedimiento para solicitar Constancia de Ayudantia académica
 Pregunta: ¿Qué procedimiento debe seguir un estudiante de pregrado de la Facultad de Ciencias de la UNI para solicitar su constancia de Ayudantia académica?
@@ -220,31 +220,31 @@ Para Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 El horario de atención de las oficinas de Escuelas Profesionales es de lunes a viernes de 8:30 a.m a 4:00 p.m
 
 Tema: Procedimiento para Realizar ayudantía Académica
-Pregunta: ¿Cual es el procedimiento a seguir para que un estudiante de pregrado de la Facultad de Ciencias de la UNI pueda realizar ayudantía academica?
+Pregunta: ¿Cuál es el procedimiento a seguir para que un estudiante de pregrado de la Facultad de Ciencias de la UNI pueda realizar ayudantía academica?
 Respuesta: Los estudiantes que deseen realizar ayudantía académica deben ponerse en contacto con el departamento de su Escuela Profesional correspondiente para obtener más información. A continuación se detallan las direcciones de correo electrónico según la escuela profesional:
 Física, Química o Ciencia de la Computación: escuelas_fc1@uni.edu.pe
 Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 
-Tema: Traslado Interno Requisitos
-Pregunta: ¿Cuáles son los requisitos que un estudiante de pregrado de la Facultad de Ciencias debe cumplir para poder realizar un traslado interno?
-Respuesta: Para poder realizar un traslado interno, un estudiante debe cumplir con los siguientes requisitos:
-1. Presentar la solicitud a través del intranet alumnos/tramites en la fecha indicada en el calendario académico, adjuntando el comprobante de pago por el concepto de traslado interno y la ficha académica.
+Tema: Traslado Interno Procedimiento y Requisitos
+Pregunta: ¿Cómo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?
+Respuesta: Para llevar a cabo un traslado interno, un estudiante de la Facultad de Ciencias deberá seguir el siguiente procedimiento:
+1. El estudiante deberá presentar su solicitud a través de la plataforma Intranet-Alumnos, eligiendo la opción "Traslado Interno" en el menú "Mis Trámites". Esta solicitud deberá ser enviada a traves de la plataforma en la fecha indicada en el calendario de actividades académicas, adjuntando el comprobante de pago por concepto de traslado interno y la ficha académica.
 2. La Escuela verificará los documentos y requisitos propios dentro del primer día útil de presentada la solicitud, registrará el expediente y remitirá un correo de recepción al interesado.
 3. El director de Escuela o la Comisión de Matrícula analizarán las solicitudes y, utilizando el formato disponible en la web DIRCE, inscribirán las convalidaciones pertinentes según el Avance Curricular del alumno, las notas y las normas de Convalidación.
 4. Con la autorización del director, el expediente será enviado al Decano y posteriormente presentado ante el Consejo de Facultad para su aprobación mediante Resolución Decanal y remisión a la DIRCE.
-5. La DIRCE ejecutará el cambio de especialidad y/o facultad y realizará las convalidaciones.
+5. La DIRCE ejecutará el cambio de especialidad y realizará las convalidaciones.
 6. La Oficina de Estadística gestionará la matrícula de los estudiantes por traslado interno en función a la solicitud de matrícula del director de la Escuela Profesional, y finalmente, la DIRCE realizará la ejecución de la matrícula en el sistema SIGA.
 7. No se recibirán solicitudes extemporáneas.
 
 Tema: Convalidar Practicas Pre Profesionales
-Pregunta: ¿Cual es el proceso que debe seguir un estudiante para convalidar sus practicas pre pre profesionales?
+Pregunta: ¿Cuál es el proceso que debe seguir un estudiante para convalidar sus practicas pre pre profesionales?
 Respuesta:  Los estudiantes que deseen realizar convalidar sus practicas pre pre profesionales deben ponerse en contacto con el departamento de su Escuela Profesional correspondiente para obtener más información. A continuación se detallan las direcciones de correo electrónico según la escuela profesional:
 Física, Química o Ciencia de la Computación: escuelas_fc1@uni.edu.pe
 Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 
 Tema: Tramite de de Carnet Universitario 
 
-Pregunta: ¿Cual es el proceso obtener el carnet universitario y como se realiza la entrega?
+Pregunta: ¿Cuál es el proceso obtener el carnet universitario y como se realiza la entrega?
 Respuesta: El trámite de carné universitario por primera vez o renovación, requiere que el alumno cumpla los siguientes requisitos:
 1. Estar matriculado en el periodo académico vigente
 2. Realizar el pago por el monto correspondiente a S/ 11.50. Para ello debera generar una orden de pago a traves del Portal INTRALU y realizar el pago en una sucursal del bcp o a traves de la aplicación Movil del banco.
@@ -260,13 +260,13 @@ Pregunta: ¿El pago por carnet universitario es requisito para la matricula en l
 Respuesta: El pago del carnet universitario no es indispensable para el proceso de matrícula del estudiante; sin embargo, se recomienda encarecidamente a los estudiantes tramitar dicho carnet, ya que este es el documento de identificación estudiantil que deberán presentar al acceder al campus. Además, permite tener acceso a diversos beneficios, como el 50% de descuento en el transporte público, acceso al comedor universitario y descuentos en diferentes museos y centros turísticos.
 
 Tema: Estado de Tramites
-Pregunta: ¿Como un estudiante de la UNI puede ver el estado de sus tramites?
+Pregunta: ¿Cómo un estudiante de la UNI puede ver el estado de sus tramites?
 Respuesta: El estado de las solicitudes presentadas a través en el modulo de Tramites dentro del Portal INTRALU o de la Plataforma Intranet-Alumnos, puede ser visualizadas en la misma plataforma. Para otros tramites puede usar el número de expediente correspondiente para realizar el seguimiento, ingresando a http://stduni.uni.pe/modalum
 
 Tema: Fechas de Matricula
 Pregunta: ¿Dónde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matrícula para el ciclo académico?
-Respuesta: Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica en la sección "Matrícula y Procedimientos" página web de la Facultad de Ciencias, puede ingresar a dicha sección de la pagina en siguiente enlace: https://fc.uni.edu.pe/documentos/.
-Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica en la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
+Respuesta: Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica dentro de la sección "Matrícula y Procedimientos" página web de la Facultad de Ciencias, puede ingresar a dicha sección de la pagina en siguiente enlace: https://fc.uni.edu.pe/documentos/.
+Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica dentro de la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
 
 Tema: Máximo de Créditos a Matricularse Para un Estudiante
 Pregunta: ¿En cuantos créditos como máximo puede matricularse un estudiante de la Facultad de Ciencias de la UNI?
@@ -274,7 +274,7 @@ Respuesta: El número máximo de créditos en los que un estudiante de la Facult
 
 Para estudiantes que hayan aprobado todas las asignaturas del primer ciclo en su primera matrícula y tengan un promedio ponderado igual o mayor a doce (12), podrán matricularse en todas las asignaturas del segundo ciclo y adelantar como máximo dos asignaturas adicionales, siempre y cuando el plan de estudios lo permita.
 
-Para estudiantes que hayan cursado solo el primer ciclo y no cumplan con los requisitos anteriores, así como para aquellos que hayan cursado dos o más ciclos, el número máximo de créditos permitidos a matricularse se establece según el promedio ponderado de los dos últimos semestres académicos cursados y está indicado en la Tabla 1, descrita en el CAPÍTULO VI del Reglamento de Matrícula publicado en la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Esta tabla asigna un límite de créditos según el promedio ponderado de los dos últimos semestres, desde 28 créditos para promedios entre 14 y 20, hasta 15 créditos para promedios entre 0 y 8.
+Para estudiantes que hayan cursado solo el primer ciclo y no cumplan con los requisitos anteriores, así como para aquellos que hayan cursado dos o más ciclos, el número máximo de créditos permitidos a matricularse se establece según el promedio ponderado de los dos últimos semestres académicos cursados y está indicado en la Tabla 1, descrita en el CAPÍTULO VI del Reglamento de Matrícula publicado dentro de la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Esta tabla asigna un límite de créditos según el promedio ponderado de los dos últimos semestres, desde 28 créditos para promedios entre 14 y 20, hasta 15 créditos para promedios entre 0 y 8.
 
 Es importante mencionar que para estudiantes en riesgo académico, la determinación de la cantidad de créditos a matricular no se basará en dicha Tabla, sino que será recomendada por la Oficina de Tutoría y la Comisión de Matrícula de la Facultad. Dicha cantidad de créditos a matricularse para un estudiante en riesgo academico usualmente es mas limitada poniendo mayor prioridad en la matricula de los cursos desaprobados mas de dos veces.
 
@@ -294,11 +294,11 @@ Respuesta: Para solicitar su correo institucional de la UNI, enviar un correo ob
 
 Tema: Procedimiento de Matricula Rezagada
 Pregunta: ¿Qué procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?
-Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario académico publicado en la sección ["MATRÍCULA Y PROCEDIMIENTOS" dentro de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). La matrícula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matrícula en las fechas establecidas en el calendario de actividades académicas para la matricula regular y se realizará en función a las vacantes disponibles.
+Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario académico publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). La matrícula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matrícula en las fechas establecidas en el calendario de actividades académicas para la matricula regular y se realizará en función a las vacantes disponibles.
 Para realizar la matricula rezagada el estudiante debera ejecutar los siguientes pasos:
 
 1. Los estudiantes que realizan su matrícula en forma rezagada deberán efectuar el pago de 26 soles. Para ello, debera generar una order de pago atravez del Portal INTRALU.
-2. Después de haber realizado el pago deberá subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento "MATRÍCULA REZAGADA" publicado en la sección de [MATRÍCULA Y PROCEDIMIENTOS dentro de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
+2. Después de haber realizado el pago deberá subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento "MATRÍCULA REZAGADA" publicado dentro de la sección de [MATRÍCULA Y PROCEDIMIENTOS de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
 3. Luego, deberá esperar a que el personal de la oficina de Estadística, dentro de las fechas establecidas para la matrícula rezagada, proceda a habilitar el acceso a la plataforma de intranet para que el estudiante pueda matricularse directamente.
 
 Posterior a la fechas de la matricula rezagada, los estudiantes ya no podrán realizar la matricula en el ciclo académico.
@@ -315,4 +315,4 @@ Pregunta: ¿Cómo un estudiante de pregrado de la UNI puede acceder a la platafo
 
 Respuesta: Para acceder a INTRALU, el estudiante debe ingresar a la [plataforma intranet-alumnos de la UNI](https://www.academico.uni.edu.pe/alumno/inicio) y seleccionar "Trámites o Pagos" o "Información Académica". También puede acceder directamente con el siguiente enlace: https://alumnos.uni.edu.pe/login
 Para iniciar sesión, el estudiante deberá proporcionar su código de alumno UNI y la clave de acceso proporcionada por DIRCE. También puede optar por utilizar la autenticación a través del correo institucional.
-En INTRALU, el estudiante podrá consultar los cursos matriculados en el periodo actual, las notas del presente y de ciclos anteriores, el avance curricular que incluye los cursos realizados y los créditos acumulados, y la ficha académica con los cursos cursados por periodo. Además, el estudiante puede gestionar solicitudes y pagos para diversos certificados, como la constancia de estudios simple, la constancia de primera matrícula y la constancia de no adeudos, entre otros. También puede generar órdenes de pago y realizar pagos para trámites como AUTOSEGURO Estudiantil, carnet universitario, matrícula rezagada y reincorporación, entre otros.
+En INTRALU, el estudiante podrá consultar los cursos matriculados en el periodo actual, las notas del presente y de ciclos anteriores, el avance curricular que incluye los cursos realizados y los créditos acumulados, y la ficha académica con los cursos cursados por periodo. Además, el estudiante puede gestionar solicitudes y pagos para diversos certificados, como la constancia de estudios simple, la constancia de primera matrícula y la constancia de no adeudos, entre otros. También puede generar órdenes de pago y realizar pagos para trámites como AUTOSEGURO Estudiantil, carnet universitario, matrícula rezagada y reincorporación, entre otros. (Consulte el manual de pagos en la página de la Facultad de Ciencias para más detalles del proceso de pagos)

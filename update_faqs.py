@@ -5,12 +5,13 @@ text = read_fragment_doc("./faq/faq.txt")
 pattern_block = r"Tema: (.+?)Pregunta: (.+?)Respuesta:(.+?)(?=Tema: |$)"
 bloques = re.findall(pattern_block, text, re.DOTALL)
 faq_json = []
-for bloq in bloques:
+for i, bloq in enumerate(bloques):
     tema = bloq[0].strip()
     pregunta = bloq[1].strip()
     respuesta = bloq[2].strip()
 
     faq_json.append({
+        "id": i + 1,
         "question": pregunta,
         "answer": respuesta,
         "topic": tema,

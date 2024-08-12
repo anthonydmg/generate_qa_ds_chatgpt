@@ -174,7 +174,7 @@ Responde a los mensajes de manera concisa y significativa teniendo en cuenta el 
         limit_words = "" #numpy.random.choice(["",f" en menos de {num_words} palabras"], p = [0.50, 0.50])
         # Responde en menos de {num_words} palabras
         print("\nlevel_conciseness:", level_conciseness)
-        print("\nlimit_words:", limit_words)
+        #print("\nlimit_words:", limit_words)
         prompt_response_message = f"""
 Recuerda que eres un estudiante universitario en busca de información o asesoramiento hablando con un Asistente de AI. Responde al siguiente mensaje del asistente de manera {level_conciseness}concisa, realista y natural, evitando repetir exactamente la información proveída por el asistente de IA  y teniendo en cuenta el contexto del historial del diálogo en curso.
 Mensaje del asistente de AI: {message}"""
@@ -217,6 +217,27 @@ Mensaje del asistente de AI: {message}"""
         
         return response_user_ai
 
+class EmbeddingEncoder:
+    _instance = None
+
+    def __new__(cls, *args, **kwargs):
+        if cls._instance is None:
+            cls._instance = super(EmbeddingEncoder, cls).__new__(cls)
+            cls._instance.init(*args, **kwargs)
+        return cls._instance
+
+    def init(self, model_name="jinaai/jina-embeddings-v2-base-es"):
+        if model_name:
+            self.model_name = model_name
+            self.model_emb = SentenceTransformer(model_name, trust_remote_code=True)
+        else:
+            self.model_name = None
+            self.model_emb = SentenceTransformer(model_name, trust_remote_code=True)
+
+    def encode(self, query):
+        embeddings = self.model_emb.encode(query)
+        return embeddings
+
 class AIAssistant:
     def __init__(
             self, 
@@ -239,6 +260,9 @@ class AIAssistant:
         self.recovered_texts = [None]
         self.reformulated_question = [None]
         self.contains_questions = [None]
+        
+        self.need_context = [None]
+        self.analysis_need_context = [None]
 
         self.embedding_model = embedding_model
         self.model = model
@@ -318,11 +342,19 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         #else:
         #    instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. No proporciones información que no esté claramente respaldada o desarrollada en esa información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
+        ###
+        # Este es el previo
+        ###
+        #if num_turn >= min_turn:
+        #    instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada; en su lugar, puedes indicar que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+        #else:
+        #    instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada; en su lugar, puedes indicar que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
+        
         if num_turn >= min_turn:
-            instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar que no esté respaldada; en su lugar, puedes indica que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
         else:
-            instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar que no esté respaldada; en su lugar, puedes indica que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
 
 
             #instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
@@ -354,7 +386,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
     ## prev context
     def create_embedding_from_hf(self, query, model_name):
         if self.model_emb is None:
-            self.model_emb = SentenceTransformer(model_name, trust_remote_code=True)
+            self.model_emb = EmbeddingEncoder()
+            
+            #SentenceTransformer(model_name, trust_remote_code=True)
         
         embeddings = self.model_emb.encode(query)
         #print("embeddings shape:", embeddings.shape)
@@ -383,7 +417,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
         weighted_source = {
-            "faq": 1, "topic-specific-document": 0.80, "regulation": 0.75, "general_information": 1.10},
+            "faq": 1, "topic-specific-document": 0.81, "regulation": 0.75, "general_information": 1.10},
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
@@ -421,6 +455,15 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         else:
             resultado = None
         return resultado
+    def extract_analisis(self, response):
+        match = re.search(r'Análisis:(.*?)(?=- )', response, re.DOTALL)
+
+        # Si se encuentra un match, extraerlo
+        if match:
+            analisis = match.group(1).strip()
+            return analisis
+
+        return None
 
     def extract_need_context(self, response):
         match = re.search(r"La última pregunta del usuario se entiende sin necesidad del historial del chat:\s*(.*)", response)
@@ -479,8 +522,11 @@ Ejemplos:
         - Análisis: La pregunta del usuario se refiere a si la oficina de escuelas profesionales tiene un horario fijo para la atención presencial. Es específica y clara en cuanto a la oficina de la cual se desea obtener información y al tipo de información solicitada (el horario de atención de la oficina de escuelas profesionales). Esta consulta puede ser respondida de manera adecuada sin necesidad de mayor contexto sobre el trámite que se desea realizar o el motivo de la visita. Por lo tanto, hay suficiente contexto para entender la pregunta sin requerir información adicional.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
 - Ejemplo 6: Y que correo puedo escribirles?
-        - Análisis: La pregunta del usuario por un correo para contactar a una entidad o persona específica, aunque no se menciona explícitamente a quién se refiere con "ellos". Esa informacion contextual es crucial y relevante en esta pregunta, para poder dar una respuesta adecuada a la consulta. A pesar que el asistente este familiarizado con las normativas academico y se asuma que se refiere a algun contacto dentro del ámbito académico de la universidad, al no tener la informacion especifica de a quien se refiere no se podria podricirnar una respuesta adecuada. Por lo tanto, no hay suficiente contexto para entender la pregunta sin necesidad del contexto previo.
+        - Análisis: La pregunta del usuario por un correo para contactar a una entidad o persona específica, aunque no se menciona explícitamente a quién se refiere con "ellos". Esa informacion contextual es crucial y relevante en esta pregunta, para poder dar una respuesta adecuada a la consulta. A pesar que el asistente este familiarizado con las normativas academico y se asuma que se refiere a algun contacto dentro del ámbito académico de la universidad, al no tener la informacion especifica de a quien se refiere no se podria proporcionar una respuesta adecuada. Por lo tanto, no hay suficiente contexto para entender la pregunta sin necesidad del contexto previo.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
+- Ejemplo 7: Entonces, ¿como se realiza el retiro parcial?. ¿Tengo que presentar algo?
+        - Análisis: La pregunta del usuario se refiere al proceso de solicitar un retiro parcial, lo cual implica un trámite administrativo en la universidad. El asistente, al estar familiarizado con las normativas universitarias, puede entender a qué se refiere con "retiro parcial" sin necesidad de mayor contexto, ya que es un término específico. Además, la pregunta es clara y específica con la información que se busca sobre el proceso del retiro parcial, por lo que es posible proporcionar una respuesta adecuada. Por lo tanto, la pregunta se entiende sin necesidad de contexto previo.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
 
 Realiza el análisis de manera minuciosa basándote en los criterios y ejemplos anteriores e indica de la siguiente manera si es que la ultima pregunta del usuario proporcionada se entiende sin necesidad del historial:
  
@@ -497,13 +543,17 @@ Realiza el análisis de manera minuciosa basándote en los criterios y ejemplos 
 
         print("\nresponde need context:", response)
 
-        not_need_context = self.extract_need_context(response)
+        not_need_context = self.extract_need_context(response) == "Sí"
+        analisis = self.extract_analisis(response)
 
-        if not_need_context == "Sí":
+        self.need_context.append(not not_need_context)
+        self.analysis_need_context.append(analisis)
+
+        if not_need_context:
             
             return query
 
-        print("\nNot Need context:", not_need_context)
+        #print("\nNot Need context:", not_need_context)
         
         prompt_3 = f"""Dado el historial del chat proporcionado entre tres comillas invertidas y la ultima pregunta del usuario, reformula la pregunta de manera que incluya todo el contexto necesario para que pueda entenderse en su totalidad sin necesidad del historial del chat. No respondas el mensaje, solo reformúlalo y proporciona la pregunta reformulada de la siguiente manera: Reformulación: Pregunta reformulada.
 
@@ -584,6 +634,8 @@ Historial del chat: {history_chat}
                 context = None
                 query = reformulated_query 
             else:
+                self.need_context.append(None)
+                self.analysis_need_context.append(None)
                 context = None
                 
             #print("query:", query)
@@ -614,14 +666,14 @@ Historial del chat: {history_chat}
             
             num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
             print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
-            max_tokens_response = 950
+            max_tokens_response = 850
 
             general_contact_information = read_fragment_doc("./documentos/informacion_general_contacto.txt")
             #general_information_fc = read_fragment_doc("./documentos/otros/informacion_general_fc.txt")
             #general_information = general_information_aera + "\n" + general_information_fc
             num_tokens_general_context = count_num_tokens(general_contact_information)
 
-            token_budget = min(2000, 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
+            token_budget = min(2150, 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
 
             #print("\nnum_tokens_general_context:", num_tokens_general_context)
 
@@ -657,9 +709,11 @@ Historial del chat: {history_chat}
             self.messages.append({"role": "user", "content": message})
             self.reformulated_question.append(query)
             self.contains_questions.append(contains_questions)
+            #self.need_context.append(None)
+            #self.analysis_need_context.append(None)
         else:
-            if len(self.messages) // 2 < 1:
-                self.start_greeting  = True
+            #if len(self.messages) // 2 < 1:
+            #    self.start_greeting  = True
 
             self.messages.append({"role": "user", "content": message})
             response_ai_assistant = get_completion_from_messages(
@@ -669,7 +723,8 @@ Historial del chat: {history_chat}
             self.recovered_texts.append(None)
             self.reformulated_question.append(message)
             self.contains_questions.append(False)
-            
+            self.need_context.append(None)
+            self.analysis_need_context.append(None)
             
         print()
         
@@ -678,21 +733,37 @@ Historial del chat: {history_chat}
         self.recovered_texts.append(None)
         self.reformulated_question.append(None)
         self.contains_questions.append(None)
+        self.need_context.append(None)
+        self.analysis_need_context.append(None)
         
         return response_ai_assistant
     
     def get_history_dialog(self, include_context = True):
         if include_context:
             history_dialog = []
-            dialog_data = zip(self.messages[1:], self.contexts[1:], self.recovered_texts[1:], self.contains_questions [1:], self.reformulated_question[1:])
-            for message, context, texts, contains_questions, reformulated_question  in dialog_data:
+            dialog_data = zip(self.messages[1:], self.contexts[1:], 
+                              self.recovered_texts[1:], self.contains_questions [1:], 
+                              self.reformulated_question[1:],
+                              self.need_context[1:], self.analysis_need_context[1:])
+            
+            print("messages:", len(self.messages[1:]))
+            print("contexts:", len(self.contexts[1:]))
+            print("recovered_texts:", len(self.recovered_texts[1:]))
+            print("contains_questions:", len(self.contains_questions[1:]))
+            print("reformulated_question:", len(self.reformulated_question[1:]))
+            print("need_context:", len(self.need_context[1:]))
+            print("analysis_need_context:", len(self.analysis_need_context[1:]))
+
+            for message, context, texts, contains_questions, reformulated_question, need_context, analysis_need_context in dialog_data:
                 history_dialog.append({
                     "role": message["role"],
                     "content": message["content"],
                     "context": context,
                     "recovered_texts": texts,
                     "contains_questions": contains_questions,
-                    "reformulated_question": reformulated_question
+                    "reformulated_question": reformulated_question,
+                    "need_context": need_context,
+                    "analysis_need_context": analysis_need_context
                 })
                 
             return history_dialog
@@ -707,22 +778,22 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
 
-    path_file = "./faq-reformulated/data/faq_16_reformulated.json"
-    filename = "faq_16_reformulated.json"
+    path_file = "./faq-reformulated/data/faq_14_reformulated.json"
+    filename = "faq_14_reformulated.json"
     questions_faq = load_json(path_file)
-
+    ## hacer el 11 de nuevo
     #for questions_about_topic in questions_topics[0:1]:
     #    questions = questions_about_topic["questions"]
         #information = questions_about_topic["context"]
         #opening_lines = [question["question"] for question in questions]
     num_questions = len(questions_faq)
-    portion = 0.5
-    num_questions = int(num_questions * portion)
+    #portion = 0.5
+    #num_questions = int(num_questions * portion)
     
     print("num_questions:", num_questions)
 
-    start = 0   
-    end = min(5, num_questions)
+    start = 40
+    end = min(50, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
