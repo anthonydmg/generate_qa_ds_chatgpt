@@ -788,7 +788,7 @@ if __name__ == "__main__":
     paths.sort()
 
     print("paths:", paths)
-    for path in paths[45:50]:
+    for path in paths[90:100]:
         print(f"\n\n\033[34mPath:{path}.......................................................\033[0m\n\n")
         convs = load_json(path)
         for j, conv in enumerate(convs):
