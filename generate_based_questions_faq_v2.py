@@ -71,47 +71,36 @@ def get_prompt_1_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
     prompt = f"""
-Utilizando las preguntas y respuestas proporcionadas, 
+Utilizando las preguntas y respuestas proporcionadas.
+Se te proveera una lista de preguntas y respuestas frecuentes en el contexto de la Facultudad de ciencias de Univirsidad para alumnos de pregrado.
+Genera 8 preguntas derivadas y únicas que cubran tanto puntos generales o amplios hasta detalles específicos para cada par de pregunta y respuesta dentro de las tres comillas invertidas, cumpliendo con los siguientes criterios:
 
-Genera 8 preguntas únicas que cubran tanto puntos generales o amplios hasta detalles específicos cada par de pregunta y respuesta delimitadas por tres comillas invertidas, cumpliendo con los siguientes criterios:
-Criterio 1. Genera las preguntas de modo que aborden tanto aspectos generales o amplios como detalles específicos, asegurándote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuestas de las preguntas proporcionadas entre tres comillas invertidas. 
+Criterio 1. Genera las preguntas de modo que aborden tanto aspectos generales o amplios como detalles específicos, asegurándote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuesta de la pregunta entre tres comillas invertidas. 
 Criterio 2. Cada pregunta debe tener una respuesta dentro de la información proporcionada.
-Criterio 3.  Presenta las 8 preguntas generadas para cada pregunta original de la siguiente manera:
-Criterio 4. Deben tener relevancia para un estudiante.
+Criterio 3. Las nuevas preguntas generaras deben tener relevancia para un estudiante de la Facultad de Ciencias de la UNI.
+Criterio 4. Presenta las 8 preguntas generadas para cada pregunta original de la siguiente manera:
 
-Presenta las 12 preguntas únicas basadas en cada pregunta original de la siguiente manera:
-
- Cada pregunta debe tener una respuesta dentro de la información proporcionada. Sigue estas instrucciones:
-Instrucciones:
-
-Instrucción 1. Lee cuidadosamente las preguntas y respuestas proporcionadas para comprender completamente el contexto.
-Instrucción 2. Genera preguntas que aborden tanto aspectos generales o amplios como detalles específicos, asegurándote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuestas de las preguntas proporcionadas entre tres comillas invertidas. 
-Instrucción 3. Presenta las {num_questions} preguntas generadas de la siguiente manera:
 Pregunta Original 1: [Aqui la pregunta original 1]
 1. [Aquí la pregunta 1 basada en la primer pregunta original]
 2. [Aquí la pregunta 2 basada en la primer pregunta original]
 ...
-12. [Aquí la pregunta 12 basada en la primer pregunta original]
+8. [Aquí la pregunta 8 basada en la primer pregunta original]
 
 Pregunta Original 2: [Aqui la pregunta original 2]
 1. [Aquí la pregunta 1 basada en la segunda pregunta original]
 2. [Aquí la pregunta 2 basada en la segunda pregunta original]
 ...
-12. [Aquí la pregunta 12 basada en la segunda pregunta original]
+8. [Aquí la pregunta 8 basada en la segunda pregunta original]
 
 Pregunta Original 3: [Aqui la pregunta original 3]
 1. [Aquí la pregunta 1 basada en la tercer pregunta original]
 2. [Aquí la pregunta 2 basada en la tercer pregunta original]
 ...
-12. [Aquí la pregunta 12 basada en la tercer pregunta original]
+8. [Aquí la pregunta 8 basada en la tercer pregunta original]
 ...
+
 Preguntas y Respuestas:```
 {questions_answer_list}```
-
-Presenta las 12 preguntas únicas basadas en cada pregunta original de la siguiente manera:
-
-
-...
 """
     return prompt
 
@@ -158,7 +147,7 @@ def generate_questions_based_faq(faqs):
 
     response = get_completion_from_messages(
                         messages,
-                        model = "gpt-4o-2024-05-13",
+                        model = "gpt-4o-mini-2024-07-18",
                         #model="gpt-3.5-turbo-0613",
                         temperature=0)
 
@@ -167,20 +156,20 @@ def generate_questions_based_faq(faqs):
     preguntas_prompt_1 = extract_questions_from_response_regex(response)
 
     time.sleep(5)
-    prompt = get_prompt_2_gen_questions_based_faq(list_faqs, num_questions)
+    #prompt = get_prompt_2_gen_questions_based_faq(list_faqs, num_questions)
 
-    messages =  [{'role':'user', 'content': prompt}]
+    #messages =  [{'role':'user', 'content': prompt}]
 
-    response = get_completion_from_messages(
-                        messages,
-                        model = "gpt-4o-2024-05-13",
-                        #model="gpt-3.5-turbo-0613",
-                        temperature=0)
+    #response = get_completion_from_messages(
+    #                    messages,
+    #                    model = "gpt-4o-2024-05-13",
+    #                    #model="gpt-3.5-turbo-0613",
+    #                    temperature=0)
 
-    print("\nresponse prompt-2:",response)
-    preguntas_prompt_2 = extract_questions_from_response_regex(response)
+    #print("\nresponse prompt-2:",response)
+    #preguntas_prompt_2 = extract_questions_from_response_regex(response)
     
-    preguntas = preguntas_prompt_1 + preguntas_prompt_2
+    preguntas = preguntas_prompt_1# + preguntas_prompt_2
     return preguntas
     #print("Preguntas:", preguntas)
 
@@ -195,7 +184,6 @@ text = read_fragment_doc("./faq/faq.txt")
 faqs = extract_faqs(text)
 faqs = faqs[0:15]
 ids = list(range(len(faqs)))
-
 
 all_additional_faqs = []
 times_samples = 3
@@ -217,12 +205,12 @@ for iter in range(times_samples):
         group_faqs = [faqs[id] for id in group_ids]
         preguntas = generate_questions_based_faq(group_faqs)
         time.sleep(4)
-        break
+        #break
         additional_faqs.append({
             "original_questions":  [ faq["question"] for faq in group_faqs], 
             "additional_questions": preguntas
         })
-
+    break
     text_additional_faqs = ""
     for adds_faq in additional_faqs:
         additional_questions = adds_faq["additional_questions"]
