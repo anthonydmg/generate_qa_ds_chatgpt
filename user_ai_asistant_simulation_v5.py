@@ -417,7 +417,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
         weighted_source = {
-            "faq": 1, "topic-specific-document": 0.81, "regulation": 0.75, "general_information": 1.10},
+            "faq": 1, "topic-specific-document": 0.8165, "regulation": 0.75, "general_information": 1.10},
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
@@ -673,7 +673,7 @@ Historial del chat: {history_chat}
             #general_information = general_information_aera + "\n" + general_information_fc
             num_tokens_general_context = count_num_tokens(general_contact_information)
 
-            token_budget = min(2150, 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
+            token_budget = min(2200, 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
 
             #print("\nnum_tokens_general_context:", num_tokens_general_context)
 
@@ -777,9 +777,9 @@ if __name__ == "__main__":
     
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
-
-    path_file = "./faq-reformulated/data/faq_15_reformulated.json"
-    filename = "faq_15_reformulated.json"
+    save_dir = "./conversational_faq/openline-derived"
+    path_file = "faq-derived/data/faq_2_derived.json"
+    filename = "faq_2_derived.json"
     questions_faq = load_json(path_file)
     ## hacer el 11 de nuevo
     #for questions_about_topic in questions_topics[0:1]:
@@ -792,8 +792,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 40
-    end = min(50, num_questions)
+    start = 15
+    end = min(25, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
@@ -870,6 +870,6 @@ if __name__ == "__main__":
             "messages": messages
         })
             
-    save_json("./conversational_faq/data", f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
+    save_json(save_dir, f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
 
     #save_json("./conversational_data", f"conversations_simulated_{start}_to_{end-1}", conversations_simulated)

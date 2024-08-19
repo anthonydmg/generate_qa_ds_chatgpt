@@ -6,7 +6,7 @@ El proceso para que un alumno de pregrado realice su matrícula regular al ciclo
 1. Generar una orden de pago para el autoseguro estudiantil a través de la plataforma intranet-alumnos. En esta plataforma, selecciona la opción "Trámites y Pagos" para acceder al módulo de pagos (Portal INTRALU). En dicho módulo, selecciona el trámite correspondiente en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago.
 2. Realizar el pago dentro de los plazos establecidos en el calendario de actividades académicas, acercándose a un sucursal del BCP o a traves de la aplicación movil del banco.
 3. Luego, en la fecha y turno asignado, el estudiante llevará a cabo a su matrícula de forma virtual, es decir, realizará la inscripción de sus cursos a través de la plataforma intranet-alumnos. Accederá al módulo de Matrícula UNI dentro de esta plataforma, seleccionará las asignaturas y horarios deseados, y finalizará confirmando la matrícula en todas las asignaturas elegidas en el sistema.
-Los turnos para la matrícula, son asignados por grupos de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
+Los turnos para la matrícula, son asignados por grupos de acuerdo al promedio ponderado de los últimos dos ciclos, en un orden de mérito. Cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
 
 Tema: Requisitos y Procedimiento para Matricula de Un Ingresante
 Pregunta: ¿Cuales son los requisitos y el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
@@ -115,7 +115,7 @@ Tema: Problemas al Realizar la Matrícula Virtual
 Pregunta: ¿Qué debe hacer un estudiante si presenta problemas para realizar la matricula de sus cursos a traves del modulo de Matrícula UNI dentro de la plataforma de intranet-alumnos?
 
 Respuesta: Los estudiantes que encuentren dificultades para completar su proceso de inscripción de cursos a traves del modulo de Matrícula UNI dentro de la plataforma de intranet-alumnos deben verificar si se encuentran en alguna de las siguientes situaciones:
-    - Poseer algún tipo de deuda registrada en el sistema. En caso ser estudiante en riesgo académico y adeudar la tutoría obligatoria previa a la matricula, deben ponerse en contacto con la Oficina de Tutoría a través del correo electrónico tutoria.fc@uni.edu.pe.
+    - Poseer algún tipo de adeudo con la Facultad. En caso de ser estudiante en riesgo académico y adeudar la tutoría obligatoria previa a la matricula, deben ponerse en contacto con la Oficina de Tutoría a través del correo electrónico tutoria.fc@uni.edu.pe.
 
     - No haber efectuado el pago del autoseguro en el plazo establecido en el calendario de actividades académicas antes de las fechas de matricula. Si este es el caso y la matrícula virtual (inscripción de cursos) no se ha habilitado hasta los días de matrícula regular, es necesario comunicarse con la oficina de estadística (AERA) o revisar el procedimiento para gestionar su matrícula rezagada.
 
@@ -244,7 +244,7 @@ Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 
 Tema: Tramite de de Carnet Universitario 
 
-Pregunta: ¿Cuál es el proceso obtener el carnet universitario y como se realiza la entrega?
+Pregunta: ¿Cuál es el proceso para obtener el carnet universitario y como se realiza la entrega?
 Respuesta: El trámite de carné universitario por primera vez o renovación, requiere que el alumno cumpla los siguientes requisitos:
 1. Estar matriculado en el periodo académico vigente
 2. Realizar el pago por el monto correspondiente a S/ 11.50. Para ello debera generar una orden de pago a traves del Portal INTRALU y realizar el pago en una sucursal del bcp o a traves de la aplicación Movil del banco.
@@ -266,7 +266,7 @@ Respuesta: El estado de las solicitudes presentadas a través en el modulo de Tr
 Tema: Fechas de Matricula
 Pregunta: ¿Dónde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matrícula para el ciclo académico?
 Respuesta: Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica dentro de la sección "Matrícula y Procedimientos" página web de la Facultad de Ciencias, puede ingresar a dicha sección de la pagina en siguiente enlace: https://fc.uni.edu.pe/documentos/.
-Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica dentro de la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
+Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos dos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica dentro de la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
 
 Tema: Máximo de Créditos a Matricularse Para un Estudiante
 Pregunta: ¿En cuantos créditos como máximo puede matricularse un estudiante de la Facultad de Ciencias de la UNI?

@@ -1,5 +1,5 @@
 Matricula
-
+(del Reglamento de Matrícula Aprobado R.R. No0570 del 29.03.2022)
 Conceptos y normas del proceso de matrícula
 
 Art. 7° La matrícula es el resultado de un acto formal que es ejecutado personal y voluntariamente por el estudiante (sujeto a verificación posterior), de inscribirse en un período académico; no es obligatorio tomar el máximo de créditos permitidos. Implica el cumplimiento de la Ley Universitaria, el Estatuto, las normas de la UNI y el presente reglamento. La matrícula es responsabilidad exclusiva del estudiante y se realiza semestralmente. 
@@ -28,6 +28,7 @@ Art. 46° La enseñanza en el antegrado es gratuita para la primera carrera prof
 	Todas las deudas pendientes del estudiante serán exigidas al finalizar sus estudios e iniciar el trámite para obtener de su grado de bachiller.
 
 Del Proceso de la Matrícula Regular para Estudiantes de Antegrado
+(del Reglamento de Matrícula Aprobado R.R. No0570 del 29.03.2022)
 
 Art. 47° La matrícula regular se realiza vía internet a través del Sistema de Matrícula UNI suministrado por DIRCE, en las fechas establecidas en el Calendario de Actividades de los Estudios de Antegrado de la UNI.
 Este proceso es personal y se realizar puede desde cualquier equipo con acceso a internet y será bajo responsabilidad del estudiante, cumpliendo los siguientes pasos: 
@@ -43,7 +44,6 @@ Nota 1: El calendario de actividades académicas de la facultad de ciencias es p
 
 Nota 2: Es recomendable que los estudiantes realicen el pago obligatorio del AUTOSEGURO en el plazo establecido en el calendario de actividades académicas. Una vez completado este pago, DIRCE habilitará su ficha de matrícula en la plataforma de intranet-alumnos, en la fecha y turno (Horario) correspondientes.
 
-Nota 3: Los turnos de matrícula se asignan según el promedio ponderado de los últimos ciclos, en orden de mérito. Los estudiantes con promedio más alto tendrán prioridad en los primeros turnos, seguidos por los demás de manera sucesiva. La lista de orden de mérito con los turnos de matrícula se publica en la página web de la facultad para que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente en su intranet-alumno.
+Nota 3: Los turnos de matrícula se asignan según el promedio ponderado de los dos últimos ciclos, en orden de mérito. Los estudiantes con promedio más alto tendrán prioridad en los primeros turnos, seguidos por los demás de manera sucesiva. La lista de orden de mérito con los turnos de matrícula se publica en la página web de la facultad para que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente en su intranet-alumno.
 
 Nota 4: Es responsabilidad de los alumnos regulares realizar la inscripción de sus cursos de manera virtual a través de la plataforma intranet-alumno (Sistema de Matrícula UNI suministrado por DIRCE), en la fecha y turno asignados. En caso de no poder realizar la matrícula en las fechas establecidas en el calendario de actividades académicas, el alumno deberá gestionar su matrícula rezagada.
-

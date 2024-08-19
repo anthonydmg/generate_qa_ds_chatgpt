@@ -1,4 +1,4 @@
-from utils import get_completion_from_messages, set_openai_key, read_fragment_doc, count_num_tokens, list_json_to_txt, save_json
+from utils import get_completion_from_messages, load_json, set_openai_key, read_fragment_doc, count_num_tokens, list_json_to_txt, save_json
 import os
 import re
 from dotenv import load_dotenv
@@ -261,8 +261,8 @@ def generate_questions_based_faq(faqs):
    
     preguntas_originals_p1 = []
     reformulated_questions_p1 = []
-    #print("preguntas_prompt_1:", len(preguntas_prompt_1))
     for n_batch in range(len(preguntas_prompt_1)//12):
+        print(f"Batch-Prompt-01------------------------------------------------------{n_batch}")
         #print("n_batch:", n_batch)
         time.sleep(5)
         b_preguntas_prompt_1 = preguntas_prompt_1[n_batch*12: (n_batch + 1)*12]
@@ -311,6 +311,7 @@ def generate_questions_based_faq(faqs):
     #print("preguntas_prompt_2:", len(preguntas_prompt_2))
     
     for n_batch in range(len(preguntas_prompt_2)//12):
+        print(f"Batch-Prompt-01------------------------------------------------------{n_batch}")
         #print("n_batch:", n_batch)
         time.sleep(5)
         b_preguntas_prompt_2 = preguntas_prompt_2[n_batch*12: (n_batch + 1)*12]
@@ -337,14 +338,21 @@ def generate_questions_based_faq(faqs):
         #print("reformulated_questions_p2:", len(reformulated_questions_p2))
 
     derived_preguntas = [[] for _ in range(len(faqs))]
+    print("derived_preguntas:", len(derived_preguntas))
+    print("preguntas_originals_p1:", len(preguntas_originals_p1))
+    print("reformulated_questions_p1:", len(reformulated_questions_p1))
+    print("preguntas_originals_p2:", len(preguntas_originals_p2))
+    print("reformulated_questions_p2:", len(reformulated_questions_p2))
     for i in range(len(faqs)):
         #print("i:",i)
-        for j in range(len(preguntas_originals_p1)):
+        for j in range(8):
+            print("i:", i)
+            print("j:", j)
             #print("j:", j)
             #print("preguntas_originals_p1[j]", preguntas_originals_p1[j])
             #print("reformulated_questions_p1[j]", reformulated_questions_p1[j])
-            derived_preguntas[i].extend([preguntas_originals_p1[j]] + reformulated_questions_p1[j])
-            derived_preguntas[i].extend([preguntas_originals_p2[j]] + reformulated_questions_p2[j])
+            derived_preguntas[i].extend([preguntas_originals_p1[j + i*8]] + reformulated_questions_p1[j + i*8])
+            derived_preguntas[i].extend([preguntas_originals_p2[j + i*8]] + reformulated_questions_p2[j + i*8])
     return derived_preguntas
     #print("Preguntas:", preguntas)
 
@@ -357,8 +365,7 @@ random.seed(42)
 
 text = read_fragment_doc("./faq/faq.txt")
 faqs = extract_faqs(text)
-
-faqs = faqs[:6]
+#faqs = faqs[:6]
 #print("faqs:", faqs)
 
 def generate_derived_questions(faqs, times_samples = 1):
@@ -384,14 +391,11 @@ def generate_derived_questions(faqs, times_samples = 1):
             group_faqs = [faqs[id] for id in group_ids]
             derived_preguntas = generate_questions_based_faq(group_faqs)
             time.sleep(4)
-            #break
-            for id_faq ,faq, derived_faq in zip(group_ids, group_faqs, derived_preguntas):
-                #print("derived_faq:", derived_faq)
+            for id_faq , o_faq, derived_faq in zip(group_ids, group_faqs, derived_preguntas):
                 print(len(derived_faq))
                 additional_faqs.append({
                     "id_faq": id_faq,
-                    "original_question":  faq["question"],
-                    #"orginal_answer":  
+                    "original_question":  o_faq["question"],
                     "additional_questions": derived_faq
                 })
         
@@ -408,6 +412,7 @@ def generate_derived_questions(faqs, times_samples = 1):
         file.writelines(text_additional_faqs)
         file.close()
         save_json("./faq/additional_faqs", "all_additional_faqs", all_additional_faqs)
+        time.sleep(10)
 
     ## unir 
     joined_additional_faqs = [{"id":i, "original_question": faq["question"], "additional_questions": []} for i, faq in enumerate(faqs)]
@@ -417,11 +422,13 @@ def generate_derived_questions(faqs, times_samples = 1):
        
     return joined_additional_faqs
 
-joined_additional_faqs = generate_derived_questions(faqs, times_samples = 1)
+joined_additional_faqs = generate_derived_questions(faqs, times_samples = 2)
 save_json("./faq/additional_faqs", "joined_additional_faqs", joined_additional_faqs)
 
+joined_additional_faqs = load_json("./faq/additional_faqs/joined_additional_faqs.json")
+
 import evaluate
-threshold_rouge = 0.8
+threshold_rouge = 0.75
 
 def filter_derived_question( joined_additional_faqs, threshold_rouge = 0.8):
    
@@ -446,24 +453,26 @@ def filter_derived_question( joined_additional_faqs, threshold_rouge = 0.8):
             rougeL = rouge_results["rougeL"]
             if rougeL < threshold_rouge:
                 all_pool_questions.append(question)
-                #temp_questions.append(question)
+                #temp_questiosns.append(question)
 
         filtered_additional_faqs.append({
-            "id": adds_faq["id"],
+            "id_faq": adds_faq["id"],
             "original_question": original_question,
             "additional_questions": all_pool_questions
         })
         print(f"\nUn total de {len(all_pool_questions)} preguntas finales")
 
 
-     
-    save_json(f"./faq/derived_faqs_rouge_{str(threshold_rouge)}",f"filtered_questions", all_pool_questions)
+    total_end_adds_faqs_all = sum([len(additional_faqs["additional_questions"]) for additional_faqs in filtered_additional_faqs])
+    print(f"\nUn total de {total_end_adds_faqs_all} preguntas finales")
+
+    save_json(f"./faq/derived_faqs_rouge_{str(threshold_rouge)}",f"filtered_questions", filtered_additional_faqs)
 
     text_additional_faqs = ""
     for filt_adds_faq in filtered_additional_faqs:
         additional_questions = filt_adds_faq["additional_questions"]
         original_question = filt_adds_faq["original_question"]
-        text_additional_faqs += "\nPreguntas originales: "+ original_question + "Nuevas Preguntas:\n" + list_json_to_txt(additional_questions)
+        text_additional_faqs += "\nPreguntas originales: "+ original_question + "\nNuevas Preguntas:\n" + list_json_to_txt(additional_questions)
    
     file = open(f"./faq/derived_faqs_rouge_{str(threshold_rouge)}/text_additional_faqs_iter_filtrated.txt", "w")
     file.writelines(text_additional_faqs)
@@ -476,4 +485,4 @@ def filter_derived_question( joined_additional_faqs, threshold_rouge = 0.8):
     file.writelines(text_pool_questions)
     file.close() 
 
-filter_derived_question(joined_additional_faqs, threshold_rouge = 0.8)
+filter_derived_question(joined_additional_faqs, threshold_rouge = threshold_rouge)

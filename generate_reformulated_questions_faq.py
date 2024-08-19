@@ -172,6 +172,8 @@ def generate_reformulated_faq(faqs, times_samples = 8):
             if 31 in group_ids or 27 in group_ids or 28 in group_ids:
                 group_faqs = [faqs[id] for id in group_ids]
                 questions_generated_for_questions = generate_questions_reformulated_based_faq(group_faqs)
+                for i, id_faq in enumerate(group_ids):
+                    questions_generated_for_questions[i]["id_faq"] = id_faq
                 reformulated_faqs.extend(questions_generated_for_questions)
             else:
                 continue

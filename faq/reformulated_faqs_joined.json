@@ -1,5 +1,5 @@
 [
-    {
+    {   "id_faq": 41,
         "original_question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma de intranet-alumnos de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
         "questions_generated": [
             "\u00bfPodr\u00edas indicarme c\u00f3mo un estudiante de pregrado puede acceder a la intranet-alumnos de la UNI y qu\u00e9 servicios ofrece?",
@@ -100,7 +100,7 @@
             "\u00bfQu\u00e9 debe hacer un estudiante para entrar a la intranet de la UNI y qu\u00e9 herramientas tiene a su disposici\u00f3n?"
         ]
     },
-    {
+    {   "id_faq": 8,
         "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la Facultad de ciencias de la UNI para solicitar certificado de d\u00e9cimo o quinto superior?",
         "questions_generated": [
             "\u00bfCu\u00e1l es el proceso que debe seguir un estudiante de la Facultad de Ciencias para obtener un certificado de quinto o d\u00e9cimo superior?",
@@ -201,7 +201,7 @@
             "\u00bfQu\u00e9 pasos debe seguir un estudiante para solicitar un certificado de quinto o d\u00e9cimo superior en la Facultad de Ciencias de la UNI?"
         ]
     },
-    {
+    {   "id_faq": 2,
         "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
         "questions_generated": [
             "\u00bfQu\u00e9 requisitos y pasos debe seguir un nuevo ingresante de pregrado en la Facultad de Ciencias para matricularse?",
@@ -302,7 +302,7 @@
             "\u00bfCu\u00e1les son los pasos y requisitos para que un nuevo ingresante de pregrado complete su matr\u00edcula en la Facultad de Ciencias?"
         ]
     },
-    {
+    {   "id_faq": 18,
         "original_question": "\u00bfUn estudiante puede matricularse en un curso y su curso pre requisito en el mismo ciclo?",
         "questions_generated": [
             "\u00bfEs posible que un estudiante se inscriba en un curso y su prerequisito al mismo tiempo?",
@@ -403,7 +403,7 @@
             "\u00bfC\u00f3mo puede un estudiante matricularse en un curso y su prerequisito al mismo tiempo?"
         ]
     },
-    {
+    {   "id_faq": 16,
         "original_question": "\u00bfHasta cuando se puede solicitar el retiro total?",
         "questions_generated": [
             "\u00bfCu\u00e1l es la fecha l\u00edmite para solicitar un retiro total?",
@@ -504,7 +504,7 @@
             "\u00bfCu\u00e1ndo se cierra el plazo para solicitar un retiro total en la universidad?"
         ]
     },
-    {
+    {   "id_faq": 15,
         "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para solicitar el Retiro Total?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos debe seguir un estudiante para solicitar un retiro total?",
@@ -605,7 +605,7 @@
             "\u00bfMe puedes detallar el procedimiento que un estudiante debe seguir para solicitar el Retiro Total?"
         ]
     },
-    {
+    {   "id_faq": 9,
         "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante que desea reincorporarse despu\u00e9s de haber reservado su matricula por uno o mas periodos acad\u00e9micos?",
         "questions_generated": [
             "\u00bfCu\u00e1les son los pasos que debe seguir un estudiante para reincorporarse tras haber reservado su matr\u00edcula?",
@@ -706,7 +706,7 @@
             "\u00bfQu\u00e9 procedimiento tiene que seguir un estudiante que quiere volver a inscribirse despu\u00e9s de haber reservado su matr\u00edcula por varios periodos?"
         ]
     },
-    {
+    {   "id_faq": 7,
         "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de notas?",
         "questions_generated": [
             "\u00bfC\u00f3mo puede un estudiante pedir una constancia de notas?",
@@ -807,7 +807,7 @@
             "\u00bfQu\u00e9 necesita hacer un estudiante para que le expidan una constancia de notas?"
         ]
     },
-    {
+    {   "id_faq": 6,
         "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en espa\u00f1ol?",
         "questions_generated": [
             "\u00bfC\u00f3mo puede un estudiante solicitar una constancia de matr\u00edcula?",
@@ -908,7 +908,7 @@
             "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para pedir una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?"
         ]
     },
-    {
+    {   "id_faq": 28,
         "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de DIRCE?",
         "questions_generated": [
             "\u00bfMe podr\u00edas decir cu\u00e1les son los horarios de atenci\u00f3n y el correo electr\u00f3nico de la Mesa de Partes de DIRCE?",
@@ -1009,7 +1009,7 @@
             "\u00bfPodr\u00edas informarme sobre el horario y el correo de la oficina de Mesa de Partes de DIRCE?"
         ]
     },
-    {
+    {   "id_faq": 3,
         "original_question": "\u00bfCual es el proceso para que un ingresante o alumno regular genere una orden de pago para el pago de autoseguro?",
         "questions_generated": [
             "\u00bfC\u00f3mo puede un ingresante o alumno regular generar una orden de pago para el autoseguro?",
@@ -1110,7 +1110,7 @@
             "\u00bfPodr\u00edas darme un resumen del proceso que un alumno regular debe seguir para generar una orden de pago de autoseguro?"
         ]
     },
-    {
+    {   "id_faq": 1,
         "original_question": "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular al ciclo acad\u00e9mico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?",
         "questions_generated": [
             "\u00bfCu\u00e1les son los requisitos y el procedimiento para la matr\u00edcula regular en la Facultad de Ciencias para alumnos de pregrado?",
@@ -1211,7 +1211,7 @@
             "\u00bfQu\u00e9 debe hacer un alumno regular para completar su matr\u00edcula en la Facultad de Ciencias y cu\u00e1les son los requisitos?"
         ]
     },
-    {
+    {   "id_faq": 32,
         "original_question": "\u00bfC\u00f3mo es el procedimiento para que un estudiante de pregrado de la Facultad de Ciencias realice un traslado interno a otra carrera dentro de la misma Facultad?",
         "questions_generated": [
             "\u00bfPodr\u00edas explicarme el proceso que debe seguir un estudiante de pregrado en la Facultad de Ciencias para cambiarse a otra carrera?",
@@ -1312,7 +1312,7 @@
             "\u00bfCu\u00e1les son los requisitos y pasos para que un estudiante de la Facultad de Ciencias realice un traslado interno a otra carrera?"
         ]
     },
-    {
+    {   "id_faq": 35,
         "original_question": "\u00bfEl pago por carnet universitario es requisito para la matricula en la Facultad de Ciencias de la Universidad?",
         "questions_generated": [
             "\u00bfEs necesario pagar el carnet universitario para poder matricularse en la Facultad de Ciencias?",
@@ -1413,7 +1413,7 @@
             "\u00bfEs un requisito pagar el carnet universitario para la matr\u00edcula en la Facultad de Ciencias de la universidad?"
         ]
     },
-    {
+    {   "id_faq": 42,
         "original_question": "\u00bfC\u00f3mo un estudiante de pregrado de la UNI puede acceder a la plataforma INTRALU de la UNI y que informaci\u00f3n o funcionalidades ofrece la plataforma?",
         "questions_generated": [
             "\u00bfC\u00f3mo puede un estudiante de pregrado acceder a la plataforma INTRALU de la UNI y qu\u00e9 servicios ofrece?",
@@ -1514,7 +1514,7 @@
             "\u00bfQu\u00e9 tiene que hacer un alumno para entrar a la plataforma INTRALU y qu\u00e9 funcionalidades puede utilizar?"
         ]
     },
-    {
+    {   "id_faq": 17,
         "original_question": "\u00bfPor cuales motivos un estudiante puede solicitar un retiro total?",
         "questions_generated": [
             "\u00bfCu\u00e1les son las razones por las que un estudiante podr\u00eda pedir un retiro total?",
@@ -1615,7 +1615,7 @@
             "\u00bfQu\u00e9 condiciones deben cumplirse para que un estudiante pueda solicitar un retiro total?"
         ]
     },
-    {
+    {   "id_faq": 20,
         "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para reservar su matricula?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos debe seguir un estudiante para reservar su matr\u00edcula?",
@@ -1716,7 +1716,7 @@
             "\u00bfC\u00f3mo puede un estudiante de la UNI reservar su matr\u00edcula y qu\u00e9 informaci\u00f3n necesita presentar?"
         ]
     },
-    {
+    {   "id_faq": 31,
         "original_question": "\u00bfCual es el procedimiento a seguir para que un estudiante de pregrado de la Facultad de Ciencias de la UNI pueda realizar ayudant\u00eda academica?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado para poder hacer una ayudant\u00eda acad\u00e9mica?",
@@ -1817,7 +1817,7 @@
             "\u00bfC\u00f3mo se gestiona la solicitud de ayudant\u00eda acad\u00e9mica para los estudiantes de pregrado en la Facultad de Ciencias de la UNI?"
         ]
     },
-    {
+    {   "id_faq": 39,
         "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de la UNI para solicitar su correo institucional?",
         "questions_generated": [
             "\u00bfC\u00f3mo puede un estudiante de la UNI obtener su correo institucional?",
@@ -1918,7 +1918,7 @@
             "\u00bfQu\u00e9 necesita hacer un estudiante de la UNI para que le asignen su correo institucional?"
         ]
     },
-    {
+    {   "id_faq": 29,
         "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y el correo de contacto de la oficina de Mesa de Partes de la Facultad de Ciencias?",
         "questions_generated": [
             "\u00bfQu\u00e9 horario tiene la oficina de Mesa de Partes de la Facultad de Ciencias y cu\u00e1l es su correo de contacto?",
@@ -2019,7 +2019,7 @@
             "\u00bfCu\u00e1l es el horario de atenci\u00f3n de la oficina de Mesa de Partes de la Facultad de Ciencias y c\u00f3mo puedo comunicarme con ellos por correo?"
         ]
     },
-    {
+    {   "id_faq": 21,
         "original_question": "\u00bfCu\u00e1l plazo para que un estudiante puede solicitar su reserva de matricula?",
         "questions_generated": [
             "\u00bfHasta cu\u00e1ndo puede un estudiante solicitar la reserva de matr\u00edcula?",
@@ -2120,7 +2120,7 @@
             "\u00bfCu\u00e1ndo es el \u00faltimo d\u00eda para que un estudiante presente su solicitud de reserva de matr\u00edcula?"
         ]
     },
-    {
+    {   "id_faq": 24,
         "original_question": "\u00bfUn estudiante puede retirarse de todas las asignaturas en las que esta matriculado?",
         "questions_generated": [
             "\u00bfEs posible que un estudiante se retire de todas las materias en las que est\u00e1 inscrito?",
@@ -2221,7 +2221,7 @@
             "Si un estudiante quiere dejar todas sus asignaturas, \u00bfqu\u00e9 debe hacer?"
         ]
     },
-    {
+    {   "id_faq": 14,
         "original_question": "\u00bfQu\u00e9 debe hacer un estudiante si desea realizar un cambio de secci\u00f3n/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?",
         "questions_generated": [
             "\u00bfC\u00f3mo puede un estudiante cambiar la secci\u00f3n o el horario de un curso si tiene conflictos de horario?",
@@ -2322,7 +2322,7 @@
             "\u00bfCu\u00e1les son los pasos que un estudiante debe seguir para realizar un cambio de secci\u00f3n o horario por cruce de horarios?"
         ]
     },
-    {
+    {   "id_faq": 33,
         "original_question": "\u00bfCual es el proceso que debe seguir un estudiante para convalidar sus practicas pre pre profesionales?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos debe seguir un estudiante para que le convaliden sus pr\u00e1cticas pre profesionales?",
@@ -2423,7 +2423,7 @@
             "\u00bfQu\u00e9 proceso tiene que seguir un estudiante para que sus pr\u00e1cticas pre profesionales sean convalidadas?"
         ]
     },
-    {
+    {   "id_faq": 37,
         "original_question": "\u00bfD\u00f3nde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matr\u00edcula para el ciclo acad\u00e9mico?",
         "questions_generated": [
             "\u00bfD\u00f3nde puedo encontrar la informaci\u00f3n sobre las fechas y turnos de matr\u00edcula para el ciclo acad\u00e9mico en la Facultad de Ciencias?",
@@ -2524,7 +2524,7 @@
             "\u00bfC\u00f3mo puede un estudiante de la Facultad de Ciencias acceder a la informaci\u00f3n sobre su matr\u00edcula para el pr\u00f3ximo ciclo acad\u00e9mico?"
         ]
     },
-    {
+    {   "id_faq": 36,
         "original_question": "\u00bfComo un estudiante de la UNI puede ver el estado de sus tramites?",
         "questions_generated": [
             "\u00bfCu\u00e1l es el procedimiento para que un estudiante de la UNI revise el estado de sus tr\u00e1mites?",
@@ -2625,7 +2625,7 @@
             "\u00bfQu\u00e9 plataforma utiliza un estudiante de la UNI para verificar el estado de sus tr\u00e1mites?"
         ]
     },
-    {
+    {   "id_faq": 25,
         "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y correo de contacto de la oficina de estad\u00edstica o AERA?",
         "questions_generated": [
             "\u00bfPodr\u00edas decirme cu\u00e1l es el horario de atenci\u00f3n de la oficina de estad\u00edstica y su correo de contacto?",
@@ -2726,7 +2726,7 @@
             "\u00bfC\u00f3mo puedo contactar a la oficina de AERA y en qu\u00e9 horario est\u00e1n disponibles?"
         ]
     },
-    {
+    {   "id_faq": 13,
         "original_question": "\u00bfQu\u00e9 debe hacer un estudiante si presenta problemas para realizar la matricula de sus cursos a traves del modulo de Matr\u00edcula UNI dentro de la plataforma de intranet-alumnos?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos deber\u00eda seguir un estudiante que tiene dificultades para matricularse en sus cursos a trav\u00e9s de la plataforma de intranet-alumnos?",
@@ -2827,7 +2827,7 @@
             "Si un estudiante se encuentra con problemas para matricularse en sus cursos, \u00bfcu\u00e1les son las opciones que tiene?"
         ]
     },
-    {
+    {   "id_faq": 22,
         "original_question": "\u00bfQu\u00e9 debe hacer un estudiante que no pudo realizar la inscripci\u00f3n de sus cursos de manera virtual en la fecha y turno asignado para su matr\u00edcula regular?",
         "questions_generated": [
             "Si un estudiante no se inscribi\u00f3 en sus cursos a tiempo, \u00bfqu\u00e9 pasos debe seguir para regularizar su matr\u00edcula?",
@@ -2928,7 +2928,7 @@
             "\u00bfQu\u00e9 opciones tiene un estudiante que no logr\u00f3 inscribirse en sus cursos virtualmente en el periodo regular?"
         ]
     },
-    {
+    {   "id_faq": 30,
         "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la Facultad de Ciencias de la UNI para solicitar su constancia de Ayudantia acad\u00e9mica?",
         "questions_generated": [
             "\u00bfC\u00f3mo puede un estudiante de pregrado solicitar su constancia de Ayudant\u00eda acad\u00e9mica en la Facultad de Ciencias?",
@@ -3029,7 +3029,7 @@
             "\u00bfMe podr\u00edas explicar c\u00f3mo un estudiante de la Facultad de Ciencias de la UNI puede pedir su constancia de Ayudant\u00eda acad\u00e9mica?"
         ]
     },
-    {
+    {   "id_faq": 12,
         "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para solicitar una orden de pago relacionada con alg\u00fan concepto o tr\u00e1mite espec\u00edfico y realizar el pago correspondiente?",
         "questions_generated": [
             "\u00bfC\u00f3mo puede un estudiante solicitar una orden de pago para un tr\u00e1mite espec\u00edfico?",
@@ -3130,7 +3130,7 @@
             "\u00bfC\u00f3mo puede un alumno solicitar una orden de pago y qu\u00e9 pasos debe seguir para pagarla?"
         ]
     },
-    {
+    {   "id_faq": 23,
         "original_question": "\u00bfCu\u00e1l es el procedimiento que debe seguir un estudiante para retirarse de asignaturas en las que esta mataricula?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos debe seguir un estudiante para darse de baja en algunas asignaturas?",
@@ -3231,8 +3231,8 @@
             "\u00bfQu\u00e9 necesita hacer un estudiante para poder retirarse de las asignaturas en las que est\u00e1 inscrito?"
         ]
     },
-    {
-        "original_question": "\u00bfCual es el proceso obtener el carnet universitario y como se realiza la entrega?",
+    {   "id_faq": 34,
+        "original_question": "\u00bfCual es el proceso para obtener el carnet universitario y como se realiza la entrega?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos debe seguir un estudiante para obtener su carnet universitario y cu\u00e1ndo lo recibe?",
             "\u00bfC\u00f3mo se obtiene el carnet universitario y cu\u00e1l es el proceso de entrega?",
@@ -3332,7 +3332,7 @@
             "\u00bfQu\u00e9 requisitos hay que cumplir para obtener el carnet universitario y c\u00f3mo se lleva a cabo la entrega?"
         ]
     },
-    {
+    {   "id_faq": 5,
         "original_question": "\u00bfHasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matr\u00edcula regular al ciclo academico en la Facultad de Ciencias de la UNI?",
         "questions_generated": [
             "\u00bfCu\u00e1l es la fecha l\u00edmite para pagar el autoseguro estudiantil y poder matricularme regularmente en la Facultad de Ciencias de la UNI?",
@@ -3433,7 +3433,7 @@
             "\u00bfQu\u00e9 fecha se debe tener en cuenta para el pago del autoseguro estudiantil y as\u00ed poder matricularse correctamente?"
         ]
     },
-    {
+    {   "id_faq": 26,
         "original_question": "\u00bfCu\u00e1l es el horario de atenci\u00f3n y correo de contacto de las Escuelas Profesionales de la Facultad de Ciencias de la UNI?",
         "questions_generated": [
             "\u00bfQu\u00e9 horario tienen las Escuelas Profesionales de la Facultad de Ciencias de la UNI y cu\u00e1l es su correo de contacto?",
@@ -3534,7 +3534,7 @@
             "\u00bfMe podr\u00edas informar sobre el horario de atenci\u00f3n y el correo de contacto de las Escuelas Profesionales de la Facultad de Ciencias de la UNI?"
         ]
     },
-    {
+    {   "id_faq": 40,
         "original_question": "\u00bfQu\u00e9 procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado en la Facultad de Ciencias de la UNI para gestionar su matr\u00edcula rezagada?",
@@ -3635,7 +3635,7 @@
             "\u00bfQu\u00e9 pasos debe seguir un estudiante rezagado para matricularse en la Facultad de Ciencias de la UNI?"
         ]
     },
-    {
+    {   "id_faq": 19,
         "original_question": "\u00bfQu\u00e9 debe hacer un estudiante que desea solicitar una vacante adicional para la inscripci\u00f3n a un curso?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos debe seguir un estudiante para pedir una vacante extra en un curso?",
@@ -3736,7 +3736,7 @@
             "\u00bfQu\u00e9 recomendaciones hay para un estudiante que quiere solicitar una vacante adicional en un curso?"
         ]
     },
-    {
+    {   "id_faq": 38,
         "original_question": "\u00bfEn cuantos cr\u00e9ditos como m\u00e1ximo puede matricularse un estudiante de la Facultad de Ciencias de la UNI?",
         "questions_generated": [
             "\u00bfCu\u00e1l es el l\u00edmite m\u00e1ximo de cr\u00e9ditos en los que puede inscribirse un estudiante de la Facultad de Ciencias de la UNI?",
@@ -3837,7 +3837,7 @@
             "\u00bfCu\u00e1ntos cr\u00e9ditos puede matricular un estudiante de la Facultad de Ciencias de la UNI, dependiendo de su situaci\u00f3n acad\u00e9mica?"
         ]
     },
-    {
+    {   "id_faq": 27,
         "original_question": "\u00bfD\u00f3nde puede un estudiante visualizar la lista de cursos y sus respectivos horarios para el ciclo academico actual o el pr\u00f3ximo a empezar?",
         "questions_generated": [
             "\u00bfD\u00f3nde puede un estudiante encontrar la lista de cursos y horarios para el ciclo acad\u00e9mico actual o el siguiente?",
@@ -3938,7 +3938,7 @@
             "\u00bfEn qu\u00e9 p\u00e1gina o plataforma puedo visualizar la lista de cursos y horarios para el ciclo acad\u00e9mico actual o el siguiente?"
         ]
     },
-    {
+    {   "id_faq": 11,
         "original_question": "\u00bfQu\u00e9 deben hacer los estudiantes que adeuden la tutor\u00eda obligatoria previa a la matricula para alumnos en riesgo academico?",
         "questions_generated": [
             "\u00bfQu\u00e9 pasos deben seguir los estudiantes que no han completado la tutor\u00eda obligatoria antes de matricularse si est\u00e1n en riesgo acad\u00e9mico?",
@@ -4039,7 +4039,7 @@
             "\u00bfQu\u00e9 deben hacer los estudiantes que no han pasado la tutor\u00eda obligatoria antes de poder matricularse?"
         ]
     },
-    {
+    {   "id_faq": 4,
         "original_question": "\u00bfComo pagar una orden de pago generada por el alg\u00fan concepto o tramite?",
         "questions_generated": [
             "\u00bfCu\u00e1l es el procedimiento para pagar una orden de pago que he generado por un tr\u00e1mite?",
@@ -4140,7 +4140,7 @@
             "\u00bfHay alguna gu\u00eda sobre c\u00f3mo pagar una orden de pago generada por un tr\u00e1mite en la UNI?"
         ]
     },
-    {
+    {   "id_faq": 10,
         "original_question": "\u00bfHasta que fecha un estudiante podr\u00e1 solicitar su Reincorporaci\u00f3n?",
         "questions_generated": [
             "\u00bfCu\u00e1l es la fecha l\u00edmite para que un estudiante presente su solicitud de reincorporaci\u00f3n?",

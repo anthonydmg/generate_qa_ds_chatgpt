@@ -354,19 +354,20 @@ print(len(all_conversational_data)) """
 
 def join_reformulated_questions(reformulated_faqs = []):
     tab_all_questions = {}
-
+    tab_ids_faq = {}
     for reformulated_faq in reformulated_faqs:
         original_question = reformulated_faq["original_question"]
         questions_generated = reformulated_faq["questions_generated"]
         
         if original_question not in tab_all_questions:
             tab_all_questions[original_question] = questions_generated
+            tab_ids_faq[original_question] = reformulated_faq["id_faq"]
         else:
             tab_all_questions[original_question].extend(questions_generated)
     
     ## Format questions
     
-    reformulated_faqs_joined = [ {"original_question": k, "questions_generated": v } for k,v in tab_all_questions.items()]
+    reformulated_faqs_joined = [ {"id_faq": tab_ids_faq[k]  ,"original_question": k, "questions_generated": v } for k,v in tab_all_questions.items()]
 
     return reformulated_faqs_joined
 """ 
@@ -400,6 +401,7 @@ def filtered_questions_reformulated_rouge(
         print("Final questions: ", len(all_pool_questions))
 
         filtered_questions_reformulated.append({
+            "id_faq": reformulated_faq["id_faq"],
             "original_question": original_question,
             "questions_generated": all_pool_questions
         })
@@ -426,19 +428,71 @@ def flat_questions_reformulate(filtered_questions_reformulated_rouge):
         filtered_reformulated_question_list.extend(questions_generated)
     return filtered_reformulated_question_list
 
-dir_path = "./faq-reformulated/data"
+
 
 
 def split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge):
     for i, reformulated_faq in enumerate(filtered_questions_reformulated_rouge):
         #original_question = reformulated_faq["original_question"]
+        id_faq = reformulated_faq["id_faq"]
         questions_generated = reformulated_faq["questions_generated"]
-        save_json(dir_path, f"faq_{i+1}_reformulated", questions_generated)
+        save_json(dir_path, f"faq_{id_faq}_reformulated", questions_generated)
     return 
 
-#filtered_questions_reformulated_rouge_list = load_json("./faq/reformulated_0.8/filtered_questions_reformulated_rouge_0.8.json")
+def split_file_questions_derived(dir_path, filtered_questions_derived_rouge):
+    for i, derived_faq in enumerate(filtered_questions_derived_rouge):
+        #original_question = derived_faq["original_question"]
+        id_faq = derived_faq["id_faq"]
+        questions_generated = derived_faq["additional_questions"]
+        save_json(dir_path, f"faq_{id_faq + 1}_derived", questions_generated)
+    return
 
-#split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge_list)
+#dir_path_d = "./faq-derived/data"
+#filtered_questions_derived_rouge = load_json("faq/derived_faqs_rouge_0.75/filtered_questions.json")
+#split_file_questions_derived(dir_path_d, filtered_questions_derived_rouge)
+""" 
+dir_path = "./faq-reformulated/data"
+filtered_questions_reformulated_rouge = load_json("./faq/reformulated_0.8/filtered_questions_reformulated_rouge_0.8.json")
+
+ids_faqs = [faq["id_faq"] for faq in filtered_questions_reformulated_rouge]
+ids_faqs = ids_faqs[:15]
+
+from glob import glob
+
+files = glob("./conversational_faq/data/*.json")
+filenames = [os.path.basename(file) for file in files]
+new_filenames = []
+for filename in filenames:
+    pattern = r'faq_(\d+)'
+    # Extraer el número usando re.search()
+    match = re.search(pattern, filename)
+    if match:
+        old_number = match.group(1)
+        old_number = int(old_number)
+        print(f"El número extraído es: {old_number}")
+        new_number = ids_faqs[old_number - 1]
+        new_filename = re.sub(r'faq_\d+', f'faq_{new_number}' , filename)
+        new_filenames.append(new_filename)
+    else:
+        print("No se encontró ningún número.")
+
+print("filenames[1]", filenames[1])
+print("new_filenames[1]", new_filenames[1])
+print("new_filenames:", len(new_filenames))
+print("filenames:", len(filenames))
+print("ids_faqs:", ids_faqs)
+import shutil
+
+dir_path = "./conversational_faq/data/"
+dir_path_save = "./conversational_faq/data_ordered/"
+os.makedirs(dir_path_save, exist_ok=True)
+for old_filename, new_filename in zip(filenames, new_filenames):
+   shutil.copy2(os.path.join(dir_path, old_filename), os.path.join(dir_path_save, new_filename)) """
+
+#print("ids_faqs:", ids_faqs[0:15])
+
+
+#split_file_questions_refomulated(dir_path, filtered_questions_reformulated_rouge)
 
 #a = "\u00bfCuales son los requisitos y el proceso de matr\u00edcula regular para alumnos de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingenier\u00eda?"
 #print(a)
