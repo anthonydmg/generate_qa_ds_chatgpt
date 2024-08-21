@@ -778,8 +778,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
     save_dir = "./conversational_faq/openline-derived"
-    path_file = "faq-derived/data/faq_3_derived.json"
-    filename = "faq_3_derived.json"
+    path_file = "faq-derived/data/faq_6_derived.json"
+    filename = "faq_6_derived.json"
     questions_faq = load_json(path_file)
     ## hacer el 11 de nuevo
     #for questions_about_topic in questions_topics[0:1]:
