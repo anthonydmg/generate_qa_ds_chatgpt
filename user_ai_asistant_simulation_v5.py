@@ -792,8 +792,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 80
-    end = min(90, num_questions)
+    start = 120
+    end = min(130, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
