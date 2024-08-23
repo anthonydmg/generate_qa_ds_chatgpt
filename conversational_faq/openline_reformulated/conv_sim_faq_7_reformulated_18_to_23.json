@@ -153,7 +153,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: No hay otros tr\u00e1mites adicionales para solicitar la constancia de notas. Solo debes seguir los pasos que ya te he indicado: solicitar la orden de pago, realizar el pago y enviar la solicitud a mesa de partes. Si tienes m\u00e1s preguntas o necesitas ayuda con otro tema, no dudes en preguntar. \u00a1Estoy aqu\u00ed para ayudarte!",
+                "content": "No hay otros tr\u00e1mites adicionales para solicitar la constancia de notas. Solo debes seguir los pasos que ya te he indicado: solicitar la orden de pago, realizar el pago y enviar la solicitud a mesa de partes. Si tienes m\u00e1s preguntas o necesitas ayuda con otro tema, no dudes en preguntar. \u00a1Estoy aqu\u00ed para ayudarte!",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,

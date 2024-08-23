@@ -317,7 +317,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: No se menciona un formato espec\u00edfico para los documentos sustentatorios. Sin embargo, es recomendable que los documentos sean claros y legibles. Para obtener detalles sobre el formato, te sugiero consultar el Manual de Retiro Total en la p\u00e1gina web de la Facultad de Ciencias o contactar a la Oficina de Estad\u00edstica de la Facultad para m\u00e1s informaci\u00f3n.",
+                "content": "No se menciona un formato espec\u00edfico para los documentos sustentatorios. Sin embargo, es recomendable que los documentos sean claros y legibles. Para obtener detalles sobre el formato, te sugiero consultar el Manual de Retiro Total en la p\u00e1gina web de la Facultad de Ciencias o contactar a la Oficina de Estad\u00edstica de la Facultad para m\u00e1s informaci\u00f3n.",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,

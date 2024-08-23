@@ -1508,7 +1508,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: No se menciona un formato espec\u00edfico para la Ficha de Datos o la Constancia de Evaluaci\u00f3n Socioecon\u00f3mica. Sin embargo, la Ficha de Datos ser\u00e1 enviada por la oficina de estad\u00edstica al correo del ingresante y es obligatorio completarla. Para obtener m\u00e1s detalles sobre la Constancia de Evaluaci\u00f3n Socioecon\u00f3mica, te sugiero consultar directamente con la oficina de estad\u00edstica. \u00a1Espero que esto te sea \u00fatil!",
+                "content": "No se menciona un formato espec\u00edfico para la Ficha de Datos o la Constancia de Evaluaci\u00f3n Socioecon\u00f3mica. Sin embargo, la Ficha de Datos ser\u00e1 enviada por la oficina de estad\u00edstica al correo del ingresante y es obligatorio completarla. Para obtener m\u00e1s detalles sobre la Constancia de Evaluaci\u00f3n Socioecon\u00f3mica, te sugiero consultar directamente con la oficina de estad\u00edstica. \u00a1Espero que esto te sea \u00fatil!",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,

@@ -698,7 +698,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: Una vez que env\u00edes tu solicitud de Retiro Total a trav\u00e9s de la plataforma SIGA-DIRCE, podr\u00e1s visualizarla junto con la fecha de env\u00edo y la respuesta correspondiente, la cual estar\u00e1 disponible una vez que se haya procesado tu solicitud. No se especifica un tiempo de espera exacto para la respuesta.\n\nSi tu solicitud es rechazada, no tengo acceso a detalles sobre un procedimiento espec\u00edfico. Te recomendar\u00eda consultar el Manual de Retiro Total o contactar a la Oficina de Estad\u00edstica para obtener m\u00e1s informaci\u00f3n sobre las opciones disponibles en caso de rechazo.",
+                "content": "Una vez que env\u00edes tu solicitud de Retiro Total a trav\u00e9s de la plataforma SIGA-DIRCE, podr\u00e1s visualizarla junto con la fecha de env\u00edo y la respuesta correspondiente, la cual estar\u00e1 disponible una vez que se haya procesado tu solicitud. No se especifica un tiempo de espera exacto para la respuesta.\n\nSi tu solicitud es rechazada, no tengo acceso a detalles sobre un procedimiento espec\u00edfico. Te recomendar\u00eda consultar el Manual de Retiro Total o contactar a la Oficina de Estad\u00edstica para obtener m\u00e1s informaci\u00f3n sobre las opciones disponibles en caso de rechazo.",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,

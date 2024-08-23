@@ -82,7 +82,7 @@ Pregunta: ¿Qué procedimiento debe seguir un estudiante que desea reincorporars
 Respuesta: El estudiante que desee realizar su reincorporación deberá gestionarla antes de las fechas de matrícula dentro del plazo establecido en el calendario de actividades académicas. Para ello, debera realizar los siguientes pasos.
     1. Acceder a la plataforma intranet-alumnos con su código UNI y clave correspondiente.
     2. Luego, seleccionar la opción "Trámites y Pagos" para acceder al módulo de pagos del Portal INTRALU.
-    3. En el módulo de pagos, seleccionar el trámite correspondiente y generar un nuevo pago siguiendo las indicaciones en la plataforma. Mas detalles del proceso consultar el Manual de Pagos publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la Pagina Web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
+    3. En el módulo de pagos, seleccionar el trámite correspondiente y genera una nueva orden de pago siguiendo las indicaciones en la plataforma. 
 
 Una vez generada la orden de pago, el alumno debe realizar el pago en una sucursal del BCP o utilizando la aplicación móvil del BCP. 
 Después de completar el pago, el estudiante debe enviar su solicitud de reincorporación a través de la Plataforma de Intranet-Alumnos dentro de los plazos establecidos (consultar el calendario académico). Para ello accede a la plataforma, elige "Reincorporación de Estudiantes" en "Mis Trámites", completa el formulario con la solicitud y el comprobante de pago, y envía la solicitud.

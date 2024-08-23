@@ -640,7 +640,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: No se menciona un formato espec\u00edfico para la ficha de datos. Debes llenarla con tus datos personales. Si necesitas m\u00e1s detalles, te sugiero revisar la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias. \u00a1\u00c9xitos en tu matr\u00edcula!",
+                "content": "No se menciona un formato espec\u00edfico para la ficha de datos. Debes llenarla con tus datos personales. Si necesitas m\u00e1s detalles, te sugiero revisar la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la p\u00e1gina web de la Facultad de Ciencias. \u00a1\u00c9xitos en tu matr\u00edcula!",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,

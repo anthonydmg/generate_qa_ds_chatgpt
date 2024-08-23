@@ -352,9 +352,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
 
         
         if num_turn >= min_turn:
-            instrucction = """Como asistente de IA, proporciona una respuesta clara y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
         else:
-            instrucction = """Como asistente de IA, proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa y concisa al siguiente mensaje del usuario. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
 
 
             #instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
@@ -417,7 +417,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
         weighted_source = {
-            "faq": 1, "topic-specific-document": 0.8165, "regulation": 0.75, "general_information": 1.10},
+            "faq": 1, "topic-specific-document": 0.8150, "regulation": 0.75, "general_information": 1.10},
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
@@ -778,8 +778,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
     save_dir = "./conversational_faq/openline-derived"
-    path_file = "faq-derived/data/faq_6_derived.json"
-    filename = "faq_6_derived.json"
+    path_file = "faq-derived/data/faq_9_derived.json"
+    filename = "faq_9_derived.json"
     questions_faq = load_json(path_file)
     ## hacer el 11 de nuevo
     #for questions_about_topic in questions_topics[0:1]:
@@ -792,8 +792,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 120
-    end = min(130, num_questions)
+    start = 40
+    end = min(41, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")

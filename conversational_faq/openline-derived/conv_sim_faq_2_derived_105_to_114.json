@@ -534,7 +534,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: No se menciona un formato espec\u00edfico para la ficha de datos. Sin embargo, la oficina de estad\u00edstica enviar\u00e1 la ficha de datos al correo del ingresante, y el llenado es de car\u00e1cter obligatorio. Te sugiero que sigas las instrucciones que recibir\u00e1s en el correo para asegurarte de cumplir con los requisitos. Si tienes m\u00e1s dudas, no dudes en preguntar.",
+                "content": "No se menciona un formato espec\u00edfico para la ficha de datos. Sin embargo, la oficina de estad\u00edstica enviar\u00e1 la ficha de datos al correo del ingresante, y el llenado es de car\u00e1cter obligatorio. Te sugiero que sigas las instrucciones que recibir\u00e1s en el correo para asegurarte de cumplir con los requisitos. Si tienes m\u00e1s dudas, no dudes en preguntar.",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,
@@ -587,7 +587,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: No se menciona un plazo espec\u00edfico para la entrega de documentos. Te recomiendo que est\u00e9s atento al cronograma de actividades de matr\u00edcula publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias, donde encontrar\u00e1s las fechas establecidas. Si tienes m\u00e1s preguntas, no dudes en preguntar.",
+                "content": "No se menciona un plazo espec\u00edfico para la entrega de documentos. Te recomiendo que est\u00e9s atento al cronograma de actividades de matr\u00edcula publicado en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias, donde encontrar\u00e1s las fechas establecidas. Si tienes m\u00e1s preguntas, no dudes en preguntar.",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,

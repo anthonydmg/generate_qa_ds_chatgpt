@@ -317,7 +317,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: No se indica un plazo espec\u00edfico para hacer consultas con la escuela profesional. Sin embargo, es recomendable que realices tus consultas lo antes posible para evitar contratiempos. Puedes contactar a la escuela profesional correspondiente durante su horario de atenci\u00f3n, de lunes a viernes de 8:30 a.m. a 4:00 p.m., para obtener la informaci\u00f3n que necesites.",
+                "content": "No se indica un plazo espec\u00edfico para hacer consultas con la escuela profesional. Sin embargo, es recomendable que realices tus consultas lo antes posible para evitar contratiempos. Puedes contactar a la escuela profesional correspondiente durante su horario de atenci\u00f3n, de lunes a viernes de 8:30 a.m. a 4:00 p.m., para obtener la informaci\u00f3n que necesites.",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,

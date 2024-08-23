@@ -370,7 +370,7 @@
             },
             {
                 "role": "assistant",
-                "content": "Respuesta: Al enviar la solicitud a mesa de partes, es importante que indiques si deseas la constancia de notas en ingl\u00e9s o espa\u00f1ol. Adem\u00e1s, aseg\u00farate de incluir todos tus datos personales en el correo. Lamentablemente, no tengo acceso a detalles sobre requisitos adicionales. Si tienes m\u00e1s preguntas, no dudes en preguntar. \u00a1Estoy aqu\u00ed para ayudarte!",
+                "content": "Al enviar la solicitud a mesa de partes, es importante que indiques si deseas la constancia de notas en ingl\u00e9s o espa\u00f1ol. Adem\u00e1s, aseg\u00farate de incluir todos tus datos personales en el correo. Lamentablemente, no tengo acceso a detalles sobre requisitos adicionales. Si tienes m\u00e1s preguntas, no dudes en preguntar. \u00a1Estoy aqu\u00ed para ayudarte!",
                 "context": null,
                 "recovered_texts": null,
                 "contains_questions": null,
