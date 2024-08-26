@@ -399,6 +399,9 @@ Ejemplos:
 - Ejemplo 7: Entonces, ¿como se realiza el retiro parcial?. ¿Tengo que presentar algo?
         - Análisis: La pregunta del usuario se refiere al proceso de solicitar un retiro parcial, lo cual implica un trámite administrativo en la universidad. El asistente, al estar familiarizado con las normativas universitarias, puede entender a qué se refiere con "retiro parcial" sin necesidad de mayor contexto, ya que es un término específico. Además, la pregunta es clara y específica con la información que se busca sobre el proceso del retiro parcial, por lo que es posible proporcionar una respuesta adecuada. Por lo tanto, la pregunta se entiende sin necesidad de contexto previo.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
+- Ejemplo 8: ¿Cómo funciona el proceso de matrícula?
+        - Análisis: La pregunta del usuario se refiere al proceso de matrícula en la universidad. Aunque la pregunta es clara y directa, el contexto sobre qué tipo de matrícula se está refiriendo no se menciona. Sin embargo, dado que el término "matrícula" es común en el ámbito universitario y el asistente está familiarizado con las normativas de la universidad, se puede inferir que se refiere al proceso general de matrícula en la Facultad de Ciencias de la UNI. La pregunta es específica en cuanto a la búsqueda de información sobre el proceso, lo que permite que se pueda responder de manera adecuada. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
 
 Realiza el análisis de manera minuciosa basándote en los criterios y ejemplos anteriores e indica de la siguiente manera si es que la ultima pregunta del usuario proporcionada se entiende sin necesidad del historial:
  
@@ -510,8 +513,14 @@ examples = [{
 {   "history_chat_messages": [],
     "query": "¿Y cómo se hace el proceso para solicitar el retiro total? ¿Hay algún formulario específico o algo que deba presentar?",
     "entendible": True
+},
+{   "history_chat_messages": [],
+    "query": "¿Y cómo funciona el proceso de matrícula? ¿Hay algún plazo específico que deba tener en cuenta?",
+    "entendible": True
 }
 ] 
+## Agregar esto a eso
+# La pregunta del usuario se refiere al proceso de matrícula en la universidad y si hay plazos específicos que deben considerarse. Aunque la pregunta es clara y directa, el contexto sobre qué tipo de matrícula se está refiriendo (por ejemplo, matrícula inicial, matrícula para un ciclo académico específico, etc.) no se menciona. Sin embargo, dado que el término "matrícula" es común en el ámbito académico y el asistente está familiarizado con las normativas de la universidad, se puede inferir que se refiere al proceso general de matrícula en la Facultad de Ciencias de la UNI. La pregunta es específica en cuanto a la búsqueda de información sobre el proceso y los plazos, lo que permite que se pueda responder de manera adecuada. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
 
 ## Respuesta a esto:
 """Análisis: La pregunta del usuario se refiere a la afluencia de personas en la Mesa de Partes de la universidad, buscando identificar si hay días más tranquilos para realizar un trámite. Sin embargo, no se proporciona contexto adicional sobre el tipo de trámite que desea realizar ni la razón por la cual le interesa saber sobre los días más tranquilos. Aunque la pregunta es clara en su formulación y se entiende que el usuario busca información sobre la carga de trabajo en la Mesa de Partes, la falta de información sobre el propósito específico de su visita limita la comprensión total de la situación. En términos de especificidad, la pregunta es concreta y puede ser respondida con información sobre los días más o menos concurridos, pero la ausencia de contexto sobre el trámite o la urgencia de su visita hace que no se entienda completamente por sí sola. Por lo tanto, aunque la pregunta es clara y específica, la falta de contexto hace que no se entienda completamente por sí sola.
@@ -568,3 +577,4 @@ for example in examples[:]:
     time.sleep(3)
 print("Exactitud:", count_good_pred / len(examples))
 print(f"{count_good_pred}/{len(examples)}")
+

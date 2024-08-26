@@ -121,6 +121,8 @@ Preguntas y Respuestas:```
 """
     return prompt
 # abarquen diferentes niveles de complejidad y 
+
+## colocar aca que eviten falta de especificidad en la pregunta. O evitanto falta de contexto en las preguntas.
 def get_prompt_1_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()

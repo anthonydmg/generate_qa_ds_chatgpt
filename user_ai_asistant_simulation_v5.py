@@ -283,6 +283,8 @@ class AIAssistant:
     # lo de la ruta que no la da y lo que dervia aveces demasiado a estadistica 
     # Preferiblemente,
     # útiles
+    #     6. Si falta especificidad en una pregunta y el contexto de la conversarían en curso no es suficiente para aclarar la pregunta, solicita una aclaración al usuario y/o proporciona opciones según basándote en el contexto o información disponible. 
+
     def get_prompt_system_role(self):
         prompt_system_role_assistant = f"""
 Eres Aerito un asistente de AI especializado en temas de matricula, procedimientos y tramites académicos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería de Peru.
@@ -350,11 +352,12 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         #else:
         #    instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Usa la información entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada; en su lugar, puedes indicar que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
-        
+        # , precisa
+#, precisa
         if num_turn >= min_turn:
-            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara, util y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
         else:
-            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa y concisa al siguiente mensaje del usuario. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara, util y concisa al siguiente mensaje del usuario o solicita una aclaracion cuando falta especificidad en la pregunta. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
 
 
             #instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
@@ -417,7 +420,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
         weighted_source = {
-            "faq": 1, "topic-specific-document": 0.8150, "regulation": 0.75, "general_information": 1.10},
+            "faq": 1, "topic-specific-document": 0.8100, "regulation": 0.75, "general_information": 1.10},
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
@@ -526,6 +529,9 @@ Ejemplos:
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: No
 - Ejemplo 7: Entonces, ¿como se realiza el retiro parcial?. ¿Tengo que presentar algo?
         - Análisis: La pregunta del usuario se refiere al proceso de solicitar un retiro parcial, lo cual implica un trámite administrativo en la universidad. El asistente, al estar familiarizado con las normativas universitarias, puede entender a qué se refiere con "retiro parcial" sin necesidad de mayor contexto, ya que es un término específico. Además, la pregunta es clara y específica con la información que se busca sobre el proceso del retiro parcial, por lo que es posible proporcionar una respuesta adecuada. Por lo tanto, la pregunta se entiende sin necesidad de contexto previo.
+        - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
+- Ejemplo 8: ¿Cómo funciona el proceso de matrícula?
+        - Análisis: La pregunta del usuario se refiere al proceso de matrícula en la universidad. Aunque la pregunta es clara y directa, el contexto sobre qué tipo de matrícula se está refiriendo no se menciona. Sin embargo, dado que el término "matrícula" es común en el ámbito universitario y el asistente está familiarizado con las normativas de la universidad, se puede inferir que se refiere al proceso general de matrícula en la Facultad de Ciencias de la UNI. La pregunta es específica en cuanto a la búsqueda de información sobre el proceso, lo que permite que se pueda responder de manera adecuada. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
         - La última pregunta del usuario se entiende sin necesidad del historial del chat: Sí
 
 Realiza el análisis de manera minuciosa basándote en los criterios y ejemplos anteriores e indica de la siguiente manera si es que la ultima pregunta del usuario proporcionada se entiende sin necesidad del historial:
@@ -778,8 +784,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
     save_dir = "./conversational_faq/openline-derived"
-    path_file = "faq-derived/data/faq_9_derived.json"
-    filename = "faq_9_derived.json"
+    path_file = "faq-derived/data/faq_16_derived.json"
+    filename = "faq_16_derived.json"
     questions_faq = load_json(path_file)
     ## hacer el 11 de nuevo
     #for questions_about_topic in questions_topics[0:1]:
@@ -793,13 +799,13 @@ if __name__ == "__main__":
     print("num_questions:", num_questions)
 
     start = 40
-    end = min(41, num_questions)
+    end = min(50, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
 
         #conversation = [{}]+a
-        ai_assistant = AIAssistant(
+        ai_assistant = AIAssistant( 
             #model="gpt-3.5-turbo-0125"
             model="gpt-4o-mini-2024-07-18"
             )
@@ -861,7 +867,6 @@ if __name__ == "__main__":
             print("\n\033[32mAssistant:\033[0m:", response_ai_assistant)
             
             time.sleep(15)
-
         ## save conversation
 
         messages = ai_assistant.get_history_dialog(include_context=True)
