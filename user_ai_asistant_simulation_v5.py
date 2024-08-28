@@ -784,8 +784,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
     save_dir = "./conversational_faq/openline-derived"
-    path_file = "faq-derived/data/faq_28_derived.json"
-    filename = "faq_28_derived.json"
+    path_file = "faq-derived/data/faq_32_derived.json"
+    filename = "faq_32_derived.json"
     questions_faq = load_json(path_file)
     ## hacer el 11 de nuevo
     #for questions_about_topic in questions_topics[0:1]:
@@ -798,8 +798,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 60
-    end = min(70, num_questions)
+    start = 50
+    end = min(60, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
