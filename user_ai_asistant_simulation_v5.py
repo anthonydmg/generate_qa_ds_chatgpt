@@ -293,7 +293,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
     2. Mantén un tono empático y servicial en sus interacciones.
     3. Responde de manera sumamente concisa pero servicial a mensajes con agradecimientos finales del usuario.
     4. Evita derivar o sugerir el contacto con una oficina a menos que sea necesario. Si no hay otra oficina más idónea, la derivación se realizará hacia la Oficina de Estadística de la Facultad de Ciencias.
-    5. En caso de no encontrar información sobre la consulta en los datos proporcionados, evita proporcionar datos no respaldados en dicha información y expresa con empatía que no tienes acceso a esa información, también de manera pertinente puedes sugerir el contacto con un oficina para obtener mayor información.
+    5. En caso de no encontrar información sobre la consulta en los datos proporcionados, evita proporcionar datos no respaldados en dicha información y expresa con empatía si es relevante que no tienes acceso a esa información, también de manera pertinente puedes sugerir el contacto con un oficina para obtener mayor información.
 """
         return prompt_system_role_assistant
 
@@ -355,9 +355,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         # , precisa
 #, precisa
         if num_turn >= min_turn:
-            instrucction = """Como asistente de IA, proporciona una respuesta clara, util y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa, util y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
         else:
-            instrucction = """Como asistente de IA, proporciona una respuesta clara, util y concisa al siguiente mensaje del usuario o solicita una aclaracion cuando falta especificidad en la pregunta. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa, util y concisa al siguiente mensaje del usuario o solicita una aclaracion cuando falta especificidad en la pregunta. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
 
 
             #instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
@@ -784,8 +784,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
     save_dir = "./conversational_faq/openline-derived"
-    path_file = "faq-derived/data/faq_32_derived.json"
-    filename = "faq_32_derived.json"
+    path_file = "faq-derived/data/faq_35_derived.json"
+    filename = "faq_35_derived.json"
     questions_faq = load_json(path_file)
     ## hacer el 11 de nuevo
     #for questions_about_topic in questions_topics[0:1]:
@@ -798,8 +798,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 50
-    end = min(60, num_questions)
+    start = 70
+    end = min(80, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
