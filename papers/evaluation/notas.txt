@@ -1,3 +1,34 @@
 La evaluacion con GPT4 ha demostrado resultados prometodores de calidad y automatico en comparacion con la evalucion humana
 - Reinforcement Learning for Optimizing RAG for Domain Chatbots
 Entender mas la evaluacion
+
+Leer esto para encontrar los prompts:
+Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena
+
+
+## Templates Para evalucion con GPT4:
+
+Source: Constructing Domain-Specific Evaluation Sets for LLM-as-a-judge
+Type: comparacion de dos respuestas
+Template: 8.2. Judge Template
+Below is our judge template that we used for our LLM-as-a-judge evaluation:
+Please act as an impartial judge and evaluate the quality of the responses provided by two AI assistants to the user question
+displayed below. You should choose the assistant that follows the user’s instructions and answers the user’s question better,
+as well as answering in the desired language of the user. Your evaluation should consider factors such as the helpfulness,
+relevance, accuracy, depth, creativity, and level of detail of their responses. Begin your evaluation by comparing the two
+responses and provide a short explanation. Avoid any position biases and ensure that the order in which the responses were
+presented does not influence your decision. Do not allow the length of the responses to influence your evaluation. Do not
+favor certain names of the assistants. Be as objective as possible. Your evaluation should only focus on the correctness of
+the response. After providing your explanation, output your final verdict by strictly following this format: [[A]] if assistant
+A is better, [[B]] if assistant B is better, and [[C]] for a tie.
+
+## El template de esto esta buendo:
+The Challenges of Evaluating LLM Applications: An
+Analysis of Automated, Human, and LLM-Based
+Approaches
+
+
+
+
+
+

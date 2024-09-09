@@ -1,0 +1,2 @@
+Efficient data generation for source-grounded information-seeking dialogs: A use case for meeting transcripts
+https://research.google/blog/efficient-data-generation-for-source-grounded-information-seeking-dialogs-a-use-case-for-meeting-transcripts/

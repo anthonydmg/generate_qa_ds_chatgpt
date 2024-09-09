@@ -3,7 +3,7 @@ from utils import load_json, save_json
 
 path_directory = "./conversational_faq" # conv_sim_faq_1_derived_20_to_29
 #files = glob(f"{path_directory}/conversations_simulated_*.json")
-files = glob(f"{path_directory}/openline_reformulated/conv_sim_faq_*.json") + glob(f"{path_directory}/openline-derived/conv_sim_faq_*.json")
+files = glob(f"{path_directory}/openline-reformulated/conv_sim_faq_*.json") + glob(f"{path_directory}/openline-derived/conv_sim_faq_*.json")
 files.sort()
 #files.sort(key= lambda name: int(name[:-5].split("_")[-1]))
 

@@ -1,0 +1,8 @@
+Tutorial Para RAG
+Probar esto:
+
+https://pyimagesearch.com/2024/09/02/llamaindex-building-a-smarter-rag-based-chatbot/?utm_source=Drip&utm_medium=Email&utm_campaign=WeeklyUpdate&utm_content=02Sept2024NonUnivLink1DoYouHaveAnOpenCVProjectInMind
+
+
+Revisar esto para GNN:
+https://mlabonne.github.io/blog/book.html
