@@ -1,0 +1,15 @@
+rasa test nlu --nlu --cross-validation --config config_diet_ligth_bow\(P1\).yml --out ./evaluate_summaryv3/diet_ligth_bow_p1
+
+rasa test nlu --cross-validation --config config_diet_ligth_spacy\(P2\).yml --out ./evaluate_summaryv3/diet_ligth_spacy_p2
+
+
+rasa test nlu --cross-validation --config config_diet_ligth_mbert\(P3\).yml --out ./evaluate_summaryv3/diet_ligth_mbert_p3
+
+rasa test nlu --cross-validation --config config_diet_ligth_beto\(P4\).yml --out ./evaluate_summaryv3/diet_ligth_beto_p4
+
+
+rasa test nlu --cross-validation --config config_diet_spacy\(P6\).yml --out ./evaluate_summaryv3/diet_spacy_p6
+
+rasa test nlu --cross-validation --config config_diet_roberta\(P9\).yml --out ./evaluate_summaryv3/diet_roberta_p9
+
+https://drive.google.com/file/d/1A9Hs4evqXDjczGu1kBLPtOO_3bao78l5/view?usp=sharing

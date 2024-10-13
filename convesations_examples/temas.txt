@@ -1,0 +1,230 @@
+identifica los temas y agrupo las preguntas por esos temas:
+
+1. Nomativas para casos especiales de matricula
+2. Politicas academicas de la Universidad.
+3. Procedimiento de reserva de matricula
+4. Procedimiento de reserva de matricula
+5. Normas para multiple desaprobacion de asignaturas.
+6. Normas para multiple desaprobacion de asignaturas.
+7. Normas para multiple desaprobacion de asignaturas.
+8. 
+
+preguntas: [
+            "1. ¿Pueden los estudiantes matricularse en menos de doce créditos por semestre si les faltan menos para culminar su carrera?",
+            "2. ¿Es gratuita la enseñanza en la universidad pública?",
+            "3. ¿Puede un estudiante reservar su matrícula por razones de trabajo?",
+            "4. ¿Existe un límite de tres años para la reserva de matrícula por razones de trabajo o de otra naturaleza?",
+            "5. ¿Será separado temporalmente un estudiante por un año si desaprueba una misma materia tres veces?",
+            "6. ¿Puede un estudiante que ha sido separado temporalmente matricularse solo en la materia que desaprobó al retornar?",
+            "7. ¿Procede el retiro definitivo de un estudiante si desaprueba por cuarta vez la misma materia?",
+            "8. ¿Es la enseñanza gratuita para el estudio de más de una carrera?",
+            "9. ¿Puede un estudiante perder su condición de estudiante si excede el límite de tres años de reserva de matrícula?",
+            "10. ¿Se brinda dedicación tutorial específica y obligatoria a estudiantes que desaprueban por segunda vez una materia?",
+            "11. ¿Debe un estudiante separado temporalmente aprobar todas las materias desaprobadas por tercera vez para retornar regularmente a sus estudios?",
+            "12. ¿Es obligatorio el Programa de Tutoría para estudiantes que han desaprobado dos veces una asignatura?",
+            "13. ¿Reciben asesoramiento personalizado en el proceso de matrícula los estudiantes en riesgo académico?",
+            "14. ¿Es el Reglamento de Matrícula aplicable a todos los estudiantes de pregrado?",
+            "15. ¿Debe el Vicerrectorado Académico supervisar el cumplimiento del Reglamento de Matrícula?",
+            "16. ¿Aprueba anualmente el Consejo Universitario el Calendario de Actividades Académicas?",
+            "17. ¿Se realiza la matrícula en las fechas programadas en el Calendario Académico?",
+            "¿Es el Decano uno de los responsables del proceso de matrícula en cada Facultad?",
+            "¿Debe el Decano designar la Comisión de Matrícula tres semanas antes de concluir cada ciclo semestral?",
+            "¿Incluye la Comisión de Matrícula a Representantes Estudiantiles?",
+            "¿Es la Comisión de Matrícula la encargada de organizar y elaborar horarios?",
+            "¿Debe la Comisión de Matrícula ejecutar y supervisar el proceso de matrícula?",
+            "¿Se encarga la Comisión de Matrícula de aplicar cambios de Plan de Estudios y convalidaciones?",
+            "¿Presenta cada Departamento Académico su oferta preliminar de asignaturas, docentes y horarios antes de concluir el periodo académico anterior?",
+            "¿Aprueba la Comisión de Matrícula los cambios de horario?",
+            "¿Debe la ORCE proveer información preliminar y final a la Comisión de Matrícula por intranet?",
+            "¿Elaborará cada OERA el listado con el número potencial de estudiantes que pueden matricularse en cada asignatura?",
+            "¿Pueden las Comisiones de Matrícula realizar una prematrícula?",
+            "¿Necesita la prematrícula la aprobación del Consejo de Facultad?",
+            "¿Puede un estudiante matricularse en más de dos materias desaprobadas por tercera vez después de ser separado temporalmente?",
+            "¿Es posible que un estudiante no reciba asesoramiento personalizado si no está en riesgo académico?",
+            "¿Puede un estudiante que ha sido separado temporalmente matricularse en asignaturas que no ha desaprobado previamente?"
+        ]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+Tu tarea consiste en identificar temas y subtemas relevantes para usuarios como alumnos, docentes o el público en general en la información proporcionada sobre reglamentos académicos de la Facultad de Ciencias de la UNI (delimitada por tres comillas invertidas).
+
+Fragmento de texto: ```REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE ANTEGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA 
+
+CAPÍTULO 1
+DE LA BASE LEGAL, DEL OBJETIVO, DEL ALCANCE Y DE LAS DISPOSICIONES GENERALES
+
+De la Ley Universitaria 
+a) El numeral 99.8 del Art. 99 establece que los estudiantes pueden matricularse en número mínimo de doce (12) créditos por semestre para conservar su condición de estudiante regular, salvo que le falten menos para culminar su carrera. 
+b) El numeral 100.2 del Art. 100, establece la gratuidad de la enseñanza en la universidad pública. 
+c) El numeral 100.11 del Art. 100, establece que la reserva de matrícula por razones de trabajo o de otra naturaleza debidamente sustentada. No excederá de tres (03) años consecutivos o alternos.
+d) El Art. 102 "Matricula condicionada por rendimiento académico", dispone que la desaprobación de una misma materia por tres veces da lugar a que el estudiante sea separado temporalmente por un año de la universidad. Al término de este plazo, el estudiante solo se podrá matricular en la materia que desaprobó anteriormente, para retornar de manera regular a sus estudios en el ciclo siguiente. Si desaprueba por cuarta vez procede su retiro definitivo. ( ... ). 
+
+Del Estatuto de la UNI 
+a) El literal b del Art. 247° establece la gratuidad de la enseñanza para el estudio de una sola carrera. 
+b) El literal I del Art. 247° establece que el estudiante puede solicitar la reserva de matrícula por razones de trabajo o de otra naturaleza debidamente sustentada. No se excederá de tres (03) años consecutivos o alternos, caso contrario perderá la condición de estudiante. 
+c) El Art. 251 º establece que el estudiante tendrá  condicionada su matrícula, basado en su rendimiento académico a partir de la desaprobación de una materia por tercera vez. 
+d) El Art. 252º establece que los estudiantes que desaprueben por segunda vez una materia se les brindará una dedicación tutorial específica, de carácter obligatorio. 
+e) El Art. 253º establece que la desaprobación de una misma materia por tres (03) veces da lugar a que el estudiante sea separado temporalmente por un año de la universidad. Al término de este plazo, el estudiante solo se podrá matricular en un máximo de dos (02) materias desaprobadas por tercera vez. Para retornar de manera regular a sus estudios en el ciclo siguiente, el estudiante deberá haber aprobado a totalidad las materias desaprobadas por tercera vez. Si desaprueba por cuarta vez una misma materia procede su retiro definitivo. 
+
+Del Reglamento de Tutoría para Estudiantes de Pregrado en Riesgo Académico de la Universidad Nacional de Ingeniería 
+
+a) El Art. 8° establece que el Programa de Tutoria es de carácter obligatorio para los estudiantes que han desaprobado por segunda vez una asignatura; es decir, para aquellos estudiantes que se encuentran en riesgo académico. 
+b) El literal a) del Art. 1 Oº establece que el Programa de Tutoría brinda al estudiante, que se encuentra en riesgo académico, un asesoramiento personalizado en el proceso de matrícula, recomendándole las asignaturas que debe llevar en un determinado período académico. 
+
+Del Objetivo 
+Art. 1° Es objetivo del presente Reglamento establecer las normas y procedimientos de la matrícula de los estudiantes de antegrado de la Universidad Nacional de lngenieria-UNI. 
+
+Del Alcance 
+Art. 2° El presente reglamento es de cumplimiento obligatorio de todos los estudiantes de antegrado, los Decanos, los Directores de Escuelas Profesionales, los Docentes Tutores, el Jefe de la Oficina de Estadística de la Facultad, el Jefe de la Oficina del Registro Central y Estadística (ORCE) y de la Oficina Central de Admisión. El Vicerrectorado Académico supervisará su cumplimiento. 
+
+De las Disposiciones Generales 
+
+Art. 3° El Consejo Universitario aprueba anualmente el Calendario de Actividades Académicas de Antegrado correspondiente a los dos (02) períodos académicos de diecisiete (17) semanas académicas cada una. La matrícula se realizará en las fechas programadas en el Calendario Académico. 
+Art. 4° En cada Facultad, los responsables del proceso de matrícula son: el Decano, los Directores de las Escuelas Profesionales, los Directores de los Departamentos Académicos, y el Jefe de la Oficina de Estadística de la Facultad. 
+Art. 5° El Decano designará, tres semanas antes de concluir cada ciclo semestral y mediante Resolución Decana!, la Comisión de Matrícula del siguiente periodo académico; la que estará conformada por los Directores de Escuela Profesional (01) uno de cuales la preside, los Directores de los Departamentos Académicos, el Jefe de la Oficina de Estadística de la Facultad y los Representantes Estudiantiles en la proporción de un tercio del total a propuesta del Tercio Estudiantil del Consejo de Facultad. Será invitado un representante del Centro de Estudiantes de la Facultad. 
+Art. 6° La Comisión de Matrícula de la Facultad, es la encargada de organizar y elaborar horarios, y en coordinación con la ORCE-UN!, ejecutar y supervisar el proceso de 
+matrícula. 
+        Asimismo, se encarga de aplicar y ordenar los cambios de Plan de Estudios y convalidaciones a los estudiantes activos y reincorporados que corresponda, y efectuar las convalidaciones correspondientes a los trasladados e ingresantes por las diversas 
+modalidades. 
+        La organización de la matrícula comprende las siguientes acciones: 
+            - Cada Departamento Académico presenta su oferta preliminar de asignaturas, docentes y horarios a más tardar tres semanas antes de concluir el periodo académico anterior; considerando que los Horarios del ciclo previo constituyen propuesta inicial para el siguiente. 
+            - Los cambios de horario los aprueba la Comisión de Matrícula, previo análisis de los horarios de cada periodo académico del Plan de Estudios de la especialidad.
+            - La ORCE deberá proveerá oportunamente a la Comisión de Matrícula de cada Facultad, por intranet, información preliminar y final: 
+                * Información estadística referente a los estudiantes que han cursado asignaturas de un plan de estudio; 
+                * Cantidad de alumnos hábiles que han aprobado las asignaturas prerrequisito; 
+                * Cantidad de alumnos hábiles que han desaprobado las asignaturas. 
+            - Cada OERA, con la información enviada por ORCE elaborará el listado con el número potencial de estudiantes que pueden matricularse en cada asignatura del siguiente periodo académico, con la finalidad de proyectar el número de vacantes y el número de asignaturas-sección. Tras el cierre total de notas, elevará dicho listado a la Comisión de Matrícula. 
+            - Las Comisiones de matrícula en cada facultad podrán realizar, si lo consideran conveniente, una prematricula con la finalidad de analizar la demanda de estudiantes para cada asignatura-sección. Estas prematriculas podrán ser gestionadas en conjunto con la ORCE o  a través de plataformas propias de la facultad y contar con la aprobación del Consejo de Facultad.``` 
+        
+        
+        
+        
+Tu tarea consiste en identificar temas y subtemas que puedan agrupar las preguntas proporcionadas a continuación. 
+Asegúrate de que los temas y sub temas sean lo suficientemente generales para abarcar varias preguntas relacionadas.
+Finalmante presenta cada tema y subtema identificado y a debajo de cada subtema lista los numeros de cada 
+
+preguntas: [
+            "¿Qué requisito de créditos mínimos debe cumplir un estudiante para mantener su condición de estudiante regular en la UNI?",
+            "¿La enseñanza en la UNI es gratuita para todos los estudiantes o hay excepciones?",
+            "¿Bajo qué circunstancias un estudiante puede solicitar la reserva de matrícula en la UNI y por cuánto tiempo máximo?",
+            "¿Qué consecuencias enfrenta un estudiante que desaprueba una misma materia tres veces en la UNI?",
+            "¿La gratuidad de la enseñanza en la UNI se aplica para el estudio de múltiples carreras o hay limitaciones?",
+            "¿Qué tipo de apoyo se ofrece a los estudiantes que desaprueban una materia por segunda vez en la UNI?",
+            "¿Qué sucede si un estudiante desaprueba una misma materia por cuarta vez en la UNI?",
+            "¿Qué tipo de asesoramiento brinda el Programa de Tutoría a los estudiantes en riesgo académico durante el proceso de matrícula?",
+            "¿Cuál es el objetivo principal del reglamento de matrícula de la UNI?",
+            "¿Quiénes deben cumplir obligatoriamente con el reglamento de matrícula de la UNI?",
+            "¿Cómo se aprueba el Calendario de Actividades Académicas de Antegrado en la UNI y cuántas semanas académicas comprende cada período?",
+            "¿Quiénes son los responsables del proceso de matrícula en cada facultad de la UNI?",
+            "¿Cómo se conforma la Comisión de Matrícula en la UNI y quién la preside?",
+            "¿Qué tareas realiza la Comisión de Matrícula de la Facultad en la UNI?",
+            "¿Cómo se organiza la matrícula en la UNI y qué papel juegan los Departamentos Académicos en este proceso?",
+            "¿Qué tipo de información estadística proporciona la ORCE a la Comisión de Matrícula y para qué se utiliza?",
+            "¿Qué es una prematrícula y bajo qué condiciones puede realizarse en la UNI?",
+            "¿Qué sucede si un estudiante de la UNI no se matricula en el mínimo de créditos requeridos y le faltan menos créditos para culminar su carrera?",
+            "¿Qué medidas se toman en la UNI para los estudiantes que necesitan interrumpir temporalmente sus estudios por motivos laborales o de otra índole?",
+            "¿Qué tipo de dedicación tutorial se brinda a los estudiantes que desaprueban una materia por segunda vez y es de carácter voluntario u obligatorio?",
+            "¿Cómo afecta la desaprobación reiterada de una materia al estatus de matrícula de un estudiante en la UNI?",
+            "¿Qué información preliminar y final debe proveer la ORCE a la Comisión de Matrícula según el reglamento?",
+            "¿Cómo se proyecta el número de vacantes y el número de asignaturas-sección para el siguiente periodo académico en la UNI?",
+            "¿Qué rol juegan los Representantes Estudiantiles en la Comisión de Matrícula de la UNI?",
+            "¿Qué acciones comprende la organización de la matrícula en la UNI?",
+            "¿Cómo se aprueban los cambios de horario de las asignaturas en la UNI?",
+            "¿Qué sucede si un estudiante de la UNI desaprueba una materia por tercera vez y desea retomar sus estudios?",
+            "¿Qué criterios se consideran para la oferta preliminar de asignaturas, docentes y horarios en la UNI?",
+            "¿Qué debe hacer un estudiante en riesgo académico para recibir asesoramiento en el proceso de matrícula en la UNI?",
+            "¿Quién supervisa el cumplimiento del reglamento de matrícula en la UNI?",
+            "¿Qué información debe elaborar cada OERA con los datos enviados por la ORCE en la UNI?",
+            "¿Qué sucede con los estudiantes que exceden el tiempo máximo permitido para la reserva de matrícula en la UNI?",
+            "¿Qué proceso sigue un estudiante que ha sido separado temporalmente de la UNI por desaprobar una materia tres veces?",
+            "¿Qué acciones específicas debe realizar la Comisión de Matrícula en relación con los cambios de Plan de Estudios y convalidaciones?",
+            "¿Qué papel juega el Vicerrectorado Académico en relación con el reglamento de matrícula en la UNI?",
+            "¿Cómo se determina la cantidad de alumnos hábiles para matricularse en cada asignatura en la UNI?",
+            "¿Qué sucede si un estudiante de la UNI desaprueba una materia por cuarta vez después de haber sido reincorporado?",
+            "¿Qué se debe considerar al presentar la oferta preliminar de asignaturas en la UNI?",
+            "¿Qué función tiene la prematrícula en el proceso de matriculación de la UNI?",
+            "¿Cómo se garantiza la participación estudiantil en el proceso de matrícula en la UNI?",
+            "¿Es gratuita la enseñanza en la universidad pública?",
+            "¿Puede un estudiante reservar su matrícula por razones de trabajo?",
+            "¿Existe un límite de tres años para la reserva de matrícula por razones de trabajo o de otra naturaleza?",
+            "¿Será separado temporalmente un estudiante por un año si desaprueba una misma materia tres veces?",
+            "¿Puede un estudiante que ha sido separado temporalmente matricularse solo en la materia que desaprobó al retornar?",
+            "¿Procede el retiro definitivo de un estudiante si desaprueba por cuarta vez la misma materia?",
+            "¿Es la enseñanza gratuita para el estudio de más de una carrera?",
+            "¿Puede un estudiante perder su condición de estudiante si excede el límite de tres años de reserva de matrícula?",
+            "¿Se brinda dedicación tutorial específica y obligatoria a estudiantes que desaprueban por segunda vez una materia?",
+            "¿Debe un estudiante separado temporalmente aprobar todas las materias desaprobadas por tercera vez para retornar regularmente a sus estudios?",
+            "¿Es obligatorio el Programa de Tutoría para estudiantes que han desaprobado dos veces una asignatura?",
+            "¿Reciben asesoramiento personalizado en el proceso de matrícula los estudiantes en riesgo académico?",
+            "¿Es el Reglamento de Matrícula aplicable a todos los estudiantes de pregrado?",
+            "¿Debe el Vicerrectorado Académico supervisar el cumplimiento del Reglamento de Matrícula?",
+            "¿Aprueba anualmente el Consejo Universitario el Calendario de Actividades Académicas?",
+            "¿Se realiza la matrícula en las fechas programadas en el Calendario Académico?",
+            "¿Es el Decano uno de los responsables del proceso de matrícula en cada Facultad?",
+            "¿Debe el Decano designar la Comisión de Matrícula tres semanas antes de concluir cada ciclo semestral?",
+            "¿Incluye la Comisión de Matrícula a Representantes Estudiantiles?",
+            "¿Es la Comisión de Matrícula la encargada de organizar y elaborar horarios?",
+            "¿Debe la Comisión de Matrícula ejecutar y supervisar el proceso de matrícula?",
+            "¿Se encarga la Comisión de Matrícula de aplicar cambios de Plan de Estudios y convalidaciones?",
+            "¿Presenta cada Departamento Académico su oferta preliminar de asignaturas, docentes y horarios antes de concluir el periodo académico anterior?",
+            "¿Aprueba la Comisión de Matrícula los cambios de horario?",
+            "¿Debe la ORCE proveer información preliminar y final a la Comisión de Matrícula por intranet?",
+            "¿Elaborará cada OERA el listado con el número potencial de estudiantes que pueden matricularse en cada asignatura?",
+            "¿Pueden las Comisiones de Matrícula realizar una prematrícula?",
+            "¿Necesita la prematrícula la aprobación del Consejo de Facultad?",
+            "¿Puede un estudiante matricularse en más de dos materias desaprobadas por tercera vez después de ser separado temporalmente?",
+            "¿Es posible que un estudiante no reciba asesoramiento personalizado si no está en riesgo académico?",
+            "¿Puede un estudiante que ha sido separado temporalmente matricularse en asignaturas que no ha desaprobado previamente?"
+     
+        ]
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+Tu tarea es identificar temas y subtemas relevantes para usuarios, como alumnos, docentes y el público en general, en la información suministrada sobre los reglamentos académicos de la Facultad de Ciencias de la UNI (delimitada por tres comillas invertidas). Asegúrate de que los temas y subtemas estén bien desarrollados y explícitamente descritos en la información proporcionada. Además, asegúrate de que los nombres de los temas sean concisos y descriptivos para facilitar su comprensión. Ademas, evita repetir  la redundancia de subtemas.
+
+Fimalmente presenta los temas y sumtemas de la siguiente manera:
+
+1. Tema...
+ 1.1. Subtema...
+ 1.2. Subtema...
+ ...
+2. Tema..
+  ...
+
+Fragmento de texto: ```REGLAMENTO DE MATRÍCULA PARA ESTUDIANTES DE ANTEGRADO DE LA UNIVERSIDAD NACIONAL DE INGENIERÍA 
+
+CAPÍTULO II
+
+CONCEPTOS Y NORMAS DEL PROCESO DE MATRÍCULA
+Art. 7° La matrícula es el resultado de un acto formal que es ejecutado personal y voluntariamente por el estudiante (sujeto a verificación posterior), de inscribirse en un período académico; no es obligatorio tomar el máximo de créditos permitidos. Implica el cumplimiento de la Ley Universitaria, el Estatuto, las normas de la UNI y el presente reglamento. La matrícula es responsabilidad exclusiva del estudiante y se realiza semestralmente. 
+
+Art. 8°	Se define como estudiante regular en un semestre, al estudiante matriculado en no menos de doce (12) créditos del Plan de Estudios de su especialidad, luego del retiro parcial. Se exceptúa a quienes culminen sus estudios en dicho semestre. 
+		Se define como estudiante en riesgo académico a quien tenga desaprobada una o más asignaturas en dos o tres oportunidades. Previo a su matrícula debe pasar, de manera obligatoria, por un proceso de tutoría académica. 
+		
+Art. 9°	La matrícula, por su oportunidad, puede ser de dos tipos: 
+			a. Matrícula Regular: cuando se realiza de manera digital, en las fechas establecidas en el calendario de actividades académicas y en no menos de doce (12) créditos. La realizará el estudiante de modo virtual y en estricto orden de mérito. El orden de mérito se establece en base al promedio ponderado de los dos (02) últimos períodos académicos regulares cursados como estudiante regular. 
+			b. Matrícula Rezagada: cuando se realiza fuera de las fechas establecidas para la matrícula en la primera semana de clases, fijada en el calendario de actividades académicas. Se realizará exclusivamente a través de la Oficina de Estadística de la respectiva Facultad y debe contar con la autorización del Director de la Escuela Profesional que corresponda. Es la que corresponde a los ingresantes de todo tipo y reincorporados rezagados. Puede solicitar autorización para esta matrícula, todo estudiante que no haya podido ejecutar su matrícula regular Académica. 
+
+Art. 10° La matrícula, por su tratamiento, puede ser de cinco tipos: 
+			a. Matrícula Libre: Aquella que no tiene condicionamientos: asignaturas a cursar por primera o segunda vez. 
+			b. Matrícula Condicionada: conforme al Artículo 102º de la Ley Universitaria Nº 30220, y los Art. 251 º, Art. 252º y Art. 253º del Estatuto de la UNI, se presentan los siguientes casos: 
+				i. Cuando el estudiante ha desaprobado una misma asignatura dos (02) veces, ORCE la incluirá en la oferta de Matrícula, como obligatoria. En este caso, en la tutoría previa al inicio del semestre a matricularse, se podrá incluir dicha asignatura en el Grupo Cero (ver Art. 11 º, n) y se definirán las demás asignaturas a matricular. Alguna podrá ser obviada sólo si tiene cruce de horario con otra de ciclo inferior. Estas últimas van a matricula regular en las fechas establecidas en el calendario académico de cada Facultad. 
+				ii. Cuando el estudiante retorna de haber cumplido suspensión de un año, por Bajo Rendimiento Académico, sólo se podrá matricular en un máximo de dos asignaturas desaprobadas por tercera vez; no pudiendo matricularse en ninguna otra asignatura. Podrá solicitar, a través de la Tutoría Obligatoria, su incorporación en el Grupo Cero y su matrícula automática. Si fuese una asignatura y ésta hubiese cambiado de código, será cursada como por primera vez y podrá incluir en su matrícula una segunda asignatura. Si alguna fuese electiva, y no desea aprobarla, podrá solicitar previamente su exoneración. Si por exoneraciones se excluye del riesgo académico, podrá matricularse, en acuerdo con la tutoría, hasta en 15 créditos. 
+					Para retornar de manera regular a sus estudios en el ciclo siguiente, el estudiante debe haber aprobado la totalidad de las asignaturas desaprobadas por tercera vez y haber cumplido con el proceso de tutoría. 
+				En estos dos (02) casos, la matrícula de las asignaturas en riesgo se realizará a pedido del Tutor en el Grupo Cero, en la sección de menor demanda. Las otras asignaturas se matricularán de modo regular, en el turno que corresponda a cada estudiante; siendo verificada por la Comisión de Matricula correspondiente. El alumno que no se presente dentro del calendario a la tutoría no podrá matricularse. 
+			c. Matrícula Preferencial. Es la de un grupo previo al primero que está integrado por los estudiantes con un máximo 30 créditos pendientes para concluir su carrera. Esta ventaja se podrá solicitar sólo una vez, también la es, la del Grupo Cero, consolidado por la Oficina de Tutoría. Cada estudiante solicitará con anticipación a su Director de Escuela, que lo incluya en dicho grupo. Este listado se cierra tres días útiles antes del inicio de la matrícula regular; una vez vencido el plazo, este no se admitirá. 
+			d. Matrícula Especial por Convenio: Es la que corresponde a estudiantes procedentes de intercambio por convenios con universidades nacionales o extranjeras. No requiere señalarse el plan de estudios, ni los requisitos. Se autoriza la matrícula del estudiante mediante Resolución Decana! dirigida a la ORCE, acompañada de la constancia de ingreso emitida por la Oficina Central de Cooperación Internacional y Convenios de la UNI. La ORCE genera código especial de alumno, previo a la matrícula.``` 
