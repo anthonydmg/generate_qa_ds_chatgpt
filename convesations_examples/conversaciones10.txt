@@ -1,0 +1,42 @@
+## hay algo malo por que asume una respuesta que no deberia
+Conversación 1:
+            user: Hola, ¿podrías explicarme qué significa ser un estudiante en riesgo académico?
+            asistente: Claro, un estudiante en riesgo académico es aquel que ha desaprobado una o más asignaturas en dos o tres oportunidades. Si te encuentras en esta situación, es necesario que participes en un proceso de tutoría académica antes de poder matricularte nuevamente.
+            user: Entiendo, ¿y este proceso de tutoría es obligatorio?
+            asistente: Sí, es un requisito obligatorio para los estudiantes en riesgo académico. La idea es brindar apoyo y orientación para mejorar el rendimiento académico.
+            user: Perfecto, gracias por la aclaración.
+            asistente: ¡De nada! Si tienes alguna otra duda o necesitas más información, no dudes en preguntar. ¡Éxito en tus estudios!
+
+Conversación 2:
+            user: Buen día, tengo una consulta sobre las sanciones académicas.
+            asistente: Buen día, ¿en qué puedo ayudarte con respecto a las sanciones académicas?
+            user: Si un estudiante tiene una sanción vigente, ¿puede solicitar la reincorporación a la facultad?
+            asistente: No, si un estudiante tiene una sanción vigente, no es posible solicitar la reincorporación a la facultad según el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+            user: Vaya, eso significa que tengo que esperar a que termine la sanción, ¿correcto?
+            asistente: Así es, tendrás que esperar hasta que la sanción haya concluido para poder solicitar la reincorporación.
+            user: Entendido, gracias por la información.
+            asistente: No hay de qué. Recuerda que si tienes más preguntas o necesitas ayuda con otro tema, estoy aquí para asistirte. ¡Mucho ánimo!
+
+Conversación 3:
+            user: Hola, ¿qué tal? Quisiera saber qué sucede si repruebo un curso varias veces.
+            asistente: Hola, si repruebas una asignatura en dos o tres ocasiones, serás considerado un estudiante en riesgo académico. Esto implica que debes pasar por un proceso de tutoría académica antes de tu próxima matrícula.
+            user: ¿Y esa tutoría es algo que tengo que solicitar o se asigna automáticamente?
+            asistente: Debes solicitarla y es un paso necesario para poder matricularte nuevamente. La tutoría está diseñada para ayudarte a superar las dificultades académicas que hayas enfrentado.
+            user: Vale, lo tendré en cuenta. Gracias.
+            asistente: De nada. Si surge alguna otra pregunta o necesitas más ayuda, no dudes en contactarme. ¡Te deseo lo mejor en tus estudios!
+
+Conversación 4:
+            user: Hola, tengo una duda sobre la reincorporación.
+            asistente: Hola, claro, dime, ¿cuál es tu duda?
+            user: Si un amigo mío fue sancionado y quiere reincorporarse, ¿puede hacerlo mientras la sanción está vigente?
+            asistente: Lamentablemente, no es posible solicitar la reincorporación si se tiene una sanción vigente. Es necesario esperar a que la sanción concluya.
+            user: Entiendo, se lo haré saber. Gracias por la aclaración.
+            asistente: Con gusto. Si tú o tu amigo tienen más preguntas o necesitan asistencia con otro asunto, no duden en preguntar. ¡Estoy aquí para ayudar!
+
+Conversación 5:
+            user: Hola, ¿qué ocurre si un estudiante desaprueba el mismo curso varias veces?
+            asistente: Hola, si un estudiante desaprueba una asignatura en dos o tres oportunidades, se le considera en riesgo académico. Esto requiere que el estudiante participe en un proceso de tutoría académica antes de poder realizar su matrícula.
+            user: ¿Y hay algún límite de veces que puedo desaprobar antes de ser considerado en riesgo?
+            asistente: El límite es desaprobar la misma asignatura dos o tres veces. Al alcanzar este punto, se activa el protocolo de riesgo académico.
+            user: Gracias por la información, es muy útil.
+            asistente: Estoy para servirte. Si tienes alguna otra consulta o necesitas más ayuda, no dudes en preguntar. ¡Éxito en tus estudios!

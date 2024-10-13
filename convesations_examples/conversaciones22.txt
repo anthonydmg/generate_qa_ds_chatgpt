@@ -1,0 +1,64 @@
+[3] mejor hasta ahora
+Conversación 1:
+user: Hola, ¿hasta cuándo puedo retirar un curso este semestre?
+asistente: Hola, el plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: ¿Y ese retiro lo hago directamente en la facultad o hay algún sistema en línea para hacerlo?
+asistente: El proceso de matrícula, incluyendo el retiro de asignaturas, se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE.
+user: Perfecto, muchas gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 2:
+user: Buen día, quería saber si la matrícula la tengo que hacer en persona o hay alguna forma de hacerla online.
+asistente: Buen día, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE, así que puedes hacerlo en línea.
+user: Genial, ¿y si tengo problemas con la plataforma a quién puedo acudir?
+asistente: Si encuentras problemas con la plataforma, te recomendaría consultar con la oficina del Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias.
+user: Entendido, gracias por la ayuda.
+asistente: No hay de qué. Si tienes más preguntas en el futuro, no dudes en volver a preguntar.
+
+Conversación 3:
+user: Hola, ¿puedo saber cuál es el último día para retirar una asignatura este ciclo?
+asistente: Hola, puedes retirar una asignatura hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: ¿Eso también aplica para los cursos de laboratorio o hay alguna excepción?
+asistente: El plazo aplica para todas las asignaturas, incluyendo los cursos de laboratorio, según el reglamento académico de la Facultad de Ciencias de la UNI.
+user: Perfecto, muchas gracias por la aclaración.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 4:
+user: Buenas, ¿la matrícula para este semestre ya se puede hacer o hay una fecha específica?
+asistente: Buenas, la matrícula se debe realizar según el calendario académico publicado en la página web de la facultad, y se hace a través del Portal Web del Sistema de Matrícula UNI.
+user: ¿Y si no logro matricularme en el plazo establecido?
+asistente: Si no logras matricularte en el plazo establecido, te sugiero que te pongas en contacto con la oficina del Área de Estadística y Registros Académicos (AERA) para ver si hay alguna solución posible.
+user: Entiendo, gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 5:
+user: Hola, ¿hasta qué fecha puedo hacer el retiro de un curso sin que afecte mi récord académico?
+asistente: Hola, puedes realizar el retiro de un curso sin que afecte tu récord académico hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: ¿Ese procedimiento lo hago por la página web o tengo que ir a algún lugar en específico?
+asistente: El procedimiento lo puedes realizar a través del Portal Web del Sistema de Matrícula UNI, no necesitas ir a algún lugar en específico.
+user: Perfecto, eso facilita las cosas. Gracias.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 6:
+user: Buen día, ¿la matrícula para los cursos de este semestre ya está abierta?
+asistente: Buen día, la matrícula se realiza según el calendario académico, que puedes consultar en la página web de la facultad. El proceso se lleva a cabo a través del Portal Web del Sistema de Matrícula UNI.
+user: ¿Y si tengo problemas con mi usuario o contraseña del portal?
+asistente: Si tienes problemas con tu usuario o contraseña, deberías contactar con la ORCE o con la oficina del Área de Estadística y Registros Académicos (AERA) para obtener asistencia.
+user: Vale, lo tendré en cuenta. Gracias por la ayuda.
+asistente: No hay de qué. Si tienes más preguntas en el futuro, no dudes en volver a preguntar.
+
+Conversación 7:
+user: Hola, ¿cuál es el último día para retirar asignaturas este semestre?
+asistente: Hola, el último día para retirar asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: ¿Eso incluye también los cursos electivos?
+asistente: Sí, incluye todos los tipos de cursos, incluyendo los electivos.
+user: Genial, gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 8:
+user: Buenas tardes, ¿puedo matricularme en los cursos de este semestre en línea o necesito ir a la facultad?
+asistente: Buenas tardes, todo el proceso de matrícula se realiza en línea a través del Portal Web del Sistema de Matrícula UNI.
+user: ¿Y si la página no carga o da error?
+asistente: Si la página no carga o encuentras algún error, te recomiendo que te pongas en contacto con la oficina del Área de Estadística y Registros Académicos (AERA) para que puedan asistirte.
+user: Entendido, muchas gracias por la ayuda.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!

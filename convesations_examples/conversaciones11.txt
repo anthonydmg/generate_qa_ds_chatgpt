@@ -1,0 +1,50 @@
+# Aqui hay un gran ejemplo de como deberia mandar a consultar con la ofina de aera.
+
+
+Conversación 7:
+            user: Buen día, quisiera saber qué significa ser un estudiante en riesgo académico.
+            asistente: Buen día. Un estudiante se considera en riesgo académico si ha desaprobado una o más asignaturas en dos o tres oportunidades. En tal caso, es obligatorio que el estudiante pase por un proceso de tutoría académica antes de poder matricularse nuevamente.
+            user: ¿Y este proceso de tutoría cómo funciona?
+            asistente: El proceso de tutoría académica está diseñado para apoyar al estudiante en riesgo académico, ayudándole a identificar las causas de sus dificultades y a desarrollar un plan de estudios adecuado para superarlas.
+            user: Entiendo, muchas gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda o necesitas más ayuda, no dudes en preguntar. ¡Éxito en tus estudios!
+
+Conversación 8:
+            user: Hola, tengo una consulta. ¿Qué pasa si he sido sancionado y quiero reincorporarme a la facultad?
+            asistente: Hola. Si tienes una sanción vigente, lamentablemente no podrás solicitar la reincorporación a la facultad según el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+            user: ¿Existe alguna manera de apelar a la sanción o es definitiva?
+            asistente: Las sanciones son impuestas de acuerdo a las normativas de la facultad, pero podrías consultar con la oficina de asuntos estudiantiles para ver si existe algún procedimiento de apelación o revisión de tu caso particular.
+            user: Vale, lo tendré en cuenta. Gracias por la ayuda.
+            asistente: No hay de qué. Recuerda que si tienes más preguntas o necesitas asistencia en el futuro, puedes contactarme. ¡Buena suerte!
+
+Conversación 9:
+            user: Hola, ¿qué se requiere para no ser considerado un estudiante en riesgo académico?
+            asistente: Hola. Para evitar ser considerado un estudiante en riesgo académico, es importante no desaprobar la misma asignatura en dos o tres ocasiones. Si esto sucede, se requiere pasar por un proceso de tutoría académica antes de la siguiente matrícula.
+            user: ¿Y qué sucede si ya estoy en esa situación?
+            asistente: Si ya te encuentras en esa situación, deberás cumplir con el proceso de tutoría académica que la facultad establezca para poder matricularte nuevamente y recibir el apoyo necesario para mejorar tu rendimiento académico.
+            user: Entendido, gracias por la aclaración.
+            asistente: Estoy para ayudarte. Si tienes alguna otra duda o necesitas más información, no dudes en preguntar. ¡Ánimo con tus estudios!
+
+Conversación 10:
+            user: Hola, ¿puedo solicitar reincorporación si he sido sancionado anteriormente?
+            asistente: Hola. Si la sanción aún está vigente, no podrás solicitar la reincorporación a la facultad. Es necesario esperar a que la sanción haya concluido para poder realizar dicho trámite.
+            user: ¿Y cómo puedo saber si mi sanción aún está vigente?
+            asistente: Deberías revisar la documentación que se te proporcionó al momento de la sanción o consultar directamente con la oficina de asuntos estudiantiles para obtener esa información.
+            user: Perfecto, haré eso. Muchas gracias.
+            asistente: Con gusto. Si tienes más preguntas o necesitas ayuda adicional, no dudes en preguntar. ¡Suerte!
+
+Conversación 11:
+            user: Hola, ¿qué implicaciones tiene estar en riesgo académico?
+            asistente: Hola. Estar en riesgo académico implica que has desaprobado una o más asignaturas en dos o tres oportunidades, lo que te obliga a pasar por un proceso de tutoría académica antes de poder realizar tu matrícula.
+            user: ¿Y este proceso de tutoría es obligatorio?
+            asistente: Sí, es un requisito obligatorio para los estudiantes en riesgo académico, con el fin de brindarles el apoyo necesario para superar las dificultades académicas que enfrentan.
+            user: Entiendo, gracias por la información.
+            asistente: De nada. Si tienes alguna otra consulta o necesitas más ayuda, no dudes en preguntar. ¡Te deseo lo mejor en tus estudios!
+
+Conversación 12:
+            user: Hola, ¿qué debo hacer si quiero reincorporarme pero tengo una sanción?
+            asistente: Hola. Si tienes una sanción vigente, no podrás solicitar la reincorporación. Deberás esperar a que la sanción expire para poder realizar el trámite de reincorporación.
+            user: ¿Hay algún procedimiento para acelerar el fin de la sanción?
+            asistente: Las sanciones se cumplen según lo establecido en el reglamento, pero puedes consultar con la oficina de asuntos estudiantiles para ver si hay alguna opción en tu caso específico.
+            user: Gracias, lo tendré en cuenta.
+            asistente: Estoy aquí para ayudarte. Si tienes más preguntas o necesitas asistencia en el futuro, no dudes en contactarme. ¡Éxito!

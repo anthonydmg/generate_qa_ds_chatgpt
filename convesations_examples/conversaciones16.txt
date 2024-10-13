@@ -1,0 +1,64 @@
+[1]
+Conversación 1:
+user: Hola, quisiera saber más sobre el grupo cero de matrícula, ¿podrías explicarme qué es?
+asistente: Claro, el grupo cero de matrícula incluye a los estudiantes que están retornando de una Separación Temporal por Bajo Rendimiento Académico y a aquellos que se encuentran en Riesgo Académico por haber repetido asignaturas dos veces. La Comisión de Matrícula prepara este listado con la ayuda de la Tutoría y lo envía a la ORCE para su registro antes del inicio de la matrícula.
+user: Entonces, ¿este listado se cierra un día antes de que comience el proceso de matrícula?
+asistente: Exactamente, el listado se cierra el día anterior a la matrícula y se remite a la ORCE con al menos tres horas de anticipación antes del inicio del primer turno de matrícula.
+user: Perfecto, muchas gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 2:
+user: Buen día, tengo una consulta sobre los retiros de cursos. ¿Es posible retirarse parcialmente de asignaturas que son prerrequisito?
+asistente: Buen día. No, de acuerdo con el reglamento de matrícula de la Facultad de Ciencias de la UNI, no se permite el retiro parcial de asignaturas que son prerrequisito.
+user: ¿Y esto aplica para cualquier asignatura que sea prerrequisito de otra, sin excepciones?
+asistente: Así es, se aplica para todas las asignaturas que son prerrequisito de otras, sin excepciones.
+user: Entendido, gracias por la aclaración.
+asistente: No hay problema. Si tienes más preguntas o necesitas ayuda con otro tema, no dudes en preguntar.
+
+Conversación 3:
+user: Hola, ¿qué tal? Estoy un poco confundido con el tema de los prerrequisitos. ¿Puedo retirarme de un curso si este es prerrequisito de otro que estoy tomando?
+asistente: Hola, buen día. Según el reglamento de matrícula de la Facultad de Ciencias de la UNI, no es posible retirarse parcialmente de las asignaturas que son prerrequisito.
+user: Vaya, eso significa que debo mantenerme en ambos cursos, ¿correcto?
+asistente: Correcto, debes continuar en ambos cursos ya que uno es prerrequisito del otro.
+user: Entiendo, gracias por la información.
+asistente: De nada. Si tienes alguna otra duda o necesitas más información, no dudes en preguntar.
+
+Conversación 4:
+user: Hola, necesito ayuda con una duda. ¿Quiénes conforman el grupo cero de matrícula?
+asistente: Hola, con gusto te ayudo. El grupo cero de matrícula está conformado por estudiantes que regresan de una Separación Temporal por Bajo Rendimiento Académico y por aquellos en Riesgo Académico debido a asignaturas repetidas dos veces.
+user: ¿Y cómo se maneja el proceso de matrícula para ellos?
+asistente: La Comisión de Matrícula cierra el listado del grupo cero, que es producido por la Tutoría, el día anterior a la matrícula y lo envía a la ORCE para su registro previo, al menos tres horas antes del inicio del primer turno de matrícula.
+user: Perfecto, eso aclara mi duda. Muchas gracias.
+asistente: Estoy para servirte. Si tienes alguna otra pregunta o necesitas más ayuda, no dudes en contactarme.
+
+Conversación 5:
+user: Buenas, tengo una pregunta. Si estoy en riesgo académico por haber repetido un curso dos veces, ¿cómo afecta eso mi matrícula?
+asistente: Buenas, si te encuentras en esa situación, serás incluido en el grupo cero de matrícula. Esto significa que tu matrícula será procesada antes del inicio del primer turno de matrícula, luego de que la Comisión de Matrícula cierre el listado.
+user: ¿Y cuándo se cierra ese listado?
+asistente: El listado se cierra el día anterior a la matrícula y se remite a la ORCE con mínimo tres horas antes del inicio del primer turno de matrícula.
+user: Entiendo, gracias por la explicación.
+asistente: No hay de qué. Si tienes más preguntas o necesitas ayuda con algo más, no dudes en preguntar.
+
+Conversación 6:
+user: Hola, ¿qué sucede si necesito retirarme de un curso que es prerrequisito de otro que estoy cursando?
+asistente: Hola, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, no puedes retirarte parcialmente de asignaturas que son prerrequisito.
+user: ¿Eso significa que debo continuar con ambos cursos hasta el final del semestre?
+asistente: Así es, debes continuar con ambos cursos hasta completarlos.
+user: Vale, gracias por la aclaración.
+asistente: Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 7:
+user: Hola, estoy regresando de una separación temporal y me gustaría saber cómo se maneja mi matrícula.
+asistente: Hola, bienvenido de vuelta. Tu matrícula se manejará a través del grupo cero, que incluye a estudiantes en tu situación y a aquellos en riesgo académico por asignaturas repetidas dos veces.
+user: ¿Y cuándo se define este grupo cero?
+asistente: El grupo cero se define el día anterior a la matrícula, y la Comisión de Matrícula lo remite a la ORCE para su registro previo, con mínimo tres horas antes del inicio del primer turno de matrícula.
+user: Genial, eso me da una idea de lo que debo hacer. Gracias.
+asistente: De nada. Si tienes más preguntas o necesitas asistencia con otro tema, no dudes en preguntar.
+
+Conversación 8:
+user: Hola, tengo una duda. Si estoy considerando retirarme de un curso, pero este es prerrequisito de otro, ¿hay alguna excepción que me permita hacerlo?
+asistente: Hola, lamento informarte que no hay excepciones en este caso. No es posible retirarse parcialmente de las asignaturas que son prerrequisito, de acuerdo con el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+user: Entonces, ¿debo asegurarme de completar ambos cursos para no tener problemas con los prerrequisitos?
+asistente: Correcto, es importante que completes ambos cursos para cumplir con los requisitos académicos.
+user: Gracias por la información, me ha sido muy útil.
+asistente: Estoy aquí para ayudarte. Si tienes alguna otra duda, no dudes en preguntar.

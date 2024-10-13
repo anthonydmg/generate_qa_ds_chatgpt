@@ -1,0 +1,64 @@
+[1] megusta
+Conversación 1:
+user: Hola, quisiera saber más sobre el grupo cero de matrícula, ¿podrías explicarme qué es?
+asistente: Claro, el grupo cero de matrícula incluye a los estudiantes que están retornando de una Separación Temporal por Bajo Rendimiento Académico y a aquellos que se encuentran en Riesgo Académico por haber repetido asignaturas dos veces. Este listado es cerrado por la Comisión de Matrícula y enviado a la ORCE para su registro antes del inicio de la matrícula.
+user: ¿Y cuándo se cierra este listado?
+asistente: El listado se cierra el día anterior a la matrícula y debe ser remitido a la ORCE con un mínimo de tres horas antes del inicio del primer turno de matrícula.
+user: Entendido, muchas gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 2:
+user: Buen día, tengo una consulta. ¿Es posible retirarme de una asignatura que es prerrequisito de otra que estoy llevando este semestre?
+asistente: Buen día. No, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, no es posible retirarse parcialmente de las asignaturas que son prerrequisito.
+user: Vaya, eso significa que debo continuar con el curso hasta el final del semestre, ¿correcto?
+asistente: Así es, deberás continuar con el curso hasta completar el semestre.
+user: Entiendo, gracias por la aclaración.
+asistente: No hay problema. Si tienes más preguntas o necesitas ayuda con algo más, no dudes en contactarme.
+
+Conversación 3:
+user: Hola, ¿qué tal? Estoy un poco confundido con el tema del grupo cero de matrícula, ¿me podrías ayudar?
+asistente: Hola, claro que sí. El grupo cero de matrícula está compuesto por estudiantes que regresan de una Separación Temporal por Bajo Rendimiento Académico y por aquellos en Riesgo Académico debido a asignaturas repetidas dos veces.
+user: ¿Y cómo se maneja el proceso de matrícula para los que estamos en ese grupo?
+asistente: La Comisión de Matrícula se encarga de cerrar el listado del grupo cero y lo envía a la ORCE para su registro previo, al menos tres horas antes del inicio del primer turno de matrícula, y esto se hace el día anterior a la matrícula.
+user: Perfecto, eso aclara mis dudas. Muchas gracias.
+asistente: Estoy para servirte. Si tienes alguna otra pregunta o inquietud, no dudes en consultarme.
+
+Conversación 4:
+user: Buenas tardes, tengo una pregunta. Si estoy llevando un curso que es prerrequisito de otro, ¿puedo retirarme a mitad de semestre?
+asistente: Buenas tardes. No, no puedes retirarte parcialmente de asignaturas que son prerrequisito, de acuerdo con el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+user: Entonces, ¿qué opciones tengo si siento que no voy a pasar el curso?
+asistente: Te recomendaría que busques asesoría con tu profesor o con la oficina de tutoría académica para explorar opciones de apoyo y asesoramiento que puedan ayudarte a mejorar tu rendimiento en el curso.
+user: Vale, lo tendré en cuenta. Gracias por la orientación.
+asistente: Siempre a tu disposición. Si surge alguna otra duda, no dudes en preguntar.
+
+Conversación 5:
+user: Hola, ¿me podrías explicar quiénes conforman el grupo cero de matrícula?
+asistente: Hola, por supuesto. El grupo cero de matrícula está formado por estudiantes que vuelven de una Separación Temporal por Bajo Rendimiento Académico y por aquellos que están en Riesgo Académico por haber repetido asignaturas dos veces.
+user: ¿Y cuál es el procedimiento para la matrícula de este grupo?
+asistente: La Comisión de Matrícula prepara y cierra el listado del grupo cero, el cual es enviado a la ORCE para su registro previo. Esto se realiza con un mínimo de tres horas antes del inicio del primer turno de matrícula y se hace el día anterior a la matrícula.
+user: Genial, eso me aclara las cosas. Muchas gracias.
+asistente: No hay de qué. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 6:
+user: Buenas, tengo entendido que hay ciertas restricciones para retirarse de cursos prerrequisito, ¿es eso cierto?
+asistente: Buenas, efectivamente es cierto. No se permite el retiro parcial de asignaturas que son prerrequisito, de acuerdo con el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+user: ¿Y qué sucede si ya no puedo seguir con el curso por alguna razón?
+asistente: En ese caso, te recomendaría que te comuniques con la oficina del Área de Estadística y Registros Académicos (AERA) para explicar tu situación y ver si hay alguna medida excepcional que puedas tomar.
+user: Entendido, haré eso. Muchas gracias por la ayuda.
+asistente: De nada. Si tienes más preguntas en el futuro o necesitas ayuda, no dudes en preguntar.
+
+Conversación 7:
+user: Hola, ¿podrías decirme qué es el grupo cero de matrícula y cómo afecta a los estudiantes?
+asistente: Hola, claro que sí. El grupo cero de matrícula incluye a los estudiantes que regresan de una Separación Temporal por Bajo Rendimiento Académico y a los que están en Riesgo Académico por asignaturas repetidas dos veces. Este grupo tiene un proceso de matrícula especial que se maneja a través de la Comisión de Matrícula y la ORCE.
+user: ¿Y cuándo se cierra el listado para este grupo?
+asistente: El listado para el grupo cero se cierra el día anterior a la matrícula y se remite a la ORCE con al menos tres horas de anticipación antes del inicio del primer turno de matrícula.
+user: Perfecto, eso me ayuda a planificar mejor. Gracias.
+asistente: Estoy para ayudarte. Si tienes alguna otra duda, no dudes en preguntar.
+
+Conversación 8:
+user: Hola, tengo una duda sobre los retiros de cursos. ¿Puedo retirarme de un curso que es prerrequisito de otro que estoy tomando?
+asistente: Hola, no, no puedes retirarte parcialmente de las asignaturas que son prerrequisito, según el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+user: Entonces, ¿debo continuar con ambos cursos hasta el final del semestre?
+asistente: Así es, deberás continuar con ambos cursos hasta el final del semestre.
+user: Entiendo, gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!

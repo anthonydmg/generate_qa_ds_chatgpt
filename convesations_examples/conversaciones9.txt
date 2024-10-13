@@ -1,0 +1,41 @@
+# que buenas conversaciones
+
+Conversación 1:
+            user: Buen día, quisiera saber más sobre el grupo cero de matrícula, ¿podrías explicarme qué es?
+            asistente: ¡Buen día! Claro, el grupo cero de matrícula incluye a los estudiantes que regresan de una Separación Temporal por Bajo Rendimiento Académico y a aquellos que están en Riesgo Académico por haber repetido asignaturas dos veces. La Comisión de Matrícula prepara este listado con la ayuda de la Tutoría y lo envía a la ORCE para su registro antes del inicio de la matrícula.
+            user: Entiendo, ¿y cuándo se cierra este listado?
+            asistente: El listado se cierra el día anterior a la matrícula y debe ser remitido a la ORCE con al menos tres horas de anticipación antes del comienzo del primer turno de matrícula.
+            user: Perfecto, gracias por la aclaración.
+            asistente: No hay de qué. Si tienes alguna otra duda, no dudes en preguntar. ¡Éxito en tu proceso de matrícula!
+
+Conversación 2:
+            user: Hola, tengo una consulta sobre las asignaturas prerrequisito.
+            asistente: Hola, claro, ¿qué necesitas saber sobre las asignaturas prerrequisito?
+            user: ¿Es posible retirarme de una asignatura que es prerrequisito después de haberme matriculado?
+            asistente: No, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, no se permite el retiro parcial de asignaturas que son prerrequisito.
+            user: Vaya, eso significa que debo estar seguro antes de matricularme en ellas.
+            asistente: Así es, es importante que estés seguro antes de matricularte en asignaturas prerrequisito. Si tienes más preguntas o necesitas ayuda con otro tema, no dudes en preguntar.
+
+Conversación 3:
+            user: Hola, ¿qué tal? Quería preguntarte sobre el proceso de matrícula para los que hemos estado separados temporalmente.
+            asistente: Hola, claro, puedo ayudarte con eso. Los estudiantes que retornan de una Separación Temporal por Bajo Rendimiento Académico son incluidos en el grupo cero de matrícula, junto con los alumnos en Riesgo Académico por asignaturas repetidas dos veces.
+            user: ¿Y cómo se maneja el registro de matrícula para nosotros?
+            asistente: La Comisión de Matrícula se encarga de cerrar el listado del grupo cero y lo remite a la ORCE para su registro previo, al menos tres horas antes del inicio del primer turno de matrícula.
+            user: Genial, eso me aclara mucho el panorama. Gracias.
+            asistente: De nada, me alegra haber podido ayudarte. Si tienes alguna otra consulta, no dudes en preguntar. ¡Te deseo lo mejor en tu regreso a la universidad!
+
+Conversación 4:
+            user: Hola, ¿podrías explicarme quiénes conforman el grupo cero de matrícula?
+            asistente: Hola, por supuesto. El grupo cero de matrícula está formado por estudiantes que vuelven de una Separación Temporal por Bajo Rendimiento Académico y por aquellos que están en Riesgo Académico debido a que han repetido asignaturas dos veces.
+            user: ¿Y cuál es el procedimiento para que mi nombre aparezca en ese listado?
+            asistente: La Comisión de Matrícula, con la información proporcionada por la Tutoría, cierra el listado el día anterior a la matrícula y lo envía a la ORCE para su registro previo, con mínimo tres horas antes del inicio del primer turno de matrícula.
+            user: Perfecto, eso era justo lo que necesitaba saber. Muchas gracias.
+            asistente: Estoy aquí para ayudarte. Si tienes alguna otra duda, no dudes en preguntar. ¡Éxito en tu proceso académico!
+
+Conversación 5:
+            user: Hola, tengo una duda sobre las asignaturas prerrequisito, ¿puedo retirarme de alguna después de matricularme?
+            asistente: Hola, lamento informarte que no es posible retirarse parcialmente de las asignaturas que son prerrequisito una vez que te has matriculado en ellas.
+            user: Entonces, ¿debo estar completamente seguro antes de matricularme en una asignatura prerrequisito?
+            asistente: Exactamente, es importante que tomes una decisión informada antes de matricularte en asignaturas prerrequisito, ya que no podrás retirarte de ellas más adelante.
+            user: Entendido, gracias por la información.
+            asistente: Con gusto. Si tienes más preguntas o necesitas aclarar alguna otra duda, no dudes en preguntar. ¡Te deseo mucho éxito en tus estudios!

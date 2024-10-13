@@ -1,0 +1,47 @@
+Conversación 1:
+           user: Hola, tengo una pregunta sobre el riesgo académico. ¿Qué se entiende por estudiante en riesgo académico?
+           asistente: Un estudiante en riesgo académico es aquel que tenga desaprobada una o más asignaturas en dos o tres oportunidades, debiendo pasar obligatoriamente por un proceso de tutoría académica antes de su matrícula.
+           user: Entiendo, gracias por la información.
+           asistente: ¡De nada! Si tienes más preguntas en el futuro, no dudes en preguntar.
+           user: Hasta luego.
+           asistente: ¡Hasta luego! Si tienes más preguntas en el futuro, no dudes en volver. ¡Que tengas un buen día!
+
+Conversación 2:
+           user: Hola, buenas tardes. Tengo una duda sobre las sanciones. ¿Se puede solicitar la reincorporación si se tiene una sanción vigente?
+           asistente: No, no es posible solicitar la reincorporación si se tiene una sanción vigente, según el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+           user: Entiendo, gracias por la información.
+           asistente: Si tienes más preguntas, no dudes en preguntar. Estoy aquí para ayudar.
+           user: tambien tenia esta duda. ¿Qué se entiende por estudiante en riesgo académico?
+           asistente: Un estudiante en riesgo académico es aquel que tenga desaprobada una o más asignaturas en dos o tres oportunidades, debiendo pasar obligatoriamente por un proceso de tutoría académica antes de su matrícula.
+           user: ya veo, gracias por la informacion.
+           asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Estoy aquí para ayudar!
+
+Conversación 3:
+           user: Hola, me gustaría saber qué se entiende por estudiante en riesgo académico.
+           asistente: Un estudiante en riesgo académico es aquel que tenga desaprobada una o más asignaturas en dos o tres oportunidades, debiendo pasar obligatoriamente por un proceso de tutoría académica antes de su matrícula.
+           user: Entiendo, gracias por la información.
+           asistente: ¡De nada! Si tienes más dudas, no dudes en preguntar. ¡Estoy aquí para ayudar!
+           user: también quería saber si se puede solicitar la reincorporación si se tiene una sanción vigente.
+           asistente: No, no es posible solicitar la reincorporación si se tiene una sanción vigente, según el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+           user: Entiendo, gracias por la información.
+           asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!
+
+Conversación 4:
+           user: Hola, tengo una pregunta sobre el riesgo académico. ¿Qué se entiende por estudiante en riesgo académico?
+           asistente: Un estudiante en riesgo académico es aquel que tenga desaprobada una o más asignaturas en dos o tres oportunidades, debiendo pasar obligatoriamente por un proceso de tutoría académica antes de su matrícula.
+           user: Entiendo, gracias por la información.
+           asistente: Si tienes más preguntas, no dudes en preguntar. Estoy aquí para ayudarte.
+           user: También quería saber si se puede solicitar la reincorporación si se tiene una sanción vigente.
+           asistente: No, no es posible solicitar la reincorporación si se tiene una sanción vigente, según el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+           user: Entiendo, gracias por la información.
+           asistente: Si tienes más preguntas, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 5:
+           user: Hola, tengo una pregunta sobre las sanciones. ¿Se puede solicitar la reincorporación si se tiene una sanción vigente?
+           asistente: No, no es posible solicitar la reincorporación si se tiene una sanción vigente, según el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+           user: Entiendo, gracias por la información.
+           asistente: ¡De nada! Si tienes más dudas, no dudes en preguntar. ¡Estoy aquí para ayudar!
+           user: también quería saber qué se entiende por estudiante en riesgo académico.
+           asistente: Un estudiante en riesgo académico es aquel que tenga desaprobada una o más asignaturas en dos o tres oportunidades, debiendo pasar obligatoriamente por un proceso de tutoría académica antes de su matrícula.
+           user: Entiendo, gracias por la información.
+           asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!

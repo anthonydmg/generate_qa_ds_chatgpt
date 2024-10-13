@@ -1,0 +1,30 @@
+La conversación 2 se dara por turnos, comenzando con el usuario, como se establece en el criterio 1. 
+Habrá 4 turnos para el usuario, y 4 turnos para el asistente, cumpliendo de esta manera con el criterio 2.
+El usuario mantendrá un tono semi formal acorde con el perfil de un estudiante universitario, cumpliendo asi con el criterio 3.
+En el primer turno, para enriquecer la conversación con una interacción natural entre el asistente y el usuario. El usuario saludará al asistente, y el asistente responderá de manera apropiadamente al saludo y le consultara en que puede ayudarle. De esta menera, se cumple con lo establecido en el criterio 9.  
+En el segunto turno, el usuario consultará de manera directa pero distinta a la conversacion anterior sobre el porcentaje mínimo de contenido que deben coincidir las asignaturas para que proceda la convalidación. Esta informacion puede ser inferida del par de pregunta y respuesta numero 1, cumpliendo así con los criterios 4, 6 y 7
+Ademas, el usuario no hara referencia directa al reglamento de Matrícula, cumpliendo con el criterio 4.
+Luego, el asistente responderá apropiadamente a la consulta inferiendo la respuesta del par de pregunta y respuesta numero 1, cumpliendo con el criterio 8.
+En el tercer turno, para enriquecer la conversación con una interacción natural entre el asistente y el usuario, cumpliendo el criterio 9. El usuario manifestara comprender la informacion, y el asistente respondera apropiadamente indicando que si tiene mas preguntaras estara ahi para ayudar, cumpliendo con el criterio 5
+Finalmente, en el cuarto turno, para enriquecer la conversación con una interacción natural entre el asistente y el usuario , cumpliendo el criterio 9.  El usuario expresará su agradecimiento por la información proporcionada, y el asistente responderá de manera apropiada. Además, recordará al usuario la disponibilidad para futuras consultas, asegurando así el cumplimiento del criterio 5.
+
+La Conversación 2 seguirá un formato por turnos, iniciando con el usuario según el Criterio 1. 
+Se llevarán a cabo 4 turnos para el usuario y 4 para el asistente, cumpliendo con el Criterio 2. 
+
+
+La Conversación 2 se desarrollará por turnos, comenzando con el usuario según el Criterio 1, con 4 turnos para cada parte cumpliendo con el Criterio 2.
+El usuario usará un tono semi formal, acorde con un estudiante universitario, conforme al Criterio 3.
+
+El usuario mantendrá un tono semi formal, acorde con el perfil de un estudiante universitario, en concordancia con el Criterio 3.
+En el primer turno, el usuario saludará al asistente, quien responderá apropiadamente y le preguntará en qué puede ayudar.
+En el segundo turno, el usuario consultará de manera directa pero distinta a la conversación generada anteriormente sobre el porcentaje mínimo de coincidencia necesario para la convalidación, cumplimiento con el criterios 7. Esta información puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+El asistente responderá apropiadamente, inferiendo la respuesta del primer par de preguntas y respuestas, cumpliento el criterio 8.
+En el tercer turno, el usuario manifestara comprender la informacion, y el asistente respondera apropiadamente indicando que si tiene mas preguntaras estara ahi para ayudar, cumpliendo con el criterio 5.
+Finalmente, en el cuarto turno, el usuario expresará su agradecimiento por la información proporcionada, y el asistente responderá apropiadamente, recordando al usuario la disponibilidad para futuras consultas, cumplimiento con el criterio 5.
+El usuario no hará referencia directa al reglamento de Matrícula en la consulta presentada en el turno 3, cumpliendo con el Criterio 4.
+Las interacciones en los turnos 1, 3 y 4 enriquecerán la conversación con interacciones naturales, satisfaciendo el Criterio 9.
+
+    
+    
+    
+    

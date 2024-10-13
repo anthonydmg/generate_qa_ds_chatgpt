@@ -1,0 +1,39 @@
+Conversación 1:
+            user: Hola, ¿hasta cuándo tengo plazo para retirar una asignatura este semestre?
+            asistente: Hola, el plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Perfecto, gracias. ¿Y todo el proceso de matrícula se hace en línea?
+            asistente: Sí, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE.
+            user: Genial, eso facilita las cosas. Agradezco la ayuda.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Buena suerte con tu proceso de matrícula!
+
+Conversación 2:
+            user: Buenas, quería confirmar si la matrícula la tengo que hacer presencialmente o hay alguna plataforma para ello.
+            asistente: Buenas, el proceso de matrícula se realiza completamente en línea a través del Portal Web del Sistema de Matrícula UNI, proporcionado por la ORCE.
+            user: Eso es muy conveniente, gracias. ¿Y si quiero retirar una asignatura, cuál es el último día que puedo hacerlo?
+            asistente: Puedes realizar el retiro parcial de asignaturas hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Perfecto, muchas gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 3:
+            user: Hola, ¿cómo está el proceso de matrícula este año? ¿Debo ir a la universidad?
+            asistente: Hola, no es necesario que vayas a la universidad. El proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, facilitado por la ORCE.
+            user: Ah, qué bien. Otra cosa, si no me va bien en un curso, ¿puedo retirarlo más adelante?
+            asistente: Puedes retirar una asignatura hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Excelente, eso me da algo de tranquilidad. Muchas gracias.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 4:
+            user: Hola, tengo una duda sobre el retiro de cursos. ¿Cuál es la fecha límite para hacerlo?
+            asistente: Hola, el retiro parcial de asignaturas se puede realizar hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Entendido, gracias. ¿Y la matrícula para los cursos la hago por internet o tengo que ir a algún lugar específico?
+            asistente: La matrícula se realiza en línea a través del Portal Web del Sistema de Matrícula UNI, que es proporcionado por la ORCE.
+            user: Perfecto, eso me ahorra el viaje. Aprecio mucho tu ayuda.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 5:
+            user: Hola, ¿puedo hacer la matrícula desde casa o necesito ir a la universidad?
+            asistente: Hola, puedes realizar la matrícula desde la comodidad de tu casa. El proceso se lleva a cabo a través del Portal Web del Sistema de Matrícula UNI, proporcionado por la ORCE.
+            user: Eso es muy práctico, gracias. ¿Y si en algún momento decido que quiero retirar una asignatura, cuál es el último día para hacerlo?
+            asistente: Tienes hasta el último día útil de la quinta semana después del inicio de clases del período académico para retirar una asignatura.
+            user: Genial, eso me da tiempo para evaluar cómo me va en el curso. Muchas gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!

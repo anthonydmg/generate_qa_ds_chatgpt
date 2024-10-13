@@ -1,0 +1,80 @@
+La Conversación 1 se desorallará con 3 turnos para cada parte. 
+    En el primer turno, el usuario saludará y consultará de manera directa sobre el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcinados.
+    La conversación se complementará y enriquesará con interacciones naturales en el segundo y tercer turno, cumpliendo con el criterio 9.
+
+    Conversación 1:
+            user: Hola, tengo una pregunta sobre la reincorporación a la Facultad de Ciencias de la UNI. ¿Cuál es el procedimiento para solicitarla?
+            asistente: El procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI implica tramitar la solicitud en la plataforma de la ORCE según formato, con una anticipación no menor de diez (10) días útiles antes de la semana de matrícula y según el Calendario Académico de la Universidad. Además, se debe realizar el pago correspondiente a través de la Caja UNI o bancos autorizados.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas en el futuro, no dudes en preguntar.
+            user: Hasta luego.
+            asistente: ¡Hasta luego! Si tienes más preguntas en el futuro, no dudes en volver. ¡Que tengas un buen día!
+
+    La Conversación 2 se desorallará con 4 turnos para cada parte. 
+    En el primer turno, el usuario saludará y consultará de manera directa pero con un enfoque sustancialmente distinto a la conversación generada anteriormente sobre si el Retiro Parcial procede para asignaturas repetidas dos (02) o más veces, cumplimiento con el criterio 7. La información solicitada puede ser inferida del segundo par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    En el tercer turno, el usuario consultará de manera directa pero con un enfoque sustancialmente distinto a la conversación generada anteriormente sobre el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI, cumplimiento con el criterio 7. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con interacciones naturales en el segundo y cuarto turno, cumpliendo con el criterio 9.
+
+    Conversación 2:
+            user: Hola, buenas tardes. Tengo una duda sobre el Retiro Parcial. ¿El Retiro Parcial procede para asignaturas repetidas dos (02) o más veces?
+            asistente: No, el Retiro Parcial no procede para asignaturas repetidas dos (02) o más veces, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, artículo 65°.
+            user: Entiendo, gracias por la información.
+            asistente: Si tienes más preguntas, no dudes en preguntar. Estoy aquí para ayudar.
+            user: también quería saber cuál es el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI.
+            asistente: El procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI implica tramitar la solicitud en la plataforma de la ORCE según formato, con una anticipación no menor de diez (10) días útiles antes de la semana de matrícula y según el Calendario Académico de la Universidad. Además, se debe realizar el pago correspondiente a través de la Caja UNI o bancos autorizados.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!
+
+    La Conversación 3 se desorallará con 4 turnos para cada parte. 
+    En el primer turno, el usuario saludará y consultará de manera directa pero con un enfoque sustancialmente distinto a la conversaciones generadas anteriormente sobre el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI, cumplimiento con el criterio 7. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    En el tercer turno, el usuario consultará de manera directa pero con un enfoque sustancialmente distinto a la conversaciones generadas anteriormente sobre si el Retiro Parcial procede para asignaturas repetidas dos (02) o más veces, cumplimiento con el criterio 7. La información solicitada puede ser inferida del segundo par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con interacciones naturales en el segundo y cuarto turno, cumpliendo con el criterio 9.
+
+    Conversación 3:
+            user: Hola, me gustaría saber cuál es el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI.
+            asistente: El procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI implica tramitar la solicitud en la plataforma de la ORCE según formato, con una anticipación no menor de diez (10) días útiles antes de la semana de matrícula y según el Calendario Académico de la Universidad. Además, se debe realizar el pago correspondiente a través de la Caja UNI o bancos autorizados.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas en el futuro, no dudes en preguntar.
+            user: también quería saber si el Retiro Parcial procede para asignaturas repetidas dos (02) o más veces.
+            asistente: No, el Retiro Parcial no procede para asignaturas repetidas dos (02) o más veces, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, artículo 65°.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!
+
+    La Conversación 4 se desorallará con 3 turnos para cada parte. 
+    En el primer turno, el usuario consultará de manera directa pero con un enfoque sustancialmente distinto a las conversaciones generada anteriormente sobre si el Retiro Parcial procede para asignaturas repetidas dos (02) o más veces, cumplimiento con el criterio 7. La información solicitada puede ser inferida del segundo par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    En el segundo turno, el usuario consultará de manera directa pero con un enfoque sustancialmente distinto a las conversaciones generada anteriormente sobre el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI, cumplimiento con el criterio 7. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con una interacción natural en el tercer turno, cumpliendo con el criterio 9.
+
+    Conversación 4:
+            user: tengo una duda, si tengo una asignatura que he repetido dos veces, puedo solicitar el Retiro Parcial?
+            asistente: No, el Retiro Parcial no procede para asignaturas repetidas dos (02) o más veces, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, artículo 65°.
+            user: también quería saber cuál es el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI.
+            asistente: El procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI implica tramitar la solicitud en la plataforma de la ORCE según formato, con una anticipación no menor de diez (10) días útiles antes de la semana de matrícula y según el Calendario Académico de la Universidad. Además, se debe realizar el pago correspondiente a través de la Caja UNI o bancos autorizados.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!
+
+    La Conversación 5 se desorallará con 3 turnos para cada parte. 
+    En el primer turno, el usuario consultará de manera directa pero con un enfoque sustancialmente distinto a las conversaciones generada anteriormente sobre el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI, cumplimiento con el criterio 7. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    En el segundo turno, el usuario consultará de manera directa pero con un enfoque sustancialmente distinto a las conversaciones generada anteriormente sobre si el Retiro Parcial procede para asignaturas repetidas dos (02) o más veces, cumplimiento con el criterio 7. La información solicitada puede ser inferida del segundo par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con una interacción natural en el tercer turno, cumpliendo con el criterio 9.
+
+    Conversación 5:
+            user: Hola, me gustaría saber cuál es el procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI.
+            asistente: El procedimiento para solicitar la reincorporación a la Facultad de Ciencias de la UNI implica tramitar la solicitud en la plataforma de la ORCE según formato, con una anticipación no menor de diez (10) días útiles antes de la semana de matrícula y según el Calendario Académico de la Universidad. Además, se debe realizar el pago correspondiente a través de la Caja UNI o bancos autorizados.
+            user: tengo una asignatura que he repetido dos veces, puedo solicitar el Retiro Parcial?
+            asistente: No, el Retiro Parcial no procede para asignaturas repetidas dos (02) o más veces, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, artículo 65°.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!
+            
+            
+
+provee 5 maneras distintas en las que un estudiante universitario pueda solicitar información que puedan ser inferida del pa de pregunta y respuesta proporcionados  (delimitados por tres comillas invertidas):
+
+Par de preguntas y respuestas: ```
+¿Cuál es el porcentaje mínimo de contenido que deben coincidir las asignaturas para que proceda la convalidación?
+Para que proceda la convalidación, los respectivos sílabos de las asignaturas a convalidar deben coincidir al menos en un 75% de su contenido y de horas dictadas. ```

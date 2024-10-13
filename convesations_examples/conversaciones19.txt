@@ -1,0 +1,64 @@
+[3]
+Conversación 1:
+user: Hola, ¿hasta cuándo tengo tiempo para retirar un curso este semestre?
+asistente: Hola, el plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico, según el reglamento académico de la Facultad de Ciencias de la UNI.
+user: ¿Eso aplica para cualquier curso o hay excepciones?
+asistente: Aplica para cualquier curso, siempre y cuando se realice dentro del plazo establecido. Si tienes alguna situación particular, te recomendaría consultar con la oficina del Área de Estadística y Registros Académicos (AERA) para obtener más información.
+user: Entendido, muchas gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 2:
+user: Buenas, ¿cómo hago para matricularme en los cursos de este ciclo?
+asistente: Buenas, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE. Debes seguir los pasos indicados en el portal para completar tu matrícula.
+user: ¿Y si tengo problemas con el portal, a quién puedo acudir?
+asistente: Si encuentras problemas con el portal, debes contactar con la oficina del Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias. Ellos podrán asistirte con cualquier inconveniente que tengas durante el proceso de matrícula.
+user: Perfecto, gracias por la ayuda.
+asistente: No hay de qué. Si tienes más preguntas en el futuro o necesitas ayuda, no dudes en preguntar. ¡Buena suerte con tu matrícula!
+
+Conversación 3:
+user: Hola, ¿puedo retirar un curso después de la quinta semana de clases?
+asistente: Hola, de acuerdo con el reglamento académico, el retiro parcial de asignaturas debe realizarse hasta el último día útil de la quinta semana después del inicio de clases del período académico. Pasado ese plazo, no sería posible realizar el retiro oficialmente.
+user: ¿Y si tengo una emergencia después de ese plazo?
+asistente: En casos de emergencia o circunstancias excepcionales, te sugiero que te comuniques directamente con la oficina del Área de Estadística y Registros Académicos (AERA) para explicar tu situación y ver si hay alguna posibilidad de consideración especial.
+user: Gracias, lo tendré en cuenta.
+asistente: Estoy para ayudarte. Si tienes alguna otra duda, no dudes en preguntar.
+
+Conversación 4:
+user: Hola, ¿el proceso de matrícula es presencial o hay alguna manera de hacerlo en línea?
+asistente: Hola, el proceso de matrícula se realiza de manera no presencial a través del Portal Web del Sistema de Matrícula UNI, proporcionado por la ORCE.
+user: ¿Qué pasa si el sistema no me permite matricularme en un curso específico?
+asistente: Si tienes problemas para matricularte en un curso específico, deberías contactar con la oficina del Área de Estadística y Registros Académicos (AERA) para que puedan ayudarte a resolver el problema.
+user: Vale, lo intentaré. Gracias por la información.
+asistente: Con gusto. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 5:
+user: Hola, ¿hasta qué fecha puedo hacer retiro de cursos este semestre?
+asistente: Hola, puedes realizar el retiro parcial de asignaturas hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: ¿Eso significa que si las clases empezaron el 1 de marzo, tengo hasta la primera semana de abril?
+asistente: Exactamente, debes contar cinco semanas completas a partir del inicio de clases y el retiro debe hacerse hasta el último día útil de esa quinta semana.
+user: Genial, gracias por aclararme eso.
+asistente: De nada. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 6:
+user: Hola, ¿cómo se realiza la matrícula para los cursos de la facultad?
+asistente: Hola, la matrícula se lleva a cabo a través del Portal Web del Sistema de Matrícula UNI, que es proporcionado por la ORCE. Deberás seguir los pasos indicados en el portal para inscribirte en tus cursos.
+user: ¿Y si el portal no funciona correctamente?
+asistente: Si experimentas problemas técnicos con el portal, es importante que te pongas en contacto con la oficina del Área de Estadística y Registros Académicos (AERA) para que puedan brindarte la asistencia necesaria.
+user: Perfecto, muchas gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 7:
+user: Hola, ¿puedo retirar una asignatura después de la quinta semana de clases?
+asistente: Hola, según el reglamento académico, el retiro parcial de asignaturas debe hacerse hasta el último día útil de la quinta semana después del inicio de clases. Pasada esa fecha, no sería posible realizar el retiro de manera regular.
+user: ¿Qué opciones tengo si me paso de la fecha límite por un problema personal?
+asistente: Te recomendaría que te comuniques con la oficina del Área de Estadística y Registros Académicos (AERA) para explicar tu situación personal y ver si existe alguna posibilidad de hacer una excepción o recibir asesoramiento sobre los pasos a seguir.
+user: Entiendo, gracias por la orientación.
+asistente: No hay problema. Si tienes más preguntas en el futuro o necesitas ayuda, no dudes en preguntar.
+
+Conversación 8:
+user: Hola, ¿la matrícula para los nuevos cursos se hace en línea o tengo que ir a la facultad?
+asistente: Hola, no necesitas ir a la facultad. La matrícula se realiza completamente en línea a través del Portal Web del Sistema de Matrícula UNI, facilitado por la ORCE.
+user: ¿Y si tengo algún problema con mi usuario o contraseña?
+asistente: Si tienes problemas con tu usuario o contraseña, deberías contactar con la oficina del Área de Estadística y Registros Académicos (AERA) para que puedan ayudarte a solucionar esos inconvenientes.
+user: Muchas gracias por la ayuda.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!

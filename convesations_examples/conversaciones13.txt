@@ -1,0 +1,79 @@
+Conversación 1:
+user: Hola, estoy un poco preocupado porque he desaprobado un par de cursos más de una vez. ¿Qué significa eso para mi situación académica?
+asistente: Hola, entiendo tu preocupación. Según el reglamento de la Facultad de Ciencias de la UNI, un estudiante que desaprueba una o más asignaturas en dos o tres oportunidades se considera en riesgo académico. Esto implica que debes pasar por un proceso de tutoría académica antes de poder matricularte nuevamente.
+user: Entonces, ¿qué debo hacer para iniciar ese proceso de tutoría?
+asistente: Deberías acercarte al Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para que te informen sobre los pasos a seguir y te asignen un tutor para el proceso de tutoría académica.
+user: Vale, gracias por la información. ¿Y si quisiera reincorporarme después de una sanción, es posible?
+asistente: No, no es posible solicitar la reincorporación si tienes una sanción vigente. Es necesario que la sanción haya concluido para poder proceder con la reincorporación.
+user: Entendido, gracias por aclarar mis dudas.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 2:
+user: Buen día, quisiera saber qué pasa si un estudiante desaprueba varias veces el mismo curso.
+asistente: Buen día. Un estudiante que desaprueba una o más asignaturas en dos o tres oportunidades se considera en riesgo académico. Esto requiere que el estudiante participe en un proceso de tutoría académica antes de su próxima matrícula.
+user: ¿Y este proceso de tutoría cómo funciona? ¿Debo inscribirme en algún lugar?
+asistente: Para iniciar el proceso de tutoría académica, debes acudir al Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias. Allí te proporcionarán toda la información necesaria y te guiarán en los siguientes pasos a seguir.
+user: Perfecto, lo haré. Otra cosa, si por alguna razón tengo una sanción, ¿puedo solicitar reincorporación?
+asistente: Lamentablemente, si tienes una sanción vigente, no podrás solicitar la reincorporación. Debes esperar a que la sanción haya sido levantada para poder proceder con cualquier solicitud de reincorporación.
+user: Entiendo, gracias por la ayuda.
+asistente: No hay problema. Recuerda que si tienes más preguntas en el futuro, puedes contactarme. ¡Éxito con tus trámites!
+
+Conversación 3:
+user: Hola, ¿qué se considera un estudiante en riesgo académico en la Facultad de Ciencias?
+asistente: Hola. Un estudiante en riesgo académico es aquel que ha desaprobado una o más asignaturas en dos o tres oportunidades. Si te encuentras en esta situación, es obligatorio que participes en un proceso de tutoría académica antes de realizar tu matrícula.
+user: ¿Y dónde puedo obtener más información sobre la tutoría académica?
+asistente: Puedes dirigirte al Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para obtener más detalles sobre el proceso de tutoría y cómo inscribirte en él.
+user: Gracias, y en caso de tener una sanción, ¿puedo pedir reincorporación?
+asistente: No, si tienes una sanción vigente, no es posible solicitar la reincorporación. Deberás esperar a que la sanción haya terminado para poder hacerlo.
+user: Vale, gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 4:
+user: Hola, tengo una consulta. Si he reprobado algunos cursos varias veces, ¿qué implicaciones tiene eso?
+asistente: Hola. Si has desaprobado cursos en dos o tres ocasiones, te clasificas como un estudiante en riesgo académico. Esto significa que debes someterte a un proceso de tutoría académica antes de poder matricularte de nuevo.
+user: ¿Cómo puedo acceder a esa tutoría académica?
+asistente: Debes contactar con el Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para que te informen sobre el proceso y te ayuden a inscribirte en la tutoría académica.
+user: Entiendo, gracias. ¿Y si tengo una sanción, puedo solicitar reincorporación?
+asistente: No, si tienes una sanción vigente, no podrás solicitar la reincorporación. Es necesario que la sanción haya sido resuelta antes de hacer cualquier solicitud de este tipo.
+user: Gracias por la aclaración.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 5:
+user: Buenas, ¿qué significa ser un estudiante en riesgo académico?
+asistente: Buenas. Ser un estudiante en riesgo académico significa que has desaprobado una o más asignaturas en dos o tres oportunidades. En este caso, es obligatorio que recibas tutoría académica antes de tu próxima matrícula.
+user: ¿Y a dónde debo ir para recibir esa tutoría?
+asistente: Deberías visitar el Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para obtener más información y comenzar el proceso de tutoría académica.
+user: Gracias por eso. Otra pregunta, si estoy sancionado, ¿puedo pedir reincorporación?
+asistente: No, no es posible solicitar la reincorporación si tienes una sanción vigente. Deberás esperar a que la sanción se levante para poder hacerlo.
+user: Entendido, muchas gracias por la ayuda.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 6:
+user: Hola, ¿qué pasa si repruebo un curso varias veces?
+asistente: Hola. Si repruebas un curso en dos o tres ocasiones, te consideran un estudiante en riesgo académico y es necesario que pases por un proceso de tutoría académica antes de matricularte nuevamente.
+user: ¿Dónde puedo obtener más información sobre este proceso de tutoría?
+asistente: Puedes acudir al Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para que te orienten sobre el proceso de tutoría académica y cómo inscribirte.
+user: Gracias por la información. ¿Y si tengo una sanción, puedo solicitar reincorporación?
+asistente: No, si tienes una sanción vigente, no es posible solicitar la reincorporación. Tendrás que esperar a que la sanción haya concluido.
+user: Entiendo, gracias por la aclaración.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 7:
+user: Hola, me gustaría saber qué se considera un estudiante en riesgo académico.
+asistente: Hola. Un estudiante en riesgo académico es aquel que ha desaprobado una o más asignaturas en dos o tres oportunidades. Es necesario que asistas a un proceso de tutoría académica antes de realizar tu matrícula.
+user: ¿Y cómo puedo iniciar ese proceso de tutoría?
+asistente: Debes dirigirte al Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para que te brinden la información necesaria y te inscriban en el proceso de tutoría académica.
+user: Perfecto, lo haré. ¿Qué sucede si tengo una sanción y quiero reincorporarme?
+asistente: Si tienes una sanción vigente, no podrás solicitar la reincorporación. Debes esperar a que la sanción termine para poder hacerlo.
+user: Gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 8:
+user: Hola, ¿qué implica para un estudiante haber reprobado cursos en varias ocasiones?
+asistente: Hola. Si un estudiante ha desaprobado cursos en dos o tres ocasiones, se le considera en riesgo académico y debe someterse a un proceso de tutoría académica antes de su próxima matrícula.
+user: ¿A quién debo acudir para recibir esa tutoría?
+asistente: Debes contactar con el Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para obtener más información sobre el proceso de tutoría académica y cómo inscribirte.
+user: Gracias. Y si estoy sancionado, ¿puedo pedir reincorporación?
+asistente: No, si tienes una sanción vigente, no es posible solicitar la reincorporación. Deberás esperar a que la sanción haya sido resuelta.
+user: Entendido, gracias por la ayuda.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!

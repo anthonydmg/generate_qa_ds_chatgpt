@@ -1,0 +1,72 @@
+    La Conversación 1 se desorallará con 3 turnos para cada parte. 
+    En el primer turno, el usuario saludará y consultará de manera directa sobre el plazo para realizar un retiro parcial de asignaturas. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con interacciones naturales en el segundo y tercer turno, cumpliendo con el criterio 9.
+
+    Conversación 1:
+            user: Hola, tengo una pregunta sobre el retiro de asignaturas. ¿Cuál es el plazo para realizar un retiro parcial de asignaturas?
+            asistente: El plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas en el futuro, no dudes en preguntar.
+            user: Hasta luego.
+            asistente: ¡Hasta luego! Si tienes más preguntas en el futuro, no dudes en volver. ¡Que tengas un buen día!
+
+    La Conversación 2 se desorallará con 4 turnos para cada parte. 
+    En el primer turno, el usuario saludará y consultará de manera directa pero distinta a las conversaciones generadas anteriormente sobre si el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, cumplimiento con el criterio 7. La información solicitada puede ser inferida del segundo par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    En el tercer turno, el usuario consultará de manera directa pero distinta a las conversaciones generadas anteriormente sobre el plazo para realizar un retiro parcial de asignaturas, cumplimiento con el criterio 7. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con interacciones naturales en el segundo y cuarto turno, cumpliendo con el criterio 9.
+
+    Conversación 2:
+            user: Hola, buenas tardes. Tengo una duda sobre el proceso de matrícula. ¿El proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI?
+            asistente: Sí, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE, según lo establecido en el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+            user: Entiendo, gracias por la información.
+            asistente: Si tienes más preguntas, no dudes en preguntar. Estoy aquí para ayudar.
+            user: también quería que me indiques hasta cuando se puede realizar el retiro parcial?
+            asistente: El plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!
+
+    La Conversación 3 se desorallará con 4 turnos para cada parte. 
+    En el primer turno, el usuario saludará, proverá un contexto y consultará de manera directa pero distinta a las conversaciones generadas anteriormente sobre el proceso de matrícula, cumplimiento con el criterio 7. La información solicitada puede ser inferida del segundo par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    En el tercer turno, el usuario consultará de manera directa pero distinta a las conversaciones generadas anteriormente sobre el plazo para realizar un retiro parcial de asignaturas, cumplimiento con el criterio 7. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con interacciones naturales en el segundo y cuarto turno, cumpliendo con el criterio 9.
+
+    Conversación 3:
+            user: Buenas, soy estudiante de segundo ciclo de la carrera de matematica queria que me indiques como se realiza la matricula.
+            asistente: El proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE, según lo establecido en el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas en el futuro, no dudes en preguntar.
+            user: también quería saber en caso quiero solicitar el retiro parcial de algun curso hasta que fecha tengo para hacerlo.
+            asistente: El plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!
+
+    La Conversación 4 se desorallará con 3 turnos para cada parte. 
+    En el primer turno, el usuario consultará de manera indirecta pero distinta a las conversaciones generadas anteriormente sobre el plazo para realizar un retiro parcial de asignaturas, cumplimiento con el criterio 7. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    En el segundo turno, el usuario consultará de manera directa pero distinta a las conversaciones generadas anteriormente sobre si el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, cumplimiento con el criterio 7. La información solicitada puede ser inferida del segundo par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con una interacción natural en el tercer turno, cumpliendo con el criterio 9.
+
+    Conversación 4:
+            user: estoy con una duda ya es la semana 5 de este ciclo y no estoy seguro si puedo solicitar el retiro parcial de un curso.         
+            asistente: El plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: otra duda mas, la matricula siempre se realizar por el portal web.           
+            asistente: Sí, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE, según lo establecido en el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. Estoy aquí para ayudarte.
+
+    La Conversación 5 se desorallará con 3 turnos para cada parte. 
+    En el primer turno, el usuario consultará de manera directa pero distinta a las conversaciones generadas anteriormente sobre si el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, cumplimiento con el criterio 7. La información solicitada puede ser inferida del segundo par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    En el segundo turno, el usuario provera un contexto y consultará de manera indirecta pero distinta a las conversaciones generadas anteriormente sobre el plazo para realizar un retiro parcial de asignaturas, cumplimiento con el criterio 7. La información solicitada puede ser inferida del primer par de preguntas y respuestas, cumpliendo así con el Criterio 6.
+    El asistente responderá apropiadamente en cada consulta inferiendo las respuestas de los pares de preguntas y respuestas proporcionados.
+    La conversación se complementará y enriquesará con una interacción natural en el tercer turno, cumpliendo con el criterio 9.
+
+    Conversación 5:
+            user: estoy con una duda si la matricula debo realizarla por el portal web o ir presencialmente a la UNI.
+            asistente: El proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE, según lo establecido en el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+            user: es la sexta semana de clases y quisiera solicitar el retiro de un curso, es posible ?
+            asistente: Lamentablemente, el retiro parcial solo se puede realizar hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Entiendo, gracias por la información.
+            asistente: ¡De nada! Si tienes más preguntas, no dudes en preguntar. ¡Buena suerte con todo!

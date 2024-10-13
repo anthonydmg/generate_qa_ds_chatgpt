@@ -1,0 +1,64 @@
+[0]
+Conversación 9:
+            user: Hola, quisiera saber más sobre el grupo cero de matrícula, ¿me podrías explicar qué es?
+            asistente: Claro, el grupo cero de matrícula incluye a los estudiantes que están retornando de una Separación Temporal por Bajo Rendimiento Académico y a aquellos que se encuentran en Riesgo Académico por haber repetido asignaturas dos veces. La Comisión de Matrícula prepara este listado con la ayuda de la Tutoría y lo envía a la ORCE para su registro antes del inicio de la matrícula.
+            user: Entonces, ¿este grupo tiene alguna prioridad en el proceso de matrícula?
+            asistente: El grupo cero tiene un proceso de matrícula especial que se realiza antes del inicio del primer turno de matrícula general, para asegurar que estos estudiantes puedan inscribirse en las asignaturas que necesitan.
+            user: Perfecto, eso aclara mi duda. Muchas gracias.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 10:
+            user: Buen día, tengo una consulta sobre los retiros de cursos. ¿Es posible retirarse de una asignatura que es prerrequisito de otra?
+            asistente: Buen día. No, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, no es posible retirarse parcialmente de las asignaturas que son prerrequisito.
+            user: ¿Y qué sucede si me encuentro en una situación excepcional y necesito retirarme?
+            asistente: En situaciones excepcionales, te recomendaría que te pongas en contacto con la oficina del Área de Estadística y Registros Académicos (AERA) para explicar tu caso y ver si hay alguna posibilidad de consideración especial.
+            user: Entiendo, haré eso. Gracias por la información.
+            asistente: No hay problema. Si tienes más preguntas o necesitas ayuda en el futuro, no dudes en preguntar. ¡Buena suerte!
+
+Conversación 11:
+            user: Hola, ¿podrías explicarme quiénes conforman el grupo cero de matrícula?
+            asistente: Hola, por supuesto. El grupo cero de matrícula está formado por estudiantes que regresan de una Separación Temporal por Bajo Rendimiento Académico y por aquellos en Riesgo Académico debido a asignaturas repetidas dos veces. Este listado es cerrado por la Comisión de Matrícula y enviado a la ORCE para su registro antes de la matrícula.
+            user: ¿Y cuándo se realiza este registro?
+            asistente: El registro del grupo cero se lleva a cabo el día anterior a la matrícula y se remite a la ORCE con mínimo tres horas antes del inicio del primer turno de matrícula.
+            user: Perfecto, eso me ayuda a planificar mejor. Muchas gracias.
+            asistente: Estás bienvenido. Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 12:
+            user: Hola, tengo una duda. Si estoy llevando un curso que es prerrequisito de otro, ¿puedo retirarme de él a mitad de semestre?
+            asistente: Hola, de acuerdo con el reglamento de matrícula de la Facultad de Ciencias de la UNI, no es posible retirarse parcialmente de las asignaturas que son prerrequisito.
+            user: ¿Qué opciones tengo si ya no puedo seguir con el curso?
+            asistente: Si te encuentras en una situación complicada, lo mejor sería que te comuniques con la oficina del Área de Estadística y Registros Académicos (AERA) para discutir tu situación y explorar las opciones disponibles.
+            user: Entendido, gracias por la orientación.
+            asistente: Con gusto. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 13:
+            user: Hola, ¿qué tal? Quería preguntarte sobre el grupo cero de matrícula, ¿qué es exactamente?
+            asistente: Hola, claro que sí. El grupo cero de matrícula es un listado especial que incluye a los estudiantes que vuelven de una Separación Temporal por Bajo Rendimiento Académico y a los que están en Riesgo Académico por haber repetido asignaturas dos veces. Este listado es preparado por la Comisión de Matrícula y enviado a la ORCE para su registro previo a la matrícula.
+            user: ¿Y cómo se determina quién entra en este grupo?
+            asistente: La determinación se hace con base en los criterios que acabo de mencionar y es manejada por la Tutoría en conjunto con la Comisión de Matrícula.
+            user: Genial, eso me aclara las cosas. Muchas gracias.
+            asistente: De nada, si tienes más preguntas o necesitas ayuda con algo más, no dudes en preguntar. ¡Estoy aquí para asistirte!
+
+Conversación 14:
+            user: Buenas, tengo una pregunta. Si estoy pensando en retirarme de un curso que es prerrequisito, ¿hay alguna manera de hacerlo?
+            asistente: Buenas, según el reglamento de matrícula de la Facultad de Ciencias de la UNI, no se permite el retiro parcial de asignaturas que son prerrequisito.
+            user: ¿Y si ya no puedo continuar con el curso por razones personales?
+            asistente: En ese caso, te recomendaría que te acerques a la oficina del Área de Estadística y Registros Académicos (AERA) para explicar tu situación y ver si hay alguna medida que puedas tomar.
+            user: Vale, lo tendré en cuenta. Muchas gracias por la ayuda.
+            asistente: Siempre a tu disposición. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 15:
+            user: Hola, me gustaría saber más sobre el grupo cero de matrícula, ¿me podrías informar al respecto?
+            asistente: Hola, claro que sí. El grupo cero de matrícula consiste en los estudiantes que están regresando de una Separación Temporal por Bajo Rendimiento Académico y aquellos que se encuentran en Riesgo Académico por haber repetido asignaturas dos veces. Este grupo es manejado por la Comisión de Matrícula y la Tutoría, y se registra en la ORCE antes de la matrícula.
+            user: ¿Eso significa que tienen alguna prioridad en el proceso de matrícula?
+            asistente: Así es, el grupo cero tiene un proceso de matrícula que se realiza antes del inicio del primer turno de matrícula general para asegurar que estos estudiantes puedan inscribirse en las asignaturas que necesitan.
+            user: Entiendo, eso es justo lo que necesitaba saber. Muchas gracias.
+            asistente: No hay de qué. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 16:
+            user: Hola, tengo una consulta. Si estoy llevando un curso que es prerrequisito y quiero retirarme, ¿es posible hacerlo?
+            asistente: Hola, de acuerdo con el reglamento de matrícula de la Facultad de Ciencias de la UNI, no se permite el retiro parcial de asignaturas que son prerrequisito.
+            user: ¿Qué puedo hacer si ya no puedo seguir con el curso por motivos de fuerza mayor?
+            asistente: En casos de fuerza mayor, te aconsejo que te comuniques con la oficina del Área de Estadística y Registros Académicos (AERA) para explicar tu situación y buscar asesoramiento sobre las opciones que podrían estar disponibles para ti.
+            user: Gracias por la información, lo haré.
+            asistente: Estás bienvenido. Si tienes más preguntas o necesitas ayuda en el futuro, no dudes en preguntar. ¡Estoy aquí para ayudarte!

@@ -1,0 +1,64 @@
+[3]
+Conversación 9:
+            user: Hola, quisiera saber hasta cuándo tengo plazo para retirar un curso este semestre.
+            asistente: Hola, el plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico, según el reglamento académico de la Facultad de Ciencias de la UNI.
+            user: ¿Eso aplica para cualquier curso o hay excepciones?
+            asistente: Aplica para cualquier curso, siempre y cuando se realice dentro del plazo establecido. No se mencionan excepciones en el reglamento académico.
+            user: Perfecto, gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 10:
+            user: Buen día, estoy intentando matricularme pero no sé si debo hacerlo en línea o debo ir a algún lugar físicamente.
+            asistente: Buen día, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE. No necesitas ir a ningún lugar físicamente para matricularte.
+            user: ¿Y si tengo problemas con la plataforma, a quién puedo acudir?
+            asistente: Si encuentras problemas con la plataforma, te recomiendo contactar a la Oficina de Registro Central de Estudiantes (ORCE) o al Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para obtener asistencia.
+            user: Entendido, muchas gracias por la ayuda.
+            asistente: No hay de qué. Recuerda que si tienes más preguntas en el futuro, puedes contactarme.
+
+Conversación 11:
+            user: Hola, ¿hasta qué fecha puedo retirar una asignatura sin que afecte mi récord académico?
+            asistente: Hola, puedes retirar una asignatura sin que afecte tu récord académico hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: ¿Eso significa que si hoy es la cuarta semana, todavía tengo tiempo?
+            asistente: Exactamente, aún tienes tiempo hasta el final de la próxima semana para realizar el retiro parcial de la asignatura.
+            user: Genial, gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 12:
+            user: Hola, ¿cómo hago para matricularme en los cursos de este ciclo?
+            asistente: Hola, debes realizar el proceso de matrícula a través del Portal Web del Sistema de Matrícula UNI, proporcionado por la ORCE.
+            user: ¿Y si tengo algún problema técnico con el portal?
+            asistente: En caso de problemas técnicos, deberías contactar con la ORCE o con el Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para obtener ayuda.
+            user: Perfecto, muchas gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 13:
+            user: Hola, ¿puedo retirar un curso después de la quinta semana de clases?
+            asistente: Hola, según el reglamento académico de la Facultad de Ciencias de la UNI, el retiro parcial de asignaturas debe realizarse hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: Entonces, si ya pasó ese plazo, ¿no hay forma de retirar el curso?
+            asistente: Si el plazo ya ha pasado, te recomendaría hablar con la oficina del Área de Estadística y Registros Académicos (AERA) para ver si hay alguna opción disponible en tu caso particular.
+            user: Entiendo, gracias por la orientación.
+            asistente: No hay problema. Si tienes más preguntas o necesitas ayuda en el futuro, no dudes en preguntar.
+
+Conversación 14:
+            user: Hola, ¿el proceso de matrícula para los cursos de la Facultad de Ciencias es presencial o en línea?
+            asistente: Hola, el proceso de matrícula para los cursos de la Facultad de Ciencias se realiza en línea a través del Portal Web del Sistema de Matrícula UNI.
+            user: ¿Qué pasa si no puedo acceder al portal?
+            asistente: Si tienes dificultades para acceder al portal, debes contactar a la ORCE o al Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para que te asistan.
+            user: Muchas gracias por la ayuda.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 15:
+            user: Hola, ¿cuál es el último día para retirar una asignatura este semestre?
+            asistente: Hola, el último día para retirar una asignatura es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: ¿Eso incluye todos los cursos o hay excepciones?
+            asistente: Incluye todos los cursos, siempre que se realice dentro del plazo establecido por el reglamento académico de la Facultad de Ciencias de la UNI.
+            user: Perfecto, gracias por la claridad.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 16:
+            user: Hola, estoy tratando de matricularme pero no sé si debo hacerlo por internet o ir a algún lugar en la universidad.
+            asistente: Hola, el proceso de matrícula se realiza completamente en línea a través del Portal Web del Sistema de Matrícula UNI, no es necesario que vayas a la universidad para matricularte.
+            user: ¿Y si tengo algún inconveniente con el sistema o no entiendo algo del proceso?
+            asistente: Si te encuentras con algún inconveniente o tienes dudas sobre el proceso, puedes contactar a la ORCE o al Área de Estadística y Registros Académicos (AERA) de la Facultad de Ciencias para obtener asistencia.
+            user: Genial, muchas gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.

@@ -1,0 +1,64 @@
+[2]
+Conversación 1:
+user: Hola, ¿hasta cuándo puedo retirar un curso este semestre?
+asistente: Hola, el plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: ¿Eso aplica para cualquier curso o hay excepciones?
+asistente: Aplica para cualquier curso, siempre y cuando se cumpla dentro del plazo establecido por el reglamento académico de la Facultad de Ciencias de la UNI.
+user: Perfecto, gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 2:
+user: Buen día, necesito saber cómo se realiza el proceso de matrícula en la facultad.
+asistente: Buen día, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE.
+user: ¿Y tengo que hacer algo presencialmente o todo es en línea?
+asistente: Todo el proceso se lleva a cabo en línea a través del portal mencionado, de acuerdo con el reglamento de matrícula de la Facultad de Ciencias de la UNI.
+user: Genial, eso facilita las cosas. Gracias.
+asistente: ¡Por supuesto! Si tienes más preguntas o necesitas ayuda con algo más, no dudes en preguntar.
+
+Conversación 3:
+user: Hola, ¿qué tal? Quisiera saber si puedo retirar un par de asignaturas que ya no puedo seguir este ciclo.
+asistente: Hola, claro que sí. Puedes retirar asignaturas hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: ¿Eso significa que si las clases empezaron el 1 de marzo, tengo hasta la primera semana de abril?
+asistente: Exactamente, tendrías hasta el último día útil de esa semana para realizar el retiro parcial de las asignaturas.
+user: Perfecto, muchas gracias por la ayuda.
+asistente: No hay de qué. Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 4:
+user: Hola, tengo una duda sobre la matrícula. ¿Todo el proceso se hace online o necesito ir a algún lugar para confirmar?
+asistente: Hola, el proceso completo de matrícula se realiza en línea a través del Portal Web del Sistema de Matrícula UNI, no es necesario que asistas presencialmente.
+user: ¿Y si tengo problemas con la plataforma, a quién puedo acudir?
+asistente: Si encuentras problemas con la plataforma, deberías contactar con la Oficina de Registro Centralizado de Estudiantes (ORCE) para obtener asistencia.
+user: Entendido, gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 5:
+user: Hola, ¿puedo retirar una asignatura después de la quinta semana de clases?
+asistente: Hola, según el reglamento académico de la Facultad de Ciencias de la UNI, el retiro parcial de asignaturas debe realizarse hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: Entonces, si ya pasó ese plazo, ¿no hay forma de retirarla?
+asistente: Desafortunadamente, una vez pasado ese plazo, no es posible realizar el retiro parcial de asignaturas. Te recomendaría hablar con tu asesor académico para explorar otras opciones.
+user: Vale, lo haré. Gracias por la información.
+asistente: Estoy para ayudarte. Si tienes más preguntas en el futuro, no dudes en contactarme.
+
+Conversación 6:
+user: Hola, ¿cómo puedo saber si mi matrícula ha sido procesada correctamente?
+asistente: Hola, puedes verificar el estado de tu matrícula a través del Portal Web del Sistema de Matrícula UNI. Si todo está en orden, deberías ver tus cursos inscritos correctamente.
+user: ¿Y si hay un error con los cursos que aparecen?
+asistente: En ese caso, deberías ponerte en contacto con la ORCE lo antes posible para resolver cualquier inconveniente con tu matrícula.
+user: Entiendo, muchas gracias por la ayuda.
+asistente: Con gusto. Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 7:
+user: Hola, ¿puedo retirar una asignatura si ya he presentado el primer examen parcial?
+asistente: Hola, puedes retirar asignaturas independientemente de los exámenes parciales, siempre y cuando lo hagas hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+user: ¿Y qué sucede con la nota de ese examen parcial?
+asistente: Una vez que retires la asignatura, no se tomará en cuenta la nota del examen parcial para tu promedio académico.
+user: Genial, eso aclara mis dudas. Muchas gracias.
+asistente: De nada. Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.
+
+Conversación 8:
+user: Hola, ¿qué necesito para matricularme en los cursos de este semestre?
+asistente: Hola, necesitas acceder al Portal Web del Sistema de Matrícula UNI y seguir los pasos indicados para inscribir tus cursos.
+user: ¿Hay algún plazo específico para hacerlo?
+asistente: Sí, el proceso de matrícula tiene un plazo establecido por la universidad. Te recomiendo revisar el calendario académico o consultar con la ORCE para conocer las fechas exactas.
+user: Perfecto, lo revisaré. Gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. Estoy aquí para ayudarte.

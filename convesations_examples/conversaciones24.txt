@@ -1,0 +1,70 @@
+[2]
+Conversación 1:
+user: Hola, estoy un poco preocupado porque he desaprobado un par de cursos más de una vez. ¿Qué significa eso para mi situación académica?
+asistente: Buenas tardes. Según el reglamento de la Facultad de Ciencias de la UNI, si un estudiante ha desaprobado una o más asignaturas en dos o tres oportunidades, se le considera en riesgo académico. Esto implica que debes pasar por un proceso de tutoría académica antes de poder matricularte nuevamente.
+user: Entiendo, ¿y este proceso de tutoría cómo funciona? ¿Debo solicitarlo yo o la facultad me asignará un tutor?
+asistente: El proceso de tutoría académica es un requisito que debes cumplir. Te recomendaría que te acerques a la oficina del Área de Estadística y Registros Académicos (AERA) para que te brinden toda la información necesaria y te guíen en cómo proceder con la asignación de un tutor.
+user: Perfecto, muchas gracias por la información.
+asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 2:
+user: Buen día, quisiera saber si puedo solicitar mi reincorporación a pesar de tener una sanción pendiente.
+asistente: Buenos días. De acuerdo con el reglamento de la Facultad de Ciencias de la UNI, no es posible solicitar la reincorporación si tienes una sanción vigente. Es necesario que primero se resuelva tu situación disciplinaria.
+user: ¿Y hay alguna manera de acelerar el proceso de resolución de la sanción o algo que pueda hacer para reincorporarme más pronto?
+asistente: Te recomendaría que te pongas en contacto con la oficina del Área de Estadística y Registros Académicos (AERA) para obtener asesoramiento sobre tu caso específico y explorar las opciones disponibles según tu situación.
+user: Entendido, gracias por la orientación.
+asistente: No hay problema. Si tienes más preguntas o necesitas ayuda adicional, no dudes en preguntar. ¡Estoy aquí para asistirte!
+
+Conversación 3:
+user: Hola, tengo una consulta. ¿Qué sucede si un estudiante ha reprobado varias veces el mismo curso?
+asistente: Hola, si un estudiante ha desaprobado una o más asignaturas en dos o tres oportunidades, se le considera en riesgo académico. Esto requiere que el estudiante participe en un proceso de tutoría académica antes de su próxima matrícula.
+user: ¿Y cómo me entero si estoy en riesgo académico? ¿Me notificarán o tengo que verificarlo por mi cuenta?
+asistente: Normalmente, deberías recibir una notificación sobre tu situación académica. Sin embargo, es importante que también te mantengas proactivo y consultes con la oficina del Área de Estadística y Registros Académicos (AERA) para confirmar tu estado y conocer los pasos a seguir.
+user: Vale, lo haré. Gracias por la ayuda.
+asistente: Estás bienvenido. Recuerda que si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 4:
+user: Buenas, ¿qué pasa si he desaprobado un curso varias veces? ¿Hay alguna consecuencia?
+asistente: Buenas tardes. Si has desaprobado una o más asignaturas en dos o tres oportunidades, se te clasifica como estudiante en riesgo académico. Esto significa que es obligatorio que participes en un proceso de tutoría académica antes de realizar tu matrícula.
+user: ¿Y qué implica ese proceso de tutoría? ¿Tengo que asistir a clases extra o algo por el estilo?
+asistente: El proceso de tutoría académica está diseñado para apoyarte y ayudarte a mejorar tu rendimiento académico. Para obtener detalles específicos sobre cómo se llevará a cabo, te sugiero que visites la oficina del Área de Estadística y Registros Académicos (AERA) de la facultad.
+user: Genial, gracias por la información. ¿Puedo ir en cualquier momento o hay un horario específico?
+asistente: Te recomiendo que consultes el horario de atención de la oficina del AERA en la página web de la facultad o que te pongas en contacto con ellos directamente para asegurarte de visitarlos en un momento adecuado.
+user: Perfecto, lo haré. Muchas gracias por tu ayuda.
+asistente: Con gusto. Si tienes más preguntas en el futuro, no dudes en volver. ¡Estoy para servirte!
+
+Conversación 5:
+user: Hola, ¿qué significa ser un estudiante en riesgo académico en la Facultad de Ciencias?
+asistente: Hola, ser un estudiante en riesgo académico significa que has desaprobado una o más asignaturas en dos o tres oportunidades. En este caso, es necesario que te sometas a un proceso de tutoría académica antes de proceder con tu matrícula.
+user: ¿Y cómo se organiza la tutoría académica? ¿Debo buscar un tutor por mi cuenta?
+asistente: No necesitas buscar un tutor por tu cuenta. La facultad te proporcionará la información y el apoyo necesario para el proceso de tutoría académica. Te aconsejo que te acerques a la oficina del AERA para obtener más detalles y comenzar con el proceso.
+user: Entiendo, muchas gracias por la aclaración.
+asistente: De nada. Si tienes alguna otra duda o necesitas más información, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 6:
+user: Hola, ¿puedo solicitar reincorporación si aún tengo una sanción pendiente?
+asistente: Hola, de acuerdo con el reglamento de la Facultad de Ciencias de la UNI, no es posible solicitar la reincorporación si tienes una sanción vigente. Primero tendrás que resolver tu situación disciplinaria.
+user: ¿Hay algún procedimiento para apelar la sanción o para que sea levantada antes de tiempo?
+asistente: Para obtener información sobre apelaciones o procedimientos relacionados con sanciones, te recomiendo que te pongas en contacto con la oficina del AERA. Ellos podrán orientarte mejor sobre las opciones que tienes según tu caso particular.
+user: Gracias, lo tendré en cuenta. ¿Dónde puedo encontrar el contacto de la oficina del AERA?
+asistente: Puedes encontrar la información de contacto y el horario de atención de la oficina del AERA en la página web de la Facultad de Ciencias. También podrás encontrar allí otros recursos útiles como manuales y diagramas de procesos de matrícula.
+user: Perfecto, muchas gracias por la ayuda.
+asistente: No hay de qué. Si en el futuro tienes más preguntas o necesitas asistencia, no dudes en contactarme. ¡Estoy aquí para ayudarte!
+
+Conversación 7:
+user: Hola, ¿qué ocurre si he reprobado un curso más de una vez? ¿Hay alguna medida que deba tomar?
+asistente: Hola, si has reprobado una o más asignaturas en dos o tres ocasiones, se te considerará un estudiante en riesgo académico. Esto implica que debes someterte a un proceso de tutoría académica antes de tu próxima matrícula.
+user: ¿Y cómo se lleva a cabo ese proceso de tutoría? ¿Es algo que tengo que organizar yo mismo?
+asistente: No tienes que organizarlo tú mismo. La facultad te proporcionará la orientación necesaria para el proceso de tutoría académica. Te sugiero que te comuniques con la oficina del AERA para obtener más información y comenzar con el proceso.
+user: Gracias por la información. ¿Puedo acudir a la oficina del AERA en cualquier momento?
+asistente: Te recomiendo que verifiques el horario de atención de la oficina del AERA en la página web de la facultad o que te pongas en contacto con ellos para asegurarte de que puedas ser atendido adecuadamente.
+user: Entendido, muchas gracias por tu ayuda.
+asistente: Es un placer ayudarte. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para asistirte!
+
+Conversación 8:
+user: Hola, ¿qué debo hacer si he desaprobado un curso varias veces? ¿Me afecta de alguna manera?
+asistente: Hola, si has desaprobado una o más asignaturas en dos o tres oportunidades, se te clasifica como estudiante en riesgo académico. Es necesario que participes en un proceso de tutoría académica antes de poder matricularte de nuevo.
+user: ¿Y cómo me inscribo en el proceso de tutoría académica? ¿Hay algún formulario o proceso específico?
+asistente: Para inscribirte en el proceso de tutoría académica, debes acudir a la oficina del AERA, donde te proporcionarán toda la información necesaria y te guiarán en los pasos a seguir.
+user: Genial, gracias por la información. ¿Puedo encontrar más detalles en la página web de la facultad?
+asistente: Sí, en la página web de la facultad puedes encontrar información adicional, incluyendo manuales y diagramas de diferentes procesos de matrícula y procedimientos. Si tienes más preguntas, no dudes en preguntar. ¡Estoy aquí para ayudarte!

@@ -1,0 +1,64 @@
+[3]
+Conversación 1:
+            user: Hola, ¿hasta cuándo puedo retirar un curso este semestre?
+            asistente: Hola, el plazo para realizar un retiro parcial de asignaturas es hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: ¿Eso aplica para cualquier curso o hay excepciones?
+            asistente: Aplica para cualquier curso, siempre y cuando se cumpla dentro del plazo establecido por el reglamento académico de la Facultad de Ciencias de la UNI.
+            user: Perfecto, gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 2:
+            user: Buen día, tengo una duda sobre la matrícula, ¿se hace en línea o debo ir a algún lugar en específico?
+            asistente: Buen día, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI, suministrado por la ORCE.
+            user: ¿Y qué necesito para poder matricularme? ¿Hay algún requisito previo?
+            asistente: Debes asegurarte de cumplir con todos los requisitos académicos y administrativos que tu facultad establece. Te recomiendo revisar la información en el portal web y verificar si necesitas completar algún paso adicional antes de la matrícula.
+            user: Entendido, muchas gracias por la ayuda.
+            asistente: No hay de qué. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 3:
+            user: Hola, ¿podrías decirme cuál es el último día para retirar una asignatura este ciclo?
+            asistente: Hola, claro que sí. Puedes retirar una asignatura hasta el último día útil de la quinta semana después del inicio de clases del período académico.
+            user: ¿Eso significa que si las clases empezaron el 1 de marzo, tengo hasta la primera semana de abril?
+            asistente: Exactamente, contarías cinco semanas completas a partir del 1 de marzo y el retiro debería hacerse hasta el último día útil de esa quinta semana.
+            user: Genial, gracias por la aclaración.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 4:
+            user: Hola, ¿cómo está el proceso de matrícula para este semestre? ¿Hay algún cambio?
+            asistente: Hola, el proceso de matrícula se mantiene a través del Portal Web del Sistema de Matrícula UNI. No se han reportado cambios significativos, pero siempre es bueno revisar las últimas actualizaciones en el portal.
+            user: ¿Y si tengo problemas con el portal, a quién puedo contactar?
+            asistente: Si encuentras dificultades, puedes contactar a la ORCE o al soporte técnico del portal. También es útil revisar las preguntas frecuentes o los manuales de usuario disponibles en línea.
+            user: Perfecto, muchas gracias por la información.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 5:
+            user: Hola, ¿hasta qué fecha puedo hacer un retiro parcial de cursos?
+            asistente: Hola, tienes hasta el último día útil de la quinta semana después del inicio de clases para realizar un retiro parcial de asignaturas.
+            user: ¿Eso incluye también los laboratorios o solo las clases teóricas?
+            asistente: Incluye tanto las clases teóricas como los laboratorios, siempre que formen parte de las asignaturas que deseas retirar.
+            user: Entiendo, muchas gracias por la aclaración.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 6:
+            user: Hola, ¿el proceso de matrícula para los cursos de este semestre ya está disponible?
+            asistente: Hola, sí, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI. Deberías poder acceder según el cronograma establecido por la universidad.
+            user: ¿Y si no me matriculo en el plazo establecido?
+            asistente: Es importante que cumplas con los plazos de matrícula para evitar inconvenientes. Si por alguna razón no puedes matricularte a tiempo, te sugiero contactar a la ORCE o al Área de Estadística y Registros Académicos de tu facultad para ver si hay alguna posibilidad de extensión o qué pasos seguir.
+            user: Vale, lo tendré en cuenta. Gracias.
+            asistente: No hay de qué. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+
+Conversación 7:
+            user: Hola, ¿puedo retirar un curso después de la quinta semana de clases?
+            asistente: Hola, el retiro parcial de asignaturas debe realizarse hasta el último día útil de la quinta semana después del inicio de clases. Pasado ese plazo, no se permite el retiro según el reglamento académico.
+            user: ¿Y si tengo una emergencia o situación especial?
+            asistente: En casos excepcionales, te recomendaría hablar con tu coordinador académico o con la oficina del Área de Estadística y Registros Académicos para explicar tu situación y ver si hay alguna consideración especial que se pueda aplicar.
+            user: Gracias, eso haré.
+            asistente: Estoy para ayudarte. Si tienes alguna otra duda, no dudes en preguntar.
+
+Conversación 8:
+            user: Hola, ¿la matrícula para el próximo ciclo ya empezó?
+            asistente: Hola, sí, el proceso de matrícula se realiza a través del Portal Web del Sistema de Matrícula UNI. Deberías revisar el cronograma de matrícula para conocer las fechas exactas.
+            user: ¿Qué pasa si no puedo acceder al portal?
+            asistente: Si tienes problemas para acceder al portal, te recomiendo contactar al soporte técnico o a la ORCE para obtener asistencia. También es útil verificar tu conexión a internet y los requisitos del sistema para el portal.
+            user: Entendido, gracias por la ayuda.
+            asistente: ¡De nada! Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
