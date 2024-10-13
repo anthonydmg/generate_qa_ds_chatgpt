@@ -54,7 +54,7 @@ def get_prompt_2_gen_questions_based_faq(faqs, num_questions = 40):
     print()
     prompt = f"""
 Se te proveerá una lista de preguntas y respuestas frecuentes de la Facultad de Ciencias de Universidad para alumnos de pregrado delimitadas por tres comillas invertidas.
-Utilizando las preguntas y respuestas proporcionadas, genera una lista de 8 preguntas únicas que abarquen. Cada pregunta debe tener una respuesta dentro de la información proporcionada, cumpliendo con los siguientes criterios:s:
+Utilizando las preguntas y respuestas proporcionadas, genera una lista de 8 preguntas únicas que abarquen. Cada pregunta debe tener una respuesta dentro de la información proporcionada, cumpliendo con los siguientes criterios:
 
 Criterio 1. Genera las preguntas de complejidad baja y moderada utilizando una amplia variedad de enfoques en la formulación de las preguntas, como preguntas condicionales, de inferencia, de comparación, de causa y efecto, de definición, etc. 
 Criterio 2. Cada pregunta deber única y poder ser respondida empleando unicamente la información en la respuesta de las pregunta proporcionadas entre tres comillas invertidas. 
@@ -85,16 +85,19 @@ Preguntas y Respuestas:```
 """
     return prompt
 
-def get_prompt_3_gen_questions_based_faq(faqs, num_questions = 40):
+
+# abarquen diferentes niveles de complejidad y 
+
+## colocar aca que eviten falta de especificidad en la pregunta. O evitanto falta de contexto en las preguntas.
+def get_prompt_1_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
-    prompt = f"""
-Se te proveerá una lista de preguntas y respuestas frecuentes sobre temas de interés para alumnos de pregrado de la Facultad de Ciencias de la Universidad Nacional de Ingeniería, delimitadas por tres comillas invertidas.
+    prompt = f"""Se te proveerá una lista de preguntas y respuestas frecuentes sobre temas de interés para alumnos de pregrado de la Facultad de Ciencias de la Universidad Nacional de Ingeniería, delimitadas por tres comillas invertidas.
 Genera 8 preguntas derivadas y únicas que cubran tanto puntos generales o amplios hasta detalles específicos para cada par de pregunta y respuesta dentro de las tres comillas invertidas, cumpliendo con los siguientes criterios:
 
 Criterio 1. Genera la lista de preguntas de modo que aborden tanto aspectos generales o amplios como detalles específicos, asegurándote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuesta de la pregunta entre tres comillas invertidas. 
 Criterio 2. Cada pregunta debe tener una respuesta dentro de la información proporcionada.
-Criterio 3. Las nuevas preguntas generadas deben tener relevancia para un estudiante de la Facultad de Ciencias de la UNI.
+Criterio 3. Las nuevas preguntas generaras deben tener relevancia para un estudiante de la Facultad de Ciencias de la UNI.
 Criterio 4. Presenta las 8 preguntas generadas para cada pregunta original de la siguiente manera:
 
 Pregunta Original 1: [Aqui la pregunta original 1]
@@ -120,18 +123,18 @@ Preguntas y Respuestas:```
 {questions_answer_list}```
 """
     return prompt
-# abarquen diferentes niveles de complejidad y 
 
-## colocar aca que eviten falta de especificidad en la pregunta. O evitanto falta de contexto en las preguntas.
-def get_prompt_1_gen_questions_based_faq(faqs, num_questions = 40):
+
+def get_prompt_3_gen_questions_based_faq(faqs, num_questions = 40):
     questions_answer_list = list_json_to_txt(faqs)
     print()
-    prompt = f"""Se te proveerá una lista de preguntas y respuestas frecuentes sobre temas de interés para alumnos de pregrado de la Facultad de Ciencias de la Universidad Nacional de Ingeniería, delimitadas por tres comillas invertidas.
+    prompt = f"""
+Se te proveerá una lista de preguntas y respuestas frecuentes sobre temas de interés para alumnos de pregrado de la Facultad de Ciencias de la Universidad Nacional de Ingeniería, delimitadas por tres comillas invertidas.
 Genera 8 preguntas derivadas y únicas que cubran tanto puntos generales o amplios hasta detalles específicos para cada par de pregunta y respuesta dentro de las tres comillas invertidas, cumpliendo con los siguientes criterios:
 
 Criterio 1. Genera la lista de preguntas de modo que aborden tanto aspectos generales o amplios como detalles específicos, asegurándote que cada pregunta sea única y pueda ser respondida empleando unicamente la información en las respuesta de la pregunta entre tres comillas invertidas. 
 Criterio 2. Cada pregunta debe tener una respuesta dentro de la información proporcionada.
-Criterio 3. Las nuevas preguntas generaras deben tener relevancia para un estudiante de la Facultad de Ciencias de la UNI.
+Criterio 3. Las nuevas preguntas generadas deben tener relevancia para un estudiante de la Facultad de Ciencias de la UNI.
 Criterio 4. Presenta las 8 preguntas generadas para cada pregunta original de la siguiente manera:
 
 Pregunta Original 1: [Aqui la pregunta original 1]
