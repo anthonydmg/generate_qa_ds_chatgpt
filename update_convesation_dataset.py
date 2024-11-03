@@ -16,7 +16,11 @@ for file_path in files:
         id +=1
         conversational_dataset.append({
             "id": id ,
-            "messages": [{"role": m["role"], "content":m["content"]} for m in conv["messages"]]
+            "messages": [{
+                "role": m["role"], 
+                "recovered_texts": m["recovered_texts"],
+                "content":m["content"]
+                } for m in conv["messages"]]
         })
 
 print(f"Numero de conversaciones finales {len(conversational_dataset)}")

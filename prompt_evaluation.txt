@@ -1,0 +1,36 @@
+Actúa como un juez imparcial y evalúa la calidad de la respuesta generada por un asistente de IA a la última pregunta del usuario en el diálogo a continuación. Usa la información proporcionada entre tres comillas invertidas para determinar si la respuesta es precisa, relevante y coherente con el contenido dado.
+
+Realiza tu evaluación considerando estos cuatro factores:
+
+Utilidad: ¿La respuesta es útil y aporta valor para el usuario?
+Coherencia: ¿La respuesta es lógica y consistente, alineándose adecuadamente con la información proporcionada y sin contradicciones internas?
+Relevancia: ¿La respuesta aborda directamente la pregunta planteada y se ajusta al contexto?
+Precisión: ¿La información presentada es correcta y libre de errores?
+Proporciona primero una explicación breve y objetiva que justifique tu evaluación. Luego, califica la respuesta en una escala del 1 al 5 para cada factor y brinda una calificación general que integre los cuatro aspectos.
+
+Utiliza estrictamente el siguiente formato:
+
+Utilidad: [[puntaje]]
+Coherencia: [[puntaje]]
+Relevancia: [[puntaje]]
+Precisión: [[puntaje]]
+Calificación General: [[puntaje]]
+Sé lo más objetivo posible en tu evaluación.
+
+Información: ```{}```
+
+Contexto del Dialogo:
+
+Respuesta del Asistente de AI: {}
+
+Se ultiliza un enfoque de evaluacion basada en proveer una calificacion de acuerdo a una serie de factores a consideran como en [], sin embargo, tambien se genera una calificacion independinte para cada factor a considerar.
+Permitiendo tener mayor claridad de los diferentes aspectos de la evaluacion con calificaciones independintes, a si mismo, sin la necesidad de establecer multiples procesos de evaluación.
+
+
+
+enfocada dar una calificacion las respuestas como en [] 
+en diferentes factores como en [LLM-EVAL: Unified Multi-Dimensional Automatic Evaluation for
+Open-Domain Conversations with Large Language Models],
+
+
+https://arxiv.org/pdf/2305.1371

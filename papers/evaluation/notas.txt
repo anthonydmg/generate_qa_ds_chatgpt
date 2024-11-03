@@ -28,7 +28,14 @@ Analysis of Automated, Human, and LLM-Based
 Approaches
 
 
+## aqui otra buena referencia para buscar como crear el prompt de generacion:
+https://docs.mistral.ai/guides/evaluation/#llm-based-evaluation
 
 
+## Esta parte que explicar de los evalujadiores del scorring esta bueno para el marco teorico poner sobre los llm como evaluadores:
+LLM-based NLG Evaluation: Current Status and Challenges
 
-
+## Este lista de buena forma la manera de evaluar los chatbots para un caso de uso especifico
+## Esta bueno para el marco teorico
+A Comparison of LLM Fine-tuning Methods and
+Evaluation Metrics with Travel Chatbot Use Case
