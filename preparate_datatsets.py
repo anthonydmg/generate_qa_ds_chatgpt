@@ -9,7 +9,7 @@ def format_conv_to_single_turn(conv_dataset):
         messages = conv["messages"]
         for index, m in enumerate(messages):
             if m["role"] == "user":
-                dialog_context = messages[0:index]
+                dialog_context = [{"role": m["role"], "content": m["content"]} for m in messages[0:index]]
                 retrieved_texts =  m["recovered_texts"]
                 user_message = m["content"]
                 expected_response = messages[index + 1]["content"]
@@ -31,7 +31,7 @@ def format_contextualize_questions(conv_dataset):
         messages = conv["messages"]
         for index, m in enumerate(messages):
             if m["role"] == "user":
-                dialog_context = messages[0:index]
+                dialog_context = [{"role": m["role"], "content": m["content"]} for m in messages[0:index]]
                 user_message = m["content"]
                 need_context =  m["need_context"]
                 #expected_response = messages[index + 1]["content"]
