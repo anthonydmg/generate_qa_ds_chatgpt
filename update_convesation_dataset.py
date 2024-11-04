@@ -27,4 +27,23 @@ for file_path in files:
 
 print(f"Numero de conversaciones finales {len(conversational_dataset)}")
 save_json(path_directory + "/data","conversational_dataset", conversational_dataset)
+
+
+
+from datasets import DatasetDict, Dataset, load_dataset
+from huggingface_hub import login
+
+login(token="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")
+
+# Cargar tu dataset
+dataset = load_dataset("json", data_files= "conversational_faq/data/conversational_dataset.json")
+
+
+# Guardar el dataset en el Hub
+dataset.push_to_hub("anthonymg/aera_conversational_dataset")
     #print(data)
+
+from datasets import DatasetDict, Dataset, load_dataset
+from huggingface_hub import login
+dataset = load_dataset("anthonymg/aera_conversational_dataset")
+print(dataset)
