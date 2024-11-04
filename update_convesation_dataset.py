@@ -19,7 +19,9 @@ for file_path in files:
             "messages": [{
                 "role": m["role"], 
                 "recovered_texts": m["recovered_texts"],
-                "content":m["content"]
+                "content":m["content"],
+                "need_context": m["need_context"] == True,
+                "reformulated_question":  m["content"] if not m["need_context"] and  m["role"] == "user" else m["reformulated_question"]
                 } for m in conv["messages"]]
         })
 

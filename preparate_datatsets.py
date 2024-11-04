@@ -24,6 +24,27 @@ def format_conv_to_single_turn(conv_dataset):
     
     return single_turn_dataset
 
+def format_contextualize_questions(conv_dataset):
+    contextualize_questions_dataset = [] 
+    for conv in conv_dataset:
+        conv_id = conv["id"]
+        messages = conv["messages"]
+        for index, m in enumerate(messages):
+            if m["role"] == "user":
+                dialog_context = messages[0:index]
+                user_message = m["content"]
+                need_context =  m["need_context"]
+                #expected_response = messages[index + 1]["content"]
+                reformulated_question = m["reformulated_question"]
+
+                contextualize_questions_dataset.append({
+                    "conv_id": conv_id,
+                    "dialog_context": dialog_context,
+                    "user_message": user_message,
+                    "expected_reformulated_question": reformulated_question,
+                    "need_context": need_context
+                    })
+    return contextualize_questions_dataset
 
 def prepare_datasets(full_dataset):
     conv_dataset = load_json(full_dataset)
@@ -38,6 +59,8 @@ def prepare_datasets(full_dataset):
         save_json(dir_data, f"{name_set}_conversational_dataset", data)
         single_turn_dataset = format_conv_to_single_turn(data)
         save_json(dir_data, f"{name_set}_single_turn_dataset", single_turn_dataset)
+        contextualize_questions_dataset = format_contextualize_questions(data)
+        save_json(dir_data, f"{name_set}_contextualize_questions_dataset", contextualize_questions_dataset)
 
 if __name__ == "__main__":
     path_dataset_conv = "./conversational_faq/data/conversational_dataset.json"
