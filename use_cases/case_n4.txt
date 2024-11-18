@@ -1,0 +1,4 @@
+Historia: 
+
+User: Hola, solicité vacante para el curso de ALGEBRA LINEAL y aún no tengo respuesta. Con quien puedo cominarme o que puedo hacer?
+Assistant: 
