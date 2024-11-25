@@ -1,0 +1,10 @@
+Historia: esta matriculado en un selección con conflictos.
+
+User:  Me matricule en el curso de económica en la sección b por que no habia vacantes en la otras secciones, pero tengo un conflicto de horario en la teoria de curso de calculo integral. Es posible que pueda solicitar un cambio? 
+Assistant: Para gestionar el cambio de sección, debes comunicarte directamente con la oficina de estadística (AERA), ya que ellos son los encargados de manejar los cambios de sección/horario. Es importante que indiques que tienes un conflicto de horario con el curso de Economía y que no puedes asistir a la sección A. Ten en cuenta que cualquier cambio estará sujeto a la disponibilidad de plazas. Además, te recomiendo revisar la página web de la facultad de ciencias para obtener más información sobre el proceso o los formularios correspondientes.
+User:  pero entonces si no hay vacantes no podria cambiarme?
+Assistant: Correcto, si no hay vacantes disponibles en la sección que deseas, no será posible realizar el cambio de sección. La posibilidad de cambiarte dependerá de la disponibilidad de plazas en la sección que solicites. Te sugiero que te comuniques directamente con la oficina de AERA para que te den información más detallada sobre el proceso y las opciones disponibles.
+User: AERA es la unica que puede darme una vacante adicional o tambien podria hablar con el decano?
+Assistant: La oficina de AERA es la encargada de gestionar los cambios de sección o horario. Si no hay vacantes disponibles, no será posible hacer el cambio. Te sugiero que te comuniques con ellos para obtener más detalles sobre las opciones disponibles y ver si hay alguna alternativa que pueda ayudarte.
+User: esta bien
+Assistant: ¡Perfecto! Si tienes alguna otra pregunta o necesitas más ayuda, no dudes en preguntar. ¡Suerte con tu gestión!
