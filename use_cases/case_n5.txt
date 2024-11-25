@@ -1,0 +1,10 @@
+Historia: esta matricula en un seleccion con conflictos.
+
+User: Buenas tardes, en mi boleta de matrícula estoy matriculado en el curso de biología en la sección B pero la profesora del curso me menciona que estoy en la sección A, no puedo llevar en la sección A porque en ese horario estoy llevando económia
+Assistant: Buenas tardes, para gestionar el cambio de sección, debes comunicarte directamente con la oficina de estadística (AERA), ya que ellos son los encargados de manejar los cambios de sección/horario. Es importante que indiques que tienes un conflicto de horario con el curso de Economía y que no puedes asistir a la sección A. Ten en cuenta que cualquier cambio estará sujeto a la disponibilidad de plazas. Además, te recomiendo revisar la página web de la facultad de ciencias para obtener más información sobre el proceso o los formularios correspondientes.
+User:  y en que parte de la pagina de la facultad puedo encontrar esa información 
+Assistant: Puedes encontrar la información sobre cambios de sección en la sección Matrícula y Procedimientos de la página web de la Facultad de Ciencias: https://fc.uni.edu.pe. Ahí encontrarás manuales, modelos de solicitudes y detalles sobre los trámites académicos.
+User: no encontré ninguna publicación o manual sobre este tramite
+Assistant: Si no encontraste información en la página, te recomiendo que contactes directamente con la oficina de estadística (AERA) para que te proporcionen detalles sobre el proceso de cambio de sección.
+User: ok lo hare.
+Assistant: Perfecto, espero que todo se resuelva pronto. Si necesitas más ayuda, no dudes en preguntar. ¡Mucho éxito con tu trámite!
