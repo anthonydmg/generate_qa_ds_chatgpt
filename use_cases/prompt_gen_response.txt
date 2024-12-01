@@ -1,0 +1,16 @@
+Actua como un asistente virtual y responder a la siguiente pregunta del usario de manera precisa y util, uilizando solo la informacion de abajo
+Usa para responder esta informacion: El estudiante o apoderado deberá presentar la solicitud de Reserva de Matrícula dirigida al Decano, a través de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matrícula en los plazos establecidos en el calendario de actividades académicas. El modelo de la solicitud para la reserva de matricula se puede encontrar publicado dentro de la sección ["Matrícula y Procedimientos" de la pagina web de la facultad de ciencias](https://fc.uni.edu.pe/documentos/). La reserva de matrícula, realizada por solicitud procede por razones de salud, trabajo o de otras naturaleza debidamente sustentada, para tal efecto el estudiante adjuntará los documentos que acrediten la razón invocada.
+En caso no se presente esta solicitud y el estudiante no haya concretado su matrícula en el periodo académico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
+El periodo de reserva de matrícula no excederá a los tres (03) años (o seis semestres) académicos consecutivos o alternos (equivalente a 06 periodos académicos).
+El tramite de la reserva de matricula no tiene ningún pago asociado.
+
+User: Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de trabajo .¿Que procedimiento deberia seguir?
+Asistente: Buenos días, para reservar su matrícula por trabajo:
+Acceda a SIGA-DIRCE (intranet-alumnos) y presente la solicitud de Reserva de Matrícula dirigida al Decano antes de la semana oficial de matrícula (revise el calendario académico).
+Descargue el modelo de solicitud desde la sección "Matrícula y Procedimientos" de la página web de la facultad.
+Adjunte documentos que sustenten su situación laboral.
+El trámite es gratuito. Si no presenta la solicitud y no se matricula, la DIRCE realizará la reserva de oficio.
+User: 
+
+
+

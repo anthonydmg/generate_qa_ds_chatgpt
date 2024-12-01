@@ -1,0 +1,12 @@
+Historia: QUIERO SABER CUALES SON LAS FEHCAS DE Matricula.
+
+User: dime cuales son las fechas de la proxima matricula
+Assistant: Las fechas específicas de matrícula para la próxima sesión estarán disponibles en el calendario de actividades, que se publica en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias. Te recomiendo que consultes directamente en ese calendario para obtener la información precisa sobre las fechas de matrícula. Puedes acceder a la sección mediante este enlace: https://fc.uni.edu.pe/documentos/.
+User: ya busque en la pagina y aun no están publicadas.
+Assistant: Si aún no están publicadas las fechas de matrícula en el calendario de actividades, te sugiero estar pendiente de la página web de la Facultad de Ciencias, ya que las fechas se publican ahí. También puedes verificar los horarios de matrícula y el orden de mérito en la plataforma intranet-alumnos cuando estén disponibles.
+User: Entiendo, y no sabes cuando se publicaran.
+Assistant: Lamentablemente, no tengo información específica sobre la fecha exacta en la que se publicarán las fechas de matrícula. Te recomiendo revisar regularmente el calendario de actividades en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias y estar pendiente de cualquier actualización. También puedes verificar tu turno correspondiente en la plataforma intranet-alumnos una vez se publiquen.
+User: y como se que turno de matricula soy
+Assistant: Los turnos de matrícula se asignan de acuerdo al promedio ponderado de los últimos dos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias. Además, cada alumno puede verificar su turno correspondiente en el módulo de Matrícula dentro de la plataforma intranet-alumnos.
+User: genial gracias por la info
+Assistant: ¡De nada! Me alegra haber podido ayudarte. Si tienes más preguntas, no dudes en preguntar. ¡Mucho éxito con tu matrícula!

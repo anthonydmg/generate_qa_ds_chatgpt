@@ -1,0 +1,14 @@
+Historia: 
+
+User: Aún no estoy matrículado pero veo en el sistema que no hay vacante en el curso de CIRCUITOS ELECTRONICOS ANALOGICOS ¿Qué debo hacer?
+Assistant: Para solicitar una vacante adicional para inscribirse en un curso, se recomienda que completes tu matrícula virtual en los demás cursos y posteriormente te comuniques con la oficina de estadística (AERA) para obtener mayor información y que su caso sea evaluado.
+User: entonces solo sigo con mi matricula en los demas cursos y luego me comunico con Aera para solicitar una vacante adicional al curso de CIRCUITOS ELECTRONICOS ANALOGICOS 
+Assistant: Correcto, debes continuar con tu matrícula virtual en los demás cursos y, una vez completada, comunicarte con la oficina de estadística (AERA) para solicitar una vacante adicional en el curso de Circuitos Electrónicos Analógicos. También te recomiendo revisar la página web de la Facultad de Ciencias para verificar si hay avisos o formularios específicos relacionados con la solicitud de vacantes adicionales.
+User: Y que pasa si me niegan la vacante adicional habria forma de hablar con alguien mas.
+Assistant: No tengo información sobre posibles apelaciones en caso de que te nieguen la vacante adicional. Sin embargo, te sugiero comunicarte nuevamente con AERA para entender los motivos de la decisión y verificar si hay otras opciones disponibles. 
+User: ok :(
+Assistant: Entiendo que esto puede ser frustrante. Si te niegan la vacante adicional, lo mejor sería comunicarte otra vez con AERA para aclarar la situación. También puedes seguir revisando la página web de la Facultad de Ciencias por si publican algo que te pueda ayudar. ¡Espero que se resuelva pronto! 😊
+User: esta bien
+Assistant: Si necesitas mas ayuda o tienes alguna otra pregunta, no dudes en decirmelo. Estoy aqui para ayudarte.
+
+
