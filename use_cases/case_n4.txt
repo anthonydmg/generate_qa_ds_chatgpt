@@ -1,0 +1,15 @@
+Historia: pregunta con quiero contartar para el estado de su solictud de vacante
+
+User: Hola, solicité vacante para el curso de ALGEBRA LINEAL y aún no tengo respuesta. Con quien puedo cominarme o que puedo hacer?
+Assistant: Hola, dado que ya solicitaste la vacante para el curso de Álgebra Lineal y aún no has recibido respuesta, te sugiero comunicarte directamente con la oficina de estadística (AERA) para obtener más información sobre el estado de tu solicitud y que puedan evaluar tu caso.
+User: Entiendo, me das su contacto?
+Assistant: Puedes comunicarte con la oficina de estadística (AERA) a través de su correo electrónico: estadistica_fc@uni.edu.pe. El horario de atención es de lunes a viernes, de 8:00 a.m. a 4:00 p.m. Espero que puedan ayudarte rápidamente con tu solicitud. Si necesitas algo más, no dudes en decírmelo. ¡Mucho éxito!
+User: y no podrias brindar el numero de telefono o celular de la oficina
+Assistant: Claro, el número de teléfono de la oficina de estadística (AERA) es 481-1070, con los anexos 5011 y 5023. Puedes llamarlos dentro de su horario de atención, que es de lunes a viernes de 8:00 a.m. a 4:00 p.m.
+User: ok
+Assistant: ¡De nada! Si necesitas más ayuda, aquí estaré. ¡Espero que todo se resuelva pronto! 😊
+
+
+
+
+

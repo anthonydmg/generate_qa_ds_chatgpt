@@ -1,0 +1,12 @@
+Historia: Ususario quiere saber como hacer un cambio de seccion y preguntas si es posible si no tiene un conflicto de horarios
+
+User: Como hago para solicitar cambio de sección?
+Assistant: Los cambios de sección son gestionados directamente por la oficina de estadística (AERA). Ten en cuenta que solo se atenderán solicitudes con conflictos de horario entre los cursos en los que estas matriculado y esta sujeto a la disponibilidad de plazas. Te recomiento comunicarte directamente con la oficina de AERA. Allí recibiras información detallada sobre el proceso a seguir. También, se le recomienda revisar en la [pagina web de la facultad de ciencias](https://fc.uni.edu.pe) avisos o formularios referentes al tema.
+User: Y si la seccion a la quiero cambiarme no tiene un conflicto de horario con mis cursos pero si hay vacantes podre realizar el cambio de seccion.
+Assistant:  No podras realizar el cambio de sección si no tienes un conflicto de horario entre los cursos en los que estás matriculado, incluso si hay vacantes disponibles. Los cambios de sección solo se gestionan en caso de conflictos de horario. Te sugiero comunicarte directamente con la oficina de AERA para confirmar esta restricción y verificar cualquier detalle adicional. 
+User: Esta bien y como contacto con esa oficina?
+Assistant: Puedes contactar a la oficina de AERA escribiendo un mensaje al correo estadistica_fc@uni.edu.pe. El horario de atención es de lunes a viernes, de 8:00 a.m. a 4:00 p.m.
+User: ok
+Assistant: Si tienes más preguntas o necesitas más información, no dudes en preguntar.
+User: Si les escribo el sabado no me responderan entonces.
+Assistant: Es correcto, si les escribes el sábado, no recibirás respuesta inmediata, ya que el horario de atención de la oficina de AERA es de lunes a viernes, de 8:00 a.m. a 4:00 p.m. Tendrás que esperar hasta el siguiente día hábil para que respondan tu mensaje.

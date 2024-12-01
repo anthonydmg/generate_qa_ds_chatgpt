@@ -1,0 +1,12 @@
+Historia: esta matriculado en un selección con conflictos.
+
+User: dime estoy buscando donde publican el los turnos de matricula, no los encuentro. Me puedes indicar donde los puedo ver.
+Assistant: Los turnos de matrícula se publican en la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias. Además, puedes verificar tu turno correspondiente en el módulo de Matrícula dentro de la plataforma intranet-alumnos.
+User: Y he revisado y todavia no hay nada
+Assistant: Es posible que la lista de turnos aún no haya sido publicada. Te sugiero que sigas revisando la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias, ya que ahí se publica el orden de mérito junto con los turnos. También puedes estar atento a cualquier actualización en el módulo de Matrícula en la plataforma intranet-alumnos.
+User: Y con quien me puedo comunicar para saber cuando se publicaran, me urge saber a que hora me tocara.
+Assistant: Te sugiero que contactes directamente a la oficina de estadística de la Facultad de Ciencias para obtener mas detalles sobre cuando se publicara la lista de los turnos de matrícula. Su correo es estadistica_fc@uni.edu.pe. Si necesitas mas ayuda, no dudes en preguntar.
+User: ok y hoy sabado atienden?
+Assistant: La oficina de estadística (AERA) atiende de lunes a viernes de 8:00 a.m. a 4:00 p.m., por lo que no está abierta hoy sábado. Te sugiero que te pongas en contacto con ellos el lunes durante su horario de atención.
+User: Esta bien esperare al lunes.
+Assistant: Perfecto, el lunes podrás contactarlos dentro de su horario de atención. Si tienes alguna otra duda, no dudes en preguntar.

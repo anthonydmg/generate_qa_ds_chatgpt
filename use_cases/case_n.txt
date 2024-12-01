@@ -1,0 +1,20 @@
+Historia: Un estudiante le aparece que el proceso de matricula ya termino, el bot suguiete que gestione su matricula rezagada y entonces pregunta por los tiempo de demora en habilitar la matricula y el proceso de generacion de orden de pago
+
+User: Buenas noches, tengo problema para ingresar al sistema, me aparece "EL PROCESO DE MATRÍCULA HA CULMINADO",
+Assistant: Si no lograste inscribirte en tus cursos a tiempo a través del Módulo de Matrícula UNI en la plataforma Intranet-Alumnos, según los plazos establecidos en el calendario académico, y el sistema indica que el proceso de matrícula ha finalizado, deberás gestionar tu matrícula rezagada.
+La matricula 
+User: Como tramito mi matricula rezagada?
+Assistant: Para realizar la matricula rezagada realiza los siguientes pasos:
+1. Efectuar el pago de 26 soles. Para ello, debera genera una order de pago a traves del Portal INTRALU.
+2. Subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento "MATRÍCULA REZAGADA" publicado dentro de la sección de [MATRÍCULA Y PROCEDIMIENTOS de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
+3. Luego, espera a que el personal de la oficina de Estadística, dentro de las fechas establecidas para la matrícula rezagada, proceda a habilitar el acceso a la plataforma de intranet para que estudiante puedas matricularse directamente.
+User: Y cuanto demoran en habilitar la matricula en el intranet luego de enviar el comprabante.
+Assistant: Lamentablemente, no dispongo de información específica sobre el tiempo que suele tomar habilitar la matrícula después de enviar el comprobante de pago correspondiente. Te recomendaría ponerte en contacto directamente con AERA, ya que podrán brindarte una orientación más precisa y detallada sobre el proceso.
+User: entiendo, y me podrias brindar mas detalles de como generar la orden de pago.
+Assistant: Para generar una orden, sigue los siguientes pasos:
+    1. Acceder a la plataforma de intranet-alumnos.
+    2. Dentro de la plataforma, selecciona la opción "Trámites y Pagos" para acceder al módulo de pagos del Portal INTRALU.
+    3. En el módulo de pagos, selecciona el trámite correspondiente en el menú desplegable. Después, haz clic en el botón "Nuevo" y siga las indicaciones hasta generar la orden de pago correspondiente.
+Para obtener más detalles sobre el proceso para generar una orden de pago a traves de la plataforma, consulta el Manual de Pagos publicado dentro de la sección de "MATRÍCULA Y PROCEDIMIENTOS" en la Página Web de la Facultad de Ciencias, puede ingresar a dicha sección a traves del enlace: https://fc.uni.edu.pe/documentos/
+User: muy util, gracias
+Assistant: ¡De nada! Me alegra haber podido ayudarte. Si tienes más preguntas o necesitas más información, no dudes en preguntar. ¡Éxito con tu matrícula!
