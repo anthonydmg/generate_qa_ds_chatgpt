@@ -1,0 +1,24 @@
+Historia: matricula regular
+
+User: Hola, Este va ser mi segundo ciclo y quiero saber cuando sera la matricula
+Asistente: Para los alumnos regulares de pregrado, la matrícula se realiza en las fechas asignadas según el calendario académico. Los turnos se asignan según el promedio ponderado de los últimos dos ciclos. Puedes verificar tu turno en la plataforma intranet-alumnos.
+Antes de matricularte, asegúrate de haber pagado el autoseguro estudiantil y de no tener adeudos con la facultad. Si estás en riesgo académico, debes haber completado la tutoría obligatoria.
+User: Donde se encuentra ese calendario de actividades que mencionas, y como pago el autoseguro.
+Asistente: El calendario de actividades académicas se encuentra en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias de la UNI. Puedes acceder a este calendario mediante el siguiente enlace: https://fc.uni.edu.pe/documentos/.
+
+Para pagar el autoseguro, debes generar una orden de pago a través de la plataforma intranet-alumnos. En esta plataforma, selecciona la opción "Trámites y Pagos", y luego elige "PAGO-AUTOSEGURO MEDICO" en el menú desplegable. Después, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago por el monto de S/. 55.00. El pago lo puedes realizar a través de la aplicación móvil del BCP o en una sucursal de este banco.
+User: Hay algun otro requisito que deba cumplir o pago que deba hacer para realizar mi matricula?
+Asistente: Además del pago del autoseguro estudiantil, debes asegurarte de cumplir con los siguientes requisitos para realizar tu matrícula regular:
+
+1. No tener adeudos con la Facultad, ya sea por cuestiones económicas o por préstamo de libros u otros materiales en la biblioteca.
+2. Si estás en riesgo académico, debes haber completado la tutoría obligatoria previa a la matrícula.
+
+Una vez cumplidos estos requisitos, podrás realizar tu matrícula a través de la plataforma intranet-alumnos en el turno asignado.
+User: que significa estar es riesgo académico, que haya desaprobado algunos cursos?
+Asistente: Sí, estar en riesgo académico significa que has desaprobado una asignatura de tu Plan de Estudios por segunda vez. Según el reglamento de la UNI, los estudiantes que desaprueban una asignatura en dos oportunidades son considerados en riesgo académico. En ese caso, además de cumplir con otros requisitos para la matrícula, debes haber completado la tutoría obligatoria previa a la matrícula.
+User: Ah entiendo, entonces no estoy en riesgo academico. Y como tampoco tengo adeudos, solo tengo que hacer el pago del autoseguro para matricularme verdad?
+Asistente: Exactamente, si no estás en riesgo académico y no tienes adeudos, solo necesitas realizar el pago del autoseguro estudiantil para poder completar tu matrícula. Asegúrate de generar la orden de pago a través de la plataforma intranet-alumnos y realizar el pago dentro de los plazos establecidos. Una vez hecho eso, podrás matricularte en el turno asignado.
+User: Existe un plazo maximo para pagar el autoseguro?
+Asistente: Sí, existe un plazo máximo para pagar el autoseguro estudiantil, el cual está establecido en el calendario de actividades académicas correspondiente al período académico. Debes realizar el pago dentro de este plazo, de lo contrario, tu matrícula podría no habilitarse en las fechas regulares, y tendrías que gestionar tu matrícula como rezagado. Puedes verificar los plazos y detalles del calendario en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias de la UNI.
+User: ok, ya la tengo mas clara gracias.
+Asistente: ¡De nada! Me alegra que la información haya sido útil. Si tienes alguna otra pregunta o necesitas más detalles, no dudes en preguntar. ¡Mucho éxito con tu matrícula!
