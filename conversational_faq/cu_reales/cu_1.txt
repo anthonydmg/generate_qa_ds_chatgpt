@@ -1,0 +1,7 @@
+Historia:
+Un alumno que no pago con anticipacion su autoseguro, esta preocupado por si podra realizar su matricula de manera regular o debera pasar a una matricula rezagada.
+Ademas desea solicitar alguna medida que puede tomar excepcionalmente para por registrase regularme, consultado si puede hablar con el director el decano
+
+Conversacion:
+Usuario: Recien he pagado el autoseguro hoy y manana ya es la matricula, tengo la duda si me podre matricular de manera regular o ya no seria posible?
+Asistente: Si no has realizado el pago de aseguro con 72 horas de anticipacion, es probable que no puedas realizar tu matricula de manera regular y debas gestionar tu matricula de manera rezagada.
