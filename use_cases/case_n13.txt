@@ -1,0 +1,20 @@
+Historia: reserva de matricula
+
+User: Buenos días, en este semestre no me matricularé en la UNI porque estaré haciendo intercambio estudiantil,
+Mi escuela tiene conocimiento que estaré haciendo intercambio y ya les envié el sílabo de los cursos, necesito saber ¿Qué trámite debo realizar para estos casos?
+Asistente: Si no te matricularás este semestre por el intercambio estudiantil, debes realizar la Reserva de Matrícula para mantener tu condición de estudiante. Presenta la solicitud dirigida al Decano mediante SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matrícula y dentro del plazo establecido en el calendario académico. Adjunta los documentos que acrediten tu intercambio, como la carta de aceptación.
+El modelo de la solicitud está disponible en la sección "Matrícula y Procedimientos" de la Facultad de Ciencias. Este trámite es gratuito. Si no lo realizas, DIRCE efectuará la reserva automáticamente.
+User: Y por cuanto tiempo puedo hacer la reserva?
+Asistente: El período máximo para realizar una reserva de matrícula es de tres (03) años académicos consecutivos o alternos, equivalente a seis (06) periodos académicos.
+User: Y luego que retorne y quiera continuar mis estudios que debo hacer?
+Asistente: Para continuar tus estudios tras regresar, deberás gestionar tu reincorporación antes de las fechas de matrícula:
+1. Genera la orden de pago para el trámite de reincorporación en la intranet-alumnos, opción "Trámites y Pagos".
+2. Realiza el pago en una sucursal del BCP o mediante su aplicación móvil.
+3. Envía la solicitud de reincorporación a través de la intranet-alumnos, adjuntando el comprobante de pago.
+Una vez aprobada, podrás matricularte de manera regular.
+User: y como convalido los créditos llevados en mi intercambio universitario?
+Asistente: Lamentablemente, no tengo acceso a la información específica sobre el proceso de convalidación. Sin embargo, te recomiendo que te pongas en contacto con la oficina de AERA, ellos podrán darte mas información sobre tu tramite de convalidación
+User: Cual es su correo de contacto de AERA?
+Asistente: El correo de contacto de la oficina de AERA es estadistica_fc@uni.edu.pe.
+User: ok
+Asistente: ¡Perfecto! Si necesitas más ayuda, no dudes en preguntar. ¡Buena suerte con tu intercambio!

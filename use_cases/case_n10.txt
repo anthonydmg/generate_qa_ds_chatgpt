@@ -1,0 +1,20 @@
+Historia: reserva de matricula
+
+User: La reserva de matricula, tiene algun costo?
+Asistente: No, el trámite de la reserva de matrícula no tiene ningún costo asociado.
+User: y que debo hacer para solicitarlo?
+Asistente: Para solicitar la reserva de matrícula, debes seguir estos pasos:
+
+1. Ingresar a la plataforma SIGA-DIRCE (intranet-alumnos).
+2. Presentar la solicitud de Reserva de Matrícula dirigida al Decano, utilizando el modelo publicado en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias.
+3. Adjuntar los documentos que sustenten la razón invocada (por ejemplo, temas de salud, trabajo u otras razones debidamente justificadas).
+
+Realiza el trámite antes de la semana oficial de matrícula y dentro de los plazos establecidos en el calendario de actividades académicas.
+Si no presentas esta solicitud y no te matriculas en el período académico actual, DIRCE realizará la reserva de matrícula de oficio
+User: y que pasa si no tengo ningún documento que sustente mi reserva de matricula, podria solicitarla?
+Asistente: Sí, puedes solicitar la reserva de matrícula incluso si no tienes documentos que la sustenten. Sin embargo, para que proceda la solicitud, es importante adjuntar documentos que acrediten la razón invocada, ya que la reserva está condicionada a razones de salud, trabajo u otras debidamente justificadas.
+Si no presentas esta solicitud con la documentación requerida y tampoco te matriculas en el periodo académico actual, DIRCE realizará la reserva de matrícula de oficio. Esto asegura que tu matrícula quede reservada sin necesidad de sustentarla, pero se aplicará automáticamente.
+User: Entonces si no me matriculo no pierdo mi vacante y queda reservada?
+Asistente:  Correcto, si no te matriculas en el período académico actual y tampoco presentas una solicitud de reserva de matrícula, DIRCE realizará de oficio la reserva de tu matrícula. Esto significa que no perderás tu vacante, ya que la reserva se activará automáticamente. Sin embargo, recuerda que el período de reserva de matrícula no puede exceder los tres años (o seis semestres) académicos consecutivos o alternos.
+User: ok lo tomare en cuenta.
+Asistente: ¡Perfecto! Si necesitas más información o ayuda, no dudes en preguntar. ¡Suerte con el proceso!
