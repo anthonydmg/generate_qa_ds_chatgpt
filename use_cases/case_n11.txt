@@ -1,0 +1,20 @@
+Historia: reserva de matricula
+
+User: Buen día, el ciclo pasado no me pude matricular ni hice el trámite de reserva de matrícula, les escribo porque necesito saber ¿Cuál es el procedimiento para solicitar reserva de matrícula? porque tampoco podré matrícularme en este período por problemas de salud.
+Asistente: Buen día, para solicitar la reserva de matrícula, debes presentar una solicitud dirigida al Decano a través de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matrícula, dentro de los plazos establecidos en el calendario de actividades académicas. El modelo de la solicitud está disponible en la sección "Matrícula y Procedimientos" en la página web de la Facultad de Ciencias.
+
+Dado que mencionas que no podrás matricularte por razones de salud, deberás adjuntar los documentos que acrediten tu situación. En caso de no presentar esta solicitud, DIRCE realizará la reserva de matrícula de oficio. Ten en cuenta que la reserva de matrícula no excederá (03) años (o seis semestres) académicos consecutivos o alternos. Además, este trámite no tiene costo asociado.
+User: Entonces ya que seria esta la segunda vez que no me matriculo, solo podria solicitar la reserva de matricula por 2 años y un semestre mas?
+Asistente: Correcto, dado que ya es la segunda vez que no te matriculas, podrías solicitar la reserva de matrícula por un máximo de 2 años y un semestre más, es decir, hasta un total de 3 años (o seis semestres académicos consecutivos o alternos). Recuerda que debes presentar la solicitud antes de la semana oficial de matrícula y adjuntar los documentos que acrediten tus problemas de salud.
+User: Y que tengo que hacer cuando quiera reintegrarme a estudiar?
+Asistente: Cuando quieras reintegrarte a estudiar, deberás realizar la reincorporación antes de las fechas de matrícula, dentro del plazo establecido en el calendario académico. El procedimiento es el siguiente:
+
+Accede a la plataforma intranet-alumnos con tu código UNI y clave.
+En "Trámites y Pagos", genera una orden de pago para la reincorporación.
+Realiza el pago en el BCP o utilizando su aplicación móvil.
+Envía la solicitud de reincorporación junto con el comprobante de pago a través de la plataforma intranet-alumnos, en la opción "Reincorporación de Estudiantes" en "Mis Trámites".
+Una vez aprobada la reincorporación, podrás matricularte de manera regular.
+User: y sabes cuento es el costo?
+Asistente: Lamentablemente no tengo acceso al monto exacto de la reincorporación. Te sugiero que accedas a la plataforma SIGA-DIRCE, donde podrás generar la orden de pago y conocer el costo específico.
+User: ok lo hare.
+Asistente: ¡Perfecto! Si necesitas más ayuda en el futuro, no dudes en preguntar. ¡Éxito con tu trámite de reincorporación!

@@ -1,0 +1,11 @@
+Entonces si podría solicitar mi reserva de matricula por motivos de trabajo.
+y que otros motivos son validos para solicitar la reserva, podria ser un viaje al extranjero?.
+
+textos:
+Procedimiento de Reserva de Matrícula
+Art. 71° El estudiante o apoderado deberá presentar la solicitud de Reserva de Matrícula al
+Decano, a través de la plataforma SIGA-ORCE, a más tardar cinco (5) días hábiles
+antes de la semana oficial de matrícula. La reserva de matrícula, realizada por
+solicitud procede por razones de salud, trabajo o de otras naturaleza debidamente
+sustentada, para tal efecto el estudiante adjuntará los documentos que acrediten la
+razón invocada.

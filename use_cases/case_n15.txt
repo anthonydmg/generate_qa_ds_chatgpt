@@ -1,0 +1,19 @@
+Historia: matricula regular
+
+User: tengo una duda podria pagar el autoseguro hasta el dia anterior al inicio de la fechas de matricula.
+Asistente: No, el pago del autoseguro debe realizarse dentro del plazo máximo establecido en el calendario de actividades académicas, antes de las fechas de matrícula. Si el pago no se realiza a tiempo, es probable que la matrícula no se pueda realizar de manera regular, y deberá gestionarse como matrícula rezagada. Es importante verificar las fechas de matrícula en el calendario y realizar el pago antes de esas fechas.
+User: Creo que me ire a rezagado entonces, dime como se tramita eso.
+Asistente: Para tramitar la matrícula rezagada, sigue estos pasos:
+1. Genera la orden de pago: Ingresa a la plataforma Intranet-Alumnos, selecciona "Trámites y Pagos" y genera la orden de pago por S/. 26.00 para matrícula rezagada.
+
+2. Realiza el pago: Paga en el BCP o mediante la aplicación móvil.
+
+3. Sube el comprobante de pago: Una vez realizado el pago, sube el comprobante de pago en el formulario que se encuentra en el documento "MATRÍCULA REZAGADA". Este formulario está disponible en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias.
+
+4. Espera la habilitación del acceso: Luego de subir el comprobante, la oficina de Estadística habilitará el acceso en las fechas establecidas en el calendario de actividades académicas para que puedas matricularte en los cursos disponibles.
+User: Puedes enviarme el link de la seccion de matricula y procedimientos de pagina de la facultad.
+Asistente:  Claro, aquí tienes el enlace a la sección de "Matrícula y Procedimientos" de la página de la Facultad de Ciencias de la UNI: https://fc.uni.edu.pe/documentos/
+User: Hay alguna manual donde puede encontrar mas información de como generar la orden de pago.
+Asistente: Sí, puedes encontrar más detalles sobre cómo generar la orden de pago en el manual de pagos publicado en la página web de la Facultad de Ciencias. Puedes acceder a la web a través del siguiente enlace: [Facultad de Ciencias de la UNI](https://fc.uni.edu.pe/documentos/).
+User: okas
+Asistente: ¡Perfecto! Si tienes alguna otra duda o necesitas más información, no dudes en preguntar. ¡Estoy aquí para ayudarte!
