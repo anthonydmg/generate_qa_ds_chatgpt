@@ -195,10 +195,8 @@ class AIAssistant:
         self.contextualizer = Contextualizer(model_name = contextualization_model)
         self.answer_generator = AnswerGenerator()
         self.history = []
-        #self.embedding_model = embedding_model
-        #self.model = model
-        #self.contextualization_model = contextualization_model
-        #self.model_emb = None
+        self.recovered_texts = []
+        self.reformulated_messages = []
     
     def contar_tokens_history(self, historial):
         total_tokens = 0
@@ -216,6 +214,8 @@ class AIAssistant:
     
     def reset_context(self):
         self.history = []
+        self.recovered_texts = []
+        self.reformulated_messages = []
 
     def format_text_history_chat(self, history_chat):
         text = ""
@@ -227,126 +227,57 @@ class AIAssistant:
         reformulated_query = self.contextualizer.generate(query, history_chat_messages)
         return reformulated_query
 
-    def generate_response(self, message, use_kb = True):
-        if use_kb == True:
-            #query = self.messages[-1]["content"] + "\n" + message if len(self.messages) > 1 else message
-            query = message
-            reformulated_query = self.get_reformulated_contextual_query(query = query, history_chat_messages = self.history)
+    def generate_response(self, message):
+        query = message
+        reformulated_query = self.get_reformulated_contextual_query(query = query, history_chat_messages = self.history)
 
-            info_texs, relatednesses = self.retriever.get_best_texts_by_relatedness(reformulated_query)
-            
-            print("\nrelatednesses:", relatednesses)
-
-            ## Filter low relatednesess
-            cut_idx = len(relatednesses)
-            for i in range(len(relatednesses)):
-                if relatednesses[i] < 0.40:
-                    cut_idx = i
-                    print(f"\nSimilarity lower than threshold {relatednesses[i]}, idx {cut_idx}")
-                    break
-
-            info_texs = info_texs[:cut_idx]
-            relatednesses = relatednesses[:cut_idx]
-
-            
-            num_tokens_context_dialog =  self.contar_tokens_history(self.history)
-            print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
-            max_tokens_response = 850
-
-            general_contact_information = read_fragment_doc("./documentos/informacion_general_contacto.txt")
-            #general_information_fc = read_fragment_doc("./documentos/otros/informacion_general_fc.txt")
-            #general_information = general_information_aera + "\n" + general_information_fc
-            num_tokens_general_context = count_num_tokens(general_contact_information)
-
-            token_budget = min(2200, 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
-
-            #print("\nnum_tokens_general_context:", num_tokens_general_context)
-
-            prompt_response_to_query = self.get_prompt_response_to_query(
-                message, 
-                info_texs, 
-                token_budget = token_budget,
-                additional_info = general_contact_information #general_information
-                )
-            
-
-            num_tokens_prompt_asistant = count_num_tokens(prompt_response_to_query)
-            print("\nnum_tokens_prompt_asistant:", num_tokens_prompt_asistant)
-
-            print("\nnum_tokens_prompt_plus_history_chat_assitant:",  num_tokens_prompt_asistant + num_tokens_context_dialog)
-
-
-            response_ai_assistant = get_completion_from_messages(
-            messages= self.messages + [{"role": "user", "content": prompt_response_to_query}],
-            model = self.model
-            )
-
-            response_ai_assistant = response_ai_assistant.replace("```","").strip()
-
-            if self.contains_bad_keywords(response_ai_assistant):
-                print("Refinando la respuesta")
-                print()
-                print("Original response AI:", response_ai_assistant)
-                response_ai_assistant = self.get_rifined_answer(response_ai_assistant)
-                print("\nRefined response AI:", response_ai_assistant)
-                
-
-            self.messages.append({"role": "user", "content": message})
-            self.reformulated_question.append(query)
-            self.contains_questions.append(contains_questions)
-
-        else:
-            self.messages.append({"role": "user", "content": message})
-            response_ai_assistant = get_completion_from_messages(
-            messages= self.messages,
-            model = self.model)
-            self.contexts.append(None)
-            self.recovered_texts.append(None)
-            self.reformulated_question.append(message)
-            self.contains_questions.append(False)
-            self.need_context.append(None)
-            self.analysis_need_context.append(None)
-            
-        print()
+        info_texs, relatednesses = self.retriever.get_best_texts_by_relatedness(reformulated_query)
         
-        self.messages.append({"role": "assistant", "content": response_ai_assistant})
-        self.contexts.append(None)
+        print("\nrelatednesses:", relatednesses)
+        self.recovered_texts.append([{"text": text, "relatedness": relatedness } for text , relatedness in zip(info_texs, relatednesses)])
+
+        ## Filter low relatednesess
+        cut_idx = len(relatednesses)
+        for i in range(len(relatednesses)):
+            if relatednesses[i] < 0.40:
+                cut_idx = i
+                print(f"\nSimilarity lower than threshold {relatednesses[i]}, idx {cut_idx}")
+                break
+
+        info_texs = info_texs[:cut_idx]
+        relatednesses = relatednesses[:cut_idx]
+
+        num_tokens_context_dialog =  self.contar_tokens_history(self.history)
+        print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
+        max_tokens_response = 850
+
+        general_contact_information = read_fragment_doc("./documentos/informacion_general_contacto.txt")
+        
+        response_ai_assistant = self.answer_generator.generate(query=query, dialog_context = self.history, retrieved_texts= info_texs + [general_contact_information])
+
+        response_ai_assistant = response_ai_assistant.replace("```","").strip()
+
+        self.history.append({"role": "user", "content": message})
+        self.reformulated_messages.append(reformulated_query)
+        self.history.append({"role": "assistant", "content": response_ai_assistant})
+        self.reformulated_messages.append(None)
         self.recovered_texts.append(None)
-        self.reformulated_question.append(None)
-        self.contains_questions.append(None)
-        self.need_context.append(None)
-        self.analysis_need_context.append(None)
-        
+
         return response_ai_assistant
     
     def get_history_dialog(self, include_context = True):
         if include_context:
             history_dialog = []
-            dialog_data = zip(self.messages[1:], self.contexts[1:], 
-                              self.recovered_texts[1:], self.contains_questions [1:], 
-                              self.reformulated_question[1:],
-                              self.need_context[1:], self.analysis_need_context[1:])
+            dialog_data = zip(self.history, self.recovered_texts, self.reformulated_messages)
             
-            print("messages:", len(self.messages[1:]))
-            print("contexts:", len(self.contexts[1:]))
-            print("recovered_texts:", len(self.recovered_texts[1:]))
-            print("contains_questions:", len(self.contains_questions[1:]))
-            print("reformulated_question:", len(self.reformulated_question[1:]))
-            print("need_context:", len(self.need_context[1:]))
-            print("analysis_need_context:", len(self.analysis_need_context[1:]))
-
-            for message, context, texts, contains_questions, reformulated_question, need_context, analysis_need_context in dialog_data:
+            for message, texts, reformulated_question in dialog_data:
                 history_dialog.append({
                     "role": message["role"],
                     "content": message["content"],
-                    "context": context,
                     "recovered_texts": texts,
-                    "contains_questions": contains_questions,
                     "reformulated_question": reformulated_question,
-                    "need_context": need_context,
-                    "analysis_need_context": analysis_need_context
                 })
                 
             return history_dialog
         else:
-            return self.messages[1:]
+            return self.history
