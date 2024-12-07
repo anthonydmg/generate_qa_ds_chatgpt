@@ -179,8 +179,6 @@ Eres Aerito un asistente de AI especializado en temas de matricula, procedimient
 class AIAssistant:
     def __init__(
             self, 
-            model = "gpt-3.5-turbo-0613",
-
             path_df_kb = "./kb/topics.csv",
             contextualization_model = "anthonymg/FineContextualizeLlama-3.2-1B",
            ):
@@ -281,3 +279,9 @@ class AIAssistant:
             return history_dialog
         else:
             return self.history
+        
+if __name__ == "__main__":
+    assistant = AIAssistant()
+    query = "hola"
+    ai_response = assistant.answer_generator(query)
+    print(ai_response)
