@@ -1,14 +1,14 @@
 Historia: turnos  de matricula regular
 
 User: Que tal, quiero que me digas a que hora y que dia me toca la matricula
-Asistente: Para conocer la fecha y turno de tu matrícula, debes consultar la lista de turnos publicada en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias. La lista incluye el orden de mérito, que se asigna según el promedio ponderado de los últimos dos ciclos. Los estudiantes con los promedios más altos reciben los primeros turnos. Puedes acceder a la lista y a más detalles en este enlace: https://fc.uni.edu.pe/documentos/. Además, también puedes verificar tu turno específico en el módulo de Matrícula dentro de la plataforma intranet-alumnos.
+Assistant: Para conocer la fecha y turno de tu matrícula, debes consultar la lista de turnos publicada en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias. La lista incluye el orden de mérito, que se asigna según el promedio ponderado de los últimos dos ciclos. Los estudiantes con los promedios más altos reciben los primeros turnos. Puedes acceder a la lista y a más detalles en este enlace: https://fc.uni.edu.pe/documentos/. Además, también puedes verificar tu turno específico en el módulo de Matrícula dentro de la plataforma intranet-alumnos.
 User: y que pasa si se paso y no me pude matricular en mi turno
-Asistente: Si no te pudiste matricular en tu turno, deberás gestionar tu matrícula rezagada. Para ello:
+Assistant: Si no te pudiste matricular en tu turno, deberás gestionar tu matrícula rezagada. Para ello:
 1. Genera una orden de pago de S/. 26.00 en el Portal INTRALU.
 2. Realiza el pago y sube el comprobante en el formulario disponible en la sección "MATRÍCULA REZAGADA" de la página web de la Facultad.
 3. Espera que la oficina de Estadística habilite el acceso para realizar la matrícula.
 La matrícula rezagada solo se puede hacer dentro de las fechas establecidas. Consulta las fechas aquí: https://fc.uni.edu.pe/documentos/.
 User: Entiendo tendre cuiado que no se pase mi turno. 
-Asistente: ¡Exactamente! Es importante estar atento a las fechas para evitar perder tu turno. Si necesitas ayuda en cualquier momento con el proceso de matrícula o si tienes alguna otra pregunta, no dudes en escribirme.
+Assistant: ¡Exactamente! Es importante estar atento a las fechas para evitar perder tu turno. Si necesitas ayuda en cualquier momento con el proceso de matrícula o si tienes alguna otra pregunta, no dudes en escribirme.
 User: por ahora eso es todo
-Asistente: ¡Perfecto! Si necesitas más ayuda en el futuro, no dudes en contactarme. ¡Mucho éxito con tu matrícula!
+Assistant: ¡Perfecto! Si necesitas más ayuda en el futuro, no dudes en contactarme. ¡Mucho éxito con tu matrícula!

@@ -1,0 +1,12 @@
+Historia: 
+
+User: Hola, no pude entrar en mi horario de matrícula, que puedo hacer
+Assistant: Si no pudiste inscribirte en tus cursos en el horario asignado para la matrícula regular, aún puedes gestionar tu matrícula rezagada. Debes seguir el procedimiento correspondiente, que incluye realizar un pago de 26 soles, generar la orden de pago a través del Portal INTRALU, y luego subir el comprobante de pago en el formulario indicado en la sección "MATRÍCULA REZAGADA" de la página web de la Facultad de Ciencias. Posteriormente, espera que el personal de la oficina de Estadística habilite el acceso para que puedas realizar tu matrícula. Recuerda que este proceso solo es válido dentro de las fechas establecidas para la matrícula rezagada.
+User: y cuales son las fechas para la mataricula rezagada?
+Assistant: Las fechas para la matrícula rezagada se encuentran en el calendario académico, publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias. Puedes consultar este calendario para obtener las fechas exactas.
+User: y hay algun orden o turno especifico para la matricula rezagada?
+Assistant: No hay un turno o orden específico para la matrícula rezagada. Esta se realiza en función a las vacantes disponibles. Sin embargo, debes asegurarte de completar el procedimiento dentro de las fechas establecidas para la matrícula rezagada, que están publicadas en el calendario académico de la Facultad de Ciencias.
+User: entiendo
+Assistant: Me alegra que haya quedado claro. Si tienes alguna otra duda, no dudes en preguntar. ¡Estoy aquí para ayudarte!
+User: eso es todo
+Assistant: ¡Perfecto! Si necesitas más ayuda en el futuro, no dudes en contactarme. ¡Te deseo mucho éxito con tu matrícula!

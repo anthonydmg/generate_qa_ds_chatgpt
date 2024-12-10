@@ -1,0 +1,22 @@
+Historia: 
+
+User: ya falta poco para que empieze el proximo ciclo, pero no estoy seguro si que ya se puede o deberia pagar el autoseguro en estos dias
+Assistant: El pago del autoseguro estudiantil debe realizarse antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas. Si no cumples con este plazo, no podrás realizar la matrícula regular y tendrás que gestionarla como matrícula rezagada. La fecha límite para el pago se encuentra especificada en el calendario de actividades académicas, que puedes consultar en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias: https://fc.uni.edu.pe/documentos/.
+User: y dime el monto es el mismo?
+Assistant: Si, el monto por concepto de autoseguro estudiantil es de S/. 55.00. Este pago debe realizarse generando una orden en la plataforma Intranet-Alumnos, accediendo al módulo de pagos del Portal INTRALU.
+User: ok, recuerdame de manera mas detallada cual es proceso de para generar la orden de pago para el autoseguro.
+Assistant: Para generar la orden de pago del autoseguro, sigue estos pasos:  
+
+1. Ingresa a **Intranet-Alumnos**.  
+2. Ve a **"Trámites y Pagos"** y accede al módulo de pagos del **Portal INTRALU**.  
+3. Selecciona **"PAGO-AUTOSEGURO MEDICO"** y haz clic en **"Nuevo"**.  
+4. Sigue las indicaciones para generar la orden por **S/. 55.00**.  
+5. Realiza el pago utilizando la aplicación móvil del BCP o acercándote a una sucursal del banco.  
+
+Para mas detalles puesdes consultar el manual de pagos publicado en la página web de la Facultad de Ciencias.
+User: si pague recien estonces un dia despues de las fechas que mencionar me iria a matricula rezagada entonces?
+Assistant: Sí, si realizas el pago del autoseguro después de la fecha límite establecida en el calendario de actividades académicas, no podrás hacer la matrícula regular y tendrás que gestionarla como matrícula rezagada. Es importante que verifiques el calendario de actividades académicas para asegurarte de realizar el pago dentro del plazo estipulado. Si tu matrícula no se habilita en las fechas de matrícula regular, deberás comunicarte con la oficina de estadística (AERA) al correo estadistica_fc@uni.edu.pe para obtener más detalles o seguir el procedimiento para matrícula rezagada.
+User: y la matricula rezagada incluye algun pago adicional?
+Assistant: Sí, para realizar la matrícula rezagada, los estudiantes deben efectuar un pago adicional de S/. 26.00. Este pago se realiza generando una orden de pago a través del Portal INTRALU. Una vez realizado el pago, debes subir el comprobante en el formulario correspondiente, cuyo enlace se encuentra en el documento "MATRÍCULA REZAGADA" dentro de la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias. Después de eso, deberás esperar a que el personal de la oficina de Estadística habilite el acceso a la plataforma de intranet para que puedas matricularte.
+User: ok ya entiendo todo, me asegurare de no pasarme de esas fechas para realizar el pago.
+Assistant: ¡Me alegra que ahora esté claro! Es importante estar atento a las fechas para evitar complicaciones. Si tienes alguna otra duda o necesitas más información, no dudes en preguntar. ¡Suerte con tu matrícula!

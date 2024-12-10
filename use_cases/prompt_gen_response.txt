@@ -1,56 +1,16 @@
 Actua como un asistente virtual y responder a la siguiente pregunta del usario de manera precisa y util, uilizando solo la informacion de abajo
 Usa para responder esta informacion: 
 
-Tema: Fechas de Matricula
-¿Dónde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matrícula para el ciclo académico?
-Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica dentro de la sección "Matrícula y Procedimientos" página web de la Facultad de Ciencias, puede ingresar a dicha sección de la pagina en siguiente enlace: https://fc.uni.edu.pe/documentos/.
-Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos dos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica dentro de la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente en modulo de Matrícula dentro de la plataforma intranet-alumnos.
+Tema: Cambio de Sección debido a Cruces de Horario
 
-Tema:  Perdida de Turno de Matricula
-¿Qué debe hacer un estudiante que no pudo realizar la inscripción de sus cursos de manera virtual en la fecha y turno asignado para su matrícula regular?
-Si un estudiante no logró inscribirse en sus cursos a tiempo usando el Módulo de Matrícula UNI en la plataforma Intranet-Alumnos, según los plazos establecidos en el calendario académico y en su turno asignado para la matrícula regular del ciclo académico, pero aún quiere inscribirse en el ciclo, deberá gestionar su matrícula rezagada.
+Pregunta: ¿Qué debe hacer un estudiante si desea realizar un cambio de sección/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?
+Respuesta: Los cambios de sección/horario son gestionados directamente por la oficina de estadística (AERA). Es importante tener en cuenta que solo se atenderán solicitudes en caso de que el estudiante tenga conflictos de horario entre los cursos en los que está matriculado. Además, cualquier cambio de sección/horario estará sujeto a la disponibilidad de plazas.
+Los estudiantes que deseen realizar modificaciones en la sección/horario de un curso matriculado debido a conflictos de horario deben comunicarse directamente con la oficina de AERA. Allí recibirán información detallada sobre el proceso a seguir. También, se le recomienda revisar en la [pagina web de la facultad de ciencias](https://fc.uni.edu.pe) avisos o formularios referentes al tema.
 
-
-Tema: Requisitos y Procedimiento Matricula Regular
-¿Cuales son los requisitos y el proceso de matrícula regular al ciclo académico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
-Son requisitos para la matrícula regular efectuar el pago por autoseguro estudiantil y no presentar adeudos con su Facultad ya sea económicas, por préstamo de libros o cualquier otro material de enseñanza en general en la biblioteca. Además, los alumnos en riesgo académico deben haber completado la tutoría obligatoria previa a la matrícula. Los estudiantes que hayan dejado de estudiar, o reservado matrícula  reservado matrícula, o solicitado su retiro total en el último período en que estuvieron matriculados, deberán previamente haber tramitado su reincorporación a traves de la plataforma intranet-alumnos.
-
-El proceso para que un alumno de pregrado realice su matrícula regular al ciclo académico, es el siguiente:
-1. Generar una orden de pago para el autoseguro estudiantil a través de la plataforma intranet-alumnos. En esta plataforma, selecciona la opción "Trámites y Pagos" para acceder al módulo de pagos (Portal INTRALU). En dicho módulo, selecciona el trámite correspondiente en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago.
-2. Realizar el pago dentro de los plazos establecidos en el calendario de actividades académicas, acercándose a un sucursal del BCP o a traves de la aplicación movil del banco.
-3. Luego, en la fecha y turno asignado, el estudiante llevará a cabo a su matrícula de forma virtual, es decir, realizará la inscripción de sus cursos a través de la plataforma intranet-alumnos. Accederá al módulo de Matrícula UNI dentro de esta plataforma, seleccionará las asignaturas y horarios deseados, y finalizará confirmando la matrícula en todas las asignaturas elegidas en el sistema.
-
-No se requiere la entrega del voucher de pago del autoseguro ni otros documentos para la matricula regular.  
-Los turnos para la matrícula, son asignados por grupos de acuerdo al promedio ponderado de los últimos dos ciclos, en un orden de mérito. Cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
-
-Tema: Requisitos y Procedimiento para Matricula Solo Para Ingresantes
-¿Cuales son los requisitos y el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
-Los nuevos alumnos de pregrado ingresantes a la Facultad de Ciencias, realizaran el siguiente proceso para completar su primera matricula (primera matricula al primer ciclo):
-    1. Recabar su constancia de ingreso. Luego de gestionar la emisión de su constancia de ingreso, la Dirección de Admisión (DIAD) de la UNI enviará a su correo la constancia de ingreso.
-    2. Actualización de datos en intranet. DIRCE hará llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.
-    3. Registrar los datos en la Facultad de Ciencias. La oficina de estadística de la facultad enviará al correo del ingresante la ficha de datos. El llenado es carácter obligatorio.
-    4. Efectuar el pago por autoseguro (S/. 55.00) en el plazo establecido en el cronograma. Para ello, primero generar una orden de pago a traves de la plataforma intranet-alumnos.
-    5. Realizar la entrega de los siguientes documentos a la oficina de estadística según el cronograma de actividades de matrícula para ingresantes publicado dentro de la sección 'MATRÍCULA Y PROCEDIMIENTOS' en la página web de la Facultad de Ciencias.
-        - Constancia de Ingreso
-        - Ficha de datos
-        - Constancia de Evaluación Socioeconómica
-        - Certificado Médico expedido por el Centro Medico UNI
-        - Comprobante de pago de Autoseguro Estudiantil
-    6. La oficina de estadística ejecutará la matrícula (inscripción de cursos) de los ingresantes según el cronograma de actividades, únicamente para aquellos que hayan cumplido con la entrega de la entrega de los documentos requeridos en de las fechas establecidas en el cronograma.
-    7. Los ingresantes matriculados recibirán un correo con el horario de sus cursos y también podrán visualizar sus cursos y horarios en la plataforma intranet-alumnos.
-
-Tema: Fecha de Pago de Autoseguro
-¿Hasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matrícula regular al ciclo academico en la Facultad de Ciencias de la UNI?
-
-Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Si no se cumple con este plazo máximo, es probable que la matrícula no pueda realizarse de manera regular y deba gestionarse como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, es necesario que el estudiante se comunique con la oficina de estadística (AERA) al correo estadistica_fc@uni.edu.pe o revise el procedimiento para gestionar su matrícula rezagada.
-El calendario de actividades académicas es publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS", puede acceder a esta sección mediante el siguiente enlace: https://fc.uni.edu.pe/documentos/
-
-Tema: Generación de Orden de Pago para Autoseguro
-¿Cual es el proceso para que un ingresante o alumno regular genere una orden de pago para el pago de autoseguro?
-Para generar una orden de pago por concepto de autoseguro, el ingresante o alumno regular debe ingresar a la plataforma Intranet-Alumnos. En esta plataforma, selecciona la opción "Trámites y Pagos", será redirigido al módulo de pagos del Portal INTRALU. En dicho módulo, selecciona la opción "PAGO-AUTOSEGURO MEDICO" en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago por el monto de S/. 55.00. Luego de generar la orden de pago el ingresante o estudiante regular podra realizar el pago por aplicativo movil BCP o en alguna sucursal de la entidad bancaria.  Para mas detalles sobre el proceso para generar un orden de pago puede revisar el manual de pagos de la UNI publicado en la pagina web de la Facultad de Ciencias
-
+Tema: Procedimiento de Matricula Rezagada
+¿Qué procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?
 La matrícula rezagada se realiza en las fechas establecidas en el calendario académico publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). La matrícula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matrícula en las fechas establecidas en el calendario de actividades académicas para la matricula regular y se realizará en función a las vacantes disponibles.
-Para realizar la matricula rezagada el estudiante debera ejecutar los siguientes pasos:
+Para realizar la matricula rezagada el estudiante debera haber realizado el pago por autoseguro estudiantil y ejecutar los siguientes pasos:
 
 1. Los estudiantes que realizan su matrícula en forma rezagada deberán efectuar el pago de 26 soles. Para ello, debera generar una order de pago a traves del Portal INTRALU.
 2. Después de haber realizado el pago deberá subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento "MATRÍCULA REZAGADA" publicado dentro de la sección de [MATRÍCULA Y PROCEDIMIENTOS de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).
@@ -58,22 +18,47 @@ Para realizar la matricula rezagada el estudiante debera ejecutar los siguientes
 
 Posterior a la fechas de la matricula rezagada, los estudiantes ya no podrán realizar la matricula en el ciclo académico.
 
-User: Que tal, quiero que me digas a que hora y que dia me toca la matricula
-Asistente: Para conocer la fecha y turno de tu matrícula, debes consultar la lista de turnos publicada en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias. La lista incluye el orden de mérito, que se asigna según el promedio ponderado de los últimos dos ciclos. Los estudiantes con los promedios más altos reciben los primeros turnos. Puedes acceder a la lista y a más detalles en este enlace: https://fc.uni.edu.pe/documentos/. Además, también puedes verificar tu turno específico en el módulo de Matrícula dentro de la plataforma intranet-alumnos.
-User: y que pasa si se paso y no me pude matricular en mi turno
-Asistente: Si no te pudiste matricular en tu turno, deberás gestionar tu matrícula rezagada. Para ello:
-1. Genera una orden de pago de S/. 26.00 en el Portal INTRALU.
-2. Realiza el pago y sube el comprobante en el formulario disponible en la sección "MATRÍCULA REZAGADA" de la página web de la Facultad.
-3. Espera que la oficina de Estadística habilite el acceso para realizar la matrícula.
-La matrícula rezagada solo se puede hacer dentro de las fechas establecidas. Consulta las fechas aquí: https://fc.uni.edu.pe/documentos/.
-User: Entiendo tendre cuiado que no se pase mi turno. 
-Asistente: ¡Exactamente! Es importante estar atento a las fechas para evitar perder tu turno. Si necesitas ayuda en cualquier momento con el proceso de matrícula o si tienes alguna otra pregunta, no dudes en escribirme.
-User: por ahora eso es todo
-Asistente: ¡Perfecto! Si necesitas más ayuda en el futuro, no dudes en contactarme. ¡Mucho éxito con tu matrícula!
+Tema: Fecha de Pago de Autoseguro
+Pregunta: ¿Hasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matrícula regular al ciclo academico en la Facultad de Ciencias de la UNI?
+Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Si no se cumple con este plazo máximo, es probable que la matrícula no pueda realizarse de manera regular y deba gestionarse como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, es necesario que el estudiante se comunique con la oficina de estadística (AERA) al correo estadistica_fc@uni.edu.pe o revise el procedimiento para gestionar su matrícula rezagada.
+El calendario de actividades académicas es publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS", puede acceder a esta sección mediante el siguiente enlace: https://fc.uni.edu.pe/documentos/
 
+Tema: Generación de Orden de Pago para Autoseguro
+Pregunta: ¿Cual es el proceso para que un ingresante o alumno regular genere una orden de pago para el pago de autoseguro?
+Respuesta: Para generar una orden de pago por concepto de autoseguro, el ingresante o alumno regular debe ingresar a la plataforma Intranet-Alumnos. En esta plataforma, selecciona la opción "Trámites y Pagos", será redirigido al módulo de pagos del Portal INTRALU. En dicho módulo, selecciona la opción "PAGO-AUTOSEGURO MEDICO" en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago por el monto de S/. 55.00. Luego de generar la orden de pago el ingresante o estudiante regular podra realizar el pago por aplicativo movil BCP o en alguna sucursal de la entidad bancaria.  Para mas detalles sobre el proceso para generar un orden de pago puede revisar el manual de pagos de la UNI publicado en la pagina web de la Facultad de Ciencias
 
+Tema: Fechas de Matricula
+¿Dónde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matrícula para el ciclo académico?
+Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica dentro de la sección "Matrícula y Procedimientos" página web de la Facultad de Ciencias, puede ingresar a dicha sección de la pagina en siguiente enlace: https://fc.uni.edu.pe/documentos/.
+Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos dos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica dentro de la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente en modulo de Matrícula dentro de la plataforma intranet-alumnos.
 
+Tema: Solicitar Vacantes adicionales 
+¿Qué debe hacer un estudiante que desea solicitar una vacante adicional para la inscripción a un curso?
+Respuesta: A los estudiantes interesados en solicitar una vacante adicional para inscribirse en un curso, se les recomienda completar su matrícula virtual en los demás cursos y posteriormente comunicarse con la oficina de estadística (AERA) para obtener mayor información y que su caso sea evaluado. También se recomienda revisar posibles publicaciones de avisos o formularios de solicitud correspondientes a la solicitud de vacantes dentro de la [página web de la Facultad de Ciencias](https://fc.uni.edu.pe/).
 
+Tema: Perdida de Turno de Matricula
+¿Qué debe hacer un estudiante que no pudo realizar la inscripción de sus cursos de manera virtual en la fecha y turno asignado para su matrícula regular?
+Respuesta: Si un estudiante no logró inscribirse en sus cursos a tiempo usando el Módulo de Matrícula UNI en la plataforma Intranet-Alumnos, según los plazos establecidos en el calendario académico y en su turno asignado para la matrícula regular del ciclo académico, pero aún quiere inscribirse en el ciclo, deberá gestionar su matrícula rezagada.
 
+Información de Contacto de la oficina de estadística (AERA)
+E-mail: estadistica_fc@uni.edu.pe
+Teléfono: 481-1070 anexos 5011 / 5023
 
+Horario de Atención de la oficina de estadística (AERA):
+De Lunes a Viernes de 8:00 a.m. a 4:00 p.m.
 
+Ubicacion de la Oficina de AERA:
+Segundo Piso - Facultad de Ciencias de la UNI
+
+User: Despues de realizar el pago para matricula rezagada y enviar el voucher, hay algun otro pago o procedimiento que deba hacer?
+Assistant: Después de realizar el pago para matrícula rezagada y enviar el comprobante de pago, no hay ningún otro pago adicional que deba realizar el estudiante. El siguiente paso es esperar a que el personal de la oficina de Estadística habilite el acceso a la plataforma de intranet para que el estudiante pueda matricularse directamente. Esto debe ocurrir dentro de las fechas establecidas para la matrícula rezagada.
+User: tengo el problema que ya se llenaron las secciones A y B del curso de QUIMICA GENERAL y en la seccion C se me cruza con el CALCULO INTEGRAL en la teoria. Deberia matricularme en la C y luego pedir un cambio de seccion?
+Assistant: Si la sección C de Química General se cruza con Cálculo Integral en la teoría, puedes intentar matricularte en la sección C y luego solicitar un cambio de sección. Sin embargo, ten en cuenta que el cambio de sección está sujeto a la disponibilidad de plazas. Para ello, debes contactar directamente con la oficina de Estadística (AERA), que es la encargada de gestionar estos cambios debido a conflictos de horarios. Ellos te indicarán el proceso a seguir para realizar la solicitud.
+User: entonces mejor hablo con AERA, me puedes brindar su numero de telefono?
+Assistant: Claro, puedes comunicarte con la oficina de Estadística (AERA) llamando al teléfono 481-1070, ext. 5011 o 5023. Estarán disponibles para ayudarte con el proceso.
+User: ya llame y no contestan me puedes pasar su correo mejor?
+Assistant: Puedes contactar con la oficina de Estadística (AERA) a través de su correo electrónico: estadistica_fc@uni.edu.pe.
+User: voy a ir presencia a su oficina mejor, me puedes decir en que hoario atienden?
+Asistente: La oficina de Estadística (AERA) atiende de lunes a viernes, de 8:00 a.m. a 4:00 p.m. Puedes visitarlos en el segundo piso de la Facultad de Ciencias de la UNI.
+User: ok, gracias.
+Assistant: De nada, ¡estoy aquí para ayudarte! Si tienes alguna otra pregunta, no dudes en preguntar. ¡Buena suerte con tu trámite!

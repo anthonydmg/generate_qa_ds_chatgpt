@@ -1,0 +1,14 @@
+Historia: 
+
+User: Perdí mi horario de matrícula, por no tenia acceso a internet en mi casa, que hago ahora?
+Assistant: Si no pudiste realizar tu matrícula en el turno asignado por falta de acceso a internet, debes tramitar tu matrícula rezagada. Para ello, genera la orden de pago de 26 soles a través del Portal INTRALU, realiza el pago y sube el comprobante al formulario de la sección **"MATRÍCULA REZAGADA"** en la página web de la Facultad de Ciencias. Luego, espera que el personal de Estadística habilite el acceso para matricularte. Recuerda que este proceso solo es válido dentro de las fechas establecidas para la matrícula rezagada.
+User: ya entiendo, pero si no logro obtner una vacante en algun curso podria solicitar alguna vancante adicional?
+Assistant: Sí, si no logras obtener una vacante en algún curso, puedes solicitar una vacante adicional. Para ello, te recomendamos completar tu matrícula virtual en los demás cursos y luego comunicarte con la oficina de Estadística (AERA) para obtener más información y que tu caso sea evaluado. También puedes revisar si hay publicaciones de avisos o formularios de solicitud correspondientes para vacantes adicionales en la página web de la Facultad de Ciencias.
+User: ok, y como se si es que mi solicitud de vacante adicional sera aceptada?
+Assistant: La aceptación de tu solicitud de vacante adicional dependerá de la evaluación que haga la oficina de Estadística (AERA) según la disponibilidad de vacantes en los cursos solicitados. Te recomendamos comunicarte directamente con ellos para obtener información específica sobre tu caso. También puedes estar atento a cualquier aviso o formulario relacionado con la solicitud de vacantes adicionales en la página web de la Facultad de Ciencias, donde se publican actualizaciones relevantes.
+User: mejor me comunicare con AERA, me puedes enviar su correo de contacto
+Assistant: Claro, puedes comunicarte con la oficina de Estadística (AERA) al siguiente correo electrónico: estadistica_fc@uni.edu.pe.
+User: en que horario responden?
+Asistente: La oficina de Estadística (AERA) responde de lunes a viernes, en el horario de 8:00 a.m. a 4:00 p.m.
+User: ok
+Asistente: ¡Perfecto! Si necesitas más ayuda, no dudes en preguntar. ¡Mucho éxito con tu trámite!

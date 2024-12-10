@@ -204,7 +204,7 @@ Para Matemáticas o Ingeniería Física: escuelas_fc2@uni.edu.pe
 
 Tema: Horarios de Cursos 
 Pregunta: ¿Dónde puede un estudiante visualizar la lista de cursos y sus respectivos horarios para el ciclo academico actual o el próximo a empezar?
-Respuesta: La lista completa de los cursos que serán impartidos en el ciclo academico (semestre) junto con sus horarios y profesores correspondientes es publicado con respectiva anticipación a la matricula dentro de la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Además, cada estudiante tambien puede encontrar información sobre los cursos y horarios dentro de la plataforma intranet-alumnos.
+Respuesta: La lista completa de los cursos que serán impartidos en el ciclo academico (semestre) junto con sus horarios y profesores correspondientes es publicado con respectiva anticipación a la matricula dentro de la sección ["Matrícula y Procedimientos" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Además, cada estudiante tambien puede encontrar información sobre los cursos y horarios en el modulo de Matricula dentro de la plataforma intranet-alumnos.
 
 Tema: Información Mesa de Partes DIRCE
 Pregunta: ¿Cuál es el horario de atención y el correo de contacto de la oficina de Mesa de Partes de DIRCE?
@@ -297,7 +297,7 @@ Respuesta: Para solicitar su correo institucional de la UNI, enviar un correo ob
 Tema: Procedimiento de Matricula Rezagada
 Pregunta: ¿Qué procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?
 Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario académico publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). La matrícula rezagada es para los alumnos ingresantes y alumnos regulares que no han podido ejecutar su matrícula en las fechas establecidas en el calendario de actividades académicas para la matricula regular y se realizará en función a las vacantes disponibles.
-Para realizar la matricula rezagada el estudiante debera ejecutar los siguientes pasos:
+Para realizar la matricula rezagada el estudiante debera haber realizado el pago por autoseguro estudiantil y ejecutar los siguientes pasos:
 
 1. Los estudiantes que realizan su matrícula en forma rezagada deberán efectuar el pago de 26 soles. Para ello, debera generar una order de pago a traves del Portal INTRALU.
 2. Después de haber realizado el pago deberá subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento "MATRÍCULA REZAGADA" publicado dentro de la sección de [MATRÍCULA Y PROCEDIMIENTOS de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).

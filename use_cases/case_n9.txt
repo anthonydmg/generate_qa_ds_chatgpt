@@ -1,16 +1,16 @@
 Historia: reserva de matricula
 
 User: Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de trabajo .¿Que procedimiento deberia seguir?
-Asistente: Buenos días, para reservar su matrícula por trabajo:
+Assistant: Buenos días, para reservar su matrícula por trabajo:
 Acceda a SIGA-DIRCE (intranet-alumnos) y presente la solicitud de Reserva de Matrícula dirigida al Decano antes de la semana oficial de matrícula (revise el calendario académico).
 Descargue el modelo de solicitud desde la sección "Matrícula y Procedimientos" de la página web de la facultad.
 Adjunte documentos que sustenten su situación laboral.
 El trámite es gratuito. Si no presenta la solicitud y no se matricula, la DIRCE realizará la reserva de oficio.
 User: Entonces si podría solicitar mi reserva de matricula por motivos de trabajo.
-asistente: ¡Correcto! Usted puede solicitar la reserva de matrícula por motivos de trabajo. Asegúrese de presentar la solicitud dirigida al Decano a través de SIGA-DIRCE antes de la semana oficial de matrícula, junto con los documentos que acrediten su situación laboral. Este trámite no tiene costo alguno.
+Assistant: ¡Correcto! Usted puede solicitar la reserva de matrícula por motivos de trabajo. Asegúrese de presentar la solicitud dirigida al Decano a través de SIGA-DIRCE antes de la semana oficial de matrícula, junto con los documentos que acrediten su situación laboral. Este trámite no tiene costo alguno.
 User: y que otros motivos son validos para solicitar la reserva, podria ser un viaje al extranjero?.
-Asistente: ¡Claro que sí! Además de motivos laborales, puede solicitar la reserva de matrícula por razones de salud, trabajo, o de otra naturaleza debidamente sustentada. Un viaje al extranjero podría ser considerado válido, siempre que esté justificado adecuadamente con la documentación correspondiente. Por ejemplo, si el viaje está relacionado con estudios, trabajo u otras actividades relevantes, debe adjuntar los documentos que lo respalden al presentar su solicitud a través de SIGA-DIRCE.
+Assistant: ¡Claro que sí! Además de motivos laborales, puede solicitar la reserva de matrícula por razones de salud, trabajo, o de otra naturaleza debidamente sustentada. Un viaje al extranjero podría ser considerado válido, siempre que esté justificado adecuadamente con la documentación correspondiente. Por ejemplo, si el viaje está relacionado con estudios, trabajo u otras actividades relevantes, debe adjuntar los documentos que lo respalden al presentar su solicitud a través de SIGA-DIRCE.
 User: me puedes indicar donde esta el calendario donde puedo revisar la fecha para presentar la solicitud.
-Asistente: El calendario con las fechas para presentar la solicitud de reserva de matrícula se encuentra publicado en la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Te recomiendo que accedas a esa sección para verificar los plazos establecidos en el calendario de actividades académicas.
+Assistant: El calendario con las fechas para presentar la solicitud de reserva de matrícula se encuentra publicado en la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Te recomiendo que accedas a esa sección para verificar los plazos establecidos en el calendario de actividades académicas.
 User: Entiendo, gracias por la información.
-asistente: ¡De nada! Si necesita más ayuda, no dude en preguntar.
+Assistant: ¡De nada! Si necesita más ayuda, no dude en preguntar.

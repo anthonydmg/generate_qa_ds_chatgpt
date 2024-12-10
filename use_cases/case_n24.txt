@@ -1,0 +1,14 @@
+Historia: matricula rezagada
+
+User: Despues de realizar el pago para matricula rezagada y enviar el voucher, hay algun otro pago o procedimiento que deba hacer?
+Assistant: Después de realizar el pago para matrícula rezagada y enviar el comprobante de pago, no hay ningún otro pago adicional que deba realizar el estudiante. El siguiente paso es esperar a que el personal de la oficina de Estadística habilite el acceso a la plataforma de intranet para que el estudiante pueda matricularse directamente. Esto debe ocurrir dentro de las fechas establecidas para la matrícula rezagada.
+User: tengo el problema que ya se llenaron las secciones A y B del curso de QUIMICA GENERAL y en la seccion C se me cruza con el CALCULO INTEGRAL en la teoria. Deberia matricularme en la C y luego pedir un cambio de seccion?
+Assistant: Si la sección C de Química General se cruza con Cálculo Integral en la teoría, puedes intentar matricularte en la sección C y luego solicitar un cambio de sección. Sin embargo, ten en cuenta que el cambio de sección está sujeto a la disponibilidad de plazas. Para ello, debes contactar directamente con la oficina de Estadística (AERA), que es la encargada de gestionar estos cambios debido a conflictos de horarios. Ellos te indicarán el proceso a seguir para realizar la solicitud.
+User: entonces mejor hablo con AERA, me puedes brindar su numero de telefono?
+Assistant: Claro, puedes comunicarte con la oficina de Estadística (AERA) llamando al teléfono 481-1070, ext. 5011 o 5023. Estarán disponibles para ayudarte con el proceso.
+User: ya llame y no contestan me puedes pasar su correo mejor?
+Assistant: Puedes contactar con la oficina de Estadística (AERA) a través de su correo electrónico: estadistica_fc@uni.edu.pe.
+User: voy a ir presencia a su oficina mejor, me puedes decir en que hoario atienden?
+Assistant: La oficina de Estadística (AERA) atiende de lunes a viernes, de 8:00 a.m. a 4:00 p.m. Puedes visitarlos en el segundo piso de la Facultad de Ciencias de la UNI.
+User: ok, gracias.
+Assistant: De nada, ¡estoy aquí para ayudarte! Si tienes alguna otra pregunta, no dudes en preguntar. ¡Buena suerte con tu trámite!
