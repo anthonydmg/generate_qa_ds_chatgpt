@@ -1,3 +1,18 @@
-Historia: turnos  de matricula regular
+Historia: fechas  de matricula regular, horarios de cursos.
 
-User: 
+User: Quiero saber cuando es la matrícula
+Assistant: Las fechas de matrícula para el ciclo académico se encuentran en el calendario de actividades publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias. Puedes acceder directamente a esta sección en el siguiente enlace: https://fc.uni.edu.pe/documentos/.
+Los turnos de matrícula, asignados según el promedio ponderado de los últimos dos ciclos, también están disponibles en esta misma sección. Además, puedes verificar tu turno específico en el módulo de Matrícula dentro de la plataforma Intranet-Alumnos.
+User: y los horarios disponibles para los cursos donde puedo verlos?
+Assistant: Los horarios disponibles para los cursos, junto con la lista de cursos y los profesores asignados, se publican con anticipación en la sección "Matrícula y Procedimientos" de la página web de la Facultad de Ciencias. Además, puedes consultar esta información directamente en el módulo de Matrícula dentro de la plataforma Intranet-Alumnos.
+User: ya busque y aun no encuentro ni el calendario de actividades, ni el horarios de los cursos para este ciclo.
+Assistant: Si no encuentras la información, es posible que los horarios y el calendario aún no hayan sido publicados. Por lo general, esta información se libera cerca del inicio del período de matrícula. Te recomendaría revisar regularmente la sección 'Matrícula y Procedimientos' de la página web de la Facultad de Ciencias y el módulo de Matrícula en la Intranet-Alumnos por actualizaciones. Si aún no está disponible, puedes contactar con la oficina de AERA para obtener asistencia.
+User: ok, me puedes pasar el contacto de esa oficina por si acaso y su horario de atencion
+Assistant: Claro, el contacto de la oficina de Estadística (AERA) es el siguiente:
+
+- **Correo electrónico**: estadistica_fc@uni.edu.pe
+- **Teléfono**: 481-1070 anexos 5011 / 5023
+
+**Horario de atención**: De lunes a viernes de 8:00 a.m. a 4:00 p.m.
+User: Genial, gracias
+Assistant: ¡De nada! Si necesitas más ayuda, no dudes en preguntar. ¡Mucho éxito con tu matrícula!

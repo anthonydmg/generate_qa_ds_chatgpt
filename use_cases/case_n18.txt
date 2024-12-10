@@ -1,0 +1,20 @@
+Historia: fechas  de matricula regular, horarios de cursos.
+
+User: me comentaron que tengo que pagar el autoseguro para la mataricula, pero no como ni donde puedo pagarlo.
+Assistant: Para pagar el autoseguro, sigue estos pasos:
+
+1. Ingresa a **Intranet-Alumnos** y selecciona **"Trámites y Pagos"**.
+2. En el módulo de pagos, elige **"PAGO-AUTOSEGURO MEDICO"**, haz clic en **"Nuevo"**  y sigue las indicaciones para generar la orden de pago por el monto de S/. 55.00..
+3. Realiza el pago en una **sucursal del BCP** o a través de la **aplicación móvil del banco**.
+User: y tengo que entregar el comprobante de pago a alguien?
+Assistant: No es necesario entregar el comprobante de pago del autoseguro ni otros documentos para la matrícula regular. Solo debes realizar el pago dentro de los plazos establecidos y, luego, proceder con la matrícula de forma virtual a través de la plataforma Intranet-Alumnos.
+User: genial, entonces luego que he hecho el pago solo me queda esperar a la matricula. Me puedes explicar como es el proceso para matricularme en mis cursos?
+Assistant: Para matricularte en tus cursos luego de realizar el pago del autoseguro, sigue estos pasos:
+1. En la fecha y turno asignado para tu matrícula, ingresa a la plataforma **Intranet-Alumnos**.
+2. Accede al **módulo de Matrícula UNI** dentro de la plataforma.
+3. Selecciona las **asignaturas** y **horarios** que deseas inscribir.
+4. Finalmente, confirma tu matrícula en todas las asignaturas seleccionadas en el sistema.
+User: me puedes explicar como se asignan los turnos de matricula, es en orden alfabetico o algo asi?
+Assistant: Los turnos de matrícula no se asignan en orden alfabético. Se asignan de acuerdo al promedio ponderado de los últimos dos ciclos. Los estudiantes con los promedios más altos tienen prioridad en los primeros turnos, y los demás estudiantes se asignan en orden de mérito. Puedes verificar tu turno correspondiente en el modulo de matricula dentro de la plataforma Intranet-Alumnos.
+User: ok me que claro el proceso
+Assistant: ¡Me alegra que te haya quedado claro el proceso! Si necesitas más información o tienes alguna otra duda, no dudes en preguntar. ¡Mucho éxito con tu matrícula!

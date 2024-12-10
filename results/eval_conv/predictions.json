@@ -1,0 +1,44 @@
+[
+    [
+        {
+            "user_message": "Como hago para solicitar cambio de secci\u00f3n?",
+            "pred_response": "Para solicitar un cambio de secci\u00f3n/horario, el estudiante debe seguir estos pasos:\n\n1. Ingresar a la plataforma intranet-alumnos con su c\u00f3digo UNI y clave.\n2. Seleccionar \"Tr\u00e1mites y Pagos\" y luego \"Reincorporaci\u00f3n de Estudiantes\".\n3. Elegir \"Mis Tr\u00e1mites\" y luego \"Cambio de Secci\u00f3n\".\n4. Consultar el resultado de la solicitud en el m\u00f3dulo de Tr\u00e1mites.\n\nRecuerde que el cambio solo se permite por motivos de fuerza mayor. Si necesita m\u00e1s informaci\u00f3n, puede consultar la p\u00e1gina web de la Facultad de Ciencias.",
+            "reference_response": "Los cambios de secci\u00f3n son gestionados directamente por la oficina de estad\u00edstica (AERA). Ten en cuenta que solo se atender\u00e1n solicitudes con conflictos de horario entre los cursos en los que estas matriculado y esta sujeto a la disponibilidad de plazas. Te recomiento comunicarte directamente con la oficina de AERA. All\u00ed recibiras informaci\u00f3n detallada sobre el proceso a seguir. Tambi\u00e9n, se le recomienda revisar en la [pagina web de la facultad de ciencias](https://fc.uni.edu.pe) avisos o formularios referentes al tema.",
+            "recovered_texts": [
+                {
+                    "relatednesses": 0.5036969013967564,
+                    "text": "Cambio De Secci\u00f3n Debido A Cruces De Horario\n\u00bfQu\u00e9 debe hacer un estudiante si desea realizar un cambio de secci\u00f3n/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?\nLos cambios de secci\u00f3n/horario son gestionados directamente por la oficina de estad\u00edstica (AERA). Es importante tener en cuenta que solo se atender\u00e1n solicitudes en caso de que el estudiante tenga conflictos de horario entre los cursos en los que est\u00e1 matriculado. Adem\u00e1s, cualquier cambio de secci\u00f3n/horario estar\u00e1 sujeto a la disponibilidad de plazas.\nLos estudiantes que deseen realizar modificaciones en la secci\u00f3n/horario de un curso matriculado debido a conflictos de horario deben comunicarse directamente con la oficina de AERA. All\u00ed recibir\u00e1n informaci\u00f3n detallada sobre el proceso a seguir. Tambi\u00e9n, se le recomienda revisar en la [pagina web de la facultad de ciencias](https://fc.uni.edu.pe) avisos o formularios referentes al tema."
+                }
+            ]
+        },
+        {
+            "user_message": "Y si la seccion a la quiero cambiarme no tiene un conflicto de horario con mis cursos pero si hay vacantes podre realizar el cambio de seccion.",
+            "pred_response": "Entiendo tu situaci\u00f3n. Si la secci\u00f3n a la que deseas cambiarte no tiene conflictos de horario con tus cursos, pero que no haya vacantes disponibles para el cambio, te sugiero que te comuniques directamente con la oficina de estad\u00edstica (AERA) para obtener m\u00e1s informaci\u00f3n sobre posibles alternativas o procedimientos. Ellos podr\u00e1n brindarte la orientaci\u00f3n necesaria. \u00a1Mucho \u00e9xito!",
+            "reference_response": "No podras realizar el cambio de secci\u00f3n si no tienes un conflicto de horario entre los cursos en los que est\u00e1s matriculado, incluso si hay vacantes disponibles. Los cambios de secci\u00f3n solo se gestionan en caso de conflictos de horario. Te sugiero comunicarte directamente con la oficina de AERA para confirmar esta restricci\u00f3n y verificar cualquier detalle adicional.",
+            "recovered_texts": [
+                {
+                    "relatednesses": 0.675987127503827,
+                    "text": "Cambio De Secci\u00f3n Debido A Cruces De Horario\n\u00bfQu\u00e9 debe hacer un estudiante si desea realizar un cambio de secci\u00f3n/horario de un curso matriculado debido a cruce de horarios en sus cursos matriculados?\nLos cambios de secci\u00f3n/horario son gestionados directamente por la oficina de estad\u00edstica (AERA). Es importante tener en cuenta que solo se atender\u00e1n solicitudes en caso de que el estudiante tenga conflictos de horario entre los cursos en los que est\u00e1 matriculado. Adem\u00e1s, cualquier cambio de secci\u00f3n/horario estar\u00e1 sujeto a la disponibilidad de plazas.\nLos estudiantes que deseen realizar modificaciones en la secci\u00f3n/horario de un curso matriculado debido a conflictos de horario deben comunicarse directamente con la oficina de AERA. All\u00ed recibir\u00e1n informaci\u00f3n detallada sobre el proceso a seguir. Tambi\u00e9n, se le recomienda revisar en la [pagina web de la facultad de ciencias](https://fc.uni.edu.pe) avisos o formularios referentes al tema."
+                }
+            ]
+        },
+        {
+            "user_message": "Esta bien y como contacto con esa oficina?",
+            "pred_response": "S\u00ed, puedes contactar a la oficina de estad\u00edstica (AERA) a trav\u00e9s del correo electr\u00f3nico estadistica_fc@uni.edu.pe. El horario de atenci\u00f3n es de lunes a viernes de 8:00 a.m. a 4:00 p.m. Si necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar.",
+            "reference_response": "Puedes contactar a la oficina de AERA escribiendo un mensaje al correo estadistica_fc@uni.edu.pe. El horario de atenci\u00f3n es de lunes a viernes, de 8:00 a.m. a 4:00 p.m.",
+            "recovered_texts": []
+        },
+        {
+            "user_message": "ok",
+            "pred_response": "\u00a1De nada! Me alegra saber que la informaci\u00f3n te ha sido \u00fatil. Si necesitas m\u00e1s ayuda o tienes alguna otra pregunta, no dudes en preguntar. \u00a1\u00c9xito en tu gesti\u00f3n!",
+            "reference_response": "Si tienes m\u00e1s preguntas o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar.",
+            "recovered_texts": []
+        },
+        {
+            "user_message": "Si les escribo el sabado no me responderan entonces.",
+            "pred_response": "Si no recibes respuesta del sabado, te sugiero que intentes comunicarte nuevamente en el horario de atenci\u00f3n, que es de lunes a viernes de 8:00 a.m. a 4:00 p.m. Si a\u00fan no recibes respuesta, puedes considerar enviar un recordatorio a la oficina de estad\u00edstica (AERA) al correo estadistica_fc@uni.edu.pe, ya que su horario de atenci\u00f3n es de lunes a viernes de 8:00 a.m. a 4:00 p.m. \u00a1Espero que encuentres la respuesta que necesitas!",
+            "reference_response": "Es correcto, si les escribes el s\u00e1bado, no recibir\u00e1s respuesta inmediata, ya que el horario de atenci\u00f3n de la oficina de AERA es de lunes a viernes, de 8:00 a.m. a 4:00 p.m. Tendr\u00e1s que esperar hasta el siguiente d\u00eda h\u00e1bil para que respondan tu mensaje.",
+            "recovered_texts": []
+        }
+    ]
+]

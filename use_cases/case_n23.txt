@@ -1,0 +1,12 @@
+Historia: matricula rezagada
+
+User: Buenos días, ya realice el pago para la matricula rezagada, cual es el siguiente paso
+Assistant: ¡Buenos días! El siguiente paso después de realizar el pago es subir el comprobante de pago. Para ello, debes ingresar al formulario cuyo enlace se encuentra dentro del documento "MATRÍCULA REZAGADA" publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias. Luego, debes esperar a que el personal de la oficina de Estadística habilite el acceso a la plataforma de intranet, lo que te permitirá matricularte directamente.
+User: ok, pero en que fecha se habilitara el sistema para que haga mi matricula?
+Assistant: La habilitación del sistema para realizar tu matrícula dependerá de las fechas establecidas en el calendario académico para la matrícula rezagada. Estas fechas son publicadas en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias. Te recomiendo que consultes el calendario correspondiente para conocer las fechas exactas.
+User: y que si no me matricula en esa fecha hay otra oportunidad o ya no?
+Assistant: Si no logras matricularte dentro de las fechas establecidas para la matrícula rezagada, ya no habrá otra oportunidad para realizar la matrícula en ese ciclo académico. En ese caso, deberías esperar al siguiente ciclo académico para poder matricularte.
+User: Estare muy atento a la fecha entonces, dime parte de los 26 soles no hay otro pago mas verdad?
+Assistant: Correcto, el único pago que debes realizar es el de 26 soles para la matrícula rezagada. No hay otro pago adicional necesario para completar el proceso de matrícula rezagada.
+User: gracias por la info
+Assistant: ¡De nada! Si tienes alguna otra pregunta o necesitas más información, no dudes en preguntar. ¡Mucho éxito con tu matrícula!

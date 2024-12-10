@@ -1,0 +1,735 @@
+[
+    {
+        "id": "n2",
+        "file_name": "case_n2",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Como hago para solicitar cambio de secci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los cambios de secci\u00f3n son gestionados directamente por la oficina de estad\u00edstica (AERA). Ten en cuenta que solo se atender\u00e1n solicitudes con conflictos de horario entre los cursos en los que estas matriculado y esta sujeto a la disponibilidad de plazas. Te recomiento comunicarte directamente con la oficina de AERA. All\u00ed recibiras informaci\u00f3n detallada sobre el proceso a seguir. Tambi\u00e9n, se le recomienda revisar en la [pagina web de la facultad de ciencias](https://fc.uni.edu.pe) avisos o formularios referentes al tema."
+            },
+            {
+                "role": "user",
+                "content": "Y si la seccion a la quiero cambiarme no tiene un conflicto de horario con mis cursos pero si hay vacantes podre realizar el cambio de seccion."
+            },
+            {
+                "role": "assistant",
+                "content": "No podras realizar el cambio de secci\u00f3n si no tienes un conflicto de horario entre los cursos en los que est\u00e1s matriculado, incluso si hay vacantes disponibles. Los cambios de secci\u00f3n solo se gestionan en caso de conflictos de horario. Te sugiero comunicarte directamente con la oficina de AERA para confirmar esta restricci\u00f3n y verificar cualquier detalle adicional."
+            },
+            {
+                "role": "user",
+                "content": "Esta bien y como contacto con esa oficina?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes contactar a la oficina de AERA escribiendo un mensaje al correo estadistica_fc@uni.edu.pe. El horario de atenci\u00f3n es de lunes a viernes, de 8:00 a.m. a 4:00 p.m."
+            },
+            {
+                "role": "user",
+                "content": "ok"
+            },
+            {
+                "role": "assistant",
+                "content": "Si tienes m\u00e1s preguntas o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "Si les escribo el sabado no me responderan entonces."
+            },
+            {
+                "role": "assistant",
+                "content": "Es correcto, si les escribes el s\u00e1bado, no recibir\u00e1s respuesta inmediata, ya que el horario de atenci\u00f3n de la oficina de AERA es de lunes a viernes, de 8:00 a.m. a 4:00 p.m. Tendr\u00e1s que esperar hasta el siguiente d\u00eda h\u00e1bil para que respondan tu mensaje."
+            }
+        ]
+    },
+    {
+        "id": "n7",
+        "file_name": "case_n7",
+        "messages": [
+            {
+                "role": "user",
+                "content": "dime cuales son las fechas de la proxima matricula"
+            },
+            {
+                "role": "assistant",
+                "content": "Las fechas espec\u00edficas de matr\u00edcula para la pr\u00f3xima sesi\u00f3n estar\u00e1n disponibles en el calendario de actividades, que se publica en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias. Te recomiendo que consultes directamente en ese calendario para obtener la informaci\u00f3n precisa sobre las fechas de matr\u00edcula. Puedes acceder a la secci\u00f3n mediante este enlace: https://fc.uni.edu.pe/documentos/."
+            },
+            {
+                "role": "user",
+                "content": "ya busque en la pagina y aun no est\u00e1n publicadas."
+            },
+            {
+                "role": "assistant",
+                "content": "Si a\u00fan no est\u00e1n publicadas las fechas de matr\u00edcula en el calendario de actividades, te sugiero estar pendiente de la p\u00e1gina web de la Facultad de Ciencias, ya que las fechas se publican ah\u00ed. Tambi\u00e9n puedes verificar los horarios de matr\u00edcula y el orden de m\u00e9rito en la plataforma intranet-alumnos cuando est\u00e9n disponibles."
+            },
+            {
+                "role": "user",
+                "content": "Entiendo, y no sabes cuando se publicaran."
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo informaci\u00f3n espec\u00edfica sobre la fecha exacta en la que se publicar\u00e1n las fechas de matr\u00edcula. Te recomiendo revisar regularmente el calendario de actividades en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias y estar pendiente de cualquier actualizaci\u00f3n. Tambi\u00e9n puedes verificar tu turno correspondiente en la plataforma intranet-alumnos una vez se publiquen."
+            },
+            {
+                "role": "user",
+                "content": "y como se que turno de matricula soy"
+            },
+            {
+                "role": "assistant",
+                "content": "Los turnos de matr\u00edcula se asignan de acuerdo al promedio ponderado de los \u00faltimos dos ciclos, en un orden de m\u00e9rito. Aquellos estudiantes con los promedios m\u00e1s altos recibir\u00e1n prioridad en los primeros turnos, seguidos por los dem\u00e1s en sucesi\u00f3n. La lista de este orden de m\u00e9rito, junto con los respectivos turnos de matr\u00edcula, se publica en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias. Adem\u00e1s, cada alumno puede verificar su turno correspondiente en el m\u00f3dulo de Matr\u00edcula dentro de la plataforma intranet-alumnos."
+            },
+            {
+                "role": "user",
+                "content": "genial gracias por la info"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber podido ayudarte. Si tienes m\u00e1s preguntas, no dudes en preguntar. \u00a1Mucho \u00e9xito con tu matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": "n8",
+        "file_name": "case_n8",
+        "messages": [
+            {
+                "role": "user",
+                "content": "dime estoy buscando donde publican el los turnos de matricula, no los encuentro. Me puedes indicar donde los puedo ver."
+            },
+            {
+                "role": "assistant",
+                "content": "Los turnos de matr\u00edcula se publican en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la facultad de ciencias. Adem\u00e1s, puedes verificar tu turno correspondiente en el m\u00f3dulo de Matr\u00edcula dentro de la plataforma intranet-alumnos."
+            },
+            {
+                "role": "user",
+                "content": "Y he revisado y todavia no hay nada"
+            },
+            {
+                "role": "assistant",
+                "content": "Es posible que la lista de turnos a\u00fan no haya sido publicada. Te sugiero que sigas revisando la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la facultad de ciencias, ya que ah\u00ed se publica el orden de m\u00e9rito junto con los turnos. Tambi\u00e9n puedes estar atento a cualquier actualizaci\u00f3n en el m\u00f3dulo de Matr\u00edcula en la plataforma intranet-alumnos."
+            },
+            {
+                "role": "user",
+                "content": "Y con quien me puedo comunicar para saber cuando se publicaran, me urge saber a que hora me tocara."
+            },
+            {
+                "role": "assistant",
+                "content": "Te sugiero que contactes directamente a la oficina de estad\u00edstica de la Facultad de Ciencias para obtener mas detalles sobre cuando se publicara la lista de los turnos de matr\u00edcula. Su correo es estadistica_fc@uni.edu.pe. Si necesitas mas ayuda, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "ok y hoy sabado atienden?"
+            },
+            {
+                "role": "assistant",
+                "content": "La oficina de estad\u00edstica (AERA) atiende de lunes a viernes de 8:00 a.m. a 4:00 p.m., por lo que no est\u00e1 abierta hoy s\u00e1bado. Te sugiero que te pongas en contacto con ellos el lunes durante su horario de atenci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Esta bien esperare al lunes."
+            },
+            {
+                "role": "assistant",
+                "content": "Perfecto, el lunes podr\u00e1s contactarlos dentro de su horario de atenci\u00f3n. Si tienes alguna otra duda, no dudes en preguntar."
+            }
+        ]
+    },
+    {
+        "id": "n5",
+        "file_name": "case_n5",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Buenas tardes, en mi boleta de matr\u00edcula estoy matriculado en el curso de biolog\u00eda en la secci\u00f3n B pero la profesora del curso me menciona que estoy en la secci\u00f3n A, no puedo llevar en la secci\u00f3n A porque en ese horario estoy llevando econ\u00f3mia"
+            },
+            {
+                "role": "assistant",
+                "content": "Buenas tardes, para gestionar el cambio de secci\u00f3n, debes comunicarte directamente con la oficina de estad\u00edstica (AERA), ya que ellos son los encargados de manejar los cambios de secci\u00f3n/horario. Es importante que indiques que tienes un conflicto de horario con el curso de Econom\u00eda y que no puedes asistir a la secci\u00f3n A. Ten en cuenta que cualquier cambio estar\u00e1 sujeto a la disponibilidad de plazas. Adem\u00e1s, te recomiendo revisar la p\u00e1gina web de la facultad de ciencias para obtener m\u00e1s informaci\u00f3n sobre el proceso o los formularios correspondientes."
+            },
+            {
+                "role": "user",
+                "content": "y en que parte de la pagina de la facultad puedo encontrar esa informaci\u00f3n"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes encontrar la informaci\u00f3n sobre cambios de secci\u00f3n en la secci\u00f3n Matr\u00edcula y Procedimientos de la p\u00e1gina web de la Facultad de Ciencias: https://fc.uni.edu.pe. Ah\u00ed encontrar\u00e1s manuales, modelos de solicitudes y detalles sobre los tr\u00e1mites acad\u00e9micos."
+            },
+            {
+                "role": "user",
+                "content": "no encontr\u00e9 ninguna publicaci\u00f3n o manual sobre este tramite"
+            },
+            {
+                "role": "assistant",
+                "content": "Si no encontraste informaci\u00f3n en la p\u00e1gina, te recomiendo que contactes directamente con la oficina de estad\u00edstica (AERA) para que te proporcionen detalles sobre el proceso de cambio de secci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "ok lo hare."
+            },
+            {
+                "role": "assistant",
+                "content": "Perfecto, espero que todo se resuelva pronto. Si necesitas m\u00e1s ayuda, no dudes en preguntar. \u00a1Mucho \u00e9xito con tu tr\u00e1mite!"
+            }
+        ]
+    },
+    {
+        "id": "n3",
+        "file_name": "case_n3",
+        "messages": [
+            {
+                "role": "user",
+                "content": "A\u00fan no estoy matr\u00edculado pero veo en el sistema que no hay vacante en el curso de CIRCUITOS ELECTRONICOS ANALOGICOS \u00bfQu\u00e9 debo hacer?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar una vacante adicional para inscribirse en un curso, se recomienda que completes tu matr\u00edcula virtual en los dem\u00e1s cursos y posteriormente te comuniques con la oficina de estad\u00edstica (AERA) para obtener mayor informaci\u00f3n y que su caso sea evaluado."
+            },
+            {
+                "role": "user",
+                "content": "entonces solo sigo con mi matricula en los demas cursos y luego me comunico con Aera para solicitar una vacante adicional al curso de CIRCUITOS ELECTRONICOS ANALOGICOS"
+            },
+            {
+                "role": "assistant",
+                "content": "Correcto, debes continuar con tu matr\u00edcula virtual en los dem\u00e1s cursos y, una vez completada, comunicarte con la oficina de estad\u00edstica (AERA) para solicitar una vacante adicional en el curso de Circuitos Electr\u00f3nicos Anal\u00f3gicos. Tambi\u00e9n te recomiendo revisar la p\u00e1gina web de la Facultad de Ciencias para verificar si hay avisos o formularios espec\u00edficos relacionados con la solicitud de vacantes adicionales."
+            },
+            {
+                "role": "user",
+                "content": "Y que pasa si me niegan la vacante adicional habria forma de hablar con alguien mas."
+            },
+            {
+                "role": "assistant",
+                "content": "No tengo informaci\u00f3n sobre posibles apelaciones en caso de que te nieguen la vacante adicional. Sin embargo, te sugiero comunicarte nuevamente con AERA para entender los motivos de la decisi\u00f3n y verificar si hay otras opciones disponibles."
+            },
+            {
+                "role": "user",
+                "content": "ok :("
+            },
+            {
+                "role": "assistant",
+                "content": "Entiendo que esto puede ser frustrante. Si te niegan la vacante adicional, lo mejor ser\u00eda comunicarte otra vez con AERA para aclarar la situaci\u00f3n. Tambi\u00e9n puedes seguir revisando la p\u00e1gina web de la Facultad de Ciencias por si publican algo que te pueda ayudar. \u00a1Espero que se resuelva pronto! \ud83d\ude0a"
+            },
+            {
+                "role": "user",
+                "content": "esta bien"
+            },
+            {
+                "role": "assistant",
+                "content": "Si necesitas mas ayuda o tienes alguna otra pregunta, no dudes en decirmelo. Estoy aqui para ayudarte."
+            }
+        ]
+    },
+    {
+        "id": "n16",
+        "file_name": "case_n16",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Que tal, quiero que me digas a que hora y que dia me toca la matricula"
+            },
+            {
+                "role": "assistant",
+                "content": "Para conocer la fecha y turno de tu matr\u00edcula, debes consultar la lista de turnos publicada en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias. La lista incluye el orden de m\u00e9rito, que se asigna seg\u00fan el promedio ponderado de los \u00faltimos dos ciclos. Los estudiantes con los promedios m\u00e1s altos reciben los primeros turnos. Puedes acceder a la lista y a m\u00e1s detalles en este enlace: https://fc.uni.edu.pe/documentos/. Adem\u00e1s, tambi\u00e9n puedes verificar tu turno espec\u00edfico en el m\u00f3dulo de Matr\u00edcula dentro de la plataforma intranet-alumnos."
+            },
+            {
+                "role": "user",
+                "content": "y que pasa si se paso y no me pude matricular en mi turno"
+            },
+            {
+                "role": "assistant",
+                "content": "Si no te pudiste matricular en tu turno, deber\u00e1s gestionar tu matr\u00edcula rezagada. Para ello:\n\n1. Genera una orden de pago de S/. 26.00 en el Portal INTRALU.\n\n2. Realiza el pago y sube el comprobante en el formulario disponible en la secci\u00f3n \"MATR\u00cdCULA REZAGADA\" de la p\u00e1gina web de la Facultad.\n\n3. Espera que la oficina de Estad\u00edstica habilite el acceso para realizar la matr\u00edcula.\n\nLa matr\u00edcula rezagada solo se puede hacer dentro de las fechas establecidas. Consulta las fechas aqu\u00ed: https://fc.uni.edu.pe/documentos/."
+            },
+            {
+                "role": "user",
+                "content": "Entiendo tendre cuiado que no se pase mi turno."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Exactamente! Es importante estar atento a las fechas para evitar perder tu turno. Si necesitas ayuda en cualquier momento con el proceso de matr\u00edcula o si tienes alguna otra pregunta, no dudes en escribirme."
+            },
+            {
+                "role": "user",
+                "content": "por ahora eso es todo"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Perfecto! Si necesitas m\u00e1s ayuda en el futuro, no dudes en contactarme. \u00a1Mucho \u00e9xito con tu matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": "n17",
+        "file_name": "case_n17",
+        "messages": []
+    },
+    {
+        "id": "n13",
+        "file_name": "case_n13",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Buenos d\u00edas, en este semestre no me matricular\u00e9 en la UNI porque estar\u00e9 haciendo intercambio estudiantil,\n\nMi escuela tiene conocimiento que estar\u00e9 haciendo intercambio y ya les envi\u00e9 el s\u00edlabo de los cursos, necesito saber \u00bfQu\u00e9 tr\u00e1mite debo realizar para estos casos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si no te matricular\u00e1s este semestre por el intercambio estudiantil, debes realizar la Reserva de Matr\u00edcula para mantener tu condici\u00f3n de estudiante. Presenta la solicitud dirigida al Decano mediante SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matr\u00edcula y dentro del plazo establecido en el calendario acad\u00e9mico. Adjunta los documentos que acrediten tu intercambio, como la carta de aceptaci\u00f3n.\n\nEl modelo de la solicitud est\u00e1 disponible en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la Facultad de Ciencias. Este tr\u00e1mite es gratuito. Si no lo realizas, DIRCE efectuar\u00e1 la reserva autom\u00e1ticamente."
+            },
+            {
+                "role": "user",
+                "content": "Y por cuanto tiempo puedo hacer la reserva?"
+            },
+            {
+                "role": "assistant",
+                "content": "El per\u00edodo m\u00e1ximo para realizar una reserva de matr\u00edcula es de tres (03) a\u00f1os acad\u00e9micos consecutivos o alternos, equivalente a seis (06) periodos acad\u00e9micos."
+            },
+            {
+                "role": "user",
+                "content": "Y luego que retorne y quiera continuar mis estudios que debo hacer?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para continuar tus estudios tras regresar, deber\u00e1s gestionar tu reincorporaci\u00f3n antes de las fechas de matr\u00edcula:\n\n1. Genera la orden de pago para el tr\u00e1mite de reincorporaci\u00f3n en la intranet-alumnos, opci\u00f3n \"Tr\u00e1mites y Pagos\".\n\n2. Realiza el pago en una sucursal del BCP o mediante su aplicaci\u00f3n m\u00f3vil.\n\n3. Env\u00eda la solicitud de reincorporaci\u00f3n a trav\u00e9s de la intranet-alumnos, adjuntando el comprobante de pago.\n\nUna vez aprobada, podr\u00e1s matricularte de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "y como convalido los cr\u00e9ditos llevados en mi intercambio universitario?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a la informaci\u00f3n espec\u00edfica sobre el proceso de convalidaci\u00f3n. Sin embargo, te recomiendo que te pongas en contacto con la oficina de AERA, ellos podr\u00e1n darte mas informaci\u00f3n sobre tu tramite de convalidaci\u00f3n"
+            },
+            {
+                "role": "user",
+                "content": "Cual es su correo de contacto de AERA?"
+            },
+            {
+                "role": "assistant",
+                "content": "El correo de contacto de la oficina de AERA es estadistica_fc@uni.edu.pe."
+            },
+            {
+                "role": "user",
+                "content": "ok"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Perfecto! Si necesitas m\u00e1s ayuda, no dudes en preguntar. \u00a1Buena suerte con tu intercambio!"
+            }
+        ]
+    },
+    {
+        "id": "n12",
+        "file_name": "case_n12",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Buenas noches, soy alumno de riesgo acad\u00e9mico y en este ciclo no quiero matricularme porque los horarios de trabajo no me favorecen, tengo miedo de desaprobrar por 3era vez \u00bfPuedo hacer reserva de matr\u00edcula? ."
+            },
+            {
+                "role": "assistant",
+                "content": "Buenas noches, s\u00ed, puedes solicitar la reserva de matr\u00edcula. Seg\u00fan el procedimiento establecido, debes presentar la solicitud de reserva de matr\u00edcula dirigida al Decano a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matr\u00edcula, dentro de los plazos establecidos en el calendario acad\u00e9mico. En tu solicitud, debes adjuntar los documentos que acrediten tu situaci\u00f3n, como el motivo relacionado con tu trabajo. Adem\u00e1s, ten en cuenta que la reserva de matr\u00edcula no puede exceder los tres a\u00f1os o seis semestres acad\u00e9micos consecutivos o alternos.\n\nSi no presentas esta solicitud, DIRCE realizar\u00e1 la reserva de matr\u00edcula de oficio. Recuerda que el tr\u00e1mite no tiene ning\u00fan costo asociado."
+            },
+            {
+                "role": "user",
+                "content": "ok me puedes enviar el calendario donde estan las fechas"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes consultar el calendario de actividades acad\u00e9micas en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias, a trav\u00e9s del siguiente [enlace](https://fc.uni.edu.pe/documentos/). Ah\u00ed encontrar\u00e1s las fechas importantes relacionadas con la matr\u00edcula y la solicitud de reserva."
+            },
+            {
+                "role": "user",
+                "content": "una consulta antes de volver a matricularme debo pasar tutoria obligatoria?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, antes de poder matricularte, debes haber completado la tutor\u00eda obligatoria si te encuentras en riesgo acad\u00e9mico. Esto es un requisito previo para la matr\u00edcula regular. La tutor\u00eda es obligatoria para los estudiantes que hayan desaprobado una asignatura por segunda vez, y debes asistir a las sesiones programadas antes de poder realizar la matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "tambien tendria que hacer el tramite de reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, si has dejado de estudiar o reservado matr\u00edcula, o si solicitaste tu retiro total en el \u00faltimo per\u00edodo en el que estuviste matriculado, deber\u00e1s realizar el tr\u00e1mite de reincorporaci\u00f3n antes de poder matricularte nuevamente. Este tr\u00e1mite lo puedes hacer a trav\u00e9s de la plataforma intranet-alumnos. Una vez que completes el proceso de reincorporaci\u00f3n y hayas cumplido con los requisitos de tutor\u00eda, podr\u00e1s matricularte de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "ok ya me queda mas claro, gracias."
+            },
+            {
+                "role": "assistant",
+                "content": "De nada, me alegra que la informaci\u00f3n te haya sido \u00fatil. Si tienes m\u00e1s preguntas en el futuro, no dudes en preguntar. \u00a1Mucho \u00e9xito con tu tr\u00e1mite!"
+            }
+        ]
+    },
+    {
+        "id": "n6",
+        "file_name": "case_n6",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Me matricule en el curso de econ\u00f3mica en la secci\u00f3n b por que no habia vacantes en la otras secciones, pero tengo un conflicto de horario en la teoria de curso de calculo integral. Es posible que pueda solicitar un cambio?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para gestionar el cambio de secci\u00f3n, debes comunicarte directamente con la oficina de estad\u00edstica (AERA), ya que ellos son los encargados de manejar los cambios de secci\u00f3n/horario. Es importante que indiques que tienes un conflicto de horario con el curso de Econom\u00eda y que no puedes asistir a la secci\u00f3n A. Ten en cuenta que cualquier cambio estar\u00e1 sujeto a la disponibilidad de plazas. Adem\u00e1s, te recomiendo revisar la p\u00e1gina web de la facultad de ciencias para obtener m\u00e1s informaci\u00f3n sobre el proceso o los formularios correspondientes."
+            },
+            {
+                "role": "user",
+                "content": "pero entonces si no hay vacantes no podria cambiarme?"
+            },
+            {
+                "role": "assistant",
+                "content": "Correcto, si no hay vacantes disponibles en la secci\u00f3n que deseas, no ser\u00e1 posible realizar el cambio de secci\u00f3n. La posibilidad de cambiarte depender\u00e1 de la disponibilidad de plazas en la secci\u00f3n que solicites. Te sugiero que te comuniques directamente con la oficina de AERA para que te den informaci\u00f3n m\u00e1s detallada sobre el proceso y las opciones disponibles."
+            },
+            {
+                "role": "user",
+                "content": "AERA es la unica que puede darme una vacante adicional o tambien podria hablar con el decano?"
+            },
+            {
+                "role": "assistant",
+                "content": "La oficina de AERA es la encargada de gestionar los cambios de secci\u00f3n o horario. Si no hay vacantes disponibles, no ser\u00e1 posible hacer el cambio. Te sugiero que te comuniques con ellos para obtener m\u00e1s detalles sobre las opciones disponibles y ver si hay alguna alternativa que pueda ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "esta bien"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Perfecto! Si tienes alguna otra pregunta o necesitas m\u00e1s ayuda, no dudes en preguntar. \u00a1Suerte con tu gesti\u00f3n!"
+            }
+        ]
+    },
+    {
+        "id": "n15",
+        "file_name": "case_n15",
+        "messages": [
+            {
+                "role": "user",
+                "content": "tengo una duda podria pagar el autoseguro hasta el dia anterior al inicio de la fechas de matricula."
+            },
+            {
+                "role": "assistant",
+                "content": "No, el pago del autoseguro debe realizarse dentro del plazo m\u00e1ximo establecido en el calendario de actividades acad\u00e9micas, antes de las fechas de matr\u00edcula. Si el pago no se realiza a tiempo, es probable que la matr\u00edcula no se pueda realizar de manera regular, y deber\u00e1 gestionarse como matr\u00edcula rezagada. Es importante verificar las fechas de matr\u00edcula en el calendario y realizar el pago antes de esas fechas."
+            },
+            {
+                "role": "user",
+                "content": "Creo que me ire a rezagado entonces, dime como se tramita eso."
+            },
+            {
+                "role": "assistant",
+                "content": "Para tramitar la matr\u00edcula rezagada, sigue estos pasos:\n\n1. Genera la orden de pago: Ingresa a la plataforma Intranet-Alumnos, selecciona \"Tr\u00e1mites y Pagos\" y genera la orden de pago por S/. 26.00 para matr\u00edcula rezagada.\n\n\n\n2. Realiza el pago: Paga en el BCP o mediante la aplicaci\u00f3n m\u00f3vil.\n\n\n\n3. Sube el comprobante de pago: Una vez realizado el pago, sube el comprobante de pago en el formulario que se encuentra en el documento \"MATR\u00cdCULA REZAGADA\". Este formulario est\u00e1 disponible en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias.\n\n\n\n4. Espera la habilitaci\u00f3n del acceso: Luego de subir el comprobante, la oficina de Estad\u00edstica habilitar\u00e1 el acceso en las fechas establecidas en el calendario de actividades acad\u00e9micas para que puedas matricularte en los cursos disponibles."
+            },
+            {
+                "role": "user",
+                "content": "Puedes enviarme el link de la seccion de matricula y procedimientos de pagina de la facultad."
+            },
+            {
+                "role": "assistant",
+                "content": "Claro, aqu\u00ed tienes el enlace a la secci\u00f3n de \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina de la Facultad de Ciencias de la UNI: https://fc.uni.edu.pe/documentos/"
+            },
+            {
+                "role": "user",
+                "content": "Hay alguna manual donde puede encontrar mas informaci\u00f3n de como generar la orden de pago."
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, puedes encontrar m\u00e1s detalles sobre c\u00f3mo generar la orden de pago en el manual de pagos publicado en la p\u00e1gina web de la Facultad de Ciencias. Puedes acceder a la web a trav\u00e9s del siguiente enlace: [Facultad de Ciencias de la UNI](https://fc.uni.edu.pe/documentos/)."
+            },
+            {
+                "role": "user",
+                "content": "okas"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Perfecto! Si tienes alguna otra duda o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Estoy aqu\u00ed para ayudarte!"
+            }
+        ]
+    },
+    {
+        "id": "n11",
+        "file_name": "case_n11",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Buen d\u00eda, el ciclo pasado no me pude matricular ni hice el tr\u00e1mite de reserva de matr\u00edcula, les escribo porque necesito saber \u00bfCu\u00e1l es el procedimiento para solicitar reserva de matr\u00edcula? porque tampoco podr\u00e9 matr\u00edcularme en este per\u00edodo por problemas de salud."
+            },
+            {
+                "role": "assistant",
+                "content": "Buen d\u00eda, para solicitar la reserva de matr\u00edcula, debes presentar una solicitud dirigida al Decano a trav\u00e9s de la plataforma SIGA-DIRCE (intranet-alumnos), antes de la semana oficial de matr\u00edcula, dentro de los plazos establecidos en el calendario de actividades acad\u00e9micas. El modelo de la solicitud est\u00e1 disponible en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" en la p\u00e1gina web de la Facultad de Ciencias.\n\n\n\nDado que mencionas que no podr\u00e1s matricularte por razones de salud, deber\u00e1s adjuntar los documentos que acrediten tu situaci\u00f3n. En caso de no presentar esta solicitud, DIRCE realizar\u00e1 la reserva de matr\u00edcula de oficio. Ten en cuenta que la reserva de matr\u00edcula no exceder\u00e1 (03) a\u00f1os (o seis semestres) acad\u00e9micos consecutivos o alternos. Adem\u00e1s, este tr\u00e1mite no tiene costo asociado."
+            },
+            {
+                "role": "user",
+                "content": "Entonces ya que seria esta la segunda vez que no me matriculo, solo podria solicitar la reserva de matricula por 2 a\u00f1os y un semestre mas?"
+            },
+            {
+                "role": "assistant",
+                "content": "Correcto, dado que ya es la segunda vez que no te matriculas, podr\u00edas solicitar la reserva de matr\u00edcula por un m\u00e1ximo de 2 a\u00f1os y un semestre m\u00e1s, es decir, hasta un total de 3 a\u00f1os (o seis semestres acad\u00e9micos consecutivos o alternos). Recuerda que debes presentar la solicitud antes de la semana oficial de matr\u00edcula y adjuntar los documentos que acrediten tus problemas de salud."
+            },
+            {
+                "role": "user",
+                "content": "Y que tengo que hacer cuando quiera reintegrarme a estudiar?"
+            },
+            {
+                "role": "assistant",
+                "content": "Cuando quieras reintegrarte a estudiar, deber\u00e1s realizar la reincorporaci\u00f3n antes de las fechas de matr\u00edcula, dentro del plazo establecido en el calendario acad\u00e9mico. El procedimiento es el siguiente:\n\n\n\nAccede a la plataforma intranet-alumnos con tu c\u00f3digo UNI y clave.\n\nEn \"Tr\u00e1mites y Pagos\", genera una orden de pago para la reincorporaci\u00f3n.\n\nRealiza el pago en el BCP o utilizando su aplicaci\u00f3n m\u00f3vil.\n\nEnv\u00eda la solicitud de reincorporaci\u00f3n junto con el comprobante de pago a trav\u00e9s de la plataforma intranet-alumnos, en la opci\u00f3n \"Reincorporaci\u00f3n de Estudiantes\" en \"Mis Tr\u00e1mites\".\n\nUna vez aprobada la reincorporaci\u00f3n, podr\u00e1s matricularte de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "y sabes cuento es el costo?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente no tengo acceso al monto exacto de la reincorporaci\u00f3n. Te sugiero que accedas a la plataforma SIGA-DIRCE, donde podr\u00e1s generar la orden de pago y conocer el costo espec\u00edfico."
+            },
+            {
+                "role": "user",
+                "content": "ok lo hare."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Perfecto! Si necesitas m\u00e1s ayuda en el futuro, no dudes en preguntar. \u00a1\u00c9xito con tu tr\u00e1mite de reincorporaci\u00f3n!"
+            }
+        ]
+    },
+    {
+        "id": "n1",
+        "file_name": "case_n1",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Buenas noches, tengo problema para ingresar al sistema, me aparece \"EL PROCESO DE MATR\u00cdCULA HA CULMINADO\","
+            },
+            {
+                "role": "assistant",
+                "content": "Si no lograste inscribirte en tus cursos a tiempo a trav\u00e9s del M\u00f3dulo de Matr\u00edcula UNI en la plataforma Intranet-Alumnos, seg\u00fan los plazos establecidos en el calendario acad\u00e9mico, y el sistema indica que el proceso de matr\u00edcula ha finalizado, deber\u00e1s gestionar tu matr\u00edcula rezagada.\n\nLa matricula"
+            },
+            {
+                "role": "user",
+                "content": "Como tramito mi matricula rezagada?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para realizar la matricula rezagada realiza los siguientes pasos:\n\n1. Efectuar el pago de 26 soles. Para ello, debera genera una order de pago a traves del Portal INTRALU.\n\n2. Subir el comprobante de pago ingresando al formulario cuyo enlace se encuentra dentro del documento \"MATR\u00cdCULA REZAGADA\" publicado dentro de la secci\u00f3n de [MATR\u00cdCULA Y PROCEDIMIENTOS de la pagina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/).\n\n3. Luego, espera a que el personal de la oficina de Estad\u00edstica, dentro de las fechas establecidas para la matr\u00edcula rezagada, proceda a habilitar el acceso a la plataforma de intranet para que estudiante puedas matricularse directamente."
+            },
+            {
+                "role": "user",
+                "content": "Y cuanto demoran en habilitar la matricula en el intranet luego de enviar el comprabante."
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no dispongo de informaci\u00f3n espec\u00edfica sobre el tiempo que suele tomar habilitar la matr\u00edcula despu\u00e9s de enviar el comprobante de pago correspondiente. Te recomendar\u00eda ponerte en contacto directamente con AERA, ya que podr\u00e1n brindarte una orientaci\u00f3n m\u00e1s precisa y detallada sobre el proceso."
+            },
+            {
+                "role": "user",
+                "content": "entiendo, y me podrias brindar mas detalles de como generar la orden de pago."
+            },
+            {
+                "role": "assistant",
+                "content": "Para generar una orden, sigue los siguientes pasos:\n\n    1. Acceder a la plataforma de intranet-alumnos.\n\n    2. Dentro de la plataforma, selecciona la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU.\n\n    3. En el m\u00f3dulo de pagos, selecciona el tr\u00e1mite correspondiente en el men\u00fa desplegable. Despu\u00e9s, haz clic en el bot\u00f3n \"Nuevo\" y siga las indicaciones hasta generar la orden de pago correspondiente.\n\nPara obtener m\u00e1s detalles sobre el proceso para generar una orden de pago a traves de la plataforma, consulta el Manual de Pagos publicado dentro de la secci\u00f3n de \"MATR\u00cdCULA Y PROCEDIMIENTOS\" en la P\u00e1gina Web de la Facultad de Ciencias, puede ingresar a dicha secci\u00f3n a traves del enlace: https://fc.uni.edu.pe/documentos/"
+            },
+            {
+                "role": "user",
+                "content": "muy util, gracias"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra haber podido ayudarte. Si tienes m\u00e1s preguntas o necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1\u00c9xito con tu matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": "n9",
+        "file_name": "case_n9",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Buenos dias, quisiera realizar reserva de matr\u00edcula para este periodo que viene por cuestiones de trabajo .\u00bfQue procedimiento deberia seguir?"
+            },
+            {
+                "role": "assistant",
+                "content": "Buenos d\u00edas, para reservar su matr\u00edcula por trabajo:\n\nAcceda a SIGA-DIRCE (intranet-alumnos) y presente la solicitud de Reserva de Matr\u00edcula dirigida al Decano antes de la semana oficial de matr\u00edcula (revise el calendario acad\u00e9mico).\n\nDescargue el modelo de solicitud desde la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la facultad.\n\nAdjunte documentos que sustenten su situaci\u00f3n laboral.\n\nEl tr\u00e1mite es gratuito. Si no presenta la solicitud y no se matricula, la DIRCE realizar\u00e1 la reserva de oficio."
+            },
+            {
+                "role": "user",
+                "content": "Entonces si podr\u00eda solicitar mi reserva de matricula por motivos de trabajo."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Correcto! Usted puede solicitar la reserva de matr\u00edcula por motivos de trabajo. Aseg\u00farese de presentar la solicitud dirigida al Decano a trav\u00e9s de SIGA-DIRCE antes de la semana oficial de matr\u00edcula, junto con los documentos que acrediten su situaci\u00f3n laboral. Este tr\u00e1mite no tiene costo alguno."
+            },
+            {
+                "role": "user",
+                "content": "y que otros motivos son validos para solicitar la reserva, podria ser un viaje al extranjero?."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Claro que s\u00ed! Adem\u00e1s de motivos laborales, puede solicitar la reserva de matr\u00edcula por razones de salud, trabajo, o de otra naturaleza debidamente sustentada. Un viaje al extranjero podr\u00eda ser considerado v\u00e1lido, siempre que est\u00e9 justificado adecuadamente con la documentaci\u00f3n correspondiente. Por ejemplo, si el viaje est\u00e1 relacionado con estudios, trabajo u otras actividades relevantes, debe adjuntar los documentos que lo respalden al presentar su solicitud a trav\u00e9s de SIGA-DIRCE."
+            },
+            {
+                "role": "user",
+                "content": "me puedes indicar donde esta el calendario donde puedo revisar la fecha para presentar la solicitud."
+            },
+            {
+                "role": "assistant",
+                "content": "El calendario con las fechas para presentar la solicitud de reserva de matr\u00edcula se encuentra publicado en la secci\u00f3n [\"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias](https://fc.uni.edu.pe/documentos/). Te recomiendo que accedas a esa secci\u00f3n para verificar los plazos establecidos en el calendario de actividades acad\u00e9micas."
+            },
+            {
+                "role": "user",
+                "content": "Entiendo, gracias por la informaci\u00f3n."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Si necesita m\u00e1s ayuda, no dude en preguntar."
+            }
+        ]
+    },
+    {
+        "id": "n14",
+        "file_name": "case_n14",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, Este va ser mi segundo ciclo y quiero saber cuando sera la matricula"
+            },
+            {
+                "role": "assistant",
+                "content": "Para los alumnos regulares de pregrado, la matr\u00edcula se realiza en las fechas asignadas seg\u00fan el calendario acad\u00e9mico. Los turnos se asignan seg\u00fan el promedio ponderado de los \u00faltimos dos ciclos. Puedes verificar tu turno en la plataforma intranet-alumnos.\n\nAntes de matricularte, aseg\u00farate de haber pagado el autoseguro estudiantil y de no tener adeudos con la facultad. Si est\u00e1s en riesgo acad\u00e9mico, debes haber completado la tutor\u00eda obligatoria."
+            },
+            {
+                "role": "user",
+                "content": "Donde se encuentra ese calendario de actividades que mencionas, y como pago el autoseguro."
+            },
+            {
+                "role": "assistant",
+                "content": "El calendario de actividades acad\u00e9micas se encuentra en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias de la UNI. Puedes acceder a este calendario mediante el siguiente enlace: https://fc.uni.edu.pe/documentos/.\n\n\n\nPara pagar el autoseguro, debes generar una orden de pago a trav\u00e9s de la plataforma intranet-alumnos. En esta plataforma, selecciona la opci\u00f3n \"Tr\u00e1mites y Pagos\", y luego elige \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable. Despu\u00e9s, haz clic en el bot\u00f3n \"Nuevo\" y sigue las indicaciones hasta generar la orden de pago por el monto de S/. 55.00. El pago lo puedes realizar a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del BCP o en una sucursal de este banco."
+            },
+            {
+                "role": "user",
+                "content": "Hay algun otro requisito que deba cumplir o pago que deba hacer para realizar mi matricula?"
+            },
+            {
+                "role": "assistant",
+                "content": "Adem\u00e1s del pago del autoseguro estudiantil, debes asegurarte de cumplir con los siguientes requisitos para realizar tu matr\u00edcula regular:\n\n\n\n1. No tener adeudos con la Facultad, ya sea por cuestiones econ\u00f3micas o por pr\u00e9stamo de libros u otros materiales en la biblioteca.\n\n2. Si est\u00e1s en riesgo acad\u00e9mico, debes haber completado la tutor\u00eda obligatoria previa a la matr\u00edcula.\n\n\n\nUna vez cumplidos estos requisitos, podr\u00e1s realizar tu matr\u00edcula a trav\u00e9s de la plataforma intranet-alumnos en el turno asignado."
+            },
+            {
+                "role": "user",
+                "content": "que significa estar es riesgo acad\u00e9mico, que haya desaprobado algunos cursos?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, estar en riesgo acad\u00e9mico significa que has desaprobado una asignatura de tu Plan de Estudios por segunda vez. Seg\u00fan el reglamento de la UNI, los estudiantes que desaprueban una asignatura en dos oportunidades son considerados en riesgo acad\u00e9mico. En ese caso, adem\u00e1s de cumplir con otros requisitos para la matr\u00edcula, debes haber completado la tutor\u00eda obligatoria previa a la matr\u00edcula."
+            },
+            {
+                "role": "user",
+                "content": "Ah entiendo, entonces no estoy en riesgo academico. Y como tampoco tengo adeudos, solo tengo que hacer el pago del autoseguro para matricularme verdad?"
+            },
+            {
+                "role": "assistant",
+                "content": "Exactamente, si no est\u00e1s en riesgo acad\u00e9mico y no tienes adeudos, solo necesitas realizar el pago del autoseguro estudiantil para poder completar tu matr\u00edcula. Aseg\u00farate de generar la orden de pago a trav\u00e9s de la plataforma intranet-alumnos y realizar el pago dentro de los plazos establecidos. Una vez hecho eso, podr\u00e1s matricularte en el turno asignado."
+            },
+            {
+                "role": "user",
+                "content": "Existe un plazo maximo para pagar el autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, existe un plazo m\u00e1ximo para pagar el autoseguro estudiantil, el cual est\u00e1 establecido en el calendario de actividades acad\u00e9micas correspondiente al per\u00edodo acad\u00e9mico. Debes realizar el pago dentro de este plazo, de lo contrario, tu matr\u00edcula podr\u00eda no habilitarse en las fechas regulares, y tendr\u00edas que gestionar tu matr\u00edcula como rezagado. Puedes verificar los plazos y detalles del calendario en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias de la UNI."
+            },
+            {
+                "role": "user",
+                "content": "ok, ya la tengo mas clara gracias."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Me alegra que la informaci\u00f3n haya sido \u00fatil. Si tienes alguna otra pregunta o necesitas m\u00e1s detalles, no dudes en preguntar. \u00a1Mucho \u00e9xito con tu matr\u00edcula!"
+            }
+        ]
+    },
+    {
+        "id": "n4",
+        "file_name": "case_n4",
+        "messages": [
+            {
+                "role": "user",
+                "content": "Hola, solicit\u00e9 vacante para el curso de ALGEBRA LINEAL y a\u00fan no tengo respuesta. Con quien puedo cominarme o que puedo hacer?"
+            },
+            {
+                "role": "assistant",
+                "content": "Hola, dado que ya solicitaste la vacante para el curso de \u00c1lgebra Lineal y a\u00fan no has recibido respuesta, te sugiero comunicarte directamente con la oficina de estad\u00edstica (AERA) para obtener m\u00e1s informaci\u00f3n sobre el estado de tu solicitud y que puedan evaluar tu caso."
+            },
+            {
+                "role": "user",
+                "content": "Entiendo, me das su contacto?"
+            },
+            {
+                "role": "assistant",
+                "content": "Puedes comunicarte con la oficina de estad\u00edstica (AERA) a trav\u00e9s de su correo electr\u00f3nico: estadistica_fc@uni.edu.pe. El horario de atenci\u00f3n es de lunes a viernes, de 8:00 a.m. a 4:00 p.m. Espero que puedan ayudarte r\u00e1pidamente con tu solicitud. Si necesitas algo m\u00e1s, no dudes en dec\u00edrmelo. \u00a1Mucho \u00e9xito!"
+            },
+            {
+                "role": "user",
+                "content": "y no podrias brindar el numero de telefono o celular de la oficina"
+            },
+            {
+                "role": "assistant",
+                "content": "Claro, el n\u00famero de tel\u00e9fono de la oficina de estad\u00edstica (AERA) es 481-1070, con los anexos 5011 y 5023. Puedes llamarlos dentro de su horario de atenci\u00f3n, que es de lunes a viernes de 8:00 a.m. a 4:00 p.m."
+            },
+            {
+                "role": "user",
+                "content": "ok"
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1De nada! Si necesitas m\u00e1s ayuda, aqu\u00ed estar\u00e9. \u00a1Espero que todo se resuelva pronto! \ud83d\ude0a"
+            }
+        ]
+    },
+    {
+        "id": "n10",
+        "file_name": "case_n10",
+        "messages": [
+            {
+                "role": "user",
+                "content": "La reserva de matricula, tiene algun costo?"
+            },
+            {
+                "role": "assistant",
+                "content": "No, el tr\u00e1mite de la reserva de matr\u00edcula no tiene ning\u00fan costo asociado."
+            },
+            {
+                "role": "user",
+                "content": "y que debo hacer para solicitarlo?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar la reserva de matr\u00edcula, debes seguir estos pasos:\n\n\n\n1. Ingresar a la plataforma SIGA-DIRCE (intranet-alumnos).\n\n2. Presentar la solicitud de Reserva de Matr\u00edcula dirigida al Decano, utilizando el modelo publicado en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias.\n\n3. Adjuntar los documentos que sustenten la raz\u00f3n invocada (por ejemplo, temas de salud, trabajo u otras razones debidamente justificadas).\n\n\n\nRealiza el tr\u00e1mite antes de la semana oficial de matr\u00edcula y dentro de los plazos establecidos en el calendario de actividades acad\u00e9micas.\n\nSi no presentas esta solicitud y no te matriculas en el per\u00edodo acad\u00e9mico actual, DIRCE realizar\u00e1 la reserva de matr\u00edcula de oficio"
+            },
+            {
+                "role": "user",
+                "content": "y que pasa si no tengo ning\u00fan documento que sustente mi reserva de matricula, podria solicitarla?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, puedes solicitar la reserva de matr\u00edcula incluso si no tienes documentos que la sustenten. Sin embargo, para que proceda la solicitud, es importante adjuntar documentos que acrediten la raz\u00f3n invocada, ya que la reserva est\u00e1 condicionada a razones de salud, trabajo u otras debidamente justificadas.\n\nSi no presentas esta solicitud con la documentaci\u00f3n requerida y tampoco te matriculas en el periodo acad\u00e9mico actual, DIRCE realizar\u00e1 la reserva de matr\u00edcula de oficio. Esto asegura que tu matr\u00edcula quede reservada sin necesidad de sustentarla, pero se aplicar\u00e1 autom\u00e1ticamente."
+            },
+            {
+                "role": "user",
+                "content": "Entonces si no me matriculo no pierdo mi vacante y queda reservada?"
+            },
+            {
+                "role": "assistant",
+                "content": "Correcto, si no te matriculas en el per\u00edodo acad\u00e9mico actual y tampoco presentas una solicitud de reserva de matr\u00edcula, DIRCE realizar\u00e1 de oficio la reserva de tu matr\u00edcula. Esto significa que no perder\u00e1s tu vacante, ya que la reserva se activar\u00e1 autom\u00e1ticamente. Sin embargo, recuerda que el per\u00edodo de reserva de matr\u00edcula no puede exceder los tres a\u00f1os (o seis semestres) acad\u00e9micos consecutivos o alternos."
+            },
+            {
+                "role": "user",
+                "content": "ok lo tomare en cuenta."
+            },
+            {
+                "role": "assistant",
+                "content": "\u00a1Perfecto! Si necesitas m\u00e1s informaci\u00f3n o ayuda, no dudes en preguntar. \u00a1Suerte con el proceso!"
+            }
+        ]
+    }
+]

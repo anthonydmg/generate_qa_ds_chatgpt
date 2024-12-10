@@ -1,132 +1,134 @@
-1. ¿Cuál es el primer paso que debe seguir un estudiante para acceder a la plataforma INTRALU?
-2. ¿Qué debe hacer un estudiante primero para entrar a la plataforma INTRALU?
-3. ¿Cómo inicia un estudiante el proceso para acceder a la plataforma INTRALU?
-4. ¿Qué pasos iniciales debe seguir un estudiante para poder usar INTRALU?
-5. ¿Cuál es el primer procedimiento que un estudiante debe realizar para ingresar a INTRALU?
-6. ¿Cómo puede un estudiante comenzar a usar la plataforma INTRALU?
-7. ¿Qué procedimiento inicial debe seguir un estudiante para entrar a INTRALU?
-8. ¿Podrías indicarme cuál es el primer paso para que un estudiante acceda a INTRALU?
-9. ¿Qué información puede consultar un estudiante en la plataforma INTRALU?
-10. ¿Qué tipo de información está disponible para los estudiantes en INTRALU?
-11. ¿Qué información específica pueden consultar los estudiantes en INTRALU?
-12. ¿Qué tipo de consultas puede hacer un estudiante en INTRALU?
-13. ¿Qué datos puede revisar un alumno en INTRALU?
-14. ¿Cuáles son las consultas que un estudiante puede hacer en INTRALU?
-15. ¿Me puedes decir qué información tiene acceso un estudiante en la plataforma INTRALU?
-16. ¿Qué tipo de solicitudes puede gestionar un estudiante a través de INTRALU?
-17. ¿Qué tipo de trámites puede gestionar un estudiante usando INTRALU?
-18. ¿Cuáles son las solicitudes que un estudiante puede manejar a través de INTRALU?
-19. ¿Qué gestiones puede realizar un estudiante en INTRALU?
-20. ¿Qué tipos de solicitudes están disponibles para los estudiantes en la plataforma INTRALU?
-21. ¿Qué gestiones puede hacer un alumno a través de la plataforma INTRALU?
-22. ¿Cuáles son las solicitudes que se pueden manejar en INTRALU?
-23. ¿Podrías explicarme qué tipo de solicitudes puede gestionar un estudiante en INTRALU?
-24. ¿Qué datos necesita un estudiante para iniciar sesión en la plataforma INTRALU?
-25. ¿Qué información requiere un estudiante para acceder a INTRALU?
-26. ¿Cuáles son los datos necesarios para que un estudiante inicie sesión en INTRALU?
-27. ¿Qué datos tiene que ingresar un estudiante para poder entrar a la plataforma INTRALU?
-28. ¿Qué información debo tener a mano para iniciar sesión en INTRALU?
-29. ¿Qué datos son imprescindibles para que un estudiante acceda a INTRALU?
-30. ¿Qué información se requiere para que un estudiante inicie sesión en INTRALU?
-31. ¿Cuáles son los datos necesarios para acceder a la plataforma INTRALU?
-32. ¿Qué credenciales debe tener un estudiante para ingresar a INTRALU?
-33. ¿Qué datos tiene que proporcionar un alumno para poder iniciar sesión en INTRALU?
-34. ¿Qué enlace directo puede utilizar un estudiante para acceder a INTRALU?
-35. ¿Cuál es el enlace directo para que los estudiantes accedan a INTRALU?
-36. ¿Dónde puedo encontrar el link para entrar a la plataforma INTRALU?
-37. ¿Qué URL debo usar para acceder directamente a INTRALU?
-38. ¿Hay un enlace específico que los estudiantes puedan usar para ingresar a INTRALU?
-39. ¿Cuál es el link directo que un estudiante necesita para acceder a INTRALU?
-40. ¿Qué funcionalidades ofrece INTRALU en relación con los cursos matriculados?
-41. ¿Qué características tiene INTRALU para gestionar los cursos en los que un estudiante está matriculado?
-42. ¿Cuáles son las funcionalidades que ofrece INTRALU respecto a los cursos matriculados?
-43. ¿Qué herramientas proporciona INTRALU para los cursos en los que estoy inscrito?
-44. ¿Qué opciones tiene un estudiante en INTRALU relacionadas con sus cursos matriculados?
-45. ¿Podrías explicarme qué funcionalidades tiene INTRALU en cuanto a los cursos que he matriculado?
-46. ¿Qué opciones de pago tiene INTRALU para los estudiantes?
-47. ¿Cuáles son las funcionalidades de INTRALU relacionadas con los pagos?
-48. ¿Qué servicios de pago están disponibles en la plataforma INTRALU?
-49. ¿Qué características ofrece INTRALU en cuanto a la gestión de pagos?
-50. ¿Qué tipo de funcionalidades de pago pueden encontrar los estudiantes en INTRALU?
-51. ¿Es posible acceder a INTRALU directamente a través de un enlace?
-52. ¿Se puede acceder a la plataforma INTRALU mediante un enlace directo?
-53. ¿Hay un enlace directo para ingresar a INTRALU?
-54. ¿Puedo entrar a INTRALU directamente usando un enlace?
-55. ¿Me puedes confirmar si existe un enlace directo para acceder a INTRALU?
-56. ¿Qué constancias están disponibles para solicitar en INTRALU?
-57. ¿Qué tipos de certificados puede pedir un estudiante en la plataforma INTRALU?
-58. ¿Cuáles son las constancias que se pueden gestionar a través de INTRALU?
-59. ¿Qué constancias puede obtener un estudiante usando la plataforma INTRALU?
-60. ¿Qué opciones de pago tiene un estudiante en INTRALU?
-61. ¿Podrías decirme qué tipo de pagos se pueden realizar en INTRALU?
-62. ¿Dónde puede un estudiante encontrar más detalles sobre el proceso de pagos en INTRALU?
-63. ¿Dónde puedo encontrar información adicional sobre los pagos en INTRALU?
-64. ¿Qué recursos están disponibles para que un estudiante se informe sobre el proceso de pagos en INTRALU?
-65. ¿Dónde se pueden consultar más detalles sobre cómo funcionan los pagos en INTRALU?
-66. ¿Hay algún lugar específico donde los estudiantes puedan obtener más información sobre los pagos en INTRALU?
-67. ¿Dónde puede un estudiante buscar información detallada sobre el proceso de pagos en la plataforma INTRALU?
-68. ¿Qué documento se recomienda consultar para obtener más detalles sobre el proceso de pagos en la Facultad de Ciencias?
-69. ¿Cuál es el documento que se sugiere revisar para más información sobre los pagos en la Facultad de Ciencias?
-70. ¿Qué documento debería consultar un estudiante para entender mejor el proceso de pagos en la Facultad de Ciencias?
-71. ¿Hay algún documento específico que se recomiende para obtener detalles sobre el proceso de pagos en la Facultad de Ciencias?
-72. ¿Qué información se puede encontrar en el documento recomendado sobre el proceso de pagos en la Facultad de Ciencias?
-73. ¿Me podrías indicar qué documento es útil para conocer más sobre el proceso de pagos en la Facultad de Ciencias?
-74. Para acceder a INTRALU, ¿cuál es el primer paso recomendado?
-75. ¿Qué acción inicial debe tomar un estudiante para poder usar la plataforma INTRALU?
-76. ¿Qué opción debe seleccionar un estudiante en la plataforma intranet-alumnos para acceder a INTRALU?
-77. ¿Qué opción tengo que elegir en la intranet para acceder a INTRALU?
-78. ¿Cuál es la opción que un estudiante debe seleccionar en la plataforma intranet-alumnos para entrar a INTRALU?
-79. ¿Qué debo seleccionar en la intranet para poder acceder a INTRALU?
-80. ¿Cómo puede un estudiante acceder a INTRALU desde la intranet? ¿Qué opción debe seleccionar?
-81. ¿Qué información debe proporcionar el estudiante para iniciar sesión en INTRALU?
-82. Al iniciar sesión en INTRALU, ¿qué información debe proporcionar el alumno?
-83. ¿Cuáles son los requisitos de información para que un estudiante acceda a INTRALU?
-84. ¿Qué detalles son necesarios para que un estudiante inicie sesión en la plataforma INTRALU?
-85. ¿Qué información necesita un estudiante para loguearse en INTRALU?
-86. ¿Qué datos debo tener a mano para acceder a INTRALU?
-87. ¿Qué tipo de información académica puede consultar el estudiante en INTRALU?
-88. ¿Qué tipo de datos académicos puede revisar un estudiante en INTRALU?
-89. ¿Qué información relacionada con su carrera puede ver un estudiante en INTRALU?
-90. ¿Qué tipo de información puede consultar un estudiante en INTRALU sobre sus cursos?
-91. ¿Qué información está disponible para que un estudiante consulte sobre sus cursos en INTRALU?
-92. ¿Qué tipo de datos puede revisar un estudiante en INTRALU en relación a sus cursos?
-93. ¿Qué información puede encontrar un estudiante en INTRALU acerca de sus cursos?
-94. ¿Qué funcionalidades ofrece INTRALU para la gestión de pagos y solicitudes?
-95. ¿Qué herramientas proporciona INTRALU para manejar pagos y solicitudes?
-96. ¿Cuáles son las funcionalidades que INTRALU ofrece para gestionar pagos y solicitudes?
-97. ¿Qué opciones de gestión de pagos y solicitudes tiene un estudiante en INTRALU?
-98. ¿Qué características tiene INTRALU para ayudar con la gestión de pagos y solicitudes?
-99. ¿Qué funcionalidades ofrece INTRALU en relación a los certificados que un estudiante puede gestionar?
-100. ¿Qué funciones tiene INTRALU para que un estudiante gestione sus certificados?
-101. ¿Qué opciones ofrece INTRALU a los estudiantes para manejar sus certificados?
-102. ¿Qué tipo de funcionalidades pueden utilizar los estudiantes en INTRALU para gestionar sus certificados?
-103. ¿Qué herramientas proporciona INTRALU a los estudiantes para la gestión de sus certificados?
-104. Me gustaría saber qué certificados están disponibles para solicitar en la plataforma INTRALU.
-105. ¿Podrías informarme sobre los certificados que se pueden solicitar en INTRALU?
-106. ¿Cómo puede un estudiante realizar pagos para trámites a través de INTRALU?
-107. ¿Cuál es el procedimiento que debe seguir un estudiante para hacer pagos de trámites en INTRALU?
-108. ¿Cómo se realizan los pagos para trámites en INTRALU?
-109. ¿Qué pasos debe seguir un estudiante para pagar trámites mediante INTRALU?
-110. ¿Podrías explicarme cómo un estudiante puede hacer pagos para sus trámites en INTRALU?
-111. ¿Hay alguna guía sobre cómo un estudiante puede realizar pagos a través de INTRALU?
-112. ¿En qué parte de INTRALU puedo encontrar información sobre el proceso de pagos?
-113. ¿Podrías indicarme dónde encontrar información sobre el proceso de pagos en INTRALU?
-114. ¿Qué sección de INTRALU contiene información sobre el proceso de pagos?
-115. ¿Dónde puedo encontrar el enlace para acceder directamente a INTRALU?
-116. ¿Me podrías proporcionar el enlace directo para que un estudiante acceda a INTRALU?
-117. ¿Qué enlace debería utilizar un estudiante para acceder a la plataforma de INTRALU?
-118. ¿Podrías darme el enlace directo para acceder a la plataforma INTRALU?
-119. ¿Qué trámites están disponibles para que un estudiante gestione en INTRALU?
-120. ¿Cuáles son los tipos de trámites que un estudiante puede realizar a través de INTRALU?
-121. ¿Podrías decirme qué trámites puede manejar un estudiante en INTRALU?
-122. ¿Qué tipo de trámites puede gestionar el estudiante en INTRALU relacionados con su matrícula?
-123. ¿Qué trámites de matrícula puede realizar un estudiante en INTRALU?
-124. Me gustaría saber qué gestiones de matrícula están disponibles en INTRALU.
-125. ¿Cuáles son los trámites relacionados con la matrícula que un estudiante puede hacer en INTRALU?
-126. ¿Qué tipo de gestiones sobre matrícula puede llevar a cabo un estudiante en INTRALU?
-127. ¿Qué trámites puede gestionar un estudiante en INTRALU en relación a su matrícula?
-128. ¿En qué lugar puede un estudiante encontrar el manual de pagos para INTRALU?
-129. ¿Dónde se puede acceder al manual de pagos para obtener más información sobre el proceso en INTRALU?
-130. ¿Qué sitio web o enlace tiene el manual de pagos que un estudiante necesita para INTRALU?
-131. ¿Me podrías indicar dónde un estudiante puede consultar el manual de pagos para INTRALU?
-132. ¿Dónde puede un estudiante revisar el manual de pagos para entender mejor el proceso en INTRALU?
+1. ¿Qué pasos debe seguir un estudiante para acceder a la plataforma INTRALU desde la intranet de alumnos?
+2. ¿Cuáles son los pasos que tengo que seguir para entrar a INTRALU desde la intranet?
+3. ¿Podrías indicarme cómo un estudiante puede acceder a la plataforma INTRALU desde la intranet?
+4. ¿Qué procedimiento debe seguir un alumno para ingresar a INTRALU a través de la intranet?
+5. ¿Cómo se accede a INTRALU desde la intranet? Necesito saber los pasos.
+6. ¿Qué datos necesita un estudiante para iniciar sesión en la plataforma INTRALU?
+7. ¿Qué información debo tener para loguearme en INTRALU?
+8. ¿Cuáles son los datos requeridos para que un estudiante inicie sesión en la plataforma INTRALU?
+9. ¿Qué datos necesita un alumno para poder acceder a su cuenta en INTRALU?
+10. ¿Qué información tengo que ingresar para iniciar sesión en INTRALU?
+11. ¿Qué opciones están disponibles en la plataforma INTRALU para consultar información académica?
+12. ¿Qué tipo de información académica puedo consultar en INTRALU?
+13. ¿Cuáles son las opciones que ofrece INTRALU para que los estudiantes revisen su información académica?
+14. ¿Qué funcionalidades tiene INTRALU para acceder a datos académicos?
+15. ¿Qué puedo encontrar en INTRALU en términos de información académica?
+16. ¿Qué tipo de constancias puede gestionar un estudiante a través de la plataforma INTRALU?
+17. ¿Qué constancias puedo obtener desde INTRALU?
+18. ¿Qué tipos de documentos puede gestionar un estudiante en la plataforma INTRALU?
+19. ¿Cuáles son las constancias que un alumno puede tramitar a través de INTRALU?
+20. ¿Qué constancias están disponibles para gestionar en INTRALU?
+21. ¿Qué funcionalidades ofrece INTRALU relacionadas con los pagos de trámites estudiantiles?
+22. ¿Qué opciones de pago hay en INTRALU para trámites estudiantiles?
+23. ¿Cuáles son las funcionalidades de INTRALU que permiten gestionar pagos de trámites?
+24. ¿Qué servicios relacionados con pagos de trámites ofrece la plataforma INTRALU?
+25. ¿Cómo puedo realizar pagos de trámites estudiantiles en INTRALU?
+26. ¿Cómo puede un estudiante consultar su avance curricular en la plataforma INTRALU?
+27. ¿Qué pasos debo seguir para ver mi avance curricular en INTRALU?
+28. ¿Cómo puede un alumno revisar su progreso académico en la plataforma INTRALU?
+29. ¿Dónde encuentro la opción para ver mi avance curricular en INTRALU?
+30. ¿Qué información incluye la ficha académica disponible en INTRALU?
+31. ¿Qué datos puedo encontrar en mi ficha académica en INTRALU?
+32. ¿Qué información está contenida en la ficha académica que se puede consultar en INTRALU?
+33. ¿Cuáles son los detalles que incluye la ficha académica en INTRALU?
+34. ¿Qué aspectos se reflejan en la ficha académica disponible en INTRALU?
+35. ¿Qué enlace directo puede utilizar un estudiante para acceder a la plataforma INTRALU?
+36. ¿Cuál es el enlace directo para entrar a INTRALU?
+37. ¿Dónde puedo encontrar el link para acceder a la plataforma INTRALU?
+38. ¿Qué URL debo usar para acceder directamente a INTRALU?
+39. ¿Me puedes dar el enlace para ingresar a INTRALU?
+40. ¿Qué trámites relacionados con la matrícula pueden realizarse a través de INTRALU?
+41. ¿Qué trámites de matrícula puedo hacer en INTRALU?
+42. ¿Cuáles son los trámites relacionados con la matrícula que están disponibles en INTRALU?
+43. ¿Qué gestiones sobre matrícula se pueden realizar a través de la plataforma INTRALU?
+44. ¿Qué rol cumple el correo institucional en el acceso a la plataforma INTRALU?
+45. ¿Cómo influye el correo institucional en el acceso a INTRALU?
+46. ¿Qué importancia tiene el correo institucional para ingresar a la plataforma INTRALU?
+47. ¿Qué función tiene el correo institucional en el acceso a INTRALU?
+48. ¿Por qué es necesario el correo institucional para acceder a INTRALU?
+49. ¿Qué información sobre los cursos matriculados puede consultar un estudiante en INTRALU?
+50. ¿Qué datos puedo revisar sobre mis cursos matriculados en INTRALU?
+51. ¿Qué información relacionada con mis cursos matriculados está disponible en INTRALU?
+52. ¿Qué detalles sobre los cursos que tengo matriculados puedo consultar en INTRALU?
+53. ¿Qué puedo ver en INTRALU acerca de mis cursos matriculados?
+54. ¿Qué manual se recomienda consultar para obtener más detalles sobre el proceso de pagos en INTRALU?
+55. ¿Qué manual debo revisar para entender mejor el proceso de pagos en INTRALU?
+56. ¿Cuál es el manual recomendado para obtener información sobre los pagos en INTRALU?
+57. ¿Dónde puedo encontrar un manual que explique el proceso de pagos en INTRALU?
+58. ¿Qué documento me sugieren consultar para más detalles sobre los pagos en INTRALU?
+59. ¿Qué tipo de credenciales debo tener para loguearme en INTRALU?
+60. ¿Qué información necesito para acceder a INTRALU como estudiante?
+61. ¿Qué datos de acceso son necesarios para que un estudiante pueda iniciar sesión en INTRALU?
+62. ¿Qué opciones de autenticación están disponibles para que un estudiante acceda a INTRALU?
+63. ¿Qué métodos de autenticación puedo usar para entrar a INTRALU?
+64. ¿Cuáles son las opciones de acceso disponibles para estudiantes en la plataforma INTRALU?
+65. ¿Cómo puede un estudiante autenticar su acceso a INTRALU? ¿Qué opciones hay?
+66. ¿Qué información académica puede consultar un estudiante en la plataforma INTRALU?
+67. ¿Qué datos académicos están disponibles para que los estudiantes consulten en la plataforma INTRALU?
+68. ¿Qué información sobre mi rendimiento académico puedo revisar en INTRALU?
+69. ¿Qué trámites relacionados con certificados puede gestionar un estudiante en INTRALU?
+70. ¿Qué certificados puedo gestionar como estudiante en INTRALU?
+71. ¿Qué trámites de certificados están disponibles para los estudiantes en la plataforma INTRALU?
+72. ¿Qué tipo de gestión de certificados puede hacer un estudiante en INTRALU?
+73. ¿Cuáles son los tipos de pagos que se pueden gestionar en la plataforma INTRALU?
+74. ¿Qué opciones de pago están disponibles para los estudiantes en INTRALU?
+75. ¿Qué tipos de transacciones financieras puede realizar un estudiante en INTRALU?
+76. ¿Qué información incluye el avance curricular que puede consultar un estudiante en INTRALU?
+77. ¿Qué detalles contiene el avance curricular que puedo ver en INTRALU?
+78. ¿Qué información sobre mi progreso académico se incluye en el avance curricular en INTRALU?
+79. ¿Qué aspectos del avance curricular puede consultar un estudiante en INTRALU?
+80. ¿Qué datos se reflejan en el avance curricular que un estudiante puede revisar en INTRALU?
+81. ¿Qué documentos académicos puede generar o consultar un estudiante en INTRALU?
+82. ¿Qué documentos académicos puedo obtener o revisar en INTRALU?
+83. ¿Cuáles son los documentos que un estudiante puede generar en la plataforma INTRALU?
+84. ¿Qué tipo de documentos académicos están disponibles para consulta en INTRALU?
+85. ¿Qué debe hacer un estudiante si no recuerda su clave de acceso para ingresar a INTRALU?
+86. ¿Qué pasos debo seguir si olvidé mi clave para acceder a INTRALU?
+87. ¿Cómo puede un estudiante recuperar su clave de acceso a INTRALU?
+88. ¿Qué procedimiento debe seguir un estudiante que no recuerda su clave para entrar a INTRALU?
+89. ¿Qué procedimiento debe seguir un estudiante para generar una orden de pago en INTRALU?
+90. ¿Cómo puedo generar una orden de pago en INTRALU?
+91. ¿Qué debo hacer para generar una orden de pago en INTRALU?
+92. ¿Qué funcionalidades relacionadas con el carnet universitario están disponibles en INTRALU?
+93. ¿Qué opciones sobre el carnet universitario puedo encontrar en INTRALU?
+94. ¿Qué funcionalidades tiene INTRALU en relación al carnet universitario?
+95. ¿Qué puedo hacer respecto a mi carnet universitario en la plataforma INTRALU?
+96. ¿Qué detalles puedo consultar sobre mis cursos en INTRALU?
+97. ¿Qué aspectos de mis cursos matriculados puede ver un estudiante en INTRALU?
+98. ¿Podrías indicarme el link que necesito para acceder a la plataforma INTRALU?
+99. ¿Dónde encuentro el enlace para acceder a INTRALU?
+100. ¿Qué URL debo seguir para ingresar a la plataforma INTRALU?
+101. ¿Cuáles son las credenciales que debo tener para acceder a la plataforma INTRALU?
+102. ¿Qué información necesita un estudiante para loguearse en INTRALU?
+103. ¿Qué tipo de usuario y contraseña se requiere para entrar a INTRALU?
+104. ¿Cuáles son las opciones que tienen los estudiantes para autenticar su acceso a INTRALU?
+105. ¿Qué alternativas de inicio de sesión existen en la plataforma INTRALU?
+106. ¿Cómo puedo autenticarme para ingresar a INTRALU?
+107. ¿Qué tipo de información académica está disponible para los estudiantes en INTRALU?
+108. ¿Qué datos académicos puedo revisar en la plataforma INTRALU?
+109. ¿Cuáles son las consultas académicas que un estudiante puede hacer en INTRALU?
+110. ¿Qué procesos relacionados con certificados puedo realizar en INTRALU?
+111. ¿Cuáles son los trámites que un estudiante puede llevar a cabo en INTRALU en cuanto a certificados?
+112. ¿Qué pagos están habilitados para que un estudiante realice en INTRALU?
+113. ¿Cuáles son las opciones de pago que puedo gestionar desde la plataforma INTRALU?
+114. ¿Qué pagos puedo efectuar a través de INTRALU?
+115. ¿De qué manera puede un estudiante revisar su progreso curricular en INTRALU?
+116. ¿Cómo puedo ver mi avance académico en la plataforma INTRALU?
+117. ¿Qué certificados o constancias puedo obtener en INTRALU?
+118. ¿Qué documentos puedo generar en INTRALU relacionados con mi trayectoria académica?
+119. ¿Qué pasos debe seguir un estudiante si olvida su contraseña de DIRCE?
+120. ¿Qué hacer si no tengo mi clave de acceso de DIRCE?
+121. ¿Qué procedimiento debo seguir si olvidé mi contraseña proporcionada por DIRCE?
+122. ¿Qué funcionalidades de INTRALU están relacionadas con la gestión de pagos y trámites administrativos?
+123. ¿Qué características de INTRALU permiten gestionar pagos y trámites administrativos?
+124. ¿Cuáles son las funcionalidades de INTRALU que están vinculadas a la administración de pagos?
+125. ¿Qué herramientas ofrece INTRALU para manejar pagos y trámites administrativos?
+126. ¿Qué opciones de gestión de pagos y trámites administrativos hay en INTRALU?
+127. ¿Qué datos se encuentran en la ficha académica que puedo revisar en INTRALU?
+128. ¿Qué tipo de información académica contiene la ficha que un estudiante puede consultar en INTRALU?
+129. ¿Qué detalles incluye la ficha académica accesible para los estudiantes en INTRALU?
+130. ¿Dónde puede un estudiante encontrar más detalles sobre el proceso de pagos en INTRALU?
+131. ¿En qué sección de INTRALU puedo encontrar información adicional sobre los pagos?
+132. ¿Dónde busco más información sobre cómo realizar pagos en INTRALU?
+133. ¿Qué recursos están disponibles para que un estudiante se informe sobre el proceso de pagos en INTRALU?
+134. ¿Dónde puedo consultar más detalles sobre el procedimiento de pagos en la plataforma INTRALU?

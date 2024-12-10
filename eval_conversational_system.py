@@ -7,6 +7,7 @@ import re
 import time
 from unsloth import FastLanguageModel
 import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM, LlamaForCausalLM
 
 def conversation_to_text(messages):
     txt = ""
@@ -37,7 +38,7 @@ class EmbeddingEncoder:
         return embeddings
 
 class Retriever:
-    def init(self, path_df_kb):
+    def __init__(self, path_df_kb):
         self.model_emb = EmbeddingEncoder()
         self.df_kb = pd.read_csv(path_df_kb)
         self.df_kb["embedding"] = self.df_kb['embedding'].apply(ast.literal_eval)
@@ -45,7 +46,6 @@ class Retriever:
     def get_best_texts_by_relatedness(
         self,
         query,
-        df,
         context = None,
         relatedness_fn=lambda x, y: 1 - spatial.distance.cosine(x, y),
         top_n = 5,
@@ -54,22 +54,22 @@ class Retriever:
         weigthed_embeddings = {"query": 0.68, "context": 0.32} 
     ):
         """Returns a list of strings and relatednesses, sorted from most related to least."""
-        query_embedding = self.create_embedding(query, self.embedding_model)
+        query_embedding = self.create_embedding(query)
         
         if context is not None:
-            context_embedding = self.create_embedding(context, self.embedding_model)
+            context_embedding = self.create_embedding(context)
 
             strings_and_relatednesses = [
                 (row["text"], (weigthed_embeddings["query"]* relatedness_fn(query_embedding, row["embedding"]) + 
                                weigthed_embeddings["context"] * relatedness_fn(context_embedding, row["embedding"])
                                ) * weighted_source[row["type_source"]])
-                for i, row in df.iterrows()
+                for i, row in self.df_kb.iterrows()
             ]
         
         else:
             strings_and_relatednesses = [
                 (row["text"], relatedness_fn(query_embedding, row["embedding"]) * weighted_source[row["type_source"]])
-                for i, row in df.iterrows()
+                for i, row in self.df_kb.iterrows()
             ]
         
         strings_and_relatednesses.sort(key=lambda x: x[1], reverse=True)
@@ -81,16 +81,28 @@ class Retriever:
             return embeddings
 
 class Contextualizer:
-    def init(self, model_name="anthonymg/FineContextualizeLlama-3.2-1B"):
+    def __init__(self, model_name="anthonymg/FineContextualizeLlama-3.2-1B"):
+        #self.device = torch.device("cpu")
+        #self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        #self.model = LlamaForCausalLM.from_pretrained(
+        #        model_name,
+        #        load_in_4bit=False,  # No usar compresión en 4 bits
+        #        device_map="cpu",    # Cargar en CPU explícitamente
+        #    ).to(self.device)
+
         model, tokenizer = FastLanguageModel.from_pretrained(
             model_name = model_name,
             max_seq_length = 2048,
             load_in_4bit = True,
-            dtype = None
+            dtype = None,
+           # device_map="cpu"
         )
         model = FastLanguageModel.for_inference(model)
         self.model = model
+        #self.model = self.model.to("cpu")
+        print(f"Modelo cargado en: {next(self.model.parameters()).device}")
         self.tokenizer = tokenizer
+
 
     def generate(self, query, dialog_context):
         self.model.eval()  # Poner el modelo en modo de evaluación
@@ -103,7 +115,7 @@ class Contextualizer:
 
             outputs = self.model.generate(
                 **inputs,
-                max_new_tokens = 256,
+                max_length = 256,
                 use_cache = True)
 
             output_text = self.tokenizer.decode(outputs[0, len(inputs[0]):], skip_special_tokens = True)
@@ -126,7 +138,7 @@ Dado el historial de la conversación y la consulta actual del usuario, reformul
         return text 
 
 class AnswerGenerator:
-    def init(self, model_name="anthonymg/FineAeritoLlama-3.2-1B"):
+    def __init__(self, model_name="anthonymg/FineAeritoLlama-3.2-1B"):
         model, tokenizer = FastLanguageModel.from_pretrained(
             model_name = model_name,
             max_seq_length = 4096,
@@ -155,7 +167,7 @@ class AnswerGenerator:
         return output_text
     
     def formatting_prompt(self, user_message, dialog_context, retrieved_texts):
-        retrieved_information = "\n\n".join([ text["text"] for text in retrieved_texts[:5]])
+        retrieved_information = "\n\n".join([ text for text in retrieved_texts[:5]])
 
         template_prompt = """### Contexto de la conversación:
 {}
@@ -190,7 +202,7 @@ class AIAssistant:
         self.recovered_texts = [None]
         self.reformulated_question = [None]
         self.retriever = Retriever(path_df_kb)
-        self.contextualizer = Contextualizer(model_name = contextualization_model)
+        #self.contextualizer = Contextualizer(model_name = contextualization_model)
         self.answer_generator = AnswerGenerator()
         self.history = []
         self.recovered_texts = []
@@ -227,8 +239,9 @@ class AIAssistant:
 
     def generate_response(self, message):
         query = message
-        reformulated_query = self.get_reformulated_contextual_query(query = query, history_chat_messages = self.history)
-
+        #reformulated_query = self.get_reformulated_contextual_query(query = query, history_chat_messages = self.history)
+        #print("reformulated_query:", reformulated_query)
+        reformulated_query = query
         info_texs, relatednesses = self.retriever.get_best_texts_by_relatedness(reformulated_query)
         
         print("\nrelatednesses:", relatednesses)
@@ -242,9 +255,9 @@ class AIAssistant:
                 print(f"\nSimilarity lower than threshold {relatednesses[i]}, idx {cut_idx}")
                 break
 
-        info_texs = info_texs[:cut_idx]
+        info_texs = list(info_texs[:cut_idx])
         relatednesses = relatednesses[:cut_idx]
-
+        
         num_tokens_context_dialog =  self.contar_tokens_history(self.history)
         print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
         max_tokens_response = 850
@@ -281,7 +294,10 @@ class AIAssistant:
             return self.history
         
 if __name__ == "__main__":
+    query = "hola, como realizo la matricula regular"
     assistant = AIAssistant()
-    query = "hola"
-    ai_response = assistant.answer_generator(query)
+    #contextualizer = Contextualizer()
+    #reformated_query = contextualizer.generate(query=query, dialog_context= [])
+    #print("reformated_query:", reformated_query)
+    ai_response = assistant.generate_response(query)
     print(ai_response)

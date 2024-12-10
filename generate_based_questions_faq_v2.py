@@ -86,6 +86,44 @@ Preguntas y Respuestas:```
     return prompt
 
 
+def get_prompt_gen_questions_based_faq_refactor(faqs):
+    questions_answer_list = list_json_to_txt(faqs)
+    prompt = f"""Se te proporcionará una lista de preguntas y respuestas frecuentes sobre temas de interés para estudiantes de pregrado de la Facultad de Ciencias de la Universidad Nacional de Ingeniería, delimitadas por tres comillas invertidas. Tu tarea es generar **8 preguntas derivadas y únicas** para cada par de pregunta y respuesta, siguiendo los criterios detallados a continuación:
+
+### **Criterios:**
+
+1. **Cobertura de contenido:**  
+   - Las preguntas generadas deben abordar tanto aspectos generales como detalles específicos del tema.  
+   - Cada pregunta debe ser formulada de modo que pueda responderse únicamente con la información contenida en la respuesta original.  
+
+2. **Variedad en la formulación:**  
+   - Incluye diferentes tipos de preguntas: condicionales, de inferencia, de comparación, de causa y efecto, de definición, etc.  
+   - Varía la persona gramatical (primera o tercera persona) y el nivel de formalidad del lenguaje (formal, semiformal o informal).  
+   - Alterna entre preguntas breves y directas y preguntas más detalladas y elaboradas.
+
+3. **Relevancia:**  
+   - Asegúrate de que las preguntas sean útiles y pertinentes para estudiantes de la Facultad de Ciencias de la UNI.
+
+4. **Formato de salida:**  
+   Presenta las preguntas generadas utilizando el siguiente esquema:  
+   
+   ```  
+   **Pregunta Original 1:** [Aquí la pregunta original 1]  
+   1. [Pregunta derivada 1]  
+   2. [Pregunta derivada 2]  
+   ...  
+   8. [Pregunta derivada 8]  
+
+   **Pregunta Original 2:** [Aquí la pregunta original 2]  
+   1. [Pregunta derivada 1]  
+   2. [Pregunta derivada 2]  
+   ...  
+   8. [Pregunta derivada 8]  
+   ```  
+Preguntas y Respuestas:
+```{questions_answer_list}```"""
+    return prompt
+
 # abarquen diferentes niveles de complejidad y 
 
 ## colocar aca que eviten falta de especificidad en la pregunta. O evitanto falta de contexto en las preguntas.
@@ -164,7 +202,7 @@ Preguntas y Respuestas:```
 def get_prompt_gen_questions_reformulated(questions):
     questions_list = list_json_to_txt(questions)
     prompt = f"""Se te proveerá una lista de preguntas frecuentes sobre temas de interés para alumnos de pregrado de la Facultad de Ciencias de la Universidad Nacional de Ingeniería, delimitadas por tres comillas invertidas.
-Para cada una de las preguntas dentro de las tres comillas invertidas, genera 5 diferentes maneras que un estudiante podría usar para realizar la misma consulta de manera natural y realista a un asistente de AI. Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal). Además, varía el nivel de concisión de cada una. Algunas preguntas pueden ser sumamente concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
+Para cada una de las preguntas dentro de las tres comillas invertidas, genera 4 diferentes maneras que un estudiante podría usar para realizar la misma consulta de manera natural y realista a un asistente de AI. Varía tanto la persona gramatical (primera persona y tercera persona) como el nivel de formalidad del lenguaje (formal, semiformal o informal). Además, varía el nivel de concisión de cada una. Algunas preguntas pueden ser sumamente concisas y directas, mientras que otras pueden ser más detalladas y elaboradas.
 Presenta las nuevas preguntas para cada pregunta original de la siguiente manera:
 
 - Pregunta Original 1: Aqui la Pregunta Original 1

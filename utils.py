@@ -280,8 +280,47 @@ def count_num_tokens(text, model = GPT_MODEL):
     encoding = tiktoken.encoding_for_model(model)
     return len(encoding.encode(text))
 
-text = """ Análisis: La pregunta del usuario se refiere a la solicitud de una constancia y si se requiere un formato específico o si es suficiente con enviar un correo con sus datos. Sin embargo, no se menciona el tipo de constancia que se está solicitando, lo que es crucial para entender completamente la pregunta. Aunque la pregunta es clara en su formulación y se entiende que el usuario busca información sobre el procedimiento para solicitar una constancia, la falta de contexto sobre qué tipo de constancia se refiere (por ejemplo, si es una constancia de estudios, de trabajo, etc.) limita la comprensión total de la situación. En términos de especificidad, la pregunta es concreta y puede ser respondida con un "sí" o "no", pero la falta de información sobre el tipo de constancia hace que no se pueda responder de manera adecuada sin más contexto. Por lo tanto, aunque la pregunta es clara y específica en su estructura, la falta de contexto sobre el tipo de constancia dificulta su comprensión total.
-- La última pregunta del usuario se entiende sin necesidad del historial del chat: No"""
+text = """ **Pregunta Original 1:** ¿Qué procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en español?  
+1. ¿Qué información debe incluir el estudiante en el correo para solicitar la orden de pago?  
+2. ¿Qué debe hacer el estudiante después de recibir la orden de pago?  
+3. ¿Dónde puede realizar el pago del monto correspondiente a la constancia de matrícula?  
+4. ¿Qué pasos debe seguir el estudiante para enviar la solicitud a mesa de partes?  
+5. ¿Qué debe especificar el estudiante en su solicitud a mesa de partes?  
+6. ¿Dónde se puede encontrar el modelo para la solicitud de constancia de matrícula?  
+7. ¿Qué correo electrónico debe utilizar el estudiante para enviar su solicitud a mesa de partes?  
+8. ¿Qué sucede después de que el estudiante envía su solicitud de constancia de matrícula?  
+9. ¿Qué información personal es necesaria para solicitar la constancia de matrícula?  
+10. ¿Qué aplicación móvil se puede utilizar para realizar el pago de la constancia de matrícula?  
+11. ¿Qué opción debe seleccionar el estudiante en la aplicación móvil para realizar el pago?  
+12. ¿Qué correo electrónico debe utilizar el estudiante para solicitar la orden de pago?  
+
+**Pregunta Original 2:** ¿Cuales son los requisitos y el proceso de matrícula regular al ciclo académico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?  
+1. ¿Qué pagos deben realizar los estudiantes para poder matricularse regularmente?  
+2. ¿Qué tipo de adeudos deben evitar los estudiantes para poder matricularse?  
+3. ¿Qué deben completar los alumnos en riesgo académico antes de matricularse?  
+4. ¿Qué deben hacer los estudiantes que han dejado de estudiar antes de matricularse nuevamente?  
+5. ¿Cómo puede un estudiante generar una orden de pago para el autoseguro estudiantil?  
+6. ¿Qué pasos debe seguir un estudiante para realizar su matrícula de forma virtual?  
+7. ¿Qué no se requiere entregar para la matrícula regular?  
+8. ¿Cómo se asignan los turnos para la matrícula?  
+9. ¿Dónde puede un estudiante verificar su turno correspondiente para la matrícula?  
+10. ¿Qué plataforma deben utilizar los estudiantes para realizar su matrícula?  
+11. ¿Qué opción deben seleccionar los estudiantes en la plataforma para acceder al módulo de pagos?  
+12. ¿Qué sucede si un estudiante no realiza el pago del autoseguro estudiantil a tiempo?  
+
+**Pregunta Original 3:** ¿Hasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matrícula regular al ciclo academico en la Facultad de Ciencias de la UNI?  
+1. ¿Qué consecuencias puede tener un estudiante si no paga el autoseguro estudiantil a tiempo?  
+2. ¿Cómo puede un estudiante verificar si su matrícula está habilitada?  
+3. ¿Qué debe hacer un estudiante si su matrícula no se habilita en las fechas regulares?  
+4. ¿Dónde se publica el calendario de actividades académicas?  
+5. ¿Qué correo electrónico debe utilizar el estudiante para comunicarse con la oficina de estadística?  
+6. ¿Qué se entiende por matrícula rezagada?  
+7. ¿Qué información se encuentra en el calendario de actividades académicas?  
+8. ¿Qué debe hacer un estudiante si no cumple con el plazo máximo para el pago del autoseguro?  
+9. ¿Qué se considera el plazo máximo para el pago del autoseguro estudiantil?  
+10. ¿Qué sección del sitio web de la Facultad de Ciencias contiene información sobre matrícula y procedimientos?  
+11. ¿Qué debe hacer un estudiante si tiene dudas sobre el proceso de matrícula?  
+12. ¿Qué tipo de matrícula se debe gestionar si no se realiza el pago a tiempo?"""
 
 print(count_num_tokens(text))
 #print(count_num_tokens(text, model = GPT_MODEL))
@@ -499,3 +538,4 @@ for old_filename, new_filename in zip(filenames, new_filenames):
 #filtered_reformulated_question_list = flat_questions_reformulate(filtered_questions_reformulated_rouge_list)
 
 #save_json("./faq", f"filtered_reformulated_question_list", filtered_reformulated_question_list)
+

@@ -1,0 +1,20 @@
+Historia: 
+
+User: Buenas tardes, en que banco pago el autoseguro ahora?
+Assistant: El pago del autoseguro estudiantil se puede realizar a través del aplicativo móvil del banco BCP o en cualquiera de sus sucursales.
+User: pero como hago el pago, le indico que por autoseguro de la UNI nada mas?
+Assistant: Para realizar el pago del autoseguro estudiantil, debes generar una orden de pago a través del portal Intranet-Alumnos. Luego, podrás efectuar el pago utilizando el aplicativo móvil del banco BCP o en cualquiera de sus sucursales, donde debes indicar que es por el autoseguro de la UNI. Si necesitas más detalles sobre cómo generar la orden de pago, puedes consultar el manual de pagos disponible en la página web de la Facultad de Ciencias.
+User: me podrias explicar tu a mas detalle como generar esa orden de pago, es la primera vez que la voy a generar
+Assistant: Claro, te explico el proceso paso a paso para generar la orden de pago por el autoseguro:
+
+1. **Accede a la plataforma Intranet-Alumnos** de la UNI.
+2. Selecciona la opción **"Trámites y Pagos"**.
+3. Esto te redirigirá al **módulo de pagos del Portal INTRALU**. Aquí, deberás seleccionar la opción **"PAGO-AUTOSEGURO MÉDICO"** en el menú desplegable.
+4. Haz clic en el botón **"Nuevo"**.
+5. Sigue las indicaciones para generar la orden de pago por el monto de **S/. 55.00**
+
+Una vez generada la orden, podrás realizar el pago a través del **aplicativo móvil del banco BCP** o en cualquiera de sus **sucursales**. 
+User: ahora entiendo el proceso, y hasta cuando tengo para pagarlo?
+Assistant: El pago del autoseguro estudiantil debe realizarse antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al ciclo académico. Si no se cumple con este plazo, es probable que no se pueda realizar la matrícula regular y se deberá gestionar como matrícula rezagada. Puedes consultar el calendario de actividades académicas en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la página web de la Facultad de Ciencias de la UNI.
+User: uy!, creo que hoy es el ultimo dia para pagar. Ire a hacer rapido el pago. Gracias.
+Assistant: ¡De nada! Espero que puedas realizar el pago a tiempo. Si tienes alguna otra duda, no dudes en consultarme. ¡Mucho éxito con tu matrícula!
