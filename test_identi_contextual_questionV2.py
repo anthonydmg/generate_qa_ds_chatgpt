@@ -201,6 +201,27 @@ Reformulación: <<Pregunta reformulada/No aplica>> [Proporciona la versión refo
 Historial previo de la conversación: <<{history_chat}>>"""
         return prompt_identify_reform
 
+def get_prompt_reformulated_contextual_query_7(query, history_chat_messages):
+        history_chat = format_text_history_chat(history_chat_messages)
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta en el ultimo mensaje del usuario y determina si es necesario reformular la pregunta para mejorar la precision y falta de contexto de la pregunta, de manera que el asistente pueda entender la pregunta sin tener acceso al historial de la conversación. Solo en caso determines que es estrictamente necesario reformula la pregunta.
+Usa los siguientes criterios para determinar si es estrictamente necesario reformular la consulta:
+1. Contexto Académico Implicito: El asistente asume un contexto implícito que la preguntas enviadas por el usuario están relacionados con la Facultad de Ciencias de la UNI por lo que no es necesario detallarlo en exceso. Por lo tanto, a pesar no tener acceso al historial del dialogo el asistente asume este contexto.
+2. Mejora en la precision y claridad: Se considera necesario mejorar la precisión de la pregunta mediante su reformulación cuando exista información explícita en el historial de la conversación que pueda integrarse para hacerla más precisa. Solo se debe utilizar información presente en el historial, sin incorporar suposiciones adicionales ni datos externos.
+
+Responde utilizando el siguiente formato:
+
+Análisis: [Describe de manera detallada si es necesario reformular la pregunta para mejorar la precision y falta de contexto de la pregunta].
+
+El último mensaje contiene una pregunta: Sí/No
+
+Es estrictamente necesario reformular la consulta: Sí/No/No aplica
+
+Reformulación: <<Pregunta reformulada/No aplica>> [Proporciona la versión reformulada solo si es necesario].
+
+Último mensaje del usuario: {query}
+
+Historial previo de la conversación: <<{history_chat}>>"""
+        return prompt_identify_reform
 ## Agregar esto a eso
 # La pregunta del usuario se refiere al proceso de matrícula en la universidad y si hay plazos específicos que deben considerarse. Aunque la pregunta es clara y directa, el contexto sobre qué tipo de matrícula se está refiriendo (por ejemplo, matrícula inicial, matrícula para un ciclo académico específico, etc.) no se menciona. Sin embargo, dado que el término "matrícula" es común en el ámbito académico y el asistente está familiarizado con las normativas de la universidad, se puede inferir que se refiere al proceso general de matrícula en la Facultad de Ciencias de la UNI. La pregunta es específica en cuanto a la búsqueda de información sobre el proceso y los plazos, lo que permite que se pueda responder de manera adecuada. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
 
@@ -213,8 +234,9 @@ train_contextualize_questions_not_need_context = [sample for sample in train_con
 print("train_contextualize_questions_not_need_context:", len(train_contextualize_questions_not_need_context))
 count_good_pred = 0
 
-test_data = train_contextualize_questions_not_need_context[18:22] #+ train_contextualize_questions_need_context[0:10]
-#test_data = train_contextualize_questions_need_context[10:22]
+
+#test_data = train_contextualize_questions_not_need_context[10:20] #+ train_contextualize_questions_need_context[0:10]
+test_data = train_contextualize_questions_need_context[0:10]
 #save_json("./test/", "contextualize_demo_test_data", test_data)
 
 #test_data = load_json("./test/contextualize_demo_test_data.json")[:5]
@@ -224,7 +246,7 @@ for example in test_data[:]:
     history_messages_chat = example["dialog_context"]
     query = example["user_message"]
 
-    prompt = get_prompt_reformulated_contextual_query_6(query, history_messages_chat)
+    prompt = get_prompt_reformulated_contextual_query_7(query, history_messages_chat)
     expected_need_context = not example["need_context"]
     print()
     print("-"*90)
