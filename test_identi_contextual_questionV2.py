@@ -203,10 +203,10 @@ Historial previo de la conversación: <<{history_chat}>>"""
 
 def get_prompt_reformulated_contextual_query_7(query, history_chat_messages):
         history_chat = format_text_history_chat(history_chat_messages)
-        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta en el ultimo mensaje del usuario y determina si es necesario reformular la pregunta para mejorar la precision y falta de contexto de la pregunta, de manera que el asistente pueda entender la pregunta sin tener acceso al historial de la conversación. Solo en caso determines que es estrictamente necesario reformula la pregunta.
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta en el ultimo mensaje del usuario y determina si es necesario reformular la pregunta para mejorar la precision y falta de contexto de la pregunta, de manera que el asistente pueda entender la pregunta en el ultimo mensaje de usuario sin tener acceso al historial de la conversación. Solo en caso determines que es estrictamente necesario reformula la pregunta.
 Usa los siguientes criterios para determinar si es estrictamente necesario reformular la consulta:
-1. Contexto Académico Implicito: El asistente asume un contexto implícito que la preguntas enviadas por el usuario están relacionados con la Facultad de Ciencias de la UNI por lo que no es necesario detallarlo en exceso. Por lo tanto, a pesar no tener acceso al historial del dialogo el asistente asume este contexto.
-2. Mejora en la precision y claridad: Se considera necesario mejorar la precisión de la pregunta mediante su reformulación cuando exista información explícita en el historial previo de la conversación que pueda integrarse para hacerla más precisa y contextualizada de manera que el asistente pueda entender la pregunta sin tener acceso al historial de la conversación. Solo se debe utilizar información presente en el historial, sin incorporar suposiciones adicionales ni datos externos.
+1. Contexto Académico Implicito: El asistente asume un contexto implícito que la preguntas enviadas por el usuario están relacionados con la Facultad de Ciencias de la UNI por lo que no es necesario detallarlo en exceso. Por lo tanto, a pesar de no tener acceso al historial del dialogo el asistente asume este contexto. Solo se asume la relación con Facultad de Ciencias de la UNI no de algún tema en especifico.
+2. Mejora en la precision y claridad: Se considera sumamente necesario mejorar la precisión de la pregunta mediante su reformulación cuando exista información explícita en el historial previo de la conversación que pueda integrarse para hacerla más precisa y contextualizada de manera que el asistente pueda entender la pregunta sin tener acceso al historial de la conversación. Solo se debe utilizar información presente en el historial, sin incorporar suposiciones adicionales ni datos externos.
 
 Responde utilizando el siguiente formato:
 
@@ -233,13 +233,13 @@ print("train_contextualize_questions_need_context:", len(train_contextualize_que
 train_contextualize_questions_not_need_context = [sample for sample in train_contextualize_questions_dataset if not sample["need_context"] and len(sample["dialog_context"]) > 0]
 print("train_contextualize_questions_not_need_context:", len(train_contextualize_questions_not_need_context))
 count_good_pred = 0
+        
 
-
-#test_data = train_contextualize_questions_not_need_context[10:20] #+ train_contextualize_questions_need_context[0:10]
-test_data = train_contextualize_questions_need_context[0:10]
+#test_data = train_contextualize_questions_not_need_context[10:15] #+ train_contextualize_questions_need_context[0:10]
+#test_data = train_contextualize_questions_need_context[5:10]
 #save_json("./test/", "contextualize_demo_test_data", test_data)
 
-#test_data = load_json("./test/contextualize_demo_test_data.json")[:5]
+test_data = load_json("./test/contextualize_demo_test_data.json")[:5]
 
 for example in test_data[:]:
 # que no es suficientemente descrita en el mensaje para poder entender completamente el contexto del mensaje.
