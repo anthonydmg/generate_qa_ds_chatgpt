@@ -1,0 +1,682 @@
+[
+    {
+        "conv_id": 2037,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos y requisitos debe cumplir un estudiante para matricularse regularmente en la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para matricularse regularmente en la Facultad de Ciencias de la UNI, un estudiante debe cumplir con los siguientes requisitos y pasos:\n\n**Requisitos:**\n1. Efectuar el pago por autoseguro estudiantil.\n2. No tener adeudos con la Facultad (econ\u00f3micos, pr\u00e9stamos de libros, etc.).\n3. Los alumnos en riesgo acad\u00e9mico deben haber completado la tutor\u00eda obligatoria.\n\n**Proceso:**\n1. Generar una orden de pago para el autoseguro a trav\u00e9s de la plataforma intranet-alumnos.\n2. Realizar el pago en los plazos establecidos.\n3. En la fecha y turno asignado, realizar la matr\u00edcula virtualmente en la plataforma intranet-alumnos, seleccionando asignaturas y horarios.\n\nLos turnos se asignan seg\u00fan el promedio ponderado."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY c\u00f3mo puedo acceder a la plataforma intranet-alumnos para generar la orden de pago? \u00bfHay alg\u00fan enlace directo o tengo que estar en el campus para hacerlo?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder a la plataforma intranet-alumnos y generar la orden de pago, debes tener tu clave que te proporcionar\u00e1 la Direcci\u00f3n de Admisi\u00f3n (DIRCE) a tu correo. No es necesario estar en el campus, puedes acceder desde cualquier lugar con conexi\u00f3n a internet. Una vez que tengas tu clave, ingresa a la plataforma y selecciona \"Tr\u00e1mites y Pagos\" para continuar con el proceso. Si necesitas m\u00e1s detalles, consulta el Manual de Pagos en la p\u00e1gina web de la Facultad de Ciencias."
+            }
+        ],
+        "user_message": "Perfecto, ya tengo claro c\u00f3mo acceder. Revisar\u00e9 mi correo por la clave y buscar\u00e9 el manual. \u00a1Gracias!",
+        "expected_reformulated_question": "Perfecto, ya tengo claro c\u00f3mo acceder. Revisar\u00e9 mi correo por la clave y buscar\u00e9 el manual. \u00a1Gracias!",
+        "need_context": false
+    },
+    {
+        "conv_id": 1370,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfEn qu\u00e9 lugar puedo encontrar el modelo de solicitud para la constancia de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "El modelo de solicitud para la constancia de matr\u00edcula est\u00e1 disponible en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias. Puedes acceder a ella a trav\u00e9s del siguiente enlace: [MATR\u00cdCULA Y PROCEDIMIENTOS](https://fc.uni.edu.pe/documentos/). Si necesitas m\u00e1s ayuda, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "Perfecto, voy a revisar esa secci\u00f3n. \u00bfSabes si hay alg\u00fan plazo espec\u00edfico para presentar la solicitud de la constancia?"
+            },
+            {
+                "role": "assistant",
+                "content": "No hay un plazo espec\u00edfico mencionado para presentar la solicitud de constancia de matr\u00edcula. Sin embargo, es importante que sigas el procedimiento indicado y realices la solicitud a tiempo para evitar inconvenientes. Si necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1Estoy aqu\u00ed para ayudarte!"
+            }
+        ],
+        "user_message": "Entendido, estar\u00e9 atento a eso. Gracias por la info.",
+        "expected_reformulated_question": "Entendido, estar\u00e9 atento a eso. Gracias por la info.",
+        "need_context": false
+    },
+    {
+        "conv_id": 1484,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 detalles son necesarios en el correo para que un estudiante solicite la orden de pago de la constancia de notas?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar la orden de pago de la constancia de notas, el estudiante debe incluir los siguientes detalles en el correo:\n\n1. N\u00famero de DNI\n2. Apellidos\n3. Nombres\n4. Correo institucional y/o alternativo\n\nEs importante enviar este correo a estadistica_fc@uni.edu.pe. Si necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "Perfecto, ya tengo claro lo que necesito incluir en el correo. Solo una cosa m\u00e1s, \u00bfhay alg\u00fan formato espec\u00edfico que deba seguir para el mensaje o con que sea directo est\u00e1 bien?"
+            },
+            {
+                "role": "assistant",
+                "content": "No es necesario seguir un formato espec\u00edfico para el mensaje. Con que seas directo y incluyas tus datos personales (n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo) en el correo a estadistica_fc@uni.edu.pe, ser\u00e1 suficiente para solicitar la orden de pago de la constancia de notas. Si tienes m\u00e1s preguntas, aqu\u00ed estoy para ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "Genial, eso facilita las cosas. Solo una duda m\u00e1s: \u00bfhay alg\u00fan tiempo estimado para que me respondan despu\u00e9s de enviar el correo?"
+            },
+            {
+                "role": "assistant",
+                "content": "No se menciona un tiempo estimado espec\u00edfico para la respuesta despu\u00e9s de enviar el correo a la oficina de estad\u00edstica. Sin embargo, es recomendable tener en cuenta que pueden tardar un tiempo en procesar la solicitud. Si tienes m\u00e1s preguntas, estoy aqu\u00ed para ayudarte."
+            }
+        ],
+        "user_message": "Entendido, esperar\u00e9 un poco entonces. Gracias por la info. \u00a1Nos vemos!",
+        "expected_reformulated_question": "Entendido, esperar\u00e9 un poco entonces. Gracias por la info. \u00a1Nos vemos!",
+        "need_context": false
+    },
+    {
+        "conv_id": 1153,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son los tr\u00e1mites que un alumno puede realizar en la plataforma de intranet?"
+            },
+            {
+                "role": "assistant",
+                "content": "En la plataforma de intranet-alumnos, un alumno puede realizar los siguientes tr\u00e1mites:\n\n1. **Retiro parcial**.\n2. **Retiro total**.\n3. **Reincorporaci\u00f3n**.\n4. Consultar los cursos matriculados en el periodo actual.\n5. Revisar notas del presente y de ciclos anteriores.\n6. Ver el avance curricular, incluyendo cursos realizados y cr\u00e9ditos acumulados.\n7. Acceder a la ficha acad\u00e9mica con los cursos cursados por periodo.\n\nSi necesitas m\u00e1s informaci\u00f3n sobre alg\u00fan tr\u00e1mite espec\u00edfico, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfSabes si hay alg\u00fan plazo espec\u00edfico para hacer el retiro parcial o total? Y, \u00bfc\u00f3mo se hace el proceso de reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "El plazo para solicitar el **retiro total** es hasta una semana antes de los ex\u00e1menes parciales. De manera excepcional, se puede solicitar hasta una semana antes de los ex\u00e1menes finales por motivos justificados. Para el **retiro parcial**, se puede tramitar durante la quinta semana despu\u00e9s del inicio de clases.\n\nPara la **reincorporaci\u00f3n**, el estudiante debe gestionarla antes de las fechas de matr\u00edcula, accediendo a la plataforma intranet-alumnos, seleccionando \"Tr\u00e1mites y Pagos\", generando una orden de pago y realizando el pago correspondiente. Luego, debe enviar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma dentro de los plazos establecidos."
+            },
+            {
+                "role": "user",
+                "content": "Perfecto, eso aclara mucho. \u00bfY qu\u00e9 pasa si me pierdo alg\u00fan plazo? \u00bfHay alguna forma de apelar o hacer algo al respecto?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no hay informaci\u00f3n espec\u00edfica sobre la posibilidad de apelar o realizar alg\u00fan tr\u00e1mite si se pierde un plazo. Te recomendar\u00eda que consultes directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener orientaci\u00f3n sobre tu situaci\u00f3n. Si necesitas m\u00e1s ayuda, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Entendido, voy a acercarme a la Oficina de Estad\u00edstica para ver qu\u00e9 opciones tengo. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para atender a los estudiantes?",
+        "expected_reformulated_question": "Entendido, voy a acercarme a la Oficina de Estad\u00edstica para ver qu\u00e9 opciones tengo. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para atender a los estudiantes?",
+        "need_context": false
+    },
+    {
+        "conv_id": 1153,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son los tr\u00e1mites que un alumno puede realizar en la plataforma de intranet?"
+            },
+            {
+                "role": "assistant",
+                "content": "En la plataforma de intranet-alumnos, un alumno puede realizar los siguientes tr\u00e1mites:\n\n1. **Retiro parcial**.\n2. **Retiro total**.\n3. **Reincorporaci\u00f3n**.\n4. Consultar los cursos matriculados en el periodo actual.\n5. Revisar notas del presente y de ciclos anteriores.\n6. Ver el avance curricular, incluyendo cursos realizados y cr\u00e9ditos acumulados.\n7. Acceder a la ficha acad\u00e9mica con los cursos cursados por periodo.\n\nSi necesitas m\u00e1s informaci\u00f3n sobre alg\u00fan tr\u00e1mite espec\u00edfico, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfSabes si hay alg\u00fan plazo espec\u00edfico para hacer el retiro parcial o total? Y, \u00bfc\u00f3mo se hace el proceso de reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "El plazo para solicitar el **retiro total** es hasta una semana antes de los ex\u00e1menes parciales. De manera excepcional, se puede solicitar hasta una semana antes de los ex\u00e1menes finales por motivos justificados. Para el **retiro parcial**, se puede tramitar durante la quinta semana despu\u00e9s del inicio de clases.\n\nPara la **reincorporaci\u00f3n**, el estudiante debe gestionarla antes de las fechas de matr\u00edcula, accediendo a la plataforma intranet-alumnos, seleccionando \"Tr\u00e1mites y Pagos\", generando una orden de pago y realizando el pago correspondiente. Luego, debe enviar su solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma dentro de los plazos establecidos."
+            },
+            {
+                "role": "user",
+                "content": "Perfecto, eso aclara mucho. \u00bfY qu\u00e9 pasa si me pierdo alg\u00fan plazo? \u00bfHay alguna forma de apelar o hacer algo al respecto?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no hay informaci\u00f3n espec\u00edfica sobre la posibilidad de apelar o realizar alg\u00fan tr\u00e1mite si se pierde un plazo. Te recomendar\u00eda que consultes directamente con la Oficina de Estad\u00edstica de la Facultad de Ciencias para obtener orientaci\u00f3n sobre tu situaci\u00f3n. Si necesitas m\u00e1s ayuda, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "Entendido, voy a acercarme a la Oficina de Estad\u00edstica para ver qu\u00e9 opciones tengo. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para atender a los estudiantes?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, la Oficina de Estad\u00edstica (AERA) atiende de lunes a viernes, de 8:00 a.m. a 4:00 p.m. Si necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar. \u00a1\u00c9xito en tu gesti\u00f3n!"
+            }
+        ],
+        "user_message": "Genial, gracias por la info. Ir\u00e9 a preguntar. \u00a1Nos vemos!",
+        "expected_reformulated_question": "Genial, gracias por la info. Ir\u00e9 a preguntar. \u00a1Nos vemos!",
+        "need_context": false
+    },
+    {
+        "conv_id": 1704,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son las constancias que la oficina de Escuelas Profesionales emite para los estudiantes?"
+            },
+            {
+                "role": "assistant",
+                "content": "La oficina de Escuelas Profesionales emite constancias de Quinto y/o Tercio Superior, as\u00ed como constancias de Ayudant\u00eda Acad\u00e9mica. Para obtener m\u00e1s detalles sobre el proceso y requisitos para estos tr\u00e1mites, se recomienda contactar a la oficina correspondiente seg\u00fan la especialidad del estudiante. Los correos de contacto son: escuelas_fc1@uni.edu.pe para F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n, y escuelas_fc2@uni.edu.pe para Matem\u00e1ticas o Ingenier\u00eda F\u00edsica. El horario de atenci\u00f3n es de lunes a viernes de 8:30 a.m. a 4:00 p.m."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY c\u00f3mo puedo saber si cumplo con los requisitos para solicitar esas constancias? \u00bfHay alg\u00fan documento espec\u00edfico que necesite preparar antes de contactar a la oficina?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para saber si cumples con los requisitos para solicitar las constancias de Ayudant\u00eda Acad\u00e9mica o de Quinto/Tercio Superior, te recomiendo que contactes directamente a la oficina de Escuelas Profesionales de tu especialidad. No tengo acceso a detalles sobre los documentos necesarios, pero ellos podr\u00e1n orientarte sobre cualquier requisito espec\u00edfico. Puedes escribir a:\n\n- Para F\u00edsica, Qu\u00edmica o Ciencia de la Computaci\u00f3n: escuelas_fc1@uni.edu.pe\n- Para Matem\u00e1ticas o Ingenier\u00eda F\u00edsica: escuelas_fc2@uni.edu.pe\n\nRecuerda que el horario de atenci\u00f3n es de lunes a viernes de 8:30 a.m. a 4:00 p.m."
+            }
+        ],
+        "user_message": "Entendido, voy a escribirles para aclarar todo. Gracias por la info.",
+        "expected_reformulated_question": "Entendido, voy a escribirles para aclarar todo. Gracias por la info.",
+        "need_context": false
+    },
+    {
+        "conv_id": 1123,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 tipo de informaci\u00f3n acad\u00e9mica est\u00e1 contenida en el avance curricular accesible para los estudiantes?"
+            },
+            {
+                "role": "assistant",
+                "content": "El avance curricular accesible para los estudiantes incluye informaci\u00f3n sobre los cursos realizados, los cr\u00e9ditos acumulados y la ficha acad\u00e9mica con los cursos cursados por periodo. Esto permite a los estudiantes revisar su progreso acad\u00e9mico y asegurarse de que est\u00e1n cumpliendo con los requisitos de su carrera. Si necesitas m\u00e1s detalles, no dudes en preguntar."
+            }
+        ],
+        "user_message": "\u00bfY c\u00f3mo puedo acceder a ese avance curricular? \u00bfEst\u00e1 disponible en l\u00ednea o tengo que ir a alguna oficina?",
+        "expected_reformulated_question": "\u00bfY c\u00f3mo puedo acceder a ese avance curricular? \u00bfEst\u00e1 disponible en l\u00ednea o tengo que ir a alguna oficina?",
+        "need_context": false
+    },
+    {
+        "conv_id": 1068,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1les son las implicaciones de no generar la orden de pago antes de realizar el pago del autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si no se genera la orden de pago antes de realizar el pago del autoseguro, el estudiante podr\u00eda enfrentar problemas para matricularse de manera regular. Es fundamental cumplir con el plazo m\u00e1ximo establecido en el calendario de actividades acad\u00e9micas, ya que de no hacerlo, la matr\u00edcula podr\u00eda no habilitarse y el estudiante tendr\u00eda que gestionar su matr\u00edcula como rezagado. Para verificar la situaci\u00f3n de la matr\u00edcula, se recomienda comprobar si se habilita en las fechas de matr\u00edcula regular. Si no es as\u00ed, es necesario comunicarse con la oficina de estad\u00edstica (AERA) para obtener m\u00e1s informaci\u00f3n."
+            }
+        ],
+        "user_message": "Entiendo que si no genero la orden de pago a tiempo, podr\u00eda tener problemas con mi matr\u00edcula y tendr\u00eda que hacerlo como rezagado. \u00bfSabes si hay alg\u00fan plazo espec\u00edfico que deba tener en cuenta para la orden de pago? Y, \u00bfqu\u00e9 pasos deber\u00eda seguir si me encuentro en esa situaci\u00f3n?",
+        "expected_reformulated_question": "Entiendo que si no genero la orden de pago a tiempo, podr\u00eda tener problemas con mi matr\u00edcula y tendr\u00eda que hacerlo como rezagado. \u00bfSabes si hay alg\u00fan plazo espec\u00edfico que deba tener en cuenta para la orden de pago? Y, \u00bfqu\u00e9 pasos deber\u00eda seguir si me encuentro en esa situaci\u00f3n?",
+        "need_context": true
+    },
+    {
+        "conv_id": 1322,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 opci\u00f3n tengo que elegir en la intranet para acceder a INTRALU?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder a INTRALU desde la intranet, debes seleccionar la opci\u00f3n \"Tr\u00e1mites o Pagos\" o alguna opci\u00f3n dentro de \"Informaci\u00f3n Acad\u00e9mica\". Esto abrir\u00e1 la plataforma INTRALU en una nueva pesta\u00f1a. Tambi\u00e9n puedes acceder directamente a trav\u00e9s del enlace: [INTRALU](https://alumnos.uni.edu.pe/login). Si necesitas m\u00e1s ayuda, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Ok, ya entiendo. Entonces, solo tengo que buscar \"Tr\u00e1mites o Pagos\" o \"Informaci\u00f3n Acad\u00e9mica\" en la intranet. \u00bfSabes si hay alg\u00fan problema com\u00fan que la gente suele tener al usar INTRALU?",
+        "expected_reformulated_question": "Ok, ya entiendo. Entonces, solo tengo que buscar \"Tr\u00e1mites o Pagos\" o \"Informaci\u00f3n Acad\u00e9mica\" en la intranet. \u00bfSabes si hay alg\u00fan problema com\u00fan que la gente suele tener al usar INTRALU?",
+        "need_context": false
+    },
+    {
+        "conv_id": 975,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 razones hay para que los estudiantes tramiten su carnet universitario?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los estudiantes deben tramitar su carnet universitario porque, aunque no es requisito para la matr\u00edcula, es el documento de identificaci\u00f3n estudiantil necesario para acceder al campus. Adem\u00e1s, el carnet ofrece beneficios importantes, como un 50% de descuento en el transporte p\u00fablico, acceso al comedor universitario y descuentos en museos y centros tur\u00edsticos. Por lo tanto, se recomienda encarecidamente su obtenci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY c\u00f3mo se hace el tr\u00e1mite para obtener el carnet?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para obtener el carnet universitario, debes seguir estos pasos:\n\n1. Estar matriculado en el periodo acad\u00e9mico vigente.\n2. Realizar el pago de S/ 11.50 generando una orden de pago a trav\u00e9s del Portal INTRALU y pagar en una sucursal del BCP o mediante la aplicaci\u00f3n m\u00f3vil del banco.\n3. Completar la ficha de datos en el portal INTRALU.\n4. Subir una fotograf\u00eda digital en el portal web INTRALU.\n\nUna vez cumplidos estos requisitos y realizado el pago, la entrega del carnet se realizar\u00e1 en la Oficina de Estad\u00edstica. Mantente atento a las notificaciones de dicha oficina."
+            }
+        ],
+        "user_message": "\u00bfY cu\u00e1nto tiempo suele tardar en entregarse el carnet una vez que he completado todos los pasos?",
+        "expected_reformulated_question": "\u00bfY cu\u00e1nto tiempo suele tardar en entregarse el carnet una vez que he completado todos los pasos?",
+        "need_context": false
+    },
+    {
+        "conv_id": 1525,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 entidad env\u00eda la orden de pago al estudiante despu\u00e9s de que este solicita la constancia de notas?"
+            },
+            {
+                "role": "assistant",
+                "content": "La orden de pago es enviada al estudiante por la oficina de estad\u00edstica (AERA) despu\u00e9s de que este solicita la constancia de notas."
+            }
+        ],
+        "user_message": "\u00bfY c\u00f3mo puedo hacer la solicitud de la constancia de notas? \u00bfHay alg\u00fan formulario espec\u00edfico o solo tengo que ir a la oficina?",
+        "expected_reformulated_question": "\u00bfY c\u00f3mo puedo hacer la solicitud de la constancia de notas? \u00bfHay alg\u00fan formulario espec\u00edfico o solo tengo que ir a la oficina?",
+        "need_context": false
+    },
+    {
+        "conv_id": 2090,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfC\u00f3mo puede un alumno tramitar su retiro de asignaturas?"
+            },
+            {
+                "role": "assistant",
+                "content": "Un alumno puede tramitar su retiro de asignaturas, conocido como Retiro Parcial, a trav\u00e9s de la plataforma DIRCE (intranet-alumnos) durante la quinta semana despu\u00e9s del inicio de clases. Debe seguir estos pasos:\n\n1. Ingresar a la plataforma y seleccionar \u201cretiro parcial\u201d.\n2. Elegir los cursos de los que desea retirarse (solo asignaturas avanzadas, no repetidas o prerrequisitos).\n3. Consultar el resultado de su solicitud en la misma plataforma.\n\nRecuerde que se permite el retiro de hasta tres asignaturas, siempre que no se retire de todos los cursos matriculados. Para fechas espec\u00edficas, consulte el calendario acad\u00e9mico."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY si ya pas\u00f3 la quinta semana? \u00bfHay alguna otra opci\u00f3n para retirarme de una asignatura?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si ya ha pasado la quinta semana, no es posible tramitar el Retiro Parcial a trav\u00e9s de la plataforma DIRCE. Sin embargo, puede considerar solicitar un Retiro Total, que se puede hacer hasta una semana antes de los ex\u00e1menes parciales, o en casos excepcionales, hasta una semana antes de los ex\u00e1menes finales, por motivos justificados como enfermedad grave. Esta solicitud debe ser evaluada por el Consejo Directivo de su Escuela Profesional. Para m\u00e1s detalles, consulte el reglamento o el calendario acad\u00e9mico."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY c\u00f3mo se hace la solicitud para el Retiro Total? \u00bfHay alg\u00fan formato espec\u00edfico que deba llenar?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar el Retiro Total, el estudiante debe seguir estos pasos a trav\u00e9s de la plataforma intranet-alumnos:\n\n1. Ingresar con su c\u00f3digo UNI y clave.\n2. Seleccionar \"Mis Tr\u00e1mites\" y luego \"Retiro Total\".\n3. Completar el formulario con la siguiente informaci\u00f3n:\n   - Motivo del retiro (viaje al extranjero, accidente, enfermedad limitante o emergencia familiar).\n   - Descripci\u00f3n del motivo.\n   - N\u00famero de ciclos que estar\u00e1 ausente.\n   - Adjuntar documentos sustentatorios.\n\nUna vez completado, debe seleccionar \"Enviar Solicitud\". No hay un formato espec\u00edfico aparte del formulario en la plataforma. Para m\u00e1s detalles, consulte el Manual de Retiro Total en la secci\u00f3n de Matr\u00edcula y Procedimientos de la p\u00e1gina web de la Facultad de Ciencias."
+            }
+        ],
+        "user_message": "\u00bfY cu\u00e1nto tiempo tarda en procesarse la solicitud de Retiro Total? \u00bfMe avisar\u00e1n directamente o tengo que estar revisando la plataforma?",
+        "expected_reformulated_question": "\u00bfY cu\u00e1nto tiempo tarda en procesarse la solicitud de Retiro Total? \u00bfMe avisar\u00e1n directamente o tengo que estar revisando la plataforma?",
+        "need_context": false
+    },
+    {
+        "conv_id": 544,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfD\u00f3nde puedo encontrar el correo electr\u00f3nico de la Mesa de Partes de DIRCE?"
+            },
+            {
+                "role": "assistant",
+                "content": "El correo de contacto de la Mesa de Partes de DIRCE es mesadepartesorce@uni.edu.pe. Si necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Genial, gracias. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar documentos o consultas a la Mesa de Partes?",
+        "expected_reformulated_question": "Genial, gracias. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar documentos o consultas a la Mesa de Partes?",
+        "need_context": false
+    },
+    {
+        "conv_id": 2343,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos debe seguir un alumno regular para crear una orden de pago por autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para que un alumno regular genere una orden de pago por autoseguro, debe seguir estos pasos:\n\n1. Ingresar a la plataforma Intranet-Alumnos.\n2. Seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU.\n3. Elegir \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable.\n4. Hacer clic en el bot\u00f3n \"Nuevo\" y seguir las indicaciones hasta generar la orden de pago por S/. 55.00.\n\nDespu\u00e9s de generar la orden, podr\u00e1 realizar el pago en una sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY cu\u00e1nto tiempo toma normalmente el proceso desde que genero la orden hasta que puedo hacer el pago? \u00bfHay alg\u00fan plazo espec\u00edfico que deba tener en cuenta?"
+            },
+            {
+                "role": "assistant",
+                "content": "Una vez que generas la orden de pago, se recomienda esperar aproximadamente 10 minutos antes de realizar el pago correspondiente en una sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco. Es importante que realices el pago dentro de los plazos establecidos en el calendario de actividades acad\u00e9micas para asegurar que tu matr\u00edcula se realice de manera regular. Si no cumples con estos plazos, podr\u00edas tener que gestionar tu matr\u00edcula como rezagado."
+            }
+        ],
+        "user_message": "Entendido. Entonces, \u00bfhay alg\u00fan calendario espec\u00edfico donde pueda ver esos plazos de pago y matr\u00edcula? No quiero perderme ninguna fecha importante.",
+        "expected_reformulated_question": "Entendido. Entonces, \u00bfhay alg\u00fan calendario espec\u00edfico donde pueda ver esos plazos de pago y matr\u00edcula? No quiero perderme ninguna fecha importante.",
+        "need_context": false
+    },
+    {
+        "conv_id": 2343,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos debe seguir un alumno regular para crear una orden de pago por autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para que un alumno regular genere una orden de pago por autoseguro, debe seguir estos pasos:\n\n1. Ingresar a la plataforma Intranet-Alumnos.\n2. Seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" para acceder al m\u00f3dulo de pagos del Portal INTRALU.\n3. Elegir \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable.\n4. Hacer clic en el bot\u00f3n \"Nuevo\" y seguir las indicaciones hasta generar la orden de pago por S/. 55.00.\n\nDespu\u00e9s de generar la orden, podr\u00e1 realizar el pago en una sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY cu\u00e1nto tiempo toma normalmente el proceso desde que genero la orden hasta que puedo hacer el pago? \u00bfHay alg\u00fan plazo espec\u00edfico que deba tener en cuenta?"
+            },
+            {
+                "role": "assistant",
+                "content": "Una vez que generas la orden de pago, se recomienda esperar aproximadamente 10 minutos antes de realizar el pago correspondiente en una sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco. Es importante que realices el pago dentro de los plazos establecidos en el calendario de actividades acad\u00e9micas para asegurar que tu matr\u00edcula se realice de manera regular. Si no cumples con estos plazos, podr\u00edas tener que gestionar tu matr\u00edcula como rezagado."
+            },
+            {
+                "role": "user",
+                "content": "Entendido. Entonces, \u00bfhay alg\u00fan calendario espec\u00edfico donde pueda ver esos plazos de pago y matr\u00edcula? No quiero perderme ninguna fecha importante."
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, puedes consultar el calendario de actividades acad\u00e9micas, donde se publican las fechas de pago y matr\u00edcula. Este calendario est\u00e1 disponible en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina web de la Facultad de Ciencias. Puedes acceder a esta secci\u00f3n mediante el siguiente enlace: [https://fc.uni.edu.pe/documentos/](https://fc.uni.edu.pe/documentos/). Es importante que revises este calendario para no perderte ninguna fecha importante."
+            },
+            {
+                "role": "user",
+                "content": "Perfecto, voy a revisar esa secci\u00f3n. \u00bfHay algo m\u00e1s que deba tener en cuenta sobre el autoseguro o la matr\u00edcula en general?"
+            },
+            {
+                "role": "assistant",
+                "content": "Es fundamental que realices el pago del autoseguro estudiantil antes de las fechas de matr\u00edcula, seg\u00fan el calendario de actividades acad\u00e9micas. Aseg\u00farate de no tener adeudos con la Facultad y, si est\u00e1s en riesgo acad\u00e9mico, completa la tutor\u00eda obligatoria previa a la matr\u00edcula. Verifica tu turno de matr\u00edcula en la plataforma intranet-alumnos y recuerda que si no se habilita tu matr\u00edcula, deber\u00e1s gestionar tu situaci\u00f3n como rezagado. Si necesitas m\u00e1s informaci\u00f3n, puedes comunicarte con la oficina de estad\u00edstica. \u00a1\u00c9xito en tu matr\u00edcula!"
+            }
+        ],
+        "user_message": "Claro, eso suena bien. Solo para confirmar, \u00bfla tutor\u00eda obligatoria se puede programar en cualquier momento antes de la matr\u00edcula, o hay un plazo espec\u00edfico para completarla? No quiero dejar nada al azar.",
+        "expected_reformulated_question": "Claro, eso suena bien. Solo para confirmar, \u00bfla tutor\u00eda obligatoria se puede programar en cualquier momento antes de la matr\u00edcula, o hay un plazo espec\u00edfico para completarla? No quiero dejar nada al azar.",
+        "need_context": false
+    },
+    {
+        "conv_id": 309,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1ntos cr\u00e9ditos son necesarios para que un estudiante sea considerado en posibilidad de egresar?"
+            },
+            {
+                "role": "assistant",
+                "content": "Un estudiante ser\u00e1 considerado \"en posibilidad de egresar\" si le faltan a lo m\u00e1s treinta (30) cr\u00e9ditos de su Plan de Estudios para completar su carrera, incluyendo los cr\u00e9ditos por idioma, pr\u00e1cticas pre profesionales y actividades extracurriculares. Si tienes m\u00e1s preguntas, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Entonces, si tengo menos de 30 cr\u00e9ditos por completar, \u00bfpuedo empezar a gestionar mi egreso y mi tesis? \u00bfO hay otros requisitos que debo cumplir primero?",
+        "expected_reformulated_question": "Entonces, si tengo menos de 30 cr\u00e9ditos por completar, \u00bfpuedo empezar a gestionar mi egreso y mi tesis? \u00bfO hay otros requisitos que debo cumplir primero?",
+        "need_context": false
+    },
+    {
+        "conv_id": 2498,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfPodr\u00edas explicarme el procedimiento para que un estudiante pida su constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol?"
+            },
+            {
+                "role": "assistant",
+                "content": "Claro, el procedimiento para solicitar una constancia de matr\u00edcula en ingl\u00e9s o espa\u00f1ol es el siguiente:\n\n1. Env\u00eda un correo a estadistica_fc@uni.edu.pe solicitando una orden de pago para la constancia, incluyendo tus datos personales: n\u00famero de DNI, apellidos, nombres y correo institucional o alternativo.\n\n2. La oficina de estad\u00edstica te enviar\u00e1 la orden de pago.\n\n3. Realiza el pago en una sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco.\n\n4. Env\u00eda la solicitud a mesa de partes al correo mesadepartes_fc@uni.edu.pe, indicando si deseas la constancia en ingl\u00e9s o espa\u00f1ol.\n\n5. Finalmente, la constancia se enviar\u00e1 a tu correo institucional. \n\nSi necesitas m\u00e1s ayuda, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "Ya, perfecto. Entonces, solo para confirmar, despu\u00e9s de que env\u00ede el correo a estad\u00edstica y me env\u00eden la orden de pago, \u00bfpuedo hacer el pago por la app del BCP? Y una vez que env\u00ede la solicitud a mesa de partes, \u00bfcu\u00e1nto tiempo suele tardar en llegar la constancia a mi correo?"
+            },
+            {
+                "role": "assistant",
+                "content": "Claro, aqu\u00ed tienes la respuesta corregida:\n\nS\u00ed, despu\u00e9s de que env\u00edes el correo a estad\u00edstica y recibas la orden de pago, puedes realizar el pago a trav\u00e9s de la app del BCP. En cuanto al tiempo de env\u00edo de la constancia a tu correo, no tengo acceso a detalles espec\u00edficos sobre un plazo exacto. Te recomiendo estar atento a tu correo institucional despu\u00e9s de enviar la solicitud a mesa de partes. Si tienes m\u00e1s preguntas, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Entendido. Entonces, solo me queda estar pendiente del correo despu\u00e9s de enviar la solicitud. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar la solicitud a mesa de partes o se puede hacer en cualquier momento?",
+        "expected_reformulated_question": "Entendido. Entonces, solo me queda estar pendiente del correo despu\u00e9s de enviar la solicitud. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar la solicitud a mesa de partes o se puede hacer en cualquier momento?",
+        "need_context": false
+    },
+    {
+        "conv_id": 1321,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 opci\u00f3n debe seleccionar un estudiante en la plataforma intranet-alumnos para acceder a INTRALU?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante debe seleccionar la opci\u00f3n \"Tr\u00e1mites o Pagos\" o alguna opci\u00f3n dentro de \"Informaci\u00f3n Acad\u00e9mica\" en la plataforma intranet-alumnos para acceder a INTRALU."
+            }
+        ],
+        "user_message": "\u00bfY qu\u00e9 tipo de tr\u00e1mites o informaci\u00f3n acad\u00e9mica puedo encontrar ah\u00ed?",
+        "expected_reformulated_question": "\u00bfY qu\u00e9 tipo de tr\u00e1mites o informaci\u00f3n acad\u00e9mica puedo encontrar ah\u00ed?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2049,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 tiene que hacer un estudiante para cumplir con los requisitos de matr\u00edcula regular en la Facultad de Ciencias?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para cumplir con los requisitos de matr\u00edcula regular en la Facultad de Ciencias, un estudiante debe:\n\n1. Efectuar el pago por autoseguro estudiantil.\n2. No tener adeudos con la Facultad, ya sea econ\u00f3micos o por pr\u00e9stamo de materiales en la biblioteca.\n3. Si est\u00e1 en riesgo acad\u00e9mico, debe haber completado la tutor\u00eda obligatoria previa a la matr\u00edcula.\n\nLuego, el estudiante debe generar una orden de pago a trav\u00e9s de la plataforma intranet-alumnos, realizar el pago en los plazos establecidos y, finalmente, matricularse virtualmente en sus cursos en la misma plataforma en la fecha y turno asignados."
+            }
+        ],
+        "user_message": "\u00bfY c\u00f3mo hago para generar la orden de pago en la plataforma intranet-alumnos? \u00bfHay alg\u00fan paso espec\u00edfico que deba seguir?",
+        "expected_reformulated_question": "\u00bfY c\u00f3mo hago para generar la orden de pago en la plataforma intranet-alumnos? \u00bfHay alg\u00fan paso espec\u00edfico que deba seguir?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2392,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfC\u00f3mo puede un estudiante acceder a la intranet-alumnos de la UNI y qu\u00e9 funcionalidades est\u00e1n disponibles en esa plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder a la plataforma de intranet-alumnos de la UNI, el estudiante debe ingresar a la [p\u00e1gina web de la DIRCE](https://dirce.uni.edu.pe/) y seleccionar \"Acceso a alumnos\", o acceder directamente a trav\u00e9s de este enlace: https://www.academico.uni.edu.pe/alumno/inicio. Para iniciar sesi\u00f3n, se requiere el c\u00f3digo de alumno UNI y la clave proporcionada por DIRCE.\n\nEn la plataforma, el estudiante puede consultar los cursos matriculados, revisar notas, ver el avance curricular, acceder a la ficha acad\u00e9mica y realizar tr\u00e1mites como el retiro parcial, retiro total y reincorporaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY qu\u00e9 tal es la experiencia en la intranet? \u00bfEs f\u00e1cil navegar por la plataforma y encontrar toda la informaci\u00f3n que uno necesita?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a informaci\u00f3n sobre la experiencia de los usuarios en la intranet-alumnos de la UNI ni sobre la facilidad de navegaci\u00f3n en la plataforma. Te sugiero que consultes con compa\u00f1eros o revises foros de estudiantes para obtener opiniones sobre su experiencia. Si necesitas informaci\u00f3n espec\u00edfica sobre funcionalidades, estar\u00e9 encantado de ayudarte."
+            },
+            {
+                "role": "user",
+                "content": "Entendido. Voy a preguntar a mis compa\u00f1eros y ver qu\u00e9 dicen. Por ahora, \u00bfme podr\u00edas contar m\u00e1s sobre c\u00f3mo hacer tr\u00e1mites en la intranet, como el retiro parcial o la reincorporaci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Claro, aqu\u00ed tienes un resumen sobre los tr\u00e1mites en la intranet:\n\n**Retiro Parcial**: El estudiante puede solicitarlo a trav\u00e9s de la intranet durante la quinta semana del per\u00edodo acad\u00e9mico. Debe seleccionar \"Retiro Parcial\", elegir las asignaturas de las que desea retirarse (hasta tres) y consultar el resultado en la opci\u00f3n de ficha de matr\u00edcula.\n\n**Reincorporaci\u00f3n**: Para reincorporarse despu\u00e9s de una reserva de matr\u00edcula, el estudiante debe acceder a la intranet, seleccionar \"Tr\u00e1mites y Pagos\", generar un pago y enviar la solicitud de reincorporaci\u00f3n con el comprobante de pago dentro de los plazos establecidos.\n\nSi necesitas m\u00e1s detalles, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Perfecto, eso suena bastante claro. \u00bfSabes si hay alg\u00fan plazo espec\u00edfico para hacer el retiro parcial o la reincorporaci\u00f3n? Y, por cierto, \u00bfhay alg\u00fan costo asociado a estos tr\u00e1mites?",
+        "expected_reformulated_question": "Perfecto, eso suena bastante claro. \u00bfSabes si hay alg\u00fan plazo espec\u00edfico para hacer el retiro parcial o la reincorporaci\u00f3n? Y, por cierto, \u00bfhay alg\u00fan costo asociado a estos tr\u00e1mites?",
+        "need_context": false
+    },
+    {
+        "conv_id": 2161,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 necesita un nuevo alumno de pregrado para completar su matr\u00edcula en la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "Un nuevo alumno de pregrado necesita seguir estos pasos para completar su matr\u00edcula en la Facultad de Ciencias de la UNI:\n\n1. Recabar su constancia de ingreso.\n2. Actualizar sus datos en intranet.\n3. Registrar sus datos en la Facultad de Ciencias.\n4. Efectuar el pago por autoseguro (S/. 55.00).\n5. Entregar documentos a la oficina de estad\u00edstica: Constancia de Ingreso, Ficha de datos, Constancia de Evaluaci\u00f3n Socioecon\u00f3mica, Certificado M\u00e9dico y Comprobante de pago de Autoseguro.\n6. La oficina de estad\u00edstica ejecutar\u00e1 la matr\u00edcula seg\u00fan el cronograma.\n\nRecibir\u00e1 un correo con el horario de sus cursos y podr\u00e1 verlos en la plataforma intranet."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY qu\u00e9 documentos espec\u00edficos necesito para la constancia de evaluaci\u00f3n socioecon\u00f3mica y el certificado m\u00e9dico? \u00bfHay alg\u00fan formato o requisitos especiales para esos?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a informaci\u00f3n espec\u00edfica sobre los formatos o requisitos especiales para la constancia de evaluaci\u00f3n socioecon\u00f3mica y el certificado m\u00e9dico. Te recomiendo contactar con la oficina de estad\u00edstica de la Facultad de Ciencias para obtener detalles precisos sobre estos documentos. Ellos podr\u00e1n brindarte la informaci\u00f3n necesaria."
+            }
+        ],
+        "user_message": "Entendido. Entonces, \u00bfsabes si hay alg\u00fan horario espec\u00edfico para contactar a la oficina de estad\u00edstica o si tienen alg\u00fan correo donde pueda escribirles?",
+        "expected_reformulated_question": "Entendido. Entonces, \u00bfsabes si hay alg\u00fan horario espec\u00edfico para contactar a la oficina de estad\u00edstica o si tienen alg\u00fan correo donde pueda escribirles?",
+        "need_context": false
+    },
+    {
+        "conv_id": 1133,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 informaci\u00f3n se puede encontrar en la intranet-alumnos para los estudiantes?"
+            },
+            {
+                "role": "assistant",
+                "content": "En la plataforma de intranet-alumnos, los estudiantes pueden consultar los cursos matriculados en el periodo actual, revisar las notas del presente y de ciclos anteriores, y ver el avance curricular, que incluye los cursos realizados y los cr\u00e9ditos acumulados. Tambi\u00e9n pueden acceder a la ficha acad\u00e9mica con los cursos cursados por periodo y realizar procedimientos o tr\u00e1mites como el retiro parcial, el retiro total y la reincorporaci\u00f3n."
+            }
+        ],
+        "user_message": "\u00bfY c\u00f3mo puedo acceder a la ficha acad\u00e9mica? \u00bfHay alg\u00fan paso espec\u00edfico que deba seguir?",
+        "expected_reformulated_question": "\u00bfY c\u00f3mo puedo acceder a la ficha acad\u00e9mica? \u00bfHay alg\u00fan paso espec\u00edfico que deba seguir?",
+        "need_context": false
+    },
+    {
+        "conv_id": 1133,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 informaci\u00f3n se puede encontrar en la intranet-alumnos para los estudiantes?"
+            },
+            {
+                "role": "assistant",
+                "content": "En la plataforma de intranet-alumnos, los estudiantes pueden consultar los cursos matriculados en el periodo actual, revisar las notas del presente y de ciclos anteriores, y ver el avance curricular, que incluye los cursos realizados y los cr\u00e9ditos acumulados. Tambi\u00e9n pueden acceder a la ficha acad\u00e9mica con los cursos cursados por periodo y realizar procedimientos o tr\u00e1mites como el retiro parcial, el retiro total y la reincorporaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY c\u00f3mo puedo acceder a la ficha acad\u00e9mica? \u00bfHay alg\u00fan paso espec\u00edfico que deba seguir?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder a la ficha acad\u00e9mica, debes ingresar a la plataforma de intranet-alumnos de la UNI. Puedes hacerlo a trav\u00e9s de la [p\u00e1gina web de la DIRCE](https://dirce.uni.edu.pe/) seleccionando \"Acceso a alumnos\" o directamente en este enlace: [intranet-alumnos](https://www.academico.uni.edu.pe/alumno/inicio). Inicia sesi\u00f3n con tu c\u00f3digo de alumno UNI y la clave proporcionada por la DIRCE. Una vez dentro, podr\u00e1s consultar tu ficha acad\u00e9mica, que incluye los cursos cursados por periodo. No hay pasos adicionales espec\u00edficos para acceder a esta informaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY si no recuerdo mi clave de acceso? \u00bfC\u00f3mo puedo recuperarla?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si no recuerdas tu clave de acceso, debes comunicarte con la Direcci\u00f3n de Registros Central y Estad\u00edstica (DIRCE) para solicitar la recuperaci\u00f3n de tu clave. Puedes enviar un correo a obtenercorreo@uni.pe con tu c\u00f3digo de alumno y la informaci\u00f3n necesaria para que puedan asistirte en el proceso."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfSabes si hay alg\u00fan tiempo estimado para que me respondan despu\u00e9s de enviar el correo a DIRCE?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo informaci\u00f3n espec\u00edfica sobre el tiempo estimado de respuesta de la DIRCE despu\u00e9s de enviar un correo. Te sugiero que est\u00e9s atento a tu bandeja de entrada y, si no recibes respuesta en un tiempo razonable, podr\u00edas considerar enviar un recordatorio. Si necesitas m\u00e1s informaci\u00f3n, puedes contactar a la Oficina de Estad\u00edstica de la Facultad de Ciencias."
+            }
+        ],
+        "user_message": "Entendido. Estar\u00e9 pendiente de mi correo y, si no me responden pronto, les enviar\u00e9 un recordatorio. \u00bfSabes si hay alg\u00fan contacto directo de la Oficina de Estad\u00edstica de la Facultad de Ciencias?",
+        "expected_reformulated_question": "Entendido. Estar\u00e9 pendiente de mi correo y, si no me responden pronto, les enviar\u00e9 un recordatorio. \u00bfSabes si hay alg\u00fan contacto directo de la Oficina de Estad\u00edstica de la Facultad de Ciencias?",
+        "need_context": false
+    },
+    {
+        "conv_id": 549,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfPuedo llamar o enviar un correo a la Mesa de Partes de DIRCE fuera de su horario de atenci\u00f3n?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo informaci\u00f3n sobre la posibilidad de contactar a la Mesa de Partes de DIRCE fuera de su horario de atenci\u00f3n. Te sugiero que env\u00edes un correo a mesadepartesorce@uni.edu.pe durante su horario de atenci\u00f3n, que es de lunes a viernes de 8:30 am a 03:00 pm, para obtener una respuesta adecuada. Estoy aqu\u00ed para ayudarte con cualquier otra consulta."
+            },
+            {
+                "role": "user",
+                "content": "Entendido. \u00bfSabes si hay alguna otra forma de obtener informaci\u00f3n urgente si no puedo esperar hasta el siguiente horario?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo informaci\u00f3n sobre otras formas de obtener informaci\u00f3n urgente fuera del horario de atenci\u00f3n. Te recomiendo que env\u00edes un correo a la oficina correspondiente durante su horario de atenci\u00f3n. Para la Mesa de Partes de DIRCE, el correo es mesadepartesorce@uni.edu.pe, y para la Facultad de Ciencias, es mesadepartes_fc@uni.edu.pe. Estoy aqu\u00ed para ayudarte con cualquier otra consulta que tengas."
+            }
+        ],
+        "user_message": "Ok, gracias. \u00bfSabes si hay alg\u00fan grupo de estudiantes o foros donde pueda preguntar sobre estos temas? A veces es m\u00e1s f\u00e1cil obtener info de otros que ya han pasado por lo mismo.",
+        "expected_reformulated_question": "Ok, gracias. \u00bfSabes si hay alg\u00fan grupo de estudiantes o foros donde pueda preguntar sobre estos temas? A veces es m\u00e1s f\u00e1cil obtener info de otros que ya han pasado por lo mismo.",
+        "need_context": false
+    },
+    {
+        "conv_id": 2610,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 procedimiento debe realizar un alumno que quiere volver a matricularse despu\u00e9s de haber reservado su matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante que desea reincorporarse despu\u00e9s de haber reservado su matr\u00edcula debe seguir estos pasos:\n\n1. Gestionar la reincorporaci\u00f3n antes de las fechas de matr\u00edcula, seg\u00fan el calendario acad\u00e9mico.\n2. Acceder a la plataforma intranet-alumnos con su c\u00f3digo UNI y clave.\n3. Seleccionar \"Tr\u00e1mites y Pagos\" y generar un nuevo pago en el m\u00f3dulo correspondiente.\n4. Realizar el pago en una sucursal del BCP o mediante la aplicaci\u00f3n m\u00f3vil del BCP.\n5. Enviar la solicitud de reincorporaci\u00f3n a trav\u00e9s de la plataforma, completando el formulario con la solicitud y el comprobante de pago.\n\nUna vez aprobada la reincorporaci\u00f3n, podr\u00e1 matricularse de manera regular."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY qu\u00e9 pasa si tengo problemas con el pago o no puedo acceder a la plataforma? \u00bfHay alguna forma de solucionar eso?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si tienes problemas para realizar el pago o no puedes acceder a la plataforma, verifica si tienes alguna deuda registrada en el sistema. Si eres estudiante en riesgo acad\u00e9mico y adeudas la tutor\u00eda obligatoria, contacta a la Oficina de Tutor\u00eda. Si no has pagado el autoseguro en el plazo establecido, comun\u00edcate con la Oficina de Estad\u00edstica (AERA) para m\u00e1s informaci\u00f3n sobre c\u00f3mo proceder. Para cualquier otro inconveniente, tambi\u00e9n se recomienda contactar directamente a la Oficina de Estad\u00edstica enviando un correo a estadistica_fc@uni.edu.pe o acerc\u00e1ndote personalmente."
+            }
+        ],
+        "user_message": "\u00bfY c\u00f3mo puedo saber si tengo deudas registradas en el sistema? \u00bfHay alg\u00fan lugar donde pueda consultar eso?",
+        "expected_reformulated_question": "\u00bfY c\u00f3mo puedo saber si tengo deudas registradas en el sistema? \u00bfHay alg\u00fan lugar donde pueda consultar eso?",
+        "need_context": false
+    },
+    {
+        "conv_id": 2421,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfPodr\u00edas explicarme c\u00f3mo acceder a INTRALU y qu\u00e9 tipo de informaci\u00f3n puedo encontrar en la plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder a INTRALU, ingresa a la [plataforma intranet-alumnos de la UNI](https://www.academico.uni.edu.pe/alumno/inicio) y selecciona \"Tr\u00e1mites o Pagos\" o \"Informaci\u00f3n Acad\u00e9mica\", lo que abrir\u00e1 INTRALU en una nueva pesta\u00f1a. Tambi\u00e9n puedes acceder directamente a trav\u00e9s de este enlace: https://alumnos.uni.edu.pe/login. Inicia sesi\u00f3n con tu c\u00f3digo de alumno UNI y la clave proporcionada por DIRCE, o usa la autenticaci\u00f3n con tu correo institucional.\n\nEn INTRALU, podr\u00e1s consultar los cursos matriculados, notas, avance curricular, y gestionar solicitudes y pagos para certificados y tr\u00e1mites acad\u00e9micos."
+            }
+        ],
+        "user_message": "Ya, perfecto. Entonces, \u00bfpuedo usar mi correo institucional para acceder a INTRALU? Y, \u00bfhay alguna secci\u00f3n espec\u00edfica que me recomiendes revisar primero para entender mejor c\u00f3mo funciona la plataforma?",
+        "expected_reformulated_question": "Ya, perfecto. Entonces, \u00bfpuedo usar mi correo institucional para acceder a INTRALU? Y, \u00bfhay alguna secci\u00f3n espec\u00edfica que me recomiendes revisar primero para entender mejor c\u00f3mo funciona la plataforma?",
+        "need_context": false
+    },
+    {
+        "conv_id": 2421,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfPodr\u00edas explicarme c\u00f3mo acceder a INTRALU y qu\u00e9 tipo de informaci\u00f3n puedo encontrar en la plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para acceder a INTRALU, ingresa a la [plataforma intranet-alumnos de la UNI](https://www.academico.uni.edu.pe/alumno/inicio) y selecciona \"Tr\u00e1mites o Pagos\" o \"Informaci\u00f3n Acad\u00e9mica\", lo que abrir\u00e1 INTRALU en una nueva pesta\u00f1a. Tambi\u00e9n puedes acceder directamente a trav\u00e9s de este enlace: https://alumnos.uni.edu.pe/login. Inicia sesi\u00f3n con tu c\u00f3digo de alumno UNI y la clave proporcionada por DIRCE, o usa la autenticaci\u00f3n con tu correo institucional.\n\nEn INTRALU, podr\u00e1s consultar los cursos matriculados, notas, avance curricular, y gestionar solicitudes y pagos para certificados y tr\u00e1mites acad\u00e9micos."
+            },
+            {
+                "role": "user",
+                "content": "Ya, perfecto. Entonces, \u00bfpuedo usar mi correo institucional para acceder a INTRALU? Y, \u00bfhay alguna secci\u00f3n espec\u00edfica que me recomiendes revisar primero para entender mejor c\u00f3mo funciona la plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, puedes usar tu correo institucional para acceder a INTRALU. Te recomiendo que revises primero la secci\u00f3n de \"Informaci\u00f3n Acad\u00e9mica\", donde podr\u00e1s consultar tus cursos matriculados, notas y avance curricular. Esto te ayudar\u00e1 a familiarizarte con las funcionalidades de la plataforma. Si necesitas m\u00e1s detalles sobre el uso de INTRALU, puedes consultar el manual de pagos en la p\u00e1gina de la Facultad de Ciencias."
+            }
+        ],
+        "user_message": "Genial, voy a chequear la secci\u00f3n de \"Informaci\u00f3n Acad\u00e9mica\". \u00bfEl manual de pagos tiene informaci\u00f3n sobre c\u00f3mo hacer tr\u00e1mites espec\u00edficos o solo sobre los pagos?",
+        "expected_reformulated_question": "Genial, voy a chequear la secci\u00f3n de \"Informaci\u00f3n Acad\u00e9mica\". \u00bfEl manual de pagos tiene informaci\u00f3n sobre c\u00f3mo hacer tr\u00e1mites espec\u00edficos o solo sobre los pagos?",
+        "need_context": false
+    },
+    {
+        "conv_id": 1377,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "Al enviar un correo para solicitar la constancia de matr\u00edcula, \u00bfqu\u00e9 informaci\u00f3n personal debe incluir el estudiante?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante debe incluir en el correo para solicitar la constancia de matr\u00edcula los siguientes datos personales: n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo."
+            },
+            {
+                "role": "user",
+                "content": "Perfecto, entonces solo necesito agregar esos datos. \u00bfHay alg\u00fan formato espec\u00edfico que deba seguir en el correo o alguna recomendaci\u00f3n sobre c\u00f3mo redactarlo?"
+            },
+            {
+                "role": "assistant",
+                "content": "No se menciona un formato espec\u00edfico para el correo, pero se recomienda ser claro y conciso en la redacci\u00f3n. Aseg\u00farate de incluir todos tus datos personales (n\u00famero de DNI, apellidos, nombres, correo institucional y/o alternativo) y especificar que solicitas una orden de pago para la constancia de matr\u00edcula. Tambi\u00e9n es \u00fatil indicar si deseas la constancia en ingl\u00e9s o en espa\u00f1ol. \u00a1Espero que esto te ayude!"
+            },
+            {
+                "role": "user",
+                "content": "Genial, entonces solo tengo que ser claro y directo. \u00bfSabes si hay alg\u00fan tiempo estimado para que respondan a la solicitud?"
+            },
+            {
+                "role": "assistant",
+                "content": "No se menciona un tiempo estimado para la respuesta a la solicitud de constancia de matr\u00edcula. Te recomiendo estar atento a tu correo institucional, ya que la oficina de estad\u00edstica te enviar\u00e1 la orden de pago y posteriormente la constancia. Si tienes dudas, puedes comunicarte con la oficina de estad\u00edstica al correo estadistica_fc@uni.edu.pe. \u00a1Espero que esto te sea \u00fatil!"
+            }
+        ],
+        "user_message": "Entendido, estar\u00e9 pendiente de mi correo. Si no recibo respuesta en unos d\u00edas, tal vez me comunique con la oficina de estad\u00edstica. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para contactarlos?",
+        "expected_reformulated_question": "Entendido, estar\u00e9 pendiente de mi correo. Si no recibo respuesta en unos d\u00edas, tal vez me comunique con la oficina de estad\u00edstica. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para contactarlos?",
+        "need_context": false
+    }
+]

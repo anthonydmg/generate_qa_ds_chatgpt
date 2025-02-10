@@ -1,0 +1,434 @@
+[
+    {
+        "conv_id": 2335,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfHay un manual o gu\u00eda que explique c\u00f3mo un ingresante puede generar su orden de pago para el autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, para obtener m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago para el autoseguro, puedes consultar el manual de pagos de la UNI, que est\u00e1 publicado en la p\u00e1gina web de la Facultad de Ciencias. Este manual te proporcionar\u00e1 la informaci\u00f3n necesaria para realizar el tr\u00e1mite correctamente."
+            }
+        ],
+        "user_message": "\u00bfSabes si hay alg\u00fan plazo espec\u00edfico para hacer ese tr\u00e1mite del autoseguro?",
+        "expected_reformulated_question": "\u00bfTienes informaci\u00f3n sobre si existe un plazo espec\u00edfico que los ingresantes deben cumplir para realizar el tr\u00e1mite de generaci\u00f3n de la orden de pago para el autoseguro, tal como se menciona en el manual de pagos de la UNI?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2335,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfHay un manual o gu\u00eda que explique c\u00f3mo un ingresante puede generar su orden de pago para el autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, para obtener m\u00e1s detalles sobre el proceso de generaci\u00f3n de una orden de pago para el autoseguro, puedes consultar el manual de pagos de la UNI, que est\u00e1 publicado en la p\u00e1gina web de la Facultad de Ciencias. Este manual te proporcionar\u00e1 la informaci\u00f3n necesaria para realizar el tr\u00e1mite correctamente."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfSabes si hay alg\u00fan plazo espec\u00edfico para hacer ese tr\u00e1mite del autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matr\u00edcula, dentro del plazo m\u00e1ximo establecido en el calendario de actividades acad\u00e9micas correspondiente al periodo acad\u00e9mico. Si no se cumple con este plazo, es probable que la matr\u00edcula no se realice de manera regular. Te recomiendo verificar el calendario de actividades acad\u00e9micas en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias."
+            }
+        ],
+        "user_message": "\u00bfY qu\u00e9 pasa si me paso de la fecha l\u00edmite? \u00bfHay alguna forma de regularizarlo despu\u00e9s?",
+        "expected_reformulated_question": "\u00bfQu\u00e9 consecuencias hay si no realizo el pago del autoseguro estudiantil antes de la fecha l\u00edmite establecida en el calendario acad\u00e9mico, y existe alg\u00fan procedimiento para regularizar mi situaci\u00f3n despu\u00e9s de haber pasado esa fecha?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2037,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos y requisitos debe cumplir un estudiante para matricularse regularmente en la Facultad de Ciencias de la UNI?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para matricularse regularmente en la Facultad de Ciencias de la UNI, un estudiante debe cumplir con los siguientes requisitos y pasos:\n\n**Requisitos:**\n1. Efectuar el pago por autoseguro estudiantil.\n2. No tener adeudos con la Facultad (econ\u00f3micos, pr\u00e9stamos de libros, etc.).\n3. Los alumnos en riesgo acad\u00e9mico deben haber completado la tutor\u00eda obligatoria.\n\n**Proceso:**\n1. Generar una orden de pago para el autoseguro a trav\u00e9s de la plataforma intranet-alumnos.\n2. Realizar el pago en los plazos establecidos.\n3. En la fecha y turno asignado, realizar la matr\u00edcula virtualmente en la plataforma intranet-alumnos, seleccionando asignaturas y horarios.\n\nLos turnos se asignan seg\u00fan el promedio ponderado."
+            }
+        ],
+        "user_message": "\u00bfY c\u00f3mo puedo acceder a la plataforma intranet-alumnos para generar la orden de pago? \u00bfHay alg\u00fan enlace directo o tengo que estar en el campus para hacerlo?",
+        "expected_reformulated_question": "\u00bfCu\u00e1les son los pasos que debo seguir para acceder a la plataforma intranet-alumnos de la Facultad de Ciencias de la UNI y generar la orden de pago para el autoseguro estudiantil? \u00bfEs necesario estar f\u00edsicamente en el campus para realizar este proceso o hay un enlace directo que puedo utilizar desde otro lugar?",
+        "need_context": true
+    },
+    {
+        "conv_id": 1500,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1nto tiene que pagar un estudiante para conseguir la constancia de notas en 2024?"
+            },
+            {
+                "role": "assistant",
+                "content": "Un estudiante debe pagar S/. 100.00 para obtener la constancia de notas en 2024."
+            }
+        ],
+        "user_message": "\u00bfY c\u00f3mo se hace el pago? \u00bfEs en l\u00ednea o tengo que ir a alguna oficina?",
+        "expected_reformulated_question": "\u00bfCu\u00e1l es el procedimiento para realizar el pago de S/. 100.00 que se requiere para obtener la constancia de notas en 2024? \u00bfSe puede hacer en l\u00ednea o es necesario acudir a alguna oficina?",
+        "need_context": true
+    },
+    {
+        "conv_id": 1500,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1nto tiene que pagar un estudiante para conseguir la constancia de notas en 2024?"
+            },
+            {
+                "role": "assistant",
+                "content": "Un estudiante debe pagar S/. 100.00 para obtener la constancia de notas en 2024."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY c\u00f3mo se hace el pago? \u00bfEs en l\u00ednea o tengo que ir a alguna oficina?"
+            },
+            {
+                "role": "assistant",
+                "content": "El pago para la constancia de notas se puede realizar de dos maneras: en l\u00ednea o de forma presencial. Puedes hacer el pago en alguna sucursal del BCP o a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil del banco. Si eliges la opci\u00f3n en l\u00ednea, debes seleccionar \"Pagar servicios\", elegir la Universidad Nacional de Ingenier\u00eda, luego la opci\u00f3n de pago para estudiantes e ingresar tu n\u00famero de DNI. La app mostrar\u00e1 la orden de pago con el monto exacto. Si prefieres ir a una sucursal, simplemente presenta la orden de pago que recibir\u00e1s por correo."
+            }
+        ],
+        "user_message": "Perfecto, entonces puedo hacerlo desde la app del BCP. \u00bfHay alg\u00fan plazo espec\u00edfico para hacer el pago y obtener la constancia?",
+        "expected_reformulated_question": "\u00bfExiste un plazo espec\u00edfico que deba cumplir un estudiante para realizar el pago y obtener la constancia de notas en 2024 a trav\u00e9s de la aplicaci\u00f3n del BCP?",
+        "need_context": true
+    },
+    {
+        "conv_id": 1370,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfEn qu\u00e9 lugar puedo encontrar el modelo de solicitud para la constancia de matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "El modelo de solicitud para la constancia de matr\u00edcula est\u00e1 disponible en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias. Puedes acceder a ella a trav\u00e9s del siguiente enlace: [MATR\u00cdCULA Y PROCEDIMIENTOS](https://fc.uni.edu.pe/documentos/). Si necesitas m\u00e1s ayuda, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Perfecto, voy a revisar esa secci\u00f3n. \u00bfSabes si hay alg\u00fan plazo espec\u00edfico para presentar la solicitud de la constancia?",
+        "expected_reformulated_question": "\u00bfSabes si existe un plazo espec\u00edfico para presentar la solicitud de la constancia de matr\u00edcula despu\u00e9s de haber encontrado el modelo en la secci\u00f3n \"MATR\u00cdCULA Y PROCEDIMIENTOS\" de la p\u00e1gina web de la Facultad de Ciencias?",
+        "need_context": true
+    },
+    {
+        "conv_id": 1484,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 detalles son necesarios en el correo para que un estudiante solicite la orden de pago de la constancia de notas?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar la orden de pago de la constancia de notas, el estudiante debe incluir los siguientes detalles en el correo:\n\n1. N\u00famero de DNI\n2. Apellidos\n3. Nombres\n4. Correo institucional y/o alternativo\n\nEs importante enviar este correo a estadistica_fc@uni.edu.pe. Si necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Perfecto, ya tengo claro lo que necesito incluir en el correo. Solo una cosa m\u00e1s, \u00bfhay alg\u00fan formato espec\u00edfico que deba seguir para el mensaje o con que sea directo est\u00e1 bien?",
+        "expected_reformulated_question": "\u00bfEs necesario seguir un formato espec\u00edfico para el correo en el que un estudiante solicita la orden de pago de la constancia de notas, o es suficiente con que el mensaje sea directo y contenga la informaci\u00f3n requerida?",
+        "need_context": true
+    },
+    {
+        "conv_id": 1951,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfHasta cu\u00e1ndo se puede hacer la solicitud de retiro total en la universidad, especialmente en casos justificados?"
+            },
+            {
+                "role": "assistant",
+                "content": "El retiro total puede solicitarse hasta una semana antes de los ex\u00e1menes parciales. De manera excepcional, en casos debidamente justificados, como enfermedad grave del estudiante o de un ascendiente o descendiente en primer grado, se puede solicitar hasta una semana antes de los ex\u00e1menes finales. Esta solicitud debe ser certificada por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD y ser\u00e1 evaluada por el Consejo Directivo de la Escuela Profesional correspondiente."
+            }
+        ],
+        "user_message": "\u00bfY c\u00f3mo se hace el proceso de solicitud? \u00bfHay alg\u00fan formato espec\u00edfico que deba llenar o alg\u00fan documento adicional que necesite presentar?",
+        "expected_reformulated_question": "\u00bfCu\u00e1l es el proceso para solicitar el retiro total en la universidad, incluyendo si hay un formato espec\u00edfico que deba llenar o documentos adicionales que necesite presentar, especialmente en casos justificados?",
+        "need_context": true
+    },
+    {
+        "conv_id": 1951,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfHasta cu\u00e1ndo se puede hacer la solicitud de retiro total en la universidad, especialmente en casos justificados?"
+            },
+            {
+                "role": "assistant",
+                "content": "El retiro total puede solicitarse hasta una semana antes de los ex\u00e1menes parciales. De manera excepcional, en casos debidamente justificados, como enfermedad grave del estudiante o de un ascendiente o descendiente en primer grado, se puede solicitar hasta una semana antes de los ex\u00e1menes finales. Esta solicitud debe ser certificada por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD y ser\u00e1 evaluada por el Consejo Directivo de la Escuela Profesional correspondiente."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY c\u00f3mo se hace el proceso de solicitud? \u00bfHay alg\u00fan formato espec\u00edfico que deba llenar o alg\u00fan documento adicional que necesite presentar?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar el Retiro Total, debes seguir estos pasos:\n\n1. Accede a la plataforma intranet-alumnos con tu c\u00f3digo UNI y clave.\n2. Selecciona \"Mis Tr\u00e1mites\" y luego \"Retiro Total\".\n3. Completa el formulario con:\n   - Motivo del retiro (viaje, accidente, enfermedad o emergencia familiar).\n   - Descripci\u00f3n del motivo.\n   - N\u00famero de ciclos ausente.\n   - Adjunta documentos sustentatorios.\n\nNo hay un formato espec\u00edfico, pero debes proporcionar la informaci\u00f3n requerida. Una vez completado, selecciona \"Enviar Solicitud\". Recuerda que la solicitud debe hacerse hasta una semana antes de los ex\u00e1menes parciales."
+            }
+        ],
+        "user_message": "\u00bfY cu\u00e1nto tiempo tarda en procesarse la solicitud una vez que la env\u00edas? \u00bfTe notifican de alguna manera sobre la decisi\u00f3n?",
+        "expected_reformulated_question": "\u00bfCu\u00e1nto tiempo se tarda en procesar la solicitud de retiro total en la universidad despu\u00e9s de enviarla, y c\u00f3mo se notifica al estudiante sobre la decisi\u00f3n tomada respecto a su solicitud?",
+        "need_context": true
+    },
+    {
+        "conv_id": 631,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 costo tiene el autoseguro que deben pagar los nuevos ingresantes?"
+            },
+            {
+                "role": "assistant",
+                "content": "El costo del autoseguro que deben pagar los nuevos ingresantes es de S/. 55.00."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY ese autoseguro cubre solo el primer a\u00f1o o hay que renovarlo cada a\u00f1o?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a informaci\u00f3n espec\u00edfica sobre la duraci\u00f3n del autoseguro estudiantil y si es necesario renovarlo cada a\u00f1o. Te sugiero que te comuniques con la oficina de estad\u00edstica (AERA) al correo estadistica_fc@uni.edu.pe para obtener informaci\u00f3n m\u00e1s detallada sobre este tema. Estoy aqu\u00ed para ayudarte en lo que necesites."
+            },
+            {
+                "role": "user",
+                "content": "Ok, voy a escribirles para aclarar eso. \u00bfSabes si hay alg\u00fan otro requisito que deba cumplir como nuevo ingresante?"
+            },
+            {
+                "role": "assistant",
+                "content": "Como nuevo ingresante a la Facultad de Ciencias, debes cumplir con los siguientes requisitos para la matr\u00edcula:\n\n1. Recabar tu constancia de ingreso.\n2. Actualizar tus datos en la intranet.\n3. Registrar tus datos en la Facultad de Ciencias mediante la ficha de datos.\n4. Efectuar el pago por autoseguro (S/. 55.00).\n5. Entregar los documentos requeridos a la oficina de estad\u00edstica, que incluyen:\n   - Constancia de Ingreso\n   - Ficha de datos\n   - Constancia de Evaluaci\u00f3n Socioecon\u00f3mica\n   - Certificado M\u00e9dico expedido por el Centro M\u00e9dico UNI\n   - Comprobante de pago de Autoseguro Estudiantil.\n\nSi necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Perfecto, eso aclara bastante. \u00bfSabes si hay alg\u00fan plazo espec\u00edfico para entregar esos documentos o hacer la matr\u00edcula?",
+        "expected_reformulated_question": "\u00bfExisten plazos espec\u00edficos para la entrega de los documentos requeridos y para realizar la matr\u00edcula como nuevo ingresante a la Facultad de Ciencias?",
+        "need_context": true
+    },
+    {
+        "conv_id": 557,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 tipo de informaci\u00f3n puedo solicitar por medio del correo de la Mesa de Partes de DIRCE?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, no tengo acceso a informaci\u00f3n espec\u00edfica sobre los tipos de solicitudes que se pueden realizar a trav\u00e9s del correo de la Mesa de Partes de DIRCE. Te sugiero que contactes directamente a la oficina de Mesa de Partes de DIRCE al correo mesadepartesorce@uni.edu.pe para obtener informaci\u00f3n m\u00e1s detallada sobre tus consultas. Estoy aqu\u00ed para ayudarte en lo que necesites."
+            }
+        ],
+        "user_message": "Entiendo, entonces mejor voy a escribirles directamente al correo que mencionas. \u00bfTienes alguna recomendaci\u00f3n sobre c\u00f3mo plantear mi consulta para que sea m\u00e1s efectiva?",
+        "expected_reformulated_question": "\u00bfTienes alguna recomendaci\u00f3n sobre c\u00f3mo redactar mi consulta al correo de la Mesa de Partes de DIRCE para que sea m\u00e1s efectiva, considerando que estoy buscando informaci\u00f3n espec\u00edfica sobre los tipos de solicitudes que puedo realizar?",
+        "need_context": true
+    },
+    {
+        "conv_id": 442,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 informaci\u00f3n es importante que un alumno verifique en la plataforma Intranet-Alumnos antes de su matr\u00edcula?"
+            },
+            {
+                "role": "assistant",
+                "content": "Antes de su matr\u00edcula, un alumno debe verificar en la plataforma intranet-alumnos lo siguiente:\n\n1. Si tiene alg\u00fan tipo de adeudo con la Facultad, ya sea econ\u00f3mico o por pr\u00e9stamo de materiales.\n2. Haber efectuado el pago del autoseguro en el plazo establecido.\n3. Consultar su turno asignado para la matr\u00edcula, que se basa en el promedio ponderado de los \u00faltimos dos ciclos.\n4. Revisar los cursos matriculados en el periodo actual y su avance curricular.\n\nEstas verificaciones son esenciales para asegurar un proceso de matr\u00edcula sin inconvenientes."
+            },
+            {
+                "role": "user",
+                "content": "Entendido. Entonces, adem\u00e1s de chequear los adeudos y el pago del autoseguro, \u00bfhay alg\u00fan otro detalle que deba tener en cuenta, como fechas espec\u00edficas o documentaci\u00f3n adicional que necesite presentar?"
+            },
+            {
+                "role": "assistant",
+                "content": "Adem\u00e1s de verificar los adeudos y el pago del autoseguro, es importante que revises el calendario de actividades acad\u00e9micas para conocer las fechas espec\u00edficas de matr\u00edcula. Tambi\u00e9n aseg\u00farate de tener listos los documentos requeridos, como la constancia de ingreso y la ficha de datos, si eres un ingresante. Para los alumnos regulares, no se requiere documentaci\u00f3n adicional m\u00e1s all\u00e1 de cumplir con los requisitos mencionados. Si tienes m\u00e1s dudas, no dudes en consultar."
+            }
+        ],
+        "user_message": "Perfecto, voy a revisar el calendario de actividades para no perderme las fechas. \u00bfSabes si hay alg\u00fan lugar donde pueda encontrar ejemplos de la constancia de ingreso o la ficha de datos, por si acaso?",
+        "expected_reformulated_question": "\u00bfExisten recursos o lugares espec\u00edficos donde pueda encontrar ejemplos de la constancia de ingreso y la ficha de datos que necesito presentar para la matr\u00edcula, en caso de que los necesite como referencia?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2099,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfMe puedes indicar c\u00f3mo un alumno puede gestionar su retiro de asignaturas en la plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "Claro, un alumno puede gestionar su retiro de asignaturas a trav\u00e9s de la plataforma DIRCE (intranet-alumnos) durante la quinta semana despu\u00e9s del inicio de clases. Debe seguir estos pasos:\n\n1. Ingresar a la plataforma y seleccionar \u201cretiro parcial\u201d.\n2. Elegir los cursos de los que desea retirarse. Recuerde que solo se permite el retiro de asignaturas m\u00e1s avanzadas y hasta un m\u00e1ximo de tres asignaturas.\n3. Consultar el resultado de su solicitud en la misma plataforma.\n\nPara fechas espec\u00edficas, consulte el calendario de actividades acad\u00e9micas en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina de la Facultad de Ciencias."
+            }
+        ],
+        "user_message": "\u00bfY qu\u00e9 pasa si ya pasaron esas cinco semanas? \u00bfHay alguna forma de apelar o hacer el retiro de alguna manera diferente?",
+        "expected_reformulated_question": "\u00bfQu\u00e9 opciones tiene un alumno para gestionar el retiro de asignaturas si ya ha pasado el plazo de cinco semanas establecido en la plataforma DIRCE, y existe alguna posibilidad de apelar o realizar el retiro de alguna manera alternativa?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2099,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfMe puedes indicar c\u00f3mo un alumno puede gestionar su retiro de asignaturas en la plataforma?"
+            },
+            {
+                "role": "assistant",
+                "content": "Claro, un alumno puede gestionar su retiro de asignaturas a trav\u00e9s de la plataforma DIRCE (intranet-alumnos) durante la quinta semana despu\u00e9s del inicio de clases. Debe seguir estos pasos:\n\n1. Ingresar a la plataforma y seleccionar \u201cretiro parcial\u201d.\n2. Elegir los cursos de los que desea retirarse. Recuerde que solo se permite el retiro de asignaturas m\u00e1s avanzadas y hasta un m\u00e1ximo de tres asignaturas.\n3. Consultar el resultado de su solicitud en la misma plataforma.\n\nPara fechas espec\u00edficas, consulte el calendario de actividades acad\u00e9micas en la secci\u00f3n \"Matr\u00edcula y Procedimientos\" de la p\u00e1gina de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY qu\u00e9 pasa si ya pasaron esas cinco semanas? \u00bfHay alguna forma de apelar o hacer el retiro de alguna manera diferente?"
+            },
+            {
+                "role": "assistant",
+                "content": "Lamentablemente, el procedimiento de Retiro Parcial debe realizarse dentro del plazo establecido, que es hasta el \u00faltimo d\u00eda \u00fatil de la quinta semana despu\u00e9s del inicio de clases. No se contempla un mecanismo de apelaci\u00f3n para este proceso. Si necesitas m\u00e1s informaci\u00f3n o asistencia, te sugiero contactar a la Oficina de Estad\u00edstica de la Facultad de Ciencias. Estoy aqu\u00ed para ayudarte en lo que necesites."
+            }
+        ],
+        "user_message": "Entendido. Entonces, si ya pas\u00f3 el plazo, \u00bfcu\u00e1l ser\u00eda la mejor opci\u00f3n para manejar la situaci\u00f3n? \u00bfHay alg\u00fan consejo para evitar problemas en el futuro?",
+        "expected_reformulated_question": "Si un alumno ha perdido el plazo de cinco semanas para gestionar el retiro de asignaturas en la plataforma DIRCE, \u00bfcu\u00e1l ser\u00eda la mejor opci\u00f3n para manejar esta situaci\u00f3n? Adem\u00e1s, \u00bfqu\u00e9 consejos se pueden ofrecer para evitar problemas similares en el futuro?",
+        "need_context": true
+    },
+    {
+        "conv_id": 217,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 implica el concepto de Retiro Total para los estudiantes de la Universidad Nacional de Ingenier\u00eda?"
+            },
+            {
+                "role": "assistant",
+                "content": "El Retiro Total es el procedimiento mediante el cual un estudiante solicita la anulaci\u00f3n total de su matr\u00edcula en un periodo acad\u00e9mico. Este retiro procede solo por motivos de fuerza mayor, como viaje al extranjero, accidente limitante, enfermedad limitante o emergencia familiar limitante. La solicitud debe presentarse hasta una semana antes de los ex\u00e1menes parciales, y en casos excepcionales, hasta una semana antes de los ex\u00e1menes finales por enfermedad grave, debidamente justificada y certificada. Es importante adjuntar la documentaci\u00f3n que sustente los motivos de la solicitud."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY c\u00f3mo se presenta exactamente la solicitud de Retiro Total? \u00bfHay alg\u00fan formato espec\u00edfico o se hace a trav\u00e9s de una plataforma en l\u00ednea?"
+            },
+            {
+                "role": "assistant",
+                "content": "La solicitud de Retiro Total se presenta a trav\u00e9s de la plataforma intranet-alumnos. No hay un formato espec\u00edfico, pero debes seguir estos pasos:\n\n1. Accede a la plataforma con tu c\u00f3digo UNI y clave.\n2. Selecciona \"Mis Tr\u00e1mites\" en el men\u00fa y luego \"Retiro Total\".\n3. Completa el formulario con el motivo del retiro, una descripci\u00f3n, el n\u00famero de ciclos que estar\u00e1s ausente y adjunta los documentos sustentatorios.\n4. Finalmente, selecciona \"Enviar Solicitud\".\n\nRecuerda que debes hacerlo hasta una semana antes de los ex\u00e1menes parciales."
+            }
+        ],
+        "user_message": "Perfecto, eso suena bastante claro. \u00bfY qu\u00e9 tipo de documentos sustentatorios se suelen requerir? \u00bfHay alg\u00fan ejemplo espec\u00edfico que deba tener en cuenta?",
+        "expected_reformulated_question": "\u00bfQu\u00e9 tipo de documentos sustentatorios son necesarios para presentar una solicitud de Retiro Total en la Universidad Nacional de Ingenier\u00eda, y podr\u00edas darme ejemplos espec\u00edficos de los mismos que se deben tener en cuenta?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2321,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos debe seguir un ingresante para realizar el pago del autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para que un ingresante genere una orden de pago por autoseguro, debe seguir estos pasos:\n\n1. Ingresar a la plataforma Intranet-Alumnos.\n2. Seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" para ser redirigido al m\u00f3dulo de pagos del Portal INTRALU.\n3. Elegir \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable y hacer clic en \"Nuevo\".\n4. Seguir las indicaciones hasta generar la orden de pago por S/. 55.00.\n5. Realizar el pago a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil BCP o en una sucursal del banco.\n\nPara m\u00e1s detalles, se puede revisar el manual de pagos de la UNI en la p\u00e1gina web de la Facultad de Ciencias."
+            }
+        ],
+        "user_message": "\u00bfY qu\u00e9 pasa si tengo problemas para acceder a la Intranet o no puedo generar la orden de pago? \u00bfHay alg\u00fan contacto o lugar donde pueda pedir ayuda?",
+        "expected_reformulated_question": "\u00bfQu\u00e9 debo hacer si tengo dificultades para acceder a la Intranet-Alumnos y no puedo generar la orden de pago para el autoseguro m\u00e9dico? \u00bfExiste alg\u00fan contacto o lugar espec\u00edfico donde pueda solicitar asistencia para resolver este problema?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2321,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfQu\u00e9 pasos debe seguir un ingresante para realizar el pago del autoseguro?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para que un ingresante genere una orden de pago por autoseguro, debe seguir estos pasos:\n\n1. Ingresar a la plataforma Intranet-Alumnos.\n2. Seleccionar la opci\u00f3n \"Tr\u00e1mites y Pagos\" para ser redirigido al m\u00f3dulo de pagos del Portal INTRALU.\n3. Elegir \"PAGO-AUTOSEGURO MEDICO\" en el men\u00fa desplegable y hacer clic en \"Nuevo\".\n4. Seguir las indicaciones hasta generar la orden de pago por S/. 55.00.\n5. Realizar el pago a trav\u00e9s de la aplicaci\u00f3n m\u00f3vil BCP o en una sucursal del banco.\n\nPara m\u00e1s detalles, se puede revisar el manual de pagos de la UNI en la p\u00e1gina web de la Facultad de Ciencias."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY qu\u00e9 pasa si tengo problemas para acceder a la Intranet o no puedo generar la orden de pago? \u00bfHay alg\u00fan contacto o lugar donde pueda pedir ayuda?"
+            },
+            {
+                "role": "assistant",
+                "content": "Si tienes problemas para acceder a la Intranet o no puedes generar la orden de pago, se recomienda que te comuniques con la oficina de estad\u00edstica (AERA) para obtener asistencia. Puedes enviar un correo a estadistica_fc@uni.edu.pe o acercarte personalmente a la oficina. Ellos podr\u00e1n ayudarte con tu situaci\u00f3n."
+            },
+            {
+                "role": "user",
+                "content": "Perfecto, gracias. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para acercarme a la oficina de AERA o si responden r\u00e1pido los correos?"
+            },
+            {
+                "role": "assistant",
+                "content": "La oficina de AERA atiende de lunes a viernes de 8:00 a.m. a 4:00 p.m. En cuanto a la respuesta a los correos, no tengo informaci\u00f3n espec\u00edfica sobre la rapidez con la que responden. Te recomiendo acercarte durante su horario de atenci\u00f3n para obtener asistencia directa. \u00a1Estoy aqu\u00ed para ayudarte!"
+            }
+        ],
+        "user_message": "Entendido. Ir\u00e9 a la oficina entonces. \u00bfHay algo m\u00e1s que deba llevar o preparar antes de ir?",
+        "expected_reformulated_question": "Antes de ir a la oficina de AERA para resolver mis problemas de acceso a la Intranet y la generaci\u00f3n de la orden de pago, \u00bfhay alg\u00fan documento o informaci\u00f3n espec\u00edfica que deba llevar o preparar para asegurarme de que mi consulta sea atendida de manera efectiva?",
+        "need_context": true
+    },
+    {
+        "conv_id": 2090,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfC\u00f3mo puede un alumno tramitar su retiro de asignaturas?"
+            },
+            {
+                "role": "assistant",
+                "content": "Un alumno puede tramitar su retiro de asignaturas, conocido como Retiro Parcial, a trav\u00e9s de la plataforma DIRCE (intranet-alumnos) durante la quinta semana despu\u00e9s del inicio de clases. Debe seguir estos pasos:\n\n1. Ingresar a la plataforma y seleccionar \u201cretiro parcial\u201d.\n2. Elegir los cursos de los que desea retirarse (solo asignaturas avanzadas, no repetidas o prerrequisitos).\n3. Consultar el resultado de su solicitud en la misma plataforma.\n\nRecuerde que se permite el retiro de hasta tres asignaturas, siempre que no se retire de todos los cursos matriculados. Para fechas espec\u00edficas, consulte el calendario acad\u00e9mico."
+            }
+        ],
+        "user_message": "\u00bfY si ya pas\u00f3 la quinta semana? \u00bfHay alguna otra opci\u00f3n para retirarme de una asignatura?",
+        "expected_reformulated_question": "Si un alumno ha perdido el plazo de la quinta semana para tramitar su retiro de asignaturas a trav\u00e9s de la plataforma DIRCE, \u00bfexisten otras alternativas disponibles para que pueda retirarse de una asignatura?",
+        "need_context": true
+    },
+    {
+        "conv_id": 544,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfD\u00f3nde puedo encontrar el correo electr\u00f3nico de la Mesa de Partes de DIRCE?"
+            },
+            {
+                "role": "assistant",
+                "content": "El correo de contacto de la Mesa de Partes de DIRCE es mesadepartesorce@uni.edu.pe. Si necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar."
+            },
+            {
+                "role": "user",
+                "content": "Genial, gracias. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar documentos o consultas a la Mesa de Partes?"
+            },
+            {
+                "role": "assistant",
+                "content": "S\u00ed, el horario de atenci\u00f3n de la Mesa de Partes de la Facultad de Ciencias es de lunes a viernes de 8:30 a.m. a 3:00 p.m. Si necesitas m\u00e1s informaci\u00f3n, no dudes en preguntar."
+            }
+        ],
+        "user_message": "Perfecto, eso me ayuda bastante. \u00bfHay alg\u00fan tipo de documento que necesite un formato espec\u00edfico para ser presentado?",
+        "expected_reformulated_question": "\u00bfExisten documentos que deban ser presentados en un formato espec\u00edfico al enviarlos a la Mesa de Partes de DIRCE?",
+        "need_context": true
+    },
+    {
+        "conv_id": 166,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es la plataforma que debe usar un estudiante para solicitar el retiro total?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante debe utilizar la plataforma intranet-alumnos para solicitar el retiro total. Acceder\u00e1 a la plataforma con su c\u00f3digo UNI y clave correspondiente."
+            }
+        ],
+        "user_message": "\u00bfY hay alg\u00fan requisito espec\u00edfico que deba cumplir para hacer la solicitud?",
+        "expected_reformulated_question": "\u00bfExisten requisitos espec\u00edficos que un estudiante debe cumplir para solicitar el retiro total a trav\u00e9s de la plataforma intranet-alumnos?",
+        "need_context": true
+    },
+    {
+        "conv_id": 166,
+        "dialog_context": [
+            {
+                "role": "user",
+                "content": "\u00bfCu\u00e1l es la plataforma que debe usar un estudiante para solicitar el retiro total?"
+            },
+            {
+                "role": "assistant",
+                "content": "El estudiante debe utilizar la plataforma intranet-alumnos para solicitar el retiro total. Acceder\u00e1 a la plataforma con su c\u00f3digo UNI y clave correspondiente."
+            },
+            {
+                "role": "user",
+                "content": "\u00bfY hay alg\u00fan requisito espec\u00edfico que deba cumplir para hacer la solicitud?"
+            },
+            {
+                "role": "assistant",
+                "content": "Para solicitar el retiro total, el estudiante debe cumplir con los siguientes requisitos: \n\n1. Enviar la solicitud a trav\u00e9s de la plataforma intranet-alumnos hasta una semana antes de los ex\u00e1menes parciales.\n2. Proporcionar un motivo v\u00e1lido para el retiro, como viaje al extranjero, accidente limitante, enfermedad limitante o emergencia familiar limitante.\n3. Adjuntar documentos sustentatorios que respalden el motivo de la solicitud.\n\nEn casos excepcionales, se puede solicitar el retiro total por enfermedad grave de un familiar directo, certificado por el Centro M\u00e9dico de la UNI, MINSA o ESSALUD, hasta una semana antes de los ex\u00e1menes finales."
+            }
+        ],
+        "user_message": "\u00bfY qu\u00e9 tipo de documentos sustentatorios se necesitan? \u00bfHay alg\u00fan formato espec\u00edfico que deba seguir?",
+        "expected_reformulated_question": "\u00bfCu\u00e1les son los tipos de documentos sustentatorios que un estudiante debe presentar al solicitar el retiro total a trav\u00e9s de la plataforma intranet-alumnos, y existe alg\u00fan formato espec\u00edfico que deba seguir para estos documentos?",
+        "need_context": true
+    }
+]
