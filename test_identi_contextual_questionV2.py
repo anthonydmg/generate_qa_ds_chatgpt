@@ -209,8 +209,6 @@ Usa los siguientes criterios para determinar si es estrictamente necesario refor
 El asistente asume que todas las preguntas del usuario están relacionadas con la Facultad de Ciencias de la UNI, por lo que no es necesario mencionarlo explícitamente en cada consulta. En consecuencia, hacer referencia explícita a la Facultad de Ciencias de la UNI no mejora la precisión de las respuestas, y su omisión no requiere una reformulación de la pregunta.
 2. Mejora en la Precisión y Claridad
 Cuando el historial de conversación contiene información explícita que puede hacer la pregunta más precisa y contextualizada, se debe reformular la consulta para que el asistente pueda comprenderla sin depender del historial. Sin embargo, solo se debe incluir información explícitamente mencionada en el historial, sin añadir suposiciones ni datos externos. Como se indica en el criterio 1, hacer referencia explícita a la Facultad de Ciencias no contribuye a la claridad y no justifica una reformulación.
-3. Independencia del Contexto
-La pregunta debe reformularse para que pueda ser comprendida de manera autónoma, sin depender del historial de la conversación. Esto significa que la última pregunta del usuario debe reescribirse, si es necesario, para garantizar que contenga toda la información relevante para su interpretación, evitando referencias ambiguas o dependencias con interacciones previas.
 
 Analiza cada criterio de manera detallada para determinar si es necesario reformular la consulta y responde utilizando el siguiente formato:
 
@@ -242,7 +240,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/need_reformulate_demo_test_data.json")[:10]
+test_data = load_json("./test/need_reformulate_demo_test_data.json")[10:20]
 print("\nlen(test_data):", len(test_data))
 print()
 
