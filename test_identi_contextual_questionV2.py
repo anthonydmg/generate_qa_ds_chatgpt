@@ -224,6 +224,89 @@ Reformulación: <<Pregunta reformulada/No aplica>> [Proporciona la versión refo
 
 Historial previo de la conversación: <<{history_chat}>>"""
         return prompt_identify_reform
+
+
+def get_prompt_reformulated_contextual_query_8(query, history_chat_messages):
+        history_chat = format_text_history_chat(history_chat_messages)
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta en el último mensaje del usuario y determina si es necesario reformular la pregunta para mejorar su precisión y claridad.
+
+El objetivo es que el asistente pueda comprender la pregunta en el último mensaje del usuario sin tener acceso al historial de la conversación. Reformula la pregunta solo si es estrictamente necesario según los siguientes criterios:
+
+Criterios para Reformulación
+Criterio 1: Contexto Académico Implícito
+El asistente siempre asume que todas las preguntas están relacionadas con la Facultad de Ciencias de la UNI, por lo que no es necesario reformular la pregunta solo para incluir esta información.
+No reformules la pregunta si la única mejora posible es añadir “Facultad de Ciencias de la UNI”.
+Criterio 2: Ambigüedad y Falta de Contexto
+Reformula la pregunta solo si es ambigua cuando se toma de manera aislada, es decir, si el usuario menciona algo sin especificar a qué se refiere y el historial puede aclararlo.
+La ambigüedad ocurre cuando la pregunta podría referirse a más de un concepto o trámite académico.
+No reformules si la pregunta sigue siendo clara sin el historial.
+Criterio 3: Mejora en la Precisión
+Si el historial de la conversación contiene información explícita que puede hacer la pregunta más precisa, se debe reformular.
+Solo reformula si puedes usar información ya presente en el historial sin agregar suposiciones o información externa.
+
+
+Ejemplos de Aplicación de los Criterios
+
+Ejemplo 1 (Reformulación Necesaria)
+Historial:
+Usuario: "¿Cómo solicito un Retiro Total?"
+Asistente: "Se presenta en la plataforma intranet-alumnos y debes adjuntar documentos sustentatorios."
+Usuario: "¿Qué documentos se necesitan?"
+
+Evaluación:
+
+"¿Qué documentos se necesitan?" es ambigua si se toma aislada, ya que no menciona que se refiere al Retiro Total.
+Se necesita reformular para hacer explícito que se trata de documentos para el Retiro Total.
+Reformulación Correcta:
+"¿Qué documentos sustentatorios se requieren para solicitar un Retiro Total?"
+
+Ejemplo 2 (Reformulación No Necesaria)
+Historial:
+Usuario: "¿Cuáles son los requisitos para la matrícula?"
+Asistente: "Debes presentar tu DNI y un recibo de pago."
+Usuario: "¿Y cuánto cuesta la matricula?"
+
+Evaluación:
+
+"¿Y cuánto cuesta la matricula?" es entendible sin historial porque se menciona en la ultima pregunta que se refiere a la matricula y el historial no contiene información que puede agregarse para hacer mas clara o precisa la pregunta. No es necesario reformular.
+
+Ejemplo 3 (Mensaje No es una Pregunta)
+Historial:
+Usuario: "Gracias por la ayuda."
+
+Evaluación:
+
+No es una pregunta.
+No se necesita reformulación.
+
+Formato de Respuesta
+La respuesta debe seguir este formato estructurado:
+
+Análisis: Explicación detallada sobre si la pregunta es ambigua y si debe reformularse.
+El último mensaje contiene una pregunta: Sí/No
+Es estrictamente necesario reformular la consulta: Sí/No/No aplica
+Reformulación: <<Pregunta reformulada/No aplica>>
+
+
+Formato de Respuesta Esperado
+
+Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
+
+Análisis: [Describe de manera detallada si es necesario reformular la pregunta].
+
+El último mensaje contiene una pregunta: Sí/No  
+
+Es estrictamente necesario reformular la consulta: Sí/No/No aplica  
+
+Reformulación: <<Pregunta reformulada/No aplica>>
+
+Datos de Entrada
+
+Último mensaje del usuario: {query}
+
+Historial previo de la conversación: <<{history_chat}>>"""
+        return prompt_identify_reform
+
 ## Agregar esto a eso
 # La pregunta del usuario se refiere al proceso de matrícula en la universidad y si hay plazos específicos que deben considerarse. Aunque la pregunta es clara y directa, el contexto sobre qué tipo de matrícula se está refiriendo (por ejemplo, matrícula inicial, matrícula para un ciclo académico específico, etc.) no se menciona. Sin embargo, dado que el término "matrícula" es común en el ámbito académico y el asistente está familiarizado con las normativas de la universidad, se puede inferir que se refiere al proceso general de matrícula en la Facultad de Ciencias de la UNI. La pregunta es específica en cuanto a la búsqueda de información sobre el proceso y los plazos, lo que permite que se pueda responder de manera adecuada. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
 
@@ -240,7 +323,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/need_reformulate_demo_test_data.json")[10:20]
+test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[10:20]
 print("\nlen(test_data):", len(test_data))
 print()
 
@@ -248,7 +331,7 @@ for example in test_data[:]:
     history_messages_chat = example["dialog_context"]
     query = example["user_message"]
 
-    prompt = get_prompt_reformulated_contextual_query_7(query, history_messages_chat)
+    prompt = get_prompt_reformulated_contextual_query_8(query, history_messages_chat)
     expected_need_context = not example["need_context"]
     print()
     print("-"*90)
