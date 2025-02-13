@@ -307,6 +307,92 @@ Datos de Entrada
 Historial previo de la conversación: <<{history_chat}>>"""
         return prompt_identify_reform
 
+
+def get_prompt_reformulated_contextual_query_9(query, history_chat_messages):
+        history_chat = format_text_history_chat(history_chat_messages)
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta en el último mensaje del usuario y determina si es necesario reformular la pregunta para mejorar su precisión y claridad.
+
+El objetivo es que el asistente pueda comprender la pregunta en el último mensaje del usuario sin tener acceso al historial de la conversación. Reformula la pregunta solo si es estrictamente necesario, es decir, si sin reformulación la pregunta podría ser malinterpretada o resultar confusa.
+
+Criterios para Reformulación
+Criterio 1: Contexto Académico Implícito
+No reformules la pregunta si la única mejora posible es añadir “Facultad de Ciencias de la UNI”.
+El asistente ya asume que todas las preguntas se refieren a esta facultad, por lo que no es necesario explicitarlo.
+Criterio 2: Ambigüedad y Falta de Contexto
+Reformula únicamente si la pregunta es ambigua cuando se toma de manera aislada, es decir, si el usuario menciona algo sin especificar a qué se refiere.
+Ejemplo de ambigüedad:
+- "¿Cuáles son los requisitos?" → Ambigua (no se sabe requisitos de qué trámite)
+- "¿Cuáles son los requisitos para la matrícula?" → Clara, no necesita reformulación.
+Si la pregunta sigue siendo clara sin el historial, NO reformules.
+Criterio 3: Mejora en la Precisión
+Reformula solo si el historial tiene información explícita que puede hacer la pregunta más precisa.
+No reformules solo para mejorar redacción o hacer la pregunta más directa si ya es comprensible.
+Ejemplo de reformulación justificada:
+Historial:
+Usuario: "¿Cómo solicito un Retiro Total?"
+Asistente: "Debes presentar documentos sustentatorios."
+Usuario: "¿Qué documentos se necesitan?"
+Se necesita reformular porque la pregunta original es ambigua y no especifica que se refiere al Retiro Total.
+Reformulación correcta: "¿Qué documentos sustentatorios se requieren para solicitar un Retiro Total?"
+
+Errores comunes que debes evitar
+- Reformular preguntas claras solo para reorganizar la información.
+- Modificar la estructura de la pregunta sin una razón estrictamente necesaria.
+- Asumir que cada pregunta necesita reformulación solo porque el historial da más detalles.
+
+Ejemplos de Aplicación de los Criterios
+
+Ejemplo 1 (Reformulación Necesaria)
+Historial:
+Usuario: "¿Cómo solicito un Retiro Total?"
+Asistente: "Se presenta en la plataforma intranet-alumnos y debes adjuntar documentos sustentatorios."
+Usuario: "¿Qué documentos se necesitan?"
+
+Evaluación:
+
+"¿Qué documentos se necesitan?" es ambigua si se toma aislada, ya que no menciona que se refiere al Retiro Total.
+Se necesita reformular para hacer explícito que se trata de documentos para el Retiro Total.
+Reformulación Correcta:
+"¿Qué documentos sustentatorios se requieren para solicitar un Retiro Total?"
+
+Ejemplo 2 (Reformulación No Necesaria)
+Historial:
+Usuario: "¿Cuáles son los requisitos para la matrícula?"
+Asistente: "Debes presentar tu DNI y un recibo de pago."
+Usuario: "¿Y cuánto cuesta la matricula?"
+
+Evaluación:
+
+"¿Y cuánto cuesta la matricula?" es entendible sin historial porque se menciona en la ultima pregunta que se refiere a la matricula y el historial no contiene información que puede agregarse para hacer mas clara o precisa la pregunta. No es necesario reformular.
+
+Ejemplo 3 (Mensaje No es una Pregunta)
+Historial:
+Usuario: "Gracias por la ayuda."
+
+Evaluación:
+
+No es una pregunta.
+No se necesita reformulación.
+
+Formato de Respuesta Esperado
+Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
+
+Análisis: [Explicación detallada sobre si la pregunta es ambigua y si debe reformularse].
+
+El último mensaje contiene una pregunta: Sí/No
+
+Es estrictamente necesario reformular la consulta: Sí/No/No aplica
+
+Reformulación: <<Pregunta reformulada/No aplica>>
+
+Datos de Entrada
+
+Último mensaje del usuario: {query}
+
+Historial previo de la conversación: <<{history_chat}>>"""
+        return prompt_identify_reform
+
+
 ## Agregar esto a eso
 # La pregunta del usuario se refiere al proceso de matrícula en la universidad y si hay plazos específicos que deben considerarse. Aunque la pregunta es clara y directa, el contexto sobre qué tipo de matrícula se está refiriendo (por ejemplo, matrícula inicial, matrícula para un ciclo académico específico, etc.) no se menciona. Sin embargo, dado que el término "matrícula" es común en el ámbito académico y el asistente está familiarizado con las normativas de la universidad, se puede inferir que se refiere al proceso general de matrícula en la Facultad de Ciencias de la UNI. La pregunta es específica en cuanto a la búsqueda de información sobre el proceso y los plazos, lo que permite que se pueda responder de manera adecuada. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
 
@@ -323,7 +409,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[10:20]
+test_data = load_json("./test/need_reformulate_demo_test_data.json")[0:10]
 print("\nlen(test_data):", len(test_data))
 print()
 
@@ -331,7 +417,7 @@ for example in test_data[:]:
     history_messages_chat = example["dialog_context"]
     query = example["user_message"]
 
-    prompt = get_prompt_reformulated_contextual_query_8(query, history_messages_chat)
+    prompt = get_prompt_reformulated_contextual_query_9(query, history_messages_chat)
     expected_need_context = not example["need_context"]
     print()
     print("-"*90)
