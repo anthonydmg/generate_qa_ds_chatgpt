@@ -400,8 +400,12 @@ El asistente siempre asume que todas las preguntas están relacionadas con la Fa
 No reformules la pregunta si la única mejora posible es añadir “Facultad de Ciencias de la UNI”.
 Criterio 2: Mejora en la Precisión
 Si el historial de la conversación contiene información explícita que puede hacer la pregunta más precisa, se debe reformular.
-Solo reformula si puedes usar información ya presente en el historial sin agregar suposiciones o información externa.
+Solo reformula si puedes usar información ya presente en el historial para hacer la pregunta más precisa y clara.
 
+Errores comunes que debes evitar
+- Reformular preguntas claras solo para reorganizar la información.
+- Modificar la estructura de la pregunta sin una razón estrictamente necesaria.
+- Asumir que cada pregunta necesita reformulación solo porque el historial da más detalles.
 
 Ejemplos de Aplicación de los Criterios
 
@@ -482,7 +486,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/need_reformulate_demo_test_data.json")[0:10]
+test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[0:10]
 print("\nlen(test_data):", len(test_data))
 print()
 
@@ -490,7 +494,7 @@ for example in test_data[:]:
     history_messages_chat = example["dialog_context"]
     query = example["user_message"]
 
-    prompt = get_prompt_reformulated_contextual_query_8(query, history_messages_chat)
+    prompt = get_prompt_reformulated_contextual_query_10(query, history_messages_chat)
     expected_need_context = not example["need_context"]
     print()
     print("-"*90)
