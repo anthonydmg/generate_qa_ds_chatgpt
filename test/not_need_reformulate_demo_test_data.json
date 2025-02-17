@@ -413,7 +413,7 @@
         ],
         "user_message": "Entendido. Entonces, solo me queda estar pendiente del correo despu\u00e9s de enviar la solicitud. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar la solicitud a mesa de partes o se puede hacer en cualquier momento?",
         "expected_reformulated_question": "Entendido. Entonces, solo me queda estar pendiente del correo despu\u00e9s de enviar la solicitud. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar la solicitud a mesa de partes o se puede hacer en cualquier momento?",
-        "need_context": false
+        "need_context": true
     },
     {
         "conv_id": 1321,
