@@ -309,7 +309,7 @@
         ],
         "user_message": "Genial, gracias. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar documentos o consultas a la Mesa de Partes?",
         "expected_reformulated_question": "Genial, gracias. \u00bfSabes si hay alg\u00fan horario espec\u00edfico para enviar documentos o consultas a la Mesa de Partes?",
-        "need_context": false
+        "need_context": true
     },
     {
         "conv_id": 2343,

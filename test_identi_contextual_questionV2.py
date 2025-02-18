@@ -724,7 +724,8 @@ El objetivo es que el asistente pueda comprender la pregunta del último mensaje
 🔎 Paso 1: Evaluar si la reformulación es necesaria
 Aplica los siguientes de criterios para determinar la necesidad de reformulación
 📌 Mejora en la precisión basada en el historial
-Reformula solo si el historial contiene información relevante que puede mejorar la precision y claridad de la pregunta.
+Reformula solo si el historial contiene información relevante que puede mejorar la precision y claridad de la pregunta de manera que el asistente pueda comprender la consulta realizada en el último mensaje del usuario sin tener acceso al historial de la conversación.
+No reformules si en el último mensaje ya se menciona claramente el tema o trámite específico.
 
 📌 Contexto académico implícito
 Todas las preguntas se asumen relacionadas con la Facultad de Ciencias de la UNI.
@@ -820,6 +821,119 @@ Historial previo de la conversación: <<{history_chat}>>"""
         return prompt_identify_reform
 
 
+def get_prompt_reformulated_contextual_query_14(query, history_chat_messages):
+        history_chat = format_text_history_chat(history_chat_messages)
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta en el último mensaje del usuario y determina si es necesario reformular la pregunta para mejorar su precisión y claridad.
+El objetivo es que el asistente pueda comprender la pregunta del último mensaje del usuario sin tener acceso al historial de la conversación.
+
+🔎 Paso 1: Evaluar si la reformulación es necesaria
+Aplica los siguientes de criterios para determinar la necesidad de reformulación
+
+📌 Ambigüedad sin el historial
+Reformula solo si el asistente no podría comprender o responder con precisión el último mensaje sin acceder al historial de la conversación.
+
+📌 Claridad explícita
+Si el último mensaje ya menciona claramente el tema principal (por ejemplo, "Retiro Total"), NO reformules aunque el historial proporcione más detalles.
+
+📌 No reformular por estilo
+No reformules solo porque la pregunta podría sonar mejor o ser más detallada si el asistente ya puede entender y responder adecuadamente.
+
+📌 Ámbito institucional implícito
+Todas las preguntas se asumen relacionadas con la Facultad de Ciencias de la UNI.
+No reformules solo para incluir “Facultad de Ciencias de la UNI”.
+
+📌 Cuidado con sobre-reformular
+No reformules solo porque la pregunta tiene relación con el historial.
+
+⚠️ Importante:
+❌ No reformules solo porque la pregunta podría sonar mejor o más natural.
+❌ No reformules solo porque el historial menciona algo relacionado con la pregunta actual.
+❌ No reformules si el único motivo es agregar Facultad de Ciencias de la UNI. Reformula solo si hay ambigüedad real.
+
+✅ Paso 2: Aplicar la reformulación
+Solo si en el Paso 1 determinaste que la reformulación es necesaria realiza la reformulación de la consulta. Usa el formato de salida descrito abajo.
+
+Formato de Respuesta Esperado
+
+Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
+
+Análisis: [Describe de manera detallada si es necesario reformular la pregunta].
+
+El último mensaje contiene una pregunta: Sí/No  
+
+Es estrictamente necesario reformular la consulta: Sí/No/No aplica  
+
+Reformulación: <<Pregunta reformulada/No aplica>>
+
+
+Ejemplos de Aplicación de los Criterios
+
+Ejemplo 1 (Reformulación Necesaria)
+Historial:
+
+Usuario: "¿Cómo solicito un Retiro Total?"
+Asistente: "Se presenta en la plataforma intranet-alumnos y debes adjuntar documentos sustentatorios."
+Usuario: "¿Qué documentos se necesitan?"
+Evaluación:
+
+La pregunta "¿Qué documentos se necesitan?" es ambigua sin el historial, ya que no menciona que se refiere al Retiro Total.
+✅ Reformulación: "¿Qué documentos sustentatorios se requieren para solicitar un Retiro Total?"
+Ejemplo 2 (Reformulación No Necesaria)
+Historial:
+
+Usuario: "¿Cuáles son los requisitos para la matrícula?"
+Asistente: "Debes presentar tu DNI y un recibo de pago."
+Usuario: "¿Y cuánto cuesta la matrícula?"
+Evaluación:
+
+La pregunta es clara y entendible sin el historial, y no es necesario mencionar explicitamente que se refiere a la matricula en la Facultad de Ciencias.
+❌ No se necesita reformulación.
+Ejemplo 3 (Reformulación Necesaria por Dependencia del Historial)
+Historial:
+
+Usuario: "¿Hay un manual o guía que explique cómo un ingresante puede generar su orden de pago para el autoseguro?"
+Asistente: "Sí, puedes consultar el manual de pagos de la UNI en la web de la Facultad de Ciencias."
+Usuario: "¿Sabes si hay algún plazo específico para hacer ese trámite del autoseguro?"
+Evaluación:
+
+"Ese trámite" es ambiguo sin el historial.
+✅ Reformulación: "¿Sabes si hay algún plazo específico para generar la orden de pago del autoseguro?"
+Ejemplo 4 (Mensaje No es una Pregunta)
+Historial:
+
+Usuario: "Gracias por la ayuda."
+Evaluación:
+
+No es una pregunta.
+❌ No se necesita reformulación.
+Ejemplo 5 (Reformulación No Necesaria)
+Historial:
+
+Usuario: "¿Dónde puedo encontrar información sobre el retiro parcial o la reincorporación?"
+Asistente: "Puedes encontrar el procedimiento del retiro parcial o de la reincorporación en..."
+Usuario: "¿Sabes si hay algún plazo específico para hacer el retiro parcial o la reincorporación? Y, por cierto, ¿hay algún costo asociado a estos trámites?"
+Evaluación:
+El mensaje con las preguntas ya menciona explícitamente "retiro parcial" y "reincorporación", por lo que es completamente entendible sin el historial.
+No es necesario mencionar explicitamente que se refiere esos tramites en la Facultad de Ciencias.
+❌ No se necesita reformulación.
+❌ No se necesita reformulación.
+Ejemplo 6 (Reformulación Necesaria por Ambigüedad)
+Historial:
+
+Usuario: "¿Cuándo puedo solicitar el retiro total?"
+Asistente: "Hasta la penúltima semana del ciclo académico."
+Usuario: "¿Cuáles son los requisitos?"
+Evaluación:
+
+"¿Cuáles son los requisitos?" es ambigua sin el historial.
+✅ Reformulación: "¿Cuáles son los requisitos para solicitar un Retiro Total?"
+
+Datos de Entrada
+
+Último mensaje del usuario: {query}
+
+Historial previo de la conversación: <<{history_chat}>>"""
+        return prompt_identify_reform
 
 ## Agregar esto a eso
 # La pregunta del usuario se refiere al proceso de matrícula en la universidad y si hay plazos específicos que deben considerarse. Aunque la pregunta es clara y directa, el contexto sobre qué tipo de matrícula se está refiriendo (por ejemplo, matrícula inicial, matrícula para un ciclo académico específico, etc.) no se menciona. Sin embargo, dado que el término "matrícula" es común en el ámbito académico y el asistente está familiarizado con las normativas de la universidad, se puede inferir que se refiere al proceso general de matrícula en la Facultad de Ciencias de la UNI. La pregunta es específica en cuanto a la búsqueda de información sobre el proceso y los plazos, lo que permite que se pueda responder de manera adecuada. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
@@ -837,7 +951,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[11:15]
+test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[12:15]
 print("\nlen(test_data):", len(test_data))
 print()
 
@@ -845,7 +959,7 @@ for example in test_data[:]:
     history_messages_chat = example["dialog_context"]
     query = example["user_message"]
 
-    prompt = get_prompt_reformulated_contextual_query_13(query, history_messages_chat)
+    prompt = get_prompt_reformulated_contextual_query_14(query, history_messages_chat)
     expected_need_context = not example["need_context"]
     print()
     print("-"*90)
