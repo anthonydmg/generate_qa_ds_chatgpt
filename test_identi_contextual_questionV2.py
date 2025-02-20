@@ -1001,7 +1001,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[12:15]
+test_data = load_json("./test/need_reformulate_demo_test_data.json")[6:15]
 print("\nlen(test_data):", len(test_data))
 print()
 
