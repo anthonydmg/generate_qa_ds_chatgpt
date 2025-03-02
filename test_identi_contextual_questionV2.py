@@ -985,6 +985,51 @@ Datos de Entrada
 Historial previo de la conversación: <<{history_chat}>>"""
         return prompt_identify_reform
 
+
+def get_prompt_reformulated_contextual_query_16(query, history_chat_messages):
+        history_chat = format_text_history_chat(history_chat_messages)
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta del usuario en su último mensaje y determina si es necesario reformularla para mejorar su precisión y claridad.
+
+El objetivo es que el asistente pueda comprender y responder adecuadamente la pregunta del usuario sin tener acceso al historial de la conversación.
+
+🔎 Paso 1: Análisis de la pregunta sin el historial
+Examina el último mensaje del usuario sin considerar el historial previo y analiza los siguientes aspectos:
+
+A. Identificación del tema
+Determina si la pregunta menciona explícitamente el tema del que trata, de manera que el asistente pueda responder adecuadamente sin depender del contexto previo.
+
+B. Evaluación de la ambigüedad
+Si el asistente solo recibe el último mensaje sin el historial previo, ¿puede comprender con claridad qué se está preguntando?
+
+🔎 Paso 2: Evaluación del historial para mejorar la pregunta
+Verifica si el historial de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje y que podría ayudar a mejorar la claridad y precisión de la consulta.
+
+✅ Paso 3: Decisión sobre la reformulación
+Decide si la pregunta necesita ser reformulada con base en los siguientes criterios:
+ - Ambigüedad sin el historial: Si la consulta en el último mensaje es ambigua y el historial contiene información relevante para hacerla más clara, entonces la pregunta debe ser reformulada.
+ - Precisión del tema: Si el historial contiene detalles que no han sido mencionados explícitamente en el último mensaje y que pueden hacer la pregunta más precisa y facilitar una mejor respuesta, entonces la pregunta debe ser reformulada.
+ - Ámbito institucional implícito: Todas las consultas se asumen relacionadas con esta facultad. No reformules la pregunta únicamente para incluir “Facultad de Ciencias de la UNI” a menos que la omisión de esta referencia haga que la pregunta sea completamente ambigua.
+
+Antes de tomar una decisión, proporciona una breve explicación justificando si es o no necesario reformular la pregunta.
+
+Formato de Respuesta Esperado
+
+Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
+
+Análisis: [Explicación detallada sobre por qué es o no necesario reformular la pregunta].
+
+El último mensaje contiene una pregunta: Sí/No  
+
+Es estrictamente necesario reformular la consulta: Sí/No/No aplica  
+
+Reformulación: <<Pregunta reformulada/No aplica>>
+
+Datos de Entrada
+
+Último mensaje del usuario: {query}
+
+Historial previo de la conversación: <<{history_chat}>>"""
+        return prompt_identify_reform
 ## Agregar esto a eso
 # La pregunta del usuario se refiere al proceso de matrícula en la universidad y si hay plazos específicos que deben considerarse. Aunque la pregunta es clara y directa, el contexto sobre qué tipo de matrícula se está refiriendo (por ejemplo, matrícula inicial, matrícula para un ciclo académico específico, etc.) no se menciona. Sin embargo, dado que el término "matrícula" es común en el ámbito académico y el asistente está familiarizado con las normativas de la universidad, se puede inferir que se refiere al proceso general de matrícula en la Facultad de Ciencias de la UNI. La pregunta es específica en cuanto a la búsqueda de información sobre el proceso y los plazos, lo que permite que se pueda responder de manera adecuada. Por lo tanto, hay suficiente contexto para entender la pregunta sin necesidad de información adicional.
 
@@ -1001,7 +1046,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/need_reformulate_demo_test_data.json")[6:15]
+test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[6:15]
 print("\nlen(test_data):", len(test_data))
 print()
 
@@ -1009,7 +1054,7 @@ for example in test_data[:]:
     history_messages_chat = example["dialog_context"]
     query = example["user_message"]
 
-    prompt = get_prompt_reformulated_contextual_query_15(query, history_messages_chat)
+    prompt = get_prompt_reformulated_contextual_query_16(query, history_messages_chat)
     expected_need_context = not example["need_context"]
     print()
     print("-"*90)
