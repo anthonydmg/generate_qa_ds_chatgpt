@@ -1046,7 +1046,7 @@ El objetivo es que el asistente pueda comprender y responder adecuadamente la pr
 Examina el último mensaje del usuario sin considerar el historial previo y analiza los siguientes aspectos:
 
 A. Identificación del tema
-Determina si la pregunta menciona explícitamente el tema del que trata, de manera que el asistente pueda responder adecuadamente sin depender del contexto previo.
+Determina si el ultimo mensaje del usuario menciona explícitamente el tema del que trata la consulta, de manera que el asistente pueda responder adecuadamente sin depender del contexto previo.
 
 B. Evaluación de la ambigüedad
 Una pregunta es ambigua únicamente si un asistente que solo lee el último mensaje sin el historial previo no puede determinar con certeza de qué trata la consulta.
@@ -1068,7 +1068,9 @@ Antes de tomar una decisión, proporciona una breve explicación justificando si
 Formato de Respuesta Esperado
 
 Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
-
+Identificacion del Tema: [Explicacion sobre si el ultimo mensaje del usuario menciona explícitamente el tema del que trata la consulta]
+Evaluación de la ambigüedad: [Explicacion sobre si la pregunta es ambigua para el asistes si se lee sin el historial previo]
+Evaluación del historial para mejorar la pregunta:  [Explicacion sobre si si el historial de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje y que podría ayudar a mejorar la claridad y precisión de la consulta]
 Análisis: [Explicación detallada sobre por qué es o no necesario reformular la pregunta].
 
 El último mensaje contiene una pregunta: Sí/No  
@@ -1151,7 +1153,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[2:4]
+test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[12:14]
 print("\nlen(test_data):", len(test_data))
 print()
 
