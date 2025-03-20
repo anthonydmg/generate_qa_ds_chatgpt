@@ -1247,7 +1247,8 @@ Datos de Entrada
 Historial previo de la conversación: <<{history_chat}>>"""
         return prompt_identify_reform
 
-
+# sin embargo solo con la informacion del ultimo mesnaje no se tiene claro a que solicitud se refiere
+# borrar los ejemplos
 def get_prompt_reformulated_contextual_query_19(query, history_chat_messages):
         history_chat = format_text_history_chat(history_chat_messages)
         prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta del usuario en su último mensaje y determina si es necesario reformularla para mejorar su precisión y claridad.
@@ -1255,15 +1256,26 @@ def get_prompt_reformulated_contextual_query_19(query, history_chat_messages):
 El objetivo es que el asistente pueda comprender y responder adecuadamente la pregunta del usuario sin tener acceso al historial de la conversación.
 
 🔎 Paso 1: Análisis de la pregunta sin el historial
-Examina el último mensaje del usuario sin considerar el historial previo y analiza los siguientes aspectos:
+Examina solo el último mensaje del usuario sin considerar el historial previo y analiza los siguientes aspectos:
 
 A. Identificación del tema
 Analiza únicamente el último mensaje del usuario sin considerar el historial previo para determinar el tema de la consulta.
 
 B. Evaluación de la ambigüedad
-Evalua si el ultimo mensaje del usuario podría ser ambigua para un asistente que no tiene acceso al historial previo de la conversación
+Evalua si la consulta en el ultimo mensaje del usuario podría ser ambigua para un asistente que no tiene acceso al historial previo de la conversación
 - Una pregunta es ambigua únicamente si un asistente que solo lee el último mensaje sin el historial previo no puede determinar con certeza de qué trata la consulta porque le falta precisión o contexto. 
 - No se considera ambigua solo porque pueda haber información complementaria en el historial.
+
+Ejemplo 1:
+Ultimo mensaje del usuario: ¿hay algún formato específico para la solicitud de la constancia?
+Identificacion del Tema: El último mensaje del usuario se centra en la consulta sobre si hay un formato específico la solicitud de una constancia, solo con la informacion del ultimo mesnaje no se tiene claro a que solicitud se refiere ya que no se indica explicitamente.
+Evaluación de la ambigüedad: La pregunta podria considerarse ambigua ya que no se tiene el contexto de a que constancia se refiere. 
+
+Ejemplo 2:
+Ultimo mensaje del usuario: ¿a que correo puedo enviar mi solicitud de constancia de notas?
+Identificacion del Tema: El último mensaje del usuario se centra en la consulta sobre a que correo enviar una solicitud para una constancia de notas, se indica explicitamente el tipo de documento relacionada con la consulta por lo que el tema de la consulta es claro sin tener acceso al historial previo.
+Evaluación de la ambigüedad: La pregunta en el último mensaje no es ambigua   ya que el usuario está preguntando de manera clara y especifica por lo que el asistente podria responder de manera precisa sin tener acceso al historial previo.
+
 🔎 Paso 2: Evaluación del historial para mejorar la pregunta
 Verifica si el historial de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje, pero que pueda mejorar la claridad y precisión de la consulta. El objetivo es incorporar estos términos o detalles específicos en la reformulación del mensaje para que la consulta sea más clara y pueda ser respondida con precisión, sin depender del historial previo.
 - No te limites a buscar información omitida explícitamente, sino también conexiones o términos que puedan mejorar la comprensión y precisión de la respuesta.
@@ -1289,7 +1301,7 @@ Reformula la consulta del usuario en su último mensaje solo si lo consideras ne
 Formato de Respuesta Esperado
 
 Responde utilizando el siguiente formato:
-Identificacion del Tema: [Analisis del último mensaje del usuario para determinar el tema de la consulta sin tener acceso al historial previo]
+Identificacion del Tema: [Analisis solo del último mensaje del usuario para determinar el tema de la consulta sin tener acceso al historial previo]
 Evaluación de la ambigüedad: [Explicacion sobre si la pregunta es ambigua para el asistente si se lee sin el historial previo]
 Evaluación del historial para mejorar la pregunta:  [Explicacion sobre si el historial de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje y que podría ayudar a mejorar la claridad y precisión de la consulta]
 Análisis: [Explicación detallada sobre por qué es o no necesario reformular la pregunta alineada con las evaluaciones y criterios previamente establecidos].
