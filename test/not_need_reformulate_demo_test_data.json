@@ -245,7 +245,7 @@
         ],
         "user_message": "\u00bfY cu\u00e1nto tiempo suele tardar en entregarse el carnet una vez que he completado todos los pasos?",
         "expected_reformulated_question": "\u00bfY cu\u00e1nto tiempo suele tardar en entregarse el carnet una vez que he completado todos los pasos?",
-        "need_context": false
+        "need_context": true
     },
     {
         "conv_id": 1525,
