@@ -1499,8 +1499,8 @@ B. Identificación del tema de consulta
 Identifica de que trata la consulta del usuario y describelo de manera concisa.
 
 🔎 Paso 2: Evaluación de claridad del mensaje sin el historial previo 
-Evalúa si un asistente que solo analiza el último mensaje, sin acceso al historial previo, puede identificar con certeza el tema de consulta que has determinado o si falta información relevante para que pueda responder de manera adecuada y precisa sin depender del contexto anterior. Presta especial atención a términos específicos no mencionados explícitamente en el ultimo mensaje que sean clave para la consulta, como tipos de constancias, solicitudes, carnets, entre otros.
-Antes de determinar que alguna información no se menciona explícitamente en el último mensaje, analiza a detalle el ultimo mensaje en busqueda de dicha informacion para verificar si realmente no está especificada de alguna manera. 
+Evalúa si un asistente que solo analiza el último mensaje, sin acceso al historial previo, puede identificar con certeza el tema de consulta que has determinado o si falta información relevante para que pueda responder de manera adecuada y precisa sin depender del contexto anterior. Presta especial atención a términos específicos que no han sido mencionados explícitamente en el ultimo mensaje pero si en mensajes anteriores que sean clave para la consulta, como tipos de constancias, solicitudes, carnets, entre otros.
+Antes de determinar que alguna información no se menciona explícitamente en el último mensaje, repite el ultimo mensaje del usuario y analizalo en busqueda de dicha informacion y asegurate que realmente no está especificada de alguna manera. 
 
 🔎 Paso 3: Evaluación del historial para mejorar la pregunta
 Verifica si el historial de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje, pero que pueda mejorar la claridad y precisión de la consulta. El objetivo es incorporar estos términos o detalles específicos en la reformulación del mensaje para que la consulta sea más clara y pueda ser respondida con precisión, sin depender del historial previo.
@@ -1519,8 +1519,9 @@ Antes de tomar una decisión, proporciona una breve explicación justificando si
 Formato de Respuesta Esperado
 
 Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
+Ultimo mensaje del usuario: [Repite el ultimo mensaje del usuario]
 Identificacion del Tema: [Identifica de que trata la consulta del usuario y describelo de manera concisa.]
-Evaluación de la claridad: [Análisis sobre si la pregunta es lo suficientemente clara o presenta ambigüedades para el asistente cuando se lee sin el historial previo].
+Evaluación de la claridad: [Análisis detallado sobre si la pregunta es lo suficientemente clara o presenta ambigüedades para el asistente cuando se lee sin el historial previo].
 Evaluación del historial para mejorar la pregunta:  [Explicacion sobre si el historial de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje y que podría ayudar a mejorar la claridad y precisión de la consulta]
 Análisis: [Explicación detallada sobre por qué es o no necesario reformular la pregunta].
 
@@ -1604,7 +1605,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 
-test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[10:12]
+test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[11:12]
 print("\nlen(test_data):", len(test_data))
 print()
 
@@ -1640,7 +1641,7 @@ for example in test_data[:]:
         count_good_pred += 1
     else:
         print('\n'+ "\033[31m" + f'Bad Prediction, Expected: entendible={expected_need_context}' + "\033[0m")
-      
+        continue
         
         messages = [{"role": "user", "content": prompt},
             {"role": "assistant", "content": response},
