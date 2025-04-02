@@ -1513,7 +1513,7 @@ B. Identificación del tema de consulta
 Identifica de que trata la consulta del usuario y describelo de manera concisa.
 
 C. Identificacion de informacion descrita
-Determina qué información relevante para identificar el tema de la consulta está presente o ausente en el último mensaje del usuario.
+Determina qué información relevante para identificar el tema de la consulta está presente o ausente en el último mensaje del usuario. 
 Presta especial atención a términos especificos que no hayan sido mencionados explícitamente en el ultimo mensaje del usuario, pero que sí aparecieron en mensajes anteriores y sean esenciales para la consulta, como tipos de constancias, solicitudes o carnets. Ejemplo: en el ultimo mensaje no se menciona que se refiere al carnert universitario si no solo menciona "carnet" lo cual es relevante para que el asistente sin acceso al historial de la conversación responde de manera precisa.
 
 🔎 Paso 2: Evaluación de claridad del mensaje sin el historial previo 
@@ -1534,7 +1534,7 @@ Formato de Respuesta Esperado
 Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
 Identificacion del Tema: [Identifica de que trata la consulta del usuario y describelo de manera concisa.]
 Informacion explicitamente descrita el ultimo mensaje: [información explicitimante descrita de alguna forma en el ultimo mensaje del usuario que sea relevante para la identificacion del tema de consulta]
-Informacion no descrita el ultimo mensaje: [Información relevante para identificar con precisión el tema de la consulta que no ha sido mencionada explícitamente en el último mensaje del usuario, pero que sí aparece en mensajes anteriores, como el tipo específico de constancia, solicitud o carnet al que se hace referencia] 
+Informacion no descrita el ultimo mensaje: [Información relevante para identificar con precisión el tema de la consulta que no ha sido mencionada explícitamente en el último mensaje del usuario, pero que sí aparece en mensajes anteriores, como el tipo específico de constancia, solicitud o carnet al que se hace referencia. Justifica a detalle por que la informacion es estrictamente necesaria para la claridad de la consulta] 
 Evaluación de la claridad: [Análisis detallado si el ultimo mensaje del usuario en lo suficiente claro para que un asistente pueda responder de manera adecuada y precisa a la consulta del usuario sin necesidad del historial previo].
 Evaluación del historial para mejorar la pregunta:  [Explicacion sobre si el historial previo de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje y que podría ayudar a mejorar la claridad y precisión de la consulta]
 Análisis: [Explicación detallada sobre por qué es o no estrictamente necesario reformular la pregunta].
@@ -1713,8 +1713,8 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[10:20] #+ train_contextualize_questions_need_context[0:10]
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
-# 11, 12
-test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[11:12]
+# 11, 12d
+test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[10:13]
 print("\nlen(test_data):", len(test_data))
 print()
 
