@@ -1534,7 +1534,7 @@ Formato de Respuesta Esperado
 Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
 Identificacion del Tema: [Identifica de que trata la consulta del usuario y describelo de manera concisa.]
 Informacion explicitamente descrita el ultimo mensaje: [información explicitimante descrita de alguna forma en el ultimo mensaje del usuario que sea relevante para la identificacion del tema de consulta]
-Informacion no descrita el ultimo mensaje: [Información relevante para identificar con precisión el tema de la consulta que no ha sido mencionada explícitamente en el último mensaje del usuario, pero que sí aparece en mensajes anteriores, como el tipo específico de constancia, solicitud o carnet al que se hace referencia. Justifica a detalle por que la informacion es estrictamente necesaria para la claridad de la consulta] 
+Informacion no descrita el ultimo mensaje: [Información relevante para identificar con precisión el tema de la consulta, que no haya sido mencionada explícitamente en el último mensaje del usuario, pero que sí aparece en mensajes anteriores, como el tipo específico de constancia, solicitud o carnet al que se hace referencia. Justifica a detalle por que la informacion es estrictamente necesaria para la claridad de la consulta y solo considera detalles mencionadas anteriormete si no se ha mencionado antes entonces no consideres como informacion relevante] 
 Evaluación de la claridad: [Análisis detallado si el ultimo mensaje del usuario en lo suficiente claro para que un asistente pueda responder de manera adecuada y precisa a la consulta del usuario sin necesidad del historial previo].
 Evaluación del historial para mejorar la pregunta:  [Explicacion sobre si el historial previo de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje y que podría ayudar a mejorar la claridad y precisión de la consulta]
 Análisis: [Explicación detallada sobre por qué es o no estrictamente necesario reformular la pregunta].
@@ -1604,7 +1604,7 @@ Historial previo de la conversación: <<{history_chat}>>"""
         return prompt_identify_reform
 
 
-def get_prompt_reformulated_contextual_query_21(query, history_chat_messages):
+def get_prompt_reformulated_contextual_query_22(query, history_chat_messages):
         history_chat = format_text_history_chat(history_chat_messages)
         prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta del usuario en su último mensaje y determina si es necesario reformularla para mejorar su precisión y claridad.
 
@@ -1615,29 +1615,288 @@ Examina el último mensaje del usuario y analiza los siguientes aspectos:
 A. Reconocimiento de consulta
 Determina si el usuario esta realizando una consulta en su ultimo mensaje. En caso no realize alguna consulta en el resto de los pasos responde con "No aplica".
 
+B. Identificación del tema de consulta
+Identifica de que trata la consulta del usuario y describelo de manera concisa.
+
+C. Identificacion de informacion explicitamente descrita el ultimo mensaje
+Determina qué información relevante para identificar el tema de la consulta está presente en el último mensaje del usuario. 
+
+D. Identificacion de informacion no descrita el ultimo mensaje
+Determina qué información relevante para identificar con precision y claridad el tema de la consulta no ha sido mencionada explícitamente en el último mensaje del usuario, pero que sí aparece en mensajes anteriores. 
+Justifica a detalle por que la informacion es estrictamente necesaria para la claridad de la consulta y solo considera detalles mencionadas anteriormete si no se ha mencionado antes entonces no consideres como informacion relevante. 
+Enfoque en informacion que sea relevante para un asistente especializado en temas acamedicos de la universidad. Presta especial atención a términos especificos que no hayan sido mencionados explícitamente en el ultimo mensaje del usuario, pero que sí aparecieron en mensajes anteriores y sean esenciales para la consulta, como tipos de constancias, solicitudes o carnets. Ejemplo: en el ultimo mensaje no se menciona que se refiere al carnert universitario si no solo menciona "carnet" lo cual es relevante para que el asistente sin acceso al historial de la conversación responde de manera precisa.
+
 🔎 Paso 2: Evaluación de claridad del mensaje sin el historial previo 
-Alineado con la información que esta expliciamente descrita en el ultimo mensaje, evalua si un asistente puede responder de manera adecuada y precisa a la consulta del usario sin necesidad del historial previo. Se detallado con tu explicacion.
+Alineado con la información que esta expliciamente descrita en el ultimo mensaje, evalua si un asistente puede responder de manera adecuada y precisa a la consulta del usario sin necesidad del historial previo. Se detallado con tu explicacion por que con solo la informacion seria sufienciente o no para que un asistente responda de manera adecuada y precisa.
 
-🔎 Paso 3: Evaluación del historial para mejorar la pregunta
-Verifica si el historial previo de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje, pero que pueda mejorar la claridad y precisión de la consulta. El objetivo es incorporar estos términos o detalles específicos en la reformulación del mensaje para que la consulta sea más clara y pueda ser respondida con precisión, sin depender del historial previo.
-Presta especial atención a términos especificos que no hayan sido mencionados explícitamente en el ultimo mensaje del usuario, pero que sí aparecieron en mensajes anteriores y sean esenciales para la consulta, como tipos de constancias, solicitudes o carnets. Ejemplo: en el ultimo mensaje no se menciona que se refiere al carnert universitario si no solo menciona "carnet" lo cual es relevante para que el asistente sin acceso al historial de la conversación responde de manera precisa.
-Si el historial previo de la conversación no aporta datos útiles para mejorar la consulta, indícalo sin hacer suposiciones ni sugerencias adicionales. Enfócate solo en si el historial previo de la conversación contiene información que ayudaría a mejorar la pregunta.
-
-✅ Paso 4: Decisión sobre la reformulación
+✅ Paso 3: Decisión sobre la reformulación
 Antes de tomar una decisión, proporciona una explicación justificando si es o no necesario reformular la pregunta, base en los siguientes criterios:
  - Ambigüedad sin el historial: Si la consulta en el último mensaje es completamente ambigua y el historial contiene información relevante para hacerla más clara, entonces la pregunta debe ser reformulada.
  - Precisión del tema: Si el historial contiene detalles que no han sido mencionados explícitamente en el último mensaje y que pueden hacer la pregunta más precisa y facilitar una mejor respuesta, entonces la pregunta debe ser reformulada. El objetivo es que el asistente pueda comprender y responder adecuadamente la pregunta del usuario sin tener acceso al historial de la conversación.
  - Ámbito institucional implícito: Todas las consultas se asumen relacionadas con esta facultad. No reformules la pregunta únicamente para incluir “Facultad de Ciencias de la UNI” a menos que la omisión de esta referencia haga que la pregunta sea completamente ambigua.
 
 Formato de Respuesta Esperado
-El último mensaje contiene una pregunta: Sí/No
+
 Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
+El último mensaje contiene una pregunta: Sí/No  
+Identificacion del Tema: [Identifica de que trata la consulta del usuario y describelo de manera concisa.]
+Informacion explicitamente descrita el ultimo mensaje: [información explicitimante descrita de alguna forma en el ultimo mensaje del usuario que sea relevante para la identificacion del tema de consulta]
+Informacion no descrita el ultimo mensaje: [Información relevante para identificar con precisión el tema de la consulta, que no haya sido mencionada explícitamente en el último mensaje del usuario, pero que sí aparece en mensajes anteriores. Justifica a detalle por que la informacion es estrictamente necesaria para la claridad de la consulta. Enfocate en informacion que sea relevante para que un asistente especializado en temas academicos de la universidad entienda el tema de consulta] 
 Evaluación de la claridad: [Análisis detallado si el ultimo mensaje del usuario en lo suficiente claro para que un asistente pueda responder de manera adecuada y precisa a la consulta del usuario sin necesidad del historial previo].
-Evaluación del historial para mejorar la pregunta:  [Explicacion sobre si el historial previo de la conversación contiene información relevante que el usuario no haya mencionado explícitamente en su último mensaje y que podría ayudar a mejorar la claridad y precisión de la consulta]
 Análisis: [Explicación detallada sobre por qué es o no estrictamente necesario reformular la pregunta].
+
 Es estrictamente necesario reformular la consulta: Sí/No/No aplica  
 
 Reformulación: <<Pregunta reformulada/No aplica>>
+
+Ejemplos de aplicacion de criterios:
+
+Ejemplo 1 (Reformulacion es necesaria)
+
+Último mensaje del usuario: ¿Sabes si hay algún plazo específico que deba tener en cuenta para la orden de pago?
+
+Historial previo de la conversación: <<
+user: ¿Cuáles son las implicaciones de no generar la orden de pago antes de realizar el pago del autoseguro?
+assistant: Si no se genera la orden de pago antes de realizar el pago del autoseguro, el estudiante podría enfrentar problemas para matricularse de manera regular. Es fundamental cumplir con el plazo máximo establecido en el calendario de actividades académicas, ya que de no hacerlo, la matrícula podría no habilitarse y el estudiante tendría que gestionar su matrícula como rezagado. Para verificar la situación de la matrícula, se recomienda comprobar si se habilita en las fechas de matrícula regular. Si no es así, es necesario comunicarse con la oficina de estadística (AERA) para obtener más información.>>
+
+Análisis: El último mensaje del usuario aborda la preocupación sobre los plazos para generar la orden de pago. La pregunta sin el historial es clara, sin embargo, la ambigüedad radica en que no se especifica si se refiere a la orden de pago en general o a un contexto particular. En el historial previo de la conversación se puede deducir que la orden de pago es para el autoseguro, este detalle es relevante para hacer la pregunta mas clara y precisa, por lo tanto, sería útil reformular la pregunta para que incluya el contexto del autoseguro y asistente pueda comprender y responder adecuadamente la pregunta del usuario sin tener acceso al historial de la conversación. 
+
+El último mensaje contiene una pregunta: Sí  
+
+Es estrictamente necesario reformular la consulta: Sí  
+
+Reformulación: ¿Cuál es el plazo específico que debo tener en cuenta para generar la orden de pago del autoseguro, y qué pasos debo seguir si no logro hacerlo a tiempo y tengo que matricularme como rezagado?
+
+
+Ejemplo 2 (Reformulacion no es necesaria)
+
+Último mensaje del usuario: ¿Cómo puedo hacer la solicitud de la constancia de notas? ¿Y caunto tiempo tarda el tramite?
+
+Historial previo de la conversación: <<
+user: ¿Qué entidad envía la orden de pago al estudiante después de que este solicita la constancia de notas?
+assistant: La orden de pago es enviada al estudiante por la oficina de estadística (AERA) después de que este solicita la constancia de notas.>>
+
+Análisis: La pregunta del usuario en su último mensaje se centra en el proceso para solicitar una constancia de notas y el tiempo de demora del proceso, lo cual es un tema específico y claro. El historial previo de la conversación no incluye información relevante que ayuda mejorar la precision o claridad de la pregunta ya que ya es lo suficiente clara y especifica con el que trata "proceso para solicitar una constancia de notas". Ademas, no es necesario incluir la relación con la facultad de ciencias de manera explicita, ya que no es estrictamente necesario. Por lo tanto, no es necesario reformular la consulta.
+
+El último mensaje contiene una pregunta: Sí  
+
+Es estrictamente necesario reformular la consulta: No  
+
+Reformulación: No aplica
+
+Ejemplo 3 (Mensaje No es una Pregunta)
+
+Último mensaje del usuario: "Gracias por la ayuda."
+
+Historial previo de la conversación: <<
+user: ¿Cuanto se puede solicitar el retiro parcial?
+assistant: Hasta la quinta semana de clases.
+
+Análisis: El ultimo mensaje del usuario no incluye una consulta por lo que la reformulación no aplica"
+El último mensaje contiene una pregunta: Sí  
+
+Es estrictamente necesario reformular la consulta: No aplica  
+
+Reformulación: No aplica
+
+
+Datos de Entrada
+
+Último mensaje del usuario: {query}
+
+Historial previo de la conversación: <<{history_chat}>>"""
+        return prompt_identify_reform
+
+
+
+def get_prompt_reformulated_contextual_query_23(query, history_chat_messages):
+        history_chat = format_text_history_chat(history_chat_messages)
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta del usuario en su último mensaje y determina si es necesario reformularla para mejorar su precisión y claridad.
+
+El objetivo es que el asistente pueda comprender y responder adecuadamente la pregunta del usuario sin tener acceso al historial de la conversación.
+
+🔎 Paso 1: Análisis del ultimo mensaje del usuario
+Examina el último mensaje del usuario y analiza los siguientes aspectos:
+A. Reconocimiento de consulta
+Determina si el usuario esta realizando una consulta en su ultimo mensaje. En caso no realize alguna consulta en el resto de los pasos responde con "No aplica".
+
+B. Identificación del tema de consulta
+Identifica de que trata la consulta del usuario y describelo de manera concisa.
+
+C. Identificacion de informacion explicitamente descrita el ultimo mensaje
+Determina qué información relevante para identificar el tema de la consulta está presente en el último mensaje del usuario. 
+
+D. Identificacion de informacion no descrita el ultimo mensaje
+Determina qué información relevante no ha sido mencionada explícitamente en el último mensaje del usuario, pero que sí aparece en mensajes anteriores, pero que pueda mejorar la claridad y precisión de la consulta. El objetivo es incorporar estos términos o detalles específicos en la reformulación del mensaje para que la consulta sea más clara y pueda ser respondida con precisión, sin depender del historial previo.
+No siempre es necesario es necesario agregar información al ultimo mensaje por ello analiza y justifica a detalle por que la información es o no es estrictamente necesaria para entender o responder la consulta planteada en el último mensaje por un asistente sin acceso al historial previo y solo considera detalles mencionadas anteriormete si no se ha mencionado antes entonces no consideres como informacion relevante. 
+Presta especial atención a términos especificos que no hayan sido mencionados explícitamente en el ultimo mensaje del usuario, pero que sí aparecieron en mensajes anteriores y sean esenciales para la consulta, como tipos de constancias, solicitudes o carnets. Ejemplo: en el ultimo mensaje no se menciona que se refiere al carnert universitario si no solo menciona "carnet" lo cual es relevante para que el asistente sin acceso al historial de la conversación responde de manera precisa.
+
+⚠️ MUY IMPORTANTE:  
+Incluye únicamente información que ya fue mencionada en la conversación previa que pueda mejorar la claridad y precisión de la consulta pero solo si es estrictamente necesaria.  
+Considera esta información como necesaria **solo si su omisión puede causar ambigüedad** o impedir una respuesta precisa para un asistente que no tiene acceso los mensajes anteriores del usuario.  
+Ejemplo: si el último mensaje dice solo “Mesa de Partes” pero antes se mencionó “Mesa de Partes de DIRCE”, este detalle podría ser crítico para una buena respuesta. En ese caso, sí se debe reformular la pregunta para que lo incluya.
+
+🔎 Paso 2: Evaluación de claridad del mensaje sin el historial previo 
+Alineado con la información que esta expliciamente descrita en el ultimo mensaje, evalua si un asistente puede responder de manera adecuada y precisa a la consulta del usario sin necesidad del historial previo. Se detallado con tu explicacion por que con solo la informacion seria sufienciente o no para que un asistente responda de manera adecuada y precisa.
+
+✅ Paso 3: Decisión sobre la reformulación
+Antes de tomar una decisión, proporciona una explicación justificando si es o no necesario reformular la pregunta, base en los siguientes criterios:
+ - Ambigüedad sin el historial: Si la consulta en el último mensaje es completamente ambigua y el historial contiene información relevante para hacerla más clara, entonces la pregunta debe ser reformulada.
+ - Precisión del tema: Si el historial contiene detalles que no han sido mencionados explícitamente en el último mensaje y que pueden hacer la pregunta más precisa y facilitar una mejor respuesta, entonces la pregunta debe ser reformulada. El objetivo es que el asistente pueda comprender y responder adecuadamente la pregunta del usuario sin tener acceso al historial de la conversación.
+ - Ámbito institucional implícito: Todas las consultas se asumen relacionadas con esta facultad. No reformules la pregunta únicamente para incluir “Facultad de Ciencias de la UNI” a menos que la omisión de esta referencia haga que la pregunta sea completamente ambigua.
+
+Formato de Respuesta Esperado
+
+Determina si es necesario reformular la consulta con los criterios mencionados anteriormente y responde utilizando el siguiente formato:
+El último mensaje contiene una pregunta: Sí/No  
+Identificacion del Tema: [Identifica de que trata la consulta del usuario y describelo de manera concisa.]
+Informacion explicitamente descrita el ultimo mensaje: [información explicitimante descrita de alguna forma en el ultimo mensaje del usuario que sea relevante para la identificacion del tema de consulta]
+Informacion no descrita el ultimo mensaje: [Información relevante no ha sido mencionada explícitamente en el último mensaje del usuario, pero que sí aparece en mensajes anteriores, pero que pueda mejorar la claridad y precisión de la consulta] 
+Evaluación de la claridad: [Análisis detallado si el ultimo mensaje del usuario en lo suficiente claro para que un asistente pueda responder de manera adecuada y precisa a la consulta del usuario sin necesidad del historial previo].
+Análisis: [Explicación detallada sobre por qué es o no estrictamente necesario reformular la pregunta].
+
+Es estrictamente necesario reformular la consulta: Sí/No/No aplica  
+
+Reformulación: <<Pregunta reformulada/No aplica>>
+
+Ejemplos de aplicacion de criterios:
+
+Ejemplo 1 (Reformulacion es necesaria)
+
+Último mensaje del usuario: ¿Sabes si hay algún plazo específico que deba tener en cuenta para la orden de pago?
+
+Historial previo de la conversación: <<
+user: ¿Cuáles son las implicaciones de no generar la orden de pago antes de realizar el pago del autoseguro?
+assistant: Si no se genera la orden de pago antes de realizar el pago del autoseguro, el estudiante podría enfrentar problemas para matricularse de manera regular. Es fundamental cumplir con el plazo máximo establecido en el calendario de actividades académicas, ya que de no hacerlo, la matrícula podría no habilitarse y el estudiante tendría que gestionar su matrícula como rezagado. Para verificar la situación de la matrícula, se recomienda comprobar si se habilita en las fechas de matrícula regular. Si no es así, es necesario comunicarse con la oficina de estadística (AERA) para obtener más información.>>
+
+Análisis: El último mensaje del usuario aborda la preocupación sobre los plazos para generar la orden de pago. La pregunta sin el historial es clara, sin embargo, la ambigüedad radica en que no se especifica si se refiere a la orden de pago en general o a un contexto particular. En el historial previo de la conversación se puede deducir que la orden de pago es para el autoseguro, este detalle es relevante para hacer la pregunta mas clara y precisa, por lo tanto, sería útil reformular la pregunta para que incluya el contexto del autoseguro y asistente pueda comprender y responder adecuadamente la pregunta del usuario sin tener acceso al historial de la conversación. 
+
+El último mensaje contiene una pregunta: Sí  
+
+Es estrictamente necesario reformular la consulta: Sí  
+
+Reformulación: ¿Cuál es el plazo específico que debo tener en cuenta para generar la orden de pago del autoseguro, y qué pasos debo seguir si no logro hacerlo a tiempo y tengo que matricularme como rezagado?
+
+
+Ejemplo 2 (Reformulacion no es necesaria)
+
+Último mensaje del usuario: ¿Cómo puedo hacer la solicitud de la constancia de notas? ¿Y caunto tiempo tarda el tramite?
+
+Historial previo de la conversación: <<
+user: ¿Qué entidad envía la orden de pago al estudiante después de que este solicita la constancia de notas?
+assistant: La orden de pago es enviada al estudiante por la oficina de estadística (AERA) después de que este solicita la constancia de notas.>>
+
+Análisis: La pregunta del usuario en su último mensaje se centra en el proceso para solicitar una constancia de notas y el tiempo de demora del proceso, lo cual es un tema específico y claro. El historial previo de la conversación no incluye información relevante que ayuda mejorar la precision o claridad de la pregunta ya que ya es lo suficiente clara y especifica con el que trata "proceso para solicitar una constancia de notas". Ademas, no es necesario incluir la relación con la facultad de ciencias de manera explicita, ya que no es estrictamente necesario. Por lo tanto, no es necesario reformular la consulta.
+
+El último mensaje contiene una pregunta: Sí  
+
+Es estrictamente necesario reformular la consulta: No  
+
+Reformulación: No aplica
+
+Ejemplo 3 (Mensaje No es una Pregunta)
+
+Último mensaje del usuario: "Gracias por la ayuda."
+
+Historial previo de la conversación: <<
+user: ¿Cuanto se puede solicitar el retiro parcial?
+assistant: Hasta la quinta semana de clases.
+
+Análisis: El ultimo mensaje del usuario no incluye una consulta por lo que la reformulación no aplica"
+El último mensaje contiene una pregunta: Sí  
+
+Es estrictamente necesario reformular la consulta: No aplica  
+
+Reformulación: No aplica
+
+
+Datos de Entrada
+
+Último mensaje del usuario: {query}
+
+Historial previo de la conversación: <<{history_chat}>>"""
+        return prompt_identify_reform
+
+# Ejemplo 1: Si el usuario menciona "mesa de partes" en su último mensaje, pero del historial previo se infiere que se refiere a la "mesa de partes de DIRCE", es fundamental incluir esta especificación para mejorar la precisión del tema consultado y permitir una respuesta más exacta sin depender del historial previo.
+#Ejemplo 2: Si el usuario pregunta por una "orden de pago" en su último mensaje, pero el historial sugiere que se refiere a la "orden de pago para el autoseguro", agregar este detalle mejorará la precisión de la respuesta.
+#Ejemplo 3: Si el usuario pregunta sobre como generar una "orden de pago" en su último mensaje, pero el historial no contiene información especifica sobre a que concepto esta relacionada, no se debe sugerir agregar ese información ya que no se encuentra dentro del historial previo.
+#Ejemplo 4: Si en el ultimo mensaje no se menciona que se refiere al carnert universitario si no solo menciona "carnet" lo cual es relevante para que el asistente sin acceso al historial de la conversación responda de manera precisa. 
+
+#Ejemplo 5: Si en el ultimo mensaje solo se menciona de manera general "constancia" pero en mensajes anteriores se menciona que se refiere a la "constancia de notas", es fundamental incluir esta especificación para mejorar la precisión del tema consultado y permitir una respuesta más exacta sin depender del historial previo
+# al carnert universitario si no solo menciona "carnet" lo cual es relevante para que el asistente sin acceso al historial de la conversación responda de manera precisa. 
+# si segun el tema de consulta identificado  
+# es relevante para el tema de la consulta
+#Ejemplo 2: Si el usuario menciona "mesa de partes" de manera general en su último mensaje, pero en el historial previo se refiere a la "mesa de partes de DIRCE", si este detalle es relevante para el tema de la consulta entonces es fundamental reformular para incluir esta especificación para mejorar la precisión del tema consultado y permitir una respuesta más exacta sin depender del historial previo.
+#Ejemplo 3: Si en el ultimo mensaje de manera general "carnet" pero en mensajes anteriores se menciona que se refiere al "carnet universitario", si este detalle es relevante para el tema de la consulta entonces es fundamental reformular la pregunta para incluir esta especificación para mejorar la precisión del tema consultado y permitir una respuesta más exacta sin depender del historial previo.) 
+
+# — Presta especial atención a términos especificos que no hayan sido mencionados explícitamente en el ultimo mensaje del usuario, pero que sí aparecieron en mensajes anteriores y sean esenciales para el tema de consulta, como tipos especificos de constancias, solicitudes, carnets, entre otros.
+#— No te limites a buscar información omitida explícitamente, sino también conexiones o términos que puedan mejorar la comprensión y precisión de la respuesta.
+#— El objetivo es incorporar estos términos o detalles específicos en la reformulación del mensaje para que la consulta sea más clara y pueda ser respondida con precisión, sin depender del historial previo.
+#No incluyas detalles poco relevantes y solo considera solo aquellos que son de suma relevancia para entender el tema original de la consulta manteninedo la intencion de consulta inicial del usuario.
+
+
+def get_prompt_reformulated_contextual_query_24(query, history_chat_messages):
+        history_chat = format_text_history_chat(history_chat_messages)
+        prompt_identify_reform = f"""Dado el último mensaje del usuario, dirigido a un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), analiza el historial previo de la conversación junto con la consulta del usuario en su último mensaje y determina si es estrictamente necesario reformularla para mejorar su precisión y claridad.
+
+El objetivo es que el asistente pueda comprender y responder adecuadamente la pregunta del usuario **sin tener acceso al historial de la conversación**.
+
+🧭 ***IMPORTANTE:*** NO reformules una consulta si ya es lo suficientemente clara y precisa por sí sola. Solo considera información del historial si su omisión genera AMBIGÜEDAD o IMPRECISIÓN que afectaría la respuesta de un asistente que no tiene acceso al historial. No agregues información del historial que no sea esencial. NO repitas detalles que ya están presentes en el último mensaje.
+
+---
+
+🔎 Paso 1: Análisis del último mensaje del usuario  
+Evalúa estos aspectos:
+
+**A. ¿El último mensaje contiene una pregunta?**  
+(Sí / No)
+
+**B. Identificación del tema de consulta**  
+(Describe de manera destallada de qué trata la consulta actual.)
+
+**C. Información explícitamente descrita en el último mensaje**  
+(Señala solo la información explicitamente descrita en el ultimo mensaje que ayuda a comprender la consulta sin incluir detalles adicionales no incluidos explicitamente en el ultimo mensaje.)
+
+**D. Información relevante no descrita en el último mensaje**  
+(¿Existe información **esencial** en el historial que **no está presente** en el último mensaje, pero que pueda mejorar la claridad y precisión de la consulta para que un asistente comprenda y responda correctamente sin tener acceso al historial previo?  
+— Si **sí hay**, indica específicamente qué detalle falta, y explica por qué es estrictamente necesario incluirlo.
+Ejemplo 1: Si en el último mensaje solo se menciona la palabra "constancia" de forma general, pero en mensajes anteriores se especifica que se trata de una "constancia de notas", y además, al contrastar el contenido con el tema de la consulta, se concluye que es esencial contar con esa información en el último mensaje, entonces es fundamental reformular la pregunta para incluir dicha especificación. Esto permitirá que un asistente pueda identificar con precisión el tema de la consulta únicamente a partir del último mensaje, sin necesidad de revisar el historial, lo que mejora la claridad y precisión de la respuesta.
+
+🔎 Paso 2: Evaluación de claridad sin el historial  
+¿El mensaje actual, por sí solo, permite que un asistente responda de forma adecuada y precisa? Justifica detalladamente tu respuesta.  
+Evita generalidades: sé específico y justifica con base en el contenido del mensaje.
+
+✅ Paso 3: Decisión sobre la reformulación  
+Decide si es estrictamente necesario reformular la consulta. Para ello, considera estos criterios:
+
+- **Ambigüedad sin el historial:** ¿La pregunta es ambigua sin el historial?
+- **Precisión del tema:** ¿Hay detalles en el historial que son necesarios para hacer la consulta más precisa y clara?
+- **Ámbito institucional implícito:** No incluyas referencias a la Facultad de Ciencias si no son necesarias para evitar ambigüedad.
+
+---
+
+📋 **Formato de Respuesta Esperado:**
+
+El último mensaje contiene una pregunta: [Sí / No]
+
+Identificación del tema: [Descripción destallada del tema de la consulta del usuario]
+
+Información explícitamente descrita en el último mensaje: [Listar solo lo presente en el último mensaje sin detalles adicionales]
+
+Información no descrita en el último mensaje: [Si hay, incluir solo lo informacion esencia que pueda mejorar la claridad y/o precision de la pregunta.]
+
+Evaluación de la claridad: [¿Es suficiente para que un asistente comprenda y responda bien sin el historial? Justifica.]
+
+Análisis: [¿Por qué es o no necesario reformular la consulta? Justifica detalladamente según los criterios.]
+
+Es estrictamente necesario reformular la consulta: [Sí / No / No aplica]
+
+Reformulación: <<Texto de la consulta reformulada / No aplica>>
+
+💡 Recordatorio:
+- No reformules si la consulta ya es específica y clara.
+
+- No incluyas información adicional del historial si no cambia el significado o no es esencial para que se entienda la pregunta.
 
 Ejemplos de aplicacion de criterios:
 
@@ -1714,7 +1973,7 @@ count_good_pred = 0
 #test_data = train_contextualize_questions_not_need_context[150:160] + train_contextualize_questions_not_need_context[200:210]
 #save_json("./test/", "not_need_reformulate_demo_test_data_2", test_data)
 # 11, 12d
-test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[10:13]
+test_data = load_json("./test/not_need_reformulate_demo_test_data.json")[6:16]
 print("\nlen(test_data):", len(test_data))
 print()
 
@@ -1722,7 +1981,7 @@ for example in test_data[:]:
     history_messages_chat = example["dialog_context"]
     query = example["user_message"]
 
-    prompt = get_prompt_reformulated_contextual_query_20(query, history_messages_chat)
+    prompt = get_prompt_reformulated_contextual_query_24(query, history_messages_chat)
     expected_need_context = not example["need_context"]
     print()
     print("-"*90)
@@ -1744,6 +2003,8 @@ for example in test_data[:]:
 
 
     need_context = extract_need_reformulate(response)
+    need_context = need_context.replace("*","")
+    print("need_context:", need_context)
     pred_entendible = not (need_context == "Sí")
 
     if pred_entendible == expected_need_context:
