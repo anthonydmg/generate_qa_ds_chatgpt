@@ -309,7 +309,6 @@ def generate_questions_based_faq(faqs):
                                          + reformulated_questions[j + i*12]
                                         )
     return derived_preguntas
-    
 
 import random
 import time 
@@ -380,22 +379,22 @@ def generate_derived_questions(faqs, times_samples = 1):
     return joined_derived_faqs
 
 def questions_generation_based_faqs(faqs):
-    #fqs = [faq["question"] for faq in faqs]
-    #originals_questions, reformulated_questions = gen_reformulated_questions(fqs, num_questions=5)
-    #print("originals_questions:", originals_questions)
-    #reformulated_faqs = []
-    #for id_q in range(len(fqs)):
-    #    reformulated_faqs.append({
-    #                    "id_faq": id_q,
-    #                    "original_question": originals_questions[id_q],
-    #                    "reformulated_questions": reformulated_questions[id_q]
-    #                })
+    fqs = [faq["question"] for faq in faqs]
+    originals_questions, reformulated_questions = gen_reformulated_questions(fqs, num_questions=5)
+    print("originals_questions:", originals_questions)
+    reformulated_faqs = []
+    for id_q in range(len(fqs)):
+        reformulated_faqs.append({
+                        "id_faq": id_q,
+                        "original_question": originals_questions[id_q],
+                        "reformulated_questions": reformulated_questions[id_q]
+                    })
         
-    #save_json("./faq/reformulated_faqs", "reformulated_faqs", reformulated_faqs)
+    save_json("./faq/reformulated_faqs", "reformulated_faqs", reformulated_faqs)
     joined_additional_faqs = generate_derived_questions(faqs, times_samples = 3)
     save_json("./faq/derived_faqs", "joined_derived_faqs", joined_additional_faqs)
 
-#questions_generation_based_faqs(faqs)
+questions_generation_based_faqs(faqs)
 
 import evaluate
 threshold_rouge = 0.75
@@ -465,6 +464,6 @@ def filter_generated_question(threshold_rouge = 0.8):
 
     split_file_questions_derived(f"./faq/final_derived_faqs_rouge_{str(threshold_rouge)}", filtered_generated_faqs)
 
-filter_generated_question(threshold_rouge = threshold_rouge)
+#filter_generated_question(threshold_rouge = threshold_rouge)
 
 
