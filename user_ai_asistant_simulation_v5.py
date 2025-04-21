@@ -475,7 +475,15 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         else:
             resultado = None
         return resultado
-
+    
+    def extract_reformulacion(self, response):
+        match = re.search(r"Reformulación:\s*(.*)", response)
+        if match:
+            resultado = match.group(1).strip()
+        else:
+            resultado = None
+        return resultado
+        
     def eval_contains_questions(self, query):
         prompt_question_identification = f"""Dado el siguiente mensaje un usuario proveído a un asistente de AI, determina si contiene preguntas (ya sean implícitas o explícitas). Mencionado de la siguiente manera: Contiene Preguntas: Sí o Contiene Preguntas: No
 mensaje del usuario: ```{query}```
@@ -491,7 +499,61 @@ mensaje del usuario: ```{query}```
         
         return self.extract_contains_questions(response) != "No"
 
+    def get_reformulated_query(self, query, history_chat_messages):
+        history_chat = self.format_text_history_chat(history_chat_messages)
+        prompt_identify_reform = f"""Reformula la consulta del usuario en su último mensaje, teniendo en cuenta el contexto provisto por el historial previo de la conversación. La reformulación debe estar redactada de tal forma que un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), que no cuenta con ningún acceso al historial anterior de la conversación y solo puede ver el último mensaje del usuario, sea capaz de comprender con precisión el tema consultado y brindar una respuesta adecuada, basada en su conocimiento de las normativas académicas de dicha universidad. Si la consulta ya es compresible devuelve tal y como esta.
+---
 
+📋 **Formato de Respuesta Esperado:**
+
+El último mensaje contiene una pregunta: [Sí / No]
+
+Reformulación: <<Pregunta reformulada/No aplica>>
+
+Ejemplos
+
+Ejemplo 1 (Reformulacion)
+
+Último mensaje del usuario: ¿Sabes si hay algún plazo específico que deba tener en cuenta para la orden de pago?
+
+Historial previo de la conversación: <<
+user: ¿Cuáles son las implicaciones de no generar la orden de pago antes de realizar el pago del autoseguro?
+assistant: Si no se genera la orden de pago antes de realizar el pago del autoseguro, el estudiante podría enfrentar problemas para matricularse de manera regular. Es fundamental cumplir con el plazo máximo establecido en el calendario de actividades académicas, ya que de no hacerlo, la matrícula podría no habilitarse y el estudiante tendría que gestionar su matrícula como rezagado. Para verificar la situación de la matrícula, se recomienda comprobar si se habilita en las fechas de matrícula regular. Si no es así, es necesario comunicarse con la oficina de estadística (AERA) para obtener más información.>>
+
+El último mensaje contiene una pregunta: Sí  
+
+Reformulación: ¿Cuál es el plazo específico que debo tener en cuenta para generar la orden de pago del autoseguro, y qué pasos debo seguir si no logro hacerlo a tiempo y tengo que matricularme como rezagado?
+
+Ejemplo 2 (Mensaje No es una Pregunta)
+
+Último mensaje del usuario: "Gracias por la ayuda."
+
+Historial previo de la conversación: <<
+user: ¿Cuanto se puede solicitar el retiro parcial?
+assistant: Hasta la quinta semana de clases.
+
+El último mensaje contiene una pregunta: Sí  
+
+Reformulación: No aplica
+-----
+Datos de Entrada
+
+Último mensaje del usuario: {query}
+
+Historial previo de la conversación: <<{history_chat}>>"""
+        
+        messages = [{"role": "user", "content": prompt_identify_reform}]
+        
+        response = get_completion_from_messages(
+                            messages,
+                            model= self.model)
+
+        print("\nresponde need context:", response)
+        
+        reformulated_query = self.extract_reformulacion(response)
+        return reformulated_query
+       
+        
     def get_reformulated_contextal_query(self, query, history_chat_messages):
         
         print("\noriginal_user_query: ", query)
@@ -634,11 +696,11 @@ Historial del chat: {history_chat}
             print("\n user message contains_questions:", contains_questions)
 
             if len(self.messages) > 1 and contains_questions:
-                reformulated_query = self.get_reformulated_contextal_query(query = query, history_chat_messages = self.messages[1:])
+                reformulated_query = self.get_reformulated_query(query = query, history_chat_messages = self.messages[1:])
                 time.sleep(5)
                 #context = self.messages[-2]["content"] + "\n" + self.messages[-1]["content"]
                 context = None
-                query = reformulated_query 
+                query = reformulated_query
             else:
                 self.need_context.append(None)
                 self.analysis_need_context.append(None)
@@ -786,6 +848,8 @@ if __name__ == "__main__":
     save_dir = "./conversational_faq/openline-questions"
     path_file = "faq/final_derived_faqs_rouge_0.75/derived_questions_faq_1.json"
     filename = "derived_questions_faq_1.json"
+
+    
     questions_faq = load_json(path_file)
     ## hacer el 11 de nuevo
     #for questions_about_topic in questions_topics[0:1]:
@@ -799,7 +863,7 @@ if __name__ == "__main__":
     print("num_questions:", num_questions)
 
     start = 0
-    end = min(2, num_questions)
+    end = min(4, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
