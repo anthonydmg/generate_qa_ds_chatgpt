@@ -464,6 +464,7 @@ def filter_generated_question(threshold_rouge = 0.8):
 
     split_file_questions_derived(f"./faq/final_derived_faqs_rouge_{str(threshold_rouge)}", filtered_generated_faqs)
 
-filter_generated_question(threshold_rouge = threshold_rouge)
+if __name__ == "__main__":
+    filter_generated_question(threshold_rouge = threshold_rouge)
 
 
