@@ -397,7 +397,7 @@ def questions_generation_based_faqs(faqs):
 #questions_generation_based_faqs(faqs)
 
 import evaluate
-threshold_rouge = 0.75
+
 
 def split_file_questions_derived(dir_path, filtered_questions_derived_rouge):
     for i, derived_faq in enumerate(filtered_questions_derived_rouge):
@@ -465,6 +465,7 @@ def filter_generated_question(threshold_rouge = 0.8):
     split_file_questions_derived(f"./faq/final_derived_faqs_rouge_{str(threshold_rouge)}", filtered_generated_faqs)
 
 if __name__ == "__main__":
+    threshold_rouge = 0.75
     filter_generated_question(threshold_rouge = threshold_rouge)
 
 
