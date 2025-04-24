@@ -336,8 +336,8 @@ def generate_derived_questions(faqs, times_samples = 1):
             grupos = grupos + [choices[-3:]]
         print("grupos:",grupos)
 
-        if iter  <= 1:
-            continue
+        #if iter  <= 1:
+        #    continue
         derived_faqs = []
         
         for group_ids in grupos:
@@ -362,7 +362,7 @@ def generate_derived_questions(faqs, times_samples = 1):
             derived_questions = adds_faq["derived_questions"]
             original_question = adds_faq["original_question"]
             text_derived_faqs += "\nPreguntas original: "+ original_question + "\nNuevas Preguntas:\n" + list_json_to_txt(derived_questions)
-       
+        os.makedirs("./faq/derived_faqs/", exist_ok=True)
         file = open(f"./faq/derived_faqs/text_derived_faqs_iter{iter + 1}.txt", "w")
         file.writelines(text_derived_faqs)
         file.close()
@@ -394,7 +394,7 @@ def questions_generation_based_faqs(faqs):
     joined_additional_faqs = generate_derived_questions(faqs, times_samples = 3)
     save_json("./faq/derived_faqs", "joined_derived_faqs", joined_additional_faqs)
 
-questions_generation_based_faqs(faqs)
+#questions_generation_based_faqs(faqs)
 
 import evaluate
 threshold_rouge = 0.75
@@ -408,9 +408,9 @@ def split_file_questions_derived(dir_path, filtered_questions_derived_rouge):
     return
 
 def filter_generated_question(threshold_rouge = 0.8):
-    joined_derived_faqs = load_json("./faq/derived_faqs/joined_derived_faqs_iter2.json")
+    joined_derived_faqs = load_json("./faq/derived_faqs/joined_derived_faqs.json")
     reformulated_faqs = load_json("./faq/reformulated_faqs/reformulated_faqs.json")
-    rouge = evaluate.load('rouge')
+    rouge = evaluate.load('rouge', module_type="metric")
     total_init_adds_faqs_all = sum([len(derived_faqs["derived_questions"]) for derived_faqs in joined_derived_faqs]) + sum([len(reform_faqs["reformulated_questions"]) for reform_faqs in reformulated_faqs])
     print(f"\nUn total de {total_init_adds_faqs_all} preguntas iniciales")
 
@@ -430,7 +430,7 @@ def filter_generated_question(threshold_rouge = 0.8):
             rouge_results = rouge.compute(predictions=[question], references=[all_pool_questions])
             rougeL = rouge_results["rougeL"]
             if rougeL < threshold_rouge:
-                all_pool_questions.append(question)
+                all_pool_questions.asppend(question)
                 #temp_questiosns.append(question)
 
         filtered_generated_faqs.append({
@@ -464,6 +464,6 @@ def filter_generated_question(threshold_rouge = 0.8):
 
     split_file_questions_derived(f"./faq/final_derived_faqs_rouge_{str(threshold_rouge)}", filtered_generated_faqs)
 
-#filter_generated_question(threshold_rouge = threshold_rouge)
+filter_generated_question(threshold_rouge = threshold_rouge)
 
 
