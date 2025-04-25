@@ -430,7 +430,7 @@ def filter_generated_question(threshold_rouge = 0.8):
             rouge_results = rouge.compute(predictions=[question], references=[all_pool_questions])
             rougeL = rouge_results["rougeL"]
             if rougeL < threshold_rouge:
-                all_pool_questions.asppend(question)
+                all_pool_questions.append(question)
                 #temp_questiosns.append(question)
 
         filtered_generated_faqs.append({
