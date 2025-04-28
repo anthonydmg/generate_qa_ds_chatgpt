@@ -2267,7 +2267,7 @@ Historial previo de la conversación: <<{history_chat}>>"""
 
 def get_prompt_reformulated_contextual_query_31(query, history_chat_messages):
         history_chat = format_text_history_chat(history_chat_messages)
-        prompt_identify_reform = f"""Reformula la consulta del usuario en su último mensaje, teniendo en cuenta el contexto provisto por el historial previo de la conversación. La reformulación debe estar redactada de tal forma que un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), que no cuenta con ningún acceso al historial anterior de la conversación y solo puede ver el último mensaje del usuario, sea capaz de comprender con precisión el tema consultado y brindar una respuesta adecuada, basada en su conocimiento de las normativas académicas de dicha universidad. Si la consulta ya es compresible devuelve tal y como esta.
+        prompt_identify_reform = f"""Reformula la consulta del usuario en su último mensaje, teniendo en cuenta el contexto provisto por el historial previo de la conversación. La reformulación debe estar redactada de tal forma que un asistente especializado en normativas académicas de la Facultad de Ciencias de la Universidad Nacional de Ingeniería (UNI), que no cuenta con acceso al historial anterior de la conversación y solo puede ver el último mensaje del usuario, sea capaz de comprender con precisión el tema consultado y brindar una respuesta adecuada, basada en su conocimiento de las normativas académicas de dicha universidad. Si la consulta ya es compresible devuelve tal y como esta.
 ---
 
 📋 **Formato de Respuesta Esperado:**
