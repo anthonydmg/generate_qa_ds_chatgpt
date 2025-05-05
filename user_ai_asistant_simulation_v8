@@ -261,12 +261,15 @@ class AIAssistant:
         self.reformulated_question = [None]
         self.contains_questions = [None]
         
-        self.need_context = [None]
-        self.analysis_need_context = [None]
+        #self.need_context = [None]
+        #self.analysis_need_context = [None]
 
         self.embedding_model = embedding_model
         self.model = model
         self.model_emb = None
+        self.num_prompt_tokens = [None]
+        self.num_history_tokens = [None]
+        self.num_output_tokens = [None]
     #     3. Evita declaraciones excesivamente formales y responde de manera concisa y servicial a mensajes de agradecimientos finales del usuario.
     #     5. Evita declaraciones excesivamente formales y responde de manera concisa y servicial a mensajes agradecimientos del usuario.
     # , sin ser excesivamente formal y responde de manera concisa y servicial a mensajes de agradecimiento del usuario
@@ -760,28 +763,20 @@ Historial previo de la conversación: <<{history_chat}>>"""
     
 
     def generate_response(self, message, use_kb = True):
+        num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
+        num_tokens_prompt_asistant = count_num_tokens(message)
+        num_tokens_output = None
         if use_kb == True:
-            #query = self.messages[-1]["content"] + "\n" + message if len(self.messages) > 1 else message
             query = message
             
-            
-            #print("\n user message contains_questions:", contains_questions)
-            contains_questions = False
+            contains_questions = True
             if len(self.messages) > 1:
                 contains_questions, reformulated_query = self.reformulate_query_if_exists(query = query, history_chat_messages = self.messages[1:])
                 print("contains_questions:", contains_questions)
                 print("reformulated_query:", reformulated_query)
-                #contains_questions = self.eval_contains_questions(query)
-                #reformulated_query = self.get_reformulated_query(query = query, history_chat_messages = self.messages[1:])
-                #time.sleep(5)
-                #context = self.messages[-2]["content"] + "\n" + self.messages[-1]["content"]
-                context = None
                 query = reformulated_query
-            else:
-                self.need_context.append(None)
-                self.analysis_need_context.append(None)
-                context = None
-                
+
+            context = None
             #print("query:", query)
             if contains_questions:
                 info_texs, relatednesses = self.strings_ranked_by_relatedness(
@@ -806,21 +801,16 @@ Historial previo de la conversación: <<{history_chat}>>"""
                 info_texs = info_texs[:cut_idx]
                 relatednesses = relatednesses[:cut_idx]
 
-            #for  in zip(info_texs, relatednesses):
             
-                num_tokens_context_dialog =  sum([count_num_tokens(m["content"]) for m in  self.messages])
                 print("\nnum_tokens_context_dialog:", num_tokens_context_dialog)
-                max_tokens_response = 850
+                max_tokens_response = 400
 
                 general_contact_information = read_fragment_doc("./documentos/informacion_general_contacto.txt")
-                #general_information_fc = read_fragment_doc("./documentos/otros/informacion_general_fc.txt")
-                #general_information = general_information_aera + "\n" + general_information_fc
                 num_tokens_general_context = count_num_tokens(general_contact_information)
 
-                token_budget = min(2200, 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
+                token_budget = min(2600, 4096 - num_tokens_context_dialog - max_tokens_response - num_tokens_general_context)
 
-                #print("\nnum_tokens_general_context:", num_tokens_general_context)
-
+                print("token_budget:", token_budget)
                 prompt_response_to_query = self.get_prompt_response_to_query(
                     message, 
                     info_texs, 
@@ -839,7 +829,7 @@ Historial previo de la conversación: <<{history_chat}>>"""
                 messages= self.messages + [{"role": "user", "content": prompt_response_to_query}],
                 model = self.model
                 )
-
+                num_tokens_output = count_num_tokens(response_ai_assistant)
                 response_ai_assistant = response_ai_assistant.replace("```","").strip()
 
                 if self.contains_bad_keywords(response_ai_assistant):
@@ -855,14 +845,18 @@ Historial previo de la conversación: <<{history_chat}>>"""
                 self.contains_questions.append(contains_questions)
             else:
                 prompt_response_to_message = self.get_prompt_response_to_user(message)
+                num_tokens_prompt_asistant = count_num_tokens(prompt_response_to_message)
                 response_ai_assistant = get_completion_from_messages(
                 messages= self.messages + [{"role": "user", "content": prompt_response_to_message}],
                 model = self.model
                 )
+                num_tokens_output = count_num_tokens(response_ai_assistant)
                 response_ai_assistant = response_ai_assistant.replace("```","").strip()
                 self.messages.append({"role": "user", "content": message})
-                self.reformulated_question.append(None)
+                self.contexts.append(None)
+                self.recovered_texts.append(None)
                 self.contains_questions.append(contains_questions)
+                self.reformulated_question.append(None)
             #self.need_context.append(None)
             #self.analysis_need_context.append(None)
         else:
@@ -873,22 +867,26 @@ Historial previo de la conversación: <<{history_chat}>>"""
             response_ai_assistant = get_completion_from_messages(
             messages= self.messages,
             model = self.model)
+            num_tokens_output = count_num_tokens(response_ai_assistant)
             self.contexts.append(None)
             self.recovered_texts.append(None)
             self.reformulated_question.append(message)
             self.contains_questions.append(False)
-            self.need_context.append(None)
-            self.analysis_need_context.append(None)
             
         print()
         
+        self.num_prompt_tokens.append(None)
+        self.num_history_tokens.append(None)
+        self.num_output_tokens.append(None)
+
         self.messages.append({"role": "assistant", "content": response_ai_assistant})
+        self.num_prompt_tokens.append(num_tokens_prompt_asistant)
+        self.num_history_tokens.append(num_tokens_context_dialog)
+        self.num_output_tokens.append(num_tokens_output)
         self.contexts.append(None)
         self.recovered_texts.append(None)
         self.reformulated_question.append(None)
         self.contains_questions.append(None)
-        self.need_context.append(None)
-        self.analysis_need_context.append(None)
         
         return response_ai_assistant
     
@@ -898,17 +896,15 @@ Historial previo de la conversación: <<{history_chat}>>"""
             dialog_data = zip(self.messages[1:], self.contexts[1:], 
                               self.recovered_texts[1:], self.contains_questions [1:], 
                               self.reformulated_question[1:],
-                              self.need_context[1:], self.analysis_need_context[1:])
+                              self.num_history_tokens[1:], self.num_prompt_tokens[1:], self.num_output_tokens[1:])
             
             print("messages:", len(self.messages[1:]))
             print("contexts:", len(self.contexts[1:]))
             print("recovered_texts:", len(self.recovered_texts[1:]))
             print("contains_questions:", len(self.contains_questions[1:]))
             print("reformulated_question:", len(self.reformulated_question[1:]))
-            print("need_context:", len(self.need_context[1:]))
-            print("analysis_need_context:", len(self.analysis_need_context[1:]))
 
-            for message, context, texts, contains_questions, reformulated_question, need_context, analysis_need_context in dialog_data:
+            for message, context, texts, contains_questions, reformulated_question, num_history_tokens, num_prompt_tokens, num_output_tokens in dialog_data:
                 history_dialog.append({
                     "role": message["role"],
                     "content": message["content"],
@@ -916,8 +912,9 @@ Historial previo de la conversación: <<{history_chat}>>"""
                     "recovered_texts": texts,
                     "contains_questions": contains_questions,
                     "reformulated_question": reformulated_question,
-                    "need_context": need_context,
-                    "analysis_need_context": analysis_need_context
+                    "num_history_tokens": num_history_tokens,
+                    "num_prompt_tokens": num_prompt_tokens,
+                    "num_output_tokens": num_output_tokens,
                 })
                 
             return history_dialog
@@ -947,8 +944,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 0
-    end = min(4, num_questions)
+    start = 4
+    end = min(6, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
@@ -984,7 +981,7 @@ if __name__ == "__main__":
         print("\n\033[32mAssistant:\033[0m", response_ai_assistant)
         
         time.sleep(15)
-        num_turns = random.choice([2,3,4])
+        num_turns = random.choice([2,3,4,5])
         
         for i in range(num_turns):
             additional_prob_finish = (i) * 0.05 
