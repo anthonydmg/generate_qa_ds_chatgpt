@@ -328,13 +328,15 @@ def generate_derived_questions(faqs, times_samples = 1):
     for iter in range(times_samples):
         print(f"\n_____________iter-{iter}____________\n")
         choices = random.sample(ids, k = len(ids))
+        index_43 = choices.index(42)
+        grupos = [index_43, choices[0]]
         
-        num_grupos = len(choices) // 3
-        grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
-        sobran = len(choices) % 3
-        if sobran > 0:
-            grupos = grupos + [choices[-3:]]
-        print("grupos:",grupos)
+        #num_grupos = len(choices) // 3
+        #grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
+        #sobran = len(choices) % 3
+        #if sobran > 0:
+        #    grupos = grupos + [choices[-3:]]
+        #print("grupos:",grupos)
 
         #if iter  <= 1:
         #    continue
@@ -363,10 +365,12 @@ def generate_derived_questions(faqs, times_samples = 1):
             original_question = adds_faq["original_question"]
             text_derived_faqs += "\nPreguntas original: "+ original_question + "\nNuevas Preguntas:\n" + list_json_to_txt(derived_questions)
         os.makedirs("./faq/derived_faqs/", exist_ok=True)
-        file = open(f"./faq/derived_faqs/text_derived_faqs_iter{iter + 1}.txt", "w")
+        file = open(f"./faq/derived_faqs/text_derived_faqs_iter{iter + 1}.txt", "a")
         file.writelines(text_derived_faqs)
         file.close()
-        save_json("./faq/derived_faqs", "all_derived_faqs", all_derived_faqs)
+        all_derived_faqs_prev = load_json("./faq/derived_faqs/all_derived_faqs.json")
+        all_derived_faqs_prev.extend(all_derived_faqs)
+        save_json("./faq/derived_faqs", "all_derived_faqs", all_derived_faqs_prev)
         time.sleep(10)
 
     all_derived_faqs = load_json("./faq/derived_faqs/all_derived_faqs.json")
@@ -466,6 +470,7 @@ def filter_generated_question(threshold_rouge = 0.8):
 
 if __name__ == "__main__":
     threshold_rouge = 0.70
-    filter_generated_question(threshold_rouge = threshold_rouge)
+    questions_generation_based_faqs(faqs)
+    #filter_generated_question(threshold_rouge = threshold_rouge)
 
 
