@@ -364,10 +364,9 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         # , precisa
 #, precisa
         if num_turn >= min_turn:
-            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa, util y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
+            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa, util y concisa al siguiente mensaje del usuario, considerando el contexto del historial del diálogo en curso. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 150 palabras."""
         else:
-            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa, util y concisa al siguiente mensaje del usuario o solicita una aclaracion cuando falta especificidad en la pregunta. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 130 palabras."""
-
+            instrucction = """Como asistente de IA, proporciona una respuesta clara, precisa, util y concisa al siguiente mensaje del usuario o solicita una aclaracion cuando falta especificidad en la pregunta. Usa únicamente la información proporcionada entre tres comillas invertidas como tu unica fuente de conocimiento para responder a las preguntas del usuario. Evita proporcionar información que no esté respaldada. Limita la respuesta a un máximo de 150 palabras."""
 
             #instrucction = """Como asistente de AI proporciona una respuesta clara y concisa al siguiente mensaje del usuario. Utiliza la información entre tres comillas invertidas como tu única fuente de conocimiento para responder a consultas del usuario. Evita ofrecer datos no respaldados explícitamente o no bien desarrollados en dicha información; en su lugar, indica claramente que no tienes acceso a esa información cuando sea relevante. Limita la respuesta a un máximo de 130 palabras."""
 
@@ -929,8 +928,8 @@ if __name__ == "__main__":
     #questions_faq = load_json("./faq/filtered_questions.json")
     conversations_simulated = []
     save_dir = "./conversational_faq/openline-questions"
-    path_file = "faq/final_derived_faqs_rouge_0.75/derived_questions_faq_1.json"
-    filename = "derived_questions_faq_1.json"
+    path_file = "faq/final_derived_faqs_rouge_0.7/derived_questions_faq_6.json"
+    filename = "derived_questions_faq_6.json"
 
     questions_faq = load_json(path_file)
     ## hacer el 11 de nuevo
@@ -944,8 +943,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 4
-    end = min(6, num_questions)
+    start = 0
+    end = min(2, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
