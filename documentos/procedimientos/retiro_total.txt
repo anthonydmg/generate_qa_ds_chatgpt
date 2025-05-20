@@ -14,18 +14,17 @@ Art. 68° (R.R. N° 2292-2022) No procede el Retiro Total cuando el estudiante h
 
 Art. 69° (R.R. N° 2292-2022) El Retiro Total se computa para efectos de un Retiro Definitivo como una reserva de matrícula. El Retiro Total es de oficio por fallecimiento del estudiante. 
 
-Pasos para solicitar el Retiro Total a través de la plataforma SIGA-DIRCE:
+Pasos para solicitar el Retiro Total a través de la plataforma INTRALU:
 
-1. El alumno accederá a la intranet de alumnos (https://www.academico.uni.edu.pe/alumno/entra) utilizando su código UNI y la clave correspondiente.
-2. Dentro de la intranet de alumnos, seleccionará la opción "Mis Trámites" en el menú de navegación ubicado en la parte izquierda de la pantalla. Al hacer clic en dicho menú, se desplegarán varias opciones, entre las cuales deberá seleccionar "Retiro Total".
-3. Completará el formulario desplegado para la solicitud de retiro total, donde deberá proporcionar la siguiente información:
-    - Motivo por el cual desea realizar el retiro total, que puede ser: Viaje al extranjero, Accidente limitante, Enfermedad limitante o Asumir emergencia familiar limitante.
+1. El alumno accederá a la plataforma INTRALU, utilizando su código UNI y la clave correspondiente.
+2. Dentro de la plataforma, seleccionará la opción "Trámites" en el menú de navegación ubicado en la parte izquierda de la pantalla. Al hacer clic en dicho menú, accedera al modulo de tramites y pagos. En dicho módulo, selecciona "Retiro Total" en el menú desplegable, haz clic en el botón "Nuevo".
+3. A continuación, deberá leer la descripción del trámite y hacer clic en "Siguiente" para continuar..
+4. Luego, se desplegará un formulario que deberá completar para solicitar el retiro total, proporcionando la siguiente información:
+    - Motivo por el cual desea realizar el retiro total, que puede ser: Viaje al extranjero, Accidente limitante, Enfermedad limitante o emergencia familiar limitante.
     - Descripción del motivo por el que desea realizar el retiro.
     - Número de ciclos que estará ausente.
     - Adjuntar documentos sustentatorios para el motivo de retiro total.
-4. Una vez completado el formulario, seleccionará "Enviar Solicitud".
-
-Al enviar la solicitud, podrá visualizarla junto con la fecha de envío, así como también la respuesta correspondiente, la cual estará disponible una vez que se haya procesado su solicitud.
+5. Finalmente, al completar el formulario, deberá seleccionar la opción "Enviar Solicitud". El sistema mostrará automáticamente el estado de seguimiento del trámite.
 
 Para obtener más detalles sobre el proceso, consulta el Manual de Retiro Total publicado en la sección de MATRÍCULA Y PROCEDIMIENTOS en la Página Web de la Facultad de Ciencias, puede ingresar a dicha sección de la pagina web a traves del enlace: https://fc.uni.edu.pe/documentos/
 

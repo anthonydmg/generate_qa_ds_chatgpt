@@ -13,10 +13,9 @@ Art. 65° El Retiro Parcial procede para las asignaturas más avanzadas y no par
  
 Art. 66° (R.R. N° 0799-2023) Los retiros parciales proceden de oficio, según las reglas establecidas en el Artículo 11°, Literal c). Vencido el período para ingresar  solicitudes, la DIRCE informará a las Facultades sobre los retiros parciales, remitiendo las actas de verificación de los alumnos matriculados y retirados de cada curso-sección. 
  
-Instrucciones para solicitar el retiro parcial en la plataforma DIRCE 
+Instrucciones para solicitar el retiro parcial en el Portal INTRALU
 
-● El alumno ingresará a la plataforma de intranet-alumno y de todas las opciones seleccionará “retiro parcial”.  
-● Allí  encontrará  los  cursos  matriculados  en  el  presente  ciclo  y  solo  deberá seleccionar el(los) curso(s) que desee retirarse. 
-● El estudiante podrá ver la atención a su solicitud ingresando a la plataforma de intranet-alumno / ficha de matrícula (aproximadamente 1 semana después del cierre del proceso “retiro parcial”). 
- 
- 
+1. El alumno ingresará a la plataforma INTRALU y seleccionará la opción “Tramites” para abrir el modulo de tramites y pagos. 
+2. A continuación, debe elegir la opción “Retiro Parcial”, hacer clic en “Nuevo” y, tras leer cuidadosamente las instrucciones, seleccionar "Siguiente". 
+3. Luego, deberá seleccionar el curso o los cursos de los que desea realizar el retiro parcial, hacer clic en “Tramitar Retiro Parcial” y confirmar la solicitud en la ventana emergente seleccionando “Sí, solicitar”.
+4. Finalmente, haga clic en “Siguiente” y el sistema mostrará automáticamente el estado de seguimiento del trámite.

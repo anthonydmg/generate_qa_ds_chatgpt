@@ -460,5 +460,16 @@
             "\u00bfQu\u00e9 debo hacer para entrar a INTRALU de la UNI y qu\u00e9 tipo de informaci\u00f3n puedo encontrar?",
             "\u00bfPodr\u00edas explicarme c\u00f3mo un estudiante de la UNI puede acceder a la plataforma INTRALU y qu\u00e9 ofrece?"
         ]
+    },
+    {
+        "id_faq": 42,
+        "original_question": "\u00bfC\u00f3mo puede un estudiante de pregrado de la UNI acceder al M\u00f3dulo de Matr\u00edcula para la inscripci\u00f3n de cursos en la matr\u00edcula regular?",
+        "reformulated_questions": [
+            "\u00bfCu\u00e1l es el procedimiento para que un estudiante de pregrado de la UNI ingrese al M\u00f3dulo de Matr\u00edcula y se inscriba en sus cursos?",
+            "\u00bfMe podr\u00edas explicar c\u00f3mo un alumno de la UNI puede acceder al M\u00f3dulo de Matr\u00edcula para inscribir sus cursos en la matr\u00edcula regular?",
+            "\u00bfC\u00f3mo accedo al M\u00f3dulo de Matr\u00edcula para inscribir mis cursos como estudiante de pregrado en la UNI?",
+            "Un amigo me pregunt\u00f3 c\u00f3mo puede un estudiante de la UNI acceder al M\u00f3dulo de Matr\u00edcula para inscribirse en los cursos. \u00bfSabes c\u00f3mo se hace?",
+            "\u00bfQu\u00e9 pasos debe seguir un estudiante de pregrado de la UNI para entrar al M\u00f3dulo de Matr\u00edcula y realizar la inscripci\u00f3n de cursos?"
+        ]
     }
 ]

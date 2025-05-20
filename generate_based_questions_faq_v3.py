@@ -329,7 +329,7 @@ def generate_derived_questions(faqs, times_samples = 1):
         print(f"\n_____________iter-{iter}____________\n")
         choices = random.sample(ids, k = len(ids))
         index_43 = choices.index(42)
-        grupos = [index_43, choices[0]]
+        grupos = [[42, choices[0]]]
         
         #num_grupos = len(choices) // 3
         #grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
@@ -349,6 +349,8 @@ def generate_derived_questions(faqs, times_samples = 1):
             time.sleep(4)
             for id_faq , o_faq, new_derived_faq in zip(group_ids, group_faqs, derived_preguntas):
                 print(len(new_derived_faq))
+                if id_faq != 42:
+                    continue
                 derived_faqs.append({
                     "id_faq": id_faq,
                     "original_question":  o_faq["question"],
@@ -384,16 +386,18 @@ def generate_derived_questions(faqs, times_samples = 1):
 
 def questions_generation_based_faqs(faqs):
     fqs = [faq["question"] for faq in faqs]
-    originals_questions, reformulated_questions = gen_reformulated_questions(fqs, num_questions=5)
+    originals_questions, reformulated_questions = gen_reformulated_questions([fqs[-1]], num_questions=5)
     print("originals_questions:", originals_questions)
-    reformulated_faqs = []
-    for id_q in range(len(fqs)):
+    print("reformulated_questions:", reformulated_questions)
+    reformulated_faqs = load_json("./faq/reformulated_faqs/reformulated_faqs.json")
+    prev_num = len(reformulated_faqs)
+    for id_q in range(len([fqs[-1]])):
         reformulated_faqs.append({
-                        "id_faq": id_q,
+                        "id_faq": id_q + prev_num,
                         "original_question": originals_questions[id_q],
                         "reformulated_questions": reformulated_questions[id_q]
                     })
-        
+    
     save_json("./faq/reformulated_faqs", "reformulated_faqs", reformulated_faqs)
     joined_additional_faqs = generate_derived_questions(faqs, times_samples = 3)
     save_json("./faq/derived_faqs", "joined_derived_faqs", joined_additional_faqs)
@@ -417,7 +421,7 @@ def filter_generated_question(threshold_rouge = 0.8):
     rouge = evaluate.load('rouge', module_type="metric")
     total_init_adds_faqs_all = sum([len(derived_faqs["derived_questions"]) for derived_faqs in joined_derived_faqs]) + sum([len(reform_faqs["reformulated_questions"]) for reform_faqs in reformulated_faqs])
     print(f"\nUn total de {total_init_adds_faqs_all} preguntas iniciales")
-
+    
     filtered_generated_faqs = []
 
     for derived_faqs, reform_faqs in zip(joined_derived_faqs, reformulated_faqs):
@@ -470,7 +474,7 @@ def filter_generated_question(threshold_rouge = 0.8):
 
 if __name__ == "__main__":
     threshold_rouge = 0.70
-    questions_generation_based_faqs(faqs)
-    #filter_generated_question(threshold_rouge = threshold_rouge)
+    #questions_generation_based_faqs(faqs)
+    filter_generated_question(threshold_rouge = threshold_rouge)
 
 

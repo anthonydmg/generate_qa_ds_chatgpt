@@ -4753,3 +4753,94 @@ Nuevas Preguntas:
 130. Oye, ¿qué tengo que hacer para generar una orden de pago en INTRALU?
 131. ¿En qué lugar puedo encontrar el manual de pagos para los trámites en INTRALU?
 132. ¿Dónde está disponible el manual de pagos para que un estudiante lo consulte en INTRALU?
+
+Preguntas originales: ¿Cómo puede un estudiante de pregrado de la UNI acceder al Módulo de Matrícula para la inscripción de cursos en la matrícula regular?
+Nuevas Preguntas:
+1. ¿Cuál es el procedimiento para que un estudiante de pregrado de la UNI ingrese al Módulo de Matrícula y se inscriba en sus cursos?
+2. ¿Me podrías explicar cómo un alumno de la UNI puede acceder al Módulo de Matrícula para inscribir sus cursos en la matrícula regular?
+3. ¿Cómo accedo al Módulo de Matrícula para inscribir mis cursos como estudiante de pregrado en la UNI?
+4. Un amigo me preguntó cómo puede un estudiante de la UNI acceder al Módulo de Matrícula para inscribirse en los cursos. ¿Sabes cómo se hace?
+5. ¿Qué pasos debe seguir un estudiante de pregrado de la UNI para entrar al Módulo de Matrícula y realizar la inscripción de cursos?
+6. ¿Qué pasos debe seguir un estudiante de la UNI para acceder al Módulo de Matrícula durante el proceso de matrícula regular?
+7. ¿Cuáles son los pasos que debo seguir para entrar al Módulo de Matrícula en la UNI durante la matrícula regular?
+8. ¿Qué información puede consultar un estudiante en el Módulo de Matrícula de la UNI?
+9. ¿Cómo puede un estudiante saber cuáles son los cursos habilitados según su plan de estudios en el Módulo de Matrícula?
+10. ¿Cómo puede un alumno saber qué cursos puede inscribir de acuerdo a su plan de estudios en el Módulo de Matrícula?
+11. ¿Qué pasos debe seguir un estudiante para identificar los cursos habilitados en su plan de estudios en el Módulo de Matrícula?
+12. ¿Cómo se puede consultar la lista de cursos habilitados para un estudiante en el Módulo de Matrícula según su plan de estudios?
+13. ¿Qué debe hacer un estudiante para confirmar su matrícula en el sistema después de seleccionar los cursos y horarios deseados?
+14. ¿Cómo puede un alumno asegurarse de que su matrícula esté confirmada en el sistema después de seleccionar los cursos?
+15. ¿Qué datos sobre los cursos están disponibles en el Módulo de Matrícula de la UNI?
+16. ¿Qué datos específicos de los cursos están accesibles en el Módulo de Matrícula para los estudiantes?
+17. ¿Qué tipo de información sobre los cursos está disponible en el Módulo de Matrícula?
+18. ¿Qué detalles acerca de los cursos pueden consultar los estudiantes en el Módulo de Matrícula de la UNI?
+19. ¿Qué sucede si un estudiante intenta inscribirse en más créditos de los permitidos durante su turno de matrícula?
+20. ¿Qué ocurre si un estudiante excede el límite de créditos permitidos al inscribirse en su turno de matrícula?
+21. ¿Cómo puede un estudiante conocer los turnos de matrícula asignados por su facultad en el Módulo de Matrícula?
+22. ¿De qué manera puede un estudiante averiguar cuáles son los turnos de matrícula que le han asignado en su facultad?
+23. ¿Qué pasos debe seguir un estudiante para conocer los turnos de matrícula que le han sido asignados por su facultad?
+24. ¿Qué información relacionada con los docentes y horarios está accesible en el Módulo de Matrícula?
+25. ¿Qué detalles sobre los profesores y sus horarios están disponibles para los estudiantes en el Módulo de Matrícula?
+26. ¿Qué pasos debe seguir un estudiante para inscribirse en los cursos de su elección durante su turno de matrícula?
+27. ¿Cuáles son los pasos que debo seguir para inscribirme en los cursos que elijo durante mi turno de matrícula?
+28. ¿Cómo puede un alumno inscribirse en los cursos de su elección en el Módulo de Matrícula durante su turno?
+29. ¿Qué acciones necesita realizar un estudiante para completar la inscripción en los cursos que ha elegido durante su turno de matrícula?
+30. ¿Qué debe hacer un estudiante si no encuentra vacantes disponibles en un curso habilitado en el Módulo de Matrícula?
+31. ¿Qué puede hacer un alumno si no encuentra cupos disponibles en un curso habilitado durante la matrícula?
+32. ¿Qué función cumple el Módulo de Matrícula en el proceso de inscripción de cursos en la UNI?
+33. ¿Qué rol desempeña el Módulo de Matrícula en la inscripción de cursos para los estudiantes de la UNI?
+34. ¿Qué restricciones existen en el Módulo de Matrícula respecto al número de créditos que un estudiante puede inscribir?
+35. ¿Cuáles son las restricciones en el Módulo de Matrícula en cuanto al número de créditos que se pueden inscribir?
+36. ¿Qué restricciones debe tener en cuenta un estudiante respecto a los créditos que puede inscribir en el Módulo de Matrícula?
+37. ¿Qué pasos debe seguir un estudiante para acceder al Módulo de Matrícula en la plataforma Intranet-Alumnos?
+38. ¿Cómo se hace para que un estudiante ingrese al Módulo de Matrícula en la Intranet-Alumnos?
+39. ¿Qué datos tiene disponibles un estudiante en el Módulo de Matrícula durante la inscripción?
+40. ¿De qué manera puedo averiguar los turnos de matrícula que me ha asignado mi facultad?
+41. ¿Cómo puede un alumno saber cuáles son los turnos de matrícula que le corresponden?
+42. ¿Dónde puede un estudiante encontrar información sobre los turnos de matrícula asignados por su facultad?
+43. ¿Cuáles son los datos que un estudiante puede consultar acerca de los cursos habilitados en el Módulo de Matrícula?
+44. ¿Qué pasos tengo que seguir para confirmar mi matrícula en el sistema después de elegir mis asignaturas?
+45. ¿Qué debe hacer un estudiante para que su matrícula quede confirmada en el sistema tras elegir las asignaturas?
+46. ¿Qué restricciones existen en cuanto al número de créditos que un estudiante puede inscribir durante su turno de matrícula?
+47. ¿Cuántos créditos puede inscribir un estudiante durante su turno de matrícula?
+48. ¿Qué limitaciones hay sobre el número de créditos que un alumno puede inscribir en su turno de matrícula?
+49. ¿Qué restricciones deben tener en cuenta los estudiantes respecto al número de créditos que pueden inscribir en su turno?
+50. ¿Cuáles son las reglas sobre la cantidad de créditos que un estudiante puede inscribir en su turno de matrícula?
+51. ¿Qué datos puedo encontrar sobre los docentes y sus horarios en el Módulo de Matrícula?
+52. ¿Qué pasaría si intento inscribir un curso que excede los créditos permitidos en mi turno de matrícula?
+53. ¿Qué consecuencias tiene un estudiante si intenta inscribir un curso fuera del límite de créditos durante su turno de matrícula?
+54. ¿Qué ocurre si un alumno intenta registrar un curso que no cumple con los créditos permitidos en su turno de matrícula?
+55. ¿Qué sucede si un estudiante se inscribe en un curso que supera el número de créditos permitidos en su turno de matrícula?
+56. ¿Cómo puede un estudiante verificar las vacantes disponibles en los cursos habilitados?
+57. ¿Qué pasos debo seguir para comprobar las vacantes en los cursos habilitados?
+58. ¿Qué procedimiento debe seguir un estudiante para ver las vacantes en los cursos habilitados?
+59. ¿Dónde puede un estudiante encontrar información sobre las vacantes disponibles en los cursos habilitados?
+60. ¿Cuáles son los pasos que tengo que seguir para elegir mis horarios en el Módulo de Matrícula?
+61. ¿Cómo puede un estudiante seleccionar los horarios que desea en el Módulo de Matrícula?
+62. ¿Qué procedimiento debe seguir un alumno para escoger sus horarios en el Módulo de Matrícula?
+63. ¿Qué debo hacer para seleccionar los horarios que quiero en el Módulo de Matrícula?
+64. ¿Qué plataforma deben utilizar los estudiantes para acceder al Módulo de Matrícula y realizar su inscripción?
+65. ¿Dónde pueden los estudiantes acceder al Módulo de Matrícula para inscribirse?
+66. ¿Qué sucede si un estudiante no realiza su inscripción durante el turno asignado en el Módulo de Matrícula?
+67. ¿Qué pasa si no me inscribo durante el turno que me asignaron en el Módulo de Matrícula?
+68. ¿Qué sucede si un estudiante no se inscribe en el Módulo de Matrícula durante su turno asignado?
+69. ¿Qué procedimiento debe seguir un alumno para acceder al Módulo de Matrícula en la UNI durante la matrícula regular?
+70. ¿Cómo hace un estudiante de la UNI para ingresar al Módulo de Matrícula cuando llega el momento de la matrícula regular?
+71. ¿Qué tipo de información puedo encontrar en el Módulo de Matrícula en la Intranet-Alumnos?
+72. ¿Qué cosas puede revisar un alumno en el Módulo de Matrícula en la Intranet-Alumnos?
+73. ¿De qué manera puede un estudiante averiguar los turnos de matrícula que le corresponden en su facultad a través del Módulo de Matrícula?
+74. ¿Dónde puede un estudiante encontrar la información sobre los turnos de matrícula que le corresponden en el Módulo de Matrícula?
+75. ¿Qué restricciones relacionadas con el número de créditos deben considerar los estudiantes al inscribirse en los cursos?
+76. ¿Cuáles son las restricciones que un alumno debe considerar en cuanto a los créditos al momento de inscribirse en los cursos?
+77. ¿Qué reglas sobre el número de créditos deben seguir los estudiantes al momento de elegir sus cursos?
+78. ¿Qué horarios y docentes puedo encontrar en el Módulo de Matrícula?
+79. ¿Cuáles son las opciones de horarios y profesores que están disponibles para los estudiantes en el Módulo de Matrícula?
+80. ¿Dónde puedo ver las opciones de horarios y docentes que hay en el Módulo de Matrícula?
+81. ¿Qué consecuencias hay si un estudiante intenta inscribirse en un curso fuera de su turno de matrícula?
+82. ¿Qué pasa si un alumno se inscribe en un curso que no corresponde a su turno de matrícula?
+83. ¿Qué ocurre si un estudiante intenta matricularse en un curso en un turno que no le corresponde?
+84. ¿Qué sucede si un estudiante se registra en un curso fuera de su horario asignado para matrícula?
+85. ¿Cómo se asegura un estudiante de que hay vacantes en los cursos habilitados que le interesan?
+86. ¿Cuál es la plataforma que usa la UNI para que los estudiantes accedan al Módulo de Matrícula?
+87. ¿Qué sistema utiliza la UNI para que los alumnos puedan inscribirse en el Módulo de Matrícula?
+88. ¿Qué información debe confirmar un estudiante antes de finalizar su inscripción en el Módulo de Matrícula?

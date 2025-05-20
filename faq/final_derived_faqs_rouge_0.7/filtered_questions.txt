@@ -1,132 +1,88 @@
-1. ¿Cómo puedo acceder a la plataforma INTRALU de la UNI y qué servicios me brinda?
-2. ¿Qué pasos debe seguir un estudiante de pregrado para ingresar a INTRALU y qué información se puede obtener allí?
-3. ¿Cómo se accede a la plataforma INTRALU en la UNI y qué funcionalidades tiene?
-4. ¿Qué debo hacer para entrar a INTRALU de la UNI y qué tipo de información puedo encontrar?
-5. ¿Podrías explicarme cómo un estudiante de la UNI puede acceder a la plataforma INTRALU y qué ofrece?
-6. ¿Qué pasos debe seguir un estudiante de la UNI para acceder a la plataforma INTRALU?
-7. ¿Cuáles son los pasos que tengo que seguir para ingresar a INTRALU?
-8. ¿Me podrías indicar cómo un estudiante puede acceder a INTRALU?
-9. ¿Qué pasos son necesarios para que un alumno de la UNI entre a la plataforma INTRALU?
-10. ¿Qué credenciales necesita un estudiante de la UNI para iniciar sesión en la plataforma INTRALU?
-11. ¿Qué datos de acceso necesito para iniciar sesión en INTRALU?
-12. ¿Cuáles son las credenciales requeridas para que un estudiante de la UNI acceda a INTRALU?
-13. ¿Qué tipo de información debo tener para loguearme en la plataforma INTRALU?
-14. ¿Qué credenciales son necesarias para que un alumno de la UNI inicie sesión en INTRALU?
-15. ¿Qué opciones de autenticación están disponibles para acceder a INTRALU?
-16. ¿Qué métodos de autenticación puedo usar para entrar a INTRALU?
-17. ¿Cuáles son las opciones de acceso disponibles para los estudiantes en INTRALU?
-18. ¿Qué alternativas de autenticación existen para acceder a la plataforma INTRALU?
-19. ¿Qué información académica puede consultar un estudiante en la plataforma INTRALU?
-20. ¿Qué datos académicos tengo la posibilidad de revisar en INTRALU?
-21. ¿Qué tipo de información académica está disponible para los estudiantes en la plataforma INTRALU?
-22. ¿Qué aspectos de mi historial académico puedo consultar en INTRALU?
-23. ¿Qué información relacionada con mis estudios puede ver un alumno en INTRALU?
-24. ¿Qué trámites puede gestionar un estudiante de la UNI a través de INTRALU?
-25. ¿Qué gestiones puedo realizar como estudiante de la UNI en INTRALU?
-26. ¿Cuáles son los trámites que un estudiante de la UNI puede hacer en la plataforma INTRALU?
-27. ¿Qué tipo de gestiones están disponibles para los alumnos en INTRALU?
-28. ¿Qué trámites puede llevar a cabo un estudiante de la UNI usando INTRALU?
-29. ¿Qué certificados puede solicitar un estudiante mediante la plataforma INTRALU?
-30. ¿Qué tipos de certificados puedo pedir a través de INTRALU?
-31. ¿Qué certificados académicos están disponibles para solicitar en la plataforma INTRALU?
-32. ¿Qué certificados puede obtener un alumno de la UNI usando INTRALU?
-33. ¿Cómo puede un estudiante generar órdenes de pago en la plataforma INTRALU?
-34. ¿Qué pasos debo seguir para crear órdenes de pago en INTRALU?
-35. ¿Me podrías explicar cómo un alumno puede hacer órdenes de pago en INTRALU?
-36. ¿Qué procedimiento sigue un estudiante para generar órdenes de pago en INTRALU?
-37. ¿Qué tipo de pagos relacionados con la matrícula se pueden realizar a través de INTRALU?
-38. ¿Qué pagos de matrícula puedo hacer en INTRALU?
-39. ¿Cuáles son los tipos de pagos relacionados con la matrícula que un estudiante puede realizar en INTRALU?
-40. ¿Qué opciones de pago de matrícula están disponibles en la plataforma INTRALU?
-41. ¿Qué pagos puedo gestionar en INTRALU en relación a mi matrícula?
-42. ¿Qué documentos académicos puede consultar un estudiante en INTRALU para conocer su avance curricular?
-43. ¿Qué documentos puedo revisar en INTRALU para ver mi progreso académico?
-44. ¿Qué información sobre mi avance curricular está disponible en INTRALU?
-45. ¿Qué documentos puedo acceder en INTRALU para verificar mi avance en el currículo?
-46. ¿Qué enlace directo puede utilizar un estudiante para acceder a la plataforma INTRALU?
-47. ¿Cuál es el enlace directo para entrar a INTRALU?
-48. ¿Qué URL debo usar para acceder a la plataforma INTRALU?
-49. ¿Me podrías dar el enlace directo para acceder a INTRALU?
-50. ¿Qué dirección web utiliza un estudiante de la UNI para ingresar a INTRALU?
-51. ¿Qué información incluye la ficha académica disponible en la plataforma INTRALU?
-52. ¿Qué datos se encuentran en la ficha académica de INTRALU?
-53. ¿Qué detalles académicos están presentes en la ficha que puedo consultar en INTRALU?
-54. ¿Dónde puede un estudiante consultar el manual de pagos para trámites disponibles en INTRALU?
-55. ¿En qué lugar un estudiante puede consultar el manual de pagos disponible en INTRALU?
-56. ¿Me podrías indicar dónde está el manual de pagos para trámites en INTRALU?
-57. ¿Dónde puede un alumno de la UNI acceder al manual de pagos para los trámites en INTRALU?
-58. ¿Podrías indicarme cómo un estudiante puede acceder a la plataforma INTRALU a través de la intranet?
-59. ¿Qué procedimiento debe seguir un alumno para ingresar a INTRALU desde la intranet de la universidad?
-60. ¿Cómo se hace para acceder a INTRALU desde la intranet de alumnos? Necesito saber los pasos.
-61. ¿Qué tipo de credenciales debo tener para poder iniciar sesión en INTRALU?
-62. ¿Qué información de inicio de sesión necesita un alumno para entrar a INTRALU?
-63. ¿Cuáles son las opciones que tiene un alumno para autenticar su acceso a INTRALU?
-64. ¿Qué formas de autenticación puede usar un estudiante para ingresar a INTRALU?
-65. ¿Qué datos académicos puede revisar un alumno en la plataforma INTRALU?
-66. ¿Qué tipo de información sobre su carrera puede ver un estudiante en INTRALU?
-67. ¿Qué aspectos académicos puedo consultar en la plataforma INTRALU?
-68. ¿Qué trámites relacionados con certificados puede gestionar un estudiante en INTRALU?
-69. ¿Qué trámites de certificados están disponibles para que un estudiante realice en INTRALU?
-70. ¿Cuáles son los procedimientos que un alumno puede gestionar en INTRALU relacionados con certificados?
-71. ¿Qué tipo de certificados puede manejar un estudiante a través de INTRALU?
-72. ¿Qué gestiones sobre certificados puedo hacer en la plataforma INTRALU?
-73. ¿Qué tipos de pagos puede gestionar un estudiante en INTRALU?
-74. ¿Cuáles son los procedimientos de pago disponibles para los alumnos en la plataforma INTRALU?
-75. ¿Qué pagos puedo hacer a través de INTRALU como estudiante?
-76. ¿Qué opciones de pago tiene un alumno en la plataforma INTRALU?
-77. ¿Cómo puede un estudiante consultar su avance curricular en la plataforma INTRALU?
-78. ¿Qué pasos debo seguir para revisar mi avance curricular en INTRALU?
-79. ¿Cómo puede un alumno verificar su progreso académico en la plataforma INTRALU?
-80. ¿Qué procedimiento sigue un estudiante para consultar su avance curricular en INTRALU?
-81. ¿Cómo se puede acceder a la información sobre el avance curricular en INTRALU?
-82. ¿Cuáles son los detalles que incluye la ficha académica de un alumno en INTRALU?
-83. ¿Qué gestiones sobre el carnet universitario puede hacer un estudiante en INTRALU?
-84. ¿Cuáles son los trámites que un alumno puede realizar en INTRALU respecto a su carnet universitario?
-85. ¿Qué procedimientos relacionados con el carnet universitario están disponibles para los estudiantes en INTRALU?
-86. ¿Qué debe hacer un estudiante si necesita generar una orden de pago para el autoseguro estudiantil en INTRALU?
-87. ¿Cómo puede un estudiante crear una orden de pago para el autoseguro en INTRALU?
-88. ¿Qué procedimiento sigue un alumno para obtener una orden de pago para el autoseguro estudiantil en INTRALU?
-89. ¿Dónde puedo encontrar el enlace directo para acceder a INTRALU?
-90. ¿Qué link necesito para ingresar a INTRALU como estudiante?
-91. ¿Dónde puede un estudiante encontrar más detalles sobre el proceso de pagos en INTRALU?
-92. ¿Dónde puedo encontrar información adicional sobre los pagos en INTRALU?
-93. ¿Qué recursos están disponibles para que un estudiante obtenga más detalles sobre el proceso de pagos en INTRALU?
-94. ¿Dónde se puede consultar más información sobre cómo realizar pagos en INTRALU?
-95. ¿Qué lugar me recomienda para obtener más detalles sobre el proceso de pagos en INTRALU?
-96. ¿Podrías indicarme el link para acceder a la plataforma INTRALU?
-97. ¿Qué URL necesita un estudiante para acceder directamente a INTRALU?
-98. ¿Qué datos de acceso son necesarios para que un estudiante inicie sesión en INTRALU?
-99. ¿Cuáles son las credenciales que debo tener para acceder a INTRALU?
-100. ¿Qué usuario y contraseña tengo que usar para entrar a INTRALU?
-101. ¿Qué información sobre mi rendimiento académico puedo encontrar en INTRALU?
-102. En INTRALU, ¿qué cosas puedo consultar sobre mi situación académica?
-103. ¿Cuáles son las diferentes formas en que un estudiante puede autenticarse para ingresar a INTRALU?
-104. ¿Qué métodos de acceso están disponibles para que un estudiante entre a INTRALU?
-105. ¿Qué opciones de login tiene un estudiante para acceder a la plataforma INTRALU?
-106. Oye, ¿cómo puedo entrar a INTRALU? ¿Qué opciones de autenticación hay?
-107. ¿Qué tipos de trámites de certificados puedo realizar en INTRALU?
-108. ¿Qué trámites puedo hacer en INTRALU en relación a mis certificados académicos?
-109. En INTRALU, ¿qué puedo gestionar respecto a mis certificados?
-110. ¿Qué pagos están permitidos para los estudiantes en la plataforma INTRALU?
-111. ¿Qué tipos de transacciones financieras puedo hacer en INTRALU?
-112. Oye, ¿qué cosas puedo pagar en INTRALU?
-113. ¿Qué documentos están disponibles para que un estudiante revise su progreso académico en INTRALU?
-114. ¿Qué papeles puedo ver en INTRALU para saber cómo voy en mis estudios?
-115. En INTRALU, ¿qué documentos me ayudan a conocer mi avance curricular?
-116. ¿Qué debe hacer un estudiante si no recuerda su clave de acceso proporcionada por DIRCE?
-117. ¿Qué pasos debe seguir un estudiante si olvida su contraseña de DIRCE?
-118. ¿Qué hacer si no recuerdo la clave de acceso que me dio DIRCE?
-119. Si un estudiante no recuerda su clave de DIRCE, ¿qué debe hacer?
-120. Oye, ¿qué puedo hacer si perdí la contraseña que me dio DIRCE?
-121. ¿Qué funcionalidades ofrece INTRALU para gestionar solicitudes de constancias académicas?
-122. ¿Qué herramientas tiene INTRALU para que los estudiantes gestionen sus solicitudes de constancias académicas?
-123. ¿Qué funcionalidades puedo usar en INTRALU para manejar mis solicitudes de constancias?
-124. En INTRALU, ¿qué puedo hacer para gestionar mis constancias académicas?
-125. ¿Qué información contiene mi ficha académica en INTRALU?
-126. Oye, ¿qué incluye la ficha académica que tengo en INTRALU?
-127. ¿Qué pasos debe seguir un estudiante para generar una orden de pago en INTRALU?
-128. ¿Cuáles son los pasos que debo seguir para crear una orden de pago en INTRALU?
-129. ¿Cómo puedo hacer una orden de pago en INTRALU? ¿Qué pasos debo seguir?
-130. Oye, ¿qué tengo que hacer para generar una orden de pago en INTRALU?
-131. ¿En qué lugar puedo encontrar el manual de pagos para los trámites en INTRALU?
-132. ¿Dónde está disponible el manual de pagos para que un estudiante lo consulte en INTRALU?
+1. ¿Cuál es el procedimiento para que un estudiante de pregrado de la UNI ingrese al Módulo de Matrícula y se inscriba en sus cursos?
+2. ¿Me podrías explicar cómo un alumno de la UNI puede acceder al Módulo de Matrícula para inscribir sus cursos en la matrícula regular?
+3. ¿Cómo accedo al Módulo de Matrícula para inscribir mis cursos como estudiante de pregrado en la UNI?
+4. Un amigo me preguntó cómo puede un estudiante de la UNI acceder al Módulo de Matrícula para inscribirse en los cursos. ¿Sabes cómo se hace?
+5. ¿Qué pasos debe seguir un estudiante de pregrado de la UNI para entrar al Módulo de Matrícula y realizar la inscripción de cursos?
+6. ¿Qué pasos debe seguir un estudiante de la UNI para acceder al Módulo de Matrícula durante el proceso de matrícula regular?
+7. ¿Cuáles son los pasos que debo seguir para entrar al Módulo de Matrícula en la UNI durante la matrícula regular?
+8. ¿Qué información puede consultar un estudiante en el Módulo de Matrícula de la UNI?
+9. ¿Cómo puede un estudiante saber cuáles son los cursos habilitados según su plan de estudios en el Módulo de Matrícula?
+10. ¿Cómo puede un alumno saber qué cursos puede inscribir de acuerdo a su plan de estudios en el Módulo de Matrícula?
+11. ¿Qué pasos debe seguir un estudiante para identificar los cursos habilitados en su plan de estudios en el Módulo de Matrícula?
+12. ¿Cómo se puede consultar la lista de cursos habilitados para un estudiante en el Módulo de Matrícula según su plan de estudios?
+13. ¿Qué debe hacer un estudiante para confirmar su matrícula en el sistema después de seleccionar los cursos y horarios deseados?
+14. ¿Cómo puede un alumno asegurarse de que su matrícula esté confirmada en el sistema después de seleccionar los cursos?
+15. ¿Qué datos sobre los cursos están disponibles en el Módulo de Matrícula de la UNI?
+16. ¿Qué datos específicos de los cursos están accesibles en el Módulo de Matrícula para los estudiantes?
+17. ¿Qué tipo de información sobre los cursos está disponible en el Módulo de Matrícula?
+18. ¿Qué detalles acerca de los cursos pueden consultar los estudiantes en el Módulo de Matrícula de la UNI?
+19. ¿Qué sucede si un estudiante intenta inscribirse en más créditos de los permitidos durante su turno de matrícula?
+20. ¿Qué ocurre si un estudiante excede el límite de créditos permitidos al inscribirse en su turno de matrícula?
+21. ¿Cómo puede un estudiante conocer los turnos de matrícula asignados por su facultad en el Módulo de Matrícula?
+22. ¿De qué manera puede un estudiante averiguar cuáles son los turnos de matrícula que le han asignado en su facultad?
+23. ¿Qué pasos debe seguir un estudiante para conocer los turnos de matrícula que le han sido asignados por su facultad?
+24. ¿Qué información relacionada con los docentes y horarios está accesible en el Módulo de Matrícula?
+25. ¿Qué detalles sobre los profesores y sus horarios están disponibles para los estudiantes en el Módulo de Matrícula?
+26. ¿Qué pasos debe seguir un estudiante para inscribirse en los cursos de su elección durante su turno de matrícula?
+27. ¿Cuáles son los pasos que debo seguir para inscribirme en los cursos que elijo durante mi turno de matrícula?
+28. ¿Cómo puede un alumno inscribirse en los cursos de su elección en el Módulo de Matrícula durante su turno?
+29. ¿Qué acciones necesita realizar un estudiante para completar la inscripción en los cursos que ha elegido durante su turno de matrícula?
+30. ¿Qué debe hacer un estudiante si no encuentra vacantes disponibles en un curso habilitado en el Módulo de Matrícula?
+31. ¿Qué puede hacer un alumno si no encuentra cupos disponibles en un curso habilitado durante la matrícula?
+32. ¿Qué función cumple el Módulo de Matrícula en el proceso de inscripción de cursos en la UNI?
+33. ¿Qué rol desempeña el Módulo de Matrícula en la inscripción de cursos para los estudiantes de la UNI?
+34. ¿Qué restricciones existen en el Módulo de Matrícula respecto al número de créditos que un estudiante puede inscribir?
+35. ¿Cuáles son las restricciones en el Módulo de Matrícula en cuanto al número de créditos que se pueden inscribir?
+36. ¿Qué restricciones debe tener en cuenta un estudiante respecto a los créditos que puede inscribir en el Módulo de Matrícula?
+37. ¿Qué pasos debe seguir un estudiante para acceder al Módulo de Matrícula en la plataforma Intranet-Alumnos?
+38. ¿Cómo se hace para que un estudiante ingrese al Módulo de Matrícula en la Intranet-Alumnos?
+39. ¿Qué datos tiene disponibles un estudiante en el Módulo de Matrícula durante la inscripción?
+40. ¿De qué manera puedo averiguar los turnos de matrícula que me ha asignado mi facultad?
+41. ¿Cómo puede un alumno saber cuáles son los turnos de matrícula que le corresponden?
+42. ¿Dónde puede un estudiante encontrar información sobre los turnos de matrícula asignados por su facultad?
+43. ¿Cuáles son los datos que un estudiante puede consultar acerca de los cursos habilitados en el Módulo de Matrícula?
+44. ¿Qué pasos tengo que seguir para confirmar mi matrícula en el sistema después de elegir mis asignaturas?
+45. ¿Qué debe hacer un estudiante para que su matrícula quede confirmada en el sistema tras elegir las asignaturas?
+46. ¿Qué restricciones existen en cuanto al número de créditos que un estudiante puede inscribir durante su turno de matrícula?
+47. ¿Cuántos créditos puede inscribir un estudiante durante su turno de matrícula?
+48. ¿Qué limitaciones hay sobre el número de créditos que un alumno puede inscribir en su turno de matrícula?
+49. ¿Qué restricciones deben tener en cuenta los estudiantes respecto al número de créditos que pueden inscribir en su turno?
+50. ¿Cuáles son las reglas sobre la cantidad de créditos que un estudiante puede inscribir en su turno de matrícula?
+51. ¿Qué datos puedo encontrar sobre los docentes y sus horarios en el Módulo de Matrícula?
+52. ¿Qué pasaría si intento inscribir un curso que excede los créditos permitidos en mi turno de matrícula?
+53. ¿Qué consecuencias tiene un estudiante si intenta inscribir un curso fuera del límite de créditos durante su turno de matrícula?
+54. ¿Qué ocurre si un alumno intenta registrar un curso que no cumple con los créditos permitidos en su turno de matrícula?
+55. ¿Qué sucede si un estudiante se inscribe en un curso que supera el número de créditos permitidos en su turno de matrícula?
+56. ¿Cómo puede un estudiante verificar las vacantes disponibles en los cursos habilitados?
+57. ¿Qué pasos debo seguir para comprobar las vacantes en los cursos habilitados?
+58. ¿Qué procedimiento debe seguir un estudiante para ver las vacantes en los cursos habilitados?
+59. ¿Dónde puede un estudiante encontrar información sobre las vacantes disponibles en los cursos habilitados?
+60. ¿Cuáles son los pasos que tengo que seguir para elegir mis horarios en el Módulo de Matrícula?
+61. ¿Cómo puede un estudiante seleccionar los horarios que desea en el Módulo de Matrícula?
+62. ¿Qué procedimiento debe seguir un alumno para escoger sus horarios en el Módulo de Matrícula?
+63. ¿Qué debo hacer para seleccionar los horarios que quiero en el Módulo de Matrícula?
+64. ¿Qué plataforma deben utilizar los estudiantes para acceder al Módulo de Matrícula y realizar su inscripción?
+65. ¿Dónde pueden los estudiantes acceder al Módulo de Matrícula para inscribirse?
+66. ¿Qué sucede si un estudiante no realiza su inscripción durante el turno asignado en el Módulo de Matrícula?
+67. ¿Qué pasa si no me inscribo durante el turno que me asignaron en el Módulo de Matrícula?
+68. ¿Qué sucede si un estudiante no se inscribe en el Módulo de Matrícula durante su turno asignado?
+69. ¿Qué procedimiento debe seguir un alumno para acceder al Módulo de Matrícula en la UNI durante la matrícula regular?
+70. ¿Cómo hace un estudiante de la UNI para ingresar al Módulo de Matrícula cuando llega el momento de la matrícula regular?
+71. ¿Qué tipo de información puedo encontrar en el Módulo de Matrícula en la Intranet-Alumnos?
+72. ¿Qué cosas puede revisar un alumno en el Módulo de Matrícula en la Intranet-Alumnos?
+73. ¿De qué manera puede un estudiante averiguar los turnos de matrícula que le corresponden en su facultad a través del Módulo de Matrícula?
+74. ¿Dónde puede un estudiante encontrar la información sobre los turnos de matrícula que le corresponden en el Módulo de Matrícula?
+75. ¿Qué restricciones relacionadas con el número de créditos deben considerar los estudiantes al inscribirse en los cursos?
+76. ¿Cuáles son las restricciones que un alumno debe considerar en cuanto a los créditos al momento de inscribirse en los cursos?
+77. ¿Qué reglas sobre el número de créditos deben seguir los estudiantes al momento de elegir sus cursos?
+78. ¿Qué horarios y docentes puedo encontrar en el Módulo de Matrícula?
+79. ¿Cuáles son las opciones de horarios y profesores que están disponibles para los estudiantes en el Módulo de Matrícula?
+80. ¿Dónde puedo ver las opciones de horarios y docentes que hay en el Módulo de Matrícula?
+81. ¿Qué consecuencias hay si un estudiante intenta inscribirse en un curso fuera de su turno de matrícula?
+82. ¿Qué pasa si un alumno se inscribe en un curso que no corresponde a su turno de matrícula?
+83. ¿Qué ocurre si un estudiante intenta matricularse en un curso en un turno que no le corresponde?
+84. ¿Qué sucede si un estudiante se registra en un curso fuera de su horario asignado para matrícula?
+85. ¿Cómo se asegura un estudiante de que hay vacantes en los cursos habilitados que le interesan?
+86. ¿Cuál es la plataforma que usa la UNI para que los estudiantes accedan al Módulo de Matrícula?
+87. ¿Qué sistema utiliza la UNI para que los alumnos puedan inscribirse en el Módulo de Matrícula?
+88. ¿Qué información debe confirmar un estudiante antes de finalizar su inscripción en el Módulo de Matrícula?
