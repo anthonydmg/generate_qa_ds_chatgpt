@@ -22,13 +22,13 @@ Art.  53°  Los  ingresantes  a  la  UNI  por  traslado  interno  o  externo,  g
 
 
 Detalle del procedimiento de Traslado Interno: 
-
-    1. El interesado presentará su solicitud a través del intranet alumnos / tramites; hasta la fecha que indica el calendario académico. Adjuntando lo siguiente: 
+    1. Realizar el pago correspondiente por concepto de primer o segundo traslado interno, según sea el caso (S/ 125.20 o S/ 300.00). Para ello, el estudiante deberá generar una orden de pago a través de la plataforma INTRALU y efectuar el pago en una agencia del BCP o mediante el aplicativo móvil del banco.
+    2. El interesado presentará su solicitud a través del intranet alumnos / tramites; hasta la fecha que indica el calendario académico. Adjuntando lo siguiente: 
         − Comprobante de pago por el concepto de Traslado Interno. 
         − Ficha Académica 
-    2. La Escuela, dentro del 1er día útil de presentada verificará documentos y requisitos propios, registrará el expediente y remitirá correo de recepción al interesado. Luego, si fuere necesario, solicitará a otras Escuelas Profesionales de la UNI la remisión de sílabos pertinentes, si el director lo solicita y atenderá similares solicitudes de otras Escuelas  
-    3. El director de Escuela o la Comisión de Matrícula analizará las solicitudes y haciendo uso del formato disponible en la web DIRCE, inscribirá las convalidaciones pertinentes, según el Avance Curricular del alumno, las notas y las normas de Convalidación. Si quedan notas no registradas, serán motivo de convalidación posterior a la matrícula.  
-    4. Con  la  autorización  del  director,  el  expediente  es  enviado  al  Decano  y  posteriormente presentarlo ante el Consejo de Facultad para su aprobación (mediante Resolución Decanal) y remisión a la DIRCE.  
-    5. La DIRCE ejecutará el cambio de especialidad y/o facultad y las convalidaciones.   
-    6. Registradas las convalidaciones, la Oficina de Estadística gestiona la matrícula de los sestudiantes por traslado interno en función a la solicitud de matrícula del director de la Escuela Profesional, finalmente la DIRCE realiza la ejecución de la matrícula en el sistema SIGA. 
-    7. No se recibirán solicitudes extemporáneas  
+    3. La Escuela, dentro del 1er día útil de presentada verificará documentos y requisitos propios, registrará el expediente y remitirá correo de recepción al interesado. Luego, si fuere necesario, solicitará a otras Escuelas Profesionales de la UNI la remisión de sílabos pertinentes, si el director lo solicita y atenderá similares solicitudes de otras Escuelas  
+    4. El director de Escuela o la Comisión de Matrícula analizará las solicitudes y haciendo uso del formato disponible en la web DIRCE, inscribirá las convalidaciones pertinentes, según el Avance Curricular del alumno, las notas y las normas de Convalidación. Si quedan notas no registradas, serán motivo de convalidación posterior a la matrícula.  
+    5. Con  la  autorización  del  director,  el  expediente  es  enviado  al  Decano  y  posteriormente presentarlo ante el Consejo de Facultad para su aprobación (mediante Resolución Decanal) y remisión a la DIRCE.  
+    6. La DIRCE ejecutará el cambio de especialidad y/o facultad y las convalidaciones.   
+    7. Registradas las convalidaciones, la Oficina de Estadística gestiona la matrícula de los sestudiantes por traslado interno en función a la solicitud de matrícula del director de la Escuela Profesional, finalmente la DIRCE realiza la ejecución de la matrícula en el sistema SIGA. 
+    8. No se recibirán solicitudes extemporáneas 
