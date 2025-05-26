@@ -1,13 +1,15 @@
 import tiktoken
 
-from utils import load_json
+from utils import load_json, save_json
 import openai
 import os
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 import numpy as np
+import faiss
 
 from dotenv import load_dotenv
+
 def set_openai_key():
     API_KEY = os.getenv("API_KEY")
     openai.api_key = API_KEY
@@ -218,9 +220,9 @@ def create_embeddings_from_hugginface(inputs, model_hf = EMBEDDING_MODEL_HF):
     #embeddings = embeddings.numpy()
     #print(type(embeddings))
     print("embeddings shape:", embeddings.shape)
-    embeddings_list = [np.array2string(embeddings[i], separator=",") for i in range(embeddings.shape[0])]
-    #print(embeddings_list)
-    return embeddings_list
+    embeddings_str = [np.array2string(embeddings[i], separator=",") for i in range(embeddings.shape[0])]
+    #print(embeddings_str)
+    return embeddings_str, embeddings
 
 def create_embeddings_from_openai(inputs, model_name = EMBEDDING_MODEL_OPENAI):
     response = openai.embeddings.create(model=model_name, input= inputs)
@@ -248,20 +250,44 @@ for i in range(len(subsections)):
 
 EMBEDDING_MODEL = "text-embedding-3-small"
 BATCH_SIZE = 10
-embeddings = []
-print("\nNumero de secciones encontradas:", len(text_subsections))
 
+
+weighted_source = {
+            "faq": 1, "topic-specific-document": 0.85, "regulation": 0.75, "general_information": 1.0}
+
+print("\nNumero de secciones encontradas:", len(text_subsections))
+embeddings_str = []
+embeddings = []
 model_hf = SentenceTransformer(EMBEDDING_MODEL_HF, trust_remote_code=True)
 
 for batch_start in range(0, len(text_subsections), BATCH_SIZE):
     batch_end = min(batch_start + BATCH_SIZE, len(text_subsections))
     batch = text_subsections[batch_start:batch_end]
     print(f"Batch {batch_start} to {batch_end-1}")
-    batch_embeddings = create_embeddings_from_hugginface(inputs=batch, model_hf = model_hf)
+    batch_embeddings_str, batch_embeddings = create_embeddings_from_hugginface(inputs=batch, model_hf = model_hf)
+    embeddings_str.extend(batch_embeddings_str)
     embeddings.extend(batch_embeddings)
 
-df = pd.DataFrame({"type_source": type_sources ,"topic": general_topics_subsections, "text": text_subsections, "embedding": embeddings})
+df = pd.DataFrame({"type_source": type_sources ,"topic": general_topics_subsections, "text": text_subsections, "embedding": embeddings_str})
 
+embeddings = np.array(embeddings).astype(np.float32)
+print("embeddings.shape:",embeddings.shape)
+# normalización (para similitud coseno)
+embeddings = embeddings / np.linalg.norm(embeddings, axis=1, keepdims=True)
+print("embeddings.shape:",embeddings.shape)
+
+importance = [weighted_source[ts] for ts in type_sources ]
+## Guardar embeddings
+np.save("./kb/embeddings.npy", embeddings)
+np.save("./kb/importance.npy", importance)
+
+save_json("./kb","texts", text_subsections)
+
+index = faiss.IndexFlatIP(768)
+index.add(embeddings)
+faiss.write_index(index, "./kb/faiss_index.index")
+
+print("Cantidad de Textos:", len(df))
 print(df.head(15))
 SAVE_PATH = "./kb/topics.csv"
 

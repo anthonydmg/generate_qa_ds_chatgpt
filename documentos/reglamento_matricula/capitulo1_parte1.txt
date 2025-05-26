@@ -45,3 +45,9 @@ modalidades.
                 * Cantidad de alumnos hábiles que han desaprobado las asignaturas. 
             - Cada OERA, con la información enviada por ORCE elaborará el listado con el número potencial de estudiantes que pueden matricularse en cada asignatura del siguiente periodo académico, con la finalidad de proyectar el número de vacantes y el número de asignaturas-sección. Tras el cierre total de notas, elevará dicho listado a la Comisión de Matrícula. 
             - Las Comisiones de matrícula en cada facultad podrán realizar, si lo consideran conveniente, una prematricula con la finalidad de analizar la demanda de estudiantes para cada asignatura-sección. Estas prematriculas podrán ser gestionadas en conjunto con la ORCE o  a través de plataformas propias de la facultad y contar con la aprobación del Consejo de Facultad.
+
+
+------------------------------------------------------------------ RR 3084-2024 ----------------------------------------------------------------
+Art. 6°-A La constancia de aprobación y registro de plan de tesis es el procedimiento a través del cual el estudiante que tiene su tema de tesis aprobado y vigente por el asesor de la escuela profesional, solicita una constancia para los fines que estime pertinente. Implica el cumplimiento de la Ley Universitaria, el Estatuto, las normas de la UNI y el presente reglamento. En el caso de la constancia de aprobación y registro de plan de tesis se deben cumplir los siguientes requisitos:
+    1. Solicitud dirigida al decano.
+    2. Pago por derecho de tramitación.

@@ -62,7 +62,7 @@ Respuesta: Para solicitar una constancia de notas (constancia de estudios simple
 
 1. Enviar un correo a estadistica_fc@uni.edu.pe solicitando una orden de pago para la CONSTANCIA DE NOTAS. En el mensaje, deberá incluir sus datos personales: número de DNI, apellidos, nombres, correo institucional y/o alternativo.
 
-2. La oficina de estadística (AERA) le enviará la orden de pago por el monto de S/. 100.00 (dato correspondiente al año 2024) al correo del estudiante.
+2. La oficina de estadística (AERA) le enviará la orden de pago por el monto de S/. 100.00 (dato correspondiente al año 2025) al correo del estudiante.
 
 3. Realize el pago en alguna sucursal del BCP o a través aplicación movil del banco. En la app selecciona "Pagar servicios", elige la Universidad Nacional de Ingeniería, luego la opción de pago para estudiantes, e ingresa su número de DNI. La app mostrará la orden de pago con el monto exacto para realizar el pago.
 
@@ -128,10 +128,11 @@ Pregunta: ¿Qué debe hacer un estudiante si desea realizar un cambio de secció
 Respuesta: Los cambios de sección/horario son gestionados directamente por la oficina de estadística (AERA). Es importante tener en cuenta que solo se atenderán solicitudes en caso de que el estudiante tenga conflictos de horario entre los cursos en los que está matriculado. Además, cualquier cambio de sección/horario estará sujeto a la disponibilidad de plazas.
 Los estudiantes que deseen realizar modificaciones en la sección/horario de un curso matriculado debido a conflictos de horario deben comunicarse directamente con la oficina de AERA. Allí recibirán información detallada sobre el proceso a seguir. También, se le recomienda revisar en la [pagina web de la facultad de ciencias](https://fc.uni.edu.pe) avisos o formularios referentes al tema.
 
-Tema: Procedimiento para el Retiro Total
+Tema: Concepto y Procedimiento para el Retiro Total
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para solicitar el Retiro Total?
-Respuesta: Los estudiantes que deseen retirarse deben enviar su solicitud a través de la Plataforma intranet-alumnos hasta una semana antes de los exámenes parciales. Consultar fechas en el calendario académico. A continuación, se detallan los pasos a seguir para enviar su solicitud a través de la Plataforma:
-1. El alumno accederá a la plataforma INTRALU, utilizando su código UNI y la clave correspondiente.
+Respuesta: 
+El estudiante podrá solicitar la anulación total de su matrícula en el ciclo académico en curso —denominada retiro total— a través de la Plataforma INTRALU, hasta una semana antes del inicio de los exámenes parciales. Se recomienda consultar las fechas específicas en el calendario académico.
+A continuación, se detallan los pasos que debe seguir para enviar su solicitud mediante la plataforma:1. El alumno accederá a la plataforma INTRALU, utilizando su código UNI y la clave correspondiente.
 2. Dentro de la plataforma, seleccionará la opción "Trámites" en el menú de navegación ubicado en la parte izquierda de la pantalla. Al hacer clic en dicho menú, accedera al modulo de tramites y pagos. En dicho módulo, selecciona "Retiro Total" en el menú desplegable, haz clic en el botón "Nuevo".
 3. A continuación, deberá leer la descripción del trámite y hacer clic en "Siguiente" para continuar..
 4. Luego, se desplegará un formulario que deberá completar para solicitar el retiro total, proporcionando la siguiente información:
@@ -172,15 +173,15 @@ El tramite de la reserva de matricula no tiene ningún pago asociado.
 
 Tema: Plazo Para Solicitar la Reserva de Matricula
 Pregunta: ¿Cuál plazo para que un estudiante puede solicitar su reserva de matricula?
-Respuesta: El estudiante o apoderado podrá presentar la solicitud de reserva de matrícula a través de la plataforma SIGA-DIRCE (intranet-alumnos) antes de la semana oficial de matrícula, hasta el plazo máximo establecido en el calendario de actividades académicas, publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la página de la Facultad de Ciencias](https://fc.uni.edu.pe/estadistica/documentos/). En caso de que no se presente esta solicitud y el estudiante no haya concretado su matrícula en el período académico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
+Respuesta: El estudiante o apoderado podrá presentar la solicitud de reserva de matrícula a través de la plataforma INTRALU antes de la semana oficial de matrícula, hasta el plazo máximo establecido en el calendario de actividades académicas, publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la página de la Facultad de Ciencias](https://fc.uni.edu.pe/estadistica/documentos/). En caso de que no se presente esta solicitud y el estudiante no haya concretado su matrícula en el período académico actual, DIRCE realizará, de oficio, la reserva de matrícula del estudiante.
 
 Tema: Perdida de Turno de Matricula
 Pregunta: ¿Qué debe hacer un estudiante que no pudo realizar la inscripción de sus cursos de manera virtual en la fecha y turno asignado para su matrícula regular?
 Respuesta: Si un estudiante no logró inscribirse en sus cursos a tiempo usando el Módulo de Matrícula UNI en la plataforma Intranet-Alumnos, según los plazos establecidos en el calendario académico y en su turno asignado para la matrícula regular del ciclo académico, pero aún quiere inscribirse en el ciclo, deberá gestionar su matrícula rezagada.
 
-Tema: Procedimiento de Retiro Parcial
+Tema: Concepto y Procedimiento de Retiro Parcial
 Pregunta: ¿Cuál es el procedimiento que debe seguir un estudiante para retirarse de asignaturas en las que esta mataricula?
-Respuesta: El estudiante podrá tramitar su solicitud de retiro de asignaturas, denominado Retiro Parcial, a través del portal INTRALU durante la quinta semana después del inicio de clases del período académico. Para conocer las fechas específicas, consulte el calendario de actividades académicas publicado dentro de la sección ["Matrícula y Procedimientos" de la página de la Facultad de Ciencias](https://fc.uni.edu.pe/academico/documentos/). Para solicitar el retiro parcial, el alumno debe seguir los siguientes pasos
+Respuesta: El estudiante podrá tramitar su solicitud de retiro de asignaturas de hasta tres (03) asignaturas matriculas en el ciclo actual, denominado Retiro Parcial, a través del portal INTRALU durante la quinta semana después del inicio de clases del período académico. Para conocer las fechas específicas, consulte el calendario de actividades académicas publicado dentro de la sección ["Matrícula y Procedimientos" de la página de la Facultad de Ciencias](https://fc.uni.edu.pe/academico/documentos/). Para solicitar el retiro parcial, el alumno debe seguir los siguientes pasos
 
 1. El alumno ingresará a la plataforma INTRALU y seleccionará la opción “Tramites” para abrir el modulo de tramites y pagos.
 2. A continuación, debe elegir la opción “Retiro Parcial”, hacer clic en “Nuevo” y, tras leer cuidadosamente las instrucciones, seleccionar "Siguiente". 
@@ -267,11 +268,11 @@ Respuesta: El pago del carnet universitario no es indispensable para el proceso 
 
 Tema: Estado de Tramites
 Pregunta: ¿Cómo un estudiante de la UNI puede ver el estado de sus tramites?
-Respuesta: El estado de las solicitudes presentadas a través en el modulo de Tramites dentro del Portal INTRALU o de la Plataforma Intranet-Alumnos, puede ser visualizadas en la misma plataforma. Para otros tramites puede usar el número de expediente correspondiente para realizar el seguimiento, ingresando a https://stduni.uni.edu.pe/modalum/
+Respuesta: El estado de las solicitudes presentadas a través en el modulo de Tramites dentro de la Plataforma INTRALU o de la Plataforma Intranet-Alumnos, puede ser visualizadas en la misma plataforma. Para otros tramites puede usar el número de expediente correspondiente para realizar el seguimiento, ingresando a https://stduni.uni.edu.pe/modalum/
 
 Tema: Fechas de Matricula
 Pregunta: ¿Dónde puede un estudiante de pregrado de la Facultad de Ciencias consultar la fecha y turno correspondiente para la matrícula para el ciclo académico?
-Respuesta: Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades, el cual se publica dentro de la sección "Matrícula y Procedimientos" página web de la Facultad de Ciencias, puede ingresar a dicha sección de la pagina en siguiente enlace: https://fc.uni.edu.pe/estadistica/documentos/.
+Respuesta: Las fechas de matrícula para cada ciclo académico se encuentran disponibles en el calendario de actividades academicas, el cual se publica dentro de la sección "Matrícula y Procedimientos" página web de la Facultad de Ciencias, puede ingresar a dicha sección de la pagina en siguiente enlace: https://fc.uni.edu.pe/estadistica/documentos/.
 Los horarios de matrícula, conocidos como turnos, son asignados de acuerdo al promedio ponderado de los últimos dos ciclos, en un orden de mérito. Aquellos estudiantes con los promedios más altos recibirán prioridad en los primeros turnos, seguidos por los demás en sucesión. La lista de este orden de mérito, junto con los respectivos turnos de matrícula, se publica dentro de la sección "Matrícula y Procedimientos" de la página web de la facultad de ciencias para garantizar que todos los alumnos estén informados. Además, cada alumno puede verificar su turno correspondiente en modulo de Matrícula dentro de la plataforma intranet-alumnos.
 
 Tema: Máximo de Créditos a Matricularse Para un Estudiante
@@ -284,7 +285,7 @@ Para estudiantes que hayan cursado solo el primer ciclo y no cumplan con los req
 
 Es importante mencionar que para estudiantes en riesgo académico, la determinación de la cantidad de créditos a matricular no se basará en dicha Tabla, sino que será recomendada por la Oficina de Tutoría y la Comisión de Matrícula de la Facultad. Dicha cantidad de créditos a matricularse para un estudiante en riesgo academico usualmente es mas limitada poniendo mayor prioridad en la matricula de los cursos desaprobados mas de dos veces.
 
-Además, en el caso de nuevos ingresantes, solo podrán inscribirse en asignaturas del primer ciclo. Esta inscripción será efectuada directamente por la oficina de estadísticas (AERA).
+Además, en el caso de los nuevos ingresantes, únicamente podrán inscribirse en asignaturas correspondientes al primer ciclo. No es obligatorio inscribirse al máximo de créditos permitidos. Esta inscripción será efectuada directamente por la oficina de estadísticas (AERA).
 
 Tema: Procedimiento para solicitar el correo Institucional
 Pregunta: ¿Qué procedimiento debe seguir un estudiante de la UNI para solicitar su correo institucional?
@@ -300,9 +301,9 @@ Respuesta: Para solicitar su correo institucional de la UNI, enviar un correo ob
 
 Tema: Procedimiento de Matricula Rezagada
 Pregunta: ¿Qué procedimiento debe seguir un estudiante de pregrado de la facultad de ciencias de la uni para tramitar su matricula rezagada?
-Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario académico publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/estadistica/documentos/). Esta matrícula está dirigida a los alumnos ingresantes que no pudieron matricularse en las fechas establecidas en el calendario de actividades académicas, así como a los alumnos regulares que no realizaron su matrícula regular académica en el plazo correspondiente y a los estudiantes reincorporados rezagados.
-Para realizar la matricula rezagada el estudiante debera haber realizado el pago por autoseguro estudiantil y ejecutar los siguientes pasos:
-
+Respuesta: La matrícula rezagada se realiza en las fechas establecidas en el calendario de actividades académicas publicado dentro de la sección ["MATRÍCULA Y PROCEDIMIENTOS" de la Pagina de la Facultad de Ciencias](https://fc.uni.edu.pe/estadistica/documentos/). Esta matrícula está dirigida a los alumnos ingresantes que no pudieron matricularse en las fechas establecidas en el calendario de actividades académicas, así como a los alumnos regulares que no realizaron su matrícula regular académica en el plazo correspondiente y a los estudiantes reincorporados rezagados.
+Para poder efectuar la matrícula rezagada, el estudiante no debe tener adeudos pendientes con la facultad (como libros, enseres o material educativo en general) y debe haber realizado el pago por concepto de autoseguro médico estudiantil.
+Cumplidos estos requisitos, deberá seguir los siguientes pasos para completar el proceso::
 1. Previo a la matrícula rezagada, el estudiante deberá efectuar el pago de S/ 26. Para ello, debe generar la orden de pago por concepto de matricula rezagada a través del portal INTRALU y realizar el pago correspondiente en una agencia del BCP o mediante su banca móvil.
 2. La matrícula rezagada se realizará exclusivamente a través de la Oficina de Estadística (AERA) de la Facultad, en las fechas establecidas en el calendario de actividades académicas. Para ello, el estudiante deberá presentarse en dichas fechas en la Oficina de Estadística con el comprobante de pago correspondiente.
 
@@ -314,7 +315,7 @@ Pregunta: ¿Cómo un estudiante de pregrado de la UNI puede acceder a la platafo
 Respuesta: Para acceder a la plataforma de intranet-alumnos de la UNI, el estudiante debe ingresar a la [página web de la DIRCE de la UNI](https://dirce.uni.edu.pe/). En la página principal, debe seleccionar "Academico", lo que abrirá la plataforma intranet-alumnos en una nueva ventana. También puede accederse directamente a través de este enlace: https://www.academico.uni.edu.pe/alumno/inicio
 Para iniciar sesión, el estudiante debe introducir su código de alumno UNI y la clave proporcionada por la Dirección de Registros Central y Estadística (DIRCE) durante la matrícula. Alternativamente, puede usar la autenticación a través del correo institucional.
 En la plataforma de intranet-alumnos, tendrá acceso a su avance curricular segun su plan de estudios, el cual incluye los cursos aprobados correspondientes a cada ciclo según el plan de estudios, junto con los promedios obtenidos y los créditos acumulados.
-Además, la plataforma permite acceder a las fichas académicas, que contienen el detalle de los cursos cursados en cada periodo académico matriculado. Asimismo, el estudiante podrá realizar diversos trámites académicos, como el retiro parcial o total de cursos y la solicitud de reincorporación. También podrá visualizar si tiene adeudos pendientes.
+Además, la plataforma permite acceder a las fichas académicas, que contienen el detalle de los cursos cursados en cada periodo académico matriculado. Asimismo, el estudiante prodra realizar la solicitud de reincorporación por media de la plataforma.
 
 Tema: Acceso y Contenido de la plataforma INTRALU de la UNI
 Pregunta: ¿Cómo un estudiante de pregrado de la UNI puede acceder a la plataforma INTRALU de la UNI y que información o funcionalidades ofrece la plataforma?
@@ -322,7 +323,7 @@ Pregunta: ¿Cómo un estudiante de pregrado de la UNI puede acceder a la platafo
 Respuesta: Para acceder a INTRALU, el estudiante debe ingresar a la [página web de la DIRCE de la UNI](https://dirce.uni.edu.pe/) y seleccionar la opción "INTRALU", lo cual abrirá la plataforma INTRALU en una nueva pestaña. También puede acceder directamente con el siguiente enlace: https://alumnos.uni.edu.pe/login
 Para iniciar sesión, el estudiante deberá proporcionar su código de alumno UNI y la clave de acceso proporcionada por DIRCE. También puede optar por utilizar la autenticación a través del correo institucional.
 En INTRALU, el estudiante podrá consultar los cursos en los que se encuentra matriculado durante el periodo académico actual, así como revisar las calificaciones de dichos cursos y de ciclos anteriores. También tendrá acceso a su plan de estudios y podrá visualizar su avance curricular, el cual incluye los cursos aprobados correspondientes a cada ciclo según el plan de estudios, junto con los promedios obtenidos y los créditos acumulados.
-Además, la plataforma permite acceder a las fichas académicas, que contienen el detalle de los cursos cursados en cada periodo académico matriculado. Asimismo, el estudiante puede gestionar solicitudes y pagos para diversos certificados, como la constancia de estudios simple, la constancia de primera matrícula y la constancia de no adeudos, entre otros. Del mismo modo, puede generar órdenes de pago y realizar pagos para trámites como AUTOSEGURO Estudiantil, carnet universitario, matrícula rezagada y reincorporación, entre otros. (Consulte el manual de pagos en la página de la Facultad de Ciencias para más detalles del proceso de pagos)
+Además, la plataforma permite acceder a las fichas académicas, que contienen el detalle de los cursos cursados en cada periodo académico matriculado. el estudiante puede gestionar diversos trámites académicos, solicitudes y pagos, tales como: retiro parcial, retiro total, reserva de matrícula, así como la solicitud y el pago de distintos certificados (por ejemplo, constancia de estudios —simple o depurada—, constancia de primera matrícula y constancia de no adeudos, entre otros). Del mismo modo, se pueden generar órdenes de pago y realizar pagos por diferentes conceptos como el AUTOSEGURO estudiantil, el carné universitario, la matrícula rezagada y la reincorporación, entre otros. Para más detalles sobre el proceso de pagos, se recomienda consultar el manual disponible en la página web de la Facultad de Ciencias.
 
 Tema: Acceso al Modulo de Matricula UNI
 Pregunta: ¿Cómo puede un estudiante de pregrado de la UNI acceder al Módulo de Matrícula para la inscripción de cursos en la matrícula regular?

@@ -257,7 +257,7 @@ def gen_reformulated_questions(questions, num_questions = 4):
         start = n_batch*12
         end = min((n_batch + 1)*12, len(questions))
         b_preguntas_prompt_1 = questions[start: end]
-        #print("b_preguntas_prompt_1:", len(b_preguntas_prompt_1))
+        print("b_preguntas_to_reformulated:\n", b_preguntas_prompt_1)
         prompt_gen_reformulated_question = get_prompt_gen_questions_reformulated(questions=b_preguntas_prompt_1, num_questions = num_questions)
 
         messages =  [{'role':'user', 'content': prompt_gen_reformulated_question}]
@@ -269,7 +269,7 @@ def gen_reformulated_questions(questions, num_questions = 4):
                             #model="gpt-3.5-turbo-0613",
                             temperature=0.2)
 
-        print("response reformulated_question-1:",response)
+        print("response reformulated_question-1:", response)
         
         b_preguntas_originals, b_reformulated_questions = extract_reformulated_questions(response)
         preguntas_originals.extend(b_preguntas_originals)
@@ -321,21 +321,20 @@ faqs = extract_faqs(text)
 print("faqs:", len(faqs))
 
 def generate_derived_questions(faqs, times_samples = 1):
-    ids = list(range(len(faqs)))
+    num_faqs = len(faqs) 
+    ids = list(range(num_faqs))
 
     all_derived_faqs = []
 
     for iter in range(times_samples):
         print(f"\n_____________iter-{iter}____________\n")
         choices = random.sample(ids, k = len(ids))
-        index_43 = choices.index(42)
-        grupos = [[42, choices[0]]]
         
-        #num_grupos = len(choices) // 3
-        #grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
-        #sobran = len(choices) % 3
-        #if sobran > 0:
-        #    grupos = grupos + [choices[-3:]]
+        num_grupos = num_faqs // 3
+        grupos = [choices[i * 3:(i+1)*3] for i in range(num_grupos)]
+        sobran = num_faqs % 3
+        if sobran > 0:
+            grupos = grupos + [choices[-sobran:]]
         #print("grupos:",grupos)
 
         #if iter  <= 1:
@@ -349,8 +348,7 @@ def generate_derived_questions(faqs, times_samples = 1):
             time.sleep(4)
             for id_faq , o_faq, new_derived_faq in zip(group_ids, group_faqs, derived_preguntas):
                 print(len(new_derived_faq))
-                if id_faq != 42:
-                    continue
+             
                 derived_faqs.append({
                     "id_faq": id_faq,
                     "original_question":  o_faq["question"],
@@ -367,12 +365,12 @@ def generate_derived_questions(faqs, times_samples = 1):
             original_question = adds_faq["original_question"]
             text_derived_faqs += "\nPreguntas original: "+ original_question + "\nNuevas Preguntas:\n" + list_json_to_txt(derived_questions)
         os.makedirs("./faq/derived_faqs/", exist_ok=True)
-        file = open(f"./faq/derived_faqs/text_derived_faqs_iter{iter + 1}.txt", "a")
+        file = open(f"./faq/derived_faqs/text_derived_faqs_iter{iter + 1}.txt", "w")
         file.writelines(text_derived_faqs)
         file.close()
-        all_derived_faqs_prev = load_json("./faq/derived_faqs/all_derived_faqs.json")
-        all_derived_faqs_prev.extend(all_derived_faqs)
-        save_json("./faq/derived_faqs", "all_derived_faqs", all_derived_faqs_prev)
+        #all_derived_faqs_prev = load_json("./faq/derived_faqs/all_derived_faqs.json")
+        #all_derived_faqs_prev.extend(all_derived_faqs)
+        save_json("./faq/derived_faqs", "all_derived_faqs", all_derived_faqs)
         time.sleep(10)
 
     all_derived_faqs = load_json("./faq/derived_faqs/all_derived_faqs.json")
@@ -386,14 +384,15 @@ def generate_derived_questions(faqs, times_samples = 1):
 
 def questions_generation_based_faqs(faqs):
     fqs = [faq["question"] for faq in faqs]
-    originals_questions, reformulated_questions = gen_reformulated_questions([fqs[-1]], num_questions=5)
-    print("originals_questions:", originals_questions)
-    print("reformulated_questions:", reformulated_questions)
-    reformulated_faqs = load_json("./faq/reformulated_faqs/reformulated_faqs.json")
-    prev_num = len(reformulated_faqs)
-    for id_q in range(len([fqs[-1]])):
+    originals_questions, reformulated_questions = gen_reformulated_questions(fqs, num_questions=5)
+    print("originals_questions:", len(originals_questions))
+    print("reformulated_questions:", len(reformulated_questions))
+    reformulated_faqs = []
+    #reformulated_faqs = load_json("./faq/reformulated_faqs/reformulated_faqs.json")
+    #prev_num = len(reformulated_faqs)
+    for id_q in range(len(fqs)):
         reformulated_faqs.append({
-                        "id_faq": id_q + prev_num,
+                        "id_faq": id_q,
                         "original_question": originals_questions[id_q],
                         "reformulated_questions": reformulated_questions[id_q]
                     })
