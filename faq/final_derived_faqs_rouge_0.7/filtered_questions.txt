@@ -1,88 +1,83 @@
-1. ¿Cuál es el procedimiento para que un estudiante de pregrado de la UNI ingrese al Módulo de Matrícula y se inscriba en sus cursos?
-2. ¿Me podrías explicar cómo un alumno de la UNI puede acceder al Módulo de Matrícula para inscribir sus cursos en la matrícula regular?
-3. ¿Cómo accedo al Módulo de Matrícula para inscribir mis cursos como estudiante de pregrado en la UNI?
-4. Un amigo me preguntó cómo puede un estudiante de la UNI acceder al Módulo de Matrícula para inscribirse en los cursos. ¿Sabes cómo se hace?
-5. ¿Qué pasos debe seguir un estudiante de pregrado de la UNI para entrar al Módulo de Matrícula y realizar la inscripción de cursos?
-6. ¿Qué pasos debe seguir un estudiante de la UNI para acceder al Módulo de Matrícula durante el proceso de matrícula regular?
-7. ¿Cuáles son los pasos que debo seguir para entrar al Módulo de Matrícula en la UNI durante la matrícula regular?
-8. ¿Qué información puede consultar un estudiante en el Módulo de Matrícula de la UNI?
-9. ¿Cómo puede un estudiante saber cuáles son los cursos habilitados según su plan de estudios en el Módulo de Matrícula?
-10. ¿Cómo puede un alumno saber qué cursos puede inscribir de acuerdo a su plan de estudios en el Módulo de Matrícula?
-11. ¿Qué pasos debe seguir un estudiante para identificar los cursos habilitados en su plan de estudios en el Módulo de Matrícula?
-12. ¿Cómo se puede consultar la lista de cursos habilitados para un estudiante en el Módulo de Matrícula según su plan de estudios?
-13. ¿Qué debe hacer un estudiante para confirmar su matrícula en el sistema después de seleccionar los cursos y horarios deseados?
-14. ¿Cómo puede un alumno asegurarse de que su matrícula esté confirmada en el sistema después de seleccionar los cursos?
-15. ¿Qué datos sobre los cursos están disponibles en el Módulo de Matrícula de la UNI?
-16. ¿Qué datos específicos de los cursos están accesibles en el Módulo de Matrícula para los estudiantes?
-17. ¿Qué tipo de información sobre los cursos está disponible en el Módulo de Matrícula?
-18. ¿Qué detalles acerca de los cursos pueden consultar los estudiantes en el Módulo de Matrícula de la UNI?
-19. ¿Qué sucede si un estudiante intenta inscribirse en más créditos de los permitidos durante su turno de matrícula?
-20. ¿Qué ocurre si un estudiante excede el límite de créditos permitidos al inscribirse en su turno de matrícula?
-21. ¿Cómo puede un estudiante conocer los turnos de matrícula asignados por su facultad en el Módulo de Matrícula?
-22. ¿De qué manera puede un estudiante averiguar cuáles son los turnos de matrícula que le han asignado en su facultad?
-23. ¿Qué pasos debe seguir un estudiante para conocer los turnos de matrícula que le han sido asignados por su facultad?
-24. ¿Qué información relacionada con los docentes y horarios está accesible en el Módulo de Matrícula?
-25. ¿Qué detalles sobre los profesores y sus horarios están disponibles para los estudiantes en el Módulo de Matrícula?
-26. ¿Qué pasos debe seguir un estudiante para inscribirse en los cursos de su elección durante su turno de matrícula?
-27. ¿Cuáles son los pasos que debo seguir para inscribirme en los cursos que elijo durante mi turno de matrícula?
-28. ¿Cómo puede un alumno inscribirse en los cursos de su elección en el Módulo de Matrícula durante su turno?
-29. ¿Qué acciones necesita realizar un estudiante para completar la inscripción en los cursos que ha elegido durante su turno de matrícula?
-30. ¿Qué debe hacer un estudiante si no encuentra vacantes disponibles en un curso habilitado en el Módulo de Matrícula?
-31. ¿Qué puede hacer un alumno si no encuentra cupos disponibles en un curso habilitado durante la matrícula?
-32. ¿Qué función cumple el Módulo de Matrícula en el proceso de inscripción de cursos en la UNI?
-33. ¿Qué rol desempeña el Módulo de Matrícula en la inscripción de cursos para los estudiantes de la UNI?
-34. ¿Qué restricciones existen en el Módulo de Matrícula respecto al número de créditos que un estudiante puede inscribir?
-35. ¿Cuáles son las restricciones en el Módulo de Matrícula en cuanto al número de créditos que se pueden inscribir?
-36. ¿Qué restricciones debe tener en cuenta un estudiante respecto a los créditos que puede inscribir en el Módulo de Matrícula?
-37. ¿Qué pasos debe seguir un estudiante para acceder al Módulo de Matrícula en la plataforma Intranet-Alumnos?
-38. ¿Cómo se hace para que un estudiante ingrese al Módulo de Matrícula en la Intranet-Alumnos?
-39. ¿Qué datos tiene disponibles un estudiante en el Módulo de Matrícula durante la inscripción?
-40. ¿De qué manera puedo averiguar los turnos de matrícula que me ha asignado mi facultad?
-41. ¿Cómo puede un alumno saber cuáles son los turnos de matrícula que le corresponden?
-42. ¿Dónde puede un estudiante encontrar información sobre los turnos de matrícula asignados por su facultad?
-43. ¿Cuáles son los datos que un estudiante puede consultar acerca de los cursos habilitados en el Módulo de Matrícula?
-44. ¿Qué pasos tengo que seguir para confirmar mi matrícula en el sistema después de elegir mis asignaturas?
-45. ¿Qué debe hacer un estudiante para que su matrícula quede confirmada en el sistema tras elegir las asignaturas?
-46. ¿Qué restricciones existen en cuanto al número de créditos que un estudiante puede inscribir durante su turno de matrícula?
-47. ¿Cuántos créditos puede inscribir un estudiante durante su turno de matrícula?
-48. ¿Qué limitaciones hay sobre el número de créditos que un alumno puede inscribir en su turno de matrícula?
-49. ¿Qué restricciones deben tener en cuenta los estudiantes respecto al número de créditos que pueden inscribir en su turno?
-50. ¿Cuáles son las reglas sobre la cantidad de créditos que un estudiante puede inscribir en su turno de matrícula?
-51. ¿Qué datos puedo encontrar sobre los docentes y sus horarios en el Módulo de Matrícula?
-52. ¿Qué pasaría si intento inscribir un curso que excede los créditos permitidos en mi turno de matrícula?
-53. ¿Qué consecuencias tiene un estudiante si intenta inscribir un curso fuera del límite de créditos durante su turno de matrícula?
-54. ¿Qué ocurre si un alumno intenta registrar un curso que no cumple con los créditos permitidos en su turno de matrícula?
-55. ¿Qué sucede si un estudiante se inscribe en un curso que supera el número de créditos permitidos en su turno de matrícula?
-56. ¿Cómo puede un estudiante verificar las vacantes disponibles en los cursos habilitados?
-57. ¿Qué pasos debo seguir para comprobar las vacantes en los cursos habilitados?
-58. ¿Qué procedimiento debe seguir un estudiante para ver las vacantes en los cursos habilitados?
-59. ¿Dónde puede un estudiante encontrar información sobre las vacantes disponibles en los cursos habilitados?
-60. ¿Cuáles son los pasos que tengo que seguir para elegir mis horarios en el Módulo de Matrícula?
-61. ¿Cómo puede un estudiante seleccionar los horarios que desea en el Módulo de Matrícula?
-62. ¿Qué procedimiento debe seguir un alumno para escoger sus horarios en el Módulo de Matrícula?
-63. ¿Qué debo hacer para seleccionar los horarios que quiero en el Módulo de Matrícula?
-64. ¿Qué plataforma deben utilizar los estudiantes para acceder al Módulo de Matrícula y realizar su inscripción?
-65. ¿Dónde pueden los estudiantes acceder al Módulo de Matrícula para inscribirse?
-66. ¿Qué sucede si un estudiante no realiza su inscripción durante el turno asignado en el Módulo de Matrícula?
-67. ¿Qué pasa si no me inscribo durante el turno que me asignaron en el Módulo de Matrícula?
-68. ¿Qué sucede si un estudiante no se inscribe en el Módulo de Matrícula durante su turno asignado?
-69. ¿Qué procedimiento debe seguir un alumno para acceder al Módulo de Matrícula en la UNI durante la matrícula regular?
-70. ¿Cómo hace un estudiante de la UNI para ingresar al Módulo de Matrícula cuando llega el momento de la matrícula regular?
-71. ¿Qué tipo de información puedo encontrar en el Módulo de Matrícula en la Intranet-Alumnos?
-72. ¿Qué cosas puede revisar un alumno en el Módulo de Matrícula en la Intranet-Alumnos?
-73. ¿De qué manera puede un estudiante averiguar los turnos de matrícula que le corresponden en su facultad a través del Módulo de Matrícula?
-74. ¿Dónde puede un estudiante encontrar la información sobre los turnos de matrícula que le corresponden en el Módulo de Matrícula?
-75. ¿Qué restricciones relacionadas con el número de créditos deben considerar los estudiantes al inscribirse en los cursos?
-76. ¿Cuáles son las restricciones que un alumno debe considerar en cuanto a los créditos al momento de inscribirse en los cursos?
-77. ¿Qué reglas sobre el número de créditos deben seguir los estudiantes al momento de elegir sus cursos?
-78. ¿Qué horarios y docentes puedo encontrar en el Módulo de Matrícula?
-79. ¿Cuáles son las opciones de horarios y profesores que están disponibles para los estudiantes en el Módulo de Matrícula?
-80. ¿Dónde puedo ver las opciones de horarios y docentes que hay en el Módulo de Matrícula?
-81. ¿Qué consecuencias hay si un estudiante intenta inscribirse en un curso fuera de su turno de matrícula?
-82. ¿Qué pasa si un alumno se inscribe en un curso que no corresponde a su turno de matrícula?
-83. ¿Qué ocurre si un estudiante intenta matricularse en un curso en un turno que no le corresponde?
-84. ¿Qué sucede si un estudiante se registra en un curso fuera de su horario asignado para matrícula?
-85. ¿Cómo se asegura un estudiante de que hay vacantes en los cursos habilitados que le interesan?
-86. ¿Cuál es la plataforma que usa la UNI para que los estudiantes accedan al Módulo de Matrícula?
-87. ¿Qué sistema utiliza la UNI para que los alumnos puedan inscribirse en el Módulo de Matrícula?
-88. ¿Qué información debe confirmar un estudiante antes de finalizar su inscripción en el Módulo de Matrícula?
+1. ¿Qué información contiene el calendario de actividades académicas de la Facultad de Ciencias y dónde puedo encontrarlo?
+2. ¿Alguien podría explicarme qué es el calendario académico de la Facultad de Ciencias y dónde se publica?
+3. ¿Dónde se puede consultar el calendario de actividades académicas de la Facultad de Ciencias de la UNI?
+4. ¿Qué es el calendario de actividades académicas y dónde puedo acceder a esa información en la Facultad de Ciencias?
+5. ¿Me podrían decir qué incluye el calendario académico de la Facultad de Ciencias y dónde lo puedo ver?
+6. ¿Podrías decirme qué tipo de información se incluye en el calendario de actividades académicas de la Facultad de Ciencias de la UNI?
+7. Me gustaría saber qué detalles hay en el calendario de actividades académicas de la Facultad de Ciencias de la UNI.
+8. ¿Qué datos específicos se encuentran en el calendario académico de la Facultad de Ciencias de la UNI?
+9. ¿Qué fechas importantes para los estudiantes se incluyen en el calendario de actividades académicas?
+10. ¿Cuáles son las fechas clave para los estudiantes que aparecen en el calendario de actividades académicas?
+11. ¿Qué fechas deberían tener en cuenta los estudiantes según el calendario de actividades académicas?
+12. ¿Qué fechas relevantes se listan en el calendario académico para los estudiantes?
+13. ¿Qué actividades académicas están programadas en el calendario, además de las fechas de matrícula?
+14. ¿Qué actividades académicas, además de las fechas de matrícula, se encuentran en el calendario?
+15. ¿Qué más hay en el calendario de actividades académicas, además de las fechas de matrícula?
+16. ¿Qué tipo de solicitudes se pueden presentar según las fechas establecidas en el calendario de actividades académicas?
+17. ¿Qué solicitudes están permitidas según las fechas que se indican en el calendario de actividades académicas?
+18. ¿Qué tipos de solicitudes puedo hacer en función de las fechas del calendario académico?
+19. ¿Qué solicitudes se pueden presentar de acuerdo con el calendario de actividades académicas?
+20. ¿Cuáles son las solicitudes que se pueden realizar según las fechas del calendario académico?
+21. ¿Cuál es la importancia del calendario de actividades académicas para los estudiantes de la Facultad de Ciencias de la UNI?
+22. ¿Por qué es útil el calendario de actividades académicas para nosotros, los estudiantes?
+23. ¿Qué fechas importantes sobre los exámenes están en el calendario académico?
+24. ¿Qué documento oficial establece las fechas de inicio y finalización de clases en la Facultad de Ciencias de la UNI?
+25. ¿Qué se recomienda a los estudiantes respecto al calendario de actividades académicas?
+26. ¿Qué consejos se dan a los estudiantes sobre el uso del calendario de actividades académicas?
+27. ¿Qué recomendaciones hay para los estudiantes en relación al calendario de actividades académicas?
+28. ¿Qué debería tener en cuenta un estudiante sobre el calendario de actividades académicas?
+29. ¿Qué información específica sobre el retiro de asignaturas se incluye en el calendario de actividades académicas?
+30. ¿Qué información relevante sobre el retiro de asignaturas está disponible en el calendario académico?
+31. ¿Qué se dice en el calendario de actividades académicas sobre el retiro de asignaturas?
+32. ¿Cuál es el enlace que necesito visitar para ver el calendario de actividades académicas de la Facultad de Ciencias de la UNI?
+33. ¿Qué enlace específico debo seguir para acceder al calendario de actividades académicas de la Facultad de Ciencias de la UNI?
+34. ¿Qué actividades relevantes para los estudiantes, además de las fechas de exámenes, se encuentran en el calendario de actividades académicas?
+35. ¿Qué otras actividades importantes para los estudiantes se listan en el calendario de actividades académicas, aparte de las fechas de exámenes?
+36. ¿Qué actividades significativas, además de las fechas de exámenes, están incluidas en el calendario académico?
+37. ¿Qué información relevante se puede encontrar en el calendario académico de la Facultad de Ciencias?
+38. ¿Cuáles son las fechas clave que aparecen en el calendario académico de la Facultad de Ciencias?
+39. ¿Qué fechas son consideradas importantes en el calendario de actividades académicas de la UNI?
+40. ¿Podrías enumerar las fechas significativas que están en el calendario de la Facultad de Ciencias?
+41. ¿Qué fechas debo tener en cuenta del calendario académico de la Facultad de Ciencias?
+42. ¿Dónde se puede acceder al calendario académico de la Facultad de Ciencias?
+43. ¿Me podrías indicar dónde consultar el calendario de actividades académicas de la UNI?
+44. ¿Qué actividades académicas están detalladas en el calendario de la Facultad de Ciencias de la UNI?
+45. ¿Podrías decirme qué actividades están incluidas en el calendario académico de la UNI?
+46. ¿Qué solicitudes están permitidas según las fechas del calendario académico?
+47. ¿Qué tipos de trámites puedo realizar según lo que indica el calendario académico?
+48. ¿Qué solicitudes se pueden presentar en las fechas que aparecen en el calendario académico?
+49. ¿Qué fechas específicas se incluyen en el calendario para los exámenes parciales, finales y sustitutorios?
+50. ¿Cuáles son las fechas exactas para los exámenes parciales, finales y sustitutorios en el calendario académico?
+51. ¿Qué fechas debo tener en cuenta para los exámenes parciales y finales según el calendario?
+52. ¿Podrías darme las fechas específicas de los exámenes parciales, finales y sustitutorios que están en el calendario?
+53. ¿Qué fechas están programadas para los exámenes parciales y finales en el calendario académico?
+54. ¿Qué utilidad tiene el calendario de actividades académicas para los estudiantes de la Facultad de Ciencias?
+55. ¿Cómo beneficia a los estudiantes el calendario de actividades académicas de la Facultad de Ciencias?
+56. ¿Qué fechas relacionadas con la matrícula se encuentran en el calendario de actividades académicas?
+57. ¿Qué fechas debo considerar en el calendario académico en relación a la matrícula?
+58. ¿Podrías indicarme las fechas de matrícula que están en el calendario de actividades académicas?
+59. ¿Qué fechas específicas sobre matrícula se incluyen en el calendario académico?
+60. ¿Qué otras actividades académicas se listan en el calendario además de los exámenes y la matrícula?
+61. ¿Qué actividades adicionales se incluyen en el calendario académico, aparte de las fechas de exámenes y matrícula?
+62. ¿Cuáles son los pasos que un estudiante debe seguir para consultar el calendario académico de la Facultad de Ciencias?
+63. ¿Qué procedimiento debe seguir un alumno para acceder al calendario de actividades académicas?
+64. ¿Me podrías dar el enlace específico para consultar el calendario académico de la Facultad de Ciencias?
+65. ¿Dónde puedo encontrar el enlace para ver el calendario de actividades académicas de la UNI?
+66. ¿Dónde está disponible el calendario académico para la Facultad de Ciencias?
+67. ¿Cuál es el sitio donde los estudiantes pueden consultar el calendario de actividades académicas de la Facultad de Ciencias?
+68. ¿Qué clases de actividades académicas se describen en el calendario oficial de la Facultad de Ciencias?
+69. ¿Cómo puede ayudar el calendario académico a los estudiantes de la Facultad de Ciencias?
+70. ¿Por qué es útil para los estudiantes de la Facultad de Ciencias tener acceso al calendario de actividades académicas?
+71. ¿Cuáles son las fechas importantes para la matrícula que aparecen en el calendario académico?
+72. ¿Qué actividades académicas están programadas en el calendario para el inicio y finalización de clases?
+73. ¿Qué actividades académicas se han programado para el inicio y fin de clases en el calendario?
+74. ¿Cuáles son las actividades académicas que marcan el comienzo y el cierre de las clases según el calendario?
+75. ¿Qué pasos debe seguir un estudiante para acceder al calendario de actividades académicas en la página web de la Facultad de Ciencias?
+76. ¿Qué fechas debo tener en cuenta en el calendario de actividades académicas en relación a los exámenes?
+77. ¿Qué tipos de trámites pueden realizar los estudiantes según las fechas del calendario de actividades académicas?
+78. ¿Qué solicitudes pueden llevar a cabo los estudiantes en función de las fechas que se encuentran en el calendario académico?
+79. ¿Qué enlace específico deben visitar los estudiantes para revisar el calendario de actividades académicas?
+80. ¿Cuál es el enlace que los estudiantes deben visitar para consultar el calendario de actividades académicas?
+81. ¿Dónde pueden encontrar el enlace específico para acceder al calendario de actividades académicas?
+82. ¿Podrías darme el enlace que los estudiantes necesitan para revisar el calendario de actividades académicas?
+83. ¿Qué actividades relevantes para los estudiantes están incluidas en el calendario de actividades académicas de la Facultad de Ciencias?
