@@ -734,7 +734,7 @@ Historial previo de la conversación: <<
 user: ¿Cuanto se puede solicitar el retiro parcial?
 assistant: Hasta la quinta semana de clases.
 
-El último mensaje contiene una pregunta: Sí  
+El último mensaje contiene una pregunta: No  
 
 Reformulación: No aplica
 -----
@@ -781,7 +781,7 @@ Historial previo de la conversación: <<{history_chat}>>"""
             context = None
             #print("query:", query)
             if contains_questions:
-                info_texs, relatednesses = self.retriever.retrive_texts(query=query, top_k=15)
+                info_texs, relatednesses = self.retriever.retrive_texts(query=query, top_k=10)
                 #info_texs, relatednesses = self.strings_ranked_by_relatedness(
                 #    query = query, 
                 #    context = context,
