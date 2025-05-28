@@ -39,8 +39,8 @@ Tema: Fecha de Pago de Autoseguro
 
 Pregunta: ¿Hasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matrícula regular al ciclo academico en la Facultad de Ciencias de la UNI?
 
-Respuesta: Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Si no se cumple con este plazo máximo, no se habilitará en el sistema su matricula regular (inscripcion de cursos) y deberá gestionar la matricula como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, el estudiante podrá solicitar su matricula rezagada. Sin embargo, la inscripción de cursos de la matricula rezagada se realiza en funcion de las vacantes disponibles por lo que se corre el riesgo de no alcanzar vacantes para los cursos deseados.
-El calendario de actividades académicas es publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS", puede acceder a esta sección mediante el siguiente enlace: https://fc.uni.edu.pe/estadistica/documentos/
+Respuesta: Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Si no se cumple con este plazo máximo, no se habilitará en el sistema su matricula regular (inscripción de cursos) y deberá gestionar la matricula como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, el estudiante podrá solicitar su matricula rezagada. Sin embargo, la inscripción de cursos de la matricula rezagada se realiza en función de las vacantes disponibles por lo que se corre el riesgo de no alcanzar vacantes para los cursos deseados.
+El calendario de actividades académicas es publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la pagina web de la Facultad de Ciencias, puede acceder a esta sección mediante el siguiente enlace: https://fc.uni.edu.pe/estadistica/documentos/
 
 Tema: Procedimiento para solicitar una Constancia de Matricula en la Facultad de Ciencias de la UNI
 Pregunta: ¿Qué procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en español?
@@ -327,7 +327,7 @@ Además, la plataforma permite acceder a las fichas académicas, que contienen e
 
 Tema: Acceso al Modulo de Matricula UNI
 Pregunta: ¿Cómo puede un estudiante de pregrado de la UNI acceder al Módulo de Matrícula para la inscripción de cursos en la matrícula regular?
-Respuesta: Durante las fechas programadas para el proceso de matrícula, el Módulo de Matrícula será habilitado. El estudiante podrá acceder a este módulo ingresando a la plataforma Intranet-Alumnos y seleccionando la opción "Matrícula". Dentro del módulo, podrá consultar los próximos turnos de matrícula asignados por su facultad. Además, tendrá acceso a la lista de cursos habilitados según su plan de estudios, junto con la información de vacantes disponibles, docentes y horarios correspondientes. Finalmente, el estudiante podrá realizar la inscripción a los cursos de su elección durante su turno de matricula, de acuerdo con el número de créditos permitidos, seleccionando las asignaturas y horarios deseados y confirmando su matrícula en el sistema.
+Respuesta: Durante las fechas programadas para el proceso de matrícula, el Módulo de Matrícula será habilitado. El estudiante podrá acceder a este módulo ingresando a la plataforma Intranet-Alumnos y seleccionando la opción "Matrícula". Dentro del módulo, podrá consultar los próximos turnos de matrícula asignados por su facultad. Además, tendrá acceso a la lista de cursos habilitados que según el plan de estudios de su carrera podría elegir matricularse, junto con la información de vacantes disponibles, docentes y horarios correspondientes. Finalmente, el estudiante podrá realizar la inscripción a los cursos de su elección durante su turno de matricula, de acuerdo con el número de créditos permitidos, seleccionando las asignaturas y horarios deseados y confirmando su matrícula en el sistema.
 
 Tema: Calendario de Actividades Académicas
 Pregunta: ¿Qué es el calendario de actividades académicas de la Facultad de Ciencias de la UNI y dónde se publica?
@@ -341,3 +341,16 @@ Respuesta: El Calendario de Actividades Académicas es un documento oficial que 
 Se recomienda revisar el calendario completo para conocer todos los detalles.
 
 El calendario de actividades académicas es publicado en las seccion [Matrícula y Procedimientos de la Pagina Web de la Facultad de Ciencias](https://fc.uni.edu.pe/estadistica/documentos/)
+
+Tema: Plan de Estudios
+Pregunta: ¿Qué es el plan de estudios para los alumnos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+Respuesta: El plan de estudios de la Facultad de Ciencias (FC) de la Universidad Nacional de Ingeniería (UNI) constituye la estructura curricular que organiza las asignaturas, créditos y otros componentes académicos de cada programa de pregrado.
+Este plan establece los cursos que los estudiantes deben completar para culminar su carrera y egresar, distribuidos a lo largo de diez semestres académicos. El plan de estudios contempla:
+
+- Cursos obligatorios: Asignaturas fundamentales que todos los estudiantes de una determinada carrera deben cursar, con el objetivo de adquirir los conocimientos esenciales de su disciplina.
+
+- Cursos electivos: Asignaturas que los estudiantes pueden seleccionar de acuerdo con sus intereses, con el fin de especializarse o profundizar en áreas específicas de su formación.
+
+- Créditos académicos: Unidad de medida que refleja la carga académica de cada curso. El plan de estudios establece un número mínimo de créditos que el estudiante debe aprobar para culminar su carrera.
+
+El plan de estudios de las carreras ofrecidas por la Facultad de Ciencias se encuentra disponible en la página web oficial de la Facultad. Además, los estudiantes matriculados pueden consultar su avance curricular en el plan de estudios correspondiente a través de la plataforma INTRALU.
