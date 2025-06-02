@@ -114,10 +114,14 @@ def prev_retrival(query):
     print("indexes:", indexes)
     print("relatednesses:", relatednesses)
     print(strings[0])
+    print()
+    print(strings[1])
     
 if __name__ == "__main__":
     retriever = Retriever()
-    query = "Oye, ¿me puedes decir qué requisitos tiene que cumplir un estudiante para matricularse en la Facultad de Ciencias?"
+    #query = "Oye, ¿me puedes decir qué requisitos tiene que cumplir un alumno para matricularse en la Facultad de Ciencias?"
+    query = "¿Y qué pasa si tengo alguna duda sobre el proceso de reincorporación? ¿Dónde puedo encontrar más detalles o a quién debería dirigirme?"
+
     #query = "Oye, ¿me puedes decir qué requisitos tiene que cumplir un estudiante para matricularse en este ciclo academico de la Facultad de Ciencias?"
     #query = "Oye, me puedes decir ¿Cuales son los requisitos de matrícula para estudiantes en la Facultad de Ciencias?"
     result_texts, scores = retriever.retrive_texts(query, top_k=30)

@@ -1,7 +1,7 @@
 Tema: Requisitos y Procedimiento de Matricula para estudiantes regulares 
 Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular al ciclo académico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
 Respuesta: 
-Los estudiantes regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería deben cumplir con siguientes requisitos y procedimiento para realizar su matrícula al ciclo académico.
+Los estudiantes regulares de pregrado en la Facultad de Ciencias de la UNI deben cumplir con siguientes requisitos y procedimiento para realizar su matrícula al ciclo académico.
 
 Requisitos para la matricula:
 1. Haber efectuado el pago del autoseguro estudiantil mediante la plataforma intranet-alumnos.
@@ -13,11 +13,11 @@ Requisitos para la matricula:
 4. Si el estudiante ha dejado de estudiar, reservado matrícula o solicitado retiro total en el último período, deberá tramitar previamente su reincorporación a través de la plataforma intranet-alumnos.
 
 Procedimiento para la matrícula regular:
-1. Generar una orden de pago para el autoseguro estudiantil a través de la plataforma INTRALU. Para ello, selecciona la opción "Trámites" para acceder al módulo de tramites y pagos. En dicho módulo, selecciona el trámite correspondiente en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago.
-2. Realizar el pago del autoseguro dentro del plazo establecido en el calendario de actividades académicas, acercándose a un sucursal del BCP o a traves de la aplicación movil del banco.
-3. Luego, en la fecha y turno asignado, el estudiante llevará a cabo a su matrícula de forma virtual, es decir, realizará la inscripción de sus cursos a través de la plataforma intranet-alumnos. Accederá al módulo de Matrícula UNI dentro de esta plataforma, seleccionará las asignaturas y horarios deseados, y finalizará confirmando la matrícula en todas las asignaturas elegidas en el sistema.
-No se requiere la entrega del voucher de pago del autoseguro ni otros documentos para la matricula regular.  
-Los turnos de matrícula se asignan por grupos en función del promedio ponderado de los últimos dos ciclos académicos del estudiante, siguiendo un orden de mérito. Los estudiantes pueden consultar su turno directamente en el módulo de Matrícula UNI dentro de la plataforma intranet-alumnos.
+1. Generar la orden de pago del autoseguro estudiantil a través de la plataforma INTRALU. Para ello, haz clic en "Trámites" para acceder al módulo de trámites y pagos. Luego, selecciona el trámite correspondiente, haz clic en "Nuevo" y sigue las instrucciones para completar el proceso.
+2. Realizar el pago del autoseguro dentro del plazo establecido en el calendario de actividades académicas, acercándose a un sucursal del BCP o a traves de la aplicación movil del banco. No se requiere la entrega del voucher de pago del autoseguro ni otros documentos.
+3. En la fecha y turno asignado, el estudiante llevará a cabo a su matrícula de forma virtual, es decir, realizará la inscripción de sus cursos a través de la plataforma intranet-alumnos. Accederá al módulo de Matrícula UNI dentro de esta plataforma, seleccionará las asignaturas y horarios deseados, y finalizará confirmando la matrícula en todas las asignaturas elegidas en el sistema.
+
+Los turnos de matrícula se asignan por grupos según el promedio ponderado de los dos últimos ciclos académicos, en orden de mérito. Los estudiantes pueden consultarlos en el módulo de Matrícula UNI de la intranet-alumnos.
 
 Tema: Requisitos y Procedimiento para Matricula Solo Para Ingresantes
 Pregunta: ¿Cuales son los requisitos y el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
