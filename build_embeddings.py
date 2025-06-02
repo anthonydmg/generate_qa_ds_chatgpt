@@ -253,7 +253,7 @@ BATCH_SIZE = 10
 
 
 weighted_source = {
-            "faq": 1, "topic-specific-document": 0.85, "regulation": 0.75, "general_information": 1.0}
+            "faq": 1, "topic-specific-document": 0.90, "regulation": 0.85, "general_information": 1.0}
 
 print("\nNumero de secciones encontradas:", len(text_subsections))
 embeddings_str = []

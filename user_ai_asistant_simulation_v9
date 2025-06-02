@@ -947,8 +947,8 @@ if __name__ == "__main__":
     
     print("num_questions:", num_questions)
 
-    start = 0
-    end = min(2, num_questions)
+    start = 7
+    end = min(8, num_questions)
 
     for i, question in enumerate(questions_faq[start:end]):
         print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")

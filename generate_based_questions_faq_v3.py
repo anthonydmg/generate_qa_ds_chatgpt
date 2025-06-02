@@ -257,7 +257,7 @@ def gen_reformulated_questions(questions, num_questions = 4):
         start = n_batch*12
         end = min((n_batch + 1)*12, len(questions))
         b_preguntas_prompt_1 = questions[start: end]
-        print("b_preguntas_to_reformulated:\n", b_preguntas_prompt_1)
+        #print("b_preguntas_to_reformulated:\n", b_preguntas_prompt_1)
         prompt_gen_reformulated_question = get_prompt_gen_questions_reformulated(questions=b_preguntas_prompt_1, num_questions = num_questions)
 
         messages =  [{'role':'user', 'content': prompt_gen_reformulated_question}]

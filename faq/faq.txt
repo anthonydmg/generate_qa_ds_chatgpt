@@ -1,18 +1,27 @@
-Tema: Requisitos y Procedimiento Matricula Regular
+Tema: Requisitos y Procedimiento de Matricula para estudiantes regulares 
 Pregunta: ¿Cuales son los requisitos y el proceso de matrícula regular al ciclo académico para alumnos regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
-Respuesta: Son requisitos para la matrícula regular efectuar el pago por autoseguro estudiantil y no presentar adeudos con su Facultad ya sea económicas, por préstamo de libros o cualquier otro material de enseñanza en general en la biblioteca. Además, los alumnos en riesgo académico deben haber completado la tutoría obligatoria previa a la matrícula. Los estudiantes que hayan dejado de estudiar, o reservado matrícula  reservado matrícula, o solicitado su retiro total en el último período en que estuvieron matriculados, deberán previamente haber tramitado su reincorporación a traves de la plataforma intranet-alumnos.
+Respuesta: 
+Los estudiantes regulares de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería deben cumplir con siguientes requisitos y procedimiento para realizar su matrícula al ciclo académico.
 
-El proceso para que un alumno de pregrado realice su matrícula regular al ciclo académico, es el siguiente:
-1. Generar una orden de pago para el autoseguro estudiantil a través de la plataforma INTRALU. En esta plataforma, selecciona la opción "Trámites" para acceder al módulo de tramites y pagos. En dicho módulo, selecciona el trámite correspondiente en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago.
-2. Realizar el pago del autoseguro dentro de los plazos establecidos en el calendario de actividades académicas, acercándose a un sucursal del BCP o a traves de la aplicación movil del banco.
+Requisitos para la matricula:
+1. Haber efectuado el pago del autoseguro estudiantil mediante la plataforma intranet-alumnos.
+
+2. No tener adeudos pendientes con la Facultad, ya sea por concepto económico, préstamos de libros u otros materiales de enseñanza en general de la biblioteca.
+
+3. En caso de estar en riesgo académico, haber completado la tutoría obligatoria previa a la matrícula.
+
+4. Si el estudiante ha dejado de estudiar, reservado matrícula o solicitado retiro total en el último período, deberá tramitar previamente su reincorporación a través de la plataforma intranet-alumnos.
+
+Procedimiento para la matrícula regular:
+1. Generar una orden de pago para el autoseguro estudiantil a través de la plataforma INTRALU. Para ello, selecciona la opción "Trámites" para acceder al módulo de tramites y pagos. En dicho módulo, selecciona el trámite correspondiente en el menú desplegable, haz clic en el botón "Nuevo" y sigue las indicaciones hasta generar la orden de pago.
+2. Realizar el pago del autoseguro dentro del plazo establecido en el calendario de actividades académicas, acercándose a un sucursal del BCP o a traves de la aplicación movil del banco.
 3. Luego, en la fecha y turno asignado, el estudiante llevará a cabo a su matrícula de forma virtual, es decir, realizará la inscripción de sus cursos a través de la plataforma intranet-alumnos. Accederá al módulo de Matrícula UNI dentro de esta plataforma, seleccionará las asignaturas y horarios deseados, y finalizará confirmando la matrícula en todas las asignaturas elegidas en el sistema.
-
 No se requiere la entrega del voucher de pago del autoseguro ni otros documentos para la matricula regular.  
-Los turnos para la matrícula, son asignados por grupos de acuerdo al promedio ponderado de los últimos dos ciclos, en un orden de mérito. Cada alumno puede verificar su turno correspondiente dentro de la plataforma intranet-alumnos.
+Los turnos de matrícula se asignan por grupos en función del promedio ponderado de los últimos dos ciclos académicos del estudiante, siguiendo un orden de mérito. Los estudiantes pueden consultar su turno directamente en el módulo de Matrícula UNI dentro de la plataforma intranet-alumnos.
 
 Tema: Requisitos y Procedimiento para Matricula Solo Para Ingresantes
 Pregunta: ¿Cuales son los requisitos y el proceso de matrícula para nuevos ingresantes de pregrado en la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
-Respuesta: Los nuevos alumnos de pregrado ingresantes a la Facultad de Ciencias, realizaran el siguiente proceso para completar su primera matricula (primera matricula al primer ciclo):
+Respuesta: Los nuevos estudiantes de pregrado ingresantes a la Facultad de Ciencias deberán seguir el siguiente proceso, por única vez, para completar su primera matricula (primera matricula al primer ciclo):
     1. Recabar su constancia de ingreso. Luego de gestionar la emisión de su constancia de ingreso, la Dirección de Admisión (DIAD) de la UNI enviará a su correo la constancia de ingreso.
     2. Actualización de datos en intranet. DIRCE hará llegar a su correo su clave para acceder a la plataforma de intranet-alumnos y completar sus datos.
     3. Registrar los datos en la Facultad de Ciencias. La oficina de estadística de la facultad enviará al correo del ingresante la ficha de datos. El llenado es carácter obligatorio.
@@ -40,7 +49,7 @@ Tema: Fecha de Pago de Autoseguro
 Pregunta: ¿Hasta que fecha se debe realizar el pago por concepto de autoseguro estudiantil para que un estudiante pueda realizar la matrícula regular al ciclo academico en la Facultad de Ciencias de la UNI?
 
 Respuesta: Los estudiantes deben realizar el pago del autoseguro estudiantil antes de las fechas de matrícula, dentro del plazo máximo establecido en el calendario de actividades académicas correspondiente al periodo académico. Si no se cumple con este plazo máximo, no se habilitará en el sistema su matricula regular (inscripción de cursos) y deberá gestionar la matricula como rezagada. El estudiante puede verificar esta situación al comprobar si su matrícula se habilita o no en las fechas de matrícula regular. Si la matrícula no se habilita en estas fechas, el estudiante podrá solicitar su matricula rezagada. Sin embargo, la inscripción de cursos de la matricula rezagada se realiza en función de las vacantes disponibles por lo que se corre el riesgo de no alcanzar vacantes para los cursos deseados.
-El calendario de actividades académicas es publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la pagina web de la Facultad de Ciencias, puede acceder a esta sección mediante el siguiente enlace: https://fc.uni.edu.pe/estadistica/documentos/
+El calendario de actividades académicas es publicado en la sección "MATRÍCULA Y PROCEDIMIENTOS" de la pagina web de la Facultad de Ciencias, puede acceder a esta sección de la web mediante el siguiente enlace: https://fc.uni.edu.pe/estadistica/documentos/
 
 Tema: Procedimiento para solicitar una Constancia de Matricula en la Facultad de Ciencias de la UNI
 Pregunta: ¿Qué procedimiento debe seguir un estudiante para solicitar una constancia de Matricula en ingles o en español?
@@ -343,8 +352,8 @@ Se recomienda revisar el calendario completo para conocer todos los detalles.
 El calendario de actividades académicas es publicado en las seccion [Matrícula y Procedimientos de la Pagina Web de la Facultad de Ciencias](https://fc.uni.edu.pe/estadistica/documentos/)
 
 Tema: Plan de Estudios
-Pregunta: ¿Qué es el plan de estudios para los alumnos de la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
-Respuesta: El plan de estudios de la Facultad de Ciencias (FC) de la Universidad Nacional de Ingeniería (UNI) constituye la estructura curricular que organiza las asignaturas, créditos y otros componentes académicos de cada programa de pregrado.
+Pregunta: ¿Qué es el plan de estudios de una carrera y dónde pueden consultarlo los estudiantes de la Facultad de Ciencias de la Universidad Nacional de Ingeniería?
+Respuesta: El plan de estudios constituye la estructura curricular que organiza las asignaturas, créditos y otros componentes académicos de cada programa de pregrado.
 Este plan establece los cursos que los estudiantes deben completar para culminar su carrera y egresar, distribuidos a lo largo de diez semestres académicos. El plan de estudios contempla:
 
 - Cursos obligatorios: Asignaturas fundamentales que todos los estudiantes de una determinada carrera deben cursar, con el objetivo de adquirir los conocimientos esenciales de su disciplina.
