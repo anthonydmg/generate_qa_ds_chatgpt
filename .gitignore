@@ -152,3 +152,5 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 conversational_faq/data/conversational_dataset.json
+conversational_faq/data/*.json
+conversational_faq/data_prev/*.json

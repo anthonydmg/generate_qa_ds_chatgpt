@@ -59,7 +59,7 @@ class Retriever:
         importance = np.load(IMPORTANCE_PATH)
         texts = load_json(TEXTS_PATH)
         index = faiss.read_index(INDEX_PATH)
-        print("index:", index)
+        #print("index:", index)
         return embeddings, importance, texts, index
     
     def retrive_texts(self, query, top_k = 10):
@@ -119,8 +119,10 @@ def prev_retrival(query):
     
 if __name__ == "__main__":
     retriever = Retriever()
+   # query = "oye, como me puedo matricular este ciclo?"
+    query = "oye, como me matriculo este ciclo?"
     #query = "Oye, ¿me puedes decir qué requisitos tiene que cumplir un alumno para matricularse en la Facultad de Ciencias?"
-    query = "¿Y qué pasa si tengo alguna duda sobre el proceso de reincorporación? ¿Dónde puedo encontrar más detalles o a quién debería dirigirme?"
+    #query = "¿Y qué pasa si tengo alguna duda sobre el proceso de reincorporación? ¿Dónde puedo encontrar más detalles o a quién debería dirigirme?"
 
     #query = "Oye, ¿me puedes decir qué requisitos tiene que cumplir un estudiante para matricularse en este ciclo academico de la Facultad de Ciencias?"
     #query = "Oye, me puedes decir ¿Cuales son los requisitos de matrícula para estudiantes en la Facultad de Ciencias?"

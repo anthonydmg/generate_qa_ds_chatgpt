@@ -474,6 +474,6 @@ def filter_generated_question(threshold_rouge = 0.8):
 if __name__ == "__main__":
     threshold_rouge = 0.70
     #questions_generation_based_faqs(faqs)
-    filter_generated_question(threshold_rouge = threshold_rouge)
+    #filter_generated_question(threshold_rouge = threshold_rouge)
 
 

@@ -679,7 +679,7 @@ Historial del chat: {history_chat}
         if "artículo" in respuesta.lower():
             new_answer = self.refine_answer_mention_articule(respuesta)
         else:
-            prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta y la forma de responder de una asistente de AI. Es preferible que no menciones dicha frase. En caso se refiera a falta informacion corrige el mensaje para que en su lugar se menciones de manera empatica que no se tienes accesso a dicha informacion.
+            prompt = f"""Corrige esta respuesta proporcionada por un asistente de AI para no mencionar "información proporcionada", manteniendo el sentido original de la respuesta y la forma de responder de una asistente de AI. Es preferible que no menciones dicha frase. En caso se refiera a falta informacion corrige el mensaje para que en su lugar se menciones de manera empatica que no se tienes accesso a dicha informacion. Retorna solo la respuesta corregida. 
         Respuesta: {respuesta}"""
 
             messages = [{"role": "user", "content": prompt}]
@@ -687,7 +687,7 @@ Historial del chat: {history_chat}
             new_answer = get_completion_from_messages(
                                 messages,
                                 model= self.model)
-        
+            
         return new_answer
         
     def contains_bad_keywords(self, message):
@@ -930,100 +930,102 @@ if __name__ == "__main__":
     #questions_topics = load_json("./refined_questions_generated.json")
     
     #questions_faq = load_json("./faq/filtered_questions.json")
-    conversations_simulated = []
-    save_dir = "./conversational_faq/openline-questions"
-    path_file = "faq/final_derived_faqs_rouge_0.7/derived_questions_faq_1.json"
-    filename = "derived_questions_faq_1.json"
+    for id_q in range(2,8):
+    #id_q = 9
+        conversations_simulated = []
+        save_dir = "./conversational_faq/openline-questions"
+        path_file = f"faq/final_derived_faqs_rouge_0.7/derived_questions_faq_{id_q}.json"
+        filename = f"derived_questions_faq_{id_q}.json"
 
-    questions_faq = load_json(path_file)
-    ## hacer el 11 de nuevo
-    #for questions_about_topic in questions_topics[0:1]:
-    #    questions = questions_about_topic["questions"]
-        #information = questions_about_topic["context"]
-        #opening_lines = [question["question"] for question in questions]
-    num_questions = len(questions_faq)
-    #portion = 0.5
-    #num_questions = int(num_questions * portion)
-    
-    print("num_questions:", num_questions)
+        questions_faq = load_json(path_file)
+        ## hacer el 11 de nuevo
+        #for questions_about_topic in questions_topics[0:1]:
+        #    questions = questions_about_topic["questions"]
+            #information = questions_about_topic["context"]
+            #opening_lines = [question["question"] for question in questions]
+        num_questions = len(questions_faq)
+        #portion = 0.5
+        #num_questions = int(num_questions * portion)
+        
+        print("num_questions:", num_questions)
 
-    start = 7
-    end = min(8, num_questions)
+        start = 32
+        end = min(40, num_questions)
 
-    for i, question in enumerate(questions_faq[start:end]):
-        print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
+        for i, question in enumerate(questions_faq[start:end]):
+            print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")
 
-        #conversation = [{}]+a
-        ai_assistant = AIAssistant( 
-            #model="gpt-3.5-turbo-0125"
-            model="gpt-4o-mini-2024-07-18"
-            )
-        
-        #start_greeting = numpy.random.choice([True, False],1, p = [0.25,0.75])[0]
-        user_ai_sim = UserAISim(
-            #model="gpt-4o-2024-05-13",
-            model="gpt-4o-mini-2024-07-18",
-            #model="gpt-3.5-turbo-0125",
-            #start_greeting = start_greeting
-            )
-        #print("start_greeting:", start_greeting)
-        
-        #if start_greeting:
-        #    response_user_ai = user_ai_sim.start_conversation()
-        #    print("\nUser:", response_user_ai)
-        #    response_ai_assistant = ai_assistant.generate_response(message = response_user_ai, use_kb= False)
-        #    print("\nAssistant:", response_ai_assistant)
-        #    user_ai_sim.push_assistant_messages_to_history(response_ai_assistant)
-        
-        time.sleep(5)
-        #continue
-        user_ai_sim.push_user_messages_to_history(question) 
-        
-        print("\n\033[32mUser:\033[0m", question)
-        response_ai_assistant = ai_assistant.generate_response(message = question)
-        print("\n\033[32mAssistant:\033[0m", response_ai_assistant)
-        
-        time.sleep(15)
-        num_turns = random.choice([2,3,4,5])
-        
-        for i in range(num_turns):
-            additional_prob_finish = (i) * 0.05 
-            finish_conversation = numpy.random.choice([True, False],1, p = [0.25 + additional_prob_finish,0.75 - additional_prob_finish])[0]
-           
-            if i >= 1 and finish_conversation:
-                print("\nfinish_conversation:",finish_conversation)
-                response_user_ai = user_ai_sim.finish_conversation(message=response_ai_assistant)
+            #conversation = [{}]+a
+            ai_assistant = AIAssistant( 
+                #model="gpt-3.5-turbo-0125"
+                model="gpt-4o-mini-2024-07-18"
+                )
+            
+            #start_greeting = numpy.random.choice([True, False],1, p = [0.25,0.75])[0]
+            user_ai_sim = UserAISim(
+                #model="gpt-4o-2024-05-13",
+                model="gpt-4o-mini-2024-07-18",
+                #model="gpt-3.5-turbo-0125",
+                #start_greeting = start_greeting
+                )
+            #print("start_greeting:", start_greeting)
+            
+            #if start_greeting:
+            #    response_user_ai = user_ai_sim.start_conversation()
+            #    print("\nUser:", response_user_ai)
+            #    response_ai_assistant = ai_assistant.generate_response(message = response_user_ai, use_kb= False)
+            #    print("\nAssistant:", response_ai_assistant)
+            #    user_ai_sim.push_assistant_messages_to_history(response_ai_assistant)
+            
+            time.sleep(5)
+            #continue
+            user_ai_sim.push_user_messages_to_history(question) 
+            
+            print("\n\033[32mUser:\033[0m", question)
+            response_ai_assistant = ai_assistant.generate_response(message = question)
+            print("\n\033[32mAssistant:\033[0m", response_ai_assistant)
+            
+            time.sleep(15)
+            num_turns = random.choice([2,3,4,5])
+            
+            for i in range(num_turns):
+                additional_prob_finish = (i) * 0.05 
+                finish_conversation = numpy.random.choice([True, False],1, p = [0.25 + additional_prob_finish,0.75 - additional_prob_finish])[0]
+            
+                if i >= 1 and finish_conversation:
+                    print("\nfinish_conversation:",finish_conversation)
+                    response_user_ai = user_ai_sim.finish_conversation(message=response_ai_assistant)
+                    
+                    print("\n\n\033[32mUser:\033[0m:", response_user_ai)
+
+                    response_ai_assistant = ai_assistant.generate_response(
+                        message = response_user_ai, 
+                        #use_kb= False
+                        )
+
+                    print("\n\033[32mAssistant:\033[0m:", response_ai_assistant)
+
+                    break
+
+                response_user_ai = user_ai_sim.generate_response(message=response_ai_assistant)
+
+                print("\n\033[32mUser:\033[0m:", response_user_ai)
                 
-                print("\n\n\033[32mUser:\033[0m:", response_user_ai)
+                time.sleep(15)
 
-                response_ai_assistant = ai_assistant.generate_response(
-                    message = response_user_ai, 
-                    #use_kb= False
-                    )
+                response_ai_assistant = ai_assistant.generate_response(message = response_user_ai)
 
                 print("\n\033[32mAssistant:\033[0m:", response_ai_assistant)
+                
+                time.sleep(15)
+            ## save conversation
 
-                break
-
-            response_user_ai = user_ai_sim.generate_response(message=response_ai_assistant)
-
-            print("\n\033[32mUser:\033[0m:", response_user_ai)
-            
-            time.sleep(15)
-
-            response_ai_assistant = ai_assistant.generate_response(message = response_user_ai)
-
-            print("\n\033[32mAssistant:\033[0m:", response_ai_assistant)
-            
-            time.sleep(15)
-        ## save conversation
-
-        messages = ai_assistant.get_history_dialog(include_context=True)
-        conversations_simulated.append({
-            "openline": question,
-            "messages": messages
-        })
-            
-    save_json(save_dir, f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
-
+            messages = ai_assistant.get_history_dialog(include_context=True)
+            conversations_simulated.append({
+                "openline": question,
+                "messages": messages
+            })
+                
+        save_json(save_dir, f"conv_sim_{filename[:-5]}_{start}_to_{end-1}", conversations_simulated)
+        time.sleep(10)
     #save_json("./conversational_data", f"conversations_simulated_{start}_to_{end-1}", conversations_simulated)

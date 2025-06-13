@@ -33,7 +33,7 @@ def format_contextualize_questions(conv_dataset):
             if m["role"] == "user":
                 dialog_context = [{"role": m["role"], "content": m["content"]} for m in messages[0:index]]
                 user_message = m["content"]
-                need_context =  m["need_context"]
+                #need_context =  m["need_context"]
                 #expected_response = messages[index + 1]["content"]
                 reformulated_question = m["reformulated_question"]
 
@@ -42,7 +42,7 @@ def format_contextualize_questions(conv_dataset):
                     "dialog_context": dialog_context,
                     "user_message": user_message,
                     "expected_reformulated_question": reformulated_question,
-                    "need_context": need_context
+                    #"need_context": need_context
                     })
     return contextualize_questions_dataset
 
