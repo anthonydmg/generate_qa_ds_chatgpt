@@ -930,7 +930,7 @@ if __name__ == "__main__":
     #questions_topics = load_json("./refined_questions_generated.json")
     
     #questions_faq = load_json("./faq/filtered_questions.json")
-    for id_q in range(2,8):
+    for id_q in range(24,32):
     #id_q = 9
         conversations_simulated = []
         save_dir = "./conversational_faq/openline-questions"
