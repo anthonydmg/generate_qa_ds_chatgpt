@@ -930,7 +930,7 @@ if __name__ == "__main__":
     #questions_topics = load_json("./refined_questions_generated.json")
     
     #questions_faq = load_json("./faq/filtered_questions.json")
-    for id_q in range(32,40):
+    for id_q in range(14,20):
     #id_q = 9
         conversations_simulated = []
         save_dir = "./conversational_faq/openline-questions"
@@ -949,8 +949,8 @@ if __name__ == "__main__":
         
         print("num_questions:", num_questions)
 
-        start = 32
-        end = min(40, num_questions)
+        start = 40
+        end = min(46, num_questions)
 
         for i, question in enumerate(questions_faq[start:end]):
             print(f"\n\n\033[34mConversación {i + 1}.......................................................\033[0m\n\n")

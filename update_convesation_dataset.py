@@ -34,7 +34,7 @@ save_json(path_directory + "/data","conversational_dataset", conversational_data
 from datasets import DatasetDict, Dataset, load_dataset
 from huggingface_hub import login
 
-login(token="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")
+#login(token="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")
 
 # Cargar tu dataset
 #dataset = load_dataset("json", data_files= "conversational_faq/data/conversational_dataset.json")
