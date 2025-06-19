@@ -154,3 +154,6 @@ cython_debug/
 conversational_faq/data/conversational_dataset.json
 conversational_faq/data/*.json
 conversational_faq/data_prev/*.json
+models/
+unsloth_compiled_cache
+outputs/
