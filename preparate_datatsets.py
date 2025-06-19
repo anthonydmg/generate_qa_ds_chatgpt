@@ -46,6 +46,27 @@ def format_contextualize_questions(conv_dataset):
                     })
     return contextualize_questions_dataset
 
+def format_conv_to_turns_examples(conv_dataset):
+    turns_data = []
+    for conv in conv_dataset:
+        conv_id = conv["id"]
+        messages = conv["messages"]
+        for index, m in enumerate(messages):
+            if m["role"] == "user":
+                conversation = [{"role": m["role"], "content": m["content"]} for m in messages[0:index]]
+                user_message = m["content"]
+                expected_response = messages[index + 1]["content"]
+                conversation.append({"role": "user",  "content": user_message})
+                conversation.append({"role": "assistant",  "content": expected_response})
+                retrieved_texts =  m["recovered_texts"]
+               
+                turns_data.append({
+                    "conv_id": conv_id,
+                    "turns": conversation,
+                    "retrieved_texts": retrieved_texts,
+                })
+    return turns_data
+
 def prepare_datasets(full_dataset):
     conv_dataset = load_json(full_dataset)
 
@@ -59,6 +80,8 @@ def prepare_datasets(full_dataset):
         save_json(dir_data, f"{name_set}_conversational_dataset", data)
         single_turn_dataset = format_conv_to_single_turn(data)
         save_json(dir_data, f"{name_set}_single_turn_dataset", single_turn_dataset)
+        turns_dataset = format_conv_to_turns_examples(data)
+        save_json(dir_data, f"{name_set}_turns_dataset", turns_dataset)
         contextualize_questions_dataset = format_contextualize_questions(data)
         save_json(dir_data, f"{name_set}_contextualize_questions_dataset", contextualize_questions_dataset)
 

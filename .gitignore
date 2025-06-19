@@ -157,3 +157,4 @@ conversational_faq/data_prev/*.json
 models/
 unsloth_compiled_cache
 outputs/
+conversational_faq/data/conversational_dataset.json:Zone.Identifier
