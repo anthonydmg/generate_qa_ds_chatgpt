@@ -3,7 +3,7 @@ from utils import load_json, save_json
 
 path_directory = "./conversational_faq" # conv_sim_faq_1_derived_20_to_29
 #files = glob(f"{path_directory}/conversations_simulated_*.json")
-files = glob(f"{path_directory}/openline-questions/conv_sim_derived_*.json") #+ glob(f"{path_directory}/openline-derived/conv_sim_faq_*.json")
+files = glob(f"{path_directory}/openline-questions-fixed/conv_sim_derived_*.json") #+ glob(f"{path_directory}/openline-derived/conv_sim_faq_*.json")
 files.sort()
 #files.sort(key= lambda name: int(name[:-5].split("_")[-1]))
 
@@ -21,6 +21,7 @@ for file_path in files:
                 "role": m["role"], 
                 "recovered_texts": m["recovered_texts"],
                 "content":m["content"],
+                "docs_range": m["docs_range"] if "docs_range" in m else None, 
                 #"need_context": m["need_context"] == True,
                 "reformulated_question": m["reformulated_question"]
                 } for m in conv["messages"]]

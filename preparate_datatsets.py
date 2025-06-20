@@ -59,11 +59,11 @@ def format_conv_to_turns_examples(conv_dataset):
                 conversation.append({"role": "user",  "content": user_message})
                 conversation.append({"role": "assistant",  "content": expected_response})
                 retrieved_texts =  m["recovered_texts"]
-               
                 turns_data.append({
                     "conv_id": conv_id,
                     "turns": conversation,
                     "retrieved_texts": retrieved_texts,
+                    "docs_range": m["docs_range"]
                 })
     return turns_data
 

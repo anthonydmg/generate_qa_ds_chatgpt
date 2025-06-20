@@ -388,7 +388,7 @@ Deberás responder a los mensajes asegurándote de cumplir con los siguientes cr
         information = self.join_info_texts(info_texts, token_budget)
         
         if additional_info is not None:
-            information = information + "\n" + additional_info
+            information = information + "\n\n" + additional_info
 
         self.contexts.append(information)
         
